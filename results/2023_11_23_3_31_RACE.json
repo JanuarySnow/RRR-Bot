@@ -1,0 +1,4643 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "Alan Montes",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "23",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 67,
+			"MaxPing": 77
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198106043075",
+				"GuidsList": [
+					"76561198106043075"
+				],
+				"Name": "Not SLAY40",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "40",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 36,
+			"MaxPing": 58
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "40",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 46,
+			"MaxPing": 508
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199562757940",
+				"GuidsList": [
+					"76561199562757940"
+				],
+				"Name": "Broadcast",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "44",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 38,
+			"MaxPing": 69
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "72",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 45,
+			"MaxPing": 107
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "white",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 46,
+			"MaxPing": 270
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "40",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 41,
+			"MaxPing": 63
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561199104389116",
+				"GuidsList": [
+					"76561199104389116"
+				],
+				"Name": "AlBot",
+				"Nation": "PRI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "73",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 89,
+			"MaxPing": 138
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199273022393",
+				"GuidsList": [
+					"76561199273022393"
+				],
+				"Name": "BOFA",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "60",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 53,
+			"MaxPing": 186
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "40",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 50,
+			"MaxPing": 87
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "73",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "23",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "03",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "12",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "21_Ikito",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "23",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "03",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "44",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "white",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "08",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "gokart125s",
+			"Restrictor": 0,
+			"Skin": "12",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 27.356937,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5855362,
+				"Y": -0.308001,
+				"Z": 0.010444833
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 96.66808,
+				"Y": -8.89451,
+				"Z": -439.45477
+			},
+			"Timestamp": 1700708801,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 15.255397,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.5639317,
+				"Y": -0.29143077,
+				"Z": 0.5955737
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 97.168335,
+				"Y": -8.949052,
+				"Z": -439.23944
+			},
+			"Timestamp": 1700708802,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 28.6165,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "Alan Montes",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.5828754,
+				"Y": -0.30799526,
+				"Z": 0.149412
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 122.6937,
+				"Y": -11.836986,
+				"Z": -423.83545
+			},
+			"Timestamp": 1700708802,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "Alan Montes",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 18.309826,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.40302148,
+				"Y": -0.007998218,
+				"Z": 0.7436496
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 123.00129,
+				"Y": -11.86281,
+				"Z": -423.31494
+			},
+			"Timestamp": 1700708803,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561199104389116",
+				"GuidsList": [
+					"76561199104389116"
+				],
+				"Name": "AlBot",
+				"Nation": "PRI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 70.8394,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.09310901,
+				"Y": -0.104555465,
+				"Z": -0.79806495
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 128.74939,
+				"Y": -12.883806,
+				"Z": -417.6614
+			},
+			"Timestamp": 1700708864,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 70.53928,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.52021337,
+				"Y": -0.105787605,
+				"Z": 0.7486941
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 128.9109,
+				"Y": -12.896687,
+				"Z": -417.74918
+			},
+			"Timestamp": 1700708865,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 71.13469,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561199104389116",
+				"GuidsList": [
+					"76561199104389116"
+				],
+				"Name": "AlBot",
+				"Nation": "PRI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.14315403,
+				"Y": -0.07274243,
+				"Z": 0.941664
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 128.50777,
+				"Y": -12.853575,
+				"Z": -417.59085
+			},
+			"Timestamp": 1700708867,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 65.772095,
+			"OtherCarId": 9,
+			"OtherDriver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5786695,
+				"Y": -0.12122741,
+				"Z": 0.11818038
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 129.69377,
+				"Y": -12.961526,
+				"Z": -416.78214
+			},
+			"Timestamp": 1700708867,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.469955,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.56866723,
+				"Y": -0.007998205,
+				"Z": -0.7090478
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 158.90208,
+				"Y": -15.448852,
+				"Z": -262.54745
+			},
+			"Timestamp": 1700708877,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 26.966652,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5674245,
+				"Y": -0.008000347,
+				"Z": 0.61530066
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 158.90437,
+				"Y": -15.389378,
+				"Z": -261.97086
+			},
+			"Timestamp": 1700708877,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 43.08259,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.5267699,
+				"Y": -0.2715608,
+				"Z": 0.7301368
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 159.2769,
+				"Y": -4.3531437,
+				"Z": -159.32495
+			},
+			"Timestamp": 1700708936,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 56.36841,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.29999226,
+				"Y": -0.008000055,
+				"Z": 0.9045397
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -42.210537,
+				"Y": -17.177423,
+				"Z": -311.76324
+			},
+			"Timestamp": 1700708956,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 35.34548,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5985585,
+				"Y": -0.007999629,
+				"Z": -0.66940856
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -237.31134,
+				"Y": -10.744334,
+				"Z": -268.67758
+			},
+			"Timestamp": 1700709127,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 22.195354,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5743406,
+				"Y": -0.007999623,
+				"Z": 0.59578043
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -345.7116,
+				"Y": -4.9412484,
+				"Z": -243.75189
+			},
+			"Timestamp": 1700709166,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 26.445827,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.574332,
+				"Y": -0.24044271,
+				"Z": 0.5957735
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 99.188,
+				"Y": -8.402916,
+				"Z": -183.22923
+			},
+			"Timestamp": 1700709216,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 19.1763,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.54727113,
+				"Y": -0.008000234,
+				"Z": 0.6239475
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -167.18541,
+				"Y": -13.320847,
+				"Z": -277.68832
+			},
+			"Timestamp": 1700709231,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 16.36292,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.4999992,
+				"Y": -0.26161492,
+				"Z": -0.7999986
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 99.88921,
+				"Y": -11.924363,
+				"Z": -218.48187
+			},
+			"Timestamp": 1700709286,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 22.871695,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.29998893,
+				"Y": -0.008001346,
+				"Z": 0.9045535
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 100.9185,
+				"Y": -13.715394,
+				"Z": -240.63817
+			},
+			"Timestamp": 1700709291,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.672287,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.58775115,
+				"Y": -0.30799952,
+				"Z": -0.10586211
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -362.31052,
+				"Y": -5.464931,
+				"Z": -229.83244
+			},
+			"Timestamp": 1700709326,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.529573,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.30000558,
+				"Y": -0.30800053,
+				"Z": 0.9045549
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -84.65796,
+				"Y": -8.715081,
+				"Z": -395.17947
+			},
+			"Timestamp": 1700709476,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.570742,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5957012,
+				"Y": -0.007998545,
+				"Z": -0.6672476
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -84.7778,
+				"Y": -8.827384,
+				"Z": -387.94016
+			},
+			"Timestamp": 1700709481,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 0.0071328157,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5985825,
+				"Y": -0.007999465,
+				"Z": -0.6694217
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -85.19442,
+				"Y": -8.834096,
+				"Z": -387.69516
+			},
+			"Timestamp": 1700709486,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 36.502907,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.57431954,
+				"Y": -0.008000502,
+				"Z": 0.5957715
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -95.287155,
+				"Y": -15.569543,
+				"Z": -302.70667
+			},
+			"Timestamp": 1700709675,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 5.708671,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.59302336,
+				"Y": -0.3080011,
+				"Z": -0.6459336
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 77.513016,
+				"Y": -17.579788,
+				"Z": -279.69098
+			},
+			"Timestamp": 1700709726,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 8.879766,
+			"OtherCarId": 6,
+			"OtherDriver": {
+				"Guid": "76561198093517126",
+				"GuidsList": [
+					"76561198093517126"
+				],
+				"Name": "Nino_Nakano",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.5598648,
+				"Y": -0.30702642,
+				"Z": 0.6029036
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 77.51722,
+				"Y": -17.577099,
+				"Z": -279.69058
+			},
+			"Timestamp": 1700709727,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 22.971443,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5804279,
+				"Y": -0.008000107,
+				"Z": 0.27762964
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 132.4032,
+				"Y": -2.5602138,
+				"Z": -134.80754
+			},
+			"Timestamp": 1700709848,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198106043075",
+				"GuidsList": [
+					"76561198106043075"
+				],
+				"Name": "Not SLAY40",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.1883802,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.5670957,
+				"Y": -0.28168532,
+				"Z": 0.5932165
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 173.45625,
+				"Y": -14.690893,
+				"Z": -252.83107
+			},
+			"Timestamp": 1700710069,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.37833,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.30000064,
+				"Y": -0.29607883,
+				"Z": 0.9045506
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 162.88092,
+				"Y": -13.9577,
+				"Z": -247.57974
+			},
+			"Timestamp": 1700710072,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 36.92389,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.54980713,
+				"Y": -0.29903996,
+				"Z": 0.5871002
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 162.85004,
+				"Y": -13.987677,
+				"Z": -247.83807
+			},
+			"Timestamp": 1700710073,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 23.901995,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.59856623,
+				"Y": -0.007999947,
+				"Z": -0.66941476
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 166.04791,
+				"Y": -11.5327015,
+				"Z": -226.3546
+			},
+			"Timestamp": 1700710073,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198106043075",
+				"GuidsList": [
+					"76561198106043075"
+				],
+				"Name": "Not SLAY40",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 19.166136,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.1531437,
+				"Y": -0.22826138,
+				"Z": 0.93930334
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 97.773796,
+				"Y": -21.250942,
+				"Z": -319.67554
+			},
+			"Timestamp": 1700710079,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 30.069551,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.29314625,
+				"Y": -0.29772475,
+				"Z": 0.9061737
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -29.219389,
+				"Y": -18.052435,
+				"Z": -313.5572
+			},
+			"Timestamp": 1700710091,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 84.25311,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.09732699,
+				"Y": -0.30333862,
+				"Z": 0.9267156
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 152.2715,
+				"Y": -7.0825315,
+				"Z": -185.5191
+			},
+			"Timestamp": 1700710097,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 83.174904,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198047002406",
+				"GuidsList": [
+					"76561198047002406"
+				],
+				"Name": "Tommy boy",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5985828,
+				"Y": -0.30800092,
+				"Z": -0.6694084
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 152.17628,
+				"Y": -7.0721345,
+				"Z": -185.42233
+			},
+			"Timestamp": 1700710098,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 174.2996,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5981879,
+				"Y": -0.008000296,
+				"Z": -0.6490679
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 160.39459,
+				"Y": -11.426668,
+				"Z": -226.4359
+			},
+			"Timestamp": 1700710098,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 184.89906,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.103469186,
+				"Y": -0.1028121,
+				"Z": 0.88659865
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 160.65039,
+				"Y": -11.418712,
+				"Z": -226.32278
+			},
+			"Timestamp": 1700710100,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 21.146208,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.50000405,
+				"Y": -0.008000803,
+				"Z": -0.7999965
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 166.33562,
+				"Y": -10.677674,
+				"Z": -228.39015
+			},
+			"Timestamp": 1700710100,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561199273022393",
+			"DriverName": "BOFA",
+			"LapTime": 63519,
+			"Restrictor": 0,
+			"Sectors": [
+				39542,
+				23977
+			],
+			"Timestamp": 1700708853,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561199104389116",
+			"DriverName": "AlBot",
+			"LapTime": 63523,
+			"Restrictor": 0,
+			"Sectors": [
+				38903,
+				24620
+			],
+			"Timestamp": 1700708853,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 64621,
+			"Restrictor": 0,
+			"Sectors": [
+				40883,
+				23738
+			],
+			"Timestamp": 1700708855,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 64984,
+			"Restrictor": 0,
+			"Sectors": [
+				40607,
+				24377
+			],
+			"Timestamp": 1700708855,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 67636,
+			"Restrictor": 0,
+			"Sectors": [
+				42810,
+				24826
+			],
+			"Timestamp": 1700708858,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 67788,
+			"Restrictor": 0,
+			"Sectors": [
+				40886,
+				26902
+			],
+			"Timestamp": 1700708858,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 69597,
+			"Restrictor": 0,
+			"Sectors": [
+				45494,
+				24103
+			],
+			"Timestamp": 1700708860,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 74503,
+			"Restrictor": 0,
+			"Sectors": [
+				46657,
+				27846
+			],
+			"Timestamp": 1700708864,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561199273022393",
+			"DriverName": "BOFA",
+			"LapTime": 58545,
+			"Restrictor": 0,
+			"Sectors": [
+				34164,
+				24381
+			],
+			"Timestamp": 1700708912,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 57838,
+			"Restrictor": 0,
+			"Sectors": [
+				33529,
+				24309
+			],
+			"Timestamp": 1700708916,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 57131,
+			"Restrictor": 0,
+			"Sectors": [
+				32643,
+				24488
+			],
+			"Timestamp": 1700708917,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 61269,
+			"Restrictor": 0,
+			"Sectors": [
+				33638,
+				27631
+			],
+			"Timestamp": 1700708919,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 63937,
+			"Restrictor": 0,
+			"Sectors": [
+				37383,
+				26554
+			],
+			"Timestamp": 1700708919,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56670,
+			"Restrictor": 0,
+			"Sectors": [
+				32707,
+				23963
+			],
+			"Timestamp": 1700708921,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 66565,
+			"Restrictor": 0,
+			"Sectors": [
+				43242,
+				23323
+			],
+			"Timestamp": 1700708921,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 138670,
+			"Restrictor": 0,
+			"Sectors": [
+				115333,
+				23337
+			],
+			"Timestamp": 1700708929,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55599,
+			"Restrictor": 0,
+			"Sectors": [
+				32041,
+				23558
+			],
+			"Timestamp": 1700708971,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56559,
+			"Restrictor": 0,
+			"Sectors": [
+				32232,
+				24327
+			],
+			"Timestamp": 1700708973,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561199273022393",
+			"DriverName": "BOFA",
+			"LapTime": 64916,
+			"Restrictor": 0,
+			"Sectors": [
+				40270,
+				24646
+			],
+			"Timestamp": 1700708977,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 56472,
+			"Restrictor": 0,
+			"Sectors": [
+				33022,
+				23450
+			],
+			"Timestamp": 1700708978,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56915,
+			"Restrictor": 0,
+			"Sectors": [
+				33200,
+				23715
+			],
+			"Timestamp": 1700708978,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54788,
+			"Restrictor": 0,
+			"Sectors": [
+				31524,
+				23264
+			],
+			"Timestamp": 1700708983,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 69188,
+			"Restrictor": 0,
+			"Sectors": [
+				38687,
+				30501
+			],
+			"Timestamp": 1700708988,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 71131,
+			"Restrictor": 0,
+			"Sectors": [
+				46143,
+				24988
+			],
+			"Timestamp": 1700708990,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55570,
+			"Restrictor": 0,
+			"Sectors": [
+				32022,
+				23548
+			],
+			"Timestamp": 1700709027,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56960,
+			"Restrictor": 0,
+			"Sectors": [
+				32422,
+				24538
+			],
+			"Timestamp": 1700709030,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55741,
+			"Restrictor": 0,
+			"Sectors": [
+				32350,
+				23391
+			],
+			"Timestamp": 1700709033,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56406,
+			"Restrictor": 0,
+			"Sectors": [
+				32618,
+				23788
+			],
+			"Timestamp": 1700709034,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561199273022393",
+			"DriverName": "BOFA",
+			"LapTime": 58727,
+			"Restrictor": 0,
+			"Sectors": [
+				33186,
+				25541
+			],
+			"Timestamp": 1700709036,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54452,
+			"Restrictor": 0,
+			"Sectors": [
+				31233,
+				23219
+			],
+			"Timestamp": 1700709038,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 57332,
+			"Restrictor": 0,
+			"Sectors": [
+				33109,
+				24223
+			],
+			"Timestamp": 1700709045,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 57700,
+			"Restrictor": 0,
+			"Sectors": [
+				33215,
+				24485
+			],
+			"Timestamp": 1700709048,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55405,
+			"Restrictor": 0,
+			"Sectors": [
+				31875,
+				23530
+			],
+			"Timestamp": 1700709082,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56270,
+			"Restrictor": 0,
+			"Sectors": [
+				31966,
+				24304
+			],
+			"Timestamp": 1700709086,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55040,
+			"Restrictor": 0,
+			"Sectors": [
+				31726,
+				23314
+			],
+			"Timestamp": 1700709088,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56834,
+			"Restrictor": 0,
+			"Sectors": [
+				33489,
+				23345
+			],
+			"Timestamp": 1700709091,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54659,
+			"Restrictor": 0,
+			"Sectors": [
+				31408,
+				23251
+			],
+			"Timestamp": 1700709092,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 62029,
+			"Restrictor": 0,
+			"Sectors": [
+				33580,
+				28449
+			],
+			"Timestamp": 1700709110,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55625,
+			"Restrictor": 0,
+			"Sectors": [
+				32167,
+				23458
+			],
+			"Timestamp": 1700709138,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56253,
+			"Restrictor": 0,
+			"Sectors": [
+				32105,
+				24148
+			],
+			"Timestamp": 1700709143,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55375,
+			"Restrictor": 0,
+			"Sectors": [
+				31867,
+				23508
+			],
+			"Timestamp": 1700709144,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 55060,
+			"Restrictor": 0,
+			"Sectors": [
+				31143,
+				23917
+			],
+			"Timestamp": 1700709148,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 58133,
+			"Restrictor": 0,
+			"Sectors": [
+				31903,
+				26230
+			],
+			"Timestamp": 1700709149,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 74602,
+			"Restrictor": 0,
+			"Sectors": [
+				33747,
+				40855
+			],
+			"Timestamp": 1700709184,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55452,
+			"Restrictor": 0,
+			"Sectors": [
+				32007,
+				23445
+			],
+			"Timestamp": 1700709193,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56322,
+			"Restrictor": 0,
+			"Sectors": [
+				32093,
+				24229
+			],
+			"Timestamp": 1700709199,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 57209,
+			"Restrictor": 0,
+			"Sectors": [
+				32932,
+				24277
+			],
+			"Timestamp": 1700709201,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54226,
+			"Restrictor": 0,
+			"Sectors": [
+				31118,
+				23108
+			],
+			"Timestamp": 1700709202,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 59510,
+			"Restrictor": 0,
+			"Sectors": [
+				35890,
+				23620
+			],
+			"Timestamp": 1700709209,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 56065,
+			"Restrictor": 0,
+			"Sectors": [
+				32472,
+				23593
+			],
+			"Timestamp": 1700709249,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56457,
+			"Restrictor": 0,
+			"Sectors": [
+				32179,
+				24278
+			],
+			"Timestamp": 1700709255,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55411,
+			"Restrictor": 0,
+			"Sectors": [
+				31606,
+				23805
+			],
+			"Timestamp": 1700709256,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54708,
+			"Restrictor": 0,
+			"Sectors": [
+				31299,
+				23409
+			],
+			"Timestamp": 1700709256,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 76929,
+			"Restrictor": 0,
+			"Sectors": [
+				45946,
+				30983
+			],
+			"Timestamp": 1700709261,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 55892,
+			"Restrictor": 0,
+			"Sectors": [
+				32182,
+				23710
+			],
+			"Timestamp": 1700709265,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 57318,
+			"Restrictor": 0,
+			"Sectors": [
+				32104,
+				25214
+			],
+			"Timestamp": 1700709307,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 55228,
+			"Restrictor": 0,
+			"Sectors": [
+				31788,
+				23440
+			],
+			"Timestamp": 1700709312,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56344,
+			"Restrictor": 0,
+			"Sectors": [
+				32390,
+				23954
+			],
+			"Timestamp": 1700709312,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55509,
+			"Restrictor": 0,
+			"Sectors": [
+				32167,
+				23342
+			],
+			"Timestamp": 1700709312,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56203,
+			"Restrictor": 0,
+			"Sectors": [
+				32470,
+				23733
+			],
+			"Timestamp": 1700709321,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 57383,
+			"Restrictor": 0,
+			"Sectors": [
+				33462,
+				23921
+			],
+			"Timestamp": 1700709364,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 55189,
+			"Restrictor": 0,
+			"Sectors": [
+				31870,
+				23319
+			],
+			"Timestamp": 1700709367,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 56285,
+			"Restrictor": 0,
+			"Sectors": [
+				32615,
+				23670
+			],
+			"Timestamp": 1700709368,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 57399,
+			"Restrictor": 0,
+			"Sectors": [
+				33310,
+				24089
+			],
+			"Timestamp": 1700709369,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 57142,
+			"Restrictor": 0,
+			"Sectors": [
+				32689,
+				24453
+			],
+			"Timestamp": 1700709378,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55807,
+			"Restrictor": 0,
+			"Sectors": [
+				32016,
+				23791
+			],
+			"Timestamp": 1700709420,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54897,
+			"Restrictor": 0,
+			"Sectors": [
+				31604,
+				23293
+			],
+			"Timestamp": 1700709422,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55713,
+			"Restrictor": 0,
+			"Sectors": [
+				32105,
+				23608
+			],
+			"Timestamp": 1700709424,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56159,
+			"Restrictor": 0,
+			"Sectors": [
+				31949,
+				24210
+			],
+			"Timestamp": 1700709425,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 57565,
+			"Restrictor": 0,
+			"Sectors": [
+				33566,
+				23999
+			],
+			"Timestamp": 1700709436,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 209429,
+			"Restrictor": 0,
+			"Sectors": [
+				44198,
+				165231
+			],
+			"Timestamp": 1700709471,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 56093,
+			"Restrictor": 0,
+			"Sectors": [
+				32244,
+				23849
+			],
+			"Timestamp": 1700709476,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54405,
+			"Restrictor": 0,
+			"Sectors": [
+				31193,
+				23212
+			],
+			"Timestamp": 1700709476,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55881,
+			"Restrictor": 0,
+			"Sectors": [
+				32296,
+				23585
+			],
+			"Timestamp": 1700709480,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 55915,
+			"Restrictor": 0,
+			"Sectors": [
+				31835,
+				24080
+			],
+			"Timestamp": 1700709481,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 57389,
+			"Restrictor": 0,
+			"Sectors": [
+				33593,
+				23796
+			],
+			"Timestamp": 1700709493,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54666,
+			"Restrictor": 0,
+			"Sectors": [
+				31319,
+				23347
+			],
+			"Timestamp": 1700709531,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55996,
+			"Restrictor": 0,
+			"Sectors": [
+				32069,
+				23927
+			],
+			"Timestamp": 1700709532,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55431,
+			"Restrictor": 0,
+			"Sectors": [
+				31994,
+				23437
+			],
+			"Timestamp": 1700709535,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 66074,
+			"Restrictor": 0,
+			"Sectors": [
+				32028,
+				34046
+			],
+			"Timestamp": 1700709547,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 55631,
+			"Restrictor": 0,
+			"Sectors": [
+				31822,
+				23809
+			],
+			"Timestamp": 1700709549,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 93976,
+			"Restrictor": 0,
+			"Sectors": [
+				50970,
+				43006
+			],
+			"Timestamp": 1700709565,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54585,
+			"Restrictor": 0,
+			"Sectors": [
+				31355,
+				23230
+			],
+			"Timestamp": 1700709585,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 56067,
+			"Restrictor": 0,
+			"Sectors": [
+				32190,
+				23877
+			],
+			"Timestamp": 1700709588,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55543,
+			"Restrictor": 0,
+			"Sectors": [
+				31949,
+				23594
+			],
+			"Timestamp": 1700709591,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56000,
+			"Restrictor": 0,
+			"Sectors": [
+				32389,
+				23611
+			],
+			"Timestamp": 1700709605,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 61774,
+			"Restrictor": 0,
+			"Sectors": [
+				37433,
+				24341
+			],
+			"Timestamp": 1700709609,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 67019,
+			"Restrictor": 0,
+			"Sectors": [
+				40974,
+				26045
+			],
+			"Timestamp": 1700709632,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54571,
+			"Restrictor": 0,
+			"Sectors": [
+				31292,
+				23279
+			],
+			"Timestamp": 1700709640,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55737,
+			"Restrictor": 0,
+			"Sectors": [
+				31959,
+				23778
+			],
+			"Timestamp": 1700709644,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 56354,
+			"Restrictor": 0,
+			"Sectors": [
+				32005,
+				24349
+			],
+			"Timestamp": 1700709647,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56383,
+			"Restrictor": 0,
+			"Sectors": [
+				32214,
+				24169
+			],
+			"Timestamp": 1700709661,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 55954,
+			"Restrictor": 0,
+			"Sectors": [
+				31568,
+				24386
+			],
+			"Timestamp": 1700709665,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 57421,
+			"Restrictor": 0,
+			"Sectors": [
+				33153,
+				24268
+			],
+			"Timestamp": 1700709697,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55836,
+			"Restrictor": 0,
+			"Sectors": [
+				31833,
+				24003
+			],
+			"Timestamp": 1700709700,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 68979,
+			"Restrictor": 0,
+			"Sectors": [
+				34990,
+				33989
+			],
+			"Timestamp": 1700709701,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55523,
+			"Restrictor": 0,
+			"Sectors": [
+				32006,
+				23517
+			],
+			"Timestamp": 1700709703,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 55963,
+			"Restrictor": 0,
+			"Sectors": [
+				32149,
+				23814
+			],
+			"Timestamp": 1700709717,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56305,
+			"Restrictor": 0,
+			"Sectors": [
+				31947,
+				24358
+			],
+			"Timestamp": 1700709721,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 55491,
+			"Restrictor": 0,
+			"Sectors": [
+				32036,
+				23455
+			],
+			"Timestamp": 1700709753,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 56141,
+			"Restrictor": 0,
+			"Sectors": [
+				32354,
+				23787
+			],
+			"Timestamp": 1700709756,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 56878,
+			"Restrictor": 0,
+			"Sectors": [
+				33131,
+				23747
+			],
+			"Timestamp": 1700709759,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 61501,
+			"Restrictor": 0,
+			"Sectors": [
+				36535,
+				24966
+			],
+			"Timestamp": 1700709762,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 57282,
+			"Restrictor": 0,
+			"Sectors": [
+				33125,
+				24157
+			],
+			"Timestamp": 1700709774,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56003,
+			"Restrictor": 0,
+			"Sectors": [
+				31852,
+				24151
+			],
+			"Timestamp": 1700709777,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54634,
+			"Restrictor": 0,
+			"Sectors": [
+				31373,
+				23261
+			],
+			"Timestamp": 1700709808,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55942,
+			"Restrictor": 0,
+			"Sectors": [
+				32254,
+				23688
+			],
+			"Timestamp": 1700709812,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55427,
+			"Restrictor": 0,
+			"Sectors": [
+				31861,
+				23566
+			],
+			"Timestamp": 1700709815,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 63383,
+			"Restrictor": 0,
+			"Sectors": [
+				34043,
+				29340
+			],
+			"Timestamp": 1700709826,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 784730,
+			"Restrictor": 0,
+			"Sectors": [
+				751440,
+				33290
+			],
+			"Timestamp": 1700709830,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56232,
+			"Restrictor": 0,
+			"Sectors": [
+				32390,
+				23842
+			],
+			"Timestamp": 1700709831,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56225,
+			"Restrictor": 0,
+			"Sectors": [
+				31890,
+				24335
+			],
+			"Timestamp": 1700709834,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 55302,
+			"Restrictor": 0,
+			"Sectors": [
+				31384,
+				23918
+			],
+			"Timestamp": 1700709863,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 56075,
+			"Restrictor": 0,
+			"Sectors": [
+				32523,
+				23552
+			],
+			"Timestamp": 1700709868,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 56387,
+			"Restrictor": 0,
+			"Sectors": [
+				32564,
+				23823
+			],
+			"Timestamp": 1700709871,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56583,
+			"Restrictor": 0,
+			"Sectors": [
+				33178,
+				23405
+			],
+			"Timestamp": 1700709887,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 57850,
+			"Restrictor": 0,
+			"Sectors": [
+				33226,
+				24624
+			],
+			"Timestamp": 1700709888,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 55875,
+			"Restrictor": 0,
+			"Sectors": [
+				31768,
+				24107
+			],
+			"Timestamp": 1700709890,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 65468,
+			"Restrictor": 0,
+			"Sectors": [
+				34680,
+				30788
+			],
+			"Timestamp": 1700709891,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54899,
+			"Restrictor": 0,
+			"Sectors": [
+				31612,
+				23287
+			],
+			"Timestamp": 1700709918,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55924,
+			"Restrictor": 0,
+			"Sectors": [
+				32272,
+				23652
+			],
+			"Timestamp": 1700709924,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55843,
+			"Restrictor": 0,
+			"Sectors": [
+				32209,
+				23634
+			],
+			"Timestamp": 1700709927,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 55886,
+			"Restrictor": 0,
+			"Sectors": [
+				32320,
+				23566
+			],
+			"Timestamp": 1700709944,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56938,
+			"Restrictor": 0,
+			"Sectors": [
+				31558,
+				25380
+			],
+			"Timestamp": 1700709944,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56204,
+			"Restrictor": 0,
+			"Sectors": [
+				32012,
+				24192
+			],
+			"Timestamp": 1700709946,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 68268,
+			"Restrictor": 0,
+			"Sectors": [
+				33212,
+				35056
+			],
+			"Timestamp": 1700709959,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54601,
+			"Restrictor": 0,
+			"Sectors": [
+				31484,
+				23117
+			],
+			"Timestamp": 1700709972,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55725,
+			"Restrictor": 0,
+			"Sectors": [
+				32189,
+				23536
+			],
+			"Timestamp": 1700709979,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55346,
+			"Restrictor": 0,
+			"Sectors": [
+				31942,
+				23404
+			],
+			"Timestamp": 1700709982,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 55958,
+			"Restrictor": 0,
+			"Sectors": [
+				32028,
+				23930
+			],
+			"Timestamp": 1700710000,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 1,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 58016,
+			"Restrictor": 0,
+			"Sectors": [
+				33635,
+				24381
+			],
+			"Timestamp": 1700710002,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 56158,
+			"Restrictor": 0,
+			"Sectors": [
+				31980,
+				24178
+			],
+			"Timestamp": 1700710002,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 66951,
+			"Restrictor": 0,
+			"Sectors": [
+				32859,
+				34092
+			],
+			"Timestamp": 1700710026,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 54892,
+			"Restrictor": 0,
+			"Sectors": [
+				31497,
+				23395
+			],
+			"Timestamp": 1700710027,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"LapTime": 55692,
+			"Restrictor": 0,
+			"Sectors": [
+				32238,
+				23454
+			],
+			"Timestamp": 1700710035,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"LapTime": 55487,
+			"Restrictor": 0,
+			"Sectors": [
+				31912,
+				23575
+			],
+			"Timestamp": 1700710038,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 56698,
+			"Restrictor": 0,
+			"Sectors": [
+				32439,
+				24259
+			],
+			"Timestamp": 1700710057,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 56401,
+			"Restrictor": 0,
+			"Sectors": [
+				32551,
+				23850
+			],
+			"Timestamp": 1700710058,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"LapTime": 65566,
+			"Restrictor": 0,
+			"Sectors": [
+				32275,
+				33291
+			],
+			"Timestamp": 1700710067,
+			"Tyre": "H",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 55860,
+			"Restrictor": 0,
+			"Sectors": [
+				32064,
+				23796
+			],
+			"Timestamp": 1700710083,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"Cuts": 0,
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"LapTime": 58886,
+			"Restrictor": 0,
+			"Sectors": [
+				34398,
+				24488
+			],
+			"Timestamp": 1700710085,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 55405,
+			"CarId": 1,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561198106043075",
+			"DriverName": "Not SLAY40",
+			"Restrictor": 0,
+			"TotalTime": 1245712,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 55040,
+			"CarId": 4,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561198047002406",
+			"DriverName": "Tommy boy",
+			"Restrictor": 0,
+			"TotalTime": 1248647,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 55631,
+			"CarId": 2,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"Restrictor": 0,
+			"TotalTime": 1267433,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 55875,
+			"CarId": 0,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561198416337099",
+			"DriverName": "Alan Montes",
+			"Restrictor": 0,
+			"TotalTime": 1278103,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 54226,
+			"CarId": 5,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"Restrictor": 0,
+			"TotalTime": 1293811,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 57700,
+			"CarId": 6,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561198093517126",
+			"DriverName": "Nino_Nakano",
+			"Restrictor": 0,
+			"TotalTime": 1295767,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 8
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 55886,
+			"CarId": 9,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"Restrictor": 0,
+			"TotalTime": 1268892,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 10
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 58545,
+			"CarId": 8,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561199273022393",
+			"DriverName": "BOFA",
+			"Restrictor": 0,
+			"TotalTime": 246274,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 7
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 63523,
+			"CarId": 7,
+			"CarModel": "gokart125s",
+			"DriverGuid": "76561199104389116",
+			"DriverName": "AlBot",
+			"Restrictor": 0,
+			"TotalTime": 64123,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 6
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "indy",
+	"TrackName": "ks_brands_hatch",
+	"Type": "RACE",
+	"Date": "2023-11-23T03:31:00Z",
+	"SessionFile": "2023_11_23_3_31_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "25147dbb-c8bc-4efa-90e6-76bb88d92a7c",
+	"RaceWeekendID": ""
+}

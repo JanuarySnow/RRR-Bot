@@ -1,0 +1,1612 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198864224236",
+				"GuidsList": [
+					"76561198864224236"
+				],
+				"Name": "Paul West",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "01_cup_07",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "12_cup_62",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 136,
+			"MaxPing": 203
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "09_cup_58",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 113,
+			"MaxPing": 283
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199208661282",
+				"GuidsList": [
+					"76561199208661282"
+				],
+				"Name": "Oli Morris",
+				"Nation": "GBR",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "17_arisoil_72",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 105,
+			"MaxPing": 494
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198916309068",
+				"GuidsList": [
+					"76561198916309068"
+				],
+				"Name": "Vesunex",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "02_cup_23",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 155,
+			"MaxPing": 207
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199099992032",
+				"GuidsList": [
+					"76561199099992032"
+				],
+				"Name": "Carlife",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 13.165075,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198916309068",
+				"GuidsList": [
+					"76561198916309068"
+				],
+				"Name": "Vesunex",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.7946636,
+				"Y": -0.2476836,
+				"Z": 1.4704195
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 653.92914,
+				"Y": 2.346343,
+				"Z": -48.73029
+			},
+			"Timestamp": 1688414961,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198916309068",
+				"GuidsList": [
+					"76561198916309068"
+				],
+				"Name": "Vesunex",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 25.861797,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8325639,
+				"Y": 0.03852635,
+				"Z": -0.30538705
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 653.9838,
+				"Y": 2.69549,
+				"Z": -49.04119
+			},
+			"Timestamp": 1688414961,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198916309068",
+				"GuidsList": [
+					"76561198916309068"
+				],
+				"Name": "Vesunex",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 31.653667,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": -0.49044022,
+				"Y": 0.059222117,
+				"Z": 1.7962953
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 669.04407,
+				"Y": 2.8951592,
+				"Z": -15.35766
+			},
+			"Timestamp": 1688414961,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 3.5225892,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": -0.9597063,
+				"Y": 0.42660585,
+				"Z": -0.12992121
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -27.534378,
+				"Y": 0.70176345,
+				"Z": 885.34937
+			},
+			"Timestamp": 1688415201,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199208661282",
+				"GuidsList": [
+					"76561199208661282"
+				],
+				"Name": "Oli Morris",
+				"Nation": "GBR",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 16.769297,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": 0.8585024,
+				"Y": 0.09678826,
+				"Z": 1.4342134
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -504.33875,
+				"Y": -6.4439917,
+				"Z": 384.01498
+			},
+			"Timestamp": 1688415322,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199208661282",
+				"GuidsList": [
+					"76561199208661282"
+				],
+				"Name": "Oli Morris",
+				"Nation": "GBR",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 20.050964,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": 0.8584747,
+				"Y": 0.0967896,
+				"Z": 1.434206
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -458.80658,
+				"Y": -6.497403,
+				"Z": 317.2553
+			},
+			"Timestamp": 1688415327,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199208661282",
+				"GuidsList": [
+					"76561199208661282"
+				],
+				"Name": "Oli Morris",
+				"Nation": "GBR",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 85.39427,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": -0.84255254,
+				"Y": 0.09581809,
+				"Z": 1.4386772
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 374.19217,
+				"Y": 2.0306218,
+				"Z": -850.776
+			},
+			"Timestamp": 1688415377,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199208661282",
+				"GuidsList": [
+					"76561199208661282"
+				],
+				"Name": "Oli Morris",
+				"Nation": "GBR",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 3.7572212,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": -0.85849184,
+				"Y": 0.096788675,
+				"Z": 1.4342331
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 367.8156,
+				"Y": 2.008965,
+				"Z": -856.4489
+			},
+			"Timestamp": 1688415482,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 0.9775978,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": -0.95966107,
+				"Y": 0.4266066,
+				"Z": -0.12993807
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 362.4687,
+				"Y": 2.31305,
+				"Z": -860.33856
+			},
+			"Timestamp": 1688415676,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 5.684233,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": -0.8584723,
+				"Y": 0.096789494,
+				"Z": 1.4342202
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 359.09476,
+				"Y": 1.9772576,
+				"Z": -862.4711
+			},
+			"Timestamp": 1688415781,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 0.9544475,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": -0.959663,
+				"Y": 0.42660657,
+				"Z": -0.12991402
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 360.8542,
+				"Y": 2.3137193,
+				"Z": -861.39
+			},
+			"Timestamp": 1688415986,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199208661282",
+				"GuidsList": [
+					"76561199208661282"
+				],
+				"Name": "Oli Morris",
+				"Nation": "GBR",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 21.43301,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f8a42d8e-3bd5-4612-861d-c678e334a4cd"
+			},
+			"RelPosition": {
+				"X": 0.85848516,
+				"Y": 0.09678927,
+				"Z": 1.4342238
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -448.0151,
+				"Y": -6.4264226,
+				"Z": 302.52054
+			},
+			"Timestamp": 1688416087,
+			"AfterSessionEnd": false
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 114101,
+			"Restrictor": 0,
+			"Sectors": [
+				50498,
+				39672,
+				23931
+			],
+			"Timestamp": 1688415032,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 115279,
+			"Restrictor": 0,
+			"Sectors": [
+				50087,
+				41248,
+				23944
+			],
+			"Timestamp": 1688415033,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 117588,
+			"Restrictor": 0,
+			"Sectors": [
+				53147,
+				40518,
+				23923
+			],
+			"Timestamp": 1688415035,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 131040,
+			"Restrictor": 0,
+			"Sectors": [
+				66564,
+				40522,
+				23954
+			],
+			"Timestamp": 1688415049,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 104943,
+			"Restrictor": 0,
+			"Sectors": [
+				42118,
+				38974,
+				23851
+			],
+			"Timestamp": 1688415137,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 105369,
+			"Restrictor": 0,
+			"Sectors": [
+				42053,
+				39452,
+				23864
+			],
+			"Timestamp": 1688415138,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 106217,
+			"Restrictor": 0,
+			"Sectors": [
+				42686,
+				39736,
+				23795
+			],
+			"Timestamp": 1688415142,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 106380,
+			"Restrictor": 0,
+			"Sectors": [
+				42696,
+				39662,
+				24022
+			],
+			"Timestamp": 1688415155,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 104994,
+			"Restrictor": 0,
+			"Sectors": [
+				42187,
+				39020,
+				23787
+			],
+			"Timestamp": 1688415242,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 106181,
+			"Restrictor": 0,
+			"Sectors": [
+				43127,
+				39209,
+				23845
+			],
+			"Timestamp": 1688415245,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 105672,
+			"Restrictor": 0,
+			"Sectors": [
+				41897,
+				39717,
+				24058
+			],
+			"Timestamp": 1688415247,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 111689,
+			"Restrictor": 0,
+			"Sectors": [
+				42984,
+				44496,
+				24209
+			],
+			"Timestamp": 1688415267,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 105003,
+			"Restrictor": 0,
+			"Sectors": [
+				42110,
+				39052,
+				23841
+			],
+			"Timestamp": 1688415347,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 105484,
+			"Restrictor": 0,
+			"Sectors": [
+				42245,
+				39394,
+				23845
+			],
+			"Timestamp": 1688415353,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 118469,
+			"Restrictor": 0,
+			"Sectors": [
+				42383,
+				47246,
+				28840
+			],
+			"Timestamp": 1688415363,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 106779,
+			"Restrictor": 0,
+			"Sectors": [
+				42973,
+				39892,
+				23914
+			],
+			"Timestamp": 1688415374,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 104786,
+			"Restrictor": 0,
+			"Sectors": [
+				41705,
+				39115,
+				23966
+			],
+			"Timestamp": 1688415452,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 106520,
+			"Restrictor": 0,
+			"Sectors": [
+				42819,
+				39698,
+				24003
+			],
+			"Timestamp": 1688415459,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 107233,
+			"Restrictor": 0,
+			"Sectors": [
+				43126,
+				39861,
+				24246
+			],
+			"Timestamp": 1688415470,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 106803,
+			"Restrictor": 0,
+			"Sectors": [
+				42309,
+				40319,
+				24175
+			],
+			"Timestamp": 1688415481,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 104884,
+			"Restrictor": 0,
+			"Sectors": [
+				42150,
+				38929,
+				23805
+			],
+			"Timestamp": 1688415557,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 111539,
+			"Restrictor": 0,
+			"Sectors": [
+				42487,
+				44496,
+				24556
+			],
+			"Timestamp": 1688415571,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 106466,
+			"Restrictor": 0,
+			"Sectors": [
+				42639,
+				39654,
+				24173
+			],
+			"Timestamp": 1688415577,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 106960,
+			"Restrictor": 0,
+			"Sectors": [
+				43353,
+				39671,
+				23936
+			],
+			"Timestamp": 1688415587,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 104792,
+			"Restrictor": 0,
+			"Sectors": [
+				41901,
+				39014,
+				23877
+			],
+			"Timestamp": 1688415661,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 110532,
+			"Restrictor": 0,
+			"Sectors": [
+				42721,
+				39866,
+				27945
+			],
+			"Timestamp": 1688415681,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 106032,
+			"Restrictor": 0,
+			"Sectors": [
+				42311,
+				39650,
+				24071
+			],
+			"Timestamp": 1688415683,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 107074,
+			"Restrictor": 0,
+			"Sectors": [
+				43012,
+				39825,
+				24237
+			],
+			"Timestamp": 1688415695,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 104569,
+			"Restrictor": 0,
+			"Sectors": [
+				41911,
+				38835,
+				23823
+			],
+			"Timestamp": 1688415766,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 106424,
+			"Restrictor": 0,
+			"Sectors": [
+				42615,
+				39761,
+				24048
+			],
+			"Timestamp": 1688415789,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 107213,
+			"Restrictor": 0,
+			"Sectors": [
+				43062,
+				40113,
+				24038
+			],
+			"Timestamp": 1688415802,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 168358,
+			"Restrictor": 0,
+			"Sectors": [
+				104147,
+				40149,
+				24062
+			],
+			"Timestamp": 1688415850,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 105166,
+			"Restrictor": 0,
+			"Sectors": [
+				41981,
+				39232,
+				23953
+			],
+			"Timestamp": 1688415871,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 108560,
+			"Restrictor": 0,
+			"Sectors": [
+				42662,
+				41207,
+				24691
+			],
+			"Timestamp": 1688415898,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 106981,
+			"Restrictor": 0,
+			"Sectors": [
+				43072,
+				39839,
+				24070
+			],
+			"Timestamp": 1688415909,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 106012,
+			"Restrictor": 0,
+			"Sectors": [
+				42445,
+				39686,
+				23881
+			],
+			"Timestamp": 1688415956,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 104387,
+			"Restrictor": 0,
+			"Sectors": [
+				41806,
+				38822,
+				23759
+			],
+			"Timestamp": 1688415975,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 105716,
+			"Restrictor": 0,
+			"Sectors": [
+				42154,
+				39623,
+				23939
+			],
+			"Timestamp": 1688416004,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 106867,
+			"Restrictor": 0,
+			"Sectors": [
+				42832,
+				40055,
+				23980
+			],
+			"Timestamp": 1688416016,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 106935,
+			"Restrictor": 0,
+			"Sectors": [
+				42557,
+				40267,
+				24111
+			],
+			"Timestamp": 1688416063,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 105455,
+			"Restrictor": 0,
+			"Sectors": [
+				41983,
+				39488,
+				23984
+			],
+			"Timestamp": 1688416081,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 108641,
+			"Restrictor": 0,
+			"Sectors": [
+				42622,
+				40518,
+				25501
+			],
+			"Timestamp": 1688416112,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 106998,
+			"Restrictor": 0,
+			"Sectors": [
+				42647,
+				40262,
+				24089
+			],
+			"Timestamp": 1688416123,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 105961,
+			"Restrictor": 0,
+			"Sectors": [
+				42417,
+				39595,
+				23949
+			],
+			"Timestamp": 1688416169,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 105348,
+			"Restrictor": 0,
+			"Sectors": [
+				42536,
+				39024,
+				23788
+			],
+			"Timestamp": 1688416186,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"LapTime": 106814,
+			"Restrictor": 0,
+			"Sectors": [
+				42869,
+				39879,
+				24066
+			],
+			"Timestamp": 1688416219,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"LapTime": 108711,
+			"Restrictor": 0,
+			"Sectors": [
+				43038,
+				41535,
+				24138
+			],
+			"Timestamp": 1688416231,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 106655,
+			"Restrictor": 0,
+			"Sectors": [
+				42688,
+				39964,
+				24003
+			],
+			"Timestamp": 1688416275,
+			"Tyre": "H",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 104387,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"Restrictor": 0,
+			"TotalTime": 1268331,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 105369,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561199208661282",
+			"DriverName": "Oli Morris",
+			"Restrictor": 0,
+			"TotalTime": 1301026,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 106380,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561198916309068",
+			"DriverName": "Vesunex",
+			"Restrictor": 0,
+			"TotalTime": 1313393,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 105484,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"Restrictor": 0,
+			"TotalTime": 1357332,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 2
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "",
+	"TrackName": "ks_silverstone1967",
+	"Type": "RACE",
+	"Date": "2023-07-03T20:32:00Z",
+	"SessionFile": "2023_7_3_20_32_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 1,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "1410b90a-853e-432b-9c30-3d8a90a39ebe",
+	"RaceWeekendID": ""
+}

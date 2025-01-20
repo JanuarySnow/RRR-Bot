@@ -1,0 +1,4912 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "TCR_2014_903",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 137,
+			"MaxPing": 204
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "00_racing_59",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 150,
+			"MaxPing": 220
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199230023715",
+				"GuidsList": [
+					"76561199230023715"
+				],
+				"Name": "ZeroToHero",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_audi_r8_lms_2016",
+			"Restrictor": 0,
+			"Skin": "06_racing_01",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 165,
+			"MaxPing": 183
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199506212849",
+				"GuidsList": [
+					"76561199506212849"
+				],
+				"Name": "CAM",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "Santander_488_GT3_grigio_ferro",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 59,
+			"MaxPing": 111
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_lamborghini_huracan_gt3",
+			"Restrictor": 0,
+			"Skin": "Racing_apricot",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "USA",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 95,
+			"MaxPing": 146
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mercedes_amg_gt3",
+			"Restrictor": 0,
+			"Skin": "073",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "gt3_92",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 142,
+			"MaxPing": 310
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_porsche_911_gt3_r_2016",
+			"Restrictor": 0,
+			"Skin": "Rexy",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 163,
+			"MaxPing": 571
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "0_bmw_motorsport_2013_black",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 137,
+			"MaxPing": 180
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_audi_r8_lms_2016",
+			"Restrictor": 0,
+			"Skin": "48_Cheesus",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "17_racing_499",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_lamborghini_huracan_gt3",
+			"Restrictor": 0,
+			"Skin": "Racing_Cinnabar",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_61",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 179,
+			"MaxPing": 180
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mercedes_amg_gt3",
+			"Restrictor": 0,
+			"Skin": "RRR-Sebastien_Beaulieu-1",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "gt3_92",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 123,
+			"MaxPing": 214
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_62",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 154,
+			"MaxPing": 183
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_porsche_911_gt3_r_2016",
+			"Restrictor": 0,
+			"Skin": "75_DUCKHAMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "Zac D",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_audi_r8_lms_2016",
+			"Restrictor": 0,
+			"Skin": "03_racing_04",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "03_racing_480",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 28.289505,
+			"OtherCarId": 16,
+			"OtherDriver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.97550744,
+				"Y": -0.06630513,
+				"Z": -2.252663
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 704.8829,
+				"Y": 5.9687085,
+				"Z": 570.7241
+			},
+			"Timestamp": 1718392198,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 18.669397,
+			"OtherCarId": 8,
+			"OtherDriver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.98164177,
+				"Y": 0.06036095,
+				"Z": -0.45479795
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 696.0031,
+				"Y": 5.980751,
+				"Z": 557.894
+			},
+			"Timestamp": 1718392198,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 17.299393,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.67210203,
+				"Y": -0.13303044,
+				"Z": 2.4105859
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 704.257,
+				"Y": 5.8525205,
+				"Z": 569.14044
+			},
+			"Timestamp": 1718392199,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 0.52183706,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0129113,
+				"Y": -0.24164867,
+				"Z": 1.8281552
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 694.7721,
+				"Y": 5.606809,
+				"Z": 556.053
+			},
+			"Timestamp": 1718392201,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.733086,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0037682,
+				"Y": -0.27966622,
+				"Z": 1.8463907
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 685.1232,
+				"Y": 5.4513707,
+				"Z": 548.1451
+			},
+			"Timestamp": 1718392201,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.7396216,
+			"OtherCarId": 16,
+			"OtherDriver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.82851547,
+				"Y": 0.19218609,
+				"Z": -2.4360588
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 704.8788,
+				"Y": 6.235636,
+				"Z": 570.17096
+			},
+			"Timestamp": 1718392203,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.2318563,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9950181,
+				"Y": -0.3305839,
+				"Z": 1.979176
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 681.4909,
+				"Y": 5.644779,
+				"Z": 530.23804
+			},
+			"Timestamp": 1718392203,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 42.555527,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.97253764,
+				"Y": -0.30597544,
+				"Z": 2.048976
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 660.0606,
+				"Y": 5.361425,
+				"Z": 525.99817
+			},
+			"Timestamp": 1718392203,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 44.78301,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8106732,
+				"Y": -0.30072555,
+				"Z": 2.372915
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 423.55286,
+				"Y": 5.2711806,
+				"Z": 572.6902
+			},
+			"Timestamp": 1718392209,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 22.844542,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0301589,
+				"Y": -0.30409887,
+				"Z": 1.8254285
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 341.9836,
+				"Y": -0.74224126,
+				"Z": 313.096
+			},
+			"Timestamp": 1718392220,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 50.611267,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9989693,
+				"Y": 0.63988954,
+				"Z": -2.1218007
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 647.1029,
+				"Y": 7.654486,
+				"Z": -295.3359
+			},
+			"Timestamp": 1718392276,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 17.064486,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0154359,
+				"Y": -0.22585742,
+				"Z": -1.6408021
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 605.6687,
+				"Y": 7.0904255,
+				"Z": -413.44324
+			},
+			"Timestamp": 1718392280,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.1737156,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.015432,
+				"Y": -0.22585726,
+				"Z": -1.6407968
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 862.2269,
+				"Y": 5.3883467,
+				"Z": 868.59766
+			},
+			"Timestamp": 1718392315,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 35.906734,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8488483,
+				"Y": -0.3062628,
+				"Z": 2.2534885
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 669.80237,
+				"Y": 5.473259,
+				"Z": 526.7272
+			},
+			"Timestamp": 1718392335,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 46.16658,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9903105,
+				"Y": -0.28487173,
+				"Z": 1.9813994
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 916.25305,
+				"Y": 5.604881,
+				"Z": 868.1523
+			},
+			"Timestamp": 1718392430,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 70.626144,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8309348,
+				"Y": -0.26488817,
+				"Z": 2.3364735
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 916.2524,
+				"Y": 5.6119947,
+				"Z": 868.1527
+			},
+			"Timestamp": 1718392431,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 45.058468,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.7214044,
+				"Y": -0.19561476,
+				"Z": 1.9712046
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 117.79267,
+				"Y": -0.47043455,
+				"Z": 283.07327
+			},
+			"Timestamp": 1718392468,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 54.183372,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.96077293,
+				"Y": 0.20059001,
+				"Z": 1.8968738
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 373.11743,
+				"Y": -3.3520575,
+				"Z": 166.27881
+			},
+			"Timestamp": 1718392480,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 42.07721,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0162365,
+				"Y": 0.70084745,
+				"Z": -2.5997558
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 359.93335,
+				"Y": 21.761824,
+				"Z": -99.919464
+			},
+			"Timestamp": 1718392489,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 43.316486,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9128148,
+				"Y": 0.14507656,
+				"Z": 2.020149
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 360.74408,
+				"Y": 20.912445,
+				"Z": -100.85775
+			},
+			"Timestamp": 1718392505,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 112.161835,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.03487542,
+				"Y": -0.29910636,
+				"Z": 2.550523
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 597.4695,
+				"Y": 7.225353,
+				"Z": -360.70306
+			},
+			"Timestamp": 1718392535,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.559074,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0087069,
+				"Y": -0.22324465,
+				"Z": -1.6385518
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 601.17944,
+				"Y": 7.2115464,
+				"Z": -400.519
+			},
+			"Timestamp": 1718392540,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 18.916092,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.81070125,
+				"Y": -0.30072364,
+				"Z": 2.3729234
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 618.2446,
+				"Y": 5.9671226,
+				"Z": -392.32773
+			},
+			"Timestamp": 1718392545,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 42.68488,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0290205,
+				"Y": -0.2991253,
+				"Z": 1.9912628
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 367.23828,
+				"Y": -4.257741,
+				"Z": 186.75502
+			},
+			"Timestamp": 1718392610,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 88.81092,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.84392947,
+				"Y": -0.32099155,
+				"Z": 1.838536
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 596.8847,
+				"Y": 7.1377254,
+				"Z": -368.7124
+			},
+			"Timestamp": 1718392648,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.695019,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0308694,
+				"Y": -0.31996363,
+				"Z": 1.5353476
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 921.4729,
+				"Y": 7.0477095,
+				"Z": 63.765045
+			},
+			"Timestamp": 1718392668,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 55.871876,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0260477,
+				"Y": -0.30052796,
+				"Z": 1.989076
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 683.77155,
+				"Y": 5.4174914,
+				"Z": 546.83997
+			},
+			"Timestamp": 1718392681,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 8.482716,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0315274,
+				"Y": -0.30190608,
+				"Z": 1.990848
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 915.2986,
+				"Y": 5.5615606,
+				"Z": 868.67645
+			},
+			"Timestamp": 1718392690,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 59.776142,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9928187,
+				"Y": -0.3038958,
+				"Z": 2.0357854
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 424.9796,
+				"Y": 10.100516,
+				"Z": -14.509077
+			},
+			"Timestamp": 1718392750,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 41.602673,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.54343647,
+				"Y": -0.28568488,
+				"Z": 2.5242114
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 455.31458,
+				"Y": 2.1012938,
+				"Z": 68.58265
+			},
+			"Timestamp": 1718392755,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 86.02483,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.93434197,
+				"Y": -0.3040639,
+				"Z": 2.13217
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 628.3483,
+				"Y": 3.8903475,
+				"Z": 168.77582
+			},
+			"Timestamp": 1718392775,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.604169,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0154773,
+				"Y": -0.22586073,
+				"Z": -1.6408082
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 754.7705,
+				"Y": 5.5688853,
+				"Z": 769.0763
+			},
+			"Timestamp": 1718392791,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 5.850731,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0314835,
+				"Y": -0.30190694,
+				"Z": 1.9908425
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 681.6973,
+				"Y": 5.400478,
+				"Z": 545.01514
+			},
+			"Timestamp": 1718392801,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 82.65383,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.924098,
+				"Y": 0.7082273,
+				"Z": -2.004642
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 147.27966,
+				"Y": -0.3512744,
+				"Z": 304.6317
+			},
+			"Timestamp": 1718392810,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 1.0084951,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.03152,
+				"Y": -0.30190665,
+				"Z": 1.9908303
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 137.54259,
+				"Y": -0.8852055,
+				"Z": 303.57895
+			},
+			"Timestamp": 1718392815,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 43.643707,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9866058,
+				"Y": 0.255771,
+				"Z": 1.9455516
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 656.9458,
+				"Y": 7.430728,
+				"Z": -274.4436
+			},
+			"Timestamp": 1718392888,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 109.02599,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9745023,
+				"Y": 0.21194558,
+				"Z": 1.8870647
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 628.57385,
+				"Y": 6.758534,
+				"Z": -330.27277
+			},
+			"Timestamp": 1718392900,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 8.413308,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0315166,
+				"Y": -0.30190757,
+				"Z": 1.9908348
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 598.4419,
+				"Y": 7.6516714,
+				"Z": -388.56375
+			},
+			"Timestamp": 1718392905,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.506026,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9919981,
+				"Y": 0.8314091,
+				"Z": -1.6999873
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 634.3746,
+				"Y": 7.522964,
+				"Z": -319.01892
+			},
+			"Timestamp": 1718392931,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 11.514408,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.99895924,
+				"Y": 0.6398908,
+				"Z": -2.1217816
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 605.7414,
+				"Y": 7.95353,
+				"Z": -413.58636
+			},
+			"Timestamp": 1718392936,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.190559,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0313123,
+				"Y": -0.30220863,
+				"Z": 1.9680283
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 917.9347,
+				"Y": 5.5939064,
+				"Z": 867.0632
+			},
+			"Timestamp": 1718392940,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.154314,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0314801,
+				"Y": -0.30190596,
+				"Z": 1.990838
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 856.098,
+				"Y": 5.300981,
+				"Z": 865.93445
+			},
+			"Timestamp": 1718392945,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 46.02912,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.95891714,
+				"Y": -0.15738982,
+				"Z": 2.0391998
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 688.369,
+				"Y": 5.573626,
+				"Z": 551.9724
+			},
+			"Timestamp": 1718392955,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.3131695,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0039204,
+				"Y": 0.35896263,
+				"Z": 1.7891117
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 681.96735,
+				"Y": 6.067449,
+				"Z": 545.23395
+			},
+			"Timestamp": 1718392981,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 65.59427,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.95344377,
+				"Y": -0.18518394,
+				"Z": 2.0208828
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 121.87264,
+				"Y": 11.519766,
+				"Z": 82.95642
+			},
+			"Timestamp": 1718392985,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 19.840162,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.99861366,
+				"Y": 0.7532583,
+				"Z": -2.0160658
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 921.72296,
+				"Y": 8.432877,
+				"Z": 164.97856
+			},
+			"Timestamp": 1718393011,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.129837,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.98827016,
+				"Y": 0.49504486,
+				"Z": -1.8052644
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 659.8723,
+				"Y": 6.2333636,
+				"Z": 540.4379
+			},
+			"Timestamp": 1718393015,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.235896,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0355695,
+				"Y": 0.97954357,
+				"Z": -2.612024
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 372.98303,
+				"Y": -2.5552468,
+				"Z": 167.25246
+			},
+			"Timestamp": 1718393084,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 19.45735,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9985803,
+				"Y": 0.75325733,
+				"Z": -2.0160527
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 566.61176,
+				"Y": 6.303235,
+				"Z": -60.895332
+			},
+			"Timestamp": 1718393085,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 60.81203,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5434331,
+				"Y": -0.2856845,
+				"Z": 2.524217
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 635.98303,
+				"Y": 6.1731024,
+				"Z": -141.91406
+			},
+			"Timestamp": 1718393090,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 94.42534,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0154043,
+				"Y": -0.29474783,
+				"Z": 1.8315058
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 764.2281,
+				"Y": 5.3256526,
+				"Z": 800.51166
+			},
+			"Timestamp": 1718393091,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 64.24068,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.99504006,
+				"Y": -0.33058274,
+				"Z": 1.979186
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 652.4128,
+				"Y": 6.7347546,
+				"Z": -284.82706
+			},
+			"Timestamp": 1718393133,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 83.47656,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.6795108,
+				"Y": -0.32393515,
+				"Z": 2.2946355
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 910.3618,
+				"Y": 5.7612224,
+				"Z": 883.52765
+			},
+			"Timestamp": 1718393140,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 38.626076,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0273801,
+				"Y": -0.2955322,
+				"Z": 1.9925386
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 878.5254,
+				"Y": 5.3563776,
+				"Z": 875.3376
+			},
+			"Timestamp": 1718393145,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 25.1865,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9964663,
+				"Y": -0.3305757,
+				"Z": 1.9456638
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 321.71414,
+				"Y": -3.9051886,
+				"Z": 223.21703
+			},
+			"Timestamp": 1718393223,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 26.687384,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0154554,
+				"Y": -0.2258575,
+				"Z": -1.6407887
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 283.6974,
+				"Y": -1.9935061,
+				"Z": 285.5209
+			},
+			"Timestamp": 1718393225,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 55.332024,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8949426,
+				"Y": -0.07038178,
+				"Z": 2.0589237
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 372.7296,
+				"Y": -3.6767302,
+				"Z": 168.89647
+			},
+			"Timestamp": 1718393245,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 49.391426,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.94200885,
+				"Y": -0.10086089,
+				"Z": 2.063444
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 444.04523,
+				"Y": 12.088321,
+				"Z": -46.04915
+			},
+			"Timestamp": 1718393260,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 12.783441,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.031515,
+				"Y": -0.30190653,
+				"Z": 1.990863
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 641.61554,
+				"Y": 5.3585787,
+				"Z": 527.3095
+			},
+			"Timestamp": 1718393276,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 11.574006,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0154262,
+				"Y": -0.22585683,
+				"Z": -1.6408156
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 642.0315,
+				"Y": 5.3913355,
+				"Z": 527.2113
+			},
+			"Timestamp": 1718393281,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 20.343925,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0062174,
+				"Y": 0.29119715,
+				"Z": -1.6383806
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 706.14484,
+				"Y": 7.8884134,
+				"Z": -474.72586
+			},
+			"Timestamp": 1718393290,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 12.974415,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.99897754,
+				"Y": 0.6398906,
+				"Z": -2.1218073
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 386.08954,
+				"Y": 22.07418,
+				"Z": -113.59991
+			},
+			"Timestamp": 1718393316,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.084206,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.99897367,
+				"Y": 0.6398903,
+				"Z": -2.12179
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 922.5861,
+				"Y": 8.307024,
+				"Z": 156.74098
+			},
+			"Timestamp": 1718393366,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 40.284557,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.96491814,
+				"Y": -0.30319673,
+				"Z": 2.0895538
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 368.26807,
+				"Y": -4.2754436,
+				"Z": 184.30157
+			},
+			"Timestamp": 1718393375,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.392498,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8445493,
+				"Y": -0.26219666,
+				"Z": 2.3442118
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 756.7271,
+				"Y": 5.3577414,
+				"Z": 729.9307
+			},
+			"Timestamp": 1718393396,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 12.125175,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8445232,
+				"Y": -0.2621963,
+				"Z": 2.3442407
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 284.09717,
+				"Y": -2.5143564,
+				"Z": 199.69434
+			},
+			"Timestamp": 1718393441,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 21.3061,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9986065,
+				"Y": 0.7532584,
+				"Z": -2.0160568
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 890.9986,
+				"Y": 6.51665,
+				"Z": 879.8219
+			},
+			"Timestamp": 1718393450,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 68.49054,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8062328,
+				"Y": -0.2661125,
+				"Z": 2.3381214
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 371.4731,
+				"Y": 20.998688,
+				"Z": -108.834015
+			},
+			"Timestamp": 1718393456,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561198329518888",
+				"GuidsList": [
+					"76561198329518888"
+				],
+				"Name": "Teo",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 87.46008,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.7117496,
+				"Y": -0.30703464,
+				"Z": 2.3697028
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 678.1268,
+				"Y": 5.6052923,
+				"Z": 528.7762
+			},
+			"Timestamp": 1718393460,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.916577,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0070735,
+				"Y": -0.33052257,
+				"Z": 1.698265
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 133.42061,
+				"Y": 10.878332,
+				"Z": 89.761154
+			},
+			"Timestamp": 1718393463,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 22.63289,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.99861234,
+				"Y": 0.753259,
+				"Z": -2.0160615
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 925.6377,
+				"Y": 8.443494,
+				"Z": 131.0383
+			},
+			"Timestamp": 1718393491,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 0.619737,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.0000042310653,
+				"Y": -0.26136374,
+				"Z": 2.5827608
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 736.74445,
+				"Y": 6.666656,
+				"Z": -165.93178
+			},
+			"Timestamp": 1718393506,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 65.02193,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0107578,
+				"Y": -0.25743634,
+				"Z": 2.0064893
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 785.983,
+				"Y": 5.2341433,
+				"Z": 817.4376
+			},
+			"Timestamp": 1718393511,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198149311099",
+				"GuidsList": [
+					"76561198149311099"
+				],
+				"Name": "vladb",
+				"Nation": "ROU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 28.2257,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.990291,
+				"Y": 0.23644379,
+				"Z": -0.8326625
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 761.5176,
+				"Y": 6.0266905,
+				"Z": 790.4864
+			},
+			"Timestamp": 1718393516,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198995194304",
+				"GuidsList": [
+					"76561198995194304"
+				],
+				"Name": "whiteesmith",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 48.518135,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.98068464,
+				"Y": -0.28547928,
+				"Z": -0.55285525
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 955.3157,
+				"Y": 5.196997,
+				"Z": 750.7179
+			},
+			"Timestamp": 1718393526,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 107.030205,
+			"OtherCarId": 15,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.68311197,
+				"Y": -0.2873082,
+				"Z": 2.425092
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 451.12454,
+				"Y": 5.3388543,
+				"Z": 596.5054
+			},
+			"Timestamp": 1718393539,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 104.44749,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.51374376,
+				"Y": -0.3336863,
+				"Z": 2.2116132
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 451.19955,
+				"Y": 5.339785,
+				"Z": 596.6072
+			},
+			"Timestamp": 1718393539,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.2290587,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0777204,
+				"Y": 0.34645608,
+				"Z": -1.5457685
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 878.04987,
+				"Y": 5.997963,
+				"Z": 875.15515
+			},
+			"Timestamp": 1718393543,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 8.0938,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9986047,
+				"Y": 0.75325835,
+				"Z": -2.0160701
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 415.5524,
+				"Y": 6.51258,
+				"Z": 602.1789
+			},
+			"Timestamp": 1718393544,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 27.686562,
+			"OtherCarId": 15,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0427023,
+				"Y": -0.3177966,
+				"Z": -1.4318659
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 455.60904,
+				"Y": 5.336029,
+				"Z": 591.8768
+			},
+			"Timestamp": 1718393563,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 31.902752,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0081728,
+				"Y": 0.7211994,
+				"Z": -2.5692902
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 460.4822,
+				"Y": 6.4260187,
+				"Z": 602.1788
+			},
+			"Timestamp": 1718393564,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 39.469517,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.7417202,
+				"Y": -0.30993232,
+				"Z": 2.1757545
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 456.00494,
+				"Y": 5.353051,
+				"Z": 591.73956
+			},
+			"Timestamp": 1718393564,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.886303,
+			"OtherCarId": 15,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0225307,
+				"Y": -0.28413245,
+				"Z": 0.9451133
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 451.3862,
+				"Y": 5.338679,
+				"Z": 592.6234
+			},
+			"Timestamp": 1718393568,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 3.175611,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.7474957,
+				"Y": -0.33388436,
+				"Z": 2.1889603
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 451.8238,
+				"Y": 5.3047233,
+				"Z": 593.492
+			},
+			"Timestamp": 1718393569,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 122882,
+			"Restrictor": 0,
+			"Sectors": [
+				32266,
+				53662,
+				36954
+			],
+			"Timestamp": 1718392315,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 123948,
+			"Restrictor": 0,
+			"Sectors": [
+				34011,
+				53648,
+				36289
+			],
+			"Timestamp": 1718392317,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 124980,
+			"Restrictor": 0,
+			"Sectors": [
+				32621,
+				54756,
+				37603
+			],
+			"Timestamp": 1718392318,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 125965,
+			"Restrictor": 0,
+			"Sectors": [
+				34377,
+				53631,
+				37957
+			],
+			"Timestamp": 1718392319,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 126163,
+			"Restrictor": 0,
+			"Sectors": [
+				34728,
+				54351,
+				37084
+			],
+			"Timestamp": 1718392319,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 128290,
+			"Restrictor": 0,
+			"Sectors": [
+				36904,
+				54419,
+				36967
+			],
+			"Timestamp": 1718392321,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"LapTime": 133644,
+			"Restrictor": 0,
+			"Sectors": [
+				40723,
+				55292,
+				37629
+			],
+			"Timestamp": 1718392326,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 118622,
+			"Restrictor": 0,
+			"Sectors": [
+				29388,
+				52928,
+				36306
+			],
+			"Timestamp": 1718392434,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 118917,
+			"Restrictor": 0,
+			"Sectors": [
+				29200,
+				53154,
+				36563
+			],
+			"Timestamp": 1718392435,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 120308,
+			"Restrictor": 0,
+			"Sectors": [
+				29800,
+				53892,
+				36616
+			],
+			"Timestamp": 1718392439,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 120858,
+			"Restrictor": 0,
+			"Sectors": [
+				30254,
+				53996,
+				36608
+			],
+			"Timestamp": 1718392440,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 123583,
+			"Restrictor": 0,
+			"Sectors": [
+				29258,
+				54014,
+				40311
+			],
+			"Timestamp": 1718392441,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 122369,
+			"Restrictor": 0,
+			"Sectors": [
+				31281,
+				54836,
+				36252
+			],
+			"Timestamp": 1718392443,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"LapTime": 123632,
+			"Restrictor": 0,
+			"Sectors": [
+				31050,
+				54679,
+				37903
+			],
+			"Timestamp": 1718392450,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 118654,
+			"Restrictor": 0,
+			"Sectors": [
+				29581,
+				53312,
+				35761
+			],
+			"Timestamp": 1718392553,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 119133,
+			"Restrictor": 0,
+			"Sectors": [
+				29105,
+				54374,
+				35654
+			],
+			"Timestamp": 1718392555,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 120698,
+			"Restrictor": 0,
+			"Sectors": [
+				29645,
+				54595,
+				36458
+			],
+			"Timestamp": 1718392560,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 124896,
+			"Restrictor": 0,
+			"Sectors": [
+				33905,
+				53996,
+				36995
+			],
+			"Timestamp": 1718392564,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 121390,
+			"Restrictor": 0,
+			"Sectors": [
+				30670,
+				53897,
+				36823
+			],
+			"Timestamp": 1718392565,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 169480,
+			"Restrictor": 0,
+			"Sectors": [
+				78629,
+				54608,
+				36243
+			],
+			"Timestamp": 1718392611,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 119075,
+			"Restrictor": 0,
+			"Sectors": [
+				30281,
+				52722,
+				36072
+			],
+			"Timestamp": 1718392672,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 118557,
+			"Restrictor": 0,
+			"Sectors": [
+				29083,
+				53050,
+				36424
+			],
+			"Timestamp": 1718392673,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 119612,
+			"Restrictor": 0,
+			"Sectors": [
+				29603,
+				53650,
+				36359
+			],
+			"Timestamp": 1718392680,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 121875,
+			"Restrictor": 0,
+			"Sectors": [
+				30363,
+				54409,
+				37103
+			],
+			"Timestamp": 1718392687,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"LapTime": 243957,
+			"Restrictor": 0,
+			"Sectors": [
+				147567,
+				56123,
+				40267
+			],
+			"Timestamp": 1718392694,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 132075,
+			"Restrictor": 0,
+			"Sectors": [
+				29812,
+				55026,
+				47237
+			],
+			"Timestamp": 1718392696,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 121038,
+			"Restrictor": 0,
+			"Sectors": [
+				30390,
+				54089,
+				36559
+			],
+			"Timestamp": 1718392732,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 119513,
+			"Restrictor": 0,
+			"Sectors": [
+				29910,
+				53252,
+				36351
+			],
+			"Timestamp": 1718392791,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 119043,
+			"Restrictor": 0,
+			"Sectors": [
+				29763,
+				53064,
+				36216
+			],
+			"Timestamp": 1718392792,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 119667,
+			"Restrictor": 0,
+			"Sectors": [
+				29617,
+				53753,
+				36297
+			],
+			"Timestamp": 1718392800,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 119772,
+			"Restrictor": 0,
+			"Sectors": [
+				30109,
+				53051,
+				36612
+			],
+			"Timestamp": 1718392806,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 119466,
+			"Restrictor": 0,
+			"Sectors": [
+				29312,
+				53883,
+				36271
+			],
+			"Timestamp": 1718392851,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 118807,
+			"Restrictor": 0,
+			"Sectors": [
+				29797,
+				52753,
+				36257
+			],
+			"Timestamp": 1718392910,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 118457,
+			"Restrictor": 0,
+			"Sectors": [
+				29398,
+				53131,
+				35928
+			],
+			"Timestamp": 1718392911,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 122030,
+			"Restrictor": 0,
+			"Sectors": [
+				30388,
+				54517,
+				37125
+			],
+			"Timestamp": 1718392922,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 125811,
+			"Restrictor": 0,
+			"Sectors": [
+				29978,
+				57070,
+				38763
+			],
+			"Timestamp": 1718392932,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"LapTime": 252729,
+			"Restrictor": 0,
+			"Sectors": [
+				154822,
+				57263,
+				40644
+			],
+			"Timestamp": 1718392947,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 121797,
+			"Restrictor": 0,
+			"Sectors": [
+				29398,
+				55211,
+				37188
+			],
+			"Timestamp": 1718392973,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 117987,
+			"Restrictor": 0,
+			"Sectors": [
+				29417,
+				52354,
+				36216
+			],
+			"Timestamp": 1718393028,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 120557,
+			"Restrictor": 0,
+			"Sectors": [
+				29406,
+				53415,
+				37736
+			],
+			"Timestamp": 1718393031,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 119689,
+			"Restrictor": 0,
+			"Sectors": [
+				29878,
+				53897,
+				35914
+			],
+			"Timestamp": 1718393041,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 122701,
+			"Restrictor": 0,
+			"Sectors": [
+				31481,
+				54671,
+				36549
+			],
+			"Timestamp": 1718393055,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 128344,
+			"Restrictor": 0,
+			"Sectors": [
+				29547,
+				54175,
+				44622
+			],
+			"Timestamp": 1718393101,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 119618,
+			"Restrictor": 0,
+			"Sectors": [
+				29717,
+				53564,
+				36337
+			],
+			"Timestamp": 1718393148,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 119586,
+			"Restrictor": 0,
+			"Sectors": [
+				29743,
+				53717,
+				36126
+			],
+			"Timestamp": 1718393151,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 119908,
+			"Restrictor": 0,
+			"Sectors": [
+				29593,
+				54238,
+				36077
+			],
+			"Timestamp": 1718393161,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 124003,
+			"Restrictor": 0,
+			"Sectors": [
+				30421,
+				55291,
+				38291
+			],
+			"Timestamp": 1718393179,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"LapTime": 250537,
+			"Restrictor": 0,
+			"Sectors": [
+				91651,
+				70249,
+				88637
+			],
+			"Timestamp": 1718393197,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 162257,
+			"Restrictor": 0,
+			"Sectors": [
+				72528,
+				53689,
+				36040
+			],
+			"Timestamp": 1718393264,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 118973,
+			"Restrictor": 0,
+			"Sectors": [
+				30144,
+				53145,
+				35684
+			],
+			"Timestamp": 1718393267,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 119452,
+			"Restrictor": 0,
+			"Sectors": [
+				29200,
+				53635,
+				36617
+			],
+			"Timestamp": 1718393270,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 119705,
+			"Restrictor": 0,
+			"Sectors": [
+				29849,
+				53708,
+				36148
+			],
+			"Timestamp": 1718393281,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 123022,
+			"Restrictor": 0,
+			"Sectors": [
+				30461,
+				55000,
+				37561
+			],
+			"Timestamp": 1718393302,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"LapTime": 132224,
+			"Restrictor": 0,
+			"Sectors": [
+				35375,
+				56394,
+				40455
+			],
+			"Timestamp": 1718393329,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 121516,
+			"Restrictor": 0,
+			"Sectors": [
+				30062,
+				54181,
+				37273
+			],
+			"Timestamp": 1718393388,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 121087,
+			"Restrictor": 0,
+			"Sectors": [
+				30299,
+				53928,
+				36860
+			],
+			"Timestamp": 1718393391,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 131619,
+			"Restrictor": 0,
+			"Sectors": [
+				29108,
+				53748,
+				48763
+			],
+			"Timestamp": 1718393395,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 120292,
+			"Restrictor": 0,
+			"Sectors": [
+				29837,
+				54122,
+				36333
+			],
+			"Timestamp": 1718393401,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 123117,
+			"Restrictor": 0,
+			"Sectors": [
+				30160,
+				54743,
+				38214
+			],
+			"Timestamp": 1718393425,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"LapTime": 125454,
+			"Restrictor": 0,
+			"Sectors": [
+				31980,
+				55291,
+				38183
+			],
+			"Timestamp": 1718393455,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 118220,
+			"Restrictor": 0,
+			"Sectors": [
+				30021,
+				52721,
+				35478
+			],
+			"Timestamp": 1718393506,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"LapTime": 122720,
+			"Restrictor": 0,
+			"Sectors": [
+				29840,
+				53839,
+				39041
+			],
+			"Timestamp": 1718393514,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 120705,
+			"Restrictor": 0,
+			"Sectors": [
+				30295,
+				54270,
+				36140
+			],
+			"Timestamp": 1718393522,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"LapTime": 142289,
+			"Restrictor": 0,
+			"Sectors": [
+				32957,
+				63100,
+				46232
+			],
+			"Timestamp": 1718393537,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 123124,
+			"Restrictor": 0,
+			"Sectors": [
+				30645,
+				54737,
+				37742
+			],
+			"Timestamp": 1718393548,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 117987,
+			"CarId": 5,
+			"CarModel": "ks_mclaren_650_gt3",
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"Restrictor": 0,
+			"TotalTime": 1315399,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 118457,
+			"CarId": 1,
+			"CarModel": "ks_mclaren_650_gt3",
+			"DriverGuid": "76561198149311099",
+			"DriverName": "vladb",
+			"Restrictor": 0,
+			"TotalTime": 1322896,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 119612,
+			"CarId": 15,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"Restrictor": 0,
+			"TotalTime": 1330850,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 6
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 119772,
+			"CarId": 7,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"Restrictor": 0,
+			"TotalTime": 1356999,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 119466,
+			"CarId": 8,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"DriverGuid": "76561198995194304",
+			"DriverName": "whiteesmith",
+			"Restrictor": 0,
+			"TotalTime": 1346224,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 123632,
+			"CarId": 16,
+			"CarModel": "ks_mclaren_650_gt3",
+			"DriverGuid": "76561198329518888",
+			"DriverName": "Teo",
+			"Restrictor": 0,
+			"TotalTime": 1263676,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 7
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 120308,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"Restrictor": 0,
+			"TotalTime": 504742,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 4
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "layout_drift",
+	"TrackName": "ks_highlands",
+	"Type": "RACE",
+	"Date": "2024-06-14T19:36:00Z",
+	"SessionFile": "2024_6_14_19_36_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "d2d80709-635c-49f4-af07-ba5ddb903377",
+	"RaceWeekendID": ""
+}

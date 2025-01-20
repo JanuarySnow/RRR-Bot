@@ -1,0 +1,5820 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#14Chase_Briscoe",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 46,
+			"MaxPing": 427
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#12_Ryan_Blaney",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 54,
+			"MaxPing": 163
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#12Ryan_Blaney",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 135,
+			"MaxPing": 494
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#38Anthony_Alfredo",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#33Austin_Cindric",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#4Kevin_Harvick_Atlanta",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#22Joey_Logano",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#10Aric_Almirola",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#6Ryan_Newman",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#22Joey_Logano",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#38Anthony_Alfredo",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#12Ryan_Blaney",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#21Matt_DiBenedetto",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#22Joey_Logano",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#34Michael_McDowell",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#12Ryan_Blaney",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#21Matt_DiBenedetto",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#12Ryan_Blaney",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 58.09423,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.95870996,
+				"Y": -0.3334206,
+				"Z": 1.7353759
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -256.11575,
+				"Y": -8.625692,
+				"Z": 261.32547
+			},
+			"Timestamp": 1707592059,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 11.7662735,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.7173309,
+				"Y": -0.37544188,
+				"Z": 2.1593983
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -240.45923,
+				"Y": -8.4348545,
+				"Z": 266.7435
+			},
+			"Timestamp": 1707592059,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 131.9906,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.92509514,
+				"Y": -0.2907789,
+				"Z": 1.7566198
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -266.7373,
+				"Y": -8.637915,
+				"Z": 256.5197
+			},
+			"Timestamp": 1707592061,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 13.943004,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.0496908,
+				"Y": -0.13640405,
+				"Z": -2.4189117
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -240.3498,
+				"Y": -8.560158,
+				"Z": 266.63434
+			},
+			"Timestamp": 1707592061,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 43.25719,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206145,
+				"Y": -0.31278732,
+				"Z": 1.7110496
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 418.44595,
+				"Y": -8.244201,
+				"Z": -333.81827
+			},
+			"Timestamp": 1707592146,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 4.3718085,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206274,
+				"Y": 0.06302364,
+				"Z": 1.6576779
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 441.47156,
+				"Y": -7.844317,
+				"Z": -338.14188
+			},
+			"Timestamp": 1707592201,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 22.329966,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0017493,
+				"Y": 0.28447425,
+				"Z": -1.1128118
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 207.39424,
+				"Y": -8.119214,
+				"Z": 470.97092
+			},
+			"Timestamp": 1707592226,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 149.09192,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9999929,
+				"Y": -0.34761798,
+				"Z": 1.7335968
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 290.5925,
+				"Y": -8.728798,
+				"Z": 508.60168
+			},
+			"Timestamp": 1707592228,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.211567,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.69656074,
+				"Y": -0.25830427,
+				"Z": 2.1276643
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 476.61676,
+				"Y": -8.001238,
+				"Z": -326.3783
+			},
+			"Timestamp": 1707592248,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.76436,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.18610492,
+				"Y": -0.27256727,
+				"Z": -2.4206915
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 478.58456,
+				"Y": -7.999824,
+				"Z": -326.09512
+			},
+			"Timestamp": 1707592251,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 85.31957,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9963868,
+				"Y": -0.3654686,
+				"Z": 1.7139195
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 382.41327,
+				"Y": -8.340083,
+				"Z": -325.27573
+			},
+			"Timestamp": 1707592253,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 1.3785095,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.020619,
+				"Y": -0.36800742,
+				"Z": 1.718891
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 211.29222,
+				"Y": -8.736927,
+				"Z": 472.73413
+			},
+			"Timestamp": 1707592326,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 1.9258964,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.020622,
+				"Y": -0.23500712,
+				"Z": 1.6999984
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 245.51399,
+				"Y": -8.605796,
+				"Z": 488.2131
+			},
+			"Timestamp": 1707592423,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 141.23602,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0134107,
+				"Y": -0.36834073,
+				"Z": 1.7162693
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 695.1337,
+				"Y": -8.122363,
+				"Z": -0.2594072
+			},
+			"Timestamp": 1707592441,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 21.03558,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.96869683,
+				"Y": 0.35060337,
+				"Z": -1.3936223
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 402.07428,
+				"Y": -7.634584,
+				"Z": -330.156
+			},
+			"Timestamp": 1707592498,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 4.577296,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206227,
+				"Y": 0.06302289,
+				"Z": 1.6576862
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 141.62921,
+				"Y": -8.304973,
+				"Z": 441.22736
+			},
+			"Timestamp": 1707592526,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 3.9826536,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206172,
+				"Y": 0.06302371,
+				"Z": 1.6576694
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 282.61584,
+				"Y": -8.310139,
+				"Z": 504.99655
+			},
+			"Timestamp": 1707592531,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 101.761215,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.689398,
+				"Y": 0.5724167,
+				"Z": -2.2782867
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 750.52325,
+				"Y": -7.5397234,
+				"Z": 384.7955
+			},
+			"Timestamp": 1707592534,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 18.087646,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.7173331,
+				"Y": -0.37544423,
+				"Z": 2.1593788
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 749.8361,
+				"Y": -8.704407,
+				"Z": 369.7187
+			},
+			"Timestamp": 1707592539,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 45.159176,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.99829865,
+				"Y": -0.35092533,
+				"Z": 1.7296381
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 700.50134,
+				"Y": -8.172644,
+				"Z": 35.61728
+			},
+			"Timestamp": 1707592541,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 2.9524403,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.71735644,
+				"Y": -0.3754443,
+				"Z": 2.1594174
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 749.8317,
+				"Y": -8.692755,
+				"Z": 369.64413
+			},
+			"Timestamp": 1707592544,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 16.634745,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.71734625,
+				"Y": -0.37544394,
+				"Z": 2.1594005
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 749.76843,
+				"Y": -8.703494,
+				"Z": 369.02087
+			},
+			"Timestamp": 1707592549,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 3.7357893,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.000006953489,
+				"Y": -0.37582317,
+				"Z": 2.264759
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 749.7298,
+				"Y": -8.697466,
+				"Z": 368.60287
+			},
+			"Timestamp": 1707592554,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 14.1708765,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.71733963,
+				"Y": -0.3754436,
+				"Z": 2.159368
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 749.34076,
+				"Y": -8.726469,
+				"Z": 364.99188
+			},
+			"Timestamp": 1707592569,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 3.7057304,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.7173626,
+				"Y": -0.37544438,
+				"Z": 2.159424
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 749.12634,
+				"Y": -8.7303,
+				"Z": 362.9592
+			},
+			"Timestamp": 1707592574,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 2.1368544,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206213,
+				"Y": -0.3680069,
+				"Z": 1.7188901
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 728.1812,
+				"Y": -8.533183,
+				"Z": 220.74167
+			},
+			"Timestamp": 1707592579,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 78.71279,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9471509,
+				"Y": -0.288784,
+				"Z": 1.7781663
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 579.4536,
+				"Y": -7.588873,
+				"Z": -314.01886
+			},
+			"Timestamp": 1707592601,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 2.9755096,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.011278,
+				"Y": 0.26382858,
+				"Z": -1.0267379
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -205.82118,
+				"Y": -8.151938,
+				"Z": 284.07272
+			},
+			"Timestamp": 1707592604,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 128.49193,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9924463,
+				"Y": -0.34297293,
+				"Z": 1.7360609
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -201.48148,
+				"Y": -8.724731,
+				"Z": 286.03516
+			},
+			"Timestamp": 1707592659,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 3.49277,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.02061,
+				"Y": -0.22530334,
+				"Z": 1.6986296
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 256.35403,
+				"Y": -8.574077,
+				"Z": -289.18176
+			},
+			"Timestamp": 1707592694,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 16.282618,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9927165,
+				"Y": 0.31937364,
+				"Z": -1.2441162
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -255.6336,
+				"Y": -7.9322996,
+				"Z": 261.5436
+			},
+			"Timestamp": 1707592826,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 24.320723,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9814653,
+				"Y": 0.30264184,
+				"Z": -1.2124918
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -55.182533,
+				"Y": -8.104574,
+				"Z": 352.2066
+			},
+			"Timestamp": 1707592832,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 19.548855,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9886962,
+				"Y": 0.33453554,
+				"Z": -1.3013574
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 320.2002,
+				"Y": -7.876503,
+				"Z": -308.00723
+			},
+			"Timestamp": 1707592849,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 22.98785,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9697517,
+				"Y": 0.3761451,
+				"Z": -1.4743159
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 390.225,
+				"Y": -7.6581736,
+				"Z": -327.25812
+			},
+			"Timestamp": 1707592894,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 1.9559715,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206007,
+				"Y": 0.06302326,
+				"Z": 1.657667
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 303.05957,
+				"Y": -8.310948,
+				"Z": 514.24066
+			},
+			"Timestamp": 1707592904,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 130.06041,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.969969,
+				"Y": -0.32544962,
+				"Z": 1.7472038
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -190.7326,
+				"Y": -8.707731,
+				"Z": 290.89694
+			},
+			"Timestamp": 1707592914,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 22.583227,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.98993933,
+				"Y": 0.33960077,
+				"Z": -1.3152504
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -44.679337,
+				"Y": -8.065173,
+				"Z": 356.95728
+			},
+			"Timestamp": 1707592919,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 43.44276,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.89718163,
+				"Y": 0.5382695,
+				"Z": -2.012469
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 746.51764,
+				"Y": -7.8234973,
+				"Z": 343.4636
+			},
+			"Timestamp": 1707592979,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 11.939379,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9248686,
+				"Y": 0.5968694,
+				"Z": -2.136607
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 741.1888,
+				"Y": -7.740752,
+				"Z": 307.6403
+			},
+			"Timestamp": 1707592984,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 0.8093147,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206286,
+				"Y": 0.06302312,
+				"Z": 1.6576772
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 177.17435,
+				"Y": -8.310265,
+				"Z": 457.3027
+			},
+			"Timestamp": 1707593032,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 81.59983,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.84897417,
+				"Y": 0.06070926,
+				"Z": 1.831247
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 661.7609,
+				"Y": -7.468836,
+				"Z": 536.8772
+			},
+			"Timestamp": 1707593037,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 97.973885,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.8509853,
+				"Y": -0.32161525,
+				"Z": -2.0354044
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 661.7856,
+				"Y": -7.8452606,
+				"Z": 536.7623
+			},
+			"Timestamp": 1707593039,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 102.04502,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.69471973,
+				"Y": 0.61387795,
+				"Z": -2.3360147
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -352.43436,
+				"Y": -5.404798,
+				"Z": -81.05499
+			},
+			"Timestamp": 1707593089,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 63.229008,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.89479274,
+				"Y": 0.59874076,
+				"Z": -2.076551
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -391.5867,
+				"Y": -4.8372436,
+				"Z": -13.1675
+			},
+			"Timestamp": 1707593094,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 13.615602,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.57446116,
+				"Y": -0.37551937,
+				"Z": 2.1803725
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -131.90468,
+				"Y": -8.433223,
+				"Z": -129.94373
+			},
+			"Timestamp": 1707593109,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 1.3776855,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206186,
+				"Y": 0.06302366,
+				"Z": 1.6576751
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 279.16495,
+				"Y": -8.309129,
+				"Z": 503.43356
+			},
+			"Timestamp": 1707593139,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 2.1230667,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206157,
+				"Y": 0.063023694,
+				"Z": 1.6576641
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 270.94522,
+				"Y": -8.252834,
+				"Z": -293.506
+			},
+			"Timestamp": 1707593159,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 2.3347595,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0205996,
+				"Y": 0.06302359,
+				"Z": 1.6576684
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 308.3201,
+				"Y": -8.309277,
+				"Z": 516.62006
+			},
+			"Timestamp": 1707593182,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 5.0874867,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0183382,
+				"Y": 0.06472767,
+				"Z": 1.653843
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 318.78848,
+				"Y": -8.307901,
+				"Z": 521.3548
+			},
+			"Timestamp": 1707593184,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 16.572802,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.48661953,
+				"Y": -0.27356634,
+				"Z": -2.3592496
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 665.237,
+				"Y": -8.191666,
+				"Z": -137.22533
+			},
+			"Timestamp": 1707593209,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 16.58143,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.000012427806,
+				"Y": -0.27285,
+				"Z": 2.2524867
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 665.21387,
+				"Y": -8.190226,
+				"Z": -137.23962
+			},
+			"Timestamp": 1707593209,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.713507,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.31616792,
+				"Y": -0.2729486,
+				"Z": -2.3953035
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 589.59717,
+				"Y": -7.6943927,
+				"Z": -281.2916
+			},
+			"Timestamp": 1707593214,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.831743,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.70119226,
+				"Y": -0.28453946,
+				"Z": 2.13479
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 589.2071,
+				"Y": -7.6957035,
+				"Z": -281.57843
+			},
+			"Timestamp": 1707593214,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 56.294365,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9939064,
+				"Y": -0.35229418,
+				"Z": 1.7268251
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -37.441082,
+				"Y": -8.727101,
+				"Z": 360.23117
+			},
+			"Timestamp": 1707593227,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 20.772657,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0206286,
+				"Y": -0.36800754,
+				"Z": 1.7189012
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 288.3065,
+				"Y": -8.757084,
+				"Z": 507.57916
+			},
+			"Timestamp": 1707593237,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.3056345,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.3094152,
+				"Y": -0.2734337,
+				"Z": -2.3847969
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 200.92648,
+				"Y": -8.689999,
+				"Z": -265.6583
+			},
+			"Timestamp": 1707593239,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 11.188062,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.0000115946905,
+				"Y": -0.27867094,
+				"Z": 2.2531793
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 200.96277,
+				"Y": -8.688441,
+				"Z": -265.67038
+			},
+			"Timestamp": 1707593239,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 21.919872,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.34793612,
+				"Y": -0.27381766,
+				"Z": -2.3709679
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 144.81616,
+				"Y": -8.662017,
+				"Z": -250.15979
+			},
+			"Timestamp": 1707593244,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 17.92082,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.000007713908,
+				"Y": -0.25303164,
+				"Z": 2.2501256
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 144.66438,
+				"Y": -8.663244,
+				"Z": -250.12262
+			},
+			"Timestamp": 1707593244,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 5.7558107,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.6811381,
+				"Y": -0.27288002,
+				"Z": -2.3506157
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 7.4364905,
+				"Y": -8.579112,
+				"Z": -211.62143
+			},
+			"Timestamp": 1707593264,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 6.0894623,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.0000066647453,
+				"Y": -0.275254,
+				"Z": 2.252767
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 7.4286084,
+				"Y": -8.580862,
+				"Z": -211.6157
+			},
+			"Timestamp": 1707593264,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 14.51217,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.4461439,
+				"Y": -0.2735991,
+				"Z": -2.3636034
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -28.928057,
+				"Y": -8.536614,
+				"Z": -200.91469
+			},
+			"Timestamp": 1707593269,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 15.190105,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.0000070743595,
+				"Y": -0.2800941,
+				"Z": 2.2533424
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -28.97614,
+				"Y": -8.536347,
+				"Z": -200.91086
+			},
+			"Timestamp": 1707593269,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 17.618769,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.3884525,
+				"Y": -0.27347377,
+				"Z": -2.373847
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -60.635178,
+				"Y": -8.496841,
+				"Z": -193.77917
+			},
+			"Timestamp": 1707593274,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 17.668465,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.0000022244208,
+				"Y": -0.27622324,
+				"Z": 2.2528863
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -60.673203,
+				"Y": -8.495503,
+				"Z": -193.77261
+			},
+			"Timestamp": 1707593274,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 14.212552,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.54084533,
+				"Y": -0.27332076,
+				"Z": -2.3581016
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -142.32141,
+				"Y": -8.386158,
+				"Z": -173.46315
+			},
+			"Timestamp": 1707593279,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 14.112095,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.000003914497,
+				"Y": -0.28440747,
+				"Z": 2.2538574
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -142.54402,
+				"Y": -8.393728,
+				"Z": -173.40701
+			},
+			"Timestamp": 1707593279,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.927988,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.68930787,
+				"Y": -0.27281824,
+				"Z": -2.351042
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -305.15402,
+				"Y": -8.228981,
+				"Z": -102.264786
+			},
+			"Timestamp": 1707593284,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.837212,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.030669846,
+				"Y": -0.27700487,
+				"Z": 2.2365186
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -305.05893,
+				"Y": -8.232503,
+				"Z": -102.302246
+			},
+			"Timestamp": 1707593284,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 4.4075747,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.66518205,
+				"Y": -0.27280504,
+				"Z": -2.3543875
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -333.8873,
+				"Y": -8.046473,
+				"Z": -73.10501
+			},
+			"Timestamp": 1707593289,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.776866,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.42826504,
+				"Y": -0.27268732,
+				"Z": -2.3871682
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -378.33282,
+				"Y": -8.324387,
+				"Z": 86.59614
+			},
+			"Timestamp": 1707593294,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 16.342724,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.701115,
+				"Y": -0.28399473,
+				"Z": 2.1346424
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -363.56235,
+				"Y": -8.288703,
+				"Z": 136.46811
+			},
+			"Timestamp": 1707593294,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.158355,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.6994858,
+				"Y": -0.24459648,
+				"Z": -2.33965
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -375.64575,
+				"Y": -8.247673,
+				"Z": 102.2664
+			},
+			"Timestamp": 1707593294,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 11.800357,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9949433,
+				"Y": -0.29787946,
+				"Z": 1.7196919
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -375.49344,
+				"Y": -8.28824,
+				"Z": 102.721146
+			},
+			"Timestamp": 1707593297,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 14.070087,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.45409298,
+				"Y": -0.27269956,
+				"Z": -2.3835866
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -363.70157,
+				"Y": -8.290428,
+				"Z": 136.24597
+			},
+			"Timestamp": 1707593299,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 21.228668,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.000009895468,
+				"Y": -0.2835026,
+				"Z": 2.25375
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -240.52838,
+				"Y": -8.609118,
+				"Z": 260.0218
+			},
+			"Timestamp": 1707593302,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 19.991377,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.53589857,
+				"Y": -0.2727416,
+				"Z": -2.3722804
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -240.57364,
+				"Y": -8.613391,
+				"Z": 260.02063
+			},
+			"Timestamp": 1707593304,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 11.626194,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0132029,
+				"Y": -0.36937007,
+				"Z": 1.7151371
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -180.54726,
+				"Y": -8.7951975,
+				"Z": 253.64795
+			},
+			"Timestamp": 1707593307,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 141.56898,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.000006470808,
+				"Y": 0.055692542,
+				"Z": 2.213393
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 296.99225,
+				"Y": -8.318196,
+				"Z": 506.91467
+			},
+			"Timestamp": 1707593322,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 141.25589,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.3046762,
+				"Y": 0.056228418,
+				"Z": -2.2368283
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 297.1564,
+				"Y": -8.317584,
+				"Z": 506.93567
+			},
+			"Timestamp": 1707593324,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 54.4794,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.0015629948,
+				"Y": 0.09174979,
+				"Z": 2.1697903
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 339.83023,
+				"Y": -8.232332,
+				"Z": 530.87213
+			},
+			"Timestamp": 1707593324,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 32.0665,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -1.0119649,
+				"Y": 0.21566117,
+				"Z": -0.81742483
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 353.32065,
+				"Y": -8.134915,
+				"Z": 533.43414
+			},
+			"Timestamp": 1707593327,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 31.922825,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.7173549,
+				"Y": -0.37544373,
+				"Z": 2.1593945
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 443.64603,
+				"Y": -8.474136,
+				"Z": 577.8424
+			},
+			"Timestamp": 1707593332,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 82.99399,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.0067105894,
+				"Y": -0.26469353,
+				"Z": -2.4451768
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 472.35037,
+				"Y": -8.604171,
+				"Z": 566.89246
+			},
+			"Timestamp": 1707593339,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 78.67448,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.67940736,
+				"Y": -0.21845037,
+				"Z": 2.0623753
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 472.36682,
+				"Y": -8.584935,
+				"Z": 566.8942
+			},
+			"Timestamp": 1707593339,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 33.562153,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 1.0195733,
+				"Y": -0.34485275,
+				"Z": 1.7145108
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 489.636,
+				"Y": -8.657255,
+				"Z": 572.2434
+			},
+			"Timestamp": 1707593342,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 49.47868,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.6466176,
+				"Y": -0.37548146,
+				"Z": 2.1697705
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 489.4781,
+				"Y": -8.665028,
+				"Z": 571.9102
+			},
+			"Timestamp": 1707593344,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 47.183697,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.035133455,
+				"Y": -0.27282763,
+				"Z": -2.4337382
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 639.0206,
+				"Y": -8.377745,
+				"Z": 546.5123
+			},
+			"Timestamp": 1707593349,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 46.318836,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.6986005,
+				"Y": -0.26996773,
+				"Z": 2.1308556
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 639.12396,
+				"Y": -8.376273,
+				"Z": 546.4292
+			},
+			"Timestamp": 1707593352,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 9.750674,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.2261894,
+				"Y": -0.27258632,
+				"Z": -2.41516
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 722.7797,
+				"Y": -8.522813,
+				"Z": 425.4805
+			},
+			"Timestamp": 1707593359,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.168947,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.0000073224974,
+				"Y": -0.27661684,
+				"Z": 2.2529237
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 722.80914,
+				"Y": -8.522928,
+				"Z": 425.3723
+			},
+			"Timestamp": 1707593359,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 9.666366,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.37846988,
+				"Y": -0.27331728,
+				"Z": -2.3787851
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 722.4297,
+				"Y": -8.597169,
+				"Z": 253.45723
+			},
+			"Timestamp": 1707593364,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 9.890876,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.000013075915,
+				"Y": -0.2724715,
+				"Z": 2.2524364
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 722.4064,
+				"Y": -8.5906725,
+				"Z": 253.2357
+			},
+			"Timestamp": 1707593364,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 9.704825,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.4607236,
+				"Y": -0.27321595,
+				"Z": -2.370729
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 711.9701,
+				"Y": -8.508089,
+				"Z": 177.04651
+			},
+			"Timestamp": 1707593369,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.22299,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.000012772826,
+				"Y": -0.28131267,
+				"Z": 2.2534854
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 711.94055,
+				"Y": -8.509128,
+				"Z": 176.79117
+			},
+			"Timestamp": 1707593369,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 19.95314,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.000017652665,
+				"Y": -0.28657705,
+				"Z": 2.2541149
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 693.8232,
+				"Y": -8.192104,
+				"Z": 18.27606
+			},
+			"Timestamp": 1707593372,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 9.976695,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.33365944,
+				"Y": -0.27264106,
+				"Z": -2.4002726
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 692.80023,
+				"Y": -8.1903,
+				"Z": 14.379854
+			},
+			"Timestamp": 1707593374,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 17.457645,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.99714524,
+				"Y": 0.11601491,
+				"Z": 1.5593537
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 691.00494,
+				"Y": -7.905964,
+				"Z": 7.2696714
+			},
+			"Timestamp": 1707593374,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 19.91617,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.65219074,
+				"Y": -0.2727988,
+				"Z": -2.3561711
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 693.837,
+				"Y": -8.19021,
+				"Z": 18.422281
+			},
+			"Timestamp": 1707593374,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 59.038933,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.000002305638,
+				"Y": -0.37582368,
+				"Z": 2.2647376
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 642.2968,
+				"Y": -8.780307,
+				"Z": -41.24776
+			},
+			"Timestamp": 1707593377,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.900829,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.65360403,
+				"Y": -0.27280027,
+				"Z": -2.3559597
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 590.4324,
+				"Y": -7.700874,
+				"Z": -276.08972
+			},
+			"Timestamp": 1707593379,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 9.292546,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.000014937013,
+				"Y": -0.28760427,
+				"Z": 2.2542584
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 590.28375,
+				"Y": -7.702594,
+				"Z": -276.18018
+			},
+			"Timestamp": 1707593379,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 12.896105,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.012655227,
+				"Y": -0.2606595,
+				"Z": -2.4263532
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 474.50095,
+				"Y": -8.039564,
+				"Z": -321.35025
+			},
+			"Timestamp": 1707593384,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 15.873539,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.0009544726,
+				"Y": -0.27445397,
+				"Z": 2.2490385
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 474.31253,
+				"Y": -8.031773,
+				"Z": -321.29196
+			},
+			"Timestamp": 1707593384,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.39215,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.56673354,
+				"Y": -0.27275676,
+				"Z": -2.3680172
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 274.62534,
+				"Y": -8.587771,
+				"Z": -292.07584
+			},
+			"Timestamp": 1707593389,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.954733,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.0042052716,
+				"Y": -0.27636248,
+				"Z": 2.236883
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 273.90445,
+				"Y": -8.584488,
+				"Z": -291.85278
+			},
+			"Timestamp": 1707593389,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 62.106453,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -7.2110015e-7,
+				"Y": 0.055692606,
+				"Z": 2.2133636
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 224.73624,
+				"Y": -8.344973,
+				"Z": -257.0624
+			},
+			"Timestamp": 1707593394,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 57642,
+			"Restrictor": 0,
+			"Sectors": [
+				20445,
+				20650,
+				16547
+			],
+			"Timestamp": 1707592094,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 58405,
+			"Restrictor": 0,
+			"Sectors": [
+				21532,
+				22279,
+				14594
+			],
+			"Timestamp": 1707592095,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 59275,
+			"Restrictor": 0,
+			"Sectors": [
+				21398,
+				22950,
+				14927
+			],
+			"Timestamp": 1707592096,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48457,
+			"Restrictor": 0,
+			"Sectors": [
+				13703,
+				20291,
+				14463
+			],
+			"Timestamp": 1707592143,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 55104,
+			"Restrictor": 0,
+			"Sectors": [
+				13825,
+				21065,
+				20214
+			],
+			"Timestamp": 1707592151,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 60731,
+			"Restrictor": 0,
+			"Sectors": [
+				25353,
+				20677,
+				14701
+			],
+			"Timestamp": 1707592155,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48362,
+			"Restrictor": 0,
+			"Sectors": [
+				13433,
+				20448,
+				14481
+			],
+			"Timestamp": 1707592192,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 51340,
+			"Restrictor": 0,
+			"Sectors": [
+				14552,
+				20899,
+				15889
+			],
+			"Timestamp": 1707592202,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 48764,
+			"Restrictor": 0,
+			"Sectors": [
+				13664,
+				20449,
+				14651
+			],
+			"Timestamp": 1707592204,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48508,
+			"Restrictor": 0,
+			"Sectors": [
+				13507,
+				20502,
+				14499
+			],
+			"Timestamp": 1707592240,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 50554,
+			"Restrictor": 0,
+			"Sectors": [
+				13955,
+				20781,
+				15818
+			],
+			"Timestamp": 1707592253,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 50456,
+			"Restrictor": 0,
+			"Sectors": [
+				13543,
+				20705,
+				16208
+			],
+			"Timestamp": 1707592254,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48151,
+			"Restrictor": 0,
+			"Sectors": [
+				13546,
+				20178,
+				14427
+			],
+			"Timestamp": 1707592288,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 50199,
+			"Restrictor": 0,
+			"Sectors": [
+				13640,
+				20899,
+				15660
+			],
+			"Timestamp": 1707592303,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 49894,
+			"Restrictor": 0,
+			"Sectors": [
+				14290,
+				21046,
+				14558
+			],
+			"Timestamp": 1707592304,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 60009,
+			"Restrictor": 0,
+			"Sectors": [
+				13443,
+				31837,
+				14729
+			],
+			"Timestamp": 1707592348,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49625,
+			"Restrictor": 0,
+			"Sectors": [
+				13689,
+				20434,
+				15502
+			],
+			"Timestamp": 1707592353,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 48777,
+			"Restrictor": 0,
+			"Sectors": [
+				13416,
+				20614,
+				14747
+			],
+			"Timestamp": 1707592353,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48235,
+			"Restrictor": 0,
+			"Sectors": [
+				13500,
+				20250,
+				14485
+			],
+			"Timestamp": 1707592397,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49071,
+			"Restrictor": 0,
+			"Sectors": [
+				13565,
+				20574,
+				14932
+			],
+			"Timestamp": 1707592402,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 49378,
+			"Restrictor": 0,
+			"Sectors": [
+				13769,
+				20449,
+				15160
+			],
+			"Timestamp": 1707592402,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48196,
+			"Restrictor": 0,
+			"Sectors": [
+				13357,
+				20259,
+				14580
+			],
+			"Timestamp": 1707592445,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 48588,
+			"Restrictor": 0,
+			"Sectors": [
+				13308,
+				20362,
+				14918
+			],
+			"Timestamp": 1707592451,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 52991,
+			"Restrictor": 0,
+			"Sectors": [
+				13347,
+				20403,
+				19241
+			],
+			"Timestamp": 1707592455,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47795,
+			"Restrictor": 0,
+			"Sectors": [
+				13307,
+				20147,
+				14341
+			],
+			"Timestamp": 1707592493,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 49576,
+			"Restrictor": 0,
+			"Sectors": [
+				13918,
+				20758,
+				14900
+			],
+			"Timestamp": 1707592500,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 50776,
+			"Restrictor": 0,
+			"Sectors": [
+				14673,
+				20880,
+				15223
+			],
+			"Timestamp": 1707592505,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48279,
+			"Restrictor": 0,
+			"Sectors": [
+				13538,
+				20381,
+				14360
+			],
+			"Timestamp": 1707592541,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 50100,
+			"Restrictor": 0,
+			"Sectors": [
+				13514,
+				20440,
+				16146
+			],
+			"Timestamp": 1707592556,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48294,
+			"Restrictor": 0,
+			"Sectors": [
+				13482,
+				20475,
+				14337
+			],
+			"Timestamp": 1707592589,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 93794,
+			"Restrictor": 0,
+			"Sectors": [
+				13578,
+				64512,
+				15704
+			],
+			"Timestamp": 1707592594,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 56483,
+			"Restrictor": 0,
+			"Sectors": [
+				13896,
+				20551,
+				22036
+			],
+			"Timestamp": 1707592612,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47902,
+			"Restrictor": 0,
+			"Sectors": [
+				13454,
+				20088,
+				14360
+			],
+			"Timestamp": 1707592637,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 49178,
+			"Restrictor": 0,
+			"Sectors": [
+				13521,
+				20754,
+				14903
+			],
+			"Timestamp": 1707592643,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 51109,
+			"Restrictor": 0,
+			"Sectors": [
+				14745,
+				21240,
+				15124
+			],
+			"Timestamp": 1707592663,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47868,
+			"Restrictor": 0,
+			"Sectors": [
+				13371,
+				20223,
+				14274
+			],
+			"Timestamp": 1707592685,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 49979,
+			"Restrictor": 0,
+			"Sectors": [
+				13746,
+				20843,
+				15390
+			],
+			"Timestamp": 1707592693,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49317,
+			"Restrictor": 0,
+			"Sectors": [
+				13766,
+				20556,
+				14995
+			],
+			"Timestamp": 1707592712,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47933,
+			"Restrictor": 0,
+			"Sectors": [
+				13382,
+				20219,
+				14332
+			],
+			"Timestamp": 1707592733,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 49610,
+			"Restrictor": 0,
+			"Sectors": [
+				13984,
+				20885,
+				14741
+			],
+			"Timestamp": 1707592743,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49319,
+			"Restrictor": 0,
+			"Sectors": [
+				13499,
+				20458,
+				15362
+			],
+			"Timestamp": 1707592762,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48233,
+			"Restrictor": 0,
+			"Sectors": [
+				13417,
+				20547,
+				14269
+			],
+			"Timestamp": 1707592781,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 49565,
+			"Restrictor": 0,
+			"Sectors": [
+				13682,
+				21114,
+				14769
+			],
+			"Timestamp": 1707592792,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 48945,
+			"Restrictor": 0,
+			"Sectors": [
+				13646,
+				20305,
+				14994
+			],
+			"Timestamp": 1707592811,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48026,
+			"Restrictor": 0,
+			"Sectors": [
+				13367,
+				20269,
+				14390
+			],
+			"Timestamp": 1707592829,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 55384,
+			"Restrictor": 0,
+			"Sectors": [
+				19861,
+				20794,
+				14729
+			],
+			"Timestamp": 1707592848,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49040,
+			"Restrictor": 0,
+			"Sectors": [
+				13630,
+				20713,
+				14697
+			],
+			"Timestamp": 1707592860,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47964,
+			"Restrictor": 0,
+			"Sectors": [
+				13449,
+				20146,
+				14369
+			],
+			"Timestamp": 1707592877,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 48848,
+			"Restrictor": 0,
+			"Sectors": [
+				13524,
+				20722,
+				14602
+			],
+			"Timestamp": 1707592897,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49260,
+			"Restrictor": 0,
+			"Sectors": [
+				13466,
+				20610,
+				15184
+			],
+			"Timestamp": 1707592909,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48294,
+			"Restrictor": 0,
+			"Sectors": [
+				13500,
+				20312,
+				14482
+			],
+			"Timestamp": 1707592925,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 48512,
+			"Restrictor": 0,
+			"Sectors": [
+				13655,
+				20421,
+				14436
+			],
+			"Timestamp": 1707592945,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49095,
+			"Restrictor": 0,
+			"Sectors": [
+				13517,
+				20687,
+				14891
+			],
+			"Timestamp": 1707592958,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47772,
+			"Restrictor": 0,
+			"Sectors": [
+				13351,
+				20066,
+				14355
+			],
+			"Timestamp": 1707592973,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 59700,
+			"Restrictor": 0,
+			"Sectors": [
+				13584,
+				30037,
+				16079
+			],
+			"Timestamp": 1707593005,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49189,
+			"Restrictor": 0,
+			"Sectors": [
+				13482,
+				20573,
+				15134
+			],
+			"Timestamp": 1707593007,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47785,
+			"Restrictor": 0,
+			"Sectors": [
+				13373,
+				20097,
+				14315
+			],
+			"Timestamp": 1707593021,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 51908,
+			"Restrictor": 0,
+			"Sectors": [
+				13478,
+				22329,
+				16101
+			],
+			"Timestamp": 1707593059,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 47683,
+			"Restrictor": 0,
+			"Sectors": [
+				13208,
+				20152,
+				14323
+			],
+			"Timestamp": 1707593069,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 74344,
+			"Restrictor": 0,
+			"Sectors": [
+				13729,
+				42269,
+				18346
+			],
+			"Timestamp": 1707593079,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49206,
+			"Restrictor": 0,
+			"Sectors": [
+				13638,
+				20411,
+				15157
+			],
+			"Timestamp": 1707593108,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48052,
+			"Restrictor": 0,
+			"Sectors": [
+				13402,
+				20241,
+				14409
+			],
+			"Timestamp": 1707593117,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49630,
+			"Restrictor": 0,
+			"Sectors": [
+				13743,
+				20520,
+				15367
+			],
+			"Timestamp": 1707593158,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 79953,
+			"Restrictor": 0,
+			"Sectors": [
+				44272,
+				20903,
+				14778
+			],
+			"Timestamp": 1707593159,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 48313,
+			"Restrictor": 0,
+			"Sectors": [
+				13645,
+				20277,
+				14391
+			],
+			"Timestamp": 1707593165,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 49343,
+			"Restrictor": 0,
+			"Sectors": [
+				13492,
+				20380,
+				15471
+			],
+			"Timestamp": 1707593207,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 84145,
+			"Restrictor": 0,
+			"Sectors": [
+				13828,
+				22891,
+				47426
+			],
+			"Timestamp": 1707593243,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 78980,
+			"Restrictor": 0,
+			"Sectors": [
+				13469,
+				20210,
+				45301
+			],
+			"Timestamp": 1707593244,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 61509,
+			"Restrictor": 0,
+			"Sectors": [
+				14016,
+				31005,
+				16488
+			],
+			"Timestamp": 1707593269,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 148442,
+			"Restrictor": 0,
+			"Sectors": [
+				55617,
+				65587,
+				27238
+			],
+			"Timestamp": 1707593392,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 47683,
+			"CarId": 2,
+			"CarModel": "fsr_ford_mustang_s",
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"Restrictor": 0,
+			"TotalTime": 1208874,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 48945,
+			"CarId": 1,
+			"CarModel": "fsr_ford_mustang_s",
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"Restrictor": 0,
+			"TotalTime": 1233883,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 48512,
+			"CarId": 0,
+			"CarModel": "fsr_ford_mustang_s",
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"Restrictor": 0,
+			"TotalTime": 1356742,
+			"HasPenalty": true,
+			"PenaltyTime": 5000000000,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		}
+	],
+	"Penalties": [
+		{
+			"DriverName": "Buggy",
+			"DriverGUID": "76561198103373944",
+			"CarID": 0,
+			"GivenOnLap": 21,
+			"GivenAtTime": "2024-02-10T19:29:09.176732614Z",
+			"InfractionType": 1,
+			"PenaltyType": 6,
+			"BoPAmount": 0,
+			"BoPClearedInNumLaps": 0,
+			"DriveThroughNumLaps": 0,
+			"TimePenaltyDuration": 5000000000
+		}
+	],
+	"TrackConfig": "layout_oval",
+	"TrackName": "tmm_lausitzring",
+	"Type": "RACE",
+	"Date": "2024-02-10T19:31:00Z",
+	"SessionFile": "2024_2_10_19_31_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "0f9ea719-a293-48c7-aa00-753209d164c2",
+	"RaceWeekendID": ""
+}

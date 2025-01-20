@@ -1,0 +1,3770 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 101,
+			"MaxPing": 128
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 54,
+			"MaxPing": 152
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 43,
+			"MaxPing": 84
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 110,
+			"MaxPing": 228
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 26,
+			"MaxPing": 71
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199252363501",
+				"GuidsList": [
+					"76561199252363501"
+				],
+				"Name": "Money",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 26,
+			"MaxPing": 40
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_2",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "76561198219304387",
+				"GuidsList": [
+					"76561198219304387"
+				],
+				"Name": "Maverick",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_1",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_f2004",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_2",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199252363501",
+				"GuidsList": [
+					"76561199252363501"
+				],
+				"Name": "Money",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 22.508608,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.498732,
+				"Y": 0.040494278,
+				"Z": -1.9509892
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -476.5526,
+				"Y": 17.855719,
+				"Z": 351.68918
+			},
+			"Timestamp": 1720665148,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 15.524955,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561199252363501",
+				"GuidsList": [
+					"76561199252363501"
+				],
+				"Name": "Money",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.6134242,
+				"Y": 0.052671213,
+				"Z": 2.5612056
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -476.5234,
+				"Y": 17.783974,
+				"Z": 351.80945
+			},
+			"Timestamp": 1720665151,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 32.804935,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.5243551,
+				"Y": -0.19106723,
+				"Z": 0.6486234
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -462.8324,
+				"Y": 16.877722,
+				"Z": 393.6871
+			},
+			"Timestamp": 1720665151,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 74.62288,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.60631615,
+				"Y": -0.05011034,
+				"Z": 2.5817392
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -455.46878,
+				"Y": 16.769444,
+				"Z": 412.23953
+			},
+			"Timestamp": 1720665151,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 25.772078,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.6977992,
+				"Y": -0.07882954,
+				"Z": 2.538058
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -462.90018,
+				"Y": 16.87865,
+				"Z": 393.58594
+			},
+			"Timestamp": 1720665153,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 40.2362,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8527226,
+				"Y": 0.023854569,
+				"Z": 1.989085
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -459.27188,
+				"Y": 16.727968,
+				"Z": 394.69785
+			},
+			"Timestamp": 1720665153,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 27.64376,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.6542527,
+				"Y": -0.11553597,
+				"Z": -0.012700859
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -454.81244,
+				"Y": 16.693098,
+				"Z": 413.12042
+			},
+			"Timestamp": 1720665153,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 104.003044,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8471837,
+				"Y": 0.24776752,
+				"Z": 1.5840906
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -105.49522,
+				"Y": -2.1326308,
+				"Z": 408.8149
+			},
+			"Timestamp": 1720665166,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 77.8593,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.6386812,
+				"Y": 0.1694688,
+				"Z": -1.0501145
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -104.66364,
+				"Y": -2.2088852,
+				"Z": 407.621
+			},
+			"Timestamp": 1720665168,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 82.40714,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8816127,
+				"Y": -0.05571503,
+				"Z": -1.6887121
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -33.095963,
+				"Y": -4.013998,
+				"Z": 351.6469
+			},
+			"Timestamp": 1720665168,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 15.737434,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8816098,
+				"Y": -0.05571568,
+				"Z": -1.6887212
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -469.2052,
+				"Y": 14.380958,
+				"Z": 125.380516
+			},
+			"Timestamp": 1720665246,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 54.95097,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8436176,
+				"Y": -0.07230848,
+				"Z": -1.6868912
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -480.71927,
+				"Y": 18.310549,
+				"Z": 362.1696
+			},
+			"Timestamp": 1720665698,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 82.11741,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.49406984,
+				"Y": -0.018051693,
+				"Z": 2.577669
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -376.65482,
+				"Y": 10.637577,
+				"Z": 442.97366
+			},
+			"Timestamp": 1720665923,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 9.29486,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.69863033,
+				"Y": -0.07873762,
+				"Z": 2.5680232
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -359.58054,
+				"Y": 4.8291473,
+				"Z": 381.55032
+			},
+			"Timestamp": 1720665943,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 116.89004,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.6632706,
+				"Y": -0.06970136,
+				"Z": 2.5586638
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -179.38354,
+				"Y": -4.481689,
+				"Z": -276.55594
+			},
+			"Timestamp": 1720665993,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 91.014404,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.75578856,
+				"Y": 0.38954985,
+				"Z": 1.8427917
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -438.9231,
+				"Y": 0.7276139,
+				"Z": -76.88329
+			},
+			"Timestamp": 1720666002,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 71.312294,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.62553835,
+				"Y": -0.06432149,
+				"Z": 2.51657
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -330.708,
+				"Y": 3.2892141,
+				"Z": 390.13318
+			},
+			"Timestamp": 1720666013,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 46.996216,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.69864446,
+				"Y": -0.07873825,
+				"Z": 2.5680203
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 71.840805,
+				"Y": -13.318947,
+				"Z": -531.7642
+			},
+			"Timestamp": 1720666102,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 29.089596,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8177732,
+				"Y": 0.005147702,
+				"Z": 1.9966036
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 193.82603,
+				"Y": -19.584858,
+				"Z": -208.76666
+			},
+			"Timestamp": 1720666108,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 21.26221,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8762332,
+				"Y": -0.008411837,
+				"Z": 1.6273648
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 192.0234,
+				"Y": -19.702896,
+				"Z": -209.8713
+			},
+			"Timestamp": 1720666108,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 23.80313,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.66945446,
+				"Y": -0.022615993,
+				"Z": 2.54326
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -283.24585,
+				"Y": -9.075907,
+				"Z": -7.297851
+			},
+			"Timestamp": 1720666118,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.112717,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.64021087,
+				"Y": -0.1524965,
+				"Z": -1.7621197
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -283.66824,
+				"Y": -9.116479,
+				"Z": -7.1778245
+			},
+			"Timestamp": 1720666118,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 46.140736,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8816284,
+				"Y": -0.055715635,
+				"Z": -1.6887121
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -308.60403,
+				"Y": 2.879305,
+				"Z": -444.7715
+			},
+			"Timestamp": 1720666223,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 156.31747,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.045729894,
+				"Y": -0.11898959,
+				"Z": -1.6634175
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -468.38214,
+				"Y": 17.530626,
+				"Z": 389.6943
+			},
+			"Timestamp": 1720666412,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 29.986664,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8762333,
+				"Y": -0.0065494534,
+				"Z": 1.8406596
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -389.2546,
+				"Y": 14.930817,
+				"Z": 496.22427
+			},
+			"Timestamp": 1720666412,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 159.69194,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.38863787,
+				"Y": 0.017388608,
+				"Z": 2.614097
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -468.4445,
+				"Y": 17.616982,
+				"Z": 389.51077
+			},
+			"Timestamp": 1720666412,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 103.512634,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.49875024,
+				"Y": 0.085720025,
+				"Z": -1.9683373
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -449.9546,
+				"Y": 17.178896,
+				"Z": 460.7601
+			},
+			"Timestamp": 1720666412,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 162.66609,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.44658124,
+				"Y": -0.0005788209,
+				"Z": 2.6054788
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -370.6304,
+				"Y": 14.656851,
+				"Z": 501.75055
+			},
+			"Timestamp": 1720666417,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 80.835495,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.8635423,
+				"Y": 0.18373953,
+				"Z": 1.4794765
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -368.05103,
+				"Y": 14.864618,
+				"Z": 504.36115
+			},
+			"Timestamp": 1720666417,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 159.13275,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.000007802683,
+				"Y": 0.13789374,
+				"Z": 2.6718717
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -353.1526,
+				"Y": 14.617846,
+				"Z": 504.14014
+			},
+			"Timestamp": 1720666418,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 62.794086,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.69864506,
+				"Y": -0.078738645,
+				"Z": 2.568031
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -351.4382,
+				"Y": 14.507477,
+				"Z": 505.84335
+			},
+			"Timestamp": 1720666418,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 177.4008,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198097837380",
+				"GuidsList": [
+					"76561198097837380"
+				],
+				"Name": "zezima",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.3081443,
+				"Y": 0.13269128,
+				"Z": 2.6186466
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -370.46738,
+				"Y": 14.7767935,
+				"Z": 501.727
+			},
+			"Timestamp": 1720666418,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 85.12517,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8677804,
+				"Y": 0.33984426,
+				"Z": -1.5946549
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -352.27405,
+				"Y": 14.860844,
+				"Z": 506.02405
+			},
+			"Timestamp": 1720666418,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 172.22832,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198380514715",
+				"GuidsList": [
+					"76561198380514715"
+				],
+				"Name": "woke",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.879409,
+				"Y": 0.007201137,
+				"Z": -1.6737593
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -353.39972,
+				"Y": 14.550173,
+				"Z": 503.9571
+			},
+			"Timestamp": 1720666418,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 79459,
+			"Restrictor": 0,
+			"Sectors": [
+				21990,
+				28476,
+				28993
+			],
+			"Timestamp": 1720665219,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 82219,
+			"Restrictor": 0,
+			"Sectors": [
+				21730,
+				30420,
+				30069
+			],
+			"Timestamp": 1720665222,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 85735,
+			"Restrictor": 0,
+			"Sectors": [
+				23505,
+				28215,
+				34015
+			],
+			"Timestamp": 1720665225,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 86986,
+			"Restrictor": 0,
+			"Sectors": [
+				24886,
+				33071,
+				29029
+			],
+			"Timestamp": 1720665227,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 93341,
+			"Restrictor": 0,
+			"Sectors": [
+				32362,
+				30217,
+				30762
+			],
+			"Timestamp": 1720665233,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 104681,
+			"Restrictor": 0,
+			"Sectors": [
+				41470,
+				33628,
+				29583
+			],
+			"Timestamp": 1720665244,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 72001,
+			"Restrictor": 0,
+			"Sectors": [
+				15576,
+				27378,
+				29047
+			],
+			"Timestamp": 1720665291,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 78836,
+			"Restrictor": 0,
+			"Sectors": [
+				17709,
+				29929,
+				31198
+			],
+			"Timestamp": 1720665301,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 80965,
+			"Restrictor": 0,
+			"Sectors": [
+				16201,
+				29601,
+				35163
+			],
+			"Timestamp": 1720665308,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 73267,
+			"Restrictor": 0,
+			"Sectors": [
+				16635,
+				27701,
+				28931
+			],
+			"Timestamp": 1720665318,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 110147,
+			"Restrictor": 0,
+			"Sectors": [
+				53547,
+				27715,
+				28885
+			],
+			"Timestamp": 1720665336,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 102967,
+			"Restrictor": 0,
+			"Sectors": [
+				46784,
+				27968,
+				28215
+			],
+			"Timestamp": 1720665336,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 86244,
+			"Restrictor": 0,
+			"Sectors": [
+				15755,
+				27576,
+				42913
+			],
+			"Timestamp": 1720665377,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 78492,
+			"Restrictor": 0,
+			"Sectors": [
+				17427,
+				30946,
+				30119
+			],
+			"Timestamp": 1720665379,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 75822,
+			"Restrictor": 0,
+			"Sectors": [
+				16665,
+				28917,
+				30240
+			],
+			"Timestamp": 1720665383,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 72717,
+			"Restrictor": 0,
+			"Sectors": [
+				15638,
+				28170,
+				28909
+			],
+			"Timestamp": 1720665390,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 71570,
+			"Restrictor": 0,
+			"Sectors": [
+				15564,
+				27535,
+				28471
+			],
+			"Timestamp": 1720665407,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 71380,
+			"Restrictor": 0,
+			"Sectors": [
+				15332,
+				27779,
+				28269
+			],
+			"Timestamp": 1720665407,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 71918,
+			"Restrictor": 0,
+			"Sectors": [
+				15646,
+				27666,
+				28606
+			],
+			"Timestamp": 1720665449,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 74699,
+			"Restrictor": 0,
+			"Sectors": [
+				15992,
+				29116,
+				29591
+			],
+			"Timestamp": 1720665458,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 79731,
+			"Restrictor": 0,
+			"Sectors": [
+				17752,
+				30848,
+				31131
+			],
+			"Timestamp": 1720665459,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 71212,
+			"Restrictor": 0,
+			"Sectors": [
+				15840,
+				27251,
+				28121
+			],
+			"Timestamp": 1720665462,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 72023,
+			"Restrictor": 0,
+			"Sectors": [
+				15180,
+				28250,
+				28593
+			],
+			"Timestamp": 1720665479,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 73262,
+			"Restrictor": 0,
+			"Sectors": [
+				15289,
+				28742,
+				29231
+			],
+			"Timestamp": 1720665480,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 73020,
+			"Restrictor": 0,
+			"Sectors": [
+				15573,
+				28552,
+				28895
+			],
+			"Timestamp": 1720665522,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 74540,
+			"Restrictor": 0,
+			"Sectors": [
+				16014,
+				29142,
+				29384
+			],
+			"Timestamp": 1720665533,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 75591,
+			"Restrictor": 0,
+			"Sectors": [
+				16658,
+				29278,
+				29655
+			],
+			"Timestamp": 1720665534,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 73022,
+			"Restrictor": 0,
+			"Sectors": [
+				15431,
+				28170,
+				29421
+			],
+			"Timestamp": 1720665534,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70779,
+			"Restrictor": 0,
+			"Sectors": [
+				15532,
+				27324,
+				27923
+			],
+			"Timestamp": 1720665550,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70589,
+			"Restrictor": 0,
+			"Sectors": [
+				15320,
+				27082,
+				28187
+			],
+			"Timestamp": 1720665551,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 73975,
+			"Restrictor": 0,
+			"Sectors": [
+				15781,
+				27373,
+				30821
+			],
+			"Timestamp": 1720665596,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 73137,
+			"Restrictor": 0,
+			"Sectors": [
+				15555,
+				29547,
+				28035
+			],
+			"Timestamp": 1720665608,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 76394,
+			"Restrictor": 0,
+			"Sectors": [
+				16896,
+				30919,
+				28579
+			],
+			"Timestamp": 1720665609,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 79587,
+			"Restrictor": 0,
+			"Sectors": [
+				17833,
+				31901,
+				29853
+			],
+			"Timestamp": 1720665614,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70870,
+			"Restrictor": 0,
+			"Sectors": [
+				15138,
+				27328,
+				28404
+			],
+			"Timestamp": 1720665621,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70635,
+			"Restrictor": 0,
+			"Sectors": [
+				15366,
+				27225,
+				28044
+			],
+			"Timestamp": 1720665622,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 70871,
+			"Restrictor": 0,
+			"Sectors": [
+				15796,
+				27027,
+				28048
+			],
+			"Timestamp": 1720665667,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 71306,
+			"Restrictor": 0,
+			"Sectors": [
+				15583,
+				27400,
+				28323
+			],
+			"Timestamp": 1720665679,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 73830,
+			"Restrictor": 0,
+			"Sectors": [
+				15973,
+				28854,
+				29003
+			],
+			"Timestamp": 1720665683,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70610,
+			"Restrictor": 0,
+			"Sectors": [
+				15261,
+				27045,
+				28304
+			],
+			"Timestamp": 1720665692,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 77805,
+			"Restrictor": 0,
+			"Sectors": [
+				18422,
+				29440,
+				29943
+			],
+			"Timestamp": 1720665692,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70807,
+			"Restrictor": 0,
+			"Sectors": [
+				15146,
+				27567,
+				28094
+			],
+			"Timestamp": 1720665692,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 74990,
+			"Restrictor": 0,
+			"Sectors": [
+				18628,
+				27873,
+				28489
+			],
+			"Timestamp": 1720665742,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 71426,
+			"Restrictor": 0,
+			"Sectors": [
+				15707,
+				27108,
+				28611
+			],
+			"Timestamp": 1720665750,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 73745,
+			"Restrictor": 0,
+			"Sectors": [
+				16010,
+				28855,
+				28880
+			],
+			"Timestamp": 1720665757,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 74607,
+			"Restrictor": 0,
+			"Sectors": [
+				18262,
+				27724,
+				28621
+			],
+			"Timestamp": 1720665767,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 75522,
+			"Restrictor": 0,
+			"Sectors": [
+				20163,
+				27395,
+				27964
+			],
+			"Timestamp": 1720665767,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 77467,
+			"Restrictor": 0,
+			"Sectors": [
+				19021,
+				29407,
+				29039
+			],
+			"Timestamp": 1720665769,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 72691,
+			"Restrictor": 0,
+			"Sectors": [
+				15766,
+				28620,
+				28305
+			],
+			"Timestamp": 1720665815,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 71908,
+			"Restrictor": 0,
+			"Sectors": [
+				15541,
+				27909,
+				28458
+			],
+			"Timestamp": 1720665822,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 72116,
+			"Restrictor": 0,
+			"Sectors": [
+				15614,
+				28153,
+				28349
+			],
+			"Timestamp": 1720665839,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 72486,
+			"Restrictor": 0,
+			"Sectors": [
+				15569,
+				28247,
+				28670
+			],
+			"Timestamp": 1720665840,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 86096,
+			"Restrictor": 0,
+			"Sectors": [
+				15960,
+				30312,
+				39824
+			],
+			"Timestamp": 1720665843,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 76551,
+			"Restrictor": 0,
+			"Sectors": [
+				17304,
+				29821,
+				29426
+			],
+			"Timestamp": 1720665846,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 73202,
+			"Restrictor": 0,
+			"Sectors": [
+				15639,
+				29461,
+				28102
+			],
+			"Timestamp": 1720665888,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 71281,
+			"Restrictor": 0,
+			"Sectors": [
+				15391,
+				27135,
+				28755
+			],
+			"Timestamp": 1720665894,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70477,
+			"Restrictor": 0,
+			"Sectors": [
+				15311,
+				27109,
+				28057
+			],
+			"Timestamp": 1720665910,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70505,
+			"Restrictor": 0,
+			"Sectors": [
+				15304,
+				27090,
+				28111
+			],
+			"Timestamp": 1720665910,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 72831,
+			"Restrictor": 0,
+			"Sectors": [
+				15811,
+				28274,
+				28746
+			],
+			"Timestamp": 1720665916,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 76625,
+			"Restrictor": 0,
+			"Sectors": [
+				16758,
+				29996,
+				29871
+			],
+			"Timestamp": 1720665923,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 70014,
+			"Restrictor": 0,
+			"Sectors": [
+				15302,
+				26830,
+				27882
+			],
+			"Timestamp": 1720665958,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 70646,
+			"Restrictor": 0,
+			"Sectors": [
+				15274,
+				27207,
+				28165
+			],
+			"Timestamp": 1720665964,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70570,
+			"Restrictor": 0,
+			"Sectors": [
+				15211,
+				27171,
+				28188
+			],
+			"Timestamp": 1720665980,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70131,
+			"Restrictor": 0,
+			"Sectors": [
+				15163,
+				27202,
+				27766
+			],
+			"Timestamp": 1720665980,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 84307,
+			"Restrictor": 0,
+			"Sectors": [
+				22216,
+				32828,
+				29263
+			],
+			"Timestamp": 1720666000,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 72175,
+			"Restrictor": 0,
+			"Sectors": [
+				15628,
+				28314,
+				28233
+			],
+			"Timestamp": 1720666030,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 73731,
+			"Restrictor": 0,
+			"Sectors": [
+				15590,
+				30205,
+				27936
+			],
+			"Timestamp": 1720666038,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70615,
+			"Restrictor": 0,
+			"Sectors": [
+				15405,
+				27090,
+				28120
+			],
+			"Timestamp": 1720666051,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70712,
+			"Restrictor": 0,
+			"Sectors": [
+				15547,
+				27328,
+				27837
+			],
+			"Timestamp": 1720666051,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 158232,
+			"Restrictor": 0,
+			"Sectors": [
+				98409,
+				30176,
+				29647
+			],
+			"Timestamp": 1720666081,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 82337,
+			"Restrictor": 0,
+			"Sectors": [
+				19477,
+				29880,
+				32980
+			],
+			"Timestamp": 1720666082,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 71056,
+			"Restrictor": 0,
+			"Sectors": [
+				15629,
+				27032,
+				28395
+			],
+			"Timestamp": 1720666101,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 78138,
+			"Restrictor": 0,
+			"Sectors": [
+				15714,
+				26937,
+				35487
+			],
+			"Timestamp": 1720666116,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70651,
+			"Restrictor": 0,
+			"Sectors": [
+				15396,
+				26891,
+				28364
+			],
+			"Timestamp": 1720666121,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 71084,
+			"Restrictor": 0,
+			"Sectors": [
+				15514,
+				27045,
+				28525
+			],
+			"Timestamp": 1720666122,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 81301,
+			"Restrictor": 0,
+			"Sectors": [
+				16830,
+				34312,
+				30159
+			],
+			"Timestamp": 1720666162,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 83351,
+			"Restrictor": 0,
+			"Sectors": [
+				15793,
+				37210,
+				30348
+			],
+			"Timestamp": 1720666166,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 73094,
+			"Restrictor": 0,
+			"Sectors": [
+				15233,
+				29161,
+				28700
+			],
+			"Timestamp": 1720666174,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 70933,
+			"Restrictor": 0,
+			"Sectors": [
+				15714,
+				27305,
+				27914
+			],
+			"Timestamp": 1720666187,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70673,
+			"Restrictor": 0,
+			"Sectors": [
+				15319,
+				27040,
+				28314
+			],
+			"Timestamp": 1720666192,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70401,
+			"Restrictor": 0,
+			"Sectors": [
+				15343,
+				26892,
+				28166
+			],
+			"Timestamp": 1720666192,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 71760,
+			"Restrictor": 0,
+			"Sectors": [
+				15644,
+				27644,
+				28472
+			],
+			"Timestamp": 1720666246,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 83855,
+			"Restrictor": 0,
+			"Sectors": [
+				21801,
+				29582,
+				32472
+			],
+			"Timestamp": 1720666249,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 70214,
+			"Restrictor": 0,
+			"Sectors": [
+				15355,
+				26852,
+				28007
+			],
+			"Timestamp": 1720666257,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70315,
+			"Restrictor": 0,
+			"Sectors": [
+				15280,
+				26960,
+				28075
+			],
+			"Timestamp": 1720666262,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70208,
+			"Restrictor": 0,
+			"Sectors": [
+				15281,
+				26965,
+				27962
+			],
+			"Timestamp": 1720666263,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 71298,
+			"Restrictor": 0,
+			"Sectors": [
+				15740,
+				27252,
+				28306
+			],
+			"Timestamp": 1720666317,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 165506,
+			"Restrictor": 0,
+			"Sectors": [
+				104572,
+				30789,
+				30145
+			],
+			"Timestamp": 1720666328,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 79288,
+			"Restrictor": 0,
+			"Sectors": [
+				16495,
+				32598,
+				30195
+			],
+			"Timestamp": 1720666329,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 71742,
+			"Restrictor": 0,
+			"Sectors": [
+				15514,
+				27626,
+				28602
+			],
+			"Timestamp": 1720666329,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 70331,
+			"Restrictor": 0,
+			"Sectors": [
+				15441,
+				26792,
+				28098
+			],
+			"Timestamp": 1720666333,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70378,
+			"Restrictor": 0,
+			"Sectors": [
+				15464,
+				27068,
+				27846
+			],
+			"Timestamp": 1720666333,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"LapTime": 70870,
+			"Restrictor": 0,
+			"Sectors": [
+				15380,
+				26938,
+				28552
+			],
+			"Timestamp": 1720666388,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"LapTime": 75091,
+			"Restrictor": 0,
+			"Sectors": [
+				15524,
+				28495,
+				31072
+			],
+			"Timestamp": 1720666404,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 72048,
+			"Restrictor": 0,
+			"Sectors": [
+				15581,
+				27239,
+				29228
+			],
+			"Timestamp": 1720666405,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 74318,
+			"Restrictor": 0,
+			"Sectors": [
+				19027,
+				27248,
+				28043
+			],
+			"Timestamp": 1720666407,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"LapTime": 81173,
+			"Restrictor": 0,
+			"Sectors": [
+				16410,
+				30177,
+				34586
+			],
+			"Timestamp": 1720666409,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 87981,
+			"Restrictor": 0,
+			"Sectors": [
+				22537,
+				30110,
+				35334
+			],
+			"Timestamp": 1720666417,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 70014,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_f2004",
+			"DriverGuid": "76561199252363501",
+			"DriverName": "Money",
+			"Restrictor": 0,
+			"TotalTime": 1250328,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 7
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 70214,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_f2004",
+			"DriverGuid": "76561198097837380",
+			"DriverName": "zezima",
+			"Restrictor": 0,
+			"TotalTime": 1266092,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 70315,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_f2004",
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"Restrictor": 0,
+			"TotalTime": 1266836,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 70131,
+			"CarId": 3,
+			"CarModel": "ks_ferrari_f2004",
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"Restrictor": 0,
+			"TotalTime": 1269388,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 72831,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_f2004",
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"Restrictor": 0,
+			"TotalTime": 1278662,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 75591,
+			"CarId": 2,
+			"CarModel": "ks_ferrari_f2004",
+			"DriverGuid": "76561198380514715",
+			"DriverName": "woke",
+			"Restrictor": 0,
+			"TotalTime": 1270763,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "",
+	"TrackName": "interlagos",
+	"Type": "RACE",
+	"Date": "2024-07-11T02:54:00Z",
+	"SessionFile": "2024_7_11_2_54_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "05d7b2fc-38e0-4020-a822-4746f2e9ca63",
+	"RaceWeekendID": ""
+}

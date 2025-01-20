@@ -1,0 +1,836 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #09 Prema Orlen Team LM24",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 135,
+			"MaxPing": 340
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #09 Prema Orlen Team WEC",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 126,
+			"MaxPing": 269
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199230023715",
+				"GuidsList": [
+					"76561199230023715"
+				],
+				"Name": "ZeroToHero",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #09 Prema Orlen Team WEC",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 118,
+			"MaxPing": 139
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #41 Real Team by WRT WEC",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2023 #43 Inter Europol Competition AsLMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #05 Team Penske LM24",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #28 Idec Sport ELMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #30 Duqueine Engineering ELMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #28 Jota Sport LM24",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #47 Algarve Pro Racing LM24",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #34 Inter Europol Competition WEC",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #43 Inter Europol Competition ELMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #28 Idec Sport ELMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #39 Graff Racing LM24",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2023 #43 Inter Europol Competition AsLMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #22 United Autosport LM24",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #23 United Autosports WEC",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "yzd_oreca_07_2022",
+			"Restrictor": 0,
+			"Skin": "2022 #22 United Autosports ELMS",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199230023715",
+				"GuidsList": [
+					"76561199230023715"
+				],
+				"Name": "ZeroToHero",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 29.41096,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.90598327,
+				"Y": 0.062689304,
+				"Z": 2.4358277
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -130.00722,
+				"Y": 6.5822663,
+				"Z": 289.45844
+			},
+			"Timestamp": 1708549746,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 36.53868,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561199230023715",
+				"GuidsList": [
+					"76561199230023715"
+				],
+				"Name": "ZeroToHero",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9379626,
+				"Y": 0.030945212,
+				"Z": 0.47281668
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -129.99472,
+				"Y": 6.5508947,
+				"Z": 289.4437
+			},
+			"Timestamp": 1708549749,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199230023715",
+				"GuidsList": [
+					"76561199230023715"
+				],
+				"Name": "ZeroToHero",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 16.80221,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.6922154,
+				"Y": -0.13538733,
+				"Z": 2.5037382
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -132.43202,
+				"Y": 8.278193,
+				"Z": 381.06003
+			},
+			"Timestamp": 1708550166,
+			"AfterSessionEnd": false
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"LapTime": 89092,
+			"Restrictor": 0,
+			"Sectors": [
+				25246,
+				35100,
+				28746
+			],
+			"Timestamp": 1708549555,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 90064,
+			"Restrictor": 0,
+			"Sectors": [
+				25880,
+				34808,
+				29376
+			],
+			"Timestamp": 1708549556,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 81681,
+			"Restrictor": 0,
+			"Sectors": [
+				18397,
+				34744,
+				28540
+			],
+			"Timestamp": 1708549637,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"LapTime": 91234,
+			"Restrictor": 0,
+			"Sectors": [
+				19050,
+				35568,
+				36616
+			],
+			"Timestamp": 1708549646,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 83821,
+			"Restrictor": 0,
+			"Sectors": [
+				18553,
+				35041,
+				30227
+			],
+			"Timestamp": 1708549721,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"LapTime": 87904,
+			"Restrictor": 0,
+			"Sectors": [
+				19113,
+				40212,
+				28579
+			],
+			"Timestamp": 1708549734,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 104784,
+			"Restrictor": 0,
+			"Sectors": [
+				41612,
+				34362,
+				28810
+			],
+			"Timestamp": 1708549826,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"LapTime": 129246,
+			"Restrictor": 0,
+			"Sectors": [
+				29791,
+				40617,
+				58838
+			],
+			"Timestamp": 1708549863,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 81693,
+			"Restrictor": 0,
+			"Sectors": [
+				18679,
+				34447,
+				28567
+			],
+			"Timestamp": 1708549908,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"LapTime": 124425,
+			"Restrictor": 0,
+			"Sectors": [
+				60660,
+				35149,
+				28616
+			],
+			"Timestamp": 1708549987,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 81665,
+			"Restrictor": 0,
+			"Sectors": [
+				18513,
+				34631,
+				28521
+			],
+			"Timestamp": 1708549989,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 81088,
+			"Restrictor": 0,
+			"Sectors": [
+				18497,
+				34133,
+				28458
+			],
+			"Timestamp": 1708550070,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"LapTime": 88110,
+			"Restrictor": 0,
+			"Sectors": [
+				18783,
+				40409,
+				28918
+			],
+			"Timestamp": 1708550076,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 81095,
+			"Restrictor": 0,
+			"Sectors": [
+				18681,
+				34010,
+				28404
+			],
+			"Timestamp": 1708550151,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"LapTime": 82637,
+			"Restrictor": 0,
+			"Sectors": [
+				18467,
+				34866,
+				29304
+			],
+			"Timestamp": 1708550158,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 81088,
+			"CarId": 0,
+			"CarModel": "yzd_oreca_07_2022",
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"Restrictor": 0,
+			"TotalTime": 686380,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 82637,
+			"CarId": 2,
+			"CarModel": "yzd_oreca_07_2022",
+			"DriverGuid": "76561199230023715",
+			"DriverName": "ZeroToHero",
+			"Restrictor": 0,
+			"TotalTime": 693183,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "layout_gp",
+	"TrackName": "ks_red_bull_ring",
+	"Type": "RACE",
+	"Date": "2024-02-21T21:25:00Z",
+	"SessionFile": "2024_2_21_21_25_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "f0f61ae6-715a-4493-8f52-156619673a23",
+	"RaceWeekendID": ""
+}

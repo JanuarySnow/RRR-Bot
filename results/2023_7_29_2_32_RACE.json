@@ -1,0 +1,4689 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198022591022",
+				"GuidsList": [
+					"76561198022591022"
+				],
+				"Name": "Var",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "marc_vds_2013",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 48,
+			"MaxPing": 334
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561197985677070",
+				"GuidsList": [
+					"76561197985677070"
+				],
+				"Name": "RunningFish",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "15_racing_497",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 48,
+			"MaxPing": 73
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198154525124",
+				"GuidsList": [
+					"76561198154525124"
+				],
+				"Name": "Layton Davies",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_lamborghini_huracan_gt3",
+			"Restrictor": 0,
+			"Skin": "Racing_copper",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 52,
+			"MaxPing": 60
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198168321657",
+				"GuidsList": [
+					"76561198168321657"
+				],
+				"Name": "Roberto Iofalo",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 134,
+			"MaxPing": 168
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mercedes_amg_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_73",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 43,
+			"MaxPing": 110
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "kunosart_112",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 46,
+			"MaxPing": 257
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561197987640003",
+				"GuidsList": [
+					"76561197987640003",
+					"76561199093219431",
+					"76561197985677070"
+				],
+				"Name": "PandaSTii",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "ks_porsche_911_gt3_r_2016",
+			"Restrictor": 0,
+			"Skin": "00_gt3",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 34,
+			"MaxPing": 64
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198064986241",
+				"GuidsList": [
+					"76561198064986241"
+				],
+				"Name": "MrPritchard",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mclaren_mp412c_gt3",
+			"Restrictor": 0,
+			"Skin": "2013-Hexis_Racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 19,
+			"MaxPing": 21
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199304586703",
+				"GuidsList": [
+					"76561199304586703"
+				],
+				"Name": "Ariel Audubert",
+				"Nation": "ARG",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mercedes_sls_gt3",
+			"Restrictor": 0,
+			"Skin": "Kunos_zp_116",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 177,
+			"MaxPing": 213
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198306494859",
+				"GuidsList": [
+					"76561198306494859"
+				],
+				"Name": "kmsrocks1",
+				"Nation": "AME",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "walkenhorst_motorsport",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 30,
+			"MaxPing": 125
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198064986241",
+				"GuidsList": [
+					"76561198064986241"
+				],
+				"Name": "MrPritchard",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "11_racing_493",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 19,
+			"MaxPing": 23
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198071898321",
+				"GuidsList": [
+					"76561198071898321"
+				],
+				"Name": "Giga Kubica",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_lamborghini_huracan_gt3",
+			"Restrictor": 0,
+			"Skin": "Racing_Cinnabar",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 39,
+			"MaxPing": 45
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_65",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "Nissan_98",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 61,
+			"MaxPing": 1233
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "76561198048853718",
+				"GuidsList": [
+					"76561198048853718"
+				],
+				"Name": "DapperMKVI",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "00_rosso_scuderia",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561199217218975",
+				"GuidsList": [
+					"76561199217218975"
+				],
+				"Name": "bennettmj04",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mercedes_amg_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_74",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 80,
+			"MaxPing": 87
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561197960267366",
+				"GuidsList": [
+					"76561197960267366"
+				],
+				"Name": "sr0024",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "2t_96",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 91,
+			"MaxPing": 188
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198032737293",
+				"GuidsList": [
+					"76561198032737293"
+				],
+				"Name": "Sniper86",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "ks_porsche_911_gt3_r_2016",
+			"Restrictor": 0,
+			"Skin": "01_racing_912",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 131,
+			"MaxPing": 213
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mclaren_mp412c_gt3",
+			"Restrictor": 0,
+			"Skin": "2013-ART_GrandPrix",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mercedes_sls_gt3",
+			"Restrictor": 0,
+			"Skin": "kunos_zp_121",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "nismo_88",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 51,
+			"MaxPing": 93
+		}
+	],
+	"Events": [
+		{
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 2.2571483,
+			"OtherCarId": 20,
+			"OtherDriver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.986615,
+				"Y": 0.2557717,
+				"Z": 1.9455625
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -374.739,
+				"Y": -2.059544,
+				"Z": -82.92661
+			},
+			"Timestamp": 1690596594,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 20,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 1.0983875,
+			"OtherCarId": 13,
+			"OtherDriver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0138525,
+				"Y": 0.28465018,
+				"Z": -2.2293293
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -374.58972,
+				"Y": -2.0412416,
+				"Z": -83.323784
+			},
+			"Timestamp": 1690596594,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198032737293",
+				"GuidsList": [
+					"76561198032737293",
+					"76561198268163808"
+				],
+				"Name": "Sniper86",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.084445,
+			"OtherCarId": 10,
+			"OtherDriver": {
+				"Guid": "76561198064986241",
+				"GuidsList": [
+					"76561198064986241"
+				],
+				"Name": "MrPritchard",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.6741131,
+				"Y": -0.2362781,
+				"Z": -1.9404639
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 338.22308,
+				"Y": 30.694208,
+				"Z": -86.10822
+			},
+			"Timestamp": 1690596653,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199304586703",
+				"GuidsList": [
+					"76561199304586703"
+				],
+				"Name": "Ariel Audubert",
+				"Nation": "ARG",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 37.087326,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.7672195,
+				"Y": -0.3228596,
+				"Z": 2.2531977
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 345.2468,
+				"Y": 18.732243,
+				"Z": -185.98914
+			},
+			"Timestamp": 1690596654,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198064986241",
+				"GuidsList": [
+					"76561198064986241"
+				],
+				"Name": "MrPritchard",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.537998,
+			"OtherCarId": 17,
+			"OtherDriver": {
+				"Guid": "76561198032737293",
+				"GuidsList": [
+					"76561198032737293"
+				],
+				"Name": "Sniper86",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.35605955,
+				"Y": -0.23113072,
+				"Z": 2.5742998
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 338.09988,
+				"Y": 30.687551,
+				"Z": -86.1881
+			},
+			"Timestamp": 1690596655,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198071898321",
+				"GuidsList": [
+					"76561198071898321"
+				],
+				"Name": "Giga Kubica",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 8.470903,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.40322146,
+				"Y": -0.30495095,
+				"Z": 2.5949721
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 89.91884,
+				"Y": -5.136568,
+				"Z": -278.78433
+			},
+			"Timestamp": 1690596756,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199304586703",
+				"GuidsList": [
+					"76561199304586703"
+				],
+				"Name": "Ariel Audubert",
+				"Nation": "ARG",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 12.219654,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9718954,
+				"Y": -0.3140318,
+				"Z": 2.0709665
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -205.68753,
+				"Y": -15.546386,
+				"Z": -70.62801
+			},
+			"Timestamp": 1690596809,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198064986241",
+				"GuidsList": [
+					"76561198064986241"
+				],
+				"Name": "MrPritchard",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 19.077078,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.33920544,
+				"Y": -0.20325491,
+				"Z": 2.5779614
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 99.12141,
+				"Y": -4.435146,
+				"Z": -281.0884
+			},
+			"Timestamp": 1690596840,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198168321657",
+				"GuidsList": [
+					"76561198168321657"
+				],
+				"Name": "Roberto Iofalo",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.6774545,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9985994,
+				"Y": 0.7532586,
+				"Z": -2.0160644
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -46.80109,
+				"Y": -14.33314,
+				"Z": 119.71105
+			},
+			"Timestamp": 1690596884,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198071898321",
+				"GuidsList": [
+					"76561198071898321"
+				],
+				"Name": "Giga Kubica",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.595646,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0136696,
+				"Y": -0.3043971,
+				"Z": 2.1190152
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 100.19654,
+				"Y": -4.241841,
+				"Z": -215.68037
+			},
+			"Timestamp": 1690596946,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198071898321",
+				"GuidsList": [
+					"76561198071898321"
+				],
+				"Name": "Giga Kubica",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.3252454,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9224418,
+				"Y": 0.7745012,
+				"Z": -2.1017125
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 90.607254,
+				"Y": -3.674518,
+				"Z": -210.95071
+			},
+			"Timestamp": 1690596951,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198168321657",
+				"GuidsList": [
+					"76561198168321657"
+				],
+				"Name": "Roberto Iofalo",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.88386,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.72006,
+				"Y": -0.18952157,
+				"Z": 2.3994198
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 40.811417,
+				"Y": -8.797847,
+				"Z": -268.70502
+			},
+			"Timestamp": 1690597104,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 20,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 28.789326,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.48244193,
+				"Y": -0.33157367,
+				"Z": 2.1842268
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 335.68362,
+				"Y": 21.931921,
+				"Z": -144.182
+			},
+			"Timestamp": 1690597174,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 20,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 33.443558,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.33089024,
+				"Y": -0.23226506,
+				"Z": -2.486653
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 314.01337,
+				"Y": 18.61022,
+				"Z": -180.99377
+			},
+			"Timestamp": 1690597179,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 28.280827,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.71406144,
+				"Y": -0.2566361,
+				"Z": 2.3526318
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 75.16767,
+				"Y": -3.7459323,
+				"Z": 456.0369
+			},
+			"Timestamp": 1690597329,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 39.89602,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0355669,
+				"Y": 0.97954404,
+				"Z": -2.6120195
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 333.1738,
+				"Y": 8.747452,
+				"Z": 347.68738
+			},
+			"Timestamp": 1690597477,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198071898321",
+				"GuidsList": [
+					"76561198071898321"
+				],
+				"Name": "Giga Kubica",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 17.902578,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.40322387,
+				"Y": -0.30495295,
+				"Z": 2.594964
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 327.6609,
+				"Y": 33.068474,
+				"Z": -70.374115
+			},
+			"Timestamp": 1690597592,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198032737293",
+				"GuidsList": [
+					"76561198268163808",
+					"76561198032737293"
+				],
+				"Name": "Sniper86",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 71.570465,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.014585,
+				"Y": -0.26438218,
+				"Z": 2.4345675
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 331.05176,
+				"Y": 7.11465,
+				"Z": 352.0949
+			},
+			"Timestamp": 1690597619,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198032737293",
+				"GuidsList": [
+					"76561198032737293",
+					"76561198268163808"
+				],
+				"Name": "Sniper86",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 34.575737,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.048327204,
+				"Y": -0.25758272,
+				"Z": 2.2636452
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 331.1321,
+				"Y": 7.126435,
+				"Z": 351.92886
+			},
+			"Timestamp": 1690597624,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198071898321",
+				"GuidsList": [
+					"76561198071898321"
+				],
+				"Name": "Giga Kubica",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 60.090652,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.3670833,
+				"Y": -0.29795247,
+				"Z": 2.5609777
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 338.50674,
+				"Y": 8.762562,
+				"Z": 333.5889
+			},
+			"Timestamp": 1690597702,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198306494859",
+				"GuidsList": [
+					"76561198306494859",
+					"76561198103373944"
+				],
+				"Name": "kmsrocks1",
+				"Nation": "AME",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 55.411404,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.7214073,
+				"Y": -0.30749786,
+				"Z": 1.9799333
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 380.4759,
+				"Y": 12.700174,
+				"Z": 310.22598
+			},
+			"Timestamp": 1690597705,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198022591022",
+				"GuidsList": [
+					"76561198022591022"
+				],
+				"Name": "Var",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 106.70704,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.1732948,
+				"Y": -0.2908809,
+				"Z": -2.1589859
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -401.02057,
+				"Y": -10.709928,
+				"Z": 151.79305
+			},
+			"Timestamp": 1690597799,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 102.29708,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198022591022",
+				"GuidsList": [
+					"76561198022591022"
+				],
+				"Name": "Var",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.1672171,
+				"Y": 0.101140134,
+				"Z": 2.0713675
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -400.88947,
+				"Y": -10.32677,
+				"Z": 151.90517
+			},
+			"Timestamp": 1690597802,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198168321657",
+				"GuidsList": [
+					"76561198168321657"
+				],
+				"Name": "Roberto Iofalo",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.871306,
+			"OtherCarId": 13,
+			"OtherDriver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.50730455,
+				"Y": -0.037150998,
+				"Z": 2.4672217
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 32.871067,
+				"Y": -7.986669,
+				"Z": -244.35892
+			},
+			"Timestamp": 1690597804,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.409289,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198168321657",
+				"GuidsList": [
+					"76561198168321657"
+				],
+				"Name": "Roberto Iofalo",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.65188545,
+				"Y": -0.23346685,
+				"Z": -2.4844398
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 33.247116,
+				"Y": -8.125744,
+				"Z": -244.02652
+			},
+			"Timestamp": 1690597804,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198022591022",
+				"GuidsList": [
+					"76561198022591022"
+				],
+				"Name": "Var",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.005011,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0308443,
+				"Y": -0.3199624,
+				"Z": 1.5353425
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -419.7392,
+				"Y": -10.079235,
+				"Z": 212.57536
+			},
+			"Timestamp": 1690597804,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198306494859",
+				"GuidsList": [
+					"76561198306494859",
+					"76561198103373944"
+				],
+				"Name": "kmsrocks1",
+				"Nation": "AME",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 91.43391,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5223815,
+				"Y": -0.19632187,
+				"Z": 1.9803652
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -414.71014,
+				"Y": -2.1239567,
+				"Z": -32.267365
+			},
+			"Timestamp": 1690597845,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.4202385,
+			"OtherCarId": 20,
+			"OtherDriver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.7460574,
+				"Y": -0.28146887,
+				"Z": 2.1741729
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -379.7844,
+				"Y": -13.210282,
+				"Z": 228.18495
+			},
+			"Timestamp": 1690597864,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 20,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.9303813,
+			"OtherCarId": 13,
+			"OtherDriver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.810591,
+				"Y": -0.33304238,
+				"Z": 2.1354914
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -379.78424,
+				"Y": -13.226867,
+				"Z": 228.18697
+			},
+			"Timestamp": 1690597864,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 0.425348,
+			"OtherCarId": 20,
+			"OtherDriver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.7473891,
+				"Y": -0.29810175,
+				"Z": 2.1790752
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -379.77524,
+				"Y": -13.231217,
+				"Z": 228.19891
+			},
+			"Timestamp": 1690597869,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 20,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 0.09132591,
+			"OtherCarId": 13,
+			"OtherDriver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.864176,
+				"Y": -0.3323283,
+				"Z": 2.0900574
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -379.77496,
+				"Y": -13.228717,
+				"Z": 228.19807
+			},
+			"Timestamp": 1690597869,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 2.0894296,
+			"OtherCarId": 20,
+			"OtherDriver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.74745524,
+				"Y": -0.2960221,
+				"Z": 2.179215
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -379.77487,
+				"Y": -13.231336,
+				"Z": 228.19868
+			},
+			"Timestamp": 1690597874,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 94278,
+			"Restrictor": 0,
+			"Sectors": [
+				40394,
+				28103,
+				25781
+			],
+			"Timestamp": 1690596674,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 94318,
+			"Restrictor": 0,
+			"Sectors": [
+				39801,
+				28385,
+				26132
+			],
+			"Timestamp": 1690596674,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 95117,
+			"Restrictor": 0,
+			"Sectors": [
+				41414,
+				28688,
+				25015
+			],
+			"Timestamp": 1690596675,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 95738,
+			"Restrictor": 0,
+			"Sectors": [
+				40960,
+				29632,
+				25146
+			],
+			"Timestamp": 1690596675,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 96569,
+			"Restrictor": 0,
+			"Sectors": [
+				42605,
+				28526,
+				25438
+			],
+			"Timestamp": 1690596676,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 96690,
+			"Restrictor": 0,
+			"Sectors": [
+				43117,
+				28656,
+				24917
+			],
+			"Timestamp": 1690596676,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 100615,
+			"Restrictor": 0,
+			"Sectors": [
+				44302,
+				30335,
+				25978
+			],
+			"Timestamp": 1690596680,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 100744,
+			"Restrictor": 0,
+			"Sectors": [
+				44571,
+				29699,
+				26474
+			],
+			"Timestamp": 1690596680,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 106889,
+			"Restrictor": 0,
+			"Sectors": [
+				43782,
+				35261,
+				27846
+			],
+			"Timestamp": 1690596686,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 110717,
+			"Restrictor": 0,
+			"Sectors": [
+				43443,
+				29195,
+				38079
+			],
+			"Timestamp": 1690596690,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198154525124",
+			"DriverName": "Layton Davies",
+			"LapTime": 135170,
+			"Restrictor": 0,
+			"Sectors": [
+				57753,
+				42255,
+				35162
+			],
+			"Timestamp": 1690596715,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 109266,
+			"Restrictor": 0,
+			"Sectors": [
+				50617,
+				30258,
+				28391
+			],
+			"Timestamp": 1690596733,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 87389,
+			"Restrictor": 0,
+			"Sectors": [
+				34375,
+				28453,
+				24561
+			],
+			"Timestamp": 1690596761,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 86605,
+			"Restrictor": 0,
+			"Sectors": [
+				33253,
+				28813,
+				24539
+			],
+			"Timestamp": 1690596762,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 88531,
+			"Restrictor": 0,
+			"Sectors": [
+				33978,
+				29133,
+				25420
+			],
+			"Timestamp": 1690596763,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 87457,
+			"Restrictor": 0,
+			"Sectors": [
+				33299,
+				29242,
+				24916
+			],
+			"Timestamp": 1690596764,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 90410,
+			"Restrictor": 0,
+			"Sectors": [
+				35065,
+				30064,
+				25281
+			],
+			"Timestamp": 1690596764,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 91046,
+			"Restrictor": 0,
+			"Sectors": [
+				33563,
+				32036,
+				25447
+			],
+			"Timestamp": 1690596767,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 87764,
+			"Restrictor": 0,
+			"Sectors": [
+				34071,
+				28817,
+				24876
+			],
+			"Timestamp": 1690596768,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 88225,
+			"Restrictor": 0,
+			"Sectors": [
+				33712,
+				28827,
+				25686
+			],
+			"Timestamp": 1690596775,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 91258,
+			"Restrictor": 0,
+			"Sectors": [
+				34729,
+				29983,
+				26546
+			],
+			"Timestamp": 1690596781,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 104054,
+			"Restrictor": 0,
+			"Sectors": [
+				33711,
+				29159,
+				41184
+			],
+			"Timestamp": 1690596784,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198154525124",
+			"DriverName": "Layton Davies",
+			"LapTime": 102107,
+			"Restrictor": 0,
+			"Sectors": [
+				37771,
+				35757,
+				28579
+			],
+			"Timestamp": 1690596817,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 107856,
+			"Restrictor": 0,
+			"Sectors": [
+				38807,
+				42112,
+				26937
+			],
+			"Timestamp": 1690596841,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 85435,
+			"Restrictor": 0,
+			"Sectors": [
+				33298,
+				27824,
+				24313
+			],
+			"Timestamp": 1690596847,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 86090,
+			"Restrictor": 0,
+			"Sectors": [
+				32882,
+				28422,
+				24786
+			],
+			"Timestamp": 1690596848,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 86059,
+			"Restrictor": 0,
+			"Sectors": [
+				33153,
+				28142,
+				24764
+			],
+			"Timestamp": 1690596849,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 87806,
+			"Restrictor": 0,
+			"Sectors": [
+				34630,
+				28255,
+				24921
+			],
+			"Timestamp": 1690596852,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 86807,
+			"Restrictor": 0,
+			"Sectors": [
+				33289,
+				28404,
+				25114
+			],
+			"Timestamp": 1690596854,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 91113,
+			"Restrictor": 0,
+			"Sectors": [
+				35763,
+				29060,
+				26290
+			],
+			"Timestamp": 1690596855,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 86540,
+			"Restrictor": 0,
+			"Sectors": [
+				32927,
+				28540,
+				25073
+			],
+			"Timestamp": 1690596861,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 101459,
+			"Restrictor": 0,
+			"Sectors": [
+				33896,
+				28323,
+				39240
+			],
+			"Timestamp": 1690596869,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 87496,
+			"Restrictor": 0,
+			"Sectors": [
+				32960,
+				29242,
+				25294
+			],
+			"Timestamp": 1690596872,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 102214,
+			"Restrictor": 0,
+			"Sectors": [
+				45932,
+				29718,
+				26564
+			],
+			"Timestamp": 1690596884,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 84907,
+			"Restrictor": 0,
+			"Sectors": [
+				32469,
+				27900,
+				24538
+			],
+			"Timestamp": 1690596931,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 92794,
+			"Restrictor": 0,
+			"Sectors": [
+				35757,
+				29267,
+				27770
+			],
+			"Timestamp": 1690596934,
+			"Tyre": "M",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 86504,
+			"Restrictor": 0,
+			"Sectors": [
+				32788,
+				28350,
+				25366
+			],
+			"Timestamp": 1690596936,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 85080,
+			"Restrictor": 0,
+			"Sectors": [
+				32583,
+				27630,
+				24867
+			],
+			"Timestamp": 1690596937,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 86434,
+			"Restrictor": 0,
+			"Sectors": [
+				32987,
+				27851,
+				25596
+			],
+			"Timestamp": 1690596940,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 86503,
+			"Restrictor": 0,
+			"Sectors": [
+				33169,
+				28228,
+				25106
+			],
+			"Timestamp": 1690596941,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 94710,
+			"Restrictor": 0,
+			"Sectors": [
+				41366,
+				28652,
+				24692
+			],
+			"Timestamp": 1690596943,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 87316,
+			"Restrictor": 0,
+			"Sectors": [
+				33118,
+				28845,
+				25353
+			],
+			"Timestamp": 1690596948,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 93337,
+			"Restrictor": 0,
+			"Sectors": [
+				38730,
+				28907,
+				25700
+			],
+			"Timestamp": 1690596963,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 90640,
+			"Restrictor": 0,
+			"Sectors": [
+				34655,
+				28917,
+				27068
+			],
+			"Timestamp": 1690596974,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 105670,
+			"Restrictor": 0,
+			"Sectors": [
+				34313,
+				30762,
+				40595
+			],
+			"Timestamp": 1690596977,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 84722,
+			"Restrictor": 0,
+			"Sectors": [
+				32343,
+				27629,
+				24750
+			],
+			"Timestamp": 1690597016,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 86443,
+			"Restrictor": 0,
+			"Sectors": [
+				32997,
+				28282,
+				25164
+			],
+			"Timestamp": 1690597022,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 86085,
+			"Restrictor": 0,
+			"Sectors": [
+				33147,
+				27693,
+				25245
+			],
+			"Timestamp": 1690597023,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 86512,
+			"Restrictor": 0,
+			"Sectors": [
+				32912,
+				28908,
+				24692
+			],
+			"Timestamp": 1690597029,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 89051,
+			"Restrictor": 0,
+			"Sectors": [
+				35042,
+				29421,
+				24588
+			],
+			"Timestamp": 1690597029,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 88966,
+			"Restrictor": 0,
+			"Sectors": [
+				33904,
+				30289,
+				24773
+			],
+			"Timestamp": 1690597030,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 89308,
+			"Restrictor": 0,
+			"Sectors": [
+				33616,
+				30429,
+				25263
+			],
+			"Timestamp": 1690597038,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 90078,
+			"Restrictor": 0,
+			"Sectors": [
+				33027,
+				31576,
+				25475
+			],
+			"Timestamp": 1690597053,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 89862,
+			"Restrictor": 0,
+			"Sectors": [
+				34376,
+				28882,
+				26604
+			],
+			"Timestamp": 1690597064,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 89749,
+			"Restrictor": 0,
+			"Sectors": [
+				33161,
+				29593,
+				26995
+			],
+			"Timestamp": 1690597067,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 84972,
+			"Restrictor": 0,
+			"Sectors": [
+				32128,
+				27477,
+				25367
+			],
+			"Timestamp": 1690597101,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 87323,
+			"Restrictor": 0,
+			"Sectors": [
+				32765,
+				28954,
+				25604
+			],
+			"Timestamp": 1690597109,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 86418,
+			"Restrictor": 0,
+			"Sectors": [
+				32652,
+				28214,
+				25552
+			],
+			"Timestamp": 1690597110,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 86617,
+			"Restrictor": 0,
+			"Sectors": [
+				33117,
+				28462,
+				25038
+			],
+			"Timestamp": 1690597117,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 89467,
+			"Restrictor": 0,
+			"Sectors": [
+				35237,
+				28742,
+				25488
+			],
+			"Timestamp": 1690597119,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 111426,
+			"Restrictor": 0,
+			"Sectors": [
+				57749,
+				28054,
+				25623
+			],
+			"Timestamp": 1690597122,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 87261,
+			"Restrictor": 0,
+			"Sectors": [
+				32739,
+				28952,
+				25570
+			],
+			"Timestamp": 1690597125,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 99028,
+			"Restrictor": 0,
+			"Sectors": [
+				32667,
+				27854,
+				38507
+			],
+			"Timestamp": 1690597128,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 88794,
+			"Restrictor": 0,
+			"Sectors": [
+				35005,
+				28651,
+				25138
+			],
+			"Timestamp": 1690597142,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 89281,
+			"Restrictor": 0,
+			"Sectors": [
+				33791,
+				29561,
+				25929
+			],
+			"Timestamp": 1690597156,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 93825,
+			"Restrictor": 0,
+			"Sectors": [
+				35513,
+				30295,
+				28017
+			],
+			"Timestamp": 1690597158,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 85518,
+			"Restrictor": 0,
+			"Sectors": [
+				32498,
+				28328,
+				24692
+			],
+			"Timestamp": 1690597187,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 86836,
+			"Restrictor": 0,
+			"Sectors": [
+				33020,
+				28477,
+				25339
+			],
+			"Timestamp": 1690597196,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 86486,
+			"Restrictor": 0,
+			"Sectors": [
+				32991,
+				28682,
+				24813
+			],
+			"Timestamp": 1690597203,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 88332,
+			"Restrictor": 0,
+			"Sectors": [
+				34296,
+				28714,
+				25322
+			],
+			"Timestamp": 1690597207,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 88348,
+			"Restrictor": 0,
+			"Sectors": [
+				33263,
+				30070,
+				25015
+			],
+			"Timestamp": 1690597210,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 86562,
+			"Restrictor": 0,
+			"Sectors": [
+				32751,
+				28768,
+				25043
+			],
+			"Timestamp": 1690597212,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 1,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 104241,
+			"Restrictor": 0,
+			"Sectors": [
+				32906,
+				32895,
+				38440
+			],
+			"Timestamp": 1690597214,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 86266,
+			"Restrictor": 0,
+			"Sectors": [
+				32981,
+				28000,
+				25285
+			],
+			"Timestamp": 1690597214,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 97069,
+			"Restrictor": 0,
+			"Sectors": [
+				33407,
+				29062,
+				34600
+			],
+			"Timestamp": 1690597239,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 90350,
+			"Restrictor": 0,
+			"Sectors": [
+				33484,
+				30335,
+				26531
+			],
+			"Timestamp": 1690597248,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 94276,
+			"Restrictor": 0,
+			"Sectors": [
+				33116,
+				35510,
+				25650
+			],
+			"Timestamp": 1690597251,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 85040,
+			"Restrictor": 0,
+			"Sectors": [
+				32760,
+				27962,
+				24318
+			],
+			"Timestamp": 1690597272,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 86000,
+			"Restrictor": 0,
+			"Sectors": [
+				33063,
+				27702,
+				25235
+			],
+			"Timestamp": 1690597282,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 87676,
+			"Restrictor": 0,
+			"Sectors": [
+				33010,
+				28696,
+				25970
+			],
+			"Timestamp": 1690597291,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 87133,
+			"Restrictor": 0,
+			"Sectors": [
+				32894,
+				28846,
+				25393
+			],
+			"Timestamp": 1690597299,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 89376,
+			"Restrictor": 0,
+			"Sectors": [
+				33135,
+				30883,
+				25358
+			],
+			"Timestamp": 1690597299,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 86333,
+			"Restrictor": 0,
+			"Sectors": [
+				32770,
+				28400,
+				25163
+			],
+			"Timestamp": 1690597301,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 87430,
+			"Restrictor": 0,
+			"Sectors": [
+				33034,
+				28408,
+				25988
+			],
+			"Timestamp": 1690597301,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 92526,
+			"Restrictor": 0,
+			"Sectors": [
+				33324,
+				28718,
+				30484
+			],
+			"Timestamp": 1690597331,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 129744,
+			"Restrictor": 0,
+			"Sectors": [
+				32683,
+				40091,
+				56970
+			],
+			"Timestamp": 1690597337,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 88102,
+			"Restrictor": 0,
+			"Sectors": [
+				33711,
+				28656,
+				25735
+			],
+			"Timestamp": 1690597339,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"Cuts": 1,
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"LapTime": 98408,
+			"Restrictor": 0,
+			"Sectors": [
+				33762,
+				31005,
+				33641
+			],
+			"Timestamp": 1690597347,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 84665,
+			"Restrictor": 0,
+			"Sectors": [
+				32294,
+				27738,
+				24633
+			],
+			"Timestamp": 1690597356,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 98733,
+			"Restrictor": 0,
+			"Sectors": [
+				32641,
+				40311,
+				25781
+			],
+			"Timestamp": 1690597381,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 91409,
+			"Restrictor": 0,
+			"Sectors": [
+				32784,
+				28570,
+				30055
+			],
+			"Timestamp": 1690597382,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 85597,
+			"Restrictor": 0,
+			"Sectors": [
+				32610,
+				28003,
+				24984
+			],
+			"Timestamp": 1690597386,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 87426,
+			"Restrictor": 0,
+			"Sectors": [
+				32858,
+				28612,
+				25956
+			],
+			"Timestamp": 1690597387,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 88637,
+			"Restrictor": 0,
+			"Sectors": [
+				33171,
+				28485,
+				26981
+			],
+			"Timestamp": 1690597387,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 86756,
+			"Restrictor": 0,
+			"Sectors": [
+				32856,
+				28651,
+				25249
+			],
+			"Timestamp": 1690597388,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 87795,
+			"Restrictor": 0,
+			"Sectors": [
+				34704,
+				28538,
+				24553
+			],
+			"Timestamp": 1690597419,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 91588,
+			"Restrictor": 0,
+			"Sectors": [
+				37241,
+				29255,
+				25092
+			],
+			"Timestamp": 1690597428,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 90824,
+			"Restrictor": 0,
+			"Sectors": [
+				33580,
+				31307,
+				25937
+			],
+			"Timestamp": 1690597430,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 84454,
+			"Restrictor": 0,
+			"Sectors": [
+				32452,
+				27580,
+				24422
+			],
+			"Timestamp": 1690597441,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 86193,
+			"Restrictor": 0,
+			"Sectors": [
+				33178,
+				28076,
+				24939
+			],
+			"Timestamp": 1690597467,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 86920,
+			"Restrictor": 0,
+			"Sectors": [
+				33105,
+				28835,
+				24980
+			],
+			"Timestamp": 1690597469,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 86523,
+			"Restrictor": 0,
+			"Sectors": [
+				32923,
+				28845,
+				24755
+			],
+			"Timestamp": 1690597473,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 87141,
+			"Restrictor": 0,
+			"Sectors": [
+				32942,
+				28936,
+				25263
+			],
+			"Timestamp": 1690597474,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 88317,
+			"Restrictor": 0,
+			"Sectors": [
+				32840,
+				30155,
+				25322
+			],
+			"Timestamp": 1690597475,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 103341,
+			"Restrictor": 0,
+			"Sectors": [
+				33158,
+				44658,
+				25525
+			],
+			"Timestamp": 1690597491,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 86890,
+			"Restrictor": 0,
+			"Sectors": [
+				33934,
+				28157,
+				24799
+			],
+			"Timestamp": 1690597506,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 90070,
+			"Restrictor": 0,
+			"Sectors": [
+				34562,
+				29871,
+				25637
+			],
+			"Timestamp": 1690597520,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 93470,
+			"Restrictor": 0,
+			"Sectors": [
+				32684,
+				34619,
+				26167
+			],
+			"Timestamp": 1690597522,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 85056,
+			"Restrictor": 0,
+			"Sectors": [
+				32280,
+				28359,
+				24417
+			],
+			"Timestamp": 1690597526,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 86004,
+			"Restrictor": 0,
+			"Sectors": [
+				32895,
+				27931,
+				25178
+			],
+			"Timestamp": 1690597553,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 86914,
+			"Restrictor": 0,
+			"Sectors": [
+				33683,
+				28499,
+				24732
+			],
+			"Timestamp": 1690597556,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 85086,
+			"Restrictor": 0,
+			"Sectors": [
+				32255,
+				27964,
+				24867
+			],
+			"Timestamp": 1690597558,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"Cuts": 0,
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"LapTime": 87497,
+			"Restrictor": 0,
+			"Sectors": [
+				33893,
+				28450,
+				25154
+			],
+			"Timestamp": 1690597562,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 87340,
+			"Restrictor": 0,
+			"Sectors": [
+				33826,
+				28831,
+				24683
+			],
+			"Timestamp": 1690597562,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 86665,
+			"Restrictor": 0,
+			"Sectors": [
+				33322,
+				28139,
+				25204
+			],
+			"Timestamp": 1690597578,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 96027,
+			"Restrictor": 0,
+			"Sectors": [
+				32235,
+				35594,
+				28198
+			],
+			"Timestamp": 1690597602,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 86058,
+			"Restrictor": 0,
+			"Sectors": [
+				32881,
+				28273,
+				24904
+			],
+			"Timestamp": 1690597612,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 95916,
+			"Restrictor": 0,
+			"Sectors": [
+				34909,
+				35996,
+				25011
+			],
+			"Timestamp": 1690597618,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 86606,
+			"Restrictor": 0,
+			"Sectors": [
+				33462,
+				28224,
+				24920
+			],
+			"Timestamp": 1690597640,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 86833,
+			"Restrictor": 0,
+			"Sectors": [
+				33274,
+				28458,
+				25101
+			],
+			"Timestamp": 1690597643,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 86885,
+			"Restrictor": 0,
+			"Sectors": [
+				32557,
+				28395,
+				25933
+			],
+			"Timestamp": 1690597645,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 127437,
+			"Restrictor": 0,
+			"Sectors": [
+				33306,
+				66689,
+				27442
+			],
+			"Timestamp": 1690597647,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 86518,
+			"Restrictor": 0,
+			"Sectors": [
+				33035,
+				28432,
+				25051
+			],
+			"Timestamp": 1690597649,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 87081,
+			"Restrictor": 0,
+			"Sectors": [
+				33738,
+				28214,
+				25129
+			],
+			"Timestamp": 1690597665,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 86130,
+			"Restrictor": 0,
+			"Sectors": [
+				32980,
+				28273,
+				24877
+			],
+			"Timestamp": 1690597688,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 86179,
+			"Restrictor": 0,
+			"Sectors": [
+				32525,
+				28855,
+				24799
+			],
+			"Timestamp": 1690597698,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 87520,
+			"Restrictor": 0,
+			"Sectors": [
+				33200,
+				28890,
+				25430
+			],
+			"Timestamp": 1690597705,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 85925,
+			"Restrictor": 0,
+			"Sectors": [
+				32960,
+				28049,
+				24916
+			],
+			"Timestamp": 1690597726,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 86455,
+			"Restrictor": 0,
+			"Sectors": [
+				32567,
+				28450,
+				25438
+			],
+			"Timestamp": 1690597729,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 85043,
+			"Restrictor": 0,
+			"Sectors": [
+				32519,
+				27703,
+				24821
+			],
+			"Timestamp": 1690597730,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 99393,
+			"Restrictor": 0,
+			"Sectors": [
+				34313,
+				39888,
+				25192
+			],
+			"Timestamp": 1690597748,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 89248,
+			"Restrictor": 0,
+			"Sectors": [
+				33142,
+				30011,
+				26095
+			],
+			"Timestamp": 1690597754,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 114020,
+			"Restrictor": 0,
+			"Sectors": [
+				36540,
+				51470,
+				26010
+			],
+			"Timestamp": 1690597761,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 87637,
+			"Restrictor": 0,
+			"Sectors": [
+				32611,
+				30001,
+				25025
+			],
+			"Timestamp": 1690597776,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"LapTime": 86248,
+			"Restrictor": 0,
+			"Sectors": [
+				33414,
+				28174,
+				24660
+			],
+			"Timestamp": 1690597784,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 85910,
+			"Restrictor": 0,
+			"Sectors": [
+				32442,
+				28475,
+				24993
+			],
+			"Timestamp": 1690597791,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 85565,
+			"Restrictor": 0,
+			"Sectors": [
+				32789,
+				27820,
+				24956
+			],
+			"Timestamp": 1690597811,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 93844,
+			"Restrictor": 0,
+			"Sectors": [
+				33044,
+				28387,
+				32413
+			],
+			"Timestamp": 1690597823,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"LapTime": 94619,
+			"Restrictor": 0,
+			"Sectors": [
+				33060,
+				28250,
+				33309
+			],
+			"Timestamp": 1690597825,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"LapTime": 90841,
+			"Restrictor": 0,
+			"Sectors": [
+				36499,
+				29214,
+				25128
+			],
+			"Timestamp": 1690597839,
+			"Tyre": "S",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 87260,
+			"Restrictor": 0,
+			"Sectors": [
+				32918,
+				28593,
+				25749
+			],
+			"Timestamp": 1690597841,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"LapTime": 91627,
+			"Restrictor": 0,
+			"Sectors": [
+				34706,
+				30978,
+				25943
+			],
+			"Timestamp": 1690597853,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"LapTime": 91320,
+			"Restrictor": 0,
+			"Sectors": [
+				33260,
+				32329,
+				25731
+			],
+			"Timestamp": 1690597867,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 84454,
+			"CarId": 0,
+			"CarModel": "bmw_z4_gt3",
+			"DriverGuid": "76561198022591022",
+			"DriverName": "Var",
+			"Restrictor": 0,
+			"TotalTime": 1204840,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 85080,
+			"CarId": 4,
+			"CarModel": "ks_mercedes_amg_gt3",
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"Restrictor": 0,
+			"TotalTime": 1231939,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 86455,
+			"CarId": 13,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"Restrictor": 0,
+			"TotalTime": 1243829,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 85043,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"DriverGuid": "76561198168321657",
+			"DriverName": "Roberto Iofalo",
+			"Restrictor": 0,
+			"TotalTime": 1244967,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 86059,
+			"CarId": 20,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"Restrictor": 0,
+			"TotalTime": 1261967,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 7
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 86130,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_488_gt3",
+			"DriverGuid": "76561198064986241",
+			"DriverName": "MrPritchard",
+			"Restrictor": 0,
+			"TotalTime": 1287549,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 16
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 85910,
+			"CarId": 5,
+			"CarModel": "ks_nissan_gtr_gt3",
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"Restrictor": 0,
+			"TotalTime": 1211806,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 87496,
+			"CarId": 11,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"DriverGuid": "76561198071898321",
+			"DriverName": "Giga Kubica",
+			"Restrictor": 0,
+			"TotalTime": 1273190,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 9
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 86518,
+			"CarId": 9,
+			"CarModel": "bmw_z4_gt3",
+			"DriverGuid": "76561198306494859",
+			"DriverName": "kmsrocks1",
+			"Restrictor": 0,
+			"TotalTime": 1259612,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 6
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 86540,
+			"CarId": 17,
+			"CarModel": "ks_porsche_911_gt3_r_2016",
+			"DriverGuid": "76561198032737293",
+			"DriverName": "Sniper86",
+			"Restrictor": 0,
+			"TotalTime": 982411,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 8
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 89862,
+			"CarId": 8,
+			"CarModel": "mercedes_sls_gt3",
+			"DriverGuid": "76561199304586703",
+			"DriverName": "Ariel Audubert",
+			"Restrictor": 0,
+			"TotalTime": 767155,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 13
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 102107,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"DriverGuid": "76561198154525124",
+			"DriverName": "Layton Davies",
+			"Restrictor": 0,
+			"TotalTime": 237247,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 12
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "",
+	"TrackName": "ks_laguna_seca",
+	"Type": "RACE",
+	"Date": "2023-07-29T02:32:00Z",
+	"SessionFile": "2023_7_29_2_32_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 1,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "e5606368-50c9-41ee-a39a-7cc518edf59c",
+	"RaceWeekendID": ""
+}

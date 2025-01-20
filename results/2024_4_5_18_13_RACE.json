@@ -1,0 +1,983 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199012298123",
+				"GuidsList": [
+					"76561199012298123"
+				],
+				"Name": "Masum",
+				"Nation": "OTH",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#18Kyle_Busch",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 277,
+			"MaxPing": 293
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199028559487",
+				"GuidsList": [
+					"76561199028559487"
+				],
+				"Name": "Moon Shiner",
+				"Nation": "USA",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#19Martin_Truex__Jr",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 59,
+			"MaxPing": 338
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#33Austin_Cindric",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198022238743",
+				"GuidsList": [
+					"76561198022238743"
+				],
+				"Name": "jazzmonkai",
+				"Nation": "PLA",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#11Denny_Hamlin",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 122,
+			"MaxPing": 145
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#9_Bill_Elliot",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 77,
+			"MaxPing": 85
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#4Kevin_Harvick_Atlanta",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#23Bubba_Wallace",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 137,
+			"MaxPing": 156
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#24William_Byron",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#12Ryan_Blaney",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#10Aric_Almirola",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#16Kaz_Grala",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#16Kaz_Grala",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#99Daniel_Suarez",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#10Aric_Almirola",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#00Quin_Houff",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#96Ty_Dillon",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#22Joey_Logano",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#8Tyler_Reddick",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#10Aric_Almirola",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#96Ty_Dillon",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#96Ty_Dillon",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 21,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_toyota_s",
+			"Restrictor": 0,
+			"Skin": "#20Christopher_Bell",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 22,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_camaro_s",
+			"Restrictor": 0,
+			"Skin": "#37Ryan_Preece",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 23,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "fsr_ford_mustang_s",
+			"Restrictor": 0,
+			"Skin": "#34Michael_McDowell",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199028559487",
+				"GuidsList": [
+					"76561199028559487"
+				],
+				"Name": "Moon Shiner",
+				"Nation": "USA",
+				"Team": ""
+			},
+			"ImpactSpeed": 4.0996513,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"RelPosition": {
+				"X": -1.0206198,
+				"Y": -0.36800736,
+				"Z": 1.7188957
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -205.7153,
+				"Y": 3.2553988,
+				"Z": -10.024948
+			},
+			"Timestamp": 1712340299,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198022238743",
+				"GuidsList": [
+					"76561198022238743"
+				],
+				"Name": "jazzmonkai",
+				"Nation": "PLA",
+				"Team": ""
+			},
+			"ImpactSpeed": 49.520275,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"RelPosition": {
+				"X": 0.9041297,
+				"Y": 0.6833103,
+				"Z": -2.219936
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 523.756,
+				"Y": 5.8045144,
+				"Z": -501.21002
+			},
+			"Timestamp": 1712340320,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198022238743",
+				"GuidsList": [
+					"76561198022238743"
+				],
+				"Name": "jazzmonkai",
+				"Nation": "PLA",
+				"Team": ""
+			},
+			"ImpactSpeed": 13.575283,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"RelPosition": {
+				"X": -0.8980617,
+				"Y": -0.33611017,
+				"Z": -1.9418261
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 610.08307,
+				"Y": 6.692943,
+				"Z": -185.57849
+			},
+			"Timestamp": 1712340365,
+			"AfterSessionEnd": false
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 96670,
+			"Restrictor": 0,
+			"Sectors": [
+				68194,
+				13752,
+				14724
+			],
+			"Timestamp": 1712340176,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 41171,
+			"Restrictor": 0,
+			"Sectors": [
+				13263,
+				13491,
+				14417
+			],
+			"Timestamp": 1712340217,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 40957,
+			"Restrictor": 0,
+			"Sectors": [
+				13097,
+				13410,
+				14450
+			],
+			"Timestamp": 1712340258,
+			"Tyre": "S",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 41477,
+			"Restrictor": 0,
+			"Sectors": [
+				13006,
+				13928,
+				14543
+			],
+			"Timestamp": 1712340299,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 41317,
+			"Restrictor": 0,
+			"Sectors": [
+				13232,
+				13446,
+				14639
+			],
+			"Timestamp": 1712340341,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198022238743",
+			"DriverName": "jazzmonkai",
+			"LapTime": 87900,
+			"Restrictor": 0,
+			"Sectors": [
+				51710,
+				21439,
+				14751
+			],
+			"Timestamp": 1712340353,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 41550,
+			"Restrictor": 0,
+			"Sectors": [
+				13420,
+				13612,
+				14518
+			],
+			"Timestamp": 1712340382,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198022238743",
+			"DriverName": "jazzmonkai",
+			"LapTime": 41728,
+			"Restrictor": 0,
+			"Sectors": [
+				13401,
+				13423,
+				14904
+			],
+			"Timestamp": 1712340395,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 41193,
+			"Restrictor": 0,
+			"Sectors": [
+				13166,
+				13500,
+				14527
+			],
+			"Timestamp": 1712340423,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198022238743",
+			"DriverName": "jazzmonkai",
+			"LapTime": 44776,
+			"Restrictor": 0,
+			"Sectors": [
+				13807,
+				15763,
+				15206
+			],
+			"Timestamp": 1712340440,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 40995,
+			"Restrictor": 0,
+			"Sectors": [
+				13279,
+				13401,
+				14315
+			],
+			"Timestamp": 1712340464,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198022238743",
+			"DriverName": "jazzmonkai",
+			"LapTime": 40906,
+			"Restrictor": 0,
+			"Sectors": [
+				13145,
+				13429,
+				14332
+			],
+			"Timestamp": 1712340481,
+			"Tyre": "S",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 41265,
+			"Restrictor": 0,
+			"Sectors": [
+				13230,
+				13621,
+				14414
+			],
+			"Timestamp": 1712340506,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 62987,
+			"Restrictor": 0,
+			"Sectors": [
+				34638,
+				13922,
+				14427
+			],
+			"Timestamp": 1712340530,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198022238743",
+			"DriverName": "jazzmonkai",
+			"LapTime": 49254,
+			"Restrictor": 0,
+			"Sectors": [
+				13020,
+				13491,
+				22743
+			],
+			"Timestamp": 1712340530,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"LapTime": 54400,
+			"Restrictor": 0,
+			"Sectors": [
+				25843,
+				13819,
+				14738
+			],
+			"Timestamp": 1712340560,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 41142,
+			"Restrictor": 0,
+			"Sectors": [
+				13260,
+				13513,
+				14369
+			],
+			"Timestamp": 1712340571,
+			"Tyre": "S",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "fsr_toyota_s",
+			"Cuts": 0,
+			"DriverGuid": "76561198022238743",
+			"DriverName": "jazzmonkai",
+			"LapTime": 169010,
+			"Restrictor": 0,
+			"Sectors": [
+				139049,
+				15552,
+				14409
+			],
+			"Timestamp": 1712340699,
+			"Tyre": "S",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 40957,
+			"CarId": 1,
+			"CarModel": "fsr_toyota_s",
+			"DriverGuid": "76561199028559487",
+			"DriverName": "Moon Shiner",
+			"Restrictor": 0,
+			"TotalTime": 1252200,
+			"NumLaps": 10,
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"GridPosition": 1,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 40906,
+			"CarId": 3,
+			"CarModel": "fsr_toyota_s",
+			"DriverGuid": "76561198022238743",
+			"DriverName": "jazzmonkai",
+			"Restrictor": 0,
+			"TotalTime": 1390920,
+			"NumLaps": 6,
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"GridPosition": 5,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 41142,
+			"CarId": 6,
+			"CarModel": "fsr_toyota_s",
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"Restrictor": 0,
+			"TotalTime": 1262952,
+			"NumLaps": 2,
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"GridPosition": 7,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "superspeedway",
+	"TrackName": "auto_club_speedway",
+	"Type": "RACE",
+	"Date": "2024-04-05T18:13:10.375184963Z",
+	"SessionFile": "2024_4_5_18_13_RACE.json",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 1,
+		"wait_time": 30,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "",
+	"RaceWeekendID": ""
+}

@@ -1,0 +1,2204 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561197981500982",
+				"GuidsList": [
+					"76561197981500982"
+				],
+				"Name": "Donut",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "03_cup_24",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"MinPing": 47,
+			"MaxPing": 83
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "11_cup_61",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"MinPing": 49,
+			"MaxPing": 96
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198048853718",
+				"GuidsList": [
+					"76561198048853718"
+				],
+				"Name": "DapperMKVI",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "15_speedsource_71",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"MinPing": 38,
+			"MaxPing": 86
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198002378355",
+				"GuidsList": [
+					"76561198002378355"
+				],
+				"Name": "Locket Rauncher",
+				"Nation": "CHR",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "06_cup_55",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"MinPing": 32,
+			"MaxPing": 51
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198986985192",
+				"GuidsList": [
+					"76561198986985192"
+				],
+				"Name": "Shane Rose",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "10_cup_60",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"MinPing": 30,
+			"MaxPing": 38
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "12_cup_62",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"MinPing": 41,
+			"MaxPing": 66
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199099992032",
+				"GuidsList": [
+					"76561199099992032"
+				],
+				"Name": "Carlife",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Restrictor": 0,
+			"Skin": "00_official",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"MinPing": 32,
+			"MaxPing": 58
+		}
+	],
+	"Events": [
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198986985192",
+				"GuidsList": [
+					"76561198986985192"
+				],
+				"Name": "Shane Rose",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 12.014915,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198048853718",
+				"GuidsList": [
+					"76561198048853718"
+				],
+				"Name": "DapperMKVI",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": 0.83971405,
+				"Y": -0.02267553,
+				"Z": 1.4505847
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -60.30829,
+				"Y": 2.3205721,
+				"Z": 400.16245
+			},
+			"Timestamp": 1681697907,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198986985192",
+				"GuidsList": [
+					"76561198986985192"
+				],
+				"Name": "Shane Rose",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 26.412214,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.49043941,
+				"Y": 0.059221998,
+				"Z": 1.796287
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -80.81227,
+				"Y": 4.7112727,
+				"Z": 376.01547
+			},
+			"Timestamp": 1681697907,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198048853718",
+				"GuidsList": [
+					"76561198048853718"
+				],
+				"Name": "DapperMKVI",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 19.482428,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198986985192",
+				"GuidsList": [
+					"76561198986985192"
+				],
+				"Name": "Shane Rose",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.83776116,
+				"Y": 0.05060428,
+				"Z": 1.441056
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -75.398155,
+				"Y": 3.9000797,
+				"Z": 392.13904
+			},
+			"Timestamp": 1681697907,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199099992032",
+				"GuidsList": [
+					"76561199099992032"
+				],
+				"Name": "Carlife",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 2.0616663,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": 0.8584825,
+				"Y": 0.09678984,
+				"Z": 1.4342102
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -590.46155,
+				"Y": 51.0174,
+				"Z": -370.20212
+			},
+			"Timestamp": 1681697934,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 11.839066,
+			"OtherCarId": 6,
+			"OtherDriver": {
+				"Guid": "76561199099992032",
+				"GuidsList": [
+					"76561199099992032"
+				],
+				"Name": "Carlife",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.8404159,
+				"Y": 0.05215933,
+				"Z": 0.46632546
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -600.8065,
+				"Y": 48.73953,
+				"Z": -353.50955
+			},
+			"Timestamp": 1681697934,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 31.104166,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": 0.38809943,
+				"Y": 0.046359144,
+				"Z": -2.054959
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 638.5042,
+				"Y": 1.224409,
+				"Z": 69.15922
+			},
+			"Timestamp": 1681698118,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 30.37789,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.4115321,
+				"Y": 0.059242245,
+				"Z": 1.8032585
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 638.75854,
+				"Y": 1.2274178,
+				"Z": 69.32543
+			},
+			"Timestamp": 1681698119,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561197981500982",
+				"GuidsList": [
+					"76561197981500982"
+				],
+				"Name": "Donut",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 36.772556,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.79526013,
+				"Y": -0.3145039,
+				"Z": 1.4905062
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -90.51642,
+				"Y": 5.4572306,
+				"Z": 344.58545
+			},
+			"Timestamp": 1681698169,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199099992032",
+				"GuidsList": [
+					"76561199099992032"
+				],
+				"Name": "Carlife",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 8.265551,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": 0.858463,
+				"Y": 0.09678922,
+				"Z": 1.4341983
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -530.9295,
+				"Y": 34.528934,
+				"Z": -259.911
+			},
+			"Timestamp": 1681699169,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 96.553215,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": 0.5486374,
+				"Y": 0.065161966,
+				"Z": 1.7390323
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 142.18987,
+				"Y": -10.378366,
+				"Z": 350.13843
+			},
+			"Timestamp": 1681699174,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 82.960594,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.49766198,
+				"Y": -0.2640662,
+				"Z": -1.6766689
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 141.46985,
+				"Y": -10.676033,
+				"Z": 350.28885
+			},
+			"Timestamp": 1681699178,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 39.210197,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": 0.49044198,
+				"Y": 0.059221424,
+				"Z": 1.7962888
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 130.32982,
+				"Y": -9.785832,
+				"Z": 359.77216
+			},
+			"Timestamp": 1681699178,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Faquadsquads",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 13.550057,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": 0.0000020440812,
+				"Y": 0.059222043,
+				"Z": 1.840582
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 93.40813,
+				"Y": -8.32489,
+				"Z": 370.4792
+			},
+			"Timestamp": 1681699179,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198048853718",
+				"GuidsList": [
+					"76561198048853718"
+				],
+				"Name": "DapperMKVI",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 68.13012,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.8584824,
+				"Y": 0.09678995,
+				"Z": 1.434197
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 63.348763,
+				"Y": -7.091388,
+				"Z": 370.86636
+			},
+			"Timestamp": 1681699193,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198126444169",
+				"GuidsList": [
+					"76561198126444169"
+				],
+				"Name": "Jacques L.",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"ImpactSpeed": 72.0862,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561198048853718",
+				"GuidsList": [
+					"76561198048853718"
+				],
+				"Name": "DapperMKVI",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1"
+			},
+			"RelPosition": {
+				"X": -0.5491505,
+				"Y": 0.08772817,
+				"Z": -1.945266
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 63.29805,
+				"Y": -7.096925,
+				"Z": 370.8593
+			},
+			"Timestamp": 1681699193,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 120515,
+			"Restrictor": 0,
+			"Sectors": [
+				33593,
+				46310,
+				40612
+			],
+			"Timestamp": 1681698010,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 123794,
+			"Restrictor": 0,
+			"Sectors": [
+				37728,
+				46808,
+				39258
+			],
+			"Timestamp": 1681698013,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 123852,
+			"Restrictor": 0,
+			"Sectors": [
+				37073,
+				46746,
+				40033
+			],
+			"Timestamp": 1681698013,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 125076,
+			"Restrictor": 0,
+			"Sectors": [
+				37843,
+				47614,
+				39619
+			],
+			"Timestamp": 1681698014,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 126147,
+			"Restrictor": 0,
+			"Sectors": [
+				37632,
+				48464,
+				40051
+			],
+			"Timestamp": 1681698015,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 131532,
+			"Restrictor": 0,
+			"Sectors": [
+				45847,
+				46413,
+				39272
+			],
+			"Timestamp": 1681698021,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197981500982",
+			"DriverName": "Donut",
+			"LapTime": 145543,
+			"Restrictor": 0,
+			"Sectors": [
+				38699,
+				52056,
+				54788
+			],
+			"Timestamp": 1681698035,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 111764,
+			"Restrictor": 0,
+			"Sectors": [
+				26795,
+				45631,
+				39338
+			],
+			"Timestamp": 1681698121,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 110892,
+			"Restrictor": 0,
+			"Sectors": [
+				26467,
+				45212,
+				39213
+			],
+			"Timestamp": 1681698124,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 115317,
+			"Restrictor": 0,
+			"Sectors": [
+				27126,
+				48158,
+				40033
+			],
+			"Timestamp": 1681698136,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 121985,
+			"Restrictor": 0,
+			"Sectors": [
+				27216,
+				46948,
+				47821
+			],
+			"Timestamp": 1681698137,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 123727,
+			"Restrictor": 0,
+			"Sectors": [
+				26828,
+				47277,
+				49622
+			],
+			"Timestamp": 1681698138,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 129285,
+			"Restrictor": 0,
+			"Sectors": [
+				28079,
+				47903,
+				53303
+			],
+			"Timestamp": 1681698142,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561197981500982",
+			"DriverName": "Donut",
+			"LapTime": 120592,
+			"Restrictor": 0,
+			"Sectors": [
+				28410,
+				48708,
+				43474
+			],
+			"Timestamp": 1681698155,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 112039,
+			"Restrictor": 0,
+			"Sectors": [
+				26836,
+				45490,
+				39713
+			],
+			"Timestamp": 1681698233,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 111415,
+			"Restrictor": 0,
+			"Sectors": [
+				26351,
+				45176,
+				39888
+			],
+			"Timestamp": 1681698235,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 111838,
+			"Restrictor": 0,
+			"Sectors": [
+				26784,
+				45980,
+				39074
+			],
+			"Timestamp": 1681698248,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 115139,
+			"Restrictor": 0,
+			"Sectors": [
+				27300,
+				46507,
+				41332
+			],
+			"Timestamp": 1681698252,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 114728,
+			"Restrictor": 0,
+			"Sectors": [
+				26844,
+				46683,
+				41201
+			],
+			"Timestamp": 1681698253,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 113431,
+			"Restrictor": 0,
+			"Sectors": [
+				26806,
+				46751,
+				39874
+			],
+			"Timestamp": 1681698256,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 111561,
+			"Restrictor": 0,
+			"Sectors": [
+				26483,
+				45289,
+				39789
+			],
+			"Timestamp": 1681698345,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 110751,
+			"Restrictor": 0,
+			"Sectors": [
+				26268,
+				45103,
+				39380
+			],
+			"Timestamp": 1681698346,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 113221,
+			"Restrictor": 0,
+			"Sectors": [
+				26943,
+				47173,
+				39105
+			],
+			"Timestamp": 1681698361,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 113992,
+			"Restrictor": 0,
+			"Sectors": [
+				27722,
+				46747,
+				39523
+			],
+			"Timestamp": 1681698367,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 115058,
+			"Restrictor": 0,
+			"Sectors": [
+				27884,
+				47295,
+				39879
+			],
+			"Timestamp": 1681698367,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 116074,
+			"Restrictor": 0,
+			"Sectors": [
+				28211,
+				46972,
+				40891
+			],
+			"Timestamp": 1681698372,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 112288,
+			"Restrictor": 0,
+			"Sectors": [
+				26243,
+				46175,
+				39870
+			],
+			"Timestamp": 1681698458,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 113364,
+			"Restrictor": 0,
+			"Sectors": [
+				26774,
+				45990,
+				40600
+			],
+			"Timestamp": 1681698458,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 111317,
+			"Restrictor": 0,
+			"Sectors": [
+				26547,
+				45769,
+				39001
+			],
+			"Timestamp": 1681698472,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 111614,
+			"Restrictor": 0,
+			"Sectors": [
+				27123,
+				45396,
+				39095
+			],
+			"Timestamp": 1681698478,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 113042,
+			"Restrictor": 0,
+			"Sectors": [
+				26678,
+				46441,
+				39923
+			],
+			"Timestamp": 1681698480,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 114625,
+			"Restrictor": 0,
+			"Sectors": [
+				26934,
+				47429,
+				40262
+			],
+			"Timestamp": 1681698486,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 111579,
+			"Restrictor": 0,
+			"Sectors": [
+				26731,
+				45302,
+				39546
+			],
+			"Timestamp": 1681698570,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 112639,
+			"Restrictor": 0,
+			"Sectors": [
+				27238,
+				45954,
+				39447
+			],
+			"Timestamp": 1681698571,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 117317,
+			"Restrictor": 0,
+			"Sectors": [
+				27227,
+				51031,
+				39059
+			],
+			"Timestamp": 1681698590,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 112142,
+			"Restrictor": 0,
+			"Sectors": [
+				26647,
+				46152,
+				39343
+			],
+			"Timestamp": 1681698590,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 112953,
+			"Restrictor": 0,
+			"Sectors": [
+				27412,
+				46341,
+				39200
+			],
+			"Timestamp": 1681698593,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 112951,
+			"Restrictor": 0,
+			"Sectors": [
+				26618,
+				46220,
+				40113
+			],
+			"Timestamp": 1681698599,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 111149,
+			"Restrictor": 0,
+			"Sectors": [
+				26837,
+				44883,
+				39429
+			],
+			"Timestamp": 1681698681,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 111704,
+			"Restrictor": 0,
+			"Sectors": [
+				26515,
+				45841,
+				39348
+			],
+			"Timestamp": 1681698683,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 111463,
+			"Restrictor": 0,
+			"Sectors": [
+				26692,
+				45833,
+				38938
+			],
+			"Timestamp": 1681698701,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 112089,
+			"Restrictor": 0,
+			"Sectors": [
+				26971,
+				45923,
+				39195
+			],
+			"Timestamp": 1681698702,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 112735,
+			"Restrictor": 0,
+			"Sectors": [
+				26645,
+				46432,
+				39658
+			],
+			"Timestamp": 1681698712,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 125216,
+			"Restrictor": 0,
+			"Sectors": [
+				28588,
+				55571,
+				41057
+			],
+			"Timestamp": 1681698719,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 111157,
+			"Restrictor": 0,
+			"Sectors": [
+				26764,
+				45342,
+				39051
+			],
+			"Timestamp": 1681698792,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 112026,
+			"Restrictor": 0,
+			"Sectors": [
+				26485,
+				45724,
+				39817
+			],
+			"Timestamp": 1681698795,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 112006,
+			"Restrictor": 0,
+			"Sectors": [
+				26394,
+				45611,
+				40001
+			],
+			"Timestamp": 1681698813,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 118781,
+			"Restrictor": 0,
+			"Sectors": [
+				33925,
+				45819,
+				39037
+			],
+			"Timestamp": 1681698821,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 112668,
+			"Restrictor": 0,
+			"Sectors": [
+				26519,
+				46463,
+				39686
+			],
+			"Timestamp": 1681698825,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 112363,
+			"Restrictor": 0,
+			"Sectors": [
+				27012,
+				46259,
+				39092
+			],
+			"Timestamp": 1681698831,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 111893,
+			"Restrictor": 0,
+			"Sectors": [
+				26313,
+				46169,
+				39411
+			],
+			"Timestamp": 1681698904,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 111019,
+			"Restrictor": 0,
+			"Sectors": [
+				26262,
+				45396,
+				39361
+			],
+			"Timestamp": 1681698906,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 111241,
+			"Restrictor": 0,
+			"Sectors": [
+				26614,
+				45868,
+				38759
+			],
+			"Timestamp": 1681698924,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 113589,
+			"Restrictor": 0,
+			"Sectors": [
+				26568,
+				46179,
+				40842
+			],
+			"Timestamp": 1681698938,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 113072,
+			"Restrictor": 0,
+			"Sectors": [
+				26803,
+				46305,
+				39964
+			],
+			"Timestamp": 1681698944,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 136910,
+			"Restrictor": 0,
+			"Sectors": [
+				38810,
+				46855,
+				51245
+			],
+			"Timestamp": 1681698958,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 111162,
+			"Restrictor": 0,
+			"Sectors": [
+				26463,
+				45337,
+				39362
+			],
+			"Timestamp": 1681699015,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 110876,
+			"Restrictor": 0,
+			"Sectors": [
+				26443,
+				44928,
+				39505
+			],
+			"Timestamp": 1681699017,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 112910,
+			"Restrictor": 0,
+			"Sectors": [
+				27033,
+				45953,
+				39924
+			],
+			"Timestamp": 1681699037,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 113449,
+			"Restrictor": 0,
+			"Sectors": [
+				26657,
+				46724,
+				40068
+			],
+			"Timestamp": 1681699052,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 114249,
+			"Restrictor": 0,
+			"Sectors": [
+				27183,
+				47191,
+				39875
+			],
+			"Timestamp": 1681699058,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 113029,
+			"Restrictor": 0,
+			"Sectors": [
+				26674,
+				45594,
+				40761
+			],
+			"Timestamp": 1681699071,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"LapTime": 112859,
+			"Restrictor": 0,
+			"Sectors": [
+				26568,
+				45877,
+				40414
+			],
+			"Timestamp": 1681699128,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"LapTime": 112547,
+			"Restrictor": 0,
+			"Sectors": [
+				26287,
+				46634,
+				39626
+			],
+			"Timestamp": 1681699129,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"LapTime": 114158,
+			"Restrictor": 0,
+			"Sectors": [
+				26984,
+				47039,
+				40135
+			],
+			"Timestamp": 1681699151,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"LapTime": 117744,
+			"Restrictor": 0,
+			"Sectors": [
+				26592,
+				45850,
+				45302
+			],
+			"Timestamp": 1681699170,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"LapTime": 113912,
+			"Restrictor": 0,
+			"Sectors": [
+				26747,
+				46994,
+				40171
+			],
+			"Timestamp": 1681699172,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Cuts": 0,
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"LapTime": 113198,
+			"Restrictor": 0,
+			"Sectors": [
+				26907,
+				46260,
+				40031
+			],
+			"Timestamp": 1681699184,
+			"Tyre": "H",
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 110751,
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561199099992032",
+			"DriverName": "Carlife",
+			"Restrictor": 0,
+			"TotalTime": 1238905,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 110876,
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561198002378355",
+			"DriverName": "Locket Rauncher",
+			"Restrictor": 0,
+			"TotalTime": 1240018,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 111241,
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561198986985192",
+			"DriverName": "Shane Rose",
+			"Restrictor": 0,
+			"TotalTime": 1262278,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 112668,
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561198126444169",
+			"DriverName": "Jacques L.",
+			"Restrictor": 0,
+			"TotalTime": 1280372,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"GridPosition": 6
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 112363,
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Faquadsquads",
+			"Restrictor": 0,
+			"TotalTime": 1283075,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 111614,
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561198048853718",
+			"DriverName": "DapperMKVI",
+			"Restrictor": 0,
+			"TotalTime": 1295230,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 120592,
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"DriverGuid": "76561197981500982",
+			"DriverName": "Donut",
+			"Restrictor": 0,
+			"TotalTime": 266104,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "e20c4e79-a11c-4870-9aa6-c489a32fc3e1",
+			"GridPosition": 7
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "layout_gp",
+	"TrackName": "ks_red_bull_ring",
+	"Type": "RACE",
+	"Date": "2023-04-17T02:41:00Z",
+	"SessionFile": "2023_4_17_2_41_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 1,
+		"wait_time": 120,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "40244bcd-61e9-4df4-b990-06e518176f72",
+	"RaceWeekendID": ""
+}

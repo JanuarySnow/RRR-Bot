@@ -1,0 +1,5236 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "C43_77_Bottas",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"MinPing": 21,
+			"MaxPing": 47
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561199067501114",
+				"GuidsList": [
+					"76561199067501114"
+				],
+				"Name": "Mitch Mueller",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "10_ascar_77",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "03_lightning_17",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"MinPing": 24,
+			"MaxPing": 38
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "VF23_20_Magnussen",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"MinPing": 76,
+			"MaxPing": 116
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198324221515",
+				"GuidsList": [
+					"76561198324221515"
+				],
+				"Name": "Owen Silber",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "01_scuderia_15",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"MinPing": 76,
+			"MaxPing": 91
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "AMR23_14_Alonso",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"MinPing": 22,
+			"MaxPing": 32
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "RB19_1_Verstappen",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"MinPing": 26,
+			"MaxPing": 38
+		}
+	],
+	"Events": [
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 15.465054,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.987012,
+				"Y": 0.1937259,
+				"Z": 1.6404487
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -372.22882,
+				"Y": 2.548098,
+				"Z": 204.92717
+			},
+			"Timestamp": 1680228411,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 20.448368,
+			"OtherCarId": 6,
+			"OtherDriver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.80068254,
+				"Y": -0.21816632,
+				"Z": 0.22463737
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -372.6359,
+				"Y": 2.1491137,
+				"Z": 204.46582
+			},
+			"Timestamp": 1680228412,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 6.641496,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0036888,
+				"Y": -0.2037626,
+				"Z": 2.9636726
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -292.57712,
+				"Y": 3.045108,
+				"Z": -855.75336
+			},
+			"Timestamp": 1680228444,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 70.84848,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.9932618,
+				"Y": 0.4739842,
+				"Z": -1.9714893
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -167.73636,
+				"Y": 3.5225172,
+				"Z": -877.5244
+			},
+			"Timestamp": 1680228449,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 30.324945,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.9932961,
+				"Y": 0.47398445,
+				"Z": -1.9715171
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -120.99785,
+				"Y": 3.9424732,
+				"Z": -813.6264
+			},
+			"Timestamp": 1680228454,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 34.368248,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.0037097,
+				"Y": -0.20376219,
+				"Z": 2.9637234
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -66.04386,
+				"Y": 3.3167186,
+				"Z": -809.3264
+			},
+			"Timestamp": 1680228464,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 90.54632,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.0036882,
+				"Y": -0.20376275,
+				"Z": 2.963694
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 478.5,
+				"Y": 3.7559783,
+				"Z": 241.48392
+			},
+			"Timestamp": 1680228466,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 0.21320793,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0036974,
+				"Y": -0.20376265,
+				"Z": 2.963694
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -62.416092,
+				"Y": 3.3666413,
+				"Z": -808.5654
+			},
+			"Timestamp": 1680228469,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 34.769722,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.0036861,
+				"Y": -0.20376216,
+				"Z": 2.9636955
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -249.22794,
+				"Y": 2.6349678,
+				"Z": -862.9955
+			},
+			"Timestamp": 1680228546,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 17.338781,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0037109,
+				"Y": -0.20376262,
+				"Z": 2.9636803
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 568.1729,
+				"Y": 3.5569386,
+				"Z": 353.83746
+			},
+			"Timestamp": 1680228570,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198324221515",
+				"GuidsList": [
+					"76561198324221515"
+				],
+				"Name": "Owen Silber",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 152.95132,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.48711142,
+				"Y": -0.17189795,
+				"Z": 3.07942
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 494.8424,
+				"Y": 2.927284,
+				"Z": 327.63345
+			},
+			"Timestamp": 1680228634,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198324221515",
+				"GuidsList": [
+					"76561198324221515"
+				],
+				"Name": "Owen Silber",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 57.29736,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.95896167,
+				"Y": -0.20029122,
+				"Z": 2.8444233
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 495.30676,
+				"Y": 2.9197013,
+				"Z": 328.40936
+			},
+			"Timestamp": 1680228639,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 14.23636,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0013359,
+				"Y": -0.16048716,
+				"Z": -1.9675772
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 690.37286,
+				"Y": 3.6640978,
+				"Z": 844.7712
+			},
+			"Timestamp": 1680228684,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 170.21547,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.9116986,
+				"Y": -0.1939875,
+				"Z": 2.8523133
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 358.0287,
+				"Y": 3.5736227,
+				"Z": 219.01077
+			},
+			"Timestamp": 1680228750,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 87.646255,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.5202716,
+				"Y": 0.6132443,
+				"Z": -2.1878014
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 509.20374,
+				"Y": 3.7757225,
+				"Z": 336.62512
+			},
+			"Timestamp": 1680228882,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 32.915596,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.5055966,
+				"Y": 0.7282657,
+				"Z": -2.2892418
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 415.09985,
+				"Y": 3.541247,
+				"Z": 764.611
+			},
+			"Timestamp": 1680228941,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 34.707844,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.7262534,
+				"Y": 0.11862334,
+				"Z": -2.164495
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 535.9651,
+				"Y": 3.9693022,
+				"Z": 321.5127
+			},
+			"Timestamp": 1680228944,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198324221515",
+				"GuidsList": [
+					"76561198324221515"
+				],
+				"Name": "Owen Silber",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 62.31816,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.8602861,
+				"Y": -0.10983212,
+				"Z": -1.951906
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 57.87207,
+				"Y": 3.50739,
+				"Z": -345.0282
+			},
+			"Timestamp": 1680228979,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198324221515",
+				"GuidsList": [
+					"76561198324221515"
+				],
+				"Name": "Owen Silber",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 46.354187,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.9949999,
+				"Y": -0.15364428,
+				"Z": -1.9683453
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 26.982288,
+				"Y": 3.3612213,
+				"Z": -264.88724
+			},
+			"Timestamp": 1680228984,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 24.555843,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.5612915,
+				"Y": 0.28602704,
+				"Z": -2.282649
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -404.86258,
+				"Y": 3.5697424,
+				"Z": 12.5703535
+			},
+			"Timestamp": 1680228994,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 25.935812,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.003693,
+				"Y": -0.20376256,
+				"Z": 2.963714
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -416.77414,
+				"Y": 2.7623317,
+				"Z": 23.13835
+			},
+			"Timestamp": 1680228999,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 0.37468165,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.000009775162,
+				"Y": -0.07077168,
+				"Z": 3.3439755
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -417.74765,
+				"Y": 2.9067605,
+				"Z": 22.228085
+			},
+			"Timestamp": 1680229004,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 61.65034,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.97691226,
+				"Y": -0.18190742,
+				"Z": 2.8794768
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -84.38481,
+				"Y": 3.4323616,
+				"Z": -827.17847
+			},
+			"Timestamp": 1680229016,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 30.759651,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.9932779,
+				"Y": 0.4739845,
+				"Z": -1.971513
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -79.101555,
+				"Y": 3.9322052,
+				"Z": -811.5615
+			},
+			"Timestamp": 1680229021,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 36.542515,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.003675,
+				"Y": -0.20376205,
+				"Z": 2.9636996
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -248.38884,
+				"Y": 2.5997493,
+				"Z": -863.26013
+			},
+			"Timestamp": 1680229081,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 30.735783,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.000013945307,
+				"Y": -0.06570453,
+				"Z": 3.3441472
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 251.6677,
+				"Y": 2.075237,
+				"Z": 745.3838
+			},
+			"Timestamp": 1680229181,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 120.82084,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.001319,
+				"Y": -0.16048619,
+				"Z": -1.9675486
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -352.8661,
+				"Y": 2.9011946,
+				"Z": 89.23291
+			},
+			"Timestamp": 1680229184,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 198.04643,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.8649072,
+				"Y": -0.19496004,
+				"Z": 2.9511313
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -248.36879,
+				"Y": 2.6374078,
+				"Z": -863.2672
+			},
+			"Timestamp": 1680229219,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 31.588505,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.00000500679,
+				"Y": -0.06570484,
+				"Z": 3.3441453
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -133.5562,
+				"Y": 2.8336,
+				"Z": -837.4717
+			},
+			"Timestamp": 1680229229,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 58.744205,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.5236133,
+				"Y": 0.5850407,
+				"Z": -2.285195
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 549.1132,
+				"Y": 3.993146,
+				"Z": 367.60837
+			},
+			"Timestamp": 1680229264,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 64.5724,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.000022186257,
+				"Y": -0.06570479,
+				"Z": 3.3441443
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -660.2853,
+				"Y": 3.1555438,
+				"Z": -410.464
+			},
+			"Timestamp": 1680229277,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 49.325287,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.000026364047,
+				"Y": -0.06570518,
+				"Z": 3.3441634
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 634.3619,
+				"Y": 3.5532227,
+				"Z": 848.3554
+			},
+			"Timestamp": 1680229296,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 22.309534,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.5056279,
+				"Y": 0.72826576,
+				"Z": -2.2892687
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 601.52167,
+				"Y": 4.0650053,
+				"Z": 841.31793
+			},
+			"Timestamp": 1680229301,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 22.892084,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0036782,
+				"Y": -0.20376287,
+				"Z": 2.9637055
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 605.4622,
+				"Y": 3.2908607,
+				"Z": 855.76776
+			},
+			"Timestamp": 1680229306,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 77.80737,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.99328053,
+				"Y": 0.473984,
+				"Z": -1.9715021
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -354.7438,
+				"Y": 3.4792047,
+				"Z": 80.15222
+			},
+			"Timestamp": 1680229314,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 90.92296,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.31896412,
+				"Y": -0.025740596,
+				"Z": 3.0957236
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -82.22479,
+				"Y": 3.5885456,
+				"Z": -826.7468
+			},
+			"Timestamp": 1680229359,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 50.71802,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.00001013279,
+				"Y": -0.06570569,
+				"Z": 3.3441105
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -20.44234,
+				"Y": 3.5936263,
+				"Z": -791.12976
+			},
+			"Timestamp": 1680229364,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 0.3465218,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0035187,
+				"Y": -0.19085349,
+				"Z": 2.9570494
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -20.662909,
+				"Y": 3.4450336,
+				"Z": -791.29736
+			},
+			"Timestamp": 1680229369,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 2.13528,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.7017796,
+				"Y": -0.16224326,
+				"Z": 3.0780723
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -20.582525,
+				"Y": 3.444874,
+				"Z": -791.2508
+			},
+			"Timestamp": 1680229374,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 62.343372,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.044544447,
+				"Y": -0.13107726,
+				"Z": 3.104313
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -83.97537,
+				"Y": 3.4340525,
+				"Z": -827.0968
+			},
+			"Timestamp": 1680229431,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 28.821299,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.03479135,
+				"Y": 0.054492664,
+				"Z": -2.3350024
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 169.29564,
+				"Y": 3.0595996,
+				"Z": 747.13727
+			},
+			"Timestamp": 1680229439,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 24.459393,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.026736736,
+				"Y": -0.07025582,
+				"Z": 3.2889
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -484.5477,
+				"Y": 3.681861,
+				"Z": -747.7134
+			},
+			"Timestamp": 1680229594,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 7.4826207,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.99945164,
+				"Y": -0.18214543,
+				"Z": 2.9419956
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -473.95953,
+				"Y": 3.4827302,
+				"Z": -755.0491
+			},
+			"Timestamp": 1680229599,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 31.787552,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.003705,
+				"Y": -0.20376311,
+				"Z": 2.9636965
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -248.68959,
+				"Y": 2.6223683,
+				"Z": -863.16125
+			},
+			"Timestamp": 1680229606,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 80.4306,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.5063744,
+				"Y": 0.722609,
+				"Z": -2.2588875
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 531.5581,
+				"Y": 3.8981593,
+				"Z": 352.377
+			},
+			"Timestamp": 1680229687,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 43.569458,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.6350737,
+				"Y": -0.15348788,
+				"Z": 3.0815146
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 596.6213,
+				"Y": 3.5382977,
+				"Z": 407.66534
+			},
+			"Timestamp": 1680229697,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 101.69093,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.4896605,
+				"Y": 0.7227317,
+				"Z": -2.2653072
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -141.21977,
+				"Y": 3.5566673,
+				"Z": -842.99945
+			},
+			"Timestamp": 1680229721,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 48.30122,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.000019311905,
+				"Y": -0.14269891,
+				"Z": 3.341855
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 667.03546,
+				"Y": 3.4311798,
+				"Z": 823.75494
+			},
+			"Timestamp": 1680229734,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 101.359055,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.0000024437904,
+				"Y": -0.065705195,
+				"Z": 3.3441305
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -137.14519,
+				"Y": 3.429835,
+				"Z": -815.3829
+			},
+			"Timestamp": 1680229794,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 13.1968,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0037097,
+				"Y": -0.20376287,
+				"Z": 2.963704
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -88.908875,
+				"Y": 3.43848,
+				"Z": -827.9671
+			},
+			"Timestamp": 1680229799,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 71.56488,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0024552,
+				"Y": -0.16284521,
+				"Z": -1.8830554
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -356.8151,
+				"Y": 2.9131598,
+				"Z": 71.64862
+			},
+			"Timestamp": 1680229886,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 88.04172,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.9217767,
+				"Y": 0.42259666,
+				"Z": -1.5885019
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -80.12539,
+				"Y": 4.056194,
+				"Z": -826.324
+			},
+			"Timestamp": 1680229889,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 75.50706,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.0000030994415,
+				"Y": -0.06570527,
+				"Z": 3.3441367
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -141.97182,
+				"Y": 2.830731,
+				"Z": -843.68005
+			},
+			"Timestamp": 1680229994,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 25.280138,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.99325174,
+				"Y": 0.47398424,
+				"Z": -1.9714835
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -118.73476,
+				"Y": 3.949637,
+				"Z": -813.48315
+			},
+			"Timestamp": 1680229999,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197976246987",
+				"GuidsList": [
+					"76561197976246987"
+				],
+				"Name": "Marcus Gilbertson",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 51.97642,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0037079,
+				"Y": -0.20376329,
+				"Z": 2.963709
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -653.0818,
+				"Y": 2.967582,
+				"Z": -412.98886
+			},
+			"Timestamp": 1680230181,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 73.303314,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.0036881,
+				"Y": -0.2037636,
+				"Z": 2.9637234
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -145.57884,
+				"Y": 2.7105973,
+				"Z": -847.1706
+			},
+			"Timestamp": 1680230322,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 58.480045,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.0031102,
+				"Y": -0.17055562,
+				"Z": 2.9465554
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 303.72424,
+				"Y": 3.0850852,
+				"Z": 740.71106
+			},
+			"Timestamp": 1680230323,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 11.59121,
+			"OtherCarId": 6,
+			"OtherDriver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.35491458,
+				"Y": -0.16428894,
+				"Z": 3.2081628
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -129.82042,
+				"Y": 3.289397,
+				"Z": -817.5916
+			},
+			"Timestamp": 1680230329,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 15.440701,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.7953111,
+				"Y": -0.1632781,
+				"Z": 0.7496646
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -129.8237,
+				"Y": 3.290151,
+				"Z": -817.5873
+			},
+			"Timestamp": 1680230332,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 1.4999533,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.5502848,
+				"Y": 0.3734167,
+				"Z": -2.2839365
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -128.97728,
+				"Y": 3.8724992,
+				"Z": -814.4164
+			},
+			"Timestamp": 1680230332,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 3.7295935,
+			"OtherCarId": 6,
+			"OtherDriver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.0000037728225,
+				"Y": -0.134814,
+				"Z": 3.3421297
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -129.21437,
+				"Y": 3.3397696,
+				"Z": -817.0393
+			},
+			"Timestamp": 1680230334,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 2.1854475,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.79018515,
+				"Y": -0.14431097,
+				"Z": 0.76330906
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -129.14937,
+				"Y": 3.307755,
+				"Z": -817.46155
+			},
+			"Timestamp": 1680230337,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 3.0791388,
+			"OtherCarId": 6,
+			"OtherDriver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.001700793,
+				"Y": -0.120969675,
+				"Z": 3.3379085
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -128.98688,
+				"Y": 3.3629928,
+				"Z": -816.9873
+			},
+			"Timestamp": 1680230339,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 0.48022914,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.8089496,
+				"Y": -0.09480725,
+				"Z": 0.2708308
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -128.99626,
+				"Y": 3.3658197,
+				"Z": -817.00366
+			},
+			"Timestamp": 1680230342,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 10.189467,
+			"OtherCarId": 6,
+			"OtherDriver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -1.0036325,
+				"Y": -0.19850278,
+				"Z": 2.9609733
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -127.63402,
+				"Y": 3.223947,
+				"Z": -819.8745
+			},
+			"Timestamp": 1680230344,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199262700322",
+				"GuidsList": [
+					"76561199262700322"
+				],
+				"Name": "ryanborstelmann",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 12.989911,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 0.80167836,
+				"Y": -0.19725132,
+				"Z": -0.5832958
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -127.68439,
+				"Y": 3.223695,
+				"Z": -819.83606
+			},
+			"Timestamp": 1680230347,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 52.47237,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": -0.98777866,
+				"Y": 0.06812006,
+				"Z": 2.7920787
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -78.19367,
+				"Y": 3.5489008,
+				"Z": -811.4849
+			},
+			"Timestamp": 1680230349,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198039346740",
+				"GuidsList": [
+					"76561198039346740"
+				],
+				"Name": "Phillip Ellis",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"ImpactSpeed": 20.313799,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2"
+			},
+			"RelPosition": {
+				"X": 1.0037053,
+				"Y": -0.20376258,
+				"Z": 2.9637043
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -81.79628,
+				"Y": 3.2600133,
+				"Z": -811.9632
+			},
+			"Timestamp": 1680230354,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 88731,
+			"Restrictor": 0,
+			"Sectors": [
+				33295,
+				17366,
+				38070
+			],
+			"Timestamp": 1680228488,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 90276,
+			"Restrictor": 0,
+			"Sectors": [
+				34278,
+				17343,
+				38655
+			],
+			"Timestamp": 1680228490,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 93311,
+			"Restrictor": 0,
+			"Sectors": [
+				36009,
+				17522,
+				39780
+			],
+			"Timestamp": 1680228493,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 95135,
+			"Restrictor": 0,
+			"Sectors": [
+				36960,
+				17784,
+				40391
+			],
+			"Timestamp": 1680228494,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 114371,
+			"Restrictor": 0,
+			"Sectors": [
+				39672,
+				18026,
+				56673
+			],
+			"Timestamp": 1680228514,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 124328,
+			"Restrictor": 0,
+			"Sectors": [
+				39382,
+				44721,
+				40225
+			],
+			"Timestamp": 1680228524,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 82412,
+			"Restrictor": 0,
+			"Sectors": [
+				27436,
+				17194,
+				37782
+			],
+			"Timestamp": 1680228570,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 83096,
+			"Restrictor": 0,
+			"Sectors": [
+				28052,
+				17334,
+				37710
+			],
+			"Timestamp": 1680228573,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 85786,
+			"Restrictor": 0,
+			"Sectors": [
+				28947,
+				17441,
+				39398
+			],
+			"Timestamp": 1680228578,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 94799,
+			"Restrictor": 0,
+			"Sectors": [
+				28812,
+				26766,
+				39221
+			],
+			"Timestamp": 1680228608,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 116003,
+			"Restrictor": 0,
+			"Sectors": [
+				32943,
+				17486,
+				65574
+			],
+			"Timestamp": 1680228610,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 89112,
+			"Restrictor": 0,
+			"Sectors": [
+				29558,
+				17807,
+				41747
+			],
+			"Timestamp": 1680228613,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83442,
+			"Restrictor": 0,
+			"Sectors": [
+				28042,
+				17096,
+				38304
+			],
+			"Timestamp": 1680228654,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 83806,
+			"Restrictor": 0,
+			"Sectors": [
+				28154,
+				17114,
+				38538
+			],
+			"Timestamp": 1680228656,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 93390,
+			"Restrictor": 0,
+			"Sectors": [
+				28814,
+				17465,
+				47111
+			],
+			"Timestamp": 1680228672,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 84422,
+			"Restrictor": 0,
+			"Sectors": [
+				28636,
+				17640,
+				38146
+			],
+			"Timestamp": 1680228693,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 86551,
+			"Restrictor": 0,
+			"Sectors": [
+				29451,
+				17423,
+				39677
+			],
+			"Timestamp": 1680228697,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 98180,
+			"Restrictor": 0,
+			"Sectors": [
+				29088,
+				17712,
+				51380
+			],
+			"Timestamp": 1680228711,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83290,
+			"Restrictor": 0,
+			"Sectors": [
+				28026,
+				17113,
+				38151
+			],
+			"Timestamp": 1680228737,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 83714,
+			"Restrictor": 0,
+			"Sectors": [
+				27883,
+				17321,
+				38510
+			],
+			"Timestamp": 1680228740,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 87142,
+			"Restrictor": 0,
+			"Sectors": [
+				29537,
+				18415,
+				39190
+			],
+			"Timestamp": 1680228759,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 86002,
+			"Restrictor": 0,
+			"Sectors": [
+				28789,
+				17685,
+				39528
+			],
+			"Timestamp": 1680228779,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 87005,
+			"Restrictor": 0,
+			"Sectors": [
+				29811,
+				17352,
+				39842
+			],
+			"Timestamp": 1680228798,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 104126,
+			"Restrictor": 0,
+			"Sectors": [
+				28603,
+				18230,
+				57293
+			],
+			"Timestamp": 1680228801,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83318,
+			"Restrictor": 0,
+			"Sectors": [
+				27717,
+				17266,
+				38335
+			],
+			"Timestamp": 1680228820,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 83703,
+			"Restrictor": 0,
+			"Sectors": [
+				28163,
+				17240,
+				38300
+			],
+			"Timestamp": 1680228824,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 86585,
+			"Restrictor": 0,
+			"Sectors": [
+				29508,
+				17810,
+				39267
+			],
+			"Timestamp": 1680228845,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 85190,
+			"Restrictor": 0,
+			"Sectors": [
+				29274,
+				17459,
+				38457
+			],
+			"Timestamp": 1680228864,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 86245,
+			"Restrictor": 0,
+			"Sectors": [
+				29379,
+				17693,
+				39173
+			],
+			"Timestamp": 1680228884,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 87185,
+			"Restrictor": 0,
+			"Sectors": [
+				29626,
+				17654,
+				39905
+			],
+			"Timestamp": 1680228888,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83513,
+			"Restrictor": 0,
+			"Sectors": [
+				27776,
+				17146,
+				38591
+			],
+			"Timestamp": 1680228904,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 93896,
+			"Restrictor": 0,
+			"Sectors": [
+				27288,
+				17369,
+				49239
+			],
+			"Timestamp": 1680228918,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 86641,
+			"Restrictor": 0,
+			"Sectors": [
+				28632,
+				17864,
+				40145
+			],
+			"Timestamp": 1680228932,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 94710,
+			"Restrictor": 0,
+			"Sectors": [
+				29018,
+				18018,
+				47674
+			],
+			"Timestamp": 1680228959,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 88815,
+			"Restrictor": 0,
+			"Sectors": [
+				29847,
+				17293,
+				41675
+			],
+			"Timestamp": 1680228977,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 95324,
+			"Restrictor": 0,
+			"Sectors": [
+				29139,
+				17869,
+				48316
+			],
+			"Timestamp": 1680228979,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83909,
+			"Restrictor": 0,
+			"Sectors": [
+				27812,
+				17294,
+				38803
+			],
+			"Timestamp": 1680228988,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 84647,
+			"Restrictor": 0,
+			"Sectors": [
+				28515,
+				17432,
+				38700
+			],
+			"Timestamp": 1680229002,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 103460,
+			"Restrictor": 0,
+			"Sectors": [
+				29723,
+				29601,
+				44136
+			],
+			"Timestamp": 1680229036,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 85540,
+			"Restrictor": 0,
+			"Sectors": [
+				29268,
+				17797,
+				38475
+			],
+			"Timestamp": 1680229044,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 84629,
+			"Restrictor": 0,
+			"Sectors": [
+				28110,
+				17905,
+				38614
+			],
+			"Timestamp": 1680229072,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 103896,
+			"Restrictor": 0,
+			"Sectors": [
+				30352,
+				32868,
+				40676
+			],
+			"Timestamp": 1680229081,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 105266,
+			"Restrictor": 0,
+			"Sectors": [
+				48778,
+				17608,
+				38880
+			],
+			"Timestamp": 1680229085,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 84562,
+			"Restrictor": 0,
+			"Sectors": [
+				28253,
+				17375,
+				38934
+			],
+			"Timestamp": 1680229087,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 86726,
+			"Restrictor": 0,
+			"Sectors": [
+				29239,
+				17663,
+				39824
+			],
+			"Timestamp": 1680229122,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 86370,
+			"Restrictor": 0,
+			"Sectors": [
+				28949,
+				18568,
+				38853
+			],
+			"Timestamp": 1680229131,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 84684,
+			"Restrictor": 0,
+			"Sectors": [
+				28235,
+				17154,
+				39295
+			],
+			"Timestamp": 1680229157,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 85964,
+			"Restrictor": 0,
+			"Sectors": [
+				29579,
+				17883,
+				38502
+			],
+			"Timestamp": 1680229173,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 91029,
+			"Restrictor": 0,
+			"Sectors": [
+				32047,
+				18436,
+				40546
+			],
+			"Timestamp": 1680229176,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 87725,
+			"Restrictor": 0,
+			"Sectors": [
+				29586,
+				18067,
+				40072
+			],
+			"Timestamp": 1680229210,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 134883,
+			"Restrictor": 0,
+			"Sectors": [
+				46853,
+				17892,
+				70138
+			],
+			"Timestamp": 1680229216,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 92308,
+			"Restrictor": 0,
+			"Sectors": [
+				34344,
+				18702,
+				39262
+			],
+			"Timestamp": 1680229223,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 84586,
+			"Restrictor": 0,
+			"Sectors": [
+				28764,
+				17091,
+				38731
+			],
+			"Timestamp": 1680229242,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 84049,
+			"Restrictor": 0,
+			"Sectors": [
+				28074,
+				17347,
+				38628
+			],
+			"Timestamp": 1680229257,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 86718,
+			"Restrictor": 0,
+			"Sectors": [
+				29419,
+				17905,
+				39394
+			],
+			"Timestamp": 1680229297,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 127098,
+			"Restrictor": 0,
+			"Sectors": [
+				36076,
+				37049,
+				53973
+			],
+			"Timestamp": 1680229303,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 85290,
+			"Restrictor": 0,
+			"Sectors": [
+				28684,
+				17402,
+				39204
+			],
+			"Timestamp": 1680229308,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 85181,
+			"Restrictor": 0,
+			"Sectors": [
+				28216,
+				17600,
+				39365
+			],
+			"Timestamp": 1680229327,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 116932,
+			"Restrictor": 0,
+			"Sectors": [
+				33628,
+				17780,
+				65524
+			],
+			"Timestamp": 1680229333,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 93763,
+			"Restrictor": 0,
+			"Sectors": [
+				37571,
+				17514,
+				38678
+			],
+			"Timestamp": 1680229351,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 87876,
+			"Restrictor": 0,
+			"Sectors": [
+				29659,
+				18122,
+				40095
+			],
+			"Timestamp": 1680229385,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 84446,
+			"Restrictor": 0,
+			"Sectors": [
+				29074,
+				17050,
+				38322
+			],
+			"Timestamp": 1680229393,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 88251,
+			"Restrictor": 0,
+			"Sectors": [
+				29670,
+				17806,
+				40775
+			],
+			"Timestamp": 1680229421,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 106707,
+			"Restrictor": 0,
+			"Sectors": [
+				28186,
+				18148,
+				60373
+			],
+			"Timestamp": 1680229434,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 144571,
+			"Restrictor": 0,
+			"Sectors": [
+				45468,
+				46223,
+				52880
+			],
+			"Timestamp": 1680229447,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 106179,
+			"Restrictor": 0,
+			"Sectors": [
+				28459,
+				17519,
+				60201
+			],
+			"Timestamp": 1680229457,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 86832,
+			"Restrictor": 0,
+			"Sectors": [
+				29384,
+				17721,
+				39727
+			],
+			"Timestamp": 1680229471,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 92289,
+			"Restrictor": 0,
+			"Sectors": [
+				30287,
+				22014,
+				39988
+			],
+			"Timestamp": 1680229485,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 88825,
+			"Restrictor": 0,
+			"Sectors": [
+				29713,
+				17708,
+				41404
+			],
+			"Timestamp": 1680229510,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 87336,
+			"Restrictor": 0,
+			"Sectors": [
+				31400,
+				17456,
+				38480
+			],
+			"Timestamp": 1680229521,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 88704,
+			"Restrictor": 0,
+			"Sectors": [
+				32080,
+				17447,
+				39177
+			],
+			"Timestamp": 1680229546,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 111871,
+			"Restrictor": 0,
+			"Sectors": [
+				29183,
+				17739,
+				64949
+			],
+			"Timestamp": 1680229559,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 87975,
+			"Restrictor": 0,
+			"Sectors": [
+				29430,
+				17918,
+				40627
+			],
+			"Timestamp": 1680229559,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 85653,
+			"Restrictor": 0,
+			"Sectors": [
+				28561,
+				17433,
+				39659
+			],
+			"Timestamp": 1680229571,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 88300,
+			"Restrictor": 0,
+			"Sectors": [
+				28905,
+				18260,
+				41135
+			],
+			"Timestamp": 1680229598,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83101,
+			"Restrictor": 0,
+			"Sectors": [
+				27611,
+				17060,
+				38430
+			],
+			"Timestamp": 1680229604,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 84991,
+			"Restrictor": 0,
+			"Sectors": [
+				28701,
+				17523,
+				38767
+			],
+			"Timestamp": 1680229631,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 88892,
+			"Restrictor": 0,
+			"Sectors": [
+				29519,
+				18271,
+				41102
+			],
+			"Timestamp": 1680229648,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 107052,
+			"Restrictor": 0,
+			"Sectors": [
+				47894,
+				20440,
+				38718
+			],
+			"Timestamp": 1680229666,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 110673,
+			"Restrictor": 0,
+			"Sectors": [
+				28907,
+				20637,
+				61129
+			],
+			"Timestamp": 1680229681,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 84147,
+			"Restrictor": 0,
+			"Sectors": [
+				28247,
+				17015,
+				38885
+			],
+			"Timestamp": 1680229688,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 90829,
+			"Restrictor": 0,
+			"Sectors": [
+				29588,
+				18014,
+				43227
+			],
+			"Timestamp": 1680229689,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 103474,
+			"Restrictor": 0,
+			"Sectors": [
+				27748,
+				17392,
+				58334
+			],
+			"Timestamp": 1680229734,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 89216,
+			"Restrictor": 0,
+			"Sectors": [
+				28818,
+				17054,
+				43344
+			],
+			"Timestamp": 1680229756,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 109280,
+			"Restrictor": 0,
+			"Sectors": [
+				29532,
+				18018,
+				61730
+			],
+			"Timestamp": 1680229758,
+			"Tyre": "C2",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 84365,
+			"Restrictor": 0,
+			"Sectors": [
+				27674,
+				18050,
+				38641
+			],
+			"Timestamp": 1680229773,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 95877,
+			"Restrictor": 0,
+			"Sectors": [
+				33561,
+				24074,
+				38242
+			],
+			"Timestamp": 1680229777,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 93826,
+			"Restrictor": 0,
+			"Sectors": [
+				29859,
+				18405,
+				45562
+			],
+			"Timestamp": 1680229783,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 84795,
+			"Restrictor": 0,
+			"Sectors": [
+				28945,
+				17123,
+				38727
+			],
+			"Timestamp": 1680229819,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 91690,
+			"Restrictor": 0,
+			"Sectors": [
+				33437,
+				17807,
+				40446
+			],
+			"Timestamp": 1680229849,
+			"Tyre": "C2",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 94934,
+			"Restrictor": 0,
+			"Sectors": [
+				29019,
+				26550,
+				39365
+			],
+			"Timestamp": 1680229850,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83221,
+			"Restrictor": 0,
+			"Sectors": [
+				27696,
+				17126,
+				38399
+			],
+			"Timestamp": 1680229856,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 84442,
+			"Restrictor": 0,
+			"Sectors": [
+				28511,
+				17785,
+				38146
+			],
+			"Timestamp": 1680229862,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 91216,
+			"Restrictor": 0,
+			"Sectors": [
+				29696,
+				18117,
+				43403
+			],
+			"Timestamp": 1680229874,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 83830,
+			"Restrictor": 0,
+			"Sectors": [
+				28052,
+				17064,
+				38714
+			],
+			"Timestamp": 1680229903,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 86500,
+			"Restrictor": 0,
+			"Sectors": [
+				28954,
+				17505,
+				40041
+			],
+			"Timestamp": 1680229936,
+			"Tyre": "C2",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83372,
+			"Restrictor": 0,
+			"Sectors": [
+				27523,
+				17267,
+				38582
+			],
+			"Timestamp": 1680229939,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 84871,
+			"Restrictor": 0,
+			"Sectors": [
+				28697,
+				17317,
+				38857
+			],
+			"Timestamp": 1680229947,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 107850,
+			"Restrictor": 0,
+			"Sectors": [
+				29073,
+				20668,
+				58109
+			],
+			"Timestamp": 1680229958,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 100846,
+			"Restrictor": 0,
+			"Sectors": [
+				42346,
+				17698,
+				40802
+			],
+			"Timestamp": 1680229975,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 84619,
+			"Restrictor": 0,
+			"Sectors": [
+				28031,
+				17388,
+				39200
+			],
+			"Timestamp": 1680229987,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 85713,
+			"Restrictor": 0,
+			"Sectors": [
+				29210,
+				17546,
+				38957
+			],
+			"Timestamp": 1680230021,
+			"Tyre": "C2",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83090,
+			"Restrictor": 0,
+			"Sectors": [
+				27759,
+				17027,
+				38304
+			],
+			"Timestamp": 1680230022,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 84579,
+			"Restrictor": 0,
+			"Sectors": [
+				27888,
+				17635,
+				39056
+			],
+			"Timestamp": 1680230031,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 102253,
+			"Restrictor": 0,
+			"Sectors": [
+				29439,
+				31751,
+				41063
+			],
+			"Timestamp": 1680230061,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 90010,
+			"Restrictor": 0,
+			"Sectors": [
+				31119,
+				17720,
+				41171
+			],
+			"Timestamp": 1680230065,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 83003,
+			"Restrictor": 0,
+			"Sectors": [
+				27555,
+				17369,
+				38079
+			],
+			"Timestamp": 1680230070,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83860,
+			"Restrictor": 0,
+			"Sectors": [
+				28240,
+				17095,
+				38525
+			],
+			"Timestamp": 1680230106,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 86391,
+			"Restrictor": 0,
+			"Sectors": [
+				28691,
+				17596,
+				40104
+			],
+			"Timestamp": 1680230108,
+			"Tyre": "C2",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 84109,
+			"Restrictor": 0,
+			"Sectors": [
+				28107,
+				17441,
+				38561
+			],
+			"Timestamp": 1680230115,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 89650,
+			"Restrictor": 0,
+			"Sectors": [
+				30254,
+				18019,
+				41377
+			],
+			"Timestamp": 1680230155,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 88319,
+			"Restrictor": 0,
+			"Sectors": [
+				30072,
+				18180,
+				40067
+			],
+			"Timestamp": 1680230159,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 101845,
+			"Restrictor": 0,
+			"Sectors": [
+				43943,
+				17505,
+				40397
+			],
+			"Timestamp": 1680230162,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83840,
+			"Restrictor": 0,
+			"Sectors": [
+				27878,
+				17159,
+				38803
+			],
+			"Timestamp": 1680230190,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 87587,
+			"Restrictor": 0,
+			"Sectors": [
+				29470,
+				17860,
+				40257
+			],
+			"Timestamp": 1680230195,
+			"Tyre": "C2",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 83607,
+			"Restrictor": 0,
+			"Sectors": [
+				28045,
+				17752,
+				37810
+			],
+			"Timestamp": 1680230199,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 84625,
+			"Restrictor": 0,
+			"Sectors": [
+				28154,
+				17281,
+				39190
+			],
+			"Timestamp": 1680230243,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 88444,
+			"Restrictor": 0,
+			"Sectors": [
+				29642,
+				17352,
+				41450
+			],
+			"Timestamp": 1680230251,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 104747,
+			"Restrictor": 0,
+			"Sectors": [
+				44628,
+				17891,
+				42228
+			],
+			"Timestamp": 1680230259,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"LapTime": 83459,
+			"Restrictor": 0,
+			"Sectors": [
+				27628,
+				17113,
+				38718
+			],
+			"Timestamp": 1680230273,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"LapTime": 85601,
+			"Restrictor": 0,
+			"Sectors": [
+				28973,
+				17803,
+				38825
+			],
+			"Timestamp": 1680230281,
+			"Tyre": "C2",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"LapTime": 83412,
+			"Restrictor": 0,
+			"Sectors": [
+				28790,
+				17110,
+				37512
+			],
+			"Timestamp": 1680230282,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 91275,
+			"Restrictor": 0,
+			"Sectors": [
+				27771,
+				16703,
+				46801
+			],
+			"Timestamp": 1680230335,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"LapTime": 89610,
+			"Restrictor": 0,
+			"Sectors": [
+				30367,
+				17069,
+				42174
+			],
+			"Timestamp": 1680230340,
+			"Tyre": "C4",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"LapTime": 90520,
+			"Restrictor": 0,
+			"Sectors": [
+				30135,
+				18692,
+				41693
+			],
+			"Timestamp": 1680230350,
+			"Tyre": "C3",
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 82412,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561198039346740",
+			"DriverName": "Phillip Ellis",
+			"Restrictor": 0,
+			"TotalTime": 1874125,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 83003,
+			"CarId": 0,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"Restrictor": 0,
+			"TotalTime": 1935262,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 85601,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561198324221515",
+			"DriverName": "Owen Silber",
+			"Restrictor": 0,
+			"TotalTime": 1881756,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 83412,
+			"CarId": 6,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561199262700322",
+			"DriverName": "ryanborstelmann",
+			"Restrictor": 0,
+			"TotalTime": 1882970,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 86551,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561197976246987",
+			"DriverName": "Marcus Gilbertson",
+			"Restrictor": 0,
+			"TotalTime": 1950539,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"GridPosition": 6
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 86245,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson",
+			"Restrictor": 0,
+			"TotalTime": 1941216,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "275d7ce7-c102-4b52-b2b8-c15fd8fdb0f2",
+			"GridPosition": 5
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "melbourne_f1_2022",
+	"TrackName": "melbourne22",
+	"Type": "RACE",
+	"Date": "2023-03-31T02:40:00Z",
+	"SessionFile": "2023_3_31_2_40_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Melbourne F1 2022",
+		"time": 0,
+		"laps": 22,
+		"is_open": 1,
+		"wait_time": 120,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "601f2a09-0b99-44b2-80a5-2a8268d11faa",
+	"RaceWeekendID": ""
+}
