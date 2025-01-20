@@ -1,0 +1,4508 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "sl_racing",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 164,
+			"MaxPing": 222
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198137498092",
+				"GuidsList": [
+					"76561198137498092"
+				],
+				"Name": "Jorge",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "tete_rouge_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 147,
+			"MaxPing": 180
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "green_frog",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 111,
+			"MaxPing": 257
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "super_schenecke_with_jelly_cat_racing",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 123,
+			"MaxPing": 268
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "blueberry_muffins",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 143,
+			"MaxPing": 188
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199052350148",
+				"GuidsList": [
+					"76561199052350148"
+				],
+				"Name": "SayemRahman53",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "green_frog",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 273,
+			"MaxPing": 359
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "kt_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "le_mans_classic",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 129,
+			"MaxPing": 846
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "blueberry_muffins",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "kt_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "le_mans_classic",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "blueberry_muffins",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "baycon_racing-2",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "super_schenecke_with_jelly_cat_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "blueberry_muffins",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "super_schenecke_with_jelly_cat_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "baycon_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "knight_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "dilligaf_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "green_frog",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "kt_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 21,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "le_mans_classic",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 22,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "knight_racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 23,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "crisis_tete_rouge",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 24,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "baycon_racing-2",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 25,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "citroen2cv_uk_club_class",
+			"Restrictor": 0,
+			"Skin": "team_ecas",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.617617,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8004932,
+				"Y": 0.014773711,
+				"Z": 1.1593568
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -598.1219,
+				"Y": 41.424725,
+				"Z": 459.13913
+			},
+			"Timestamp": 1723922098,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 11.310699,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.81896454,
+				"Y": 0.004650078,
+				"Z": -1.2740153
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1021.1298,
+				"Y": 41.623497,
+				"Z": 542.16174
+			},
+			"Timestamp": 1723922167,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 4.869762,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.81270844,
+				"Y": 0.010322525,
+				"Z": 0.5915962
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1065.6283,
+				"Y": 47.858593,
+				"Z": 420.9273
+			},
+			"Timestamp": 1723922173,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 6.115263,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.80049604,
+				"Y": 0.014774006,
+				"Z": 1.1593609
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -993.0547,
+				"Y": 45.267235,
+				"Z": 392.5321
+			},
+			"Timestamp": 1723922176,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 3.5217025,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.81211734,
+				"Y": 0.003337139,
+				"Z": 0.76211
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -992.2094,
+				"Y": 45.22104,
+				"Z": 392.28824
+			},
+			"Timestamp": 1723922177,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 6.3839903,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.25539517,
+				"Y": -0.0026944883,
+				"Z": -2.0828214
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -516.4413,
+				"Y": 40.707245,
+				"Z": 347.61826
+			},
+			"Timestamp": 1723922196,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 7.740613,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.000008869329,
+				"Y": -0.03852748,
+				"Z": 1.5634644
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -516.2819,
+				"Y": 40.707085,
+				"Z": 347.3869
+			},
+			"Timestamp": 1723922197,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 3.3691647,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.81898195,
+				"Y": 0.0046534683,
+				"Z": -1.2740233
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.61238,
+				"Y": 39.81886,
+				"Z": 98.32225
+			},
+			"Timestamp": 1723922211,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 9.374862,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8189832,
+				"Y": 0.0046536634,
+				"Z": -1.2740253
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.40193,
+				"Y": 39.61426,
+				"Z": 105.731384
+			},
+			"Timestamp": 1723922211,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 1.7492789,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8187644,
+				"Y": -0.32870984,
+				"Z": -1.2862065
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.74336,
+				"Y": 39.68769,
+				"Z": 92.92759
+			},
+			"Timestamp": 1723922216,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 11.234238,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8020418,
+				"Y": -0.33123028,
+				"Z": 1.163498
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -191.79497,
+				"Y": 39.150642,
+				"Z": -47.112007
+			},
+			"Timestamp": 1723922221,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 13.964834,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8004661,
+				"Y": 0.014772043,
+				"Z": 1.1594026
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1067.1222,
+				"Y": 47.847073,
+				"Z": 421.91083
+			},
+			"Timestamp": 1723922263,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 18.577896,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.80050856,
+				"Y": 0.0147753395,
+				"Z": 1.15935
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -807.98047,
+				"Y": 41.454548,
+				"Z": 355.3003
+			},
+			"Timestamp": 1723922278,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 9.67249,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.818984,
+				"Y": 0.0046528033,
+				"Z": -1.2740235
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -587.3816,
+				"Y": 41.221302,
+				"Z": 448.003
+			},
+			"Timestamp": 1723922281,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 48.846485,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.5286963,
+				"Y": 0.01837533,
+				"Z": 1.4796443
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -162.02286,
+				"Y": 39.668625,
+				"Z": 115.52741
+			},
+			"Timestamp": 1723922303,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 7.8107986,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8019275,
+				"Y": -0.33124304,
+				"Z": 1.1683935
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -190.43314,
+				"Y": 39.151424,
+				"Z": -45.436974
+			},
+			"Timestamp": 1723922306,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 40.095818,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.748334,
+				"Y": -0.3329406,
+				"Z": 1.2354444
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -191.79482,
+				"Y": 39.146557,
+				"Z": -47.112137
+			},
+			"Timestamp": 1723922307,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 27.010038,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.78841853,
+				"Y": -0.33166975,
+				"Z": 1.1848139
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -238.89844,
+				"Y": 39.11381,
+				"Z": -73.805565
+			},
+			"Timestamp": 1723922312,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 15.061291,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8088828,
+				"Y": -0.09762906,
+				"Z": 0.89080757
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -590.30664,
+				"Y": 41.182175,
+				"Z": 451.09656
+			},
+			"Timestamp": 1723922378,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 36.93591,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.7379104,
+				"Y": 0.015698453,
+				"Z": 1.2395844
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.20523,
+				"Y": 39.57946,
+				"Z": 108.431496
+			},
+			"Timestamp": 1723922391,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 8.761813,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.81361437,
+				"Y": 0.009507676,
+				"Z": 0.32378834
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.30368,
+				"Y": 39.616817,
+				"Z": 107.16844
+			},
+			"Timestamp": 1723922391,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 1.7256569,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8189798,
+				"Y": 0.004655355,
+				"Z": -1.2740216
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.61731,
+				"Y": 40.00514,
+				"Z": 98.09409
+			},
+			"Timestamp": 1723922403,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 1.5089037,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.021567712,
+				"Y": -0.015026714,
+				"Z": -2.0805187
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -544.6577,
+				"Y": 36.377426,
+				"Z": 47.095432
+			},
+			"Timestamp": 1723922411,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 2.92831,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.00017435172,
+				"Y": -0.032868404,
+				"Z": 1.561709
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -547.26996,
+				"Y": 36.393066,
+				"Z": 49.36774
+			},
+			"Timestamp": 1723922411,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.675007,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.81184816,
+				"Y": -0.3302568,
+				"Z": 0.74914336
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -369.66772,
+				"Y": 36.289993,
+				"Z": -36.383568
+			},
+			"Timestamp": 1723922413,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 8.493818,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8121523,
+				"Y": 0.010841941,
+				"Z": 0.7619315
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1023.4136,
+				"Y": 41.959843,
+				"Z": 540.32556
+			},
+			"Timestamp": 1723922436,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 2.3319304,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8117629,
+				"Y": -0.33027148,
+				"Z": 0.77033806
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1059.7402,
+				"Y": 47.288666,
+				"Z": 416.98172
+			},
+			"Timestamp": 1723922441,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 5.910562,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8141356,
+				"Y": -0.32898214,
+				"Z": -0.9231309
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -878.2753,
+				"Y": 41.254692,
+				"Z": 352.28177
+			},
+			"Timestamp": 1723922458,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 42.8837,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.7894861,
+				"Y": 0.001327027,
+				"Z": 1.1709456
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -648.4908,
+				"Y": 41.447567,
+				"Z": 465.09006
+			},
+			"Timestamp": 1723922468,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199207208225",
+				"GuidsList": [
+					"76561199207208225"
+				],
+				"Name": "SkyDriver",
+				"Nation": "POL",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 25.201555,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.7786226,
+				"Y": -0.32775876,
+				"Z": -1.8267872
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -602.4085,
+				"Y": 41.118813,
+				"Z": 463.50735
+			},
+			"Timestamp": 1723922473,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 2.931056,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8019296,
+				"Y": -0.33124313,
+				"Z": 1.1683834
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -548.79736,
+				"Y": 36.121887,
+				"Z": 51.83283
+			},
+			"Timestamp": 1723922501,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 10.804593,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.7786296,
+				"Y": 0.00085369527,
+				"Z": -1.8117996
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -589.72107,
+				"Y": 41.25178,
+				"Z": 450.46808
+			},
+			"Timestamp": 1723922551,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 14.636652,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.79354775,
+				"Y": 0.17528841,
+				"Z": -1.0406781
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -590.3064,
+				"Y": 41.41906,
+				"Z": 451.09677
+			},
+			"Timestamp": 1723922551,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 13.519059,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.800503,
+				"Y": 0.014773866,
+				"Z": 1.1593716
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.4245,
+				"Y": 39.636097,
+				"Z": 105.42109
+			},
+			"Timestamp": 1723922571,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 34.16201,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.5692861,
+				"Y": -0.3388552,
+				"Z": 1.5088974
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -177.76712,
+				"Y": 39.458664,
+				"Z": 99.33901
+			},
+			"Timestamp": 1723922661,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 7.3558373,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8019238,
+				"Y": -0.33124334,
+				"Z": 1.1683867
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -190.82922,
+				"Y": 39.151836,
+				"Z": -45.917465
+			},
+			"Timestamp": 1723922666,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 66.867065,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.72158307,
+				"Y": 0.08215473,
+				"Z": 0.37887138
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -165.9657,
+				"Y": 39.769047,
+				"Z": 102.95868
+			},
+			"Timestamp": 1723922666,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 18.127588,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.7786068,
+				"Y": -0.3277582,
+				"Z": -1.8267946
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.59789,
+				"Y": 39.83705,
+				"Z": 98.4004
+			},
+			"Timestamp": 1723922666,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 75.035675,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.5692854,
+				"Y": 0.01910036,
+				"Z": 1.4858115
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -166.08974,
+				"Y": 39.80706,
+				"Z": 103.09066
+			},
+			"Timestamp": 1723922668,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 51.85893,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.5174445,
+				"Y": 0.33784902,
+				"Z": 1.3066001
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.63269,
+				"Y": 38.431637,
+				"Z": 95.60547
+			},
+			"Timestamp": 1723922668,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 10.370343,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.0000025376712,
+				"Y": -0.33885288,
+				"Z": 1.5828787
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -178.1652,
+				"Y": 39.847828,
+				"Z": 85.881775
+			},
+			"Timestamp": 1723922671,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 11.953863,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8189963,
+				"Y": 0.004654906,
+				"Z": -1.2740135
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1019.7285,
+				"Y": 41.44122,
+				"Z": 543.288
+			},
+			"Timestamp": 1723922707,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 6.861652,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8004682,
+				"Y": 0.01477166,
+				"Z": 1.1593932
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1065.7709,
+				"Y": 47.715004,
+				"Z": 421.01398
+			},
+			"Timestamp": 1723922731,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.266519,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.7786291,
+				"Y": 0.0008525828,
+				"Z": -1.8118273
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1076.2723,
+				"Y": 47.865658,
+				"Z": 429.59058
+			},
+			"Timestamp": 1723922743,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 34.575428,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.77263415,
+				"Y": -0.025213145,
+				"Z": 1.1975598
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -191.79482,
+				"Y": 39.447437,
+				"Z": -47.11214
+			},
+			"Timestamp": 1723922776,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 4.4341283,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8004979,
+				"Y": 0.014774233,
+				"Z": 1.159361
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -241.46785,
+				"Y": 39.403755,
+				"Z": -73.280815
+			},
+			"Timestamp": 1723922781,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 43.28118,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.76557845,
+				"Y": -0.02040673,
+				"Z": 1.1848934
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -595.58765,
+				"Y": 41.282185,
+				"Z": 456.5355
+			},
+			"Timestamp": 1723922841,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 5.116763,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8189757,
+				"Y": 0.004654901,
+				"Z": -1.2740223
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.65674,
+				"Y": 39.8736,
+				"Z": 96.40797
+			},
+			"Timestamp": 1723922931,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 3.8150504,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.81895685,
+				"Y": 0.0046540117,
+				"Z": -1.2739687
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1065.5571,
+				"Y": 47.726612,
+				"Z": 420.88168
+			},
+			"Timestamp": 1723923001,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 2.3696067,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.81899387,
+				"Y": 0.004652187,
+				"Z": -1.2740396
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1061.2008,
+				"Y": 47.591503,
+				"Z": 417.95074
+			},
+			"Timestamp": 1723923003,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 18.346142,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.81897223,
+				"Y": 0.004652353,
+				"Z": -1.2740451
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -594.403,
+				"Y": 41.267586,
+				"Z": 455.33054
+			},
+			"Timestamp": 1723923221,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 5.377282,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.80193156,
+				"Y": -0.33124414,
+				"Z": 1.1684005
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -583.64667,
+				"Y": 41.05249,
+				"Z": 444.04678
+			},
+			"Timestamp": 1723923226,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 9.4602785,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.818989,
+				"Y": 0.004655949,
+				"Z": -1.2740494
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1067.0544,
+				"Y": 47.71049,
+				"Z": 421.85703
+			},
+			"Timestamp": 1723923273,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 8.694719,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.81898093,
+				"Y": 0.0046547297,
+				"Z": -1.2740256
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -255.93152,
+				"Y": 39.319862,
+				"Z": -70.03633
+			},
+			"Timestamp": 1723923311,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 6.4112577,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8189841,
+				"Y": 0.004653392,
+				"Z": -1.2740202
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -163.50896,
+				"Y": 39.716198,
+				"Z": 102.147545
+			},
+			"Timestamp": 1723923488,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 2.6054935,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8170785,
+				"Y": -0.32877293,
+				"Z": -1.2007734
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1059.1034,
+				"Y": 47.24892,
+				"Z": 416.56104
+			},
+			"Timestamp": 1723923541,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 16.4653,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8189633,
+				"Y": 0.0046520676,
+				"Z": -1.2740445
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -591.8616,
+				"Y": 41.25797,
+				"Z": 452.69547
+			},
+			"Timestamp": 1723923558,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 3.8646126,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8189316,
+				"Y": 0.0046559935,
+				"Z": -1.274057
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1046.6451,
+				"Y": 45.32469,
+				"Z": 518.53107
+			},
+			"Timestamp": 1723923623,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 33.305077,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.7853073,
+				"Y": 0.005372418,
+				"Z": 1.1616273
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1042.5886,
+				"Y": 44.86357,
+				"Z": 522.47864
+			},
+			"Timestamp": 1723923626,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197960844564",
+				"GuidsList": [
+					"76561197960844564"
+				],
+				"Name": "MrRalphMan",
+				"Nation": "ENG",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 14.137114,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.80051535,
+				"Y": 0.014774946,
+				"Z": 1.1593887
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -563.865,
+				"Y": 41.14586,
+				"Z": 420.9032
+			},
+			"Timestamp": 1723923628,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 99.48044,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.11772995,
+				"Y": -0.000057513145,
+				"Z": 1.4146739
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -853.2507,
+				"Y": 41.413036,
+				"Z": 350.5377
+			},
+			"Timestamp": 1723923641,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 117.01804,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.17147629,
+				"Y": 0.032208733,
+				"Z": 1.461701
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -853.40784,
+				"Y": 41.433296,
+				"Z": 349.6824
+			},
+			"Timestamp": 1723923641,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 9.140451,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.5692956,
+				"Y": 0.019102784,
+				"Z": 1.4858165
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -854.1294,
+				"Y": 41.301395,
+				"Z": 341.63
+			},
+			"Timestamp": 1723923641,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 62.26379,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.5693089,
+				"Y": -0.33885542,
+				"Z": 1.5088931
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -801.5595,
+				"Y": 41.115715,
+				"Z": 328.17453
+			},
+			"Timestamp": 1723923643,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 21.117325,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.56707966,
+				"Y": -0.078802764,
+				"Z": 1.4752462
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -799.74744,
+				"Y": 41.06565,
+				"Z": 333.1892
+			},
+			"Timestamp": 1723923646,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 25.192682,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.81424767,
+				"Y": -0.3297248,
+				"Z": 0.04829622
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -799.7358,
+				"Y": 41.065502,
+				"Z": 333.20764
+			},
+			"Timestamp": 1723923648,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"ImpactSpeed": 12.786917,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 3.85199e-7,
+				"Y": -0.3388526,
+				"Z": 1.5828592
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -797.40546,
+				"Y": 41.05508,
+				"Z": 328.88068
+			},
+			"Timestamp": 1723923648,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 99337,
+			"Restrictor": 0,
+			"Sectors": [
+				38834,
+				26641,
+				33862
+			],
+			"Timestamp": 1723922174,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 101720,
+			"Restrictor": 0,
+			"Sectors": [
+				29374,
+				37570,
+				34776
+			],
+			"Timestamp": 1723922177,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 101815,
+			"Restrictor": 0,
+			"Sectors": [
+				37227,
+				30042,
+				34546
+			],
+			"Timestamp": 1723922177,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561199207208225",
+			"DriverName": "SkyDriver",
+			"LapTime": 102621,
+			"Restrictor": 0,
+			"Sectors": [
+				29766,
+				37444,
+				35411
+			],
+			"Timestamp": 1723922178,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 103051,
+			"Restrictor": 0,
+			"Sectors": [
+				7462,
+				60179,
+				35410
+			],
+			"Timestamp": 1723922178,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 89605,
+			"Restrictor": 0,
+			"Sectors": [
+				30376,
+				25555,
+				33674
+			],
+			"Timestamp": 1723922264,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 89367,
+			"Restrictor": 0,
+			"Sectors": [
+				30174,
+				26005,
+				33188
+			],
+			"Timestamp": 1723922266,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 90192,
+			"Restrictor": 0,
+			"Sectors": [
+				20739,
+				36269,
+				33184
+			],
+			"Timestamp": 1723922267,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561199207208225",
+			"DriverName": "SkyDriver",
+			"LapTime": 91224,
+			"Restrictor": 0,
+			"Sectors": [
+				20241,
+				36917,
+				34066
+			],
+			"Timestamp": 1723922269,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 91041,
+			"Restrictor": 0,
+			"Sectors": [
+				30619,
+				26311,
+				34111
+			],
+			"Timestamp": 1723922269,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 90663,
+			"Restrictor": 0,
+			"Sectors": [
+				29926,
+				27000,
+				33737
+			],
+			"Timestamp": 1723922355,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 88825,
+			"Restrictor": 0,
+			"Sectors": [
+				30032,
+				25488,
+				33305
+			],
+			"Timestamp": 1723922355,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 91570,
+			"Restrictor": 0,
+			"Sectors": [
+				19678,
+				37895,
+				33997
+			],
+			"Timestamp": 1723922359,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90652,
+			"Restrictor": 0,
+			"Sectors": [
+				31266,
+				25829,
+				33557
+			],
+			"Timestamp": 1723922360,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561199207208225",
+			"DriverName": "SkyDriver",
+			"LapTime": 95265,
+			"Restrictor": 0,
+			"Sectors": [
+				20097,
+				41265,
+				33903
+			],
+			"Timestamp": 1723922364,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 90446,
+			"Restrictor": 0,
+			"Sectors": [
+				29742,
+				26577,
+				34127
+			],
+			"Timestamp": 1723922446,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 91201,
+			"Restrictor": 0,
+			"Sectors": [
+				29888,
+				26681,
+				34632
+			],
+			"Timestamp": 1723922446,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 90734,
+			"Restrictor": 0,
+			"Sectors": [
+				20233,
+				36670,
+				33831
+			],
+			"Timestamp": 1723922449,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90064,
+			"Restrictor": 0,
+			"Sectors": [
+				30462,
+				25775,
+				33827
+			],
+			"Timestamp": 1723922450,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561199207208225",
+			"DriverName": "SkyDriver",
+			"LapTime": 90540,
+			"Restrictor": 0,
+			"Sectors": [
+				20092,
+				35977,
+				34471
+			],
+			"Timestamp": 1723922455,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 88122,
+			"Restrictor": 0,
+			"Sectors": [
+				29739,
+				25312,
+				33071
+			],
+			"Timestamp": 1723922534,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88889,
+			"Restrictor": 0,
+			"Sectors": [
+				30002,
+				25268,
+				33619
+			],
+			"Timestamp": 1723922535,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89328,
+			"Restrictor": 0,
+			"Sectors": [
+				19866,
+				36009,
+				33453
+			],
+			"Timestamp": 1723922539,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 89461,
+			"Restrictor": 0,
+			"Sectors": [
+				30308,
+				25714,
+				33439
+			],
+			"Timestamp": 1723922539,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 89388,
+			"Restrictor": 0,
+			"Sectors": [
+				30213,
+				25901,
+				33274
+			],
+			"Timestamp": 1723922623,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 90624,
+			"Restrictor": 0,
+			"Sectors": [
+				30940,
+				25628,
+				34056
+			],
+			"Timestamp": 1723922625,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89905,
+			"Restrictor": 0,
+			"Sectors": [
+				19827,
+				36486,
+				33592
+			],
+			"Timestamp": 1723922629,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90249,
+			"Restrictor": 0,
+			"Sectors": [
+				30650,
+				26019,
+				33580
+			],
+			"Timestamp": 1723922630,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 90558,
+			"Restrictor": 0,
+			"Sectors": [
+				29708,
+				26645,
+				34205
+			],
+			"Timestamp": 1723922716,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 90910,
+			"Restrictor": 0,
+			"Sectors": [
+				19711,
+				36621,
+				34578
+			],
+			"Timestamp": 1723922719,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 112778,
+			"Restrictor": 0,
+			"Sectors": [
+				29659,
+				49090,
+				34029
+			],
+			"Timestamp": 1723922736,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 119641,
+			"Restrictor": 0,
+			"Sectors": [
+				56169,
+				28691,
+				34781
+			],
+			"Timestamp": 1723922749,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88807,
+			"Restrictor": 0,
+			"Sectors": [
+				29839,
+				25258,
+				33710
+			],
+			"Timestamp": 1723922805,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89330,
+			"Restrictor": 0,
+			"Sectors": [
+				19954,
+				35635,
+				33741
+			],
+			"Timestamp": 1723922809,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 91438,
+			"Restrictor": 0,
+			"Sectors": [
+				29855,
+				27617,
+				33966
+			],
+			"Timestamp": 1723922827,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90811,
+			"Restrictor": 0,
+			"Sectors": [
+				30727,
+				26311,
+				33773
+			],
+			"Timestamp": 1723922840,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88286,
+			"Restrictor": 0,
+			"Sectors": [
+				29588,
+				25146,
+				33552
+			],
+			"Timestamp": 1723922893,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89427,
+			"Restrictor": 0,
+			"Sectors": [
+				19631,
+				36302,
+				33494
+			],
+			"Timestamp": 1723922898,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 90707,
+			"Restrictor": 0,
+			"Sectors": [
+				31317,
+				25694,
+				33696
+			],
+			"Timestamp": 1723922918,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90091,
+			"Restrictor": 0,
+			"Sectors": [
+				30506,
+				25592,
+				33993
+			],
+			"Timestamp": 1723922930,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88765,
+			"Restrictor": 0,
+			"Sectors": [
+				29599,
+				25376,
+				33790
+			],
+			"Timestamp": 1723922982,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 89174,
+			"Restrictor": 0,
+			"Sectors": [
+				29549,
+				25659,
+				33966
+			],
+			"Timestamp": 1723923007,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 109449,
+			"Restrictor": 0,
+			"Sectors": [
+				19543,
+				56340,
+				33566
+			],
+			"Timestamp": 1723923008,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 141791,
+			"Restrictor": 0,
+			"Sectors": [
+				79467,
+				28448,
+				33876
+			],
+			"Timestamp": 1723923072,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 108807,
+			"Restrictor": 0,
+			"Sectors": [
+				48416,
+				26820,
+				33571
+			],
+			"Timestamp": 1723923091,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 89458,
+			"Restrictor": 0,
+			"Sectors": [
+				29694,
+				25456,
+				34308
+			],
+			"Timestamp": 1723923097,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89073,
+			"Restrictor": 0,
+			"Sectors": [
+				19620,
+				35316,
+				34137
+			],
+			"Timestamp": 1723923097,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 89908,
+			"Restrictor": 0,
+			"Sectors": [
+				30549,
+				25789,
+				33570
+			],
+			"Timestamp": 1723923162,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88739,
+			"Restrictor": 0,
+			"Sectors": [
+				29582,
+				25218,
+				33939
+			],
+			"Timestamp": 1723923179,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89172,
+			"Restrictor": 0,
+			"Sectors": [
+				20015,
+				35596,
+				33561
+			],
+			"Timestamp": 1723923186,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 111183,
+			"Restrictor": 0,
+			"Sectors": [
+				51670,
+				26145,
+				33368
+			],
+			"Timestamp": 1723923208,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90226,
+			"Restrictor": 0,
+			"Sectors": [
+				30749,
+				25533,
+				33944
+			],
+			"Timestamp": 1723923252,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88626,
+			"Restrictor": 0,
+			"Sectors": [
+				29856,
+				25217,
+				33553
+			],
+			"Timestamp": 1723923268,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 88902,
+			"Restrictor": 0,
+			"Sectors": [
+				19764,
+				35406,
+				33732
+			],
+			"Timestamp": 1723923275,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 90117,
+			"Restrictor": 0,
+			"Sectors": [
+				31014,
+				25694,
+				33409
+			],
+			"Timestamp": 1723923298,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90447,
+			"Restrictor": 0,
+			"Sectors": [
+				30659,
+				25790,
+				33998
+			],
+			"Timestamp": 1723923343,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88344,
+			"Restrictor": 0,
+			"Sectors": [
+				29555,
+				25327,
+				33462
+			],
+			"Timestamp": 1723923356,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89329,
+			"Restrictor": 0,
+			"Sectors": [
+				19552,
+				35919,
+				33858
+			],
+			"Timestamp": 1723923364,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 68989,
+			"Restrictor": 0,
+			"Sectors": [
+				9656,
+				26123,
+				33210
+			],
+			"Timestamp": 1723923367,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 89657,
+			"Restrictor": 0,
+			"Sectors": [
+				30050,
+				25758,
+				33849
+			],
+			"Timestamp": 1723923432,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88875,
+			"Restrictor": 0,
+			"Sectors": [
+				29817,
+				25541,
+				33517
+			],
+			"Timestamp": 1723923445,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 89447,
+			"Restrictor": 0,
+			"Sectors": [
+				19905,
+				36053,
+				33489
+			],
+			"Timestamp": 1723923454,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 89137,
+			"Restrictor": 0,
+			"Sectors": [
+				29480,
+				26042,
+				33615
+			],
+			"Timestamp": 1723923456,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 89179,
+			"Restrictor": 0,
+			"Sectors": [
+				29792,
+				25957,
+				33430
+			],
+			"Timestamp": 1723923521,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 88933,
+			"Restrictor": 0,
+			"Sectors": [
+				29618,
+				25367,
+				33948
+			],
+			"Timestamp": 1723923534,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 88828,
+			"Restrictor": 0,
+			"Sectors": [
+				19501,
+				35852,
+				33475
+			],
+			"Timestamp": 1723923542,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 88507,
+			"Restrictor": 0,
+			"Sectors": [
+				29611,
+				25596,
+				33300
+			],
+			"Timestamp": 1723923545,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 88993,
+			"Restrictor": 0,
+			"Sectors": [
+				29998,
+				25605,
+				33390
+			],
+			"Timestamp": 1723923610,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"LapTime": 89061,
+			"Restrictor": 0,
+			"Sectors": [
+				29895,
+				25101,
+				34065
+			],
+			"Timestamp": 1723923623,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 90275,
+			"Restrictor": 0,
+			"Sectors": [
+				20197,
+				36418,
+				33660
+			],
+			"Timestamp": 1723923633,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 89641,
+			"Restrictor": 0,
+			"Sectors": [
+				29679,
+				25506,
+				34456
+			],
+			"Timestamp": 1723923634,
+			"Tyre": "V",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"Cuts": 0,
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"LapTime": 90676,
+			"Restrictor": 0,
+			"Sectors": [
+				31182,
+				25582,
+				33912
+			],
+			"Timestamp": 1723923701,
+			"Tyre": "V",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 88286,
+			"CarId": 4,
+			"CarModel": "citroen2cv_uk_club_class",
+			"DriverGuid": "76561198151341342",
+			"DriverName": "Michals",
+			"Restrictor": 0,
+			"TotalTime": 1549151,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 88828,
+			"CarId": 3,
+			"CarModel": "citroen2cv_uk_club_class",
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"Restrictor": 0,
+			"TotalTime": 1558653,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 6
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 68989,
+			"CarId": 7,
+			"CarModel": "citroen2cv_uk_club_class",
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"Restrictor": 0,
+			"TotalTime": 1560122,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 88993,
+			"CarId": 2,
+			"CarModel": "citroen2cv_uk_club_class",
+			"DriverGuid": "76561197960844564",
+			"DriverName": "MrRalphMan",
+			"Restrictor": 0,
+			"TotalTime": 1626982,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 90540,
+			"CarId": 0,
+			"CarModel": "citroen2cv_uk_club_class",
+			"DriverGuid": "76561199207208225",
+			"DriverName": "SkyDriver",
+			"Restrictor": 0,
+			"TotalTime": 380673,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 5
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "paris_seine",
+	"TrackName": "paris",
+	"Type": "RACE",
+	"Date": "2024-08-17T19:42:00Z",
+	"SessionFile": "2024_8_17_19_42_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 25,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "1aa24513-e89e-42be-8197-f32dea357ee1",
+	"RaceWeekendID": ""
+}

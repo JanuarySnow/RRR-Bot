@@ -1,0 +1,2102 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199099992032",
+				"GuidsList": [
+					"76561199099992032"
+				],
+				"Name": "Carlife",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "SF23_16_Leclerc",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "RB19_11_Perez",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 47,
+			"MaxPing": 97
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "W14_63_Russell",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 53,
+			"MaxPing": 151
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Moe Powers",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "MCL60_4_Norris",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 42,
+			"MaxPing": 51
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "VF23_20_Magnussen",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 46,
+			"MaxPing": 133
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "FW45_2_Sargeant",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 52,
+			"MaxPing": 85
+		}
+	],
+	"Events": [
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.552778,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0037047,
+				"Y": -0.20376375,
+				"Z": 2.9636924
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 948.14795,
+				"Y": -128.91168,
+				"Z": -12.08778
+			},
+			"Timestamp": 1688609332,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 8.237129,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9996779,
+				"Y": -0.17027143,
+				"Z": 2.936882
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 946.9466,
+				"Y": -128.9638,
+				"Z": -12.22478
+			},
+			"Timestamp": 1688609337,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197997029041",
+				"GuidsList": [
+					"76561197997029041"
+				],
+				"Name": "Sam_GT3",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 12.915131,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0037252,
+				"Y": -0.20375596,
+				"Z": 2.963685
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 860.8482,
+				"Y": -133.44756,
+				"Z": -21.694246
+			},
+			"Timestamp": 1688609341,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 65.66324,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.000024772813,
+				"Y": -0.065705754,
+				"Z": 3.3441355
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -218.91428,
+				"Y": -120.4652,
+				"Z": 932.2299
+			},
+			"Timestamp": 1688609509,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 16.86718,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.716055,
+				"Y": -0.17188025,
+				"Z": 3.069677
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -73.080025,
+				"Y": -133.57025,
+				"Z": 418.67032
+			},
+			"Timestamp": 1688609767,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 25.004097,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0013348,
+				"Y": -0.1604908,
+				"Z": -1.9675477
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -95.14424,
+				"Y": -133.00282,
+				"Z": 429.1843
+			},
+			"Timestamp": 1688609769,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 24.291395,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.63471866,
+				"Y": -0.16378945,
+				"Z": 3.083854
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -94.76788,
+				"Y": -133.03476,
+				"Z": 428.76248
+			},
+			"Timestamp": 1688609772,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 33.93562,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0034405,
+				"Y": -0.19999166,
+				"Z": 2.8499215
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -133.41515,
+				"Y": -133.83658,
+				"Z": 420.56604
+			},
+			"Timestamp": 1688609779,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 30.67601,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0018127,
+				"Y": -0.17721952,
+				"Z": 2.0779119
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -136.81876,
+				"Y": -133.93434,
+				"Z": 419.00583
+			},
+			"Timestamp": 1688609779,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Moe Powers",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 26.64491,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.08677122,
+				"Y": -0.07764222,
+				"Z": 3.3112688
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 969.8974,
+				"Y": -127.56305,
+				"Z": -40.67447
+			},
+			"Timestamp": 1688609854,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 25.161451,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Moe Powers",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.6443204,
+				"Y": -0.08878953,
+				"Z": -2.098278
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 969.97284,
+				"Y": -127.57153,
+				"Z": -40.73824
+			},
+			"Timestamp": 1688609854,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Moe Powers",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 24.138365,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0033357,
+				"Y": -0.1771805,
+				"Z": -1.3708609
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 952.54913,
+				"Y": -128.18367,
+				"Z": -39.061283
+			},
+			"Timestamp": 1688609859,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Moe Powers",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.936983,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.043133743,
+				"Y": -0.1273693,
+				"Z": 3.324934
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 949.1865,
+				"Y": -128.32155,
+				"Z": -35.62073
+			},
+			"Timestamp": 1688609859,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 14.406988,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Moe Powers",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.0059164893,
+				"Y": -0.110634714,
+				"Z": 3.3270216
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 948.8568,
+				"Y": -128.29259,
+				"Z": -36.087864
+			},
+			"Timestamp": 1688609859,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 20.519836,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Moe Powers",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0030725,
+				"Y": -0.16698436,
+				"Z": 2.9447289
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 952.5013,
+				"Y": -128.19102,
+				"Z": -39.056297
+			},
+			"Timestamp": 1688609859,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 53.210068,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.000027981778,
+				"Y": -0.0657037,
+				"Z": 3.3441253
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 897.86285,
+				"Y": -131.8283,
+				"Z": -1.9896929
+			},
+			"Timestamp": 1688610074,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198072352217",
+				"GuidsList": [
+					"76561198072352217"
+				],
+				"Name": "Ram",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 76.19494,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.99792635,
+				"Y": 0.13591504,
+				"Z": 2.7883558
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -640.27673,
+				"Y": -141.76077,
+				"Z": 475.74728
+			},
+			"Timestamp": 1688610310,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 32.414654,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0036813,
+				"Y": -0.20376703,
+				"Z": 2.9636974
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 851.1827,
+				"Y": -134.2607,
+				"Z": 13.99478
+			},
+			"Timestamp": 1688610494,
+			"AfterSessionEnd": false
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 105402,
+			"Restrictor": 0,
+			"Sectors": [
+				29014,
+				41405,
+				34983
+			],
+			"Timestamp": 1688609388,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 105957,
+			"Restrictor": 0,
+			"Sectors": [
+				29808,
+				41094,
+				35055
+			],
+			"Timestamp": 1688609388,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 106686,
+			"Restrictor": 0,
+			"Sectors": [
+				30185,
+				41958,
+				34543
+			],
+			"Timestamp": 1688609389,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 112711,
+			"Restrictor": 0,
+			"Sectors": [
+				27571,
+				51178,
+				33962
+			],
+			"Timestamp": 1688609395,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 118430,
+			"Restrictor": 0,
+			"Sectors": [
+				30960,
+				52173,
+				35297
+			],
+			"Timestamp": 1688609401,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 103121,
+			"Restrictor": 0,
+			"Sectors": [
+				28795,
+				39910,
+				34416
+			],
+			"Timestamp": 1688609492,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 104845,
+			"Restrictor": 0,
+			"Sectors": [
+				28863,
+				41665,
+				34317
+			],
+			"Timestamp": 1688609493,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 100396,
+			"Restrictor": 0,
+			"Sectors": [
+				27469,
+				39618,
+				33309
+			],
+			"Timestamp": 1688609495,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 109615,
+			"Restrictor": 0,
+			"Sectors": [
+				28619,
+				41149,
+				39847
+			],
+			"Timestamp": 1688609497,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 102418,
+			"Restrictor": 0,
+			"Sectors": [
+				27435,
+				40639,
+				34344
+			],
+			"Timestamp": 1688609503,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 100153,
+			"Restrictor": 0,
+			"Sectors": [
+				27140,
+				39160,
+				33853
+			],
+			"Timestamp": 1688609593,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 101138,
+			"Restrictor": 0,
+			"Sectors": [
+				27523,
+				39609,
+				34006
+			],
+			"Timestamp": 1688609596,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 107652,
+			"Restrictor": 0,
+			"Sectors": [
+				32538,
+				40878,
+				34236
+			],
+			"Timestamp": 1688609600,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 102943,
+			"Restrictor": 0,
+			"Sectors": [
+				27883,
+				40739,
+				34321
+			],
+			"Timestamp": 1688609600,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 102363,
+			"Restrictor": 0,
+			"Sectors": [
+				27240,
+				40626,
+				34497
+			],
+			"Timestamp": 1688609605,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 101404,
+			"Restrictor": 0,
+			"Sectors": [
+				28126,
+				39658,
+				33620
+			],
+			"Timestamp": 1688609695,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 99745,
+			"Restrictor": 0,
+			"Sectors": [
+				26836,
+				39582,
+				33327
+			],
+			"Timestamp": 1688609696,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 103832,
+			"Restrictor": 0,
+			"Sectors": [
+				28786,
+				40959,
+				34087
+			],
+			"Timestamp": 1688609703,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 104774,
+			"Restrictor": 0,
+			"Sectors": [
+				28616,
+				41490,
+				34668
+			],
+			"Timestamp": 1688609705,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 2,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 103302,
+			"Restrictor": 0,
+			"Sectors": [
+				27508,
+				40622,
+				35172
+			],
+			"Timestamp": 1688609709,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 102673,
+			"Restrictor": 0,
+			"Sectors": [
+				26920,
+				39559,
+				36194
+			],
+			"Timestamp": 1688609799,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 101712,
+			"Restrictor": 0,
+			"Sectors": [
+				27570,
+				39654,
+				34488
+			],
+			"Timestamp": 1688609805,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 100861,
+			"Restrictor": 0,
+			"Sectors": [
+				27083,
+				39380,
+				34398
+			],
+			"Timestamp": 1688609806,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 112181,
+			"Restrictor": 0,
+			"Sectors": [
+				27631,
+				40342,
+				44208
+			],
+			"Timestamp": 1688609807,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 2,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 106299,
+			"Restrictor": 0,
+			"Sectors": [
+				26522,
+				44793,
+				34984
+			],
+			"Timestamp": 1688609815,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 100900,
+			"Restrictor": 0,
+			"Sectors": [
+				27343,
+				39811,
+				33746
+			],
+			"Timestamp": 1688609900,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 109946,
+			"Restrictor": 0,
+			"Sectors": [
+				27241,
+				48587,
+				34118
+			],
+			"Timestamp": 1688609917,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 112371,
+			"Restrictor": 0,
+			"Sectors": [
+				27901,
+				50504,
+				33966
+			],
+			"Timestamp": 1688609918,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 114291,
+			"Restrictor": 0,
+			"Sectors": [
+				28300,
+				50981,
+				35010
+			],
+			"Timestamp": 1688609919,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 105169,
+			"Restrictor": 0,
+			"Sectors": [
+				28574,
+				41562,
+				35033
+			],
+			"Timestamp": 1688609920,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 100292,
+			"Restrictor": 0,
+			"Sectors": [
+				27194,
+				39430,
+				33668
+			],
+			"Timestamp": 1688610000,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 99704,
+			"Restrictor": 0,
+			"Sectors": [
+				26899,
+				38745,
+				34060
+			],
+			"Timestamp": 1688610016,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 101299,
+			"Restrictor": 0,
+			"Sectors": [
+				27296,
+				40005,
+				33998
+			],
+			"Timestamp": 1688610019,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 102546,
+			"Restrictor": 0,
+			"Sectors": [
+				27908,
+				40352,
+				34286
+			],
+			"Timestamp": 1688610022,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 102677,
+			"Restrictor": 0,
+			"Sectors": [
+				27609,
+				40868,
+				34200
+			],
+			"Timestamp": 1688610023,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 103178,
+			"Restrictor": 0,
+			"Sectors": [
+				27741,
+				39617,
+				35820
+			],
+			"Timestamp": 1688610103,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 100245,
+			"Restrictor": 0,
+			"Sectors": [
+				26517,
+				39600,
+				34128
+			],
+			"Timestamp": 1688610117,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 103969,
+			"Restrictor": 0,
+			"Sectors": [
+				27275,
+				42143,
+				34551
+			],
+			"Timestamp": 1688610123,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 102778,
+			"Restrictor": 0,
+			"Sectors": [
+				26953,
+				40126,
+				35699
+			],
+			"Timestamp": 1688610126,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 107725,
+			"Restrictor": 0,
+			"Sectors": [
+				27634,
+				45229,
+				34862
+			],
+			"Timestamp": 1688610130,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 101743,
+			"Restrictor": 0,
+			"Sectors": [
+				27466,
+				40419,
+				33858
+			],
+			"Timestamp": 1688610205,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 100111,
+			"Restrictor": 0,
+			"Sectors": [
+				27458,
+				39542,
+				33111
+			],
+			"Timestamp": 1688610217,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 102075,
+			"Restrictor": 0,
+			"Sectors": [
+				28166,
+				39987,
+				33922
+			],
+			"Timestamp": 1688610225,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 104063,
+			"Restrictor": 0,
+			"Sectors": [
+				29467,
+				40194,
+				34402
+			],
+			"Timestamp": 1688610230,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 102961,
+			"Restrictor": 0,
+			"Sectors": [
+				28333,
+				40397,
+				34231
+			],
+			"Timestamp": 1688610233,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 108631,
+			"Restrictor": 0,
+			"Sectors": [
+				27582,
+				39977,
+				41072
+			],
+			"Timestamp": 1688610314,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 102025,
+			"Restrictor": 0,
+			"Sectors": [
+				26560,
+				39159,
+				36306
+			],
+			"Timestamp": 1688610319,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 103725,
+			"Restrictor": 0,
+			"Sectors": [
+				28035,
+				40441,
+				35249
+			],
+			"Timestamp": 1688610329,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 104974,
+			"Restrictor": 0,
+			"Sectors": [
+				28690,
+				41314,
+				34970
+			],
+			"Timestamp": 1688610335,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 103929,
+			"Restrictor": 0,
+			"Sectors": [
+				27392,
+				40014,
+				36523
+			],
+			"Timestamp": 1688610337,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 100873,
+			"Restrictor": 0,
+			"Sectors": [
+				26925,
+				40220,
+				33728
+			],
+			"Timestamp": 1688610414,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 103195,
+			"Restrictor": 0,
+			"Sectors": [
+				28959,
+				40067,
+				34169
+			],
+			"Timestamp": 1688610422,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 101772,
+			"Restrictor": 0,
+			"Sectors": [
+				27616,
+				40198,
+				33958
+			],
+			"Timestamp": 1688610431,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 102362,
+			"Restrictor": 0,
+			"Sectors": [
+				27078,
+				41273,
+				34011
+			],
+			"Timestamp": 1688610437,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 101718,
+			"Restrictor": 0,
+			"Sectors": [
+				27836,
+				39614,
+				34268
+			],
+			"Timestamp": 1688610438,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 102497,
+			"Restrictor": 0,
+			"Sectors": [
+				27536,
+				40316,
+				34645
+			],
+			"Timestamp": 1688610517,
+			"Tyre": "C4",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"LapTime": 104239,
+			"Restrictor": 0,
+			"Sectors": [
+				27527,
+				39907,
+				36805
+			],
+			"Timestamp": 1688610526,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"LapTime": 100754,
+			"Restrictor": 0,
+			"Sectors": [
+				27377,
+				39763,
+				33614
+			],
+			"Timestamp": 1688610532,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"LapTime": 103021,
+			"Restrictor": 0,
+			"Sectors": [
+				27264,
+				40788,
+				34969
+			],
+			"Timestamp": 1688610540,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 112175,
+			"Restrictor": 0,
+			"Sectors": [
+				27864,
+				49572,
+				34739
+			],
+			"Timestamp": 1688610550,
+			"Tyre": "C2",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 99745,
+			"CarId": 5,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"Restrictor": 0,
+			"TotalTime": 1236725,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 99704,
+			"CarId": 1,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561198072352217",
+			"DriverName": "Ram",
+			"Restrictor": 0,
+			"TotalTime": 1245904,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 100754,
+			"CarId": 3,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Moe Powers",
+			"Restrictor": 0,
+			"TotalTime": 1251493,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 102363,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561197997029041",
+			"DriverName": "Sam_GT3",
+			"Restrictor": 0,
+			"TotalTime": 1259775,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 101712,
+			"CarId": 4,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"Restrictor": 0,
+			"TotalTime": 1270266,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "",
+	"TrackName": "acu_cota_2021",
+	"Type": "RACE",
+	"Date": "2023-07-06T02:30:00Z",
+	"SessionFile": "2023_7_6_2_30_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 1,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "77c8cf94-8962-4018-bc3e-1c440534c7d0",
+	"RaceWeekendID": ""
+}

@@ -10,6 +10,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 from discord.ext.commands import Context
+import traceback
 
 
 class Owner(commands.Cog, name="owner"):
@@ -162,6 +163,7 @@ class Owner(commands.Cog, name="owner"):
             embed = discord.Embed(
                 description=f"Could not reload the `{cog}` cog.", color=0xE02B2B
             )
+            traceback.print_exc()
             await context.send(embed=embed)
             return
         embed = discord.Embed(

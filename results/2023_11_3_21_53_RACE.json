@@ -1,0 +1,960 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "TCR_2014_097",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "00_rosso_scuderia",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_lamborghini_huracan_gt3",
+			"Restrictor": 0,
+			"Skin": "Racing_Orange_matte",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 133,
+			"MaxPing": 871
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "CheesusKrispy",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "Rolex_64",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 129,
+			"MaxPing": 215
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mercedes_amg_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_71",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "2t_94",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561197971872704",
+				"GuidsList": [
+					"76561197971872704"
+				],
+				"Name": "Splendid",
+				"Nation": "FRA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_porsche_911_gt3_r_2016",
+			"Restrictor": 0,
+			"Skin": "Gundam Style",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 131,
+			"MaxPing": 336
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mclaren_mp412c_gt3",
+			"Restrictor": 0,
+			"Skin": "2013-Hexis_Racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mercedes_sls_gt3",
+			"Restrictor": 0,
+			"Skin": "TCR_2014_65",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "assetto_z",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "12_racing_494",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_lamborghini_huracan_gt3",
+			"Restrictor": 0,
+			"Skin": "Racing_White",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mclaren_650_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_63",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 31,
+			"MaxPing": 36
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_mercedes_amg_gt3",
+			"Restrictor": 0,
+			"Skin": "racing_76",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_nissan_gtr_gt3",
+			"Restrictor": 0,
+			"Skin": "kunosart_121",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_porsche_911_gt3_r_2016",
+			"Restrictor": 0,
+			"Skin": "01_racing_912",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mclaren_mp412c_gt3",
+			"Restrictor": 0,
+			"Skin": "2012-Gemballa_Racing",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "mercedes_sls_gt3",
+			"Restrictor": 0,
+			"Skin": "Black_Falcon_Dubai_24H_1",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "bmw_z4_gt3",
+			"Restrictor": 0,
+			"Skin": "0_bmw_motorsport_2013_black",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_488_gt3",
+			"Restrictor": 0,
+			"Skin": "06_racing_489",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_lamborghini_huracan_gt3",
+			"Restrictor": 0,
+			"Skin": "Racing_Cinnabar",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "CheesusKrispy",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 40.93051,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.54343164,
+				"Y": -0.28568384,
+				"Z": 2.5242107
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 284.1883,
+				"Y": 4.593289,
+				"Z": -136.78279
+			},
+			"Timestamp": 1699047891,
+			"AfterSessionEnd": false
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 116814,
+			"Restrictor": 0,
+			"Sectors": [
+				34616,
+				33031,
+				49167
+			],
+			"Timestamp": 1699047184,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 117704,
+			"Restrictor": 0,
+			"Sectors": [
+				34805,
+				33103,
+				49796
+			],
+			"Timestamp": 1699047185,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 110475,
+			"Restrictor": 0,
+			"Sectors": [
+				27364,
+				33250,
+				49861
+			],
+			"Timestamp": 1699047294,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 112921,
+			"Restrictor": 0,
+			"Sectors": [
+				26985,
+				32894,
+				53042
+			],
+			"Timestamp": 1699047297,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 109063,
+			"Restrictor": 0,
+			"Sectors": [
+				26952,
+				32260,
+				49851
+			],
+			"Timestamp": 1699047407,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 113584,
+			"Restrictor": 0,
+			"Sectors": [
+				27260,
+				34628,
+				51696
+			],
+			"Timestamp": 1699047408,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 109040,
+			"Restrictor": 0,
+			"Sectors": [
+				26879,
+				32657,
+				49504
+			],
+			"Timestamp": 1699047516,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 110471,
+			"Restrictor": 0,
+			"Sectors": [
+				27240,
+				33354,
+				49877
+			],
+			"Timestamp": 1699047518,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 111081,
+			"Restrictor": 0,
+			"Sectors": [
+				27124,
+				33813,
+				50144
+			],
+			"Timestamp": 1699047627,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 110518,
+			"Restrictor": 0,
+			"Sectors": [
+				27277,
+				33493,
+				49748
+			],
+			"Timestamp": 1699047629,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 109737,
+			"Restrictor": 0,
+			"Sectors": [
+				27287,
+				32652,
+				49798
+			],
+			"Timestamp": 1699047736,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 109842,
+			"Restrictor": 0,
+			"Sectors": [
+				27105,
+				33187,
+				49550
+			],
+			"Timestamp": 1699047739,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 108949,
+			"Restrictor": 0,
+			"Sectors": [
+				26919,
+				32453,
+				49577
+			],
+			"Timestamp": 1699047845,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 110461,
+			"Restrictor": 0,
+			"Sectors": [
+				27045,
+				33336,
+				50080
+			],
+			"Timestamp": 1699047849,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 110759,
+			"Restrictor": 0,
+			"Sectors": [
+				27951,
+				33398,
+				49410
+			],
+			"Timestamp": 1699047960,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 118522,
+			"Restrictor": 0,
+			"Sectors": [
+				28067,
+				40851,
+				49604
+			],
+			"Timestamp": 1699047964,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 110770,
+			"Restrictor": 0,
+			"Sectors": [
+				27614,
+				33192,
+				49964
+			],
+			"Timestamp": 1699048071,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 110507,
+			"Restrictor": 0,
+			"Sectors": [
+				27172,
+				33350,
+				49985
+			],
+			"Timestamp": 1699048074,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 111129,
+			"Restrictor": 0,
+			"Sectors": [
+				27672,
+				33880,
+				49577
+			],
+			"Timestamp": 1699048182,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 109289,
+			"Restrictor": 0,
+			"Sectors": [
+				27097,
+				32900,
+				49292
+			],
+			"Timestamp": 1699048184,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"LapTime": 111058,
+			"Restrictor": 0,
+			"Sectors": [
+				27210,
+				32800,
+				51048
+			],
+			"Timestamp": 1699048295,
+			"Tyre": "M",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"Cuts": 0,
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"LapTime": 114155,
+			"Restrictor": 0,
+			"Sectors": [
+				27351,
+				33268,
+				53536
+			],
+			"Timestamp": 1699048296,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 108949,
+			"CarId": 3,
+			"CarModel": "ks_mclaren_650_gt3",
+			"DriverGuid": "76561198309443188",
+			"DriverName": "CheesusKrispy",
+			"Restrictor": 0,
+			"TotalTime": 1229053,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 109842,
+			"CarId": 2,
+			"CarModel": "ks_lamborghini_huracan_gt3",
+			"DriverGuid": "76561197971872704",
+			"DriverName": "Splendid",
+			"Restrictor": 0,
+			"TotalTime": 1230204,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "",
+	"TrackName": "mugello",
+	"Type": "RACE",
+	"Date": "2023-11-03T21:53:00Z",
+	"SessionFile": "2023_11_3_21_53_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "3698a2cd-d218-4575-953c-eb6b04b943e4",
+	"RaceWeekendID": ""
+}

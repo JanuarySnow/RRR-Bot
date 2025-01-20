@@ -1,0 +1,2812 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199188267389",
+				"GuidsList": [
+					"76561199188267389"
+				],
+				"Name": "Ankylosaurus",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_12",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 117,
+			"MaxPing": 141
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_12",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 44,
+			"MaxPing": 2592
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198151341342",
+				"GuidsList": [
+					"76561198151341342"
+				],
+				"Name": "Michals",
+				"Nation": "CZE",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_09",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 137,
+			"MaxPing": 192
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_14",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 118,
+			"MaxPing": 623
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198035926990",
+				"GuidsList": [
+					"76561198035926990"
+				],
+				"Name": "Giorgio Carampin",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_25",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 160,
+			"MaxPing": 165
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_12",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"MinPing": 115,
+			"MaxPing": 147
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_14",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_09",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_16",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_03",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_03",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_08",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_07",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_08",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_08",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_08",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_16",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_07",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_20",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_09",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_08",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 21,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_09",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 22,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_25",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 23,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_07",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 24,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_16",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 25,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"Model": "urd_formulalights_road",
+			"Restrictor": 0,
+			"Skin": "IL15_14",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 7.9245567,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850662,
+				"Y": -0.24593443,
+				"Z": -1.5365832
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 277.84494,
+				"Y": 6.0689783,
+				"Z": -254.66821
+			},
+			"Timestamp": 1729971228,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 11.199996,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850624,
+				"Y": -0.24593458,
+				"Z": -1.5365862
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 176.34288,
+				"Y": 3.2827203,
+				"Z": -143.93306
+			},
+			"Timestamp": 1729971356,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 75.92358,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.59152865,
+				"Y": 0.030992592,
+				"Z": 2.7202814
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 162.53258,
+				"Y": 3.6979547,
+				"Z": -130.26312
+			},
+			"Timestamp": 1729971401,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 21.543821,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.851735,
+				"Y": -0.20599438,
+				"Z": 2.1897295
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 162.51985,
+				"Y": 3.8969438,
+				"Z": -146.59055
+			},
+			"Timestamp": 1729971438,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 154.62892,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.829377,
+				"Y": -0.1484313,
+				"Z": -1.1583992
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 210.05135,
+				"Y": 1.6052448,
+				"Z": 159.70148
+			},
+			"Timestamp": 1729971462,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 1.210738,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8876166,
+				"Y": -0.2495972,
+				"Z": 1.8073869
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -213.29436,
+				"Y": -0.5781394,
+				"Z": -68.66395
+			},
+			"Timestamp": 1729971528,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 7.2241836,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8159463,
+				"Y": -0.04867468,
+				"Z": 2.804827
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 71.02557,
+				"Y": 7.250732,
+				"Z": -310.90753
+			},
+			"Timestamp": 1729971557,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 25.678038,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.88507825,
+				"Y": -0.24593575,
+				"Z": -1.5365843
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 279.10434,
+				"Y": 4.5736427,
+				"Z": -218.12517
+			},
+			"Timestamp": 1729971637,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 32.04069,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.47366467,
+				"Y": 0.050354254,
+				"Z": -2.1564443
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -232.5048,
+				"Y": -2.9606445,
+				"Z": 88.850716
+			},
+			"Timestamp": 1729971657,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 4.1115026,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850631,
+				"Y": -0.25837973,
+				"Z": -1.1446327
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 219.95244,
+				"Y": 1.6771513,
+				"Z": 133.83159
+			},
+			"Timestamp": 1729971698,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 2.8887982,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850787,
+				"Y": -0.2459381,
+				"Z": -1.5365775
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 277.83347,
+				"Y": 6.072006,
+				"Z": -254.76743
+			},
+			"Timestamp": 1729971711,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 14.363354,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8876161,
+				"Y": 0.10951874,
+				"Z": 1.6261327
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 164.84074,
+				"Y": 4.120094,
+				"Z": -146.33562
+			},
+			"Timestamp": 1729971771,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 127.298485,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.84702986,
+				"Y": -0.19079329,
+				"Z": -1.1693038
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 164.47264,
+				"Y": 3.8644505,
+				"Z": -146.39403
+			},
+			"Timestamp": 1729971776,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 10.239747,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.88507336,
+				"Y": -0.2459355,
+				"Z": -1.536582
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 279.1062,
+				"Y": 4.370554,
+				"Z": -212.94461
+			},
+			"Timestamp": 1729971781,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 132.3649,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.87587744,
+				"Y": -0.24163532,
+				"Z": -1.1497312
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 164.01154,
+				"Y": 3.862151,
+				"Z": -146.43378
+			},
+			"Timestamp": 1729971873,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 3.4086044,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850737,
+				"Y": -0.24593477,
+				"Z": -1.5365802
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 227.86066,
+				"Y": 1.8056794,
+				"Z": 113.11446
+			},
+			"Timestamp": 1729971923,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 6.348992,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8802357,
+				"Y": -0.055723142,
+				"Z": -1.5365847
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 228.60661,
+				"Y": 1.476496,
+				"Z": -131.6329
+			},
+			"Timestamp": 1729971961,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 79.20645,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.7810069,
+				"Y": -0.026910676,
+				"Z": 2.7750506
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 154.19038,
+				"Y": 4.3740544,
+				"Z": -147.36772
+			},
+			"Timestamp": 1729972002,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 109.10895,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8547884,
+				"Y": -0.20338012,
+				"Z": -1.1618289
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 153.6158,
+				"Y": 4.2603106,
+				"Z": -147.41783
+			},
+			"Timestamp": 1729972007,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 6.547357,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.88507223,
+				"Y": -0.2459346,
+				"Z": -1.5365881
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 217.62947,
+				"Y": 1.6536878,
+				"Z": 139.92102
+			},
+			"Timestamp": 1729972073,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 10.402793,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850756,
+				"Y": -0.24593574,
+				"Z": -1.5365826
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 279.1214,
+				"Y": 4.753837,
+				"Z": -221.59319
+			},
+			"Timestamp": 1729972108,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 4.5581737,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850609,
+				"Y": -0.2459331,
+				"Z": -1.5365776
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 279.1206,
+				"Y": 5.023032,
+				"Z": -227.51433
+			},
+			"Timestamp": 1729972131,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198006737063",
+				"GuidsList": [
+					"76561198006737063"
+				],
+				"Name": "Big Dean Energy",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 32.726116,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8203525,
+				"Y": -0.04867456,
+				"Z": 2.8048313
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 234.6401,
+				"Y": 1.7562717,
+				"Z": -166.95078
+			},
+			"Timestamp": 1729972183,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 5.69351,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8876217,
+				"Y": 0.109519,
+				"Z": 1.8073963
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 76.35373,
+				"Y": 7.5995345,
+				"Z": -303.96097
+			},
+			"Timestamp": 1729972217,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 0.8958801,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8876198,
+				"Y": 0.10951894,
+				"Z": 1.7021528
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 77.52835,
+				"Y": 7.6129975,
+				"Z": -302.16827
+			},
+			"Timestamp": 1729972222,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 226.58946,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.8203518,
+				"Y": -0.048674326,
+				"Z": 2.8048277
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 268.69067,
+				"Y": 2.3815215,
+				"Z": -120.00053
+			},
+			"Timestamp": 1729972241,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 173.70853,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.8850614,
+				"Y": 0.036771957,
+				"Z": -1.5365812
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 232.54576,
+				"Y": 1.8309975,
+				"Z": 86.23146
+			},
+			"Timestamp": 1729972266,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 172.17941,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.82554907,
+				"Y": 0.12996864,
+				"Z": 1.8028532
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 232.42395,
+				"Y": 1.7738291,
+				"Z": 86.10714
+			},
+			"Timestamp": 1729972267,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198801402641",
+				"GuidsList": [
+					"76561198801402641"
+				],
+				"Name": "Potato",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 67.562744,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.82034945,
+				"Y": -0.22552143,
+				"Z": 2.5819051
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 239.86081,
+				"Y": 2.9809756,
+				"Z": 81.590645
+			},
+			"Timestamp": 1729972267,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 53.08505,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": 0.45108825,
+				"Y": 0.6795663,
+				"Z": -2.2014961
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 234.36537,
+				"Y": 2.8143811,
+				"Z": 96.12676
+			},
+			"Timestamp": 1729972271,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 4.637128,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.81595117,
+				"Y": -0.04867524,
+				"Z": 2.8048294
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 245.69333,
+				"Y": 2.2031918,
+				"Z": 66.10153
+			},
+			"Timestamp": 1729972276,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 0.71202904,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.88761604,
+				"Y": -0.24959716,
+				"Z": 1.8073827
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 247.41899,
+				"Y": 2.0322595,
+				"Z": 61.527016
+			},
+			"Timestamp": 1729972281,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garratt",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"ImpactSpeed": 3.3677764,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e"
+			},
+			"RelPosition": {
+				"X": -0.88763154,
+				"Y": -0.24959838,
+				"Z": 1.8073857
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 277.37213,
+				"Y": 2.5264099,
+				"Z": -48.23304
+			},
+			"Timestamp": 1729972291,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 96329,
+			"Restrictor": 0,
+			"Sectors": [
+				57746,
+				17317,
+				21266
+			],
+			"Timestamp": 1729971116,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 98109,
+			"Restrictor": 0,
+			"Sectors": [
+				58365,
+				17338,
+				22406
+			],
+			"Timestamp": 1729971118,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 100241,
+			"Restrictor": 0,
+			"Sectors": [
+				57959,
+				17308,
+				24974
+			],
+			"Timestamp": 1729971120,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 69078,
+			"Restrictor": 0,
+			"Sectors": [
+				30652,
+				17208,
+				21218
+			],
+			"Timestamp": 1729971185,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 69065,
+			"Restrictor": 0,
+			"Sectors": [
+				29997,
+				17113,
+				21955
+			],
+			"Timestamp": 1729971187,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 71643,
+			"Restrictor": 0,
+			"Sectors": [
+				30989,
+				17668,
+				22986
+			],
+			"Timestamp": 1729971191,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 68417,
+			"Restrictor": 0,
+			"Sectors": [
+				30276,
+				17091,
+				21050
+			],
+			"Timestamp": 1729971253,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 68492,
+			"Restrictor": 0,
+			"Sectors": [
+				29748,
+				17032,
+				21712
+			],
+			"Timestamp": 1729971255,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 71878,
+			"Restrictor": 0,
+			"Sectors": [
+				31751,
+				17695,
+				22432
+			],
+			"Timestamp": 1729971263,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 68024,
+			"Restrictor": 0,
+			"Sectors": [
+				30027,
+				17014,
+				20983
+			],
+			"Timestamp": 1729971321,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 68169,
+			"Restrictor": 0,
+			"Sectors": [
+				29635,
+				17001,
+				21533
+			],
+			"Timestamp": 1729971323,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 71259,
+			"Restrictor": 0,
+			"Sectors": [
+				31658,
+				17263,
+				22338
+			],
+			"Timestamp": 1729971335,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 68569,
+			"Restrictor": 0,
+			"Sectors": [
+				30274,
+				17069,
+				21226
+			],
+			"Timestamp": 1729971390,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 67949,
+			"Restrictor": 0,
+			"Sectors": [
+				29375,
+				17195,
+				21379
+			],
+			"Timestamp": 1729971391,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 71891,
+			"Restrictor": 0,
+			"Sectors": [
+				31905,
+				17531,
+				22455
+			],
+			"Timestamp": 1729971406,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 68959,
+			"Restrictor": 0,
+			"Sectors": [
+				29966,
+				16983,
+				22010
+			],
+			"Timestamp": 1729971459,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70607,
+			"Restrictor": 0,
+			"Sectors": [
+				31705,
+				17132,
+				21770
+			],
+			"Timestamp": 1729971462,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 72021,
+			"Restrictor": 0,
+			"Sectors": [
+				32043,
+				17477,
+				22501
+			],
+			"Timestamp": 1729971478,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 71411,
+			"Restrictor": 0,
+			"Sectors": [
+				31969,
+				17960,
+				21482
+			],
+			"Timestamp": 1729971530,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 69482,
+			"Restrictor": 0,
+			"Sectors": [
+				30436,
+				17402,
+				21644
+			],
+			"Timestamp": 1729971531,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 72144,
+			"Restrictor": 0,
+			"Sectors": [
+				32130,
+				17856,
+				22158
+			],
+			"Timestamp": 1729971551,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 70126,
+			"Restrictor": 0,
+			"Sectors": [
+				31232,
+				17555,
+				21339
+			],
+			"Timestamp": 1729971600,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 69662,
+			"Restrictor": 0,
+			"Sectors": [
+				30805,
+				17262,
+				21595
+			],
+			"Timestamp": 1729971601,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 71378,
+			"Restrictor": 0,
+			"Sectors": [
+				31432,
+				17631,
+				22315
+			],
+			"Timestamp": 1729971622,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70509,
+			"Restrictor": 0,
+			"Sectors": [
+				30144,
+				17329,
+				23036
+			],
+			"Timestamp": 1729971672,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 74849,
+			"Restrictor": 0,
+			"Sectors": [
+				30390,
+				17720,
+				26739
+			],
+			"Timestamp": 1729971675,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 72336,
+			"Restrictor": 0,
+			"Sectors": [
+				31975,
+				17573,
+				22788
+			],
+			"Timestamp": 1729971694,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 69668,
+			"Restrictor": 0,
+			"Sectors": [
+				30595,
+				17375,
+				21698
+			],
+			"Timestamp": 1729971741,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 78262,
+			"Restrictor": 0,
+			"Sectors": [
+				30441,
+				17189,
+				30632
+			],
+			"Timestamp": 1729971754,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 72476,
+			"Restrictor": 0,
+			"Sectors": [
+				32571,
+				17675,
+				22230
+			],
+			"Timestamp": 1729971767,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 72038,
+			"Restrictor": 0,
+			"Sectors": [
+				30170,
+				20169,
+				21699
+			],
+			"Timestamp": 1729971813,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 74881,
+			"Restrictor": 0,
+			"Sectors": [
+				35520,
+				17698,
+				21663
+			],
+			"Timestamp": 1729971828,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 72137,
+			"Restrictor": 0,
+			"Sectors": [
+				32411,
+				17433,
+				22293
+			],
+			"Timestamp": 1729971839,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 68871,
+			"Restrictor": 0,
+			"Sectors": [
+				29964,
+				17288,
+				21619
+			],
+			"Timestamp": 1729971882,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 71834,
+			"Restrictor": 0,
+			"Sectors": [
+				31397,
+				18414,
+				22023
+			],
+			"Timestamp": 1729971900,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 83581,
+			"Restrictor": 0,
+			"Sectors": [
+				31836,
+				28750,
+				22995
+			],
+			"Timestamp": 1729971923,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 68809,
+			"Restrictor": 0,
+			"Sectors": [
+				29727,
+				17086,
+				21996
+			],
+			"Timestamp": 1729971951,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 71148,
+			"Restrictor": 0,
+			"Sectors": [
+				31098,
+				18387,
+				21663
+			],
+			"Timestamp": 1729971971,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 74665,
+			"Restrictor": 0,
+			"Sectors": [
+				33391,
+				18463,
+				22811
+			],
+			"Timestamp": 1729971997,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 75749,
+			"Restrictor": 0,
+			"Sectors": [
+				34880,
+				18126,
+				22743
+			],
+			"Timestamp": 1729972027,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 72432,
+			"Restrictor": 0,
+			"Sectors": [
+				31810,
+				18716,
+				21906
+			],
+			"Timestamp": 1729972044,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 72937,
+			"Restrictor": 0,
+			"Sectors": [
+				32487,
+				17838,
+				22612
+			],
+			"Timestamp": 1729972070,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 69748,
+			"Restrictor": 0,
+			"Sectors": [
+				30571,
+				17321,
+				21856
+			],
+			"Timestamp": 1729972096,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 72441,
+			"Restrictor": 0,
+			"Sectors": [
+				32552,
+				17659,
+				22230
+			],
+			"Timestamp": 1729972116,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 74386,
+			"Restrictor": 0,
+			"Sectors": [
+				32658,
+				18171,
+				23557
+			],
+			"Timestamp": 1729972145,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 70368,
+			"Restrictor": 0,
+			"Sectors": [
+				30912,
+				17747,
+				21709
+			],
+			"Timestamp": 1729972167,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 74551,
+			"Restrictor": 0,
+			"Sectors": [
+				31855,
+				18391,
+				24305
+			],
+			"Timestamp": 1729972191,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 81879,
+			"Restrictor": 0,
+			"Sectors": [
+				32482,
+				26060,
+				23337
+			],
+			"Timestamp": 1729972226,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"LapTime": 69470,
+			"Restrictor": 0,
+			"Sectors": [
+				30388,
+				17370,
+				21712
+			],
+			"Timestamp": 1729972236,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"LapTime": 71434,
+			"Restrictor": 0,
+			"Sectors": [
+				32090,
+				17496,
+				21848
+			],
+			"Timestamp": 1729972262,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"Cuts": 0,
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"LapTime": 73772,
+			"Restrictor": 0,
+			"Sectors": [
+				33070,
+				17748,
+				22954
+			],
+			"Timestamp": 1729972300,
+			"Tyre": "",
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 67949,
+			"CarId": 5,
+			"CarModel": "urd_formulalights_road",
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garratt",
+			"Restrictor": 0,
+			"TotalTime": 1218126,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 68024,
+			"CarId": 3,
+			"CarModel": "urd_formulalights_road",
+			"DriverGuid": "76561198801402641",
+			"DriverName": "Potato",
+			"Restrictor": 0,
+			"TotalTime": 1244165,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 71259,
+			"CarId": 1,
+			"CarModel": "urd_formulalights_road",
+			"DriverGuid": "76561198006737063",
+			"DriverName": "Big Dean Energy",
+			"Restrictor": 0,
+			"TotalTime": 1282057,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "b7eb135e-a5f7-4f0b-b09a-76c567f5426e",
+			"GridPosition": 1
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "roval",
+	"TrackName": "charlotte_motor_speedway",
+	"Type": "RACE",
+	"Date": "2024-10-26T19:53:00Z",
+	"SessionFile": "2024_10_26_19_53_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "f92c0baa-18b3-4f87-aa95-39a441b88dfe",
+	"RaceWeekendID": ""
+}

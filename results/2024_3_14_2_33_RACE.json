@@ -1,0 +1,4526 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198325788745",
+				"GuidsList": [
+					"76561198325788745"
+				],
+				"Name": "Lyxian",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_5",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 133,
+			"MaxPing": 146
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_7",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 54,
+			"MaxPing": 465
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198987735116",
+				"GuidsList": [
+					"76561198987735116"
+				],
+				"Name": "SpeedBump",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_5",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 59,
+			"MaxPing": 75
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199148258539",
+				"GuidsList": [
+					"76561199148258539"
+				],
+				"Name": "B.Dias",
+				"Nation": "BRA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_7",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 165,
+			"MaxPing": 247
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_5",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 141,
+			"MaxPing": 186
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 39,
+			"MaxPing": 92
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198415106829",
+				"GuidsList": [
+					"76561198415106829"
+				],
+				"Name": "KingPotato",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_5",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 34,
+			"MaxPing": 36
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198042381863",
+				"GuidsList": [
+					"76561198042381863"
+				],
+				"Name": "brispe",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 27,
+			"MaxPing": 65
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_7",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 26,
+			"MaxPing": 30
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garritto",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_7",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 129,
+			"MaxPing": 138
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 59,
+			"MaxPing": 83
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198153969717",
+				"GuidsList": [
+					"76561198153969717"
+				],
+				"Name": "Tomter",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_7",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 26,
+			"MaxPing": 30
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "01_ferrari_5",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "00_default",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "ks_ferrari_sf70h",
+			"Restrictor": 0,
+			"Skin": "02_ferrari_7",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 31.295055,
+			"OtherCarId": 10,
+			"OtherDriver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0091516,
+				"Y": -0.06772258,
+				"Z": -1.9315492
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 609.8258,
+				"Y": -25.781946,
+				"Z": -78.73378
+			},
+			"Timestamp": 1710382117,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 39.27016,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105493,
+				"Y": -0.15469363,
+				"Z": 2.9785929
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 609.9084,
+				"Y": -25.81038,
+				"Z": -78.73475
+			},
+			"Timestamp": 1710382119,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 18.836958,
+			"OtherCarId": 9,
+			"OtherDriver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garritto",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9809773,
+				"Y": -0.04055823,
+				"Z": 1.9035045
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 882.7422,
+				"Y": -36.356915,
+				"Z": 273.47217
+			},
+			"Timestamp": 1710382131,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 35.40946,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.7949813,
+				"Y": 0.11632674,
+				"Z": 0.83655965
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 866.09344,
+				"Y": -35.829494,
+				"Z": 266.08304
+			},
+			"Timestamp": 1710382131,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garritto",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 40.112972,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.46853846,
+				"Y": -0.1828552,
+				"Z": 0.93721575
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 873.8916,
+				"Y": -36.026344,
+				"Z": 267.44635
+			},
+			"Timestamp": 1710382131,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 34.969975,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.88471925,
+				"Y": -0.15231657,
+				"Z": 2.977841
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 865.8703,
+				"Y": -36.071148,
+				"Z": 265.93274
+			},
+			"Timestamp": 1710382132,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 46.685734,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105473,
+				"Y": -0.16106486,
+				"Z": 2.980065
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 837.93134,
+				"Y": -35.8018,
+				"Z": 219.56499
+			},
+			"Timestamp": 1710382136,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 16.70736,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199148258539",
+				"GuidsList": [
+					"76561199148258539"
+				],
+				"Name": "B.Dias",
+				"Nation": "BRA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0130615,
+				"Y": -0.033010203,
+				"Z": 2.289609
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 775.7262,
+				"Y": -34.294155,
+				"Z": 193.05699
+			},
+			"Timestamp": 1710382137,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199148258539",
+				"GuidsList": [
+					"76561199148258539"
+				],
+				"Name": "B.Dias",
+				"Nation": "BRA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 41.360237,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.91054523,
+				"Y": 0.0030455808,
+				"Z": 2.941998
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -8.447654,
+				"Y": -7.400494,
+				"Z": 8.072866
+			},
+			"Timestamp": 1710382154,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 59.93182,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561199148258539",
+				"GuidsList": [
+					"76561199148258539"
+				],
+				"Name": "B.Dias",
+				"Nation": "BRA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9571063,
+				"Y": 0.2422174,
+				"Z": -1.3282359
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -46.3397,
+				"Y": -8.247494,
+				"Z": 81.64653
+			},
+			"Timestamp": 1710382157,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 11.470588,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91054875,
+				"Y": -0.16106468,
+				"Z": 2.9800684
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -61.815746,
+				"Y": -9.053909,
+				"Z": 154.23361
+			},
+			"Timestamp": 1710382157,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561199148258539",
+				"GuidsList": [
+					"76561199148258539"
+				],
+				"Name": "B.Dias",
+				"Nation": "BRA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 107.52825,
+			"OtherCarId": 5,
+			"OtherDriver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9636022,
+				"Y": 0.1305015,
+				"Z": -1.8678324
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -46.36911,
+				"Y": -8.321716,
+				"Z": 80.85629
+			},
+			"Timestamp": 1710382159,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 38.571835,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.4853489,
+				"Y": 0.6013712,
+				"Z": -2.3062267
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -81.7761,
+				"Y": -9.374348,
+				"Z": 202.79874
+			},
+			"Timestamp": 1710382162,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 54.586555,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561198042381863",
+				"GuidsList": [
+					"76561198042381863"
+				],
+				"Name": "brispe",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0091034,
+				"Y": -0.064995624,
+				"Z": -1.6187273
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -1154.526,
+				"Y": 0.37892962,
+				"Z": 15.50829
+			},
+			"Timestamp": 1710382185,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198042381863",
+				"GuidsList": [
+					"76561198042381863"
+				],
+				"Name": "brispe",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 50.313816,
+			"OtherCarId": 8,
+			"OtherDriver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8682037,
+				"Y": -0.04841097,
+				"Z": 2.9536269
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -1154.5,
+				"Y": 0.3866391,
+				"Z": 15.45356
+			},
+			"Timestamp": 1710382187,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 188.53557,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.82233584,
+				"Y": -0.021797027,
+				"Z": 2.9020267
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -49.00353,
+				"Y": -8.244737,
+				"Z": 41.537857
+			},
+			"Timestamp": 1710382324,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 44.12907,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9928118,
+				"Y": 0.326794,
+				"Z": -1.805766
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -48.700665,
+				"Y": -7.9681735,
+				"Z": 40.129143
+			},
+			"Timestamp": 1710382329,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.6431813,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.0000021006624,
+				"Y": -0.15422109,
+				"Z": 3.1677213
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -63.45005,
+				"Y": -9.08796,
+				"Z": 159.03392
+			},
+			"Timestamp": 1710382334,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198153969717",
+				"GuidsList": [
+					"76561198153969717"
+				],
+				"Name": "Tomter",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 44.11695,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.91054225,
+				"Y": -0.16106467,
+				"Z": 2.9800713
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 122.47019,
+				"Y": -5.618548,
+				"Z": -123.09948
+			},
+			"Timestamp": 1710382349,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.2139716,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91053694,
+				"Y": -0.16106561,
+				"Z": 2.9800704
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 568.67096,
+				"Y": -24.780783,
+				"Z": 95.65989
+			},
+			"Timestamp": 1710382377,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 0.05795062,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91051716,
+				"Y": -0.16106528,
+				"Z": 2.9800665
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 568.4624,
+				"Y": -24.755829,
+				"Z": 95.38746
+			},
+			"Timestamp": 1710382382,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.282149,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9105374,
+				"Y": -0.16106485,
+				"Z": 2.9800653
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 223.05177,
+				"Y": -12.20035,
+				"Z": -261.6344
+			},
+			"Timestamp": 1710382431,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198153969717",
+				"GuidsList": [
+					"76561198153969717"
+				],
+				"Name": "Tomter",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 9.891606,
+			"OtherCarId": 8,
+			"OtherDriver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.49046883,
+				"Y": 0.076976806,
+				"Z": -2.2273912
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 859.1663,
+				"Y": -35.844284,
+				"Z": 256.13553
+			},
+			"Timestamp": 1710382449,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 11.867145,
+			"OtherCarId": 11,
+			"OtherDriver": {
+				"Guid": "76561198153969717",
+				"GuidsList": [
+					"76561198153969717"
+				],
+				"Name": "Tomter",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.5985222,
+				"Y": 0.013211539,
+				"Z": 2.99898
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 857.99445,
+				"Y": -35.838776,
+				"Z": 254.99046
+			},
+			"Timestamp": 1710382450,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561198153969717",
+				"GuidsList": [
+					"76561198153969717"
+				],
+				"Name": "Tomter",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 22.759146,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0091451,
+				"Y": -0.06772189,
+				"Z": -1.9315156
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 767.6788,
+				"Y": -34.06102,
+				"Z": 167.78716
+			},
+			"Timestamp": 1710382454,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.611517,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0091386,
+				"Y": -0.06324574,
+				"Z": -1.4184374
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 44.57374,
+				"Y": -6.43585,
+				"Z": -72.91187
+			},
+			"Timestamp": 1710382484,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 36.45467,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.910555,
+				"Y": -0.16106614,
+				"Z": 2.9800591
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1056.6508,
+				"Y": -6.9734025,
+				"Z": 62.0111
+			},
+			"Timestamp": 1710382512,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.6977077,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105717,
+				"Y": -0.16106822,
+				"Z": 2.9800346
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1054.4044,
+				"Y": -7.2059717,
+				"Z": 62.766647
+			},
+			"Timestamp": 1710382517,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 1.78422,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105226,
+				"Y": -0.1610615,
+				"Z": 2.9801083
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1053.5486,
+				"Y": -7.27508,
+				"Z": 63.049675
+			},
+			"Timestamp": 1710382522,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 16.960083,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91055655,
+				"Y": 0.0030451005,
+				"Z": 2.941994
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 207.54636,
+				"Y": -11.022514,
+				"Z": -260.31155
+			},
+			"Timestamp": 1710382552,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.9397836,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.91051936,
+				"Y": -0.16106568,
+				"Z": 2.980082
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 1019.7709,
+				"Y": -36.00964,
+				"Z": 292.5968
+			},
+			"Timestamp": 1710382691,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 23.159859,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0091386,
+				"Y": -0.06772242,
+				"Z": -1.9315463
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 1021.78705,
+				"Y": -35.986736,
+				"Z": 290.47574
+			},
+			"Timestamp": 1710382696,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198042381863",
+				"GuidsList": [
+					"76561198042381863"
+				],
+				"Name": "brispe",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 23.66234,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91053796,
+				"Y": -0.16106492,
+				"Z": 2.9800627
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 330.35098,
+				"Y": -15.932781,
+				"Z": -263.94424
+			},
+			"Timestamp": 1710382737,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 70.24492,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0091411,
+				"Y": -0.06772313,
+				"Z": -1.9315243
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -773.44244,
+				"Y": -4.8425374,
+				"Z": 83.420525
+			},
+			"Timestamp": 1710382749,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 42.85481,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9105364,
+				"Y": -0.16106418,
+				"Z": 2.9800682
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 213.36108,
+				"Y": -11.552508,
+				"Z": -261.1129
+			},
+			"Timestamp": 1710382787,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 12.608097,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -1.0075377,
+				"Y": -0.03910616,
+				"Z": 2.2951872
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 228.4969,
+				"Y": -12.404348,
+				"Z": -261.7378
+			},
+			"Timestamp": 1710382792,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 67.61071,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9105283,
+				"Y": -0.16106547,
+				"Z": 2.9800673
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 846.0399,
+				"Y": -36.096653,
+				"Z": 225.723
+			},
+			"Timestamp": 1710382806,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 1.3731966,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105424,
+				"Y": -0.16106664,
+				"Z": 2.9800484
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 835.48676,
+				"Y": -35.729717,
+				"Z": 217.79561
+			},
+			"Timestamp": 1710382834,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 62.56516,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91051656,
+				"Y": -0.16106479,
+				"Z": 2.9800663
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 854.0184,
+				"Y": -36.33987,
+				"Z": 231.74138
+			},
+			"Timestamp": 1710382836,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 50.046127,
+			"OtherCarId": 10,
+			"OtherDriver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.89998966,
+				"Y": -0.054779302,
+				"Z": 2.9484622
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 840.13635,
+				"Y": -35.707546,
+				"Z": 223.87445
+			},
+			"Timestamp": 1710382836,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 70.49398,
+			"OtherCarId": 8,
+			"OtherDriver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91091716,
+				"Y": -0.16122508,
+				"Z": 2.9283288
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 840.57196,
+				"Y": -35.83588,
+				"Z": 224.0975
+			},
+			"Timestamp": 1710382839,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198416337099",
+				"GuidsList": [
+					"76561198416337099"
+				],
+				"Name": "lkaikul",
+				"Nation": "MEX",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 6.902676,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0091418,
+				"Y": -0.06772357,
+				"Z": -1.931515
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 837.85034,
+				"Y": -35.78445,
+				"Z": 219.57095
+			},
+			"Timestamp": 1710382839,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 72.17208,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.37309024,
+				"Y": -0.16415906,
+				"Z": 3.0590024
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1064.2662,
+				"Y": -6.3355656,
+				"Z": 58.673515
+			},
+			"Timestamp": 1710382887,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 14.153673,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.91052777,
+				"Y": -0.16106163,
+				"Z": 2.9801013
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -1047.9171,
+				"Y": -7.7351894,
+				"Z": 64.86237
+			},
+			"Timestamp": 1710382892,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 85.33716,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105482,
+				"Y": 0.0030458297,
+				"Z": 2.941988
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -608.6904,
+				"Y": -7.1760716,
+				"Z": 126.34548
+			},
+			"Timestamp": 1710383131,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 20.019892,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0091393,
+				"Y": -0.06772304,
+				"Z": -1.9315283
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -431.38492,
+				"Y": -7.2641664,
+				"Z": 126.51526
+			},
+			"Timestamp": 1710383141,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 35.587944,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105332,
+				"Y": -0.16106522,
+				"Z": 2.980076
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -582.0369,
+				"Y": -7.327864,
+				"Z": 126.51664
+			},
+			"Timestamp": 1710383157,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 0.086136654,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105399,
+				"Y": -0.16106491,
+				"Z": 2.980081
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -503.39044,
+				"Y": -7.36911,
+				"Z": 139.83461
+			},
+			"Timestamp": 1710383162,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garritto",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.253238,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9105456,
+				"Y": -0.16106516,
+				"Z": 2.980078
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -244.64615,
+				"Y": -13.880744,
+				"Z": 145.46065
+			},
+			"Timestamp": 1710383176,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561199008053666",
+				"GuidsList": [
+					"76561199008053666"
+				],
+				"Name": "Josh Garritto",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 8.76873,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.9105519,
+				"Y": -0.1610649,
+				"Z": 2.9800646
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -246.2154,
+				"Y": -13.855283,
+				"Z": 142.7577
+			},
+			"Timestamp": 1710383181,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 23.658648,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.91054237,
+				"Y": -0.1610648,
+				"Z": 2.98007
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 66.36348,
+				"Y": -6.048519,
+				"Z": -95.323
+			},
+			"Timestamp": 1710383241,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561198255428457",
+				"GuidsList": [
+					"76561198255428457"
+				],
+				"Name": "Liam Wood",
+				"Nation": "SAI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 38.278976,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.910541,
+				"Y": -0.16106471,
+				"Z": 2.9800696
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -106.21758,
+				"Y": -4.8360376,
+				"Z": 98.402374
+			},
+			"Timestamp": 1710383323,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 57.708977,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91054475,
+				"Y": -0.16106373,
+				"Z": 2.980073
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 1020.5747,
+				"Y": -36.505062,
+				"Z": 153.1869
+			},
+			"Timestamp": 1710383397,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 183.43553,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9105421,
+				"Y": 0.003044003,
+				"Z": 2.9420078
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 1020.8737,
+				"Y": -36.51709,
+				"Z": 163.28873
+			},
+			"Timestamp": 1710383431,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 57.27139,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.4522216,
+				"Y": -0.15765345,
+				"Z": 2.9985385
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 994.3234,
+				"Y": -38.893883,
+				"Z": 183.19449
+			},
+			"Timestamp": 1710383436,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 59.821564,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.14433867,
+				"Y": -0.13064434,
+				"Z": 3.1231797
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 994.5477,
+				"Y": -38.843803,
+				"Z": 183.10887
+			},
+			"Timestamp": 1710383437,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 83.10351,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 1.0091038,
+				"Y": -0.06772162,
+				"Z": -1.931526
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 1025.9636,
+				"Y": -37.212467,
+				"Z": 204.3453
+			},
+			"Timestamp": 1710383441,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 24.313982,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.8299394,
+				"Y": -0.16045727,
+				"Z": 2.9966867
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 998.92816,
+				"Y": -39.00156,
+				"Z": 200.76544
+			},
+			"Timestamp": 1710383441,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561198309443188",
+				"GuidsList": [
+					"76561198309443188"
+				],
+				"Name": "Cheesus",
+				"Nation": "DEU",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 26.240639,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.018449804,
+				"Y": -0.15260127,
+				"Z": 3.1530309
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 999.0015,
+				"Y": -38.993423,
+				"Z": 200.7385
+			},
+			"Timestamp": 1710383442,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198048182406",
+				"GuidsList": [
+					"76561198048182406"
+				],
+				"Name": "BootlegCars",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.3068876,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.91051847,
+				"Y": -0.16106671,
+				"Z": 2.9800847
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 875.87787,
+				"Y": -36.632626,
+				"Z": 248.33029
+			},
+			"Timestamp": 1710383466,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198042381863",
+				"GuidsList": [
+					"76561198042381863"
+				],
+				"Name": "brispe",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 35.0991,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.910547,
+				"Y": 0.0030459608,
+				"Z": 2.9420004
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 217.61963,
+				"Y": -9.863957,
+				"Z": -129.81287
+			},
+			"Timestamp": 1710383467,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198042381863",
+				"GuidsList": [
+					"76561198042381863"
+				],
+				"Name": "brispe",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 48.75101,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.71789354,
+				"Y": -0.038506094,
+				"Z": 2.9364798
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -421.5915,
+				"Y": -1.2909533,
+				"Z": -133.6289
+			},
+			"Timestamp": 1710383492,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 107102,
+			"Restrictor": 0,
+			"Sectors": [
+				35958,
+				48550,
+				22594
+			],
+			"Timestamp": 1710382220,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 108064,
+			"Restrictor": 0,
+			"Sectors": [
+				34773,
+				50039,
+				23252
+			],
+			"Timestamp": 1710382221,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 120915,
+			"Restrictor": 0,
+			"Sectors": [
+				58247,
+				41347,
+				21321
+			],
+			"Timestamp": 1710382234,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 122384,
+			"Restrictor": 0,
+			"Sectors": [
+				57845,
+				41765,
+				22774
+			],
+			"Timestamp": 1710382236,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 123691,
+			"Restrictor": 0,
+			"Sectors": [
+				58063,
+				42327,
+				23301
+			],
+			"Timestamp": 1710382237,
+			"Tyre": "US",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 126409,
+			"Restrictor": 0,
+			"Sectors": [
+				40675,
+				61020,
+				24714
+			],
+			"Timestamp": 1710382240,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 150664,
+			"Restrictor": 0,
+			"Sectors": [
+				75419,
+				44159,
+				31086
+			],
+			"Timestamp": 1710382264,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198153969717",
+			"DriverName": "Tomter",
+			"LapTime": 133818,
+			"Restrictor": 0,
+			"Sectors": [
+				62970,
+				41210,
+				29638
+			],
+			"Timestamp": 1710382303,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 98103,
+			"Restrictor": 0,
+			"Sectors": [
+				36214,
+				39937,
+				21952
+			],
+			"Timestamp": 1710382318,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 92983,
+			"Restrictor": 0,
+			"Sectors": [
+				32607,
+				38803,
+				21573
+			],
+			"Timestamp": 1710382327,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 96316,
+			"Restrictor": 0,
+			"Sectors": [
+				34144,
+				39816,
+				22356
+			],
+			"Timestamp": 1710382332,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 109554,
+			"Restrictor": 0,
+			"Sectors": [
+				35825,
+				49955,
+				23774
+			],
+			"Timestamp": 1710382349,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 120516,
+			"Restrictor": 0,
+			"Sectors": [
+				43219,
+				52164,
+				25133
+			],
+			"Timestamp": 1710382357,
+			"Tyre": "US",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 1,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 94756,
+			"Restrictor": 0,
+			"Sectors": [
+				33849,
+				39190,
+				21717
+			],
+			"Timestamp": 1710382413,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 93174,
+			"Restrictor": 0,
+			"Sectors": [
+				33072,
+				38304,
+				21798
+			],
+			"Timestamp": 1710382420,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198153969717",
+			"DriverName": "Tomter",
+			"LapTime": 129159,
+			"Restrictor": 0,
+			"Sectors": [
+				57514,
+				45904,
+				25741
+			],
+			"Timestamp": 1710382432,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 210921,
+			"Restrictor": 0,
+			"Sectors": [
+				147938,
+				40437,
+				22546
+			],
+			"Timestamp": 1710382432,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 179974,
+			"Restrictor": 0,
+			"Sectors": [
+				114954,
+				41507,
+				23513
+			],
+			"Timestamp": 1710382444,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 116385,
+			"Restrictor": 0,
+			"Sectors": [
+				33913,
+				39325,
+				43147
+			],
+			"Timestamp": 1710382448,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 119790,
+			"Restrictor": 0,
+			"Sectors": [
+				55462,
+				40928,
+				23400
+			],
+			"Timestamp": 1710382477,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 99536,
+			"Restrictor": 0,
+			"Sectors": [
+				38328,
+				38569,
+				22639
+			],
+			"Timestamp": 1710382513,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 93221,
+			"Restrictor": 0,
+			"Sectors": [
+				33227,
+				38453,
+				21541
+			],
+			"Timestamp": 1710382514,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 98441,
+			"Restrictor": 0,
+			"Sectors": [
+				34713,
+				40616,
+				23112
+			],
+			"Timestamp": 1710382531,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 101258,
+			"Restrictor": 0,
+			"Sectors": [
+				35451,
+				40063,
+				25744
+			],
+			"Timestamp": 1710382550,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 209096,
+			"Restrictor": 0,
+			"Sectors": [
+				115042,
+				66019,
+				28035
+			],
+			"Timestamp": 1710382558,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 1,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 130231,
+			"Restrictor": 0,
+			"Sectors": [
+				42386,
+				63703,
+				24142
+			],
+			"Timestamp": 1710382574,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 98347,
+			"Restrictor": 0,
+			"Sectors": [
+				33813,
+				41274,
+				23260
+			],
+			"Timestamp": 1710382576,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 94872,
+			"Restrictor": 0,
+			"Sectors": [
+				33424,
+				39600,
+				21848
+			],
+			"Timestamp": 1710382608,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 96672,
+			"Restrictor": 0,
+			"Sectors": [
+				33145,
+				40459,
+				23068
+			],
+			"Timestamp": 1710382627,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 129265,
+			"Restrictor": 0,
+			"Sectors": [
+				66935,
+				39438,
+				22892
+			],
+			"Timestamp": 1710382642,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 126866,
+			"Restrictor": 0,
+			"Sectors": [
+				63002,
+				40113,
+				23751
+			],
+			"Timestamp": 1710382676,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 123060,
+			"Restrictor": 0,
+			"Sectors": [
+				57823,
+				42057,
+				23180
+			],
+			"Timestamp": 1710382681,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 108546,
+			"Restrictor": 0,
+			"Sectors": [
+				40884,
+				44495,
+				23167
+			],
+			"Timestamp": 1710382683,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 110733,
+			"Restrictor": 0,
+			"Sectors": [
+				46392,
+				41445,
+				22896
+			],
+			"Timestamp": 1710382686,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 91790,
+			"Restrictor": 0,
+			"Sectors": [
+				32589,
+				37934,
+				21267
+			],
+			"Timestamp": 1710382700,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 96714,
+			"Restrictor": 0,
+			"Sectors": [
+				33029,
+				40478,
+				23207
+			],
+			"Timestamp": 1710382724,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 104257,
+			"Restrictor": 0,
+			"Sectors": [
+				32757,
+				38745,
+				32755
+			],
+			"Timestamp": 1710382746,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 112980,
+			"Restrictor": 0,
+			"Sectors": [
+				50443,
+				40208,
+				22329
+			],
+			"Timestamp": 1710382789,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 104957,
+			"Restrictor": 0,
+			"Sectors": [
+				34748,
+				47138,
+				23071
+			],
+			"Timestamp": 1710382791,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 113030,
+			"Restrictor": 0,
+			"Sectors": [
+				41017,
+				41954,
+				30059
+			],
+			"Timestamp": 1710382794,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 94890,
+			"Restrictor": 0,
+			"Sectors": [
+				33253,
+				39825,
+				21812
+			],
+			"Timestamp": 1710382795,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 1,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 120082,
+			"Restrictor": 0,
+			"Sectors": [
+				35522,
+				59738,
+				24822
+			],
+			"Timestamp": 1710382803,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 96021,
+			"Restrictor": 0,
+			"Sectors": [
+				33610,
+				39402,
+				23009
+			],
+			"Timestamp": 1710382820,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 95901,
+			"Restrictor": 0,
+			"Sectors": [
+				34255,
+				39802,
+				21844
+			],
+			"Timestamp": 1710382842,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 94090,
+			"Restrictor": 0,
+			"Sectors": [
+				33480,
+				38672,
+				21938
+			],
+			"Timestamp": 1710382889,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 99560,
+			"Restrictor": 0,
+			"Sectors": [
+				34076,
+				41212,
+				24272
+			],
+			"Timestamp": 1710382891,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 128788,
+			"Restrictor": 0,
+			"Sectors": [
+				52661,
+				52677,
+				23450
+			],
+			"Timestamp": 1710382923,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 142065,
+			"Restrictor": 0,
+			"Sectors": [
+				62451,
+				56659,
+				22955
+			],
+			"Timestamp": 1710382932,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 115852,
+			"Restrictor": 0,
+			"Sectors": [
+				51560,
+				41266,
+				23026
+			],
+			"Timestamp": 1710382936,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 97497,
+			"Restrictor": 0,
+			"Sectors": [
+				35653,
+				39560,
+				22284
+			],
+			"Timestamp": 1710382940,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 177684,
+			"Restrictor": 0,
+			"Sectors": [
+				112010,
+				42777,
+				22897
+			],
+			"Timestamp": 1710382980,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 93236,
+			"Restrictor": 0,
+			"Sectors": [
+				32828,
+				38682,
+				21726
+			],
+			"Timestamp": 1710382982,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 112309,
+			"Restrictor": 0,
+			"Sectors": [
+				49061,
+				40415,
+				22833
+			],
+			"Timestamp": 1710383003,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 99384,
+			"Restrictor": 0,
+			"Sectors": [
+				35483,
+				40775,
+				23126
+			],
+			"Timestamp": 1710383023,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 97152,
+			"Restrictor": 0,
+			"Sectors": [
+				33841,
+				40734,
+				22577
+			],
+			"Timestamp": 1710383033,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 97357,
+			"Restrictor": 0,
+			"Sectors": [
+				34560,
+				39447,
+				23350
+			],
+			"Timestamp": 1710383037,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 118530,
+			"Restrictor": 0,
+			"Sectors": [
+				56726,
+				39799,
+				22005
+			],
+			"Timestamp": 1710383050,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 95042,
+			"Restrictor": 0,
+			"Sectors": [
+				34522,
+				38646,
+				21874
+			],
+			"Timestamp": 1710383077,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 113777,
+			"Restrictor": 0,
+			"Sectors": [
+				39059,
+				42147,
+				32571
+			],
+			"Timestamp": 1710383094,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198325788745",
+			"DriverName": "Lyxian",
+			"LapTime": 118594,
+			"Restrictor": 0,
+			"Sectors": [
+				51454,
+				43916,
+				23224
+			],
+			"Timestamp": 1710383105,
+			"Tyre": "US",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 103901,
+			"Restrictor": 0,
+			"Sectors": [
+				34269,
+				46642,
+				22990
+			],
+			"Timestamp": 1710383107,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 101641,
+			"Restrictor": 0,
+			"Sectors": [
+				35837,
+				42165,
+				23639
+			],
+			"Timestamp": 1710383124,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 93403,
+			"Restrictor": 0,
+			"Sectors": [
+				32941,
+				37966,
+				22496
+			],
+			"Timestamp": 1710383130,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 101668,
+			"Restrictor": 0,
+			"Sectors": [
+				34024,
+				45346,
+				22298
+			],
+			"Timestamp": 1710383135,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 1,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 121589,
+			"Restrictor": 0,
+			"Sectors": [
+				33876,
+				40967,
+				46746
+			],
+			"Timestamp": 1710383172,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 1,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 115549,
+			"Restrictor": 0,
+			"Sectors": [
+				32942,
+				39286,
+				43321
+			],
+			"Timestamp": 1710383193,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 101712,
+			"Restrictor": 0,
+			"Sectors": [
+				35139,
+				41868,
+				24705
+			],
+			"Timestamp": 1710383196,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198325788745",
+			"DriverName": "Lyxian",
+			"LapTime": 98934,
+			"Restrictor": 0,
+			"Sectors": [
+				33792,
+				40877,
+				24265
+			],
+			"Timestamp": 1710383204,
+			"Tyre": "US",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 98555,
+			"Restrictor": 0,
+			"Sectors": [
+				33229,
+				43173,
+				22153
+			],
+			"Timestamp": 1710383229,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 96859,
+			"Restrictor": 0,
+			"Sectors": [
+				33495,
+				40671,
+				22693
+			],
+			"Timestamp": 1710383232,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"LapTime": 111151,
+			"Restrictor": 0,
+			"Sectors": [
+				35798,
+				51615,
+				23738
+			],
+			"Timestamp": 1710383235,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 132977,
+			"Restrictor": 0,
+			"Sectors": [
+				57575,
+				52813,
+				22589
+			],
+			"Timestamp": 1710383240,
+			"Tyre": "US",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 95320,
+			"Restrictor": 0,
+			"Sectors": [
+				34255,
+				39110,
+				21955
+			],
+			"Timestamp": 1710383288,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 116262,
+			"Restrictor": 0,
+			"Sectors": [
+				50791,
+				42444,
+				23027
+			],
+			"Timestamp": 1710383312,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 144128,
+			"Restrictor": 0,
+			"Sectors": [
+				79450,
+				41679,
+				22999
+			],
+			"Timestamp": 1710383316,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 98065,
+			"Restrictor": 0,
+			"Sectors": [
+				34966,
+				40500,
+				22599
+			],
+			"Timestamp": 1710383330,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 103880,
+			"Restrictor": 0,
+			"Sectors": [
+				33284,
+				47354,
+				23242
+			],
+			"Timestamp": 1710383333,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"LapTime": 116013,
+			"Restrictor": 0,
+			"Sectors": [
+				53363,
+				39510,
+				23140
+			],
+			"Timestamp": 1710383356,
+			"Tyre": "US",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"LapTime": 94434,
+			"Restrictor": 0,
+			"Sectors": [
+				33216,
+				39379,
+				21839
+			],
+			"Timestamp": 1710383383,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 1,
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"LapTime": 98784,
+			"Restrictor": 0,
+			"Sectors": [
+				33997,
+				41009,
+				23778
+			],
+			"Timestamp": 1710383411,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"LapTime": 102683,
+			"Restrictor": 0,
+			"Sectors": [
+				33897,
+				39672,
+				29114
+			],
+			"Timestamp": 1710383418,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"LapTime": 97066,
+			"Restrictor": 0,
+			"Sectors": [
+				33926,
+				40483,
+				22657
+			],
+			"Timestamp": 1710383427,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"Cuts": 0,
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"LapTime": 95457,
+			"Restrictor": 0,
+			"Sectors": [
+				33154,
+				39289,
+				23014
+			],
+			"Timestamp": 1710383428,
+			"Tyre": "S",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 91790,
+			"CarId": 4,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198309443188",
+			"DriverName": "Cheesus",
+			"Restrictor": 0,
+			"TotalTime": 1270734,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 93403,
+			"CarId": 7,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198042381863",
+			"DriverName": "brispe",
+			"Restrictor": 0,
+			"TotalTime": 1316412,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 3
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 96021,
+			"CarId": 8,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198048182406",
+			"DriverName": "BootlegCars",
+			"Restrictor": 0,
+			"TotalTime": 1314777,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 98347,
+			"CarId": 9,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561199008053666",
+			"DriverName": "Josh Garritto",
+			"Restrictor": 0,
+			"TotalTime": 1244093,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 96316,
+			"CarId": 1,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Buggy",
+			"Restrictor": 0,
+			"TotalTime": 1306452,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 101712,
+			"CarId": 10,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198416337099",
+			"DriverName": "lkaikul",
+			"Restrictor": 0,
+			"TotalTime": 1299004,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 8
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 99384,
+			"CarId": 5,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198255428457",
+			"DriverName": "Liam Wood",
+			"Restrictor": 0,
+			"TotalTime": 1123365,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 6
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 129159,
+			"CarId": 11,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198153969717",
+			"DriverName": "Tomter",
+			"Restrictor": 0,
+			"TotalTime": 319869,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 9
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 98934,
+			"CarId": 0,
+			"CarModel": "ks_ferrari_sf70h",
+			"DriverGuid": "76561198325788745",
+			"DriverName": "Lyxian",
+			"Restrictor": 0,
+			"TotalTime": 1092237,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 10
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "suzukagp",
+	"TrackName": "rt_suzuka",
+	"Type": "RACE",
+	"Date": "2024-03-14T02:33:00Z",
+	"SessionFile": "2024_3_14_2_33_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "ac1691ba-cf8a-4415-9109-53d5bb1c5d7a",
+	"RaceWeekendID": ""
+}

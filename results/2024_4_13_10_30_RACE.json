@@ -1,0 +1,833 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "6_oficial_sordo",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 61,
+			"MaxPing": 132
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198008585393",
+				"GuidsList": [
+					"76561198008585393"
+				],
+				"Name": "GoShu",
+				"Nation": "BGR",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "0_",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 145,
+			"MaxPing": 156
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "Puma BWT",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 94,
+			"MaxPing": 98
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198825576064",
+				"GuidsList": [
+					"76561198825576064"
+				],
+				"Name": "Dario Ussumane",
+				"Nation": "PRT",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "9_wdelirio_gardemeister_castrol",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 142,
+			"MaxPing": 150
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22",
+			"Restrictor": 0,
+			"Skin": "15_Marlboro",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 60,
+			"MaxPing": 67
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "0_",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561199524670691",
+				"GuidsList": [
+					"76561199524670691"
+				],
+				"Name": "Arrow",
+				"Nation": "PLA",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22",
+			"Restrictor": 0,
+			"Skin": "2_",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 144,
+			"MaxPing": 192
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561198382209854",
+				"GuidsList": [
+					"76561198382209854"
+				],
+				"Name": "Player",
+				"Nation": "ITA",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22",
+			"Restrictor": 0,
+			"Skin": "x_grey",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 125,
+			"MaxPing": 177
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22",
+			"Restrictor": 0,
+			"Skin": "44_G.GREENSMITH",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22",
+			"Restrictor": 0,
+			"Skin": "4_pilot",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "44_G.GREENSMITH",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22",
+			"Restrictor": 0,
+			"Skin": "1_",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "unoficial",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "1_",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22",
+			"Restrictor": 0,
+			"Skin": "5_CASTROL_C_Sainz98",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "2_",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_toyota_yaris_rally1_22",
+			"Restrictor": 0,
+			"Skin": "5_CASTROL_C_Sainz98",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198839233103",
+				"GuidsList": [
+					"76561198839233103"
+				],
+				"Name": "CheeOoo",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22",
+			"Restrictor": 0,
+			"Skin": "x_white",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 142,
+			"MaxPing": 181
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22",
+			"Restrictor": 0,
+			"Skin": "x_white",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22",
+			"Restrictor": 0,
+			"Skin": "x_test_blue",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 20,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "unoficial",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 21,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22",
+			"Restrictor": 0,
+			"Skin": "x_blue",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 22,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_ford_puma_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "6_wdelirio_1presentacionmsport",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 23,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"Model": "acme_hyundai_i20_rally1_22_gravel",
+			"Restrictor": 0,
+			"Skin": "x_white",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198839233103",
+				"GuidsList": [
+					"76561198839233103"
+				],
+				"Name": "CheeOoo",
+				"Nation": "",
+				"Team": ""
+			},
+			"ImpactSpeed": 50.84727,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"RelPosition": {
+				"X": 0.93100494,
+				"Y": -0.48715684,
+				"Z": 1.827711
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -728.9167,
+				"Y": 3.9082594,
+				"Z": 179.90239
+			},
+			"Timestamp": 1713003280,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198839233103",
+				"GuidsList": [
+					"76561198839233103"
+				],
+				"Name": "CheeOoo",
+				"Nation": "",
+				"Team": ""
+			},
+			"ImpactSpeed": 34.846146,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"RelPosition": {
+				"X": -0.9306605,
+				"Y": -0.4871539,
+				"Z": 1.8277142
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -626.03143,
+				"Y": 4.430602,
+				"Z": 426.03015
+			},
+			"Timestamp": 1713003655,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198839233103",
+				"GuidsList": [
+					"76561198839233103"
+				],
+				"Name": "CheeOoo",
+				"Nation": "",
+				"Team": ""
+			},
+			"ImpactSpeed": 11.806192,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": ""
+			},
+			"RelPosition": {
+				"X": -0.94156003,
+				"Y": 0.09739869,
+				"Z": -1.7825754
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -642.4537,
+				"Y": 0.6564675,
+				"Z": -342.2657
+			},
+			"Timestamp": 1713003745,
+			"AfterSessionEnd": false
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 115300,
+			"Restrictor": 0,
+			"Sectors": [
+				41374,
+				32337,
+				41589
+			],
+			"Timestamp": 1713002996,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 110328,
+			"Restrictor": 0,
+			"Sectors": [
+				35371,
+				32364,
+				42593
+			],
+			"Timestamp": 1713003106,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 112121,
+			"Restrictor": 0,
+			"Sectors": [
+				35964,
+				34271,
+				41886
+			],
+			"Timestamp": 1713003218,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 112966,
+			"Restrictor": 0,
+			"Sectors": [
+				35732,
+				35550,
+				41684
+			],
+			"Timestamp": 1713003331,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 110994,
+			"Restrictor": 0,
+			"Sectors": [
+				35916,
+				33174,
+				41904
+			],
+			"Timestamp": 1713003442,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 111537,
+			"Restrictor": 0,
+			"Sectors": [
+				35693,
+				34434,
+				41410
+			],
+			"Timestamp": 1713003553,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 111244,
+			"Restrictor": 0,
+			"Sectors": [
+				35154,
+				33156,
+				42934
+			],
+			"Timestamp": 1713003665,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 115777,
+			"Restrictor": 0,
+			"Sectors": [
+				35461,
+				31824,
+				48492
+			],
+			"Timestamp": 1713003780,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 109698,
+			"Restrictor": 0,
+			"Sectors": [
+				35578,
+				33593,
+				40527
+			],
+			"Timestamp": 1713003890,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 110574,
+			"Restrictor": 0,
+			"Sectors": [
+				36603,
+				33344,
+				40627
+			],
+			"Timestamp": 1713004001,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"Cuts": 0,
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"LapTime": 107563,
+			"Restrictor": 0,
+			"Sectors": [
+				35738,
+				31815,
+				40010
+			],
+			"Timestamp": 1713004108,
+			"Tyre": "Pzero",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 107563,
+			"CarId": 17,
+			"CarModel": "acme_hyundai_i20_rally1_22",
+			"DriverGuid": "76561198839233103",
+			"DriverName": "CheeOoo",
+			"Restrictor": 0,
+			"TotalTime": 1227958,
+			"NumLaps": 11,
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"GridPosition": 1,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 999999999,
+			"CarId": 3,
+			"CarModel": "acme_ford_puma_rally1_22_gravel",
+			"DriverGuid": "76561198825576064",
+			"DriverName": "Dario Ussumane",
+			"Restrictor": 0,
+			"TotalTime": 0,
+			"NumLaps": 0,
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"GridPosition": 8,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "2garden",
+	"TrackName": "gt_dragontrail",
+	"Type": "RACE",
+	"Date": "2024-04-13T10:30:00.751944143Z",
+	"SessionFile": "2024_4_13_10_30_RACE.json",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 1,
+		"wait_time": 30,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "",
+	"RaceWeekendID": ""
+}

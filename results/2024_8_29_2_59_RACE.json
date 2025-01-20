@@ -1,0 +1,4425 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_20",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 57,
+			"MaxPing": 152
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_06",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 98,
+			"MaxPing": 131
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Buggy",
+				"Nation": "ZWE",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967__07",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 51,
+			"MaxPing": 3756
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "racing_22",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 52,
+			"MaxPing": 206
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_05",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 37,
+			"MaxPing": 73
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "76561199194892973",
+				"GuidsList": [
+					"76561199194892973"
+				],
+				"Name": "Cash",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "racing_5",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 65,
+			"MaxPing": 106
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "76561198285341331",
+				"GuidsList": [
+					"76561198285341331",
+					"76561198251200594"
+				],
+				"Name": "Lucas Lima",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_16",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 160,
+			"MaxPing": 190
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967__07",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 33,
+			"MaxPing": 83
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967__07",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 18,
+			"MaxPing": 57
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_14",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"MinPing": 150,
+			"MaxPing": 192
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198135642660",
+				"GuidsList": [
+					"76561198135642660"
+				],
+				"Name": "_DLRT_ Articulatefox",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_14",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 54,
+			"MaxPing": 163
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "76561199591335148",
+				"GuidsList": [
+					"76561199591335148"
+				],
+				"Name": "Player",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967__07",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 46,
+			"MaxPing": 56
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "76561198329986666",
+				"GuidsList": [
+					"76561198329986666"
+				],
+				"Name": "Fusi0n",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_18",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 43,
+			"MaxPing": 61
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "76561198039307982",
+				"GuidsList": [
+					"76561198039307982"
+				],
+				"Name": "Jórdan Secco",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_16",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 172,
+			"MaxPing": 392
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "76561199229046264",
+				"GuidsList": [
+					"76561199229046264"
+				],
+				"Name": "javier A.",
+				"Nation": "URY",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_05",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 173,
+			"MaxPing": 226
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "76561198376856146",
+				"GuidsList": [
+					"76561198376856146"
+				],
+				"Name": "Armando Barreda",
+				"Nation": "ARG",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "racing_22",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 185,
+			"MaxPing": 296
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561199007564215",
+				"GuidsList": [
+					"76561199007564215"
+				],
+				"Name": "H4RVIN9991",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_34",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 39,
+			"MaxPing": 91
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "76561198843890293",
+				"GuidsList": [
+					"76561198843890293"
+				],
+				"Name": "julian141412001",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "racing_5",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 141,
+			"MaxPing": 167
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "76561198274737480",
+				"GuidsList": [
+					"76561198274737480"
+				],
+				"Name": "Mrseren",
+				"Nation": "COL",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_03",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 89,
+			"MaxPing": 99
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "76561198881310139",
+				"GuidsList": [
+					"76561198881310139"
+				],
+				"Name": "SrVic",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"Model": "lotus_49",
+			"Restrictor": 0,
+			"Skin": "1967_16",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 182,
+			"MaxPing": 224
+		}
+	],
+	"Events": [
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 11.106968,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.96085024,
+				"Y": 0.13892914,
+				"Z": -0.57435447
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -26.902912,
+				"Y": 0.13616405,
+				"Z": -840.2867
+			},
+			"Timestamp": 1724898899,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 19.358536,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.22775918,
+				"Y": 0.050037708,
+				"Z": 2.2956479
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 9.26423,
+				"Y": 0.26463315,
+				"Z": -847.97833
+			},
+			"Timestamp": 1724898903,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 32.78599,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.20813149,
+				"Y": 0.0004029429,
+				"Z": 2.4597018
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 52.08968,
+				"Y": 0.40088382,
+				"Z": -867.18945
+			},
+			"Timestamp": 1724898903,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 13.3109455,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.96080565,
+				"Y": 0.1850575,
+				"Z": -0.57796955
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 16.859188,
+				"Y": 0.49037403,
+				"Z": -850.17194
+			},
+			"Timestamp": 1724898904,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 17.95485,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9608476,
+				"Y": 0.29416952,
+				"Z": -1.2430778
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 103.55573,
+				"Y": 1.3585445,
+				"Z": -864.03436
+			},
+			"Timestamp": 1724898904,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 14.105773,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.37389842,
+				"Y": 0.034949087,
+				"Z": -1.6676319
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 89.383446,
+				"Y": 0.9126349,
+				"Z": -867.9181
+			},
+			"Timestamp": 1724898908,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 14.5266,
+			"OtherCarId": 9,
+			"OtherDriver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.028653696,
+				"Y": 0.007888324,
+				"Z": 2.4527514
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 648.2901,
+				"Y": 2.2742896,
+				"Z": -71.72983
+			},
+			"Timestamp": 1724898927,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 18.055733,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.37387934,
+				"Y": -0.010696011,
+				"Z": -1.5909384
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 648.5123,
+				"Y": 2.2969813,
+				"Z": -71.42959
+			},
+			"Timestamp": 1724898928,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 18.011234,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9608705,
+				"Y": 0.29417017,
+				"Z": -1.243099
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 658.9151,
+				"Y": 3.1396894,
+				"Z": 4.6799793
+			},
+			"Timestamp": 1724898928,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.3312,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9167258,
+				"Y": 0.27639365,
+				"Z": 1.7957747
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 643.6503,
+				"Y": 3.2602165,
+				"Z": -12.3518095
+			},
+			"Timestamp": 1724898944,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 43.553574,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.20812887,
+				"Y": 0.0004031174,
+				"Z": 2.4596996
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 314.37384,
+				"Y": -1.1342022,
+				"Z": 346.48785
+			},
+			"Timestamp": 1724898948,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 84.279755,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.20811394,
+				"Y": 0.00040212335,
+				"Z": 2.4597173
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -550.8868,
+				"Y": -6.141084,
+				"Z": 454.44864
+			},
+			"Timestamp": 1724898968,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 5.114237,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9608905,
+				"Y": 0.08104742,
+				"Z": -1.2431077
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -546.454,
+				"Y": -5.967911,
+				"Z": 450.073
+			},
+			"Timestamp": 1724898973,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 177.66522,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.71226484,
+				"Y": 0.24948682,
+				"Z": 1.7949463
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -306.2279,
+				"Y": -0.9857675,
+				"Z": -721.3593
+			},
+			"Timestamp": 1724899003,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 142.22156,
+			"OtherCarId": 3,
+			"OtherDriver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.6003605,
+				"Y": -0.084715225,
+				"Z": -1.2728474
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -270.6922,
+				"Y": -1.0384445,
+				"Z": -742.18774
+			},
+			"Timestamp": 1724899003,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Guid": "76561198798114170",
+				"GuidsList": [
+					"76561198798114170"
+				],
+				"Name": "nzo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 140.44618,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.60704005,
+				"Y": -0.061816923,
+				"Z": 1.6522168
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -270.56488,
+				"Y": -1.1175305,
+				"Z": -742.2045
+			},
+			"Timestamp": 1724899004,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 42.415035,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9167148,
+				"Y": 0.2763935,
+				"Z": 1.7957516
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 184.8884,
+				"Y": 1.6633618,
+				"Z": -877.877
+			},
+			"Timestamp": 1724899028,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 42.603424,
+			"OtherCarId": 9,
+			"OtherDriver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.91671085,
+				"Y": 0.27639383,
+				"Z": 1.4405241
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 247.59178,
+				"Y": -1.3828576,
+				"Z": 413.32422
+			},
+			"Timestamp": 1724899117,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 39.011852,
+			"OtherCarId": 7,
+			"OtherDriver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": -0.95893,
+				"Y": 0.2723479,
+				"Z": -0.7539529
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 247.48679,
+				"Y": -1.3942776,
+				"Z": 413.51575
+			},
+			"Timestamp": 1724899118,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.2544384,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.91670287,
+				"Y": 0.06327129,
+				"Z": 1.7957613
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 366.2688,
+				"Y": 1.7930617,
+				"Z": -857.64716
+			},
+			"Timestamp": 1724899118,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 12.113689,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.96088654,
+				"Y": 0.081046395,
+				"Z": -1.2431073
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -524.777,
+				"Y": -6.2088885,
+				"Z": 415.36667
+			},
+			"Timestamp": 1724899158,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 4.384475,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9167243,
+				"Y": 0.063270755,
+				"Z": 1.7957492
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -512.3581,
+				"Y": -6.363289,
+				"Z": 426.7302
+			},
+			"Timestamp": 1724899168,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 20.082552,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9608609,
+				"Y": 0.29416963,
+				"Z": -1.2430974
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 661.76514,
+				"Y": 3.1099777,
+				"Z": -0.020291919
+			},
+			"Timestamp": 1724899204,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 42.971077,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.91671556,
+				"Y": 0.27639365,
+				"Z": 1.7957652
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 673.6332,
+				"Y": 2.7101555,
+				"Z": -44.207157
+			},
+			"Timestamp": 1724899223,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 27.046616,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.96084756,
+				"Y": 0.29416952,
+				"Z": -1.243099
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -296.89145,
+				"Y": -0.89437246,
+				"Z": -736.2355
+			},
+			"Timestamp": 1724899263,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 69.79196,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9166959,
+				"Y": 0.27639335,
+				"Z": 1.7957593
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -68.06645,
+				"Y": 0.9883099,
+				"Z": 916.3132
+			},
+			"Timestamp": 1724899333,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 72.01138,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9166923,
+				"Y": 0.27639318,
+				"Z": 1.7957441
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -540.7627,
+				"Y": -5.8293033,
+				"Z": 442.35974
+			},
+			"Timestamp": 1724899338,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 64.967865,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9166801,
+				"Y": 0.27639255,
+				"Z": 1.795742
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 673.7472,
+				"Y": 2.8055167,
+				"Z": -41.14384
+			},
+			"Timestamp": 1724899363,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 105.01338,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9116074,
+				"Y": 0.06118396,
+				"Z": 1.795831
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -27.688583,
+				"Y": 0.20914616,
+				"Z": 885.39557
+			},
+			"Timestamp": 1724899412,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 20.476856,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.20427066,
+				"Y": 0.0023261851,
+				"Z": 2.4532049
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -50.13816,
+				"Y": 0.46038735,
+				"Z": 886.6145
+			},
+			"Timestamp": 1724899417,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 20.317064,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9167023,
+				"Y": 0.2763928,
+				"Z": 1.7957712
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -99.7737,
+				"Y": 0.82707787,
+				"Z": 900.98395
+			},
+			"Timestamp": 1724899483,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 52.314983,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.96086144,
+				"Y": 0.29416972,
+				"Z": -1.2430946
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -73.98359,
+				"Y": 0.9637097,
+				"Z": 913.4693
+			},
+			"Timestamp": 1724899523,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 55.27206,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.91672134,
+				"Y": 0.27639365,
+				"Z": 1.7957437
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -108.17905,
+				"Y": 0.9124009,
+				"Z": 883.60675
+			},
+			"Timestamp": 1724899528,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 40.145237,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9167065,
+				"Y": 0.06327083,
+				"Z": 1.7957673
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 433.48978,
+				"Y": 2.0980437,
+				"Z": -814.26544
+			},
+			"Timestamp": 1724899583,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 10.976429,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9608613,
+				"Y": 0.29417023,
+				"Z": -1.2431154
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 646.17285,
+				"Y": 3.133547,
+				"Z": 19.892658
+			},
+			"Timestamp": 1724899588,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 61.83672,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.91669774,
+				"Y": 0.06327167,
+				"Z": 1.7957586
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 434.38272,
+				"Y": 2.513668,
+				"Z": -779.6459
+			},
+			"Timestamp": 1724899588,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 118.14555,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.8988697,
+				"Y": 0.2740403,
+				"Z": 1.7950454
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 375.46625,
+				"Y": 2.1205304,
+				"Z": -849.4723
+			},
+			"Timestamp": 1724899638,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 17.059656,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9608553,
+				"Y": 0.08104773,
+				"Z": -1.2430884
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -520.6624,
+				"Y": -6.2471366,
+				"Z": 408.61435
+			},
+			"Timestamp": 1724899643,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 11.805345,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.916737,
+				"Y": 0.2763935,
+				"Z": 1.7957789
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 345.20877,
+				"Y": 2.0453598,
+				"Z": -868.9715
+			},
+			"Timestamp": 1724899743,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.262862,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.91671675,
+				"Y": 0.06327107,
+				"Z": 1.7957835
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 383.32755,
+				"Y": 1.9573523,
+				"Z": -839.45276
+			},
+			"Timestamp": 1724899748,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 29.184177,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9608394,
+				"Y": 0.08104732,
+				"Z": -1.2430937
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 92.65115,
+				"Y": 0.9835032,
+				"Z": -867.748
+			},
+			"Timestamp": 1724899778,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 83.89971,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.89639544,
+				"Y": 0.2620559,
+				"Z": 1.7628436
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 394.7328,
+				"Y": 2.5028834,
+				"Z": -803.95294
+			},
+			"Timestamp": 1724899838,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Guid": "76561197972213088",
+				"GuidsList": [
+					"76561197972213088"
+				],
+				"Name": "DaveBob",
+				"Nation": "CAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 2.8121874,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9167057,
+				"Y": 0.063271336,
+				"Z": 1.7582381
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 370.1509,
+				"Y": 1.8595827,
+				"Z": -854.51953
+			},
+			"Timestamp": 1724899918,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 3.175241,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.91673136,
+				"Y": 0.06327102,
+				"Z": 1.795777
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 365.99884,
+				"Y": 1.8311267,
+				"Z": -857.85156
+			},
+			"Timestamp": 1724899933,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 55.500874,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.87522614,
+				"Y": 0.24617606,
+				"Z": 1.721782
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 592.7153,
+				"Y": 2.601936,
+				"Z": 29.16093
+			},
+			"Timestamp": 1724900093,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 126.400314,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9594424,
+				"Y": 0.2932974,
+				"Z": -1.2173699
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 27.587503,
+				"Y": 0.71916294,
+				"Z": -835.11456
+			},
+			"Timestamp": 1724900198,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 70.490105,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.20813227,
+				"Y": 0.00040312656,
+				"Z": 2.459714
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 428.01376,
+				"Y": 3.3111854,
+				"Z": -677.16565
+			},
+			"Timestamp": 1724900218,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 165.53815,
+			"OtherCarId": 9,
+			"OtherDriver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.085414976,
+				"Y": -0.11884988,
+				"Z": 2.4355717
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 417.8017,
+				"Y": 3.0571835,
+				"Z": -689.897
+			},
+			"Timestamp": 1724900219,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 76.61412,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9167248,
+				"Y": 0.0632708,
+				"Z": 1.795746
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 428.7186,
+				"Y": 3.473251,
+				"Z": -663.4897
+			},
+			"Timestamp": 1724900219,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 142.44768,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.13196343,
+				"Y": 0.008458152,
+				"Z": 2.4391627
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 417.85382,
+				"Y": 3.2453055,
+				"Z": -689.4177
+			},
+			"Timestamp": 1724900223,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 153.54282,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.9167402,
+				"Y": 0.1707824,
+				"Z": 1.7957679
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 423.73203,
+				"Y": 3.6938667,
+				"Z": -663.2664
+			},
+			"Timestamp": 1724900223,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 30.021847,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9608539,
+				"Y": 0.08104656,
+				"Z": -1.2430729
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 428.88382,
+				"Y": 3.5370002,
+				"Z": -659.11597
+			},
+			"Timestamp": 1724900223,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 11.040796,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.91671723,
+				"Y": 0.27639353,
+				"Z": 1.7957919
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 381.90295,
+				"Y": 2.154005,
+				"Z": -841.5847
+			},
+			"Timestamp": 1724900223,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 9.641452,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9608624,
+				"Y": 0.2941696,
+				"Z": -1.2430936
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 428.96497,
+				"Y": 3.7496922,
+				"Z": -657.3171
+			},
+			"Timestamp": 1724900224,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 18.120928,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.9167227,
+				"Y": 0.27639386,
+				"Z": 1.795766
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 428.92892,
+				"Y": 3.7561545,
+				"Z": -658.3338
+			},
+			"Timestamp": 1724900228,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 0,
+			"Driver": {
+				"Guid": "76561199016198981",
+				"GuidsList": [
+					"76561199016198981"
+				],
+				"Name": "projectpurple",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 58.86406,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9167067,
+				"Y": 0.27639395,
+				"Z": 1.7957438
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 435.7399,
+				"Y": 2.6913033,
+				"Z": -780.6864
+			},
+			"Timestamp": 1724900228,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 3.9856694,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.9608757,
+				"Y": 0.081047244,
+				"Z": -1.2430989
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 430.03186,
+				"Y": 3.6976862,
+				"Z": -638.9611
+			},
+			"Timestamp": 1724900239,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 7.886228,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": -0.91670763,
+				"Y": 0.2763937,
+				"Z": 1.7957635
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 430.02133,
+				"Y": 3.88529,
+				"Z": -639.0835
+			},
+			"Timestamp": 1724900244,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Guid": "76561198022222521",
+				"GuidsList": [
+					"76561198022222521"
+				],
+				"Name": "felipechehade",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 38.408825,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.91673756,
+				"Y": 0.2763957,
+				"Z": 1.7957575
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 668.11176,
+				"Y": 2.9681692,
+				"Z": -12.726145
+			},
+			"Timestamp": 1724900248,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 57.08957,
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.46711814,
+				"Y": -0.015788065,
+				"Z": 1.7860743
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 425.68884,
+				"Y": 3.4061224,
+				"Z": -665.43945
+			},
+			"Timestamp": 1724900248,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198002604748",
+				"GuidsList": [
+					"76561198002604748"
+				],
+				"Name": "Botlando",
+				"Nation": "PAN",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 55.81568,
+			"OtherCarId": 4,
+			"OtherDriver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"RelPosition": {
+				"X": 0.09093791,
+				"Y": -0.0857426,
+				"Z": 2.448724
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": 425.56226,
+				"Y": 3.3326185,
+				"Z": -664.98126
+			},
+			"Timestamp": 1724900249,
+			"AfterSessionEnd": true
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Guid": "76561199441236219",
+				"GuidsList": [
+					"76561199441236219"
+				],
+				"Name": "Brett Anderson(tpps43)",
+				"Nation": "UNI",
+				"Team": "",
+				"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+			},
+			"ImpactSpeed": 19.617853,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "00000000-0000-0000-0000-000000000000"
+			},
+			"RelPosition": {
+				"X": 0.20814677,
+				"Y": 0.00040305327,
+				"Z": 2.4597037
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 383.28574,
+				"Y": 2.9616058,
+				"Z": -689.9667
+			},
+			"Timestamp": 1724900263,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 96112,
+			"Restrictor": 0,
+			"Sectors": [
+				43160,
+				33107,
+				19845
+			],
+			"Timestamp": 1724898988,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 96910,
+			"Restrictor": 0,
+			"Sectors": [
+				44053,
+				33192,
+				19665
+			],
+			"Timestamp": 1724898988,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 98909,
+			"Restrictor": 0,
+			"Sectors": [
+				44653,
+				34047,
+				20209
+			],
+			"Timestamp": 1724898990,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 109383,
+			"Restrictor": 0,
+			"Sectors": [
+				43809,
+				44928,
+				20646
+			],
+			"Timestamp": 1724899001,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 120549,
+			"Restrictor": 0,
+			"Sectors": [
+				49993,
+				47750,
+				22806
+			],
+			"Timestamp": 1724899012,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 122239,
+			"Restrictor": 0,
+			"Sectors": [
+				57030,
+				33263,
+				31946
+			],
+			"Timestamp": 1724899014,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198798114170",
+			"DriverName": "nzo",
+			"LapTime": 130997,
+			"Restrictor": 0,
+			"Sectors": [
+				58422,
+				34118,
+				38457
+			],
+			"Timestamp": 1724899022,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 89519,
+			"Restrictor": 0,
+			"Sectors": [
+				36217,
+				33242,
+				20060
+			],
+			"Timestamp": 1724899078,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 93178,
+			"Restrictor": 0,
+			"Sectors": [
+				36811,
+				35820,
+				20547
+			],
+			"Timestamp": 1724899081,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 91933,
+			"Restrictor": 0,
+			"Sectors": [
+				37551,
+				34024,
+				20358
+			],
+			"Timestamp": 1724899082,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 91448,
+			"Restrictor": 0,
+			"Sectors": [
+				37813,
+				33633,
+				20002
+			],
+			"Timestamp": 1724899092,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 91360,
+			"Restrictor": 0,
+			"Sectors": [
+				38147,
+				32976,
+				20237
+			],
+			"Timestamp": 1724899105,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 91077,
+			"Restrictor": 0,
+			"Sectors": [
+				36572,
+				33822,
+				20683
+			],
+			"Timestamp": 1724899172,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 91023,
+			"Restrictor": 0,
+			"Sectors": [
+				37248,
+				33731,
+				20044
+			],
+			"Timestamp": 1724899173,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 103637,
+			"Restrictor": 0,
+			"Sectors": [
+				35723,
+				47921,
+				19993
+			],
+			"Timestamp": 1724899181,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 92360,
+			"Restrictor": 0,
+			"Sectors": [
+				36704,
+				34993,
+				20663
+			],
+			"Timestamp": 1724899185,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 180742,
+			"Restrictor": 0,
+			"Sectors": [
+				101551,
+				56416,
+				22775
+			],
+			"Timestamp": 1724899193,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 90973,
+			"Restrictor": 0,
+			"Sectors": [
+				37445,
+				32954,
+				20574
+			],
+			"Timestamp": 1724899196,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 94261,
+			"Restrictor": 0,
+			"Sectors": [
+				39721,
+				33696,
+				20844
+			],
+			"Timestamp": 1724899266,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 93825,
+			"Restrictor": 0,
+			"Sectors": [
+				36234,
+				34559,
+				23032
+			],
+			"Timestamp": 1724899267,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 88567,
+			"Restrictor": 0,
+			"Sectors": [
+				35719,
+				33138,
+				19710
+			],
+			"Timestamp": 1724899270,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 89409,
+			"Restrictor": 0,
+			"Sectors": [
+				36768,
+				32759,
+				19882
+			],
+			"Timestamp": 1724899274,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 90420,
+			"Restrictor": 0,
+			"Sectors": [
+				36392,
+				33211,
+				20817
+			],
+			"Timestamp": 1724899286,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 90420,
+			"Restrictor": 0,
+			"Sectors": [
+				36528,
+				33826,
+				20066
+			],
+			"Timestamp": 1724899356,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 92814,
+			"Restrictor": 0,
+			"Sectors": [
+				39056,
+				33697,
+				20061
+			],
+			"Timestamp": 1724899363,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 96875,
+			"Restrictor": 0,
+			"Sectors": [
+				39212,
+				36982,
+				20681
+			],
+			"Timestamp": 1724899364,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 89612,
+			"Restrictor": 0,
+			"Sectors": [
+				36144,
+				33232,
+				20236
+			],
+			"Timestamp": 1724899376,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 105911,
+			"Restrictor": 0,
+			"Sectors": [
+				42412,
+				43038,
+				20461
+			],
+			"Timestamp": 1724899380,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 236476,
+			"Restrictor": 0,
+			"Sectors": [
+				180892,
+				34538,
+				21046
+			],
+			"Timestamp": 1724899429,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 90369,
+			"Restrictor": 0,
+			"Sectors": [
+				36296,
+				33904,
+				20169
+			],
+			"Timestamp": 1724899447,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 94075,
+			"Restrictor": 0,
+			"Sectors": [
+				36763,
+				34699,
+				22613
+			],
+			"Timestamp": 1724899458,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 100071,
+			"Restrictor": 0,
+			"Sectors": [
+				35837,
+				44533,
+				19701
+			],
+			"Timestamp": 1724899463,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 89949,
+			"Restrictor": 0,
+			"Sectors": [
+				36399,
+				32899,
+				20651
+			],
+			"Timestamp": 1724899466,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 90565,
+			"Restrictor": 0,
+			"Sectors": [
+				37753,
+				32679,
+				20133
+			],
+			"Timestamp": 1724899470,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 97152,
+			"Restrictor": 0,
+			"Sectors": [
+				37427,
+				39007,
+				20718
+			],
+			"Timestamp": 1724899526,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 93879,
+			"Restrictor": 0,
+			"Sectors": [
+				36589,
+				35950,
+				21340
+			],
+			"Timestamp": 1724899541,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 92584,
+			"Restrictor": 0,
+			"Sectors": [
+				38386,
+				34173,
+				20025
+			],
+			"Timestamp": 1724899551,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 88595,
+			"Restrictor": 0,
+			"Sectors": [
+				35851,
+				33043,
+				19701
+			],
+			"Timestamp": 1724899552,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 89279,
+			"Restrictor": 0,
+			"Sectors": [
+				36207,
+				32624,
+				20448
+			],
+			"Timestamp": 1724899555,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 100869,
+			"Restrictor": 0,
+			"Sectors": [
+				36455,
+				44469,
+				19945
+			],
+			"Timestamp": 1724899571,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 98289,
+			"Restrictor": 0,
+			"Sectors": [
+				38047,
+				34016,
+				26226
+			],
+			"Timestamp": 1724899625,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 90841,
+			"Restrictor": 0,
+			"Sectors": [
+				36792,
+				33695,
+				20354
+			],
+			"Timestamp": 1724899632,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 89107,
+			"Restrictor": 0,
+			"Sectors": [
+				36533,
+				33229,
+				19345
+			],
+			"Timestamp": 1724899641,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 92283,
+			"Restrictor": 0,
+			"Sectors": [
+				37702,
+				34061,
+				20520
+			],
+			"Timestamp": 1724899643,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 96599,
+			"Restrictor": 0,
+			"Sectors": [
+				42883,
+				33169,
+				20547
+			],
+			"Timestamp": 1724899652,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 96353,
+			"Restrictor": 0,
+			"Sectors": [
+				42687,
+				33381,
+				20285
+			],
+			"Timestamp": 1724899668,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 91914,
+			"Restrictor": 0,
+			"Sectors": [
+				37176,
+				34478,
+				20260
+			],
+			"Timestamp": 1724899723,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 88439,
+			"Restrictor": 0,
+			"Sectors": [
+				35718,
+				33169,
+				19552
+			],
+			"Timestamp": 1724899729,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 90225,
+			"Restrictor": 0,
+			"Sectors": [
+				36431,
+				33679,
+				20115
+			],
+			"Timestamp": 1724899733,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 89741,
+			"Restrictor": 0,
+			"Sectors": [
+				36525,
+				32913,
+				20303
+			],
+			"Timestamp": 1724899742,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 94718,
+			"Restrictor": 0,
+			"Sectors": [
+				41825,
+				32896,
+				19997
+			],
+			"Timestamp": 1724899762,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 146398,
+			"Restrictor": 0,
+			"Sectors": [
+				91853,
+				33750,
+				20795
+			],
+			"Timestamp": 1724899771,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 90729,
+			"Restrictor": 0,
+			"Sectors": [
+				36720,
+				33749,
+				20260
+			],
+			"Timestamp": 1724899814,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 87978,
+			"Restrictor": 0,
+			"Sectors": [
+				35530,
+				32755,
+				19693
+			],
+			"Timestamp": 1724899817,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 91818,
+			"Restrictor": 0,
+			"Sectors": [
+				37719,
+				33669,
+				20430
+			],
+			"Timestamp": 1724899825,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 89431,
+			"Restrictor": 0,
+			"Sectors": [
+				36335,
+				32922,
+				20174
+			],
+			"Timestamp": 1724899831,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 88752,
+			"Restrictor": 0,
+			"Sectors": [
+				35926,
+				32845,
+				19981
+			],
+			"Timestamp": 1724899851,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 103704,
+			"Restrictor": 0,
+			"Sectors": [
+				49514,
+				33832,
+				20358
+			],
+			"Timestamp": 1724899875,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 91377,
+			"Restrictor": 0,
+			"Sectors": [
+				36621,
+				34424,
+				20332
+			],
+			"Timestamp": 1724899906,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 88776,
+			"Restrictor": 0,
+			"Sectors": [
+				35811,
+				32764,
+				20201
+			],
+			"Timestamp": 1724899906,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 94806,
+			"Restrictor": 0,
+			"Sectors": [
+				40823,
+				33710,
+				20273
+			],
+			"Timestamp": 1724899920,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 90208,
+			"Restrictor": 0,
+			"Sectors": [
+				36752,
+				33102,
+				20354
+			],
+			"Timestamp": 1724899921,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 87754,
+			"Restrictor": 0,
+			"Sectors": [
+				35676,
+				32368,
+				19710
+			],
+			"Timestamp": 1724899939,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 91840,
+			"Restrictor": 0,
+			"Sectors": [
+				37700,
+				33728,
+				20412
+			],
+			"Timestamp": 1724899967,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 88335,
+			"Restrictor": 0,
+			"Sectors": [
+				35991,
+				32867,
+				19477
+			],
+			"Timestamp": 1724899994,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 91700,
+			"Restrictor": 0,
+			"Sectors": [
+				37035,
+				34271,
+				20394
+			],
+			"Timestamp": 1724899997,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 90665,
+			"Restrictor": 0,
+			"Sectors": [
+				36612,
+				33822,
+				20231
+			],
+			"Timestamp": 1724900010,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 90473,
+			"Restrictor": 0,
+			"Sectors": [
+				37126,
+				32854,
+				20493
+			],
+			"Timestamp": 1724900012,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 90447,
+			"Restrictor": 0,
+			"Sectors": [
+				37504,
+				33102,
+				19841
+			],
+			"Timestamp": 1724900029,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 91086,
+			"Restrictor": 0,
+			"Sectors": [
+				37450,
+				33228,
+				20408
+			],
+			"Timestamp": 1724900058,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 88434,
+			"Restrictor": 0,
+			"Sectors": [
+				35856,
+				32525,
+				20053
+			],
+			"Timestamp": 1724900083,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 91163,
+			"Restrictor": 0,
+			"Sectors": [
+				37155,
+				34118,
+				19890
+			],
+			"Timestamp": 1724900088,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 91191,
+			"Restrictor": 0,
+			"Sectors": [
+				36232,
+				33458,
+				21501
+			],
+			"Timestamp": 1724900102,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 90479,
+			"Restrictor": 0,
+			"Sectors": [
+				36484,
+				33835,
+				20160
+			],
+			"Timestamp": 1724900102,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 95849,
+			"Restrictor": 0,
+			"Sectors": [
+				42974,
+				32828,
+				20047
+			],
+			"Timestamp": 1724900125,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"LapTime": 88649,
+			"Restrictor": 0,
+			"Sectors": [
+				35829,
+				33021,
+				19799
+			],
+			"Timestamp": 1724900171,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"LapTime": 91191,
+			"Restrictor": 0,
+			"Sectors": [
+				37704,
+				33439,
+				20048
+			],
+			"Timestamp": 1724900180,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"LapTime": 89881,
+			"Restrictor": 0,
+			"Sectors": [
+				37091,
+				32734,
+				20056
+			],
+			"Timestamp": 1724900192,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"LapTime": 91107,
+			"Restrictor": 0,
+			"Sectors": [
+				37305,
+				33727,
+				20075
+			],
+			"Timestamp": 1724900193,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 90286,
+			"Restrictor": 0,
+			"Sectors": [
+				36146,
+				33386,
+				20754
+			],
+			"Timestamp": 1724900215,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"Cuts": 0,
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"LapTime": 255649,
+			"Restrictor": 0,
+			"Sectors": [
+				198648,
+				34848,
+				22153
+			],
+			"Timestamp": 1724900313,
+			"Tyre": "V",
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 87978,
+			"CarId": 7,
+			"CarModel": "lotus_49",
+			"DriverGuid": "76561197972213088",
+			"DriverName": "DaveBob",
+			"Restrictor": 0,
+			"TotalTime": 1280329,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 9
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 90369,
+			"CarId": 1,
+			"CarModel": "lotus_49",
+			"DriverGuid": "76561198002604748",
+			"DriverName": "Botlando",
+			"Restrictor": 0,
+			"TotalTime": 1288715,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 8
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 89279,
+			"CarId": 4,
+			"CarModel": "lotus_49",
+			"DriverGuid": "76561199441236219",
+			"DriverName": "Brett Anderson(tpps43)",
+			"Restrictor": 0,
+			"TotalTime": 1301160,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 90225,
+			"CarId": 0,
+			"CarModel": "lotus_49",
+			"DriverGuid": "76561199016198981",
+			"DriverName": "projectpurple",
+			"Restrictor": 0,
+			"TotalTime": 1301888,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 87754,
+			"CarId": 8,
+			"CarModel": "lotus_49",
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"Restrictor": 0,
+			"TotalTime": 1324591,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 7
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 91086,
+			"CarId": 9,
+			"CarModel": "lotus_49",
+			"DriverGuid": "76561198022222521",
+			"DriverName": "felipechehade",
+			"Restrictor": 0,
+			"TotalTime": 1422380,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 10
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 130997,
+			"CarId": 3,
+			"CarModel": "lotus_49",
+			"DriverGuid": "76561198798114170",
+			"DriverName": "nzo",
+			"Restrictor": 0,
+			"TotalTime": 131512,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+			"GridPosition": 1
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "",
+	"TrackName": "ks_silverstone1967",
+	"Type": "RACE",
+	"Date": "2024-08-29T02:59:00Z",
+	"SessionFile": "2024_8_29_2_59_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 2,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "71cf93a9-481c-4e56-88df-bc0096d87f24",
+	"RaceWeekendID": ""
+}

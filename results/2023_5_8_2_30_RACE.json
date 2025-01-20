@@ -1,0 +1,2948 @@
+{
+	"Version": 5,
+	"Cars": [
+		{
+			"BallastKG": 0,
+			"CarId": 0,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "AMR23_14_Alonso",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 1,
+			"Driver": {
+				"Guid": "76561198408685850",
+				"GuidsList": [
+					"76561198408685850"
+				],
+				"Name": "CypherGBR",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "W14_63_Russell",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197982974934",
+				"GuidsList": [
+					"76561197982974934"
+				],
+				"Name": "comrade14andrei",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "C43_77_Bottas",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"MinPing": 22,
+			"MaxPing": 39
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 3,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "AMR23_14_Alonso",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 4,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "VF23_27_Hulkenberg",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 5,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "RB19_1_Verstappen",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 6,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "C43_24_Zhou",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 7,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "A523_31_Ocon",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "MCL60_4_Norris",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"MinPing": 45,
+			"MaxPing": 120
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 9,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "FW45_2_Sargeant",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "RB19_1_Verstappen",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"MinPing": 14,
+			"MaxPing": 21
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 11,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "RB19_1_Verstappen",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 12,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "FW45_2_Sargeant",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 13,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "FW45_23_Albon",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "FW45_23_Albon",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"MinPing": 46,
+			"MaxPing": 285
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 15,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "RB19_3_Ricciardo",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "AMR23_14_Alonso",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"MinPing": 50,
+			"MaxPing": 138
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 17,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "A523_31_Ocon",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 18,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "C43_77_Bottas",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 19,
+			"Driver": {
+				"Guid": "",
+				"GuidsList": [
+					""
+				],
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"Model": "rss_formula_hybrid_2022",
+			"Restrictor": 0,
+			"Skin": "W14_63_Russell",
+			"ClassID": "00000000-0000-0000-0000-000000000000",
+			"MinPing": 0,
+			"MaxPing": 0
+		}
+	],
+	"Events": [
+		{
+			"CarId": 14,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 4.4609504,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -1.0102053,
+				"Y": -0.17898257,
+				"Z": -1.3047488
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -209.66977,
+				"Y": -27.188723,
+				"Z": -61.459373
+			},
+			"Timestamp": 1683511647,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 45.006817,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 0.68040824,
+				"Y": -0.159992,
+				"Z": 3.0507674
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -495.5427,
+				"Y": -16.671835,
+				"Z": 981.378
+			},
+			"Timestamp": 1683511733,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197982974934",
+				"GuidsList": [
+					"76561197982974934"
+				],
+				"Name": "comrade14andrei",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 8.980619,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -1.0018097,
+				"Y": 0.38603374,
+				"Z": 1.9037855
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -463.9554,
+				"Y": -17.831964,
+				"Z": 945.7217
+			},
+			"Timestamp": 1683511902,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197982974934",
+				"GuidsList": [
+					"76561197982974934"
+				],
+				"Name": "comrade14andrei",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 1.5916015,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.9932596,
+				"Y": 0.47398308,
+				"Z": -1.971498
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -463.96683,
+				"Y": -17.519075,
+				"Z": 949.47156
+			},
+			"Timestamp": 1683511907,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 36.589794,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 0.9948875,
+				"Y": -0.2026463,
+				"Z": 2.9622047
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -471.13678,
+				"Y": -17.81848,
+				"Z": 1036.1758
+			},
+			"Timestamp": 1683512088,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 36.02503,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.12603566,
+				"Y": -0.08349141,
+				"Z": 3.2733088
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -477.4977,
+				"Y": -20.313034,
+				"Z": 1098.548
+			},
+			"Timestamp": 1683512093,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 58.385094,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 0.0000062379218,
+				"Y": -0.065705456,
+				"Z": 3.3441386
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -643.0431,
+				"Y": 1.286324,
+				"Z": -38.735638
+			},
+			"Timestamp": 1683512128,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 127.392624,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 1.0036973,
+				"Y": -0.20376283,
+				"Z": 2.963696
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 60.540997,
+				"Y": -24.182833,
+				"Z": 276.17374
+			},
+			"Timestamp": 1683512153,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 8.082638,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 1.0037105,
+				"Y": -0.20376417,
+				"Z": 2.963703
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 52.502,
+				"Y": -23.622213,
+				"Z": 276.72885
+			},
+			"Timestamp": 1683512158,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 11.556135,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 1.0013345,
+				"Y": -0.16048834,
+				"Z": -1.9675583
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -132.53165,
+				"Y": -18.299143,
+				"Z": 541.0096
+			},
+			"Timestamp": 1683512173,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 152.95027,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 0.0000024766919,
+				"Y": 0.72826606,
+				"Z": -2.2892575
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 52.455776,
+				"Y": -22.696238,
+				"Z": 276.74487
+			},
+			"Timestamp": 1683512212,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Guid": "76561198013813110",
+				"GuidsList": [
+					"76561198013813110"
+				],
+				"Name": "Josh Fulton",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 29.612555,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 0.50559366,
+				"Y": 0.72826576,
+				"Z": -2.2892468
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -497.3834,
+				"Y": -16.283567,
+				"Z": 965.4325
+			},
+			"Timestamp": 1683512310,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197982974934",
+				"GuidsList": [
+					"76561197982974934"
+				],
+				"Name": "comrade14andrei",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 47.74069,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.0586203,
+				"Y": 0.7284374,
+				"Z": -2.277757
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -612.6511,
+				"Y": 1.2688977,
+				"Z": -32.021423
+			},
+			"Timestamp": 1683512398,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197982974934",
+				"GuidsList": [
+					"76561197982974934"
+				],
+				"Name": "comrade14andrei",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 218.9504,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 1.0013292,
+				"Y": 0.4493498,
+				"Z": -1.5818757
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 56.81474,
+				"Y": -23.322554,
+				"Z": 276.66333
+			},
+			"Timestamp": 1683512493,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 14,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 69.352974,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 0.5056191,
+				"Y": 0.72826624,
+				"Z": -2.2892473
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -336.89474,
+				"Y": -22.130413,
+				"Z": -166.62907
+			},
+			"Timestamp": 1683512627,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 14,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 98.883736,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.9846924,
+				"Y": -0.20260443,
+				"Z": 2.9705944
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": 62.283905,
+				"Y": -31.286488,
+				"Z": 184.07715
+			},
+			"Timestamp": 1683512657,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 33.217937,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": 0.9932605,
+				"Y": 0.47398475,
+				"Z": -1.9715061
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -93.19561,
+				"Y": -12.655902,
+				"Z": 412.4371
+			},
+			"Timestamp": 1683512715,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Guid": "76561197982974934",
+				"GuidsList": [
+					"76561197982974934"
+				],
+				"Name": "comrade14andrei",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 34.240788,
+			"OtherCarId": 16,
+			"OtherDriver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.95870733,
+				"Y": -0.16555391,
+				"Z": -1.7987356
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -648.77374,
+				"Y": -23.105095,
+				"Z": 1416.7831
+			},
+			"Timestamp": 1683512887,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 76.572235,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.91756237,
+				"Y": -0.19191454,
+				"Z": 2.9963558
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -495.6032,
+				"Y": -16.781898,
+				"Z": 974.9101
+			},
+			"Timestamp": 1683512888,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Guid": "76561197979979433",
+				"GuidsList": [
+					"76561197979979433"
+				],
+				"Name": "Mogo",
+				"Nation": "USA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 32.365,
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Guid": "76561197982974934",
+				"GuidsList": [
+					"76561197982974934"
+				],
+				"Name": "comrade14andrei",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -1.0030187,
+				"Y": -0.16372323,
+				"Z": 2.9430437
+			},
+			"Type": "COLLISION_WITH_CAR",
+			"WorldPosition": {
+				"X": -648.79016,
+				"Y": -23.113005,
+				"Z": 1416.8108
+			},
+			"Timestamp": 1683512890,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Guid": "76561199183099394",
+				"GuidsList": [
+					"76561199183099394"
+				],
+				"Name": "Macadao",
+				"Nation": "ITA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 48.90963,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.000019211024,
+				"Y": -0.14269836,
+				"Z": 3.3418765
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -496.22702,
+				"Y": -16.742292,
+				"Z": 977.27435
+			},
+			"Timestamp": 1683512893,
+			"AfterSessionEnd": false
+		},
+		{
+			"CarId": 14,
+			"Driver": {
+				"Guid": "76561198103373944",
+				"GuidsList": [
+					"76561198103373944"
+				],
+				"Name": "Trying His Best",
+				"Nation": "PLA",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"ImpactSpeed": 38.289295,
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Guid": "",
+				"GuidsList": null,
+				"Name": "",
+				"Nation": "",
+				"Team": "",
+				"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69"
+			},
+			"RelPosition": {
+				"X": -0.9907509,
+				"Y": 0.11620148,
+				"Z": 2.7501314
+			},
+			"Type": "COLLISION_WITH_ENV",
+			"WorldPosition": {
+				"X": -331.17346,
+				"Y": -37.901184,
+				"Z": 773.4552
+			},
+			"Timestamp": 1683512917,
+			"AfterSessionEnd": true
+		}
+	],
+	"Laps": [
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 68994,
+			"Restrictor": 0,
+			"Sectors": [
+				25015,
+				30006,
+				13973
+			],
+			"Timestamp": 1683511705,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 73606,
+			"Restrictor": 0,
+			"Sectors": [
+				28206,
+				31648,
+				13752
+			],
+			"Timestamp": 1683511709,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 76335,
+			"Restrictor": 0,
+			"Sectors": [
+				27991,
+				33003,
+				15341
+			],
+			"Timestamp": 1683511712,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 80008,
+			"Restrictor": 0,
+			"Sectors": [
+				25373,
+				40694,
+				13941
+			],
+			"Timestamp": 1683511716,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 88247,
+			"Restrictor": 0,
+			"Sectors": [
+				28690,
+				40171,
+				19386
+			],
+			"Timestamp": 1683511724,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": null
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 63944,
+			"Restrictor": 0,
+			"Sectors": [
+				19624,
+				30722,
+				13598
+			],
+			"Timestamp": 1683511769,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 73679,
+			"Restrictor": 0,
+			"Sectors": [
+				19202,
+				40582,
+				13895
+			],
+			"Timestamp": 1683511783,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 77071,
+			"Restrictor": 0,
+			"Sectors": [
+				22752,
+				39185,
+				15134
+			],
+			"Timestamp": 1683511789,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 73594,
+			"Restrictor": 0,
+			"Sectors": [
+				25138,
+				33782,
+				14674
+			],
+			"Timestamp": 1683511789,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 86430,
+			"Restrictor": 0,
+			"Sectors": [
+				37046,
+				35128,
+				14256
+			],
+			"Timestamp": 1683511810,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64623,
+			"Restrictor": 0,
+			"Sectors": [
+				19600,
+				31460,
+				13563
+			],
+			"Timestamp": 1683511833,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 64443,
+			"Restrictor": 0,
+			"Sectors": [
+				19172,
+				30164,
+				15107
+			],
+			"Timestamp": 1683511847,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 79952,
+			"Restrictor": 0,
+			"Sectors": [
+				31510,
+				33943,
+				14499
+			],
+			"Timestamp": 1683511869,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 84826,
+			"Restrictor": 0,
+			"Sectors": [
+				21574,
+				47920,
+				15332
+			],
+			"Timestamp": 1683511874,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 65722,
+			"Restrictor": 0,
+			"Sectors": [
+				19831,
+				31446,
+				14445
+			],
+			"Timestamp": 1683511876,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 63441,
+			"Restrictor": 0,
+			"Sectors": [
+				19246,
+				30128,
+				14067
+			],
+			"Timestamp": 1683511897,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 64116,
+			"Restrictor": 0,
+			"Sectors": [
+				19827,
+				30519,
+				13770
+			],
+			"Timestamp": 1683511912,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 66382,
+			"Restrictor": 0,
+			"Sectors": [
+				20423,
+				31744,
+				14215
+			],
+			"Timestamp": 1683511936,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 66997,
+			"Restrictor": 0,
+			"Sectors": [
+				19761,
+				31535,
+				15701
+			],
+			"Timestamp": 1683511943,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 78503,
+			"Restrictor": 0,
+			"Sectors": [
+				21236,
+				42616,
+				14651
+			],
+			"Timestamp": 1683511952,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64894,
+			"Restrictor": 0,
+			"Sectors": [
+				19448,
+				30155,
+				15291
+			],
+			"Timestamp": 1683511962,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 72962,
+			"Restrictor": 0,
+			"Sectors": [
+				28314,
+				30847,
+				13801
+			],
+			"Timestamp": 1683511985,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 64513,
+			"Restrictor": 0,
+			"Sectors": [
+				19310,
+				31042,
+				14161
+			],
+			"Timestamp": 1683512000,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 66853,
+			"Restrictor": 0,
+			"Sectors": [
+				19698,
+				32787,
+				14368
+			],
+			"Timestamp": 1683512010,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 65053,
+			"Restrictor": 0,
+			"Sectors": [
+				19463,
+				31541,
+				14049
+			],
+			"Timestamp": 1683512027,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 79311,
+			"Restrictor": 0,
+			"Sectors": [
+				21836,
+				31784,
+				25691
+			],
+			"Timestamp": 1683512032,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 73740,
+			"Restrictor": 0,
+			"Sectors": [
+				20514,
+				39347,
+				13879
+			],
+			"Timestamp": 1683512058,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 65687,
+			"Restrictor": 0,
+			"Sectors": [
+				19545,
+				31643,
+				14499
+			],
+			"Timestamp": 1683512066,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 68360,
+			"Restrictor": 0,
+			"Sectors": [
+				19468,
+				34375,
+				14517
+			],
+			"Timestamp": 1683512078,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64031,
+			"Restrictor": 0,
+			"Sectors": [
+				19896,
+				30212,
+				13923
+			],
+			"Timestamp": 1683512091,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 81598,
+			"Restrictor": 0,
+			"Sectors": [
+				21199,
+				44383,
+				16016
+			],
+			"Timestamp": 1683512113,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 64100,
+			"Restrictor": 0,
+			"Sectors": [
+				19361,
+				30952,
+				13787
+			],
+			"Timestamp": 1683512130,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 84321,
+			"Restrictor": 0,
+			"Sectors": [
+				19413,
+				39555,
+				25353
+			],
+			"Timestamp": 1683512143,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 72704,
+			"Restrictor": 0,
+			"Sectors": [
+				19560,
+				34127,
+				19017
+			],
+			"Timestamp": 1683512151,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 65027,
+			"Restrictor": 0,
+			"Sectors": [
+				19497,
+				31315,
+				14215
+			],
+			"Timestamp": 1683512156,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 69098,
+			"Restrictor": 0,
+			"Sectors": [
+				20971,
+				32976,
+				15151
+			],
+			"Timestamp": 1683512182,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 72246,
+			"Restrictor": 0,
+			"Sectors": [
+				19366,
+				38750,
+				14130
+			],
+			"Timestamp": 1683512202,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 67710,
+			"Restrictor": 0,
+			"Sectors": [
+				20208,
+				31378,
+				16124
+			],
+			"Timestamp": 1683512219,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 65347,
+			"Restrictor": 0,
+			"Sectors": [
+				20729,
+				30492,
+				14126
+			],
+			"Timestamp": 1683512221,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 93437,
+			"Restrictor": 0,
+			"Sectors": [
+				37745,
+				35856,
+				19836
+			],
+			"Timestamp": 1683512236,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 67570,
+			"Restrictor": 0,
+			"Sectors": [
+				21125,
+				31892,
+				14553
+			],
+			"Timestamp": 1683512250,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64769,
+			"Restrictor": 0,
+			"Sectors": [
+				20201,
+				30537,
+				14031
+			],
+			"Timestamp": 1683512286,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 70272,
+			"Restrictor": 0,
+			"Sectors": [
+				19881,
+				33641,
+				16750
+			],
+			"Timestamp": 1683512289,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 67415,
+			"Restrictor": 0,
+			"Sectors": [
+				20876,
+				32202,
+				14337
+			],
+			"Timestamp": 1683512317,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 95609,
+			"Restrictor": 0,
+			"Sectors": [
+				47671,
+				32674,
+				15264
+			],
+			"Timestamp": 1683512332,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 67863,
+			"Restrictor": 0,
+			"Sectors": [
+				18925,
+				34808,
+				14130
+			],
+			"Timestamp": 1683512354,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 66933,
+			"Restrictor": 0,
+			"Sectors": [
+				19962,
+				32557,
+				14414
+			],
+			"Timestamp": 1683512356,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 1,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 96149,
+			"Restrictor": 0,
+			"Sectors": [
+				20608,
+				33246,
+				42295
+			],
+			"Timestamp": 1683512414,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 82906,
+			"Restrictor": 0,
+			"Sectors": [
+				34616,
+				32661,
+				15629
+			],
+			"Timestamp": 1683512415,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64349,
+			"Restrictor": 0,
+			"Sectors": [
+				20416,
+				30154,
+				13779
+			],
+			"Timestamp": 1683512418,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 65421,
+			"Restrictor": 0,
+			"Sectors": [
+				19849,
+				31279,
+				14293
+			],
+			"Timestamp": 1683512421,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 67413,
+			"Restrictor": 0,
+			"Sectors": [
+				20802,
+				32386,
+				14225
+			],
+			"Timestamp": 1683512481,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 65149,
+			"Restrictor": 0,
+			"Sectors": [
+				20442,
+				30595,
+				14112
+			],
+			"Timestamp": 1683512483,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 74854,
+			"Restrictor": 0,
+			"Sectors": [
+				22910,
+				35123,
+				16821
+			],
+			"Timestamp": 1683512489,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 71415,
+			"Restrictor": 0,
+			"Sectors": [
+				19755,
+				32638,
+				19022
+			],
+			"Timestamp": 1683512493,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 65273,
+			"Restrictor": 0,
+			"Sectors": [
+				19630,
+				31298,
+				14345
+			],
+			"Timestamp": 1683512549,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 68238,
+			"Restrictor": 0,
+			"Sectors": [
+				22031,
+				31500,
+				14707
+			],
+			"Timestamp": 1683512561,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 73225,
+			"Restrictor": 0,
+			"Sectors": [
+				22798,
+				32913,
+				17514
+			],
+			"Timestamp": 1683512563,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64451,
+			"Restrictor": 0,
+			"Sectors": [
+				19677,
+				30816,
+				13958
+			],
+			"Timestamp": 1683512613,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 66357,
+			"Restrictor": 0,
+			"Sectors": [
+				19849,
+				30946,
+				15562
+			],
+			"Timestamp": 1683512627,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 84763,
+			"Restrictor": 0,
+			"Sectors": [
+				38215,
+				31747,
+				14801
+			],
+			"Timestamp": 1683512635,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 76254,
+			"Restrictor": 0,
+			"Sectors": [
+				23158,
+				32058,
+				21038
+			],
+			"Timestamp": 1683512639,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 84812,
+			"Restrictor": 0,
+			"Sectors": [
+				37175,
+				32913,
+				14724
+			],
+			"Timestamp": 1683512641,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64249,
+			"Restrictor": 0,
+			"Sectors": [
+				19658,
+				30663,
+				13928
+			],
+			"Timestamp": 1683512677,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 65633,
+			"Restrictor": 0,
+			"Sectors": [
+				19850,
+				31753,
+				14030
+			],
+			"Timestamp": 1683512700,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 69312,
+			"Restrictor": 0,
+			"Sectors": [
+				21297,
+				33488,
+				14527
+			],
+			"Timestamp": 1683512711,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 101151,
+			"Restrictor": 0,
+			"Sectors": [
+				45062,
+				34948,
+				21141
+			],
+			"Timestamp": 1683512729,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 91075,
+			"Restrictor": 0,
+			"Sectors": [
+				46079,
+				31505,
+				13491
+			],
+			"Timestamp": 1683512730,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 62528,
+			"Restrictor": 0,
+			"Sectors": [
+				19122,
+				29461,
+				13945
+			],
+			"Timestamp": 1683512740,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 67063,
+			"Restrictor": 0,
+			"Sectors": [
+				20907,
+				31648,
+				14508
+			],
+			"Timestamp": 1683512778,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 82987,
+			"Restrictor": 0,
+			"Sectors": [
+				36984,
+				31797,
+				14206
+			],
+			"Timestamp": 1683512783,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 71893,
+			"Restrictor": 0,
+			"Sectors": [
+				18753,
+				38852,
+				14288
+			],
+			"Timestamp": 1683512802,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 67291,
+			"Restrictor": 0,
+			"Sectors": [
+				21166,
+				31424,
+				14701
+			],
+			"Timestamp": 1683512807,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 91736,
+			"Restrictor": 0,
+			"Sectors": [
+				47223,
+				30514,
+				13999
+			],
+			"Timestamp": 1683512820,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 69796,
+			"Restrictor": 0,
+			"Sectors": [
+				21047,
+				34034,
+				14715
+			],
+			"Timestamp": 1683512847,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 65283,
+			"Restrictor": 0,
+			"Sectors": [
+				19346,
+				31622,
+				14315
+			],
+			"Timestamp": 1683512848,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 62933,
+			"Restrictor": 0,
+			"Sectors": [
+				19211,
+				29831,
+				13891
+			],
+			"Timestamp": 1683512865,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": true,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"LapTime": 64634,
+			"Restrictor": 0,
+			"Sectors": [
+				20471,
+				30479,
+				13684
+			],
+			"Timestamp": 1683512872,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"LapTime": 74262,
+			"Restrictor": 0,
+			"Sectors": [
+				19969,
+				39928,
+				14365
+			],
+			"Timestamp": 1683512895,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"LapTime": 68705,
+			"Restrictor": 0,
+			"Sectors": [
+				20313,
+				34244,
+				14148
+			],
+			"Timestamp": 1683512917,
+			"Tyre": "C4",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"LapTime": 79044,
+			"Restrictor": 0,
+			"Sectors": [
+				20854,
+				43177,
+				15013
+			],
+			"Timestamp": 1683512926,
+			"Tyre": "C3",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		},
+		{
+			"BallastKG": 0,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"Cuts": 0,
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"LapTime": 67489,
+			"Restrictor": 0,
+			"Sectors": [
+				19213,
+				34164,
+				14112
+			],
+			"Timestamp": 1683512932,
+			"Tyre": "C5",
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"ContributedToFastestLap": false,
+			"SpeedTrapHits": []
+		}
+	],
+	"Result": [
+		{
+			"BallastKG": 0,
+			"BestLap": 62528,
+			"CarId": 10,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561198013813110",
+			"DriverName": "Josh Fulton",
+			"Restrictor": 0,
+			"TotalTime": 1237446,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"GridPosition": 2
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 65421,
+			"CarId": 14,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561198103373944",
+			"DriverName": "Trying His Best",
+			"Restrictor": 0,
+			"TotalTime": 1260331,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"GridPosition": 4
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 62933,
+			"CarId": 8,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561199183099394",
+			"DriverName": "Macadao",
+			"Restrictor": 0,
+			"TotalTime": 1298058,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"GridPosition": 1
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 67063,
+			"CarId": 2,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561197982974934",
+			"DriverName": "comrade14andrei",
+			"Restrictor": 0,
+			"TotalTime": 1292272,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"GridPosition": 5
+		},
+		{
+			"BallastKG": 0,
+			"BestLap": 64100,
+			"CarId": 16,
+			"CarModel": "rss_formula_hybrid_2022",
+			"DriverGuid": "76561197979979433",
+			"DriverName": "Mogo",
+			"Restrictor": 0,
+			"TotalTime": 1282959,
+			"HasPenalty": false,
+			"PenaltyTime": 0,
+			"LapPenalty": 0,
+			"Disqualified": false,
+			"ClassID": "f2647812-e0de-4c31-aa2a-b8b10d809e69",
+			"GridPosition": 3
+		}
+	],
+	"Penalties": null,
+	"TrackConfig": "full",
+	"TrackName": "jr_road_atlanta_2022",
+	"Type": "RACE",
+	"Date": "2023-05-08T02:30:00Z",
+	"SessionFile": "2023_5_8_2_30_RACE",
+	"SessionConfig": {
+		"session_type": 3,
+		"name": "Race",
+		"time": 20,
+		"laps": 0,
+		"is_open": 1,
+		"wait_time": 60,
+		"visibility_mode": 0,
+		"qualifying_type": 0,
+		"qualifying_number_of_laps_to_average": 0,
+		"count_out_lap": false,
+		"disable_push_to_pass": false
+	},
+	"ChampionshipID": "f72ccdbd-1988-4cef-8ef3-a0dcec6ef9db",
+	"RaceWeekendID": ""
+}
