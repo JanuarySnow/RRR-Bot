@@ -33,13 +33,7 @@ class Entry():
         self.result = None
         self.cuts = 0
         self.finishingposition = 0
-
-    def finalize_entry(self, laps, incidents, result, cuts):
-        self.laps = laps
-        self.incidents = incidents
-        self.cuts = cuts
-        self.result = result
-
+        self.ratingchange = 0
 
 class Result():
     def __init__(self):
@@ -54,6 +48,7 @@ class Result():
         self.mx5orgt3 = "neither"
         self.filename = ""
         self.date = ""
+        self.championshipid = ""
 
     def update_ratings(self):
         # results is a list of tuples (racer_name, position)
@@ -65,11 +60,19 @@ class Result():
                 racer_j = self.entries[j].racer
                 position_j = self.entries[j].finishingposition
                 if position_i < position_j:
-                    racer_i.update_rating(racer_j.rating, 1, len(self.entries))
-                    racer_j.update_rating(racer_i.rating, 0, len(self.entries))
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 1, len(self.entries), self)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 0, len(self.entries), self)
                 elif position_i > position_j:
-                    racer_i.update_rating(racer_j.rating, 0, len(self.entries))
-                    racer_j.update_rating(racer_i.rating, 1, len(self.entries))
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 0, len(self.entries), self)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 1, len(self.entries), self)
+
+    def get_position_of_racer(self, racer):
+        index = 1
+        for elem in self.entries:
+            if elem.racer == racer:
+                return elem.finishingposition
+            index += 1
+        return -1
 
     def finalize_entries(self):
         for entry in self.entries:
@@ -84,12 +87,18 @@ class Result():
             for incident in self.incidents:
                 if entry.racer == incident.racer:
                     racerincidents.append(incident)
-
-            entry.finalize_entry( racerlaps, racerincidents, self, cuts)
-            racer = entry.racer
-            racer.add_result(entry)
+            entry.laps = racerlaps
+            entry.incidents = racerincidents
+            entry.cuts = cuts
+            entry.result = self
+            entry.racer.add_result(entry)
         self.entries.sort(key=lambda x: x.finishingposition, reverse=False)
         self.update_ratings()
+        self.update_charts()
+
+    def update_charts(self):
+        for entry in self.entries:
+            entry.racer.update_chart(self, entry)
         
 
     def get_fastest_lap_of_race(self)->dict:
@@ -193,6 +202,7 @@ class Result():
             self.track.laps.append(lap)
     
     def calculate_is_mx5_or_gt3(self, data):
+        self.championshipid = data["ChampionshipID"]
         gt3race = False
         mx5race = False
         for elem in data["Cars"]:
@@ -206,8 +216,10 @@ class Result():
                     break
         if gt3race:
             self.mx5orgt3 = "gt3"
+            return "gt3"
         if mx5race:
             self.mx5orgt3 = "mx5"
+            return "mx5"
 
     def is_endurance_race(self, data):
         for driverresult in data["Result"]:

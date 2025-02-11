@@ -2,6 +2,7 @@ import math
 import pandas as pd
 from discord.ext import commands, tasks
 from discord.ext.commands import Context
+from dateutil.parser import parse
 import json
 import logging
 from operator import itemgetter
@@ -31,18 +32,40 @@ class parser():
         self.usedtracks = {} # guid to trackvariant object
         self.usedcars = {}
         self.safety_rankings = []
+        self.safety_rankingsgt3 = []
+        self.safety_rankingsmx5 = []
 
         self.wins_rankings = []
+        self.wins_rankingsgt3 = []
+        self.wins_rankingsmx5 = []
         self.podiums_rankings = []
+        self.podiums_rankingsgt3 = []
+        self.podiums_rankingsmx5 = []
 
         self.elorankings = []
+        self.elorankingsgt3 = []
+        self.elorankingsmx5 = []
         self.laptimeconsistencyrankings = []
+        self.laptimeconsistencyrankingsmx5 = []
+        self.laptimeconsistencyrankingsgt3 = []
         self.positionconsistencyrankings = []
         self.pacerankingsmx5 = []
         self.pacerankingsgt3 = []
 
         self.contentdata = None
-        
+
+    def get_summary_last_races(self, racer, num):
+        retdict = {}
+        sorted_entries = racer.entries.sort(key=lambda entry: entry.date, reverse=True)
+        sorted_results = sorted(racer.historyofratingchange.items(), key=lambda item: item[0].date, reverse=True)
+        x = num  # number of recent results you want to retrieve
+        most_recent_results = sorted_results[:x]
+        # Output the most recent results
+        for result, rating_change in most_recent_results:
+            retdict[result] = (result.get_position_of_racer(racer), rating_change)
+        return retdict
+
+    
     def get_racer_name(self,guid:str):
         for racerkey in self.racers.keys():
             racer = self.racers[racerkey]
@@ -71,10 +94,23 @@ class parser():
 
     def calculate_rankings(self):
         safetydict = {}
+        safetydictgt3 = {}
+        safetydictmx5 = {}
         winsdict = {}
         podiumsdict = {}
         elodict = {}
+
+        winsdictgt3 = {}
+        podiumsdictgt3 = {}
+        elodictgt3 = {}
+
+        winsdictmx5 = {}
+        podiumsdictmx5 = {}
+        elodictmx5 = {}
+
         laptimeconsistencydict = {}
+        laptimeconsistencydictgt3 = {}
+        laptimeconsistencydictmx5 = {}
         raceconsistencydict = {}
         pacedictgt3 = {}
         pacedictmx5 = {}
@@ -82,10 +118,26 @@ class parser():
             racer = self.racers[racerid]
             if racer.numraces > 10:
                 safetydict[racer] = racer.averageincidents
+                if racer.averageincidentsgt3:
+                    safetydictgt3[racer] = racer.averageincidentsgt3
+                if racer.averageincidentsmx5:
+                    safetydictmx5[racer] = racer.averageincidentsmx5
                 winsdict[racer] = racer.wins
                 podiumsdict[racer] = racer.podiums
                 elodict[racer] = racer.rating
+
+                winsdictgt3[racer] = racer.gt3wins
+                podiumsdictgt3[racer] = racer.gt3podiums
+                elodictgt3[racer] = racer.gt3rating
+
+                winsdictmx5[racer] = racer.mx5wins
+                podiumsdictmx5[racer] = racer.mx5podiums
+                elodictmx5[racer] = racer.mx5rating
                 laptimeconsistencydict[racer] = racer.laptimeconsistency
+                if racer.laptimeconsistencygt3:
+                    laptimeconsistencydictgt3[racer] = racer.laptimeconsistencygt3
+                if racer.laptimeconsistencymx5:
+                    laptimeconsistencydictmx5[racer] = racer.laptimeconsistencymx5
                 raceconsistencydict[racer] = racer.raceconsistency
                 if racer.pace_percentage_gt3 and  racer.pace_percentage_gt3 > 0.0:
                     pacedictgt3[racer] = racer.pace_percentage_gt3
@@ -93,14 +145,25 @@ class parser():
                     pacedictmx5[racer] = racer.pace_percentage_mx5
 
         self.safety_rankings = [racer for racer in sorted(safetydict, key=safetydict.get, reverse=False)]
+        self.safety_rankingsgt3 = [racer for racer in sorted(safetydictgt3, key=safetydictgt3.get, reverse=False)]
+        self.safety_rankingsmx5 = [racer for racer in sorted(safetydictmx5, key=safetydictmx5.get, reverse=False)]
         self.wins_rankings = [racer for racer in sorted(winsdict, key=winsdict.get, reverse=True)]
         self.podiums_rankings = [racer for racer in sorted(podiumsdict, key=podiumsdict.get, reverse=True)]
         self.elorankings = [racer for racer in sorted(elodict, key=elodict.get, reverse=True)]
         self.laptimeconsistencyrankings = [racer for racer in sorted(laptimeconsistencydict, key=laptimeconsistencydict.get, reverse=True)]
+        self.laptimeconsistencyrankingsgt3 = [racer for racer in sorted(laptimeconsistencydictgt3, key=laptimeconsistencydictgt3.get, reverse=True)]
+        self.laptimeconsistencyrankingsmx5 = [racer for racer in sorted(laptimeconsistencydictmx5, key=laptimeconsistencydictmx5.get, reverse=True)]
         self.positionconsistencyrankings = [racer for racer in sorted(raceconsistencydict, key=raceconsistencydict.get, reverse=True)]
         self.pacerankingsgt3 = [racer for racer in sorted(pacedictgt3, key=pacedictgt3.get, reverse=True)]
         self.pacerankingsmx5 = [racer for racer in sorted(pacedictmx5, key=pacedictmx5.get, reverse=True)]
-    
+        
+        self.wins_rankingsgt3 = [racer for racer in sorted(winsdictgt3, key=winsdictgt3.get, reverse=True)]
+        self.podiums_rankingsgt3 = [racer for racer in sorted(podiumsdictgt3, key=podiumsdictgt3.get, reverse=True)]
+        self.elorankingsgt3 = [racer for racer in sorted(elodictgt3, key=elodictgt3.get, reverse=True)]
+
+        self.wins_rankingsmx5 = [racer for racer in sorted(winsdictmx5, key=winsdictmx5.get, reverse=True)]
+        self.podiums_rankingsmx5 = [racer for racer in sorted(podiumsdictmx5, key=podiumsdictmx5.get, reverse=True)]
+        self.elorankingsmx5 = [racer for racer in sorted(elodictmx5, key=elodictmx5.get, reverse=True)]
     
     def custom_scorer(self, query, choices):
         scores = []
@@ -162,23 +225,24 @@ class parser():
 
         for racerid in self.racers.keys():
             racer = self.racers[racerid]
-            closest_date = None
-            min_diff = None
-            for date_str in racer.progression_plot.keys():
-                date = datetime.fromisoformat(date_str)
-                # Make date_months_ago timezone-aware if date is timezone-aware
-                if date.tzinfo is not None and date_months_ago.tzinfo is None:
-                    date_months_ago = date_months_ago.replace(tzinfo=date.tzinfo)
-                diff = abs((date - date_months_ago).days)
-                if min_diff is None or diff < min_diff:
-                    min_diff = diff
-                    closest_date = date_str
-            
-            if closest_date is not None:
-                starting_rating = racer.progression_plot[closest_date]
-                current_rating = racer.rating
-                improvement = current_rating - starting_rating
-                improvementdict[racer] = improvement
+            if racer.numraces > 5:
+                closest_date = None
+                min_diff = None
+                for date_str in racer.progression_plot.keys():
+                    date = datetime.fromisoformat(date_str)
+                    # Make date_months_ago timezone-aware if date is timezone-aware
+                    if date.tzinfo is not None and date_months_ago.tzinfo is None:
+                        date_months_ago = date_months_ago.replace(tzinfo=date.tzinfo)
+                    diff = abs((date - date_months_ago).days)
+                    if min_diff is None or diff < min_diff:
+                        min_diff = diff
+                        closest_date = date_str
+                
+                if closest_date is not None:
+                    starting_rating = racer.progression_plot[closest_date]
+                    current_rating = racer.rating
+                    improvement = current_rating - starting_rating
+                    improvementdict[racer] = improvement
 
         # Sort the racers by improvement in descending order and get the top 5
         sorted_improvement = sorted(improvementdict.items(), key=lambda x: x[1], reverse=True)
@@ -287,6 +351,7 @@ class parser():
                     if data["Type"] == "RACE":
                         data["Filename"] = filename
                         datalist.append(data)
+        datalist.sort(key=lambda d: d["Date"])
         return datalist
     
     def get_cars_and_racers_from_result(self, resultobject, data):
@@ -357,7 +422,58 @@ class parser():
             if "TrackConfig" in data and data["TrackConfig"] != "":
                 print("and config = " + data["TrackConfig"])
             else:
-                print("no config")   
+                print("no config")
+
+    def getallwinners(self):
+        winnerdict = {}
+        retstring = ""
+        for result in self.raceresults:
+            if len(result.entries) > 0:
+                first = result.entries[0].racer
+                if not first in winnerdict:
+                    winnerdict[first] = 1
+        for elem in winnerdict.keys():
+            retstring += elem.name
+            retstring += ":"
+            retstring += elem.guid
+            retstring += ","
+        return retstring
+
+
+    def parse_one_time_trial(self, result):
+        results = result["Result"]
+        retarray = []
+        info = {}
+        trackname = ""
+        trackbase = result["TrackName"]
+        trackvariant = result["TrackConfig"]
+        trackdata = self.contentdata.get_track(trackbase+";"+trackvariant)
+        if trackdata is None:
+            trackname = trackbase + ";" + trackvariant
+        else:
+            trackname = trackdata.name
+        info["trackname"] = trackname
+        info["date"] = result["Date"]
+        for elem in results:
+            arraydict = {}
+            cardata = self.contentdata.get_car(elem["CarModel"])
+            carname = ""
+            if cardata is None:
+                carname = elem["CarModel"]
+            else:
+                carname = cardata.name
+            arraydict["car"] = carname
+            arraydict["drivername"] = elem["DriverName"]
+            arraydict["fastestlap"] = elem["BestLap"]
+            #count laps for this combo
+            numlaps = 0
+            for lap in result["Laps"]:
+                if lap["CarModel"] == elem["CarModel"] and lap["DriverGuid"] == elem["DriverGuid"]:
+                    numlaps += 1
+            arraydict["numlaps"] = numlaps
+            retarray.append(arraydict)
+        return info, retarray
+
     
     def parse_one_result(self, result, data):
         result.is_endurance_race(data)
@@ -369,8 +485,38 @@ class parser():
         result.calculate_collisions(data)
         result.finalize_entries()
         result.date = data["Date"]
+        self.raceresults.append(result)
+
+    def clear_old_data(self):
+        
+        self.raceresults.clear()
+        self.contentdata = None
+        self.racers.clear()
+        self.usedtracks.clear()
+        self.usedcars.clear()
+        self.safety_rankings.clear()
+        self.safety_rankingsgt3.clear()
+        self.safety_rankingsmx5.clear()
+
+        self.wins_rankings.clear()
+        self.wins_rankingsgt3.clear()
+        self.wins_rankingsmx5.clear()
+        self.podiums_rankings.clear()
+        self.podiums_rankingsmx5.clear()
+        self.podiums_rankingsgt3.clear()
+
+        self.elorankings.clear()
+        self.elorankingsgt3.clear()
+        self.elorankingsmx5.clear()
+        self.laptimeconsistencyrankings.clear()
+        self.laptimeconsistencyrankingsmx5.clear()
+        self.laptimeconsistencyrankingsgt3.clear()
+        self.positionconsistencyrankings.clear()
+        self.pacerankingsmx5.clear()
+        self.pacerankingsgt3.clear()
 
     def refresh_all_data(self):
+        self.clear_old_data()
         self.contentdata = content_data.Contentdata()
         print("loaded content data")
         self.contentdata.load_cars()
@@ -390,7 +536,37 @@ class parser():
         self.calculate_raw_pace_percentages_for_all_racers()
         self.calculate_rankings()
         
-        
+    def month_report(self, guid, month, year):
+        racer = self.racers[guid]
+        import datetime
+
+        # Convert month name to a month number
+        month_number = datetime.datetime.strptime(month, '%B').month
+        year_prefix = "20"  # Assuming the year is in the 21st century
+        year = int(year_prefix + year)
+
+        filtered_dates = [date for date in racer.progression_plot.keys() 
+                  if parse(date).month == month_number and parse(date).year == year]
+
+        filtered_entries = []
+        if not filtered_dates:
+            return None        
+        earliest_date = min(filtered_dates)
+        earliest_rating = racer.progression_plot[earliest_date]
+        latest_date = max(filtered_dates)
+        latest_rating = racer.progression_plot[latest_date]
+        for entry in racer.entries:
+            # Convert the ISO-8601 date string to a datetime object
+            entry_date = datetime.datetime.fromisoformat(entry.date)
+            
+            # Check if the entry's month and year match the input month and year
+            if entry_date.month == month_number and entry_date.year == year:
+                filtered_entries.append(entry)
+                
+        rettuple = (earliest_rating, latest_rating, filtered_entries)
+        return rettuple
+
+    
     def get_overall_stats(self):
         elos = []
         safety = []
@@ -427,21 +603,10 @@ class parser():
                 'laptimeconsistency': elem.laptimeconsistency
             })
 
-        # Get top 10 race position consistency
-        for index, elem in enumerate(self.positionconsistencyrankings):
-            if index >= 10:
-                break
-            race_position_consistency.append({
-                'rank': index + 1,
-                'name': elem.name,
-                'raceconsistency': elem.raceconsistency
-            })
-
         return {
             'elos': elos,
             'safety': safety,
             'laptime_consistency': laptime_consistency,
-            'race_position_consistency': race_position_consistency
         }
 
     def calculate_raw_pace_percentages_for_all_racers(self):
@@ -506,39 +671,64 @@ class parser():
             racer.pace_percentage_gt3 = round(total_percentage_gt3 / count_gt3, 2) if count_gt3 > 0 else None
             racer.pace_percentage_mx5 = round(total_percentage_mx5 / count_mx5, 2) if count_mx5 > 0 else None
 
-    
-    def get_rank(self, racer, rankings):
+    def get_rank(self, racer, rankings, filter):
         try:
+            if filter != None:
+                if rankings == self.wins_rankings:
+                    if filter == "mx5":
+                        rankings = self.wins_rankingsmx5
+                    if filter == "gt3":
+                        rankings = self.wins_rankingsgt3
+                if rankings == self.podiums_rankings:
+                    if filter == "mx5":
+                        rankings = self.podiums_rankingsmx5
+                    if filter == "gt3":
+                        rankings = self.podiums_rankingsgt3
+                if rankings == self.elorankings:
+                    if filter == "mx5":
+                        rankings = self.elorankingsmx5
+                    if filter == "gt3":
+                        rankings = self.elorankingsgt3
+                if rankings == self.safety_rankings:
+                    if filter == "mx5":
+                        rankings = self.safety_rankingsmx5
+                    if filter == "gt3":
+                        rankings = self.safety_rankingsgt3
+                if rankings == self.laptimeconsistencyrankings:
+                    if filter == "mx5":
+                        rankings = self.laptimeconsistencyrankingsmx5
+                    if filter == "gt3":
+                        rankings = self.laptimeconsistencyrankingsgt3
             return rankings.index(racer)
         except ValueError:
             return -1  # Or handle appropriately if racer not found
 
-    def get_laptime_consistency_rank(self, racer):
-        return self.get_rank(racer, self.laptimeconsistencyrankings)
+    def get_laptime_consistency_rank(self, racer,filter=None ):
+        return self.get_rank(racer, self.laptimeconsistencyrankings, filter)
     
-    def get_position_consistency_rank(self, racer):
-        return self.get_rank(racer, self.positionconsistencyrankings)
+    def get_position_consistency_rank(self, racer, filter=None):
+        return self.get_rank(racer, self.positionconsistencyrankings, filter)
     
-    def get_pace_mx5_rank(self, racer):
-        return self.get_rank(racer, self.pacerankingsmx5)
+    def get_pace_mx5_rank(self, racer, filter=None):
+        return self.get_rank(racer, self.pacerankingsmx5, filter)
     
-    def get_pace_gt3_rank(self, racer):
-        return self.get_rank(racer, self.pacerankingsgt3)
+    def get_pace_gt3_rank(self, racer, filter=None):
+        return self.get_rank(racer, self.pacerankingsgt3, filter)
     
-    def get_elo_rank(self, racer):
-        return self.get_rank(racer, self.elorankings)
+    def get_elo_rank(self, racer, filter=None):
+        return self.get_rank(racer, self.elorankings, filter)
 
-    def get_wins_rank(self, racer):
-        return self.get_rank(racer, self.wins_rankings)
+    def get_wins_rank(self, racer, filter=None):
+        return self.get_rank(racer, self.wins_rankings, filter)
 
-    def get_podiums_rank(self, racer):
-        return self.get_rank(racer, self.podiums_rankings)
+    def get_podiums_rank(self, racer, filter=None):
+        return self.get_rank(racer, self.podiums_rankings, filter)
 
-    def get_safety_rank(self, racer):
-        return self.get_rank(racer, self.safety_rankings)
+    def get_safety_rank(self, racer, filter=None):
+        return self.get_rank(racer, self.safety_rankings, filter)
 
     
-    def get_racer_tracks_report(self, id):
+    def get_racer_tracks_report(self, id, isreverse=False):
         racer = self.racers[id]
         track_stats = {}  # Dictionary to store total positions and counts
 
@@ -556,7 +746,9 @@ class parser():
                        for trackid, info in track_stats.items() if info['count'] >= 4}
 
         # Sort the dictionary by average finishing position and limit to 10 elements
-        sorted_averagedict = dict(sorted(averagedict.items(), key=lambda item: item[1])[:10])
+        # Reverse the sorting order
+        sorted_averagedict = dict(sorted(averagedict.items(), key=lambda item: item[1], reverse=isreverse)[:10])
+
 
         return sorted_averagedict
 

@@ -69,6 +69,12 @@ It is recommended to use slash commands and therefore not use prefix commands.
 If you want to use prefix commands, make sure to also enable the intent below in the Discord developer portal.
 """
 intents.message_content = True
+intents.members = True
+intents.presences = True
+intents.guild_messages = True
+intents.guild_reactions = True
+intents.guild_scheduled_events = True
+intents.guild_typing = True
 
 # Setup both of the loggers
 
