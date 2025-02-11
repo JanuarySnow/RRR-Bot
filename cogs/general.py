@@ -14,6 +14,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 from discord.ext.commands import Context
+import asyncio
 
 
 class FeedbackForm(discord.ui.Modal, title="Feeedback"):
@@ -83,28 +84,107 @@ class General(commands.Cog, name="general"):
         )
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
+
     @commands.hybrid_command(
         name="help", description="List all commands the bot has loaded."
     )
     async def help(self, context: Context) -> None:
         prefix = self.bot.config["prefix"]
-        embed = discord.Embed(
+        embed_pages = []
+        current_page = discord.Embed(
             title="Help", description="List of available commands:", color=0xBEBEFE
         )
-        for i in self.bot.cogs:
-            if i == "owner" and not (await self.bot.is_owner(context.author)):
+
+        fields_per_page = 5  # Adjust as needed (max 25 fields per embed)
+        fields_in_current_page = 0
+
+        for cog_name in self.bot.cogs:
+            if cog_name == "owner" and not (await self.bot.is_owner(context.author)):
                 continue
-            cog = self.bot.get_cog(i.lower())
-            commands = cog.get_commands()
+            cog = self.bot.get_cog(cog_name)
+            commands_list = cog.get_commands()
+
+            # Skip empty cogs
+            if not commands_list:
+                continue
+
+            # Prepare data for this cog
             data = []
-            for command in commands:
+            for command in commands_list:
                 description = command.description.partition("\n")[0]
                 data.append(f"{prefix}{command.name} - {description}")
-            help_text = "\n".join(data)
-            embed.add_field(
-                name=i.capitalize(), value=f"```{help_text}```", inline=False
-            )
-        await context.send(embed=embed)
+
+            # Split the data into chunks that fit within 1024 characters
+            chunks = []
+            current_chunk = ""
+            for line in data:
+                # Ensure we don't split commands between fields
+                if len(current_chunk) + len(line) + 1 > 1024:
+                    chunks.append(current_chunk)
+                    current_chunk = line + "\n"
+                else:
+                    current_chunk += line + "\n"
+            if current_chunk:
+                chunks.append(current_chunk)
+
+            # Add chunks to embeds
+            for idx, chunk in enumerate(chunks):
+                if fields_in_current_page >= fields_per_page:
+                    embed_pages.append(current_page)
+                    current_page = discord.Embed(
+                        title="Help", description="List of available commands:", color=0xBEBEFE
+                    )
+                    fields_in_current_page = 0
+
+                # Use cog name for the first chunk, and empty name or continuation indicator for subsequent chunks
+                field_name = cog_name.capitalize() if idx == 0 else f"{cog_name.capitalize()} (cont.)"
+                current_page.add_field(
+                    name=field_name,
+                    value=f"```{chunk.strip()}```",  # Strip to remove trailing newlines
+                    inline=False
+                )
+                fields_in_current_page += 1
+
+        # Add the last page if it has content
+        if fields_in_current_page > 0:
+            embed_pages.append(current_page)
+
+        total_pages = len(embed_pages)
+        current_page_number = 0
+        message = await context.send(embed=embed_pages[current_page_number])
+
+        # Add reactions if there's more than one page
+        if total_pages > 1:
+            await message.add_reaction("◀️")
+            await message.add_reaction("▶️")
+
+            def check(reaction, user):
+                return (
+                    user == context.author and
+                    str(reaction.emoji) in ["◀️", "▶️"] and
+                    reaction.message.id == message.id
+                )
+
+            while True:
+                try:
+                    reaction, user = await self.bot.wait_for(
+                        "reaction_add", timeout=60.0, check=check
+                    )
+
+                    if str(reaction.emoji) == "▶️":
+                        current_page_number = (current_page_number + 1) % total_pages
+                        await message.edit(embed=embed_pages[current_page_number])
+                        await message.remove_reaction(reaction, user)
+
+                    elif str(reaction.emoji) == "◀️":
+                        current_page_number = (current_page_number - 1) % total_pages
+                        await message.edit(embed=embed_pages[current_page_number])
+                        await message.remove_reaction(reaction, user)
+
+                except asyncio.TimeoutError:
+                    await message.clear_reactions()
+                    break
+
 
     @commands.hybrid_command(
         name="botinfo",

@@ -9,13 +9,35 @@ import aiohttp
 import discord
 from discord.ext import commands, tasks
 from discord.ext.commands import Context
+import json
 
 
 # Here we name the cog and create a new class for the cog.
 class Template(commands.Cog, name="potato"):
     def __init__(self, bot) -> None:
         self.bot = bot
+        self.salesave = False
+        self.load_sale_save()
+        self.check_ac_sale.start()
     # Here you can just add your own commands, you'll always need to provide "self" as first parameter.
+        
+    def save_sale_data(self):
+        with open('salesave.txt', 'w') as file:
+            # Convert the boolean to string and write it to the file
+            file.write(str(self.salesave))
+
+    def load_sale_save(self):
+        print("trying to load saved sale data")
+        file_name = 'salesave.txt'
+        try:
+            with open(file_name, 'r') as file:
+                content = file.read()
+                self.salesave = content == 'True'
+                print("Boolean value read from file:", self.salesave)
+        except FileNotFoundError:
+            self.salesave = False
+            print(f"File {file_name} does not exist.")
+
 
     @commands.hybrid_command(name="goodbot", description="Tell BOTato he is a good bot.")
     async def goodbot(self, context: Context) -> None:
@@ -95,13 +117,27 @@ class Template(commands.Cog, name="potato"):
                 await context.send(data["url"])
 
     
-    async def announce_sale(self, discount_amount, channelid):
-        remind_channel = self.bot.get_channel(channelid)
+    async def announce_sale(self, discount_amount, channelid, overridesalesave = True):
+        if self.salesave and overridesalesave:
+            print("already have announced this sale, skipping")
+            return
+        if overridesalesave:
+            self.salesave = True
+        self.save_sale_data()
+        remind_channel = (self.bot.get_channel(channelid) or await self.bot.fetch_channel(channelid))
+        if remind_channel is None:
+            print("remind channel is none")
+        else:
+            print(str(remind_channel))
         allowed_mentions = discord.AllowedMentions(everyone = True)
-
-        await remind_channel.send("@everyone . Assetto Corsa: Utimate Edition is on sale right now!"+"\n"+
-                                      "It is currently "+ str(discount_amount) + "% " + "off!"+"\n"+
-                                       "get it here: " + "https://store.steampowered.com/bundle/6998/Assetto_Corsa_Ultimate_Edition/" )
+        if discount_amount is None:
+            print("discount amount showing as none")
+        stringsend = " Assetto Corsa: Utimate Edition is on sale right now!"
+        stringsend += "\n"
+        stringsend += "It is currently "+ str(discount_amount) + "% " + "off!"
+        stringsend += "\n"
+        stringsend += "get it here: " + "https://store.steampowered.com/bundle/6998/Assetto_Corsa_Ultimate_Edition/"
+        await remind_channel.send(stringsend )
     
     
     @commands.hybrid_command(name="test_sale_announce", description="Test the announcement.")
@@ -111,7 +147,7 @@ class Template(commands.Cog, name="potato"):
         
         :param context: The hybrid command context.
         """
-        await self.announce_sale( 30, 1328800009189195828)
+        await self.announce_sale( 30, 1328800009189195828, False)
     
     async def getacprice(self, country: str='us'):
         user_agent = "https://github.com/JanuarySnow/RRR-Bot"
@@ -133,14 +169,20 @@ class Template(commands.Cog, name="potato"):
                     return retdict
         return retdict
     
-    @tasks.loop(minutes=1440.0)
+    @tasks.loop(minutes=1600.0)
     async def check_ac_sale(self) -> None:
         """
         Setup the game status task of the bot.
         """
+        print("looping ac sale check")
         retdict = await self.getacprice('us')
         if retdict["discount_percent"] > 0:
+            print("found discount for AC")
             await self.announce_sale( retdict["discount_percent"], 1102816381348626462)
+        else:
+            self.salesave = False
+            self.save_sale_data()
+
             
     @commands.hybrid_command(name="acprice", description="Get the price of AC:Ultimate Edition.")
     async def acprice(self, context: Context, country :str= 'us') -> None:
