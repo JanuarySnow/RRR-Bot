@@ -2,6 +2,7 @@ import math
 import content_data
 import racer
 import statsparser
+from logger_config import logger
 
 gt3ids = ["ks_audi_r8_lms_2016","bmw_z4_gt3", "ks_ferrari_488_gt3", "ks_lamborghini_huracan_gt3",
          "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016"]
@@ -11,6 +12,7 @@ class Incident():
         self.speed = speed
         self.racer = racer
         self.otherracer = otherracer
+        self.logger = logger
 
 class Lap():
     def __init__(self, time, car, racerguid, result, valid, cuts) -> None:
@@ -20,6 +22,7 @@ class Lap():
         self.result = result # "parent" result
         self.valid = valid
         self.cuts = cuts
+        self.logger = logger
 
 # this is the driver-specific result
 class Entry():
@@ -34,6 +37,7 @@ class Entry():
         self.cuts = 0
         self.finishingposition = 0
         self.ratingchange = 0
+        self.logger = logger
 
 class Result():
     def __init__(self):
@@ -48,7 +52,19 @@ class Result():
         self.mx5orgt3 = "neither"
         self.filename = ""
         self.date = ""
+        self.region = "EU"
         self.championshipid = ""
+        self.numlaps = 0
+        self.driverlaps = {}
+        self.shortorlong = "short"
+        self.logger = logger
+
+    def set_region(self, data):
+        if data["Region"] == "EU":
+            self.region = "EU"
+        elif data["Region"] == "NA":
+            self.region = "NA"
+        
 
     def update_ratings(self):
         # results is a list of tuples (racer_name, position)
@@ -60,11 +76,11 @@ class Result():
                 racer_j = self.entries[j].racer
                 position_j = self.entries[j].finishingposition
                 if position_i < position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 1, len(self.entries), self)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 0, len(self.entries), self)
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, racer_j.gt3rating, racer_j.mx5rating, 1, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, racer_i.gt3rating, racer_i.mx5rating, 0, len(self.entries), self, self.entries[i].racer)
                 elif position_i > position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 0, len(self.entries), self)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 1, len(self.entries), self)
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, racer_j.gt3rating, racer_j.mx5rating, 0, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, racer_i.gt3rating, racer_i.mx5rating, 1, len(self.entries), self, self.entries[i].racer)
 
     def get_position_of_racer(self, racer):
         index = 1
@@ -92,6 +108,7 @@ class Result():
             entry.cuts = cuts
             entry.result = self
             entry.racer.add_result(entry)
+        self.numlaps = self.get_numlaps_total()
         self.entries.sort(key=lambda x: x.finishingposition, reverse=False)
         self.update_ratings()
         self.update_charts()
@@ -100,6 +117,17 @@ class Result():
         for entry in self.entries:
             entry.racer.update_chart(self, entry)
         
+    def get_race_duration(self, data):
+        longesttime = 0
+        for elem in data["Result"]:
+            if "TotalTime" in elem:
+                if elem["TotalTime"] > longesttime:
+                    longesttime = elem["TotalTime"]
+        longesttime = (longesttime / 1000) / 60
+        if longesttime > 10 and longesttime < 30:
+            self.shortorlong = "short"
+        elif longesttime > 30:
+            self.shortorlong = "long"
 
     def get_fastest_lap_of_race(self)->dict:
         fastest = None
@@ -121,6 +149,22 @@ class Result():
                     if lap.time < fastest.time:
                         fastest = lap
         return fastest
+    
+    def get_numlaps_of_racer(self, racer:racer.Racerprofile):
+        laps = 0
+        if racer.guid in self.driverlaps:
+            laps = self.driverlaps[racer.guid]
+        return laps
+    
+    def get_numlaps_total(self):
+        for lap in self.laps:
+            lapguid = lap.racerguid
+            if lapguid in self.driverlaps:
+                self.driverlaps[lapguid] += 1
+            else:
+                self.driverlaps[lapguid] = 1
+
+        return max(self.driverlaps.values())
     
     def calculate_collisions(self, data):
         if not data["Events"]:

@@ -25,6 +25,8 @@ import statsparser
 import racer
 import result
 import asyncio
+import shutil
+from logger_config import logger
 
 ON_READY_FIRST_RUN_DOWNLOAD = True
 ON_READY_FIRST_TIME_SCAN = True
@@ -36,14 +38,10 @@ class Stats(commands.Cog, name="stats"):
         print("loading stats cog")
         self.parsed = statsparser.parser()
         self.user_data = self.load_user_data()
+        self.first_load()
         self.fetch_results_list.start()
-        self.download_one_result.start()
-        self.eumx5resultstodownload = []
-        self.namx5proresultstodownload = []
-        self.narookiemxresultstodownload = []
-        self.eugt3resultstodownload = []
-        self.nagt3resultstodownload = []
-        self.worldtourresultstodownload = []
+        self.justadded = []
+        self.logger = logger
         self.timetrialserver = 'https://timetrial.ac.tekly.racing'
         self.mx5euserver = "https://eu.mx5.ac.tekly.racing"
         self.mx5naserver = "https://us.mx5.ac.tekly.racing"
@@ -51,29 +49,24 @@ class Stats(commands.Cog, name="stats"):
         self.gt3naserver = "https://us.gt3.ac.tekly.racing"
         self.worldtourserver = "https://worldtour.ac.tekly.racing"
         self.mx5naproserver = "https://us.gpk.ac.tekly.racing"
+        self.servers = (self.mx5euserver, self.mx5naserver, self.gt3euserver, self.gt3naserver, self.worldtourserver, self.mx5naproserver)
         self.blacklist = ["2025_1_4_21_37_RACE.json", "2025_1_4_22_2_RACE.json",
-                          "2024_12_21_21_58_RACE.json", "2024_12_21_21_32_RACE.json"]
-        self.newresultsadded = False
-        self.liststobasesererurls = [(self.eumx5resultstodownload, self.mx5euserver),
-                                     (self.narookiemxresultstodownload,self.mx5naserver),
-                                     (self.namx5proresultstodownload, self.mx5naproserver),
-                                     (self.eugt3resultstodownload, self.gt3euserver),
-                                     (self.nagt3resultstodownload, self.gt3naserver),
-                                     (self.worldtourresultstodownload, self.worldtourserver)]
+                          "2024_12_21_21_58_RACE.json", "2024_12_21_21_32_RACE.json",
+                          "2025_2_17_20_30_RACE.json", "2025_2_17_20_57_RACE.json",
+                          "2025_2_22_22_0_RACE.json", "2025_2_22_21_35_RACE.json"]
 
-        self.serverstolists = [("https://eu.mx5.ac.tekly.racing/api/results/list.json?q=RACE&sort=date&page=0",
-                            self.eumx5resultstodownload),
-                               ("https://us.mx5.ac.tekly.racing/api/results/list.json?q=RACE&sort=date&page=0",
-                            self.narookiemxresultstodownload),
-                                ("https://us.gpk.ac.tekly.racing/api/results/list.json?q=RACE&sort=date&page=0",
-                            self.namx5proresultstodownload),
-                                ("https://eu.gt3.ac.tekly.racing/api/results/list.json?q=RACE&sort=date&page=0",
-                            self.eugt3resultstodownload),
-                                ("https://us.gt3.ac.tekly.racing/api/results/list.json?q=RACE&sort=date&page=0",
-                            self.nagt3resultstodownload),
-                                ("https://worldtour.ac.tekly.racing/api/results/list.json?q=RACE&sort=date&page=0",
-                            self.worldtourresultstodownload)]
-        
+        self.servertodirectory = {
+            self.mx5euserver: "eumx5",
+            self.mx5naserver: "namx5",
+            self.mx5naproserver: "namx5pro",
+            self.gt3euserver: "eugt3",
+            self.gt3naserver: "nagt3",
+            self.worldtourserver: "worldtour",
+        }
+        self.download_queue = []
+        logger.info("Stats cog loaded")
+
+    def first_load(self):
         self.parsed.refresh_all_data()
     
     def load_user_data(self):
@@ -134,6 +127,7 @@ class Stats(commands.Cog, name="stats"):
             await ctx.send(f'Steam GUID linked to {ctx.author.name} is {steam_guid}') 
         else: 
             await ctx.send(f'No Steam GUID linked to Discord user {ctx.author.name}')
+
 
     @commands.hybrid_command(name="testoutput", description="show linked steamid for user")
     @commands.is_owner()
@@ -289,19 +283,6 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
 
-
-    @commands.hybrid_command(name="forcechecklatestresults", description="check for latest results")
-    @commands.is_owner()
-    async def forcechecklatestresults(self, ctx):
-        print("force fetching results")
-        await self.fetch_results_list()
-
-    @commands.hybrid_command(name="forcedownloadlatestresults", description="check for latest results")
-    @commands.is_owner()
-    async def forcedownloadlatestresults(self, ctx):
-        print("force fetching results")
-        await self.download_one_result()
-
     @commands.hybrid_command(name="livetiming", description="check for latest results")
     async def livetiming(self, ctx, server, raw:str=None):
         if server == "" or server is None:
@@ -346,7 +327,7 @@ class Stats(commands.Cog, name="stats"):
             traceback.print_exception(e)
             1/0
 
-    import discord
+
 
     async def print_live_timings(self, ctx, data, pretty=False):
 
@@ -355,10 +336,6 @@ class Stats(commands.Cog, name="stats"):
 
         # Extract the DisconnectedDrivers list
         drivers = data.get('DisconnectedDrivers', [])
-
-        def get_rank_emoji(rank):
-            rank_emojis = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
-            return rank_emojis[rank - 1] if rank <= 10 else f"{rank}️⃣"
 
         for driver in drivers:
             car_info = driver.get('CarInfo', {})
@@ -384,133 +361,88 @@ class Stats(commands.Cog, name="stats"):
                 num_laps = car_data.get('NumLaps')
 
                 car_name = car_data.get('CarName', car_model)
-                # Append a tuple to the list: (best lap time in ns for sorting, formatted time, driver name, car name, number of laps, top speed)
+                # Append a tuple to the list: (best lap time in ns for sorting, formatted time, driver name, car name, number of laps)
                 driver_data_list.append((best_lap_ns, best_lap_formatted, driver_name, car_name, num_laps))
 
         # Sort the list by best lap time (fastest to slowest)
         driver_data_list.sort(key=lambda x: x[0])
 
-        # Prepare the output lines or embed messages
-        if pretty:
-            embed = discord.Embed(title="Race Timing Results", color=0x00ff00)
-            for idx, (lap_time_ns, lap_time_str, driver_name, car_name, num_laps) in enumerate(driver_data_list, start=1):
-                rank_emoji = get_rank_emoji(idx)
-                embed.add_field(
-                    name=f"{rank_emoji} {driver_name}",
-                    value=f"**Car:** {car_name}\n**Best Lap:** {lap_time_str}\n**Laps Done:** {num_laps}",
-                    inline=False,
-                )
-        else:
-            output_lines = []
-            for idx, (lap_time_ns, lap_time_str, driver_name, car_name, num_laps) in enumerate(driver_data_list, start=1):
-                line = f"{driver_name},{car_name},{lap_time_str},{num_laps}"
-                output_lines.append(line)
+        output_lines = []
+        for idx, (lap_time_ns, lap_time_str, driver_name, car_name, num_laps) in enumerate(driver_data_list, start=1):
+            line = f"{driver_name},{car_name},{lap_time_str},{num_laps}"
+            output_lines.append(line)
 
-            # Discord's message character limit
-            max_message_length = 2000
+        # Discord's message character limit
+        max_message_length = 2000
 
-            # Combine lines into messages within the character limit
-            messages = []
-            current_message = ''
-            for line in output_lines:
-                if len(current_message) + len(line) + 1 > max_message_length:
-                    messages.append(current_message)
-                    current_message = line
-                else:
-                    current_message = f"{current_message}\n{line}" if current_message else line
-            if current_message:
+        # Combine lines into messages within the character limit
+        messages = []
+        current_message = ''
+        for line in output_lines:
+            if len(current_message) + len(line) + 1 > max_message_length:
                 messages.append(current_message)
+                current_message = line
+            else:
+                current_message = f"{current_message}\n{line}" if current_message else line
+        if current_message:
+            messages.append(current_message)
 
-        # Send the messages or embed
-        if pretty:
-            await ctx.send(embed=embed)
-        else:
-            for message_content in messages:
-                await ctx.send(message_content)
+        # Prepare the embed pages
+        embed_pages = []
+        total_pages = len(messages)
+
+        for page_number, message_content in enumerate(messages):
+            embed = discord.Embed(
+                title=f"Race Timing Results (Page {page_number + 1}/{total_pages})",
+                color=0x00ff00,
+                description=message_content
+            )
+            embed_pages.append(embed)
+
+        current_page_number = 0
+        message = await ctx.send(embed=embed_pages[current_page_number])
+
+        # Add reactions if there's more than one page
+        if total_pages > 1:
+            await message.add_reaction("◀️")
+            await message.add_reaction("▶️")
+
+            def check(reaction, user):
+                return (
+                    user == ctx.author and
+                    str(reaction.emoji) in ["◀️", "▶️"] and
+                    reaction.message.id == message.id
+                )
+
+            while True:
+                try:
+                    reaction, user = await self.bot.wait_for(
+                        "reaction_add", timeout=60.0, check=check
+                    )
+
+                    if str(reaction.emoji) == "▶️":
+                        current_page_number = (current_page_number + 1) % total_pages
+                        await message.edit(embed=embed_pages[current_page_number])
+                        await message.remove_reaction(reaction, user)
+
+                    elif str(reaction.emoji) == "◀️":
+                        current_page_number = (current_page_number - 1) % total_pages
+                        await message.edit(embed=embed_pages[current_page_number])
+                        await message.remove_reaction(reaction, user)
+
+                except asyncio.TimeoutError:
+                    await message.clear_reactions()
+                    break
 
 
-
-
-    @tasks.loop(seconds=2000.0)
-    async def download_one_result(self):
-        global ON_READY_FIRST_RUN_DOWNLOAD
-        if ON_READY_FIRST_RUN_DOWNLOAD:
-            ON_READY_FIRST_RUN_DOWNLOAD = False
-            return
-        print("starting scheduled attempt at downloading")
-        allempty = True
-        servercount = 0
-        for elem in self.serverstolists:
-            downloadlist = elem[1]
-            if len(downloadlist) > 0:
-                print("downloadlist not empty")
-                servercount += 1
-                allempty = False
-                downloadurl = downloadlist[-1]
-                baseurl = None
-                for tupleelem in self.liststobasesererurls:
-                    if downloadlist == tupleelem[0]:
-                        baseurl = tupleelem[1]
-                fullurl = baseurl+downloadurl
-                print("downloading result from server - " + fullurl)
-                if not await self.download_one_result_from_server(baseurl, downloadurl, fullurl):
-                    print("error downloading result file at : " + fullurl)
-                    return
-                else:
-                    print("succesfully downloaded : " + fullurl)
-            if len(downloadlist) > 0:
-                print("deleting last element of downloadlist, it now has " + str(len(downloadlist)) + " entries left")
-                del downloadlist[-1]
-        if servercount == 0:
-            print("No new result jsons to download")
-        else:
-            self.parsed.refresh_all_data()
-
-    async def download_one_result_from_server(self, baseurl, downloadurl, fullurl, downloadpath = None):
-        print("fetching download fullurl = " + fullurl)
-        user_agent = "https://github.com/JanuarySnow/RRR-Bot"
-        headers  = {"User-Agent":user_agent}
-        try:
-        # This will prevent your bot from stopping everything when doing a web request - see: https://discordpy.readthedocs.io/en/stable/faq.html#how-do-i-make-a-web-request
-            async with aiohttp.ClientSession() as session:
-                async with session.get(
-                        fullurl, 
-                        headers=headers) as request:
-                    if request.status == 200:
-                        data = await request.json(content_type='application/json') 
-                        # Extract the filename from the URL 
-                        filename = os.path.basename(downloadurl)
-                        # Save the JSON data to a file with the extracted filename 
-                        filepath = os.path.join("results", filename)
-                        print("downloading result to filepath : " + filepath)
-                        if not downloadpath is None:
-                            filepath = os.path.join(downloadpath, filename)
-                        with open(filepath, 'w') as json_file: 
-                            json.dump(data, json_file, indent=4) 
-                            print(f"JSON data saved to {filename}")
-                        return True
-                    else:
-                        print("error fetching from " + baseurl)
-                        return False
-        except Exception as e:
-            import traceback
-            traceback.print_exception(e)
-            return False
-            1/0
-
-    @commands.hybrid_command(name="forcescanresults", description="forcescanresults")
+    @commands.hybrid_command(name="forcerefreshalldata", description="forcescanresults")
     @commands.is_owner()
-    async def forcescanresults(self, ctx):
+    async def forcerefreshalldata(self, ctx):
         print("force refreshing all data")
         await ctx.defer()
         self.parsed.refresh_all_data()
         await ctx.send("Finished processing results")
 
-    
-    @tasks.loop(seconds=10000.0)
-    async def scan_results(self):
-        print("automated data refresh")
-        self.parsed.refresh_all_data()
 
     @commands.hybrid_command(name="allwinners", description="allwinners")
     async def allwinners(self, ctx):
@@ -520,95 +452,132 @@ class Stats(commands.Cog, name="stats"):
             embed.description = (retstring[(4096*i):(4096*(i+1))])
             await ctx.send(embed=embed)
 
-    @commands.hybrid_command(name="timetrialresult", description="timetrialresult")
-    async def timetrialresult(self, ctx):
-        print("starting time trial result command")
-        fullurl = self.timetrialserver + "/api/results/list.json?sort=date&page=0"
-        print(fullurl)
-        data = await self.check_one_server_for_results(fullurl)
-        if data:
-            with open('timetrialresultslist.json', 'w') as file:
-                json.dump(data, file, indent=4)
-            downloadurl = data["results"][0]["results_json_url"]
-            downloaded = await self.download_one_result_from_server(self.timetrialserver, downloadurl, self.timetrialserver + downloadurl, "timetrialresults")
-            if downloaded:
-                latestresult = None
-                latestdate = None
-                files = []
-                for filename in os.listdir("timetrialresults/"):
-                    if filename.endswith(".json"):
-                        with open("timetrialresults/"+filename, encoding="utf8") as f:
-                            data = json.load(f)
-                            date = data["Date"]
-                            if latestdate is None or date > latestdate:
-                                latestdate = date
-                                latestresult = data
-                if not latestresult is None:
-                    info, result = self.parsed.parse_one_time_trial(latestresult)
-                    infostring = info["trackname"] + "," + info["date"]
-                    resultstring = self.format_results_string(result)
-                    finalstring = infostring + "\n" + resultstring 
-                else:
-                    print("couldnt find latest time trial results json in directory")
-                embed = discord.Embed(description=finalstring, color=0x00ff00)
-                await ctx.send(embed=embed)
-            else:
-                print("error getting time trial result")
-        else:
-            print("error fetching data from " + fullurl)
-       
-    def format_results_string(self, results):
-        # First, sort results by car name and then by fastest lap time
-        results.sort(key=lambda x: (x["car"], x["fastestlap"]))
-        
-        # Prepare the formatted result
-        formatted_result = []
-        prev_car = None
-        
-        for result in results:
-            drivername = result["drivername"]
-            car = result["car"]
-            fastestlap_ms = result["fastestlap"]
-            numlaps = result["numlaps"]
-            
-            # Convert milliseconds to mm:ss.ms
-            total_seconds = fastestlap_ms / 1000
-            minutes = int(total_seconds // 60)
-            seconds = int(total_seconds % 60)
-            milliseconds = int((total_seconds * 1000) % 1000)
-            fastestlap_formatted = f"{minutes:02d}:{seconds:02d}.{milliseconds:03d}"
-            
-            # Check if we need to add an extra line space between car groups
-            if prev_car and prev_car != car:
-                formatted_result.append("")  # Add an empty line between different cars
-            
-            line = f"{drivername}, {car}, {fastestlap_formatted}, {numlaps}"
-            formatted_result.append(line)
-            prev_car = car
-        
-        return "\n".join(formatted_result)
 
-    async def check_one_server_for_results(self, server):
+    async def check_one_server_for_results(self, server, query):
         user_agent = "https://github.com/JanuarySnow/RRR-Bot"
-        headers  = {"User-Agent":user_agent}
+        headers = {"User-Agent": user_agent}
         try:
-        # This will prevent your bot from stopping everything when doing a web request - see: https://discordpy.readthedocs.io/en/stable/faq.html#how-do-i-make-a-web-request
-            print("fetching results list from " + server)
             async with aiohttp.ClientSession() as session:
-                async with session.get(
-                        server, 
-                        headers=headers) as request:
+                async with session.get(query, headers=headers) as request:
                     if request.status == 200:
                         data = await request.json(content_type='application/json')
                         data["results"].sort(key=lambda elem: datetime.fromisoformat(elem["date"]), reverse=True)
+                        print(f"Results size from results list = {len(data['results'])}")
+
+                        for result in data["results"]:
+                            download_url = result["results_json_url"]
+                            filename = os.path.basename(download_url)
+                            directory = self.servertodirectory[server]
+                            filepath = os.path.join("results", directory, filename)
+
+                            # Only add to the download queue if the file doesn't already exist
+                            if filename in self.blacklist:
+                                print("skipping + " + filename + " due to blacklist")
+                                continue
+                            if not os.path.exists(filepath):
+                                print("adding to download queue " + download_url)
+                                self.download_queue.append((server, download_url))
+                            else:
+                                print(f"File {filepath} already exists, skipping download")
                         return data
                     else:
-                        print("error fetching from " + server)
+                        print(f"Error fetching from {server}")
                         return None
         except Exception as e:
             import traceback
             traceback.print_exception(e)
             return None
+            1/0
+
+    async def download_files_from_queue(self):
+        user_agent = "https://github.com/JanuarySnow/RRR-Bot"
+        headers = {"User-Agent": user_agent}
+
+        while self.download_queue:
+            print("size of download queue = " + str(len(self.download_queue)))
+            server, download_url = self.download_queue.pop(0)
+            download_url = server + download_url
+            print("downloading from " + download_url)
+            directory = self.servertodirectory[server]
+            filename = os.path.basename(download_url)
+            filepath = os.path.join("results", directory, filename)
+
+            try:
+                async with aiohttp.ClientSession() as session:
+                    async with session.get(download_url, headers=headers) as request:
+                        if request.status == 200:
+                            data = await request.json(content_type='application/json')
+
+                            # Ensure the directory exists
+                            os.makedirs(os.path.join("results", directory), exist_ok=True)
+
+                            # Save the JSON data to a file
+                            with open(filepath, 'w') as json_file:
+                                json.dump(data, json_file, indent=4)
+                                print(f"JSON data saved to {filepath}")
+                                self.justadded.append(filepath)
+                        else:
+                            print(f"Error fetching from {download_url}")
+            except Exception as e:
+                import traceback
+                traceback.print_exception(e)
+            if len(self.download_queue) >= 1:
+                print("waiting for next download")
+                await asyncio.sleep(20)
+            else:
+                print("no more files to download, exiting")
+                break
+
+    @commands.hybrid_command(name='euvsna', description="compare EU vs NA")
+    async def euvsna(self, ctx):
+        euracers = self.parsed.get_eu_racers()
+        naracers = self.parsed.get_na_racers()
+        print("size of euracers = " + str(len(euracers)))
+        print("size of naracers = " + str(len(naracers)))
+
+        average_eu_elo = sum(racer.rating for racer in euracers) / len(euracers)
+        average_na_elo = sum(racer.rating for racer in naracers) / len(naracers)
+        print("average eu elo = " + str(average_eu_elo))
+        print("average na elo = " + str(average_na_elo))
+
+        average_eu_clean = sum(racer.averageincidents for racer in euracers) / len(euracers)
+        average_na_clean = sum(racer.averageincidents for racer in naracers) / len(naracers)
+        print("average eu clean = " + str(average_eu_clean))
+        print("average na clean = " + str(average_na_clean))
+
+        average_pace_percentage_gt3_eu = sum(racer.pace_percentage_gt3 for racer in euracers if racer.pace_percentage_gt3 is not None) / len(euracers)
+        average_pace_percentage_gt3_na = sum(racer.pace_percentage_gt3 for racer in naracers if racer.pace_percentage_gt3 is not None) / len(naracers)
+        average_pace_percentage_mx5_eu = sum(racer.pace_percentage_mx5 for racer in euracers if racer.pace_percentage_mx5 is not None) / len(euracers)
+        average_pace_percentage_mx5_na = sum(racer.pace_percentage_mx5 for racer in naracers if racer.pace_percentage_mx5 is not None) / len(naracers)
+        print("average pace percentage gt3 eu = " + str(average_pace_percentage_gt3_eu))
+        print("average pace percentage gt3 na = " + str(average_pace_percentage_gt3_na))
+        print("average pace percentage mx5 eu = " + str(average_pace_percentage_mx5_eu))
+        print("average pace percentage mx5 na = " + str(average_pace_percentage_mx5_na))
+
+
+        embed = discord.Embed(
+                title="EU VS NA",
+                color=discord.Color.blue()
+            )
+
+        
+        embed.add_field(name="🏆 Average EU racer ELO 🏆", value=(f"🔴 {round(average_eu_elo, 2)}" if average_na_elo > average_eu_elo else f"🟢 {round(average_eu_elo, 2)}") or "\u200b", inline=False)
+        embed.add_field(name="🏆 Average NA racer ELO 🏆", value=(f"🟢 {round(average_na_elo, 2)}" if average_na_elo > average_eu_elo else f"🔴 {round(average_na_elo, 2)}") or "\u200b", inline=False)
+
+        embed.add_field(name="🚗 Average EU racer Incidents per race 🚗", value=(f"🔴 {round(average_eu_clean, 2)}" if average_na_clean < average_eu_clean else f"🟢 {round(average_eu_clean, 2)}") or "\u200b", inline=False)
+        embed.add_field(name="🚗 Average NA racer Incidents per race 🚗", value=(f"🟢 {round(average_na_clean, 2)}" if average_na_clean < average_eu_clean else f"🔴 {round(average_na_clean, 2)}") or "\u200b", inline=False)
+
+        embed.add_field(name="⏱️ Average EU Racer pace percentage GT3 ⏱️", value=(f"🔴 {round(average_pace_percentage_gt3_eu, 2)}" if average_pace_percentage_gt3_na > average_pace_percentage_gt3_eu else f"🟢 {round(average_pace_percentage_gt3_eu, 2)}") or "\u200b", inline=False)
+        embed.add_field(name="⏱️ Average NA Racer pace percentage GT3 ⏱️", value=(f"🟢 {round(average_pace_percentage_gt3_na, 2)}" if average_pace_percentage_gt3_na > average_pace_percentage_gt3_eu else f"🔴 {round(average_pace_percentage_gt3_na, 2)}") or "\u200b", inline=False)
+
+        embed.add_field(name="⏱️ Average EU Racer pace percentage MX5 ⏱️", value=(f"🔴 {round(average_pace_percentage_mx5_eu, 2)}" if average_pace_percentage_mx5_na > average_pace_percentage_mx5_eu else f"🟢 {round(average_pace_percentage_mx5_eu, 2)}") or "\u200b", inline=False)
+        embed.add_field(name="⏱️ Average NA Racer pace percentage MX5 ⏱️", value=(f"🟢 {round(average_pace_percentage_mx5_na, 2)}" if average_pace_percentage_mx5_na > average_pace_percentage_mx5_eu else f"🔴 {round(average_pace_percentage_mx5_na, 2)}") or "\u200b", inline=False)
+        await ctx.send(embed=embed)
+
+
+    @commands.hybrid_command(name='forcetimedtask', description="force timed task")
+    async def forcetimedtask(self, ctx):
+        await self.fetch_results_list()
 
     @tasks.loop(seconds=6000.0)
     async def fetch_results_list(self):
@@ -616,30 +585,26 @@ class Stats(commands.Cog, name="stats"):
         if ON_READY_FIRST_TIME_SCAN:
             ON_READY_FIRST_TIME_SCAN = False
             return
+        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
         print("starting fetch")
-        for serverelem in self.serverstolists:
-            server = serverelem[0]
-            print("fetching latest results from server:" + server)
-            data = await self.check_one_server_for_results(server)
-            retdict = {}
-            retdict["num_pages"] = data["num_pages"]
-            retdict["current_page"] = data["current_page"]
-            retdict["sort_type"] = data["sort_type"]
-            retdict["results"] = data["results"]
-            for entry in retdict["results"]:
-                
-                filename = os.path.basename(entry["results_json_url"])
-                filepath = os.path.join("results", filename)
-                jsonurl = entry["results_json_url"]
-                if os.path.exists(filepath): 
-                    pass
-                else:
-                    if not filename in serverelem[1]:
-                        print("found a new JSON result to download - " + str(jsonurl))
-                        if filename in self.blacklist:
-                            print("but its a blacklisted result so ignoring")
-                        else:
-                            serverelem[1].append(jsonurl)
+        async with channel.typing():
+            for server in self.servers:
+                query = server + "/api/results/list.json?q=Type:\"RACE\"&sort=date&page=0"
+                print("query for server = " + query)
+                await self.check_one_server_for_results(server,query)
+            await self.download_files_from_queue()
+        if len(self.justadded) == 0:
+            pass
+        else:
+            for elem in self.justadded:
+                await channel.send("Added " + elem)
+            async with channel.typing():
+                for elem in self.justadded:
+                    await self.parsed.add_one_result(elem, os.path.basename(elem) )
+                    await asyncio.sleep(3)
+            await channel.send("All results have been processed and data has been refreshed")
+            self.justadded.clear()
+        
 
     @commands.hybrid_command(name='carlookup', description="get car info")
     async def carlookup(self, ctx, *, input_string: str, guid:str = None):
@@ -952,8 +917,22 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
 
-
-
+    @commands.hybrid_command(name="myskillprogression", description="show improvement over time")
+    async def myskillprogression(self, ctx: Context, guid:str=None) -> None:
+        steam_guid = self.get_steam_guid(ctx, guid)
+        if steam_guid:
+            racer = self.parsed.racers[steam_guid]
+            if not racer.progression_plot:
+                await ctx.send("Racer hasnt done enough races yet")
+                return
+            self.parsed.create_skill_progression_chart(racer.paceplotaverage,racer.positionaverage)
+            file = discord.File("progression_chart.png", filename="progression_chart.png") 
+            embed = discord.Embed( title="Racer Progression", description=f"Progression Over Time for {racer.name}", color=discord.Color.green() ) 
+            embed.set_image(url="attachment://progression_chart.png") 
+            await ctx.send(embed=embed, file=file)
+        else:
+            await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
+    
     @commands.hybrid_command(name="myprogression", description="show improvement over time")
     async def myprogression(self, ctx: Context, guid:str=None) -> None:
         steam_guid = self.get_steam_guid(ctx, guid)
@@ -970,6 +949,63 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
 
+    @commands.hybrid_command(name="gt3rankings", description="gt3 rankings")
+    async def gt3rankings(self, ctx: Context) -> None:
+        stats = self.parsed.get_overall_stats()
+        embed = discord.Embed(
+            title="GT3 Rankings",
+            color=discord.Color.blue()
+        )
+
+        def format_rankings(rankings, value_formatter):
+                        formatted_lines = [value_formatter(entry) for entry in rankings]
+                        return "\n".join(formatted_lines)
+
+        def elo_formatter(entry):
+            return f"{entry['rank']}. {entry['name']} - **Rating**: {entry['rating']}"
+
+        def safety_formatter(entry):
+            return f"{entry['rank']}. {entry['name']} - **Average Incidents**: {entry['averageincidents']:.2f}"
+
+        def consistency_formatter(entry):
+            return f"{entry['rank']}. {entry['name']} - **Consistency**: {entry['laptimeconsistency']:.2f}%"
+
+        # Add top 10 ELO rankings
+        elo_rankings = format_rankings(stats['gt3elos'], elo_formatter)
+        embed.add_field(name="🏆 Top 10 GT3 ELO Rankings 🏆", value=elo_rankings or "\u200b", inline=False)
+
+
+        await ctx.send(embed=embed)
+
+    @commands.hybrid_command(name="mx5rankings", description="mx5 rankings")
+    async def mx5rankings(self, ctx: Context) -> None:
+        stats = self.parsed.get_overall_stats()
+        embed = discord.Embed(
+            title="MX5 Rankings",
+            color=discord.Color.blue()
+        )
+
+        def format_rankings(rankings, value_formatter):
+                        formatted_lines = [value_formatter(entry) for entry in rankings]
+                        return "\n".join(formatted_lines)
+
+        def elo_formatter(entry):
+            return f"{entry['rank']}. {entry['name']} - **Rating**: {entry['rating']}"
+
+        def safety_formatter(entry):
+            return f"{entry['rank']}. {entry['name']} - **Average Incidents**: {entry['averageincidents']:.2f}"
+
+        def consistency_formatter(entry):
+            return f"{entry['rank']}. {entry['name']} - **Consistency**: {entry['laptimeconsistency']:.2f}%"
+
+        # Add top 10 ELO rankings
+        elo_rankings = format_rankings(stats['mx5elos'], elo_formatter)
+        embed.add_field(name="🏆 Top 10 MX5 ELO Rankings 🏆", value=elo_rankings or "\u200b", inline=False)
+
+
+        await ctx.send(embed=embed)
+
+    
     @commands.hybrid_command(name="myprogressiongt3", description="show improvement over time in GT3")
     async def myprogressiongt3(self, ctx: Context, guid:str=None) -> None:
         steam_guid = self.get_steam_guid(ctx, guid)
@@ -1068,12 +1104,20 @@ class Stats(commands.Cog, name="stats"):
                     break
             await ctx.send(retstring)
 
+    @commands.hybrid_command(name="scatterplot", description="scatter plot of racers")
+    async def scatterplot(self, ctx: commands.Context, only_recent = False) -> None: 
+        self.parsed.plot_racers_scatter()
+        file = discord.File("scatter_plot.png", filename="scatter_plot.png") 
+        embed = discord.Embed( title="Scatter Plot", description=f"Cleanliness vs ELO scatter", color=discord.Color.green() ) 
+        embed.set_image(url="attachment://scatter_plot.png") 
+        await ctx.send(embed=embed, file=file)
+
     @commands.hybrid_command(name="rrrstats", description="get overall top 10s")
-    async def rrrstats(self, ctx: commands.Context) -> None:
+    async def rrrstats(self, ctx: commands.Context, only_recent = False) -> None:
         if self.parsed:
-            stats = self.parsed.get_overall_stats()
+            stats = self.parsed.get_overall_stats(only_recent)
             embed = discord.Embed(
-                title="Overall Stats",
+                title="Overall Stats " + ("(Recently Active Racers)" if only_recent else ""),
                 color=discord.Color.blue()
             )
 

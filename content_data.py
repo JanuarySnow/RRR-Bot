@@ -68,6 +68,19 @@ class TrackVariant:
                         fastest = lap
         return fastest
     
+    def get_racer_fastest_lap_in_car(self, car:Car, racerguid:str):
+        fastest = None
+        for lap in self.laps:
+            if not lap.valid:
+                continue
+            if lap.car == car.id and lap.racerguid == racerguid:
+                if fastest == None:
+                    fastest = lap
+                else:
+                    if lap.time < fastest.time:
+                        fastest = lap
+        return fastest
+    
     def get_fastest_lap_in_gt3(self, racerguid:str = None):
         fastest = None
         for lap in self.laps:
