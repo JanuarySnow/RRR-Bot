@@ -4,12 +4,8 @@ from discord.ext import commands, tasks
 from discord.ext.commands import Context
 from dateutil.parser import parse
 import json
-import logging
 from operator import itemgetter
 import os
-import platform
-import random
-import sys
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates 
 from datetime import datetime
@@ -21,8 +17,9 @@ import content_data
 import racer
 import result
 from dateutil.relativedelta import relativedelta
-import cProfile 
-import pstats
+from datetime import datetime, timedelta
+from adjustText import adjust_text
+from logger_config import logger
 
 class parser():
     def __init__(self):
@@ -32,6 +29,7 @@ class parser():
         self.usedtracks = {} # guid to trackvariant object
         self.usedcars = {}
         self.safety_rankings = []
+        self.logger = logger
         self.safety_rankingsgt3 = []
         self.safety_rankingsmx5 = []
 
@@ -344,15 +342,69 @@ class parser():
 
     def get_all_result_files(self):
         datalist = []
-        for filename in os.listdir("results/"):
-            if filename.endswith(".json"):
-                with open("results/"+filename, encoding="utf8") as f:
-                    data = json.load(f)
-                    if data["Type"] == "RACE":
-                        data["Filename"] = filename
-                        datalist.append(data)
-        datalist.sort(key=lambda d: d["Date"])
+
+    # Traverse the entire directory tree
+        for root, dirs, files in os.walk("results/"):
+            for filename in files:
+                if filename.endswith(".json"):
+                    filepath = os.path.join(root, filename)
+                    with open(filepath, encoding="utf8") as f:
+                        data = json.load(f)
+                        if data.get("Type") == "RACE":
+                            data["Filename"] = filename
+                            # Parse the date string to a datetime object
+                            race_time = datetime.fromisoformat(data["Date"].replace("Z", "+00:00"))
+                            # Determine the region based on the race time
+                            if race_time.hour < 24 and race_time.hour >= 12:
+                                data["Region"] = "EU"
+                            else:
+                                data["Region"] = "NA"
+                            datalist.append(data)
         return datalist
+    
+    def get_eu_racers(self):
+        euracers = []
+        for racer in self.racers.values():
+            if racer.geteuorna() == "EU" and racer.numraces > 5:
+                euracers.append(racer)
+        return euracers
+    
+    def get_na_racers(self):
+        euracers = []
+        for racer in self.racers.values():
+            if racer.geteuorna() == "NA" and racer.numraces > 5:
+                euracers.append(racer)
+        return euracers
+    
+    async def add_one_result(self, filepath, filename):
+        print("adding one result " + filename)
+        with open(filepath, encoding="utf8") as f:
+            data = json.load(f)
+            if data.get("Type") == "RACE":
+                data["Filename"] = filename
+                resultobj = result.Result()
+                resultobj.filename = data["Filename"]
+
+                # Parse the date string to a datetime object
+                race_time = datetime.fromisoformat(data["Date"].replace("Z", "+00:00"))
+                # Determine the region based on the race time
+                if race_time.hour < 24 and race_time.hour >= 12:
+                    data["Region"] = "EU"
+                else:
+                    data["Region"] = "NA"
+                self.parse_one_result(resultobj, data)
+
+                for car in data["Result"]:
+                    if not car["DriverGuid"] or car["DriverGuid"] == "" :
+                        continue
+                    guid = car["DriverGuid"]
+                    racer = self.racers[guid]
+                    racer.calculate_averages()
+                    racer.calculatepace()
+        self.calculate_raw_pace_percentages_for_all_racers()
+        self.calculate_rankings()
+        print("done adding one result")
+
     
     def get_cars_and_racers_from_result(self, resultobject, data):
         for car in data["Result"]:
@@ -477,7 +529,9 @@ class parser():
     
     def parse_one_result(self, result, data):
         result.is_endurance_race(data)
+        result.set_region(data)
         result.calculate_is_mx5_or_gt3(data)
+        result.get_race_duration(data)
         self.get_track_from_result(result, data)
         self.get_cars_and_racers_from_result(result, data)
         result.calculate_laps(data)
@@ -533,6 +587,7 @@ class parser():
         for elem in self.racers.keys():
             racer = self.racers[elem]
             racer.calculate_averages()
+            racer.calculatepace()
         self.calculate_raw_pace_percentages_for_all_racers()
         self.calculate_rankings()
         
@@ -566,15 +621,26 @@ class parser():
         rettuple = (earliest_rating, latest_rating, filtered_entries)
         return rettuple
 
-    
-    def get_overall_stats(self):
+
+    def get_overall_stats(self, recently_active=False):
         elos = []
+        mx5elos = []
+        gt3elos = []
         safety = []
         laptime_consistency = []
-        race_position_consistency = []
+
+        recent_threshold = datetime.now() - timedelta(days=180)
+        recent_threshold = recent_threshold.replace(tzinfo=None)  
+
+        def is_recently_active(racer):
+            return any(datetime.fromisoformat(result.date).replace(tzinfo=None) >= recent_threshold for result in racer.entries)
+
+        def filter_active(rankings):
+            return [racer for racer in rankings if is_recently_active(racer)]
 
         # Get top 10 ELO rankings
-        for index, elem in enumerate(self.elorankings):
+        rankings_to_use = filter_active(self.elorankings) if recently_active else self.elorankings
+        for index, elem in enumerate(rankings_to_use):
             if index >= 10:
                 break
             elos.append({
@@ -583,8 +649,31 @@ class parser():
                 'rating': elem.rating
             })
 
+        # Get top 10 GT3 rankings
+        rankings_to_use = filter_active(self.elorankingsgt3) if recently_active else self.elorankingsgt3
+        for index, elem in enumerate(rankings_to_use):
+            if index >= 10:
+                break
+            gt3elos.append({
+                'rank': index + 1,
+                'name': elem.name,
+                'rating': elem.gt3rating
+            })
+
+        # Get top 10 MX5 rankings
+        rankings_to_use = filter_active(self.elorankingsmx5) if recently_active else self.elorankingsmx5
+        for index, elem in enumerate(rankings_to_use):
+            if index >= 10:
+                break
+            mx5elos.append({
+                'rank': index + 1,
+                'name': elem.name,
+                'rating': elem.mx5rating
+            })
+
         # Get top 10 clean racers
-        for index, elem in enumerate(self.safety_rankings):
+        rankings_to_use = filter_active(self.safety_rankings) if recently_active else self.safety_rankings
+        for index, elem in enumerate(rankings_to_use):
             if index >= 10:
                 break
             safety.append({
@@ -594,7 +683,8 @@ class parser():
             })
 
         # Get top 10 lap time consistency
-        for index, elem in enumerate(self.laptimeconsistencyrankings):
+        rankings_to_use = filter_active(self.laptimeconsistencyrankings) if recently_active else self.laptimeconsistencyrankings
+        for index, elem in enumerate(rankings_to_use):
             if index >= 10:
                 break
             laptime_consistency.append({
@@ -607,7 +697,10 @@ class parser():
             'elos': elos,
             'safety': safety,
             'laptime_consistency': laptime_consistency,
+            'mx5elos': mx5elos,
+            'gt3elos': gt3elos
         }
+
 
     def calculate_raw_pace_percentages_for_all_racers(self):
         fastest_lap_times = {
@@ -667,7 +760,7 @@ class parser():
                         percentage_gt3 = (fastest / thisracerfastest.time) * 100
                         total_percentage_gt3 += percentage_gt3
                         count_gt3 += 1
-
+    
             racer.pace_percentage_gt3 = round(total_percentage_gt3 / count_gt3, 2) if count_gt3 > 0 else None
             racer.pace_percentage_mx5 = round(total_percentage_mx5 / count_mx5, 2) if count_mx5 > 0 else None
 
@@ -752,6 +845,42 @@ class parser():
 
         return sorted_averagedict
 
+    def plot_racers_scatter(self):
+        recent_threshold = datetime.now() - timedelta(days=180)
+        recent_threshold = recent_threshold.replace(tzinfo=None) 
+
+        def is_recently_active(racer):
+            return any(datetime.fromisoformat(result.date).replace(tzinfo=None) >= recent_threshold for result in racer.entries)
+
+        racers = self.elorankings  # Assuming self.elorankings has all racers
+        racers = [racer for racer in self.elorankings if is_recently_active(racer)]
+
+        elo_ratings = [racer.rating for racer in racers]
+        cleanliness_ratings = [racer.averageincidents for racer in racers]
+        names = [racer.name for racer in racers]
+
+        plt.figure(figsize=(18, 18))  # Set the figure size
+        plt.scatter(cleanliness_ratings, elo_ratings, s=100, c='blue', alpha=0.6, edgecolors='w', linewidth=2)
+        texts = [plt.text(cleanliness_ratings[i], elo_ratings[i], name, fontsize=14, ha='right', va='bottom', color='red')
+            for i, name in enumerate(names)]
+        adjust_text(texts, arrowprops=dict(arrowstyle='-', color='black'))
+        # Calculate averages
+        avg_cleanliness = sum(cleanliness_ratings) / len(cleanliness_ratings)
+        avg_elo = sum(elo_ratings) / len(elo_ratings)
+
+        # Add average lines
+        plt.axhline(y=avg_elo, color='green', linestyle='--', linewidth=2, label=f'Average ELO: {avg_elo:.2f}')
+        plt.axvline(x=avg_cleanliness, color='orange', linestyle='--', linewidth=2, label=f'Average Incidents per Race: {avg_cleanliness:.2f}')
+        plt.xlabel('Clean Racer', fontsize=14)  # Larger font size for X axis
+        plt.ylabel('ELO Score', fontsize=14)  # Larger font size for Y axis
+        plt.title('Scatter Plot of Racers', fontsize=18)  # Larger font size for the title
+        plt.grid(True)
+        plt.xticks(fontsize=14)  # Larger font size for X axis ticks
+        plt.yticks(fontsize=14)  # Larger font size for Y axis ticks
+        plt.gca().invert_xaxis()
+        plt.savefig('scatter_plot.png')  # Save the figure as an image file
+        plt.close()  # Close the plot to free up memory
+
 
 
     def test_output(self, id):
@@ -774,6 +903,7 @@ class parser():
             retstring += str(index) + ": " + elem.name + " : " + str(elem.averageincidents) + "\n"
             index += 1
         return retstring
+    
 
     def create_progression_chart(self, progression_plot):
         dates = list(progression_plot.keys()) 
@@ -816,4 +946,54 @@ class parser():
         plt.savefig('progression_chart.png')
         plt.close()
 
+    def moving_average(self, data, window_size):
+        return np.convolve(data, np.ones(window_size)/window_size, mode='valid')
 
+    def find_stabilization_point(self, data, window_size=10, threshold=15):
+        ma = self.moving_average(data, window_size)
+        for i in range(len(ma) - window_size):
+            if np.var(ma[i:i+window_size]) < threshold:
+                return i + window_size
+        return len(data) - 1
+
+    def create_skill_progression_chart(self, incidentplot, positionplot):
+        dates = list(incidentplot.keys()) 
+        finishes = list(positionplot.values())
+        incidents = list(incidentplot.values())
+
+        # Convert ISO_8601 strings to datetime objects and sort them
+        dates = [datetime.fromisoformat(date[:-1]) for date in dates] # Remove the 'Z' at the end of the string
+        dates, finishes, incidents = zip(*sorted(zip(dates, finishes, incidents)))  # Sort dates, finishes, and incidents together
+
+
+        fig, ax1 = plt.subplots()
+
+        # Plot average finishes
+        ax1.plot(dates, finishes, marker='o', linestyle='-', color='b', alpha=0.7, label='Top % of Finish Position')
+        ax1.set_xlabel('Date')
+        ax1.set_ylabel('Finish Position (%)', color='b')
+        ax1.tick_params(axis='y', labelcolor='b')
+        ax1.set_ylim(min(finishes) -5, 100)  # Dynamic scale for finish positions
+
+        # Create a second y-axis for average incidents
+        ax2 = ax1.twinx()
+        ax2.plot(dates, incidents, marker='o', linestyle='-', color='g', alpha=0.7, label='Average % of pace')
+        ax2.set_ylabel('Average pace (%)', color='g')
+        ax2.tick_params(axis='y', labelcolor='g')
+        ax2.set_ylim(min(incidents) -2.0, 100)  # Dynamic scale for incidents
+
+        # Format the date on the x-axis to show month and year
+        ax1.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))
+        fig.autofmt_xdate()
+
+        # Add grid and title
+        ax1.grid()
+        fig.suptitle('Racer Progression Over Time')
+
+        # Add legend
+        ax1.legend(loc='upper left')
+        ax2.legend(loc='upper right')
+
+        # Save chart as an image
+        plt.savefig('progression_chart.png')
+        plt.close()
