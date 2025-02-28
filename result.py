@@ -4,8 +4,6 @@ import racer
 import statsparser
 from logger_config import logger
 
-gt3ids = ["ks_audi_r8_lms_2016","bmw_z4_gt3", "ks_ferrari_488_gt3", "ks_lamborghini_huracan_gt3",
-         "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016"]
 
 class Incident():
     def __init__(self, speed, racer, otherracer) -> None:
@@ -49,21 +47,13 @@ class Result():
         self.entries = [] #list of Entry objects, listed in order of finishing result
         self.endurance = False
         self.incidents = []
-        self.mx5orgt3 = "neither"
         self.filename = ""
         self.date = ""
-        self.region = "EU"
         self.championshipid = ""
         self.numlaps = 0
         self.driverlaps = {}
         self.shortorlong = "short"
         self.logger = logger
-
-    def set_region(self, data):
-        if data["Region"] == "EU":
-            self.region = "EU"
-        elif data["Region"] == "NA":
-            self.region = "NA"
         
 
     def update_ratings(self):
@@ -76,11 +66,11 @@ class Result():
                 racer_j = self.entries[j].racer
                 position_j = self.entries[j].finishingposition
                 if position_i < position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, racer_j.gt3rating, racer_j.mx5rating, 1, len(self.entries), self, self.entries[j].racer)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, racer_i.gt3rating, racer_i.mx5rating, 0, len(self.entries), self, self.entries[i].racer)
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 1, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 0, len(self.entries), self, self.entries[i].racer)
                 elif position_i > position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, racer_j.gt3rating, racer_j.mx5rating, 0, len(self.entries), self, self.entries[j].racer)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, racer_i.gt3rating, racer_i.mx5rating, 1, len(self.entries), self, self.entries[i].racer)
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 0, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 1, len(self.entries), self, self.entries[i].racer)
 
     def get_position_of_racer(self, racer):
         index = 1
@@ -244,26 +234,6 @@ class Result():
             lap = Lap(lap["LapTime"], carid, racerguid, self, lap["Cuts"] == 0, lap["Cuts"])
             self.laps.append(lap)
             self.track.laps.append(lap)
-    
-    def calculate_is_mx5_or_gt3(self, data):
-        self.championshipid = data["ChampionshipID"]
-        gt3race = False
-        mx5race = False
-        for elem in data["Cars"]:
-            if elem["Model"] != "":
-                firstcar = elem["Model"]
-                if firstcar in gt3ids:
-                    gt3race = True
-                    break
-                if firstcar == "ks_mazda_mx5_cup":
-                    mx5race = True
-                    break
-        if gt3race:
-            self.mx5orgt3 = "gt3"
-            return "gt3"
-        if mx5race:
-            self.mx5orgt3 = "mx5"
-            return "mx5"
 
     def is_endurance_race(self, data):
         for driverresult in data["Result"]:

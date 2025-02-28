@@ -1,0 +1,2465 @@
+{
+  "Version": 5,
+  "Cars": [
+    {
+      "BallastKG": 40,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "fsr_audi_lms_evo_ii_gt3",
+      "Restrictor": 70,
+      "Skin": "skin_00",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 56
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "fsr_audi_lms_evo_ii_gt3",
+      "Restrictor": 70,
+      "Skin": "TEMPLATE",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 124,
+      "MaxPing": 127
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561198256324629",
+        "GuidsList": [
+          "76561198256324629"
+        ],
+        "Name": "LonelyDriver",
+        "Nation": "HRV",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amg_evo_gt3_2020",
+      "Restrictor": 45,
+      "Skin": "SPS_Automotive_#20",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 130,
+      "MaxPing": 224
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198353366034",
+        "GuidsList": [
+          "76561198353366034"
+        ],
+        "Name": "KraheFrosch",
+        "Nation": "GEO",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amg_evo_gt3_2020",
+      "Restrictor": 45,
+      "Skin": "N24h_Getspeed_#9",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 131,
+      "MaxPing": 138
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amr_v8_vantage_gt3_acc",
+      "Restrictor": 10,
+      "Skin": "2019_IGT_9H_Pro_r_motorsport_76",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amr_v8_vantage_gt3_acc",
+      "Restrictor": 10,
+      "Skin": "2020_GTWC_Silver_r_motorsport_762",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bentley_continental_gt3_18_acc",
+      "Restrictor": 10,
+      "Skin": "2019_msport_108",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 123,
+      "MaxPing": 245
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198058401631",
+        "GuidsList": [
+          "76561198058401631"
+        ],
+        "Name": "Kmkee",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bentley_continental_gt3_18_acc",
+      "Restrictor": 10,
+      "Skin": "6_KPAX",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 27,
+      "MaxPing": 29
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561198115234183",
+        "GuidsList": [
+          "76561198115234183"
+        ],
+        "Name": "Willians Castro",
+        "Nation": "CHL",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bmw_m4_gt3",
+      "Restrictor": 22,
+      "Skin": "Nova pasta",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 154,
+      "MaxPing": 277
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198058401631",
+        "GuidsList": [
+          "76561198058401631"
+        ],
+        "Name": "Kmkee",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bmw_m4_gt3",
+      "Restrictor": 22,
+      "Skin": "#82 bmw_werkslivery",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 34,
+      "MaxPing": 38
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561199008895909",
+        "GuidsList": [
+          "76561199008895909"
+        ],
+        "Name": "OrangeFruit510",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_crsh_porsche_gt3_2019_endurance",
+      "Restrictor": 15,
+      "Skin": "endless_911_gt300_blw",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 60
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_crsh_porsche_gt3_2019_endurance",
+      "Restrictor": 15,
+      "Skin": "ssr_performance_92_gt_masters_2019",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_ferrari_488_gt3_acc",
+      "Restrictor": 10,
+      "Skin": "83_iron_dames",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 27,
+      "MaxPing": 65
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_ferrari_488_gt3_acc",
+      "Restrictor": 10,
+      "Skin": "0_AF Corse_51",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 35,
+      "MaxPing": 127
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Restrictor": 0,
+      "Skin": "promo",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 36,
+      "MaxPing": 189
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Restrictor": 0,
+      "Skin": "FF_Honda_Team_JAS_30_Bathurst12_2020",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 25,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_lexus_rcf_gt3_acc",
+      "Restrictor": 35,
+      "Skin": "BWT_YY",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 40,
+      "MaxPing": 49
+    },
+    {
+      "BallastKG": 25,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_lexus_rcf_gt3_acc",
+      "Restrictor": 35,
+      "Skin": "aimvasser_daytona2020_12",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_mclaren_720_gt3_acc",
+      "Restrictor": 18,
+      "Skin": "tigerK",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 108,
+      "MaxPing": 1218
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_mclaren_720_gt3_acc",
+      "Restrictor": 18,
+      "Skin": "Olsbergs_purple",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 122,
+      "MaxPing": 124
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_nissan_gtr_gt3_2018",
+      "Restrictor": 3,
+      "Skin": "rjn_team_motul_#23",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 34,
+      "MaxPing": 155
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561198058401631",
+        "GuidsList": [
+          "76561198058401631"
+        ],
+        "Name": "Kmkee",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_nissan_gtr_gt3_2018",
+      "Restrictor": 3,
+      "Skin": "rjn_team_motul_#23",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 34,
+      "MaxPing": 155
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_nissan_gtr_gt3_2018",
+      "Restrictor": 3,
+      "Skin": "kcmg_igtc_california_#18",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 123,
+      "MaxPing": 126
+    },
+    {
+      "BallastKG": 35,
+      "CarId": 22,
+      "Driver": {
+        "Guid": "76561199065802833",
+        "GuidsList": [
+          "76561199065802833"
+        ],
+        "Name": "Inf1nity",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Restrictor": 40,
+      "Skin": "03",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 46,
+      "MaxPing": 135
+    },
+    {
+      "BallastKG": 35,
+      "CarId": 23,
+      "Driver": {
+        "Guid": "76561197995363576",
+        "GuidsList": [
+          "76561197995363576"
+        ],
+        "Name": "LaaFist",
+        "Nation": "ARG",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Restrictor": 40,
+      "Skin": "04",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 193,
+      "MaxPing": 198
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671",
+          "76561198058401631"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 26.84318,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.4355559,
+        "Y": -0.33130407,
+        "Z": 2.6072176
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 198.52725,
+        "Y": -53.697906,
+        "Z": -625.5537
+      },
+      "Timestamp": 1679768389,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792",
+          "76561198281219302"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 33.245796,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.4355825,
+        "Y": -0.33130306,
+        "Z": 2.607243
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -120.698044,
+        "Y": -41.486404,
+        "Z": 589.08453
+      },
+      "Timestamp": 1679768802,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671",
+          "76561198058401631"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 74.030266,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.09040809,
+        "Y": -0.33174166,
+        "Z": 2.6134512
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -591.20825,
+        "Y": -78.0376,
+        "Z": -129.07071
+      },
+      "Timestamp": 1679768894,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671",
+          "76561198058401631"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 19.03106,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.780388,
+        "Y": -0.3043528,
+        "Z": 2.464625
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -563.5051,
+        "Y": -77.96088,
+        "Z": -162.74765
+      },
+      "Timestamp": 1679768899,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671",
+          "76561198856548458",
+          "76561198058401631"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 84.95274,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.57256055,
+        "Y": -0.31292585,
+        "Z": 2.1675894
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -113.75031,
+        "Y": -70.04494,
+        "Z": -722.6149
+      },
+      "Timestamp": 1679769735,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671",
+          "76561198856548458",
+          "76561198058401631"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 15.744342,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0038182,
+        "Y": 0.22728996,
+        "Z": 1.6463565
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -627.0212,
+        "Y": -77.79105,
+        "Z": -111.39393
+      },
+      "Timestamp": 1679769855,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198856548458",
+          "76561198058401631",
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 73.30595,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9464624,
+        "Y": -0.36597016,
+        "Z": 1.9404558
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -241.43294,
+        "Y": -75.84059,
+        "Z": -703.3315
+      },
+      "Timestamp": 1679770771,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.1699543,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9986013,
+        "Y": 0.7532575,
+        "Z": -2.0198631
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 376.63757,
+        "Y": -30.391054,
+        "Z": -132.68239
+      },
+      "Timestamp": 1679770802,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 52.944763,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.0000012361637,
+        "Y": -0.2779535,
+        "Z": 2.6171563
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -135.5444,
+        "Y": -71.042274,
+        "Z": -702.7277
+      },
+      "Timestamp": 1679771402,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198058401631",
+        "GuidsList": [
+          "76561198058401631"
+        ],
+        "Name": "Kmkee",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 39.61389,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0177859,
+        "Y": -0.13466144,
+        "Z": -1.7641848
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -566.2676,
+        "Y": -77.897575,
+        "Z": -159.3896
+      },
+      "Timestamp": 1679771529,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198058401631",
+        "GuidsList": [
+          "76561198058401631"
+        ],
+        "Name": "Kmkee",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 184.93727,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.54711825,
+        "Y": 0.20960754,
+        "Z": 2.234374
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 311.549,
+        "Y": -26.37547,
+        "Z": 797.6207
+      },
+      "Timestamp": 1679772099,
+      "AfterSessionEnd": true
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 139755,
+      "Restrictor": 10,
+      "Sectors": [
+        57045,
+        45598,
+        37112
+      ],
+      "Timestamp": 1679768387,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 141276,
+      "Restrictor": 3,
+      "Sectors": [
+        56842,
+        46723,
+        37711
+      ],
+      "Timestamp": 1679768389,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 129347,
+      "Restrictor": 10,
+      "Sectors": [
+        47641,
+        44811,
+        36895
+      ],
+      "Timestamp": 1679768517,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 131413,
+      "Restrictor": 3,
+      "Sectors": [
+        48113,
+        45901,
+        37399
+      ],
+      "Timestamp": 1679768520,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 301501,
+      "Restrictor": 10,
+      "Sectors": [
+        220281,
+        44370,
+        36850
+      ],
+      "Timestamp": 1679768549,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 128855,
+      "Restrictor": 10,
+      "Sectors": [
+        47122,
+        44964,
+        36769
+      ],
+      "Timestamp": 1679768646,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 127999,
+      "Restrictor": 10,
+      "Sectors": [
+        47040,
+        44504,
+        36455
+      ],
+      "Timestamp": 1679768677,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 169665,
+      "Restrictor": 22,
+      "Sectors": [
+        85650,
+        46016,
+        37999
+      ],
+      "Timestamp": 1679768763,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 128428,
+      "Restrictor": 10,
+      "Sectors": [
+        46708,
+        44932,
+        36788
+      ],
+      "Timestamp": 1679768774,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 127342,
+      "Restrictor": 10,
+      "Sectors": [
+        46972,
+        44082,
+        36288
+      ],
+      "Timestamp": 1679768804,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 131746,
+      "Restrictor": 22,
+      "Sectors": [
+        47443,
+        47362,
+        36941
+      ],
+      "Timestamp": 1679768894,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141774,
+      "Restrictor": 10,
+      "Sectors": [
+        46657,
+        55688,
+        39429
+      ],
+      "Timestamp": 1679768946,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 310226,
+      "Restrictor": 10,
+      "Sectors": [
+        227643,
+        45787,
+        36796
+      ],
+      "Timestamp": 1679769084,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 190959,
+      "Restrictor": 22,
+      "Sectors": [
+        106907,
+        46949,
+        37103
+      ],
+      "Timestamp": 1679769085,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 143442,
+      "Restrictor": 10,
+      "Sectors": [
+        55863,
+        50588,
+        36991
+      ],
+      "Timestamp": 1679769090,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 129494,
+      "Restrictor": 10,
+      "Sectors": [
+        47869,
+        44937,
+        36688
+      ],
+      "Timestamp": 1679769214,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129861,
+      "Restrictor": 22,
+      "Sectors": [
+        47758,
+        45459,
+        36644
+      ],
+      "Timestamp": 1679769215,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128106,
+      "Restrictor": 10,
+      "Sectors": [
+        46750,
+        44581,
+        36775
+      ],
+      "Timestamp": 1679769218,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 128433,
+      "Restrictor": 10,
+      "Sectors": [
+        47199,
+        44432,
+        36802
+      ],
+      "Timestamp": 1679769342,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129298,
+      "Restrictor": 22,
+      "Sectors": [
+        47151,
+        45395,
+        36752
+      ],
+      "Timestamp": 1679769344,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128124,
+      "Restrictor": 10,
+      "Sectors": [
+        47231,
+        44002,
+        36891
+      ],
+      "Timestamp": 1679769346,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 18,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 152140,
+      "Restrictor": 10,
+      "Sectors": [
+        49527,
+        46336,
+        56277
+      ],
+      "Timestamp": 1679769494,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 150431,
+      "Restrictor": 22,
+      "Sectors": [
+        48597,
+        46363,
+        55471
+      ],
+      "Timestamp": 1679769495,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 173449,
+      "Restrictor": 3,
+      "Sectors": [
+        84920,
+        46099,
+        42430
+      ],
+      "Timestamp": 1679769764,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 269053,
+      "Restrictor": 22,
+      "Sectors": [
+        183530,
+        45914,
+        39609
+      ],
+      "Timestamp": 1679769764,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 173125,
+      "Restrictor": 70,
+      "Sectors": [
+        86838,
+        47637,
+        38650
+      ],
+      "Timestamp": 1679769829,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 132036,
+      "Restrictor": 3,
+      "Sectors": [
+        47130,
+        46831,
+        38075
+      ],
+      "Timestamp": 1679769896,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 132045,
+      "Restrictor": 22,
+      "Sectors": [
+        47201,
+        46805,
+        38039
+      ],
+      "Timestamp": 1679769896,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 132872,
+      "Restrictor": 70,
+      "Sectors": [
+        48916,
+        46292,
+        37664
+      ],
+      "Timestamp": 1679769962,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 129455,
+      "Restrictor": 3,
+      "Sectors": [
+        47258,
+        45702,
+        36495
+      ],
+      "Timestamp": 1679770025,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129807,
+      "Restrictor": 22,
+      "Sectors": [
+        47636,
+        45473,
+        36698
+      ],
+      "Timestamp": 1679770026,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128982,
+      "Restrictor": 3,
+      "Sectors": [
+        46829,
+        45037,
+        37116
+      ],
+      "Timestamp": 1679770154,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129239,
+      "Restrictor": 22,
+      "Sectors": [
+        46988,
+        45586,
+        36665
+      ],
+      "Timestamp": 1679770155,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 149739,
+      "Restrictor": 70,
+      "Sectors": [
+        65345,
+        46278,
+        38116
+      ],
+      "Timestamp": 1679770161,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 129271,
+      "Restrictor": 3,
+      "Sectors": [
+        46732,
+        45797,
+        36742
+      ],
+      "Timestamp": 1679770284,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129216,
+      "Restrictor": 22,
+      "Sectors": [
+        47298,
+        45279,
+        36639
+      ],
+      "Timestamp": 1679770284,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 137528,
+      "Restrictor": 70,
+      "Sectors": [
+        53437,
+        46039,
+        38052
+      ],
+      "Timestamp": 1679770299,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128431,
+      "Restrictor": 3,
+      "Sectors": [
+        46931,
+        44865,
+        36635
+      ],
+      "Timestamp": 1679770412,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 131152,
+      "Restrictor": 22,
+      "Sectors": [
+        48388,
+        45940,
+        36824
+      ],
+      "Timestamp": 1679770415,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 132627,
+      "Restrictor": 70,
+      "Sectors": [
+        48927,
+        46075,
+        37625
+      ],
+      "Timestamp": 1679770431,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 129021,
+      "Restrictor": 3,
+      "Sectors": [
+        47228,
+        45356,
+        36437
+      ],
+      "Timestamp": 1679770541,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 130694,
+      "Restrictor": 22,
+      "Sectors": [
+        47804,
+        45684,
+        37206
+      ],
+      "Timestamp": 1679770546,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 129708,
+      "Restrictor": 3,
+      "Sectors": [
+        47479,
+        45360,
+        36869
+      ],
+      "Timestamp": 1679770671,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 160966,
+      "Restrictor": 18,
+      "Sectors": [
+        78553,
+        45418,
+        36995
+      ],
+      "Timestamp": 1679770673,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 138197,
+      "Restrictor": 22,
+      "Sectors": [
+        47721,
+        45926,
+        44550
+      ],
+      "Timestamp": 1679770684,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 129889,
+      "Restrictor": 18,
+      "Sectors": [
+        47386,
+        45144,
+        37359
+      ],
+      "Timestamp": 1679770803,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 353063,
+      "Restrictor": 22,
+      "Sectors": [
+        270947,
+        45216,
+        36900
+      ],
+      "Timestamp": 1679771037,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 235378,
+      "Restrictor": 18,
+      "Sectors": [
+        152758,
+        45527,
+        37093
+      ],
+      "Timestamp": 1679771038,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129261,
+      "Restrictor": 22,
+      "Sectors": [
+        46892,
+        45784,
+        36585
+      ],
+      "Timestamp": 1679771167,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 129983,
+      "Restrictor": 18,
+      "Sectors": [
+        47755,
+        45005,
+        37223
+      ],
+      "Timestamp": 1679771168,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 128775,
+      "Restrictor": 18,
+      "Sectors": [
+        46901,
+        45028,
+        36846
+      ],
+      "Timestamp": 1679771297,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 131202,
+      "Restrictor": 22,
+      "Sectors": [
+        49256,
+        44929,
+        37017
+      ],
+      "Timestamp": 1679771298,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 137479,
+      "Restrictor": 18,
+      "Sectors": [
+        47843,
+        44902,
+        44734
+      ],
+      "Timestamp": 1679771434,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 137034,
+      "Restrictor": 22,
+      "Sectors": [
+        47123,
+        45063,
+        44848
+      ],
+      "Timestamp": 1679771435,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 128989,
+      "Restrictor": 18,
+      "Sectors": [
+        47224,
+        45050,
+        36715
+      ],
+      "Timestamp": 1679771563,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 131067,
+      "Restrictor": 22,
+      "Sectors": [
+        47888,
+        45217,
+        37962
+      ],
+      "Timestamp": 1679771566,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 897992,
+      "Restrictor": 3,
+      "Sectors": [
+        815953,
+        45221,
+        36818
+      ],
+      "Timestamp": 1679771569,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 129947,
+      "Restrictor": 18,
+      "Sectors": [
+        46968,
+        45296,
+        37683
+      ],
+      "Timestamp": 1679771693,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129023,
+      "Restrictor": 22,
+      "Sectors": [
+        47034,
+        45049,
+        36940
+      ],
+      "Timestamp": 1679771695,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128271,
+      "Restrictor": 3,
+      "Sectors": [
+        46618,
+        45261,
+        36392
+      ],
+      "Timestamp": 1679771697,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129107,
+      "Restrictor": 22,
+      "Sectors": [
+        46699,
+        45495,
+        36913
+      ],
+      "Timestamp": 1679771824,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128038,
+      "Restrictor": 3,
+      "Sectors": [
+        46377,
+        44986,
+        36675
+      ],
+      "Timestamp": 1679771825,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 135633,
+      "Restrictor": 18,
+      "Sectors": [
+        47815,
+        50845,
+        36973
+      ],
+      "Timestamp": 1679771829,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128503,
+      "Restrictor": 3,
+      "Sectors": [
+        46567,
+        45374,
+        36562
+      ],
+      "Timestamp": 1679771954,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 130133,
+      "Restrictor": 22,
+      "Sectors": [
+        47766,
+        45760,
+        36607
+      ],
+      "Timestamp": 1679771954,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128795,
+      "Restrictor": 3,
+      "Sectors": [
+        46778,
+        45347,
+        36670
+      ],
+      "Timestamp": 1679772082,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "LapTime": 129494,
+      "Restrictor": 22,
+      "Sectors": [
+        47460,
+        45134,
+        36900
+      ],
+      "Timestamp": 1679772084,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 20,
+      "BestLap": 129023,
+      "CarId": 9,
+      "CarModel": "vm_bmw_m4_gt3",
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "Restrictor": 22,
+      "TotalTime": 3836052,
+      "NumLaps": 23,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 20
+    },
+    {
+      "BallastKG": 6,
+      "BestLap": 128038,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "Restrictor": 3,
+      "TotalTime": 3834647,
+      "NumLaps": 13,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 14
+    },
+    {
+      "BallastKG": 8,
+      "BestLap": 128775,
+      "CarId": 19,
+      "CarModel": "vm_mclaren_720_gt3_acc",
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "Restrictor": 18,
+      "TotalTime": 3581201,
+      "NumLaps": 9,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 24
+    },
+    {
+      "BallastKG": 18,
+      "BestLap": 128428,
+      "CarId": 13,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "Restrictor": 10,
+      "TotalTime": 1246631,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 5
+    },
+    {
+      "BallastKG": 18,
+      "BestLap": 127342,
+      "CarId": 12,
+      "CarModel": "vm_ferrari_488_gt3_acc",
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "Restrictor": 10,
+      "TotalTime": 1098265,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 1
+    },
+    {
+      "BallastKG": 40,
+      "BestLap": 132627,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "Restrictor": 70,
+      "TotalTime": 2183689,
+      "NumLaps": 5,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 17
+    },
+    {
+      "BallastKG": 6,
+      "BestLap": 131413,
+      "CarId": 20,
+      "CarModel": "vm_nissan_gtr_gt3_2018",
+      "DriverGuid": "76561198058401631",
+      "DriverName": "Kmkee",
+      "Restrictor": 3,
+      "TotalTime": 272673,
+      "NumLaps": 2,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 14
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "lilski_road_america",
+  "Type": "RACE",
+  "Date": "2023-03-25T13:23:00-07:00",
+  "SessionFile": "2023_3_25_13_23_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 62,
+    "laps": 0,
+    "is_open": 1,
+    "wait_time": 60,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

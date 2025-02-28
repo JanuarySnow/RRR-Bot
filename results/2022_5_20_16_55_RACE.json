@@ -1,0 +1,996 @@
+{
+  "Version": 5,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198856548458",
+        "GuidsList": [
+          "76561198856548458"
+        ],
+        "Name": "Alex Diaz",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_a522",
+      "Restrictor": 0,
+      "Skin": "Ocon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 130,
+      "MaxPing": 134
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_a522",
+      "Restrictor": 0,
+      "Skin": "Alonso",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_amr22",
+      "Restrictor": 0,
+      "Skin": "Stroll",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_amr22",
+      "Restrictor": 0,
+      "Skin": "Vettel",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561199121784191",
+        "GuidsList": [
+          "76561199121784191"
+        ],
+        "Name": "Cody Mitchell",
+        "Nation": "SCT",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_at03",
+      "Restrictor": 0,
+      "Skin": "Gasly",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 137,
+      "MaxPing": 143
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_at03",
+      "Restrictor": 0,
+      "Skin": "Tsunoda",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561199185321800",
+        "GuidsList": [
+          "76561199185321800"
+        ],
+        "Name": "Boogie",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_c42",
+      "Restrictor": 0,
+      "Skin": "Bottas",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 62
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198388161947",
+        "GuidsList": [
+          "76561198388161947"
+        ],
+        "Name": "Lucas Muller",
+        "Nation": "CHL",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_c42",
+      "Restrictor": 0,
+      "Skin": "Zhou",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 160,
+      "MaxPing": 174
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561199185321800",
+        "GuidsList": [
+          "76561199185321800"
+        ],
+        "Name": "Boogie",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_f175",
+      "Restrictor": 0,
+      "Skin": "Leclerc",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 55,
+      "MaxPing": 67
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_f175",
+      "Restrictor": 0,
+      "Skin": "Sainz",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_fw44",
+      "Restrictor": 0,
+      "Skin": "Albon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 58,
+      "MaxPing": 85
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_fw44",
+      "Restrictor": 0,
+      "Skin": "Latifi",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561199121784191",
+        "GuidsList": [
+          "76561199121784191"
+        ],
+        "Name": "Cody Mitchell",
+        "Nation": "SCT",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_mcl36",
+      "Restrictor": 0,
+      "Skin": "Norris",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 136,
+      "MaxPing": 141
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_mcl36",
+      "Restrictor": 0,
+      "Skin": "Ricciardo",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198351639213",
+        "GuidsList": [
+          "76561198351639213"
+        ],
+        "Name": "Busken",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_rb18",
+      "Restrictor": 0,
+      "Skin": "Perez",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 83,
+      "MaxPing": 196
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_rb18",
+      "Restrictor": 0,
+      "Skin": "Verstappen",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_w13",
+      "Restrictor": 0,
+      "Skin": "Hamilton",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_w13",
+      "Restrictor": 0,
+      "Skin": "Russell",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561199185321800",
+        "GuidsList": [
+          "76561199185321800"
+        ],
+        "Name": "Boogie",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_vf22",
+      "Restrictor": 0,
+      "Skin": "Magnussen",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 84
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_vf22",
+      "Restrictor": 0,
+      "Skin": "Schumacher",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561199121784191",
+        "GuidsList": [
+          "76561199121784191"
+        ],
+        "Name": "Cody Mitchell",
+        "Nation": "SCT",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bg_mercedes_amg_gt_black_series",
+      "Restrictor": 0,
+      "Skin": "Safety-Car 2022",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 134,
+      "MaxPing": 140
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561199185321800",
+        "GuidsList": [
+          "76561199185321800"
+        ],
+        "Name": "Boogie",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 80.211334,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9617161,
+        "Y": 0.10867974,
+        "Z": 2.7956135
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -826.4588,
+        "Y": -79.13389,
+        "Z": 315.97244
+      },
+      "Timestamp": 1653086756,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198388161947",
+        "GuidsList": [
+          "76561198388161947"
+        ],
+        "Name": "Lucas Muller",
+        "Nation": "CHL",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 37.698982,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9589299,
+        "Y": 0.04186149,
+        "Z": 2.819252
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -829.92444,
+        "Y": -68.563736,
+        "Z": 465.22824
+      },
+      "Timestamp": 1653087016,
+      "AfterSessionEnd": false
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 85740,
+      "Restrictor": 0,
+      "Sectors": [
+        27933,
+        30177,
+        27630
+      ],
+      "Timestamp": 1653086730,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 1,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 85750,
+      "Restrictor": 0,
+      "Sectors": [
+        28856,
+        29998,
+        26896
+      ],
+      "Timestamp": 1653086730,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 3,
+      "DriverGuid": "76561198388161947",
+      "DriverName": "Lucas Muller",
+      "LapTime": 88359,
+      "Restrictor": 0,
+      "Sectors": [
+        29462,
+        30853,
+        28044
+      ],
+      "Timestamp": 1653086733,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 83596,
+      "Restrictor": 0,
+      "Sectors": [
+        25267,
+        30884,
+        27445
+      ],
+      "Timestamp": 1653086814,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 0,
+      "DriverGuid": "76561198388161947",
+      "DriverName": "Lucas Muller",
+      "LapTime": 81773,
+      "Restrictor": 0,
+      "Sectors": [
+        23188,
+        30870,
+        27715
+      ],
+      "Timestamp": 1653086814,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 86882,
+      "Restrictor": 0,
+      "Sectors": [
+        27068,
+        32684,
+        27130
+      ],
+      "Timestamp": 1653086817,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 79822,
+      "Restrictor": 0,
+      "Sectors": [
+        22272,
+        30438,
+        27112
+      ],
+      "Timestamp": 1653086893,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 79459,
+      "Restrictor": 0,
+      "Sectors": [
+        22300,
+        29992,
+        27167
+      ],
+      "Timestamp": 1653086896,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 0,
+      "DriverGuid": "76561198388161947",
+      "DriverName": "Lucas Muller",
+      "LapTime": 84090,
+      "Restrictor": 0,
+      "Sectors": [
+        22844,
+        30321,
+        30925
+      ],
+      "Timestamp": 1653086898,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 79723,
+      "Restrictor": 0,
+      "Sectors": [
+        22321,
+        30109,
+        27293
+      ],
+      "Timestamp": 1653086973,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 80546,
+      "Restrictor": 0,
+      "Sectors": [
+        22218,
+        30743,
+        27585
+      ],
+      "Timestamp": 1653086977,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 0,
+      "DriverGuid": "76561198388161947",
+      "DriverName": "Lucas Muller",
+      "LapTime": 83578,
+      "Restrictor": 0,
+      "Sectors": [
+        24340,
+        31621,
+        27617
+      ],
+      "Timestamp": 1653086982,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 80049,
+      "Restrictor": 0,
+      "Sectors": [
+        22489,
+        30465,
+        27095
+      ],
+      "Timestamp": 1653087057,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 99726,
+      "Restrictor": 0,
+      "Sectors": [
+        22411,
+        30281,
+        47034
+      ],
+      "Timestamp": 1653087073,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 1,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 102915,
+      "Restrictor": 0,
+      "Sectors": [
+        22266,
+        30586,
+        50063
+      ],
+      "Timestamp": 1653087160,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91921,
+      "Restrictor": 0,
+      "Sectors": [
+        32971,
+        30839,
+        28111
+      ],
+      "Timestamp": 1653087165,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 81419,
+      "Restrictor": 0,
+      "Sectors": [
+        22865,
+        30700,
+        27854
+      ],
+      "Timestamp": 1653087246,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 2,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 93824,
+      "Restrictor": 0,
+      "Sectors": [
+        32917,
+        30983,
+        29924
+      ],
+      "Timestamp": 1653087254,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 81682,
+      "Restrictor": 0,
+      "Sectors": [
+        22678,
+        30812,
+        28192
+      ],
+      "Timestamp": 1653087328,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "Cuts": 4,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 77645,
+      "Restrictor": 0,
+      "Sectors": [
+        22651,
+        31239,
+        23755
+      ],
+      "Timestamp": 1653087331,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 79723,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "Restrictor": 0,
+      "TotalTime": 683551,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 79459,
+      "CarId": 18,
+      "CarModel": "gp_2022_vf22",
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "Restrictor": 0,
+      "TotalTime": 687016,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 81773,
+      "CarId": 7,
+      "CarModel": "gp_2022_c42",
+      "DriverGuid": "76561198388161947",
+      "DriverName": "Lucas Muller",
+      "Restrictor": 0,
+      "TotalTime": 337708,
+      "NumLaps": 4,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "imola",
+  "Type": "RACE",
+  "Date": "2022-05-20T16:55:00-07:00",
+  "SessionFile": "2022_5_20_16_55_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 0,
+    "laps": 8,
+    "is_open": 1,
+    "wait_time": 60,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

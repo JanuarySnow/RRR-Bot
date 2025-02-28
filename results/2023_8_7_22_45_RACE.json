@@ -1,0 +1,3601 @@
+{
+  "Version": 6,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 0,
+      "Skin": "getspeed_#2_2021",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 51,
+      "MaxPing": 121
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 0,
+      "Skin": "2022_IMSA_79_Weathertech Racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 48,
+      "MaxPing": 100
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 0,
+      "Skin": "2022_N24H_06_Haupt Racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 81,
+      "MaxPing": 389
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_IGT_9H_Pro_Am_garage59_188",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_BPGT_Pro_Am_oman_97",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_IGT_9H_Pro_r_motorsport_76",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bmw_z4_gt3",
+      "Restrictor": 0,
+      "Skin": "#19_24h_nuerburgring_2013_team_schubert",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bmw_z4_gt3",
+      "Restrictor": 0,
+      "Skin": "#20_24h_nuerburgring_2013_team_schubert",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561199245405483",
+        "GuidsList": [
+          "76561199245405483"
+        ],
+        "Name": "CBR_TOY",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_camaro_gt3",
+      "Restrictor": 58,
+      "Skin": "_template_2014",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 20,
+      "MaxPing": 22
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_camaro_gt3",
+      "Restrictor": 58,
+      "Skin": "FF_ADAC_GTM_12_YACO_Racing_34",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_camaro_gt3",
+      "Restrictor": 58,
+      "Skin": "_template_2012",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_corvette_callaway_gt3",
+      "Restrictor": 25,
+      "Skin": "FF_TimeAttackNuSe_JRR_Racing_650",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_corvette_callaway_gt3",
+      "Restrictor": 25,
+      "Skin": "#37_BingoRacingCorvette",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 20,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_corvette_callaway_gt3",
+      "Restrictor": 25,
+      "Skin": "FF_ADAC_20_Callaway_Competition_77",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 25,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_ferrari_296_gt3",
+      "Restrictor": 50,
+      "Skin": "2023_nls_22_wtm",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 25,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_ferrari_296_gt3",
+      "Restrictor": 50,
+      "Skin": "2023_GTWC_51_AF Corse",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 25,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_ferrari_296_gt3",
+      "Restrictor": 50,
+      "Skin": "2023_N24H_racingone_#19",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_gallardo_r-ex",
+      "Restrictor": 70,
+      "Skin": "Boutsen Ginon #6",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_gallardo_r-ex",
+      "Restrictor": 70,
+      "Skin": "_template_endu",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 8,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_gallardo_r-ex",
+      "Restrictor": 70,
+      "Skin": "Wessex Motorsport #39",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 4,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bentley_continental_gt3_2018",
+      "Restrictor": 25,
+      "Skin": "2022_24hSpa_CMR_107",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 4,
+      "CarId": 21,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bentley_continental_gt3_2018",
+      "Restrictor": 25,
+      "Skin": "_Template_endu",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 4,
+      "CarId": 22,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bentley_continental_gt3_2018",
+      "Restrictor": 25,
+      "Skin": "2022_24hSpa_CMR_107",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 23,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_viper_gt3-r",
+      "Restrictor": 85,
+      "Skin": "Gulf_Racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 24,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_viper_gt3-r",
+      "Restrictor": 85,
+      "Skin": "Champion_Joe",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 25,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_viper_gt3-r",
+      "Restrictor": 85,
+      "Skin": "FF_Dubai24_Zakspeed_13",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 26,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bmw_z4_gt3",
+      "Restrictor": 0,
+      "Skin": "Schubert-Team_NFS",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 27,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bg_mercedes_amg_gt_black_series",
+      "Restrictor": 0,
+      "Skin": "F1_2022_Safety_Car",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 0,
+      "Skin": "akka_asp_#87_2021",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 108,
+      "MaxPing": 214
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 29,
+      "Driver": {
+        "Guid": "76561199245405483",
+        "GuidsList": [
+          "76561199245405483"
+        ],
+        "Name": "CBR_TOY",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 0,
+      "Skin": "2022_IMSA_97_Weathertech Racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 21,
+      "MaxPing": 23
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 14.422223,
+      "OtherCarId": 2,
+      "OtherDriver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0028595,
+        "Y": -0.33285794,
+        "Z": -1.8509183
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -443.5549,
+        "Y": -0.17292947,
+        "Z": 76.78986
+      },
+      "Timestamp": 1691468997,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 11.344952,
+      "OtherCarId": 1,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0274504,
+        "Y": -0.3048096,
+        "Z": 2.012161
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -443.82388,
+        "Y": -0.17125309,
+        "Z": 76.87098
+      },
+      "Timestamp": 1691468999,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 11.1262455,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0314428,
+        "Y": 0.22771616,
+        "Z": -1.9621077
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -318.43045,
+        "Y": 0.25388095,
+        "Z": -1.3532635
+      },
+      "Timestamp": 1691469022,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.2107167,
+      "OtherCarId": 2,
+      "OtherDriver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.17379297,
+        "Y": -0.30611578,
+        "Z": 2.2813625
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -41.489254,
+        "Y": -2.0598922,
+        "Z": -227.95926
+      },
+      "Timestamp": 1691469043,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 7.9238205,
+      "OtherCarId": 28,
+      "OtherDriver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.000001333334,
+        "Y": -0.3328577,
+        "Z": -2.3734503
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -42.412704,
+        "Y": -2.0573545,
+        "Z": -227.9499
+      },
+      "Timestamp": 1691469044,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.7604823,
+      "OtherCarId": 1,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0379946,
+        "Y": -0.24666771,
+        "Z": 1.9728879
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -48.841625,
+        "Y": -0.7614882,
+        "Z": 172.68468
+      },
+      "Timestamp": 1691469092,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 8.742614,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0414244,
+        "Y": -0.33285818,
+        "Z": -1.0452796
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -47.897453,
+        "Y": -0.81949663,
+        "Z": 173.15411
+      },
+      "Timestamp": 1691469092,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 19.692041,
+      "OtherCarId": 28,
+      "OtherDriver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.020678,
+        "Y": -0.25534025,
+        "Z": 2.0082588
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -330.4085,
+        "Y": -0.15544665,
+        "Z": 24.435207
+      },
+      "Timestamp": 1691469094,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 19.165934,
+      "OtherCarId": 28,
+      "OtherDriver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0302233,
+        "Y": -0.33285832,
+        "Z": 0.09654373
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -319.35434,
+        "Y": -0.14193629,
+        "Z": 25.540205
+      },
+      "Timestamp": 1691469097,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 22.411062,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.97817695,
+        "Y": 0.6781532,
+        "Z": -2.4581342
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -378.09143,
+        "Y": 0.66385823,
+        "Z": 21.527863
+      },
+      "Timestamp": 1691469097,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.407608,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0438358,
+        "Y": 0.28198263,
+        "Z": -1.124969
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -390.92914,
+        "Y": 0.29112363,
+        "Z": 39.911892
+      },
+      "Timestamp": 1691469097,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 12.794484,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0406653,
+        "Y": -0.33285844,
+        "Z": -0.96797407
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -335.17834,
+        "Y": -0.111155435,
+        "Z": 20.941916
+      },
+      "Timestamp": 1691469098,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 27.058245,
+      "OtherCarId": 2,
+      "OtherDriver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0406744,
+        "Y": -0.3328582,
+        "Z": -0.9692227
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -330.43488,
+        "Y": -0.15272102,
+        "Z": 24.332338
+      },
+      "Timestamp": 1691469098,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 3.5156028,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.031441,
+        "Y": 0.22771601,
+        "Z": -1.9621123
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -109.91776,
+        "Y": -1.3756994,
+        "Z": -231.36218
+      },
+      "Timestamp": 1691469132,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 12.294649,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.043715,
+        "Y": 0.2787259,
+        "Z": -1.1147119
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -126.42221,
+        "Y": -1.3146828,
+        "Z": -231.3444
+      },
+      "Timestamp": 1691469133,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 61.28449,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0117371,
+        "Y": -0.33321688,
+        "Z": 2.050606
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -141.11842,
+        "Y": -2.0056539,
+        "Z": -216.23315
+      },
+      "Timestamp": 1691469134,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 15.059526,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0379792,
+        "Y": 0.32331946,
+        "Z": 1.184367
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 600.78174,
+        "Y": 1.773498,
+        "Z": -49.806133
+      },
+      "Timestamp": 1691469159,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.575971,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0380058,
+        "Y": 0.33207855,
+        "Z": 1.5500481
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 122.93445,
+        "Y": -0.38696408,
+        "Z": 217.22661
+      },
+      "Timestamp": 1691469168,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 73.59378,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.92597854,
+        "Y": -0.33002388,
+        "Z": 2.131778
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -387.00967,
+        "Y": -0.35882458,
+        "Z": 35.153854
+      },
+      "Timestamp": 1691469177,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 11.56289,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.037999,
+        "Y": -0.33285886,
+        "Z": 2.0239995
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -435.46854,
+        "Y": -0.17657632,
+        "Z": 69.40683
+      },
+      "Timestamp": 1691469184,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 21.673458,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0314223,
+        "Y": 0.2277161,
+        "Z": -1.9621066
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -612.6027,
+        "Y": -0.63872796,
+        "Z": -24.505116
+      },
+      "Timestamp": 1691469188,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 57.811596,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9910545,
+        "Y": -0.33752072,
+        "Z": 2.0396926
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -120.92567,
+        "Y": -1.9477329,
+        "Z": -231.35222
+      },
+      "Timestamp": 1691469212,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 52.42114,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.8730592,
+        "Y": -0.33471623,
+        "Z": 2.1447556
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -133.29431,
+        "Y": -1.9361476,
+        "Z": -231.3146
+      },
+      "Timestamp": 1691469214,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 12.543456,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0401601,
+        "Y": 0.30260307,
+        "Z": 0.10172927
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 486.23987,
+        "Y": -0.15915275,
+        "Z": -156.00885
+      },
+      "Timestamp": 1691469227,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.7271469,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0379987,
+        "Y": -0.3328589,
+        "Z": 2.023999
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -401.62473,
+        "Y": -0.27263847,
+        "Z": 50.381096
+      },
+      "Timestamp": 1691469258,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 11.843867,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0438411,
+        "Y": 0.28198245,
+        "Z": -1.1249769
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -612.522,
+        "Y": -0.59475684,
+        "Z": -24.704842
+      },
+      "Timestamp": 1691469267,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 6.7822,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.97818244,
+        "Y": 0.8769963,
+        "Z": -2.4581451
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -497.92975,
+        "Y": -0.625307,
+        "Z": -110.0645
+      },
+      "Timestamp": 1691469273,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 55.448814,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.80890894,
+        "Y": -0.33839542,
+        "Z": 2.142281
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -120.92567,
+        "Y": -1.941818,
+        "Z": -231.35222
+      },
+      "Timestamp": 1691469293,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 50.55518,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0023512,
+        "Y": -0.33928046,
+        "Z": 2.0130825
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 486.79233,
+        "Y": -0.989304,
+        "Z": -163.49026
+      },
+      "Timestamp": 1691469302,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.3772163,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0314344,
+        "Y": 0.22771597,
+        "Z": -1.9621145
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 487.0959,
+        "Y": -0.43358228,
+        "Z": -168.5871
+      },
+      "Timestamp": 1691469308,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 72.17031,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.98678577,
+        "Y": -0.33323586,
+        "Z": 2.0784473
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -392.80328,
+        "Y": -0.33956727,
+        "Z": 42.06598
+      },
+      "Timestamp": 1691469337,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 7.217887,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.043548,
+        "Y": 0.28078648,
+        "Z": -1.1434313
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -394.01306,
+        "Y": 0.2829177,
+        "Z": 43.323357
+      },
+      "Timestamp": 1691469338,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 8.443659,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0380063,
+        "Y": -0.33285928,
+        "Z": 2.0239894
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -266.48865,
+        "Y": -0.6472654,
+        "Z": 44.278236
+      },
+      "Timestamp": 1691469358,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 64.46525,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.6260577,
+        "Y": -0.32665926,
+        "Z": 2.1854575
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -166.74849,
+        "Y": -2.1518683,
+        "Z": -216.88264
+      },
+      "Timestamp": 1691469370,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 6.541972,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0314345,
+        "Y": 0.2277159,
+        "Z": -1.9621098
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -117.53503,
+        "Y": -1.3609716,
+        "Z": -231.35623
+      },
+      "Timestamp": 1691469372,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 31.895308,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.97818905,
+        "Y": 0.87699676,
+        "Z": -2.4581373
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -154.80087,
+        "Y": -0.8698123,
+        "Z": -239.77794
+      },
+      "Timestamp": 1691469375,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 59.535465,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0178717,
+        "Y": -0.3333777,
+        "Z": 2.042498
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -525.1973,
+        "Y": -0.42924616,
+        "Z": 81.511246
+      },
+      "Timestamp": 1691469422,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 15.8061075,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0314506,
+        "Y": 0.2277159,
+        "Z": -1.9621185
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -612.06683,
+        "Y": -0.6907972,
+        "Z": -25.921848
+      },
+      "Timestamp": 1691469427,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 52.14473,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.023095,
+        "Y": -0.3343612,
+        "Z": 2.0288146
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 486.6236,
+        "Y": -0.89181554,
+        "Z": -159.8366
+      },
+      "Timestamp": 1691469462,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 15.014839,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9890274,
+        "Y": -0.3328575,
+        "Z": -1.8782378
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 575.44604,
+        "Y": 0.44753075,
+        "Z": -51.591866
+      },
+      "Timestamp": 1691469467,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 10.8556,
+      "OtherCarId": 28,
+      "OtherDriver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0238254,
+        "Y": -0.28350523,
+        "Z": 2.0131564
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 603.3472,
+        "Y": 1.2246975,
+        "Z": -39.194042
+      },
+      "Timestamp": 1691469472,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 6.6019607,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0416131,
+        "Y": 0.29458526,
+        "Z": -0.37528878
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 600.93365,
+        "Y": 1.7706887,
+        "Z": -49.652252
+      },
+      "Timestamp": 1691469473,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 6.468585,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0370382,
+        "Y": -0.3260492,
+        "Z": -1.236938
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 603.5279,
+        "Y": 1.1874248,
+        "Z": -39.352077
+      },
+      "Timestamp": 1691469473,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 7.299158,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.037975,
+        "Y": -0.3328594,
+        "Z": 2.0239851
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -525.05505,
+        "Y": -0.44510898,
+        "Z": 81.813
+      },
+      "Timestamp": 1691469502,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 2.9719193,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0379215,
+        "Y": 0.21501967,
+        "Z": -0.91403085
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -93.06384,
+        "Y": -1.4073086,
+        "Z": -231.35431
+      },
+      "Timestamp": 1691469527,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 67.953735,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0290879,
+        "Y": -0.33348027,
+        "Z": 2.0290728
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -115.30064,
+        "Y": -1.9243642,
+        "Z": -231.35637
+      },
+      "Timestamp": 1691469528,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 7.7376432,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0314366,
+        "Y": 0.22771601,
+        "Z": -1.9621059
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -294.375,
+        "Y": 0.2879152,
+        "Z": 33.34404
+      },
+      "Timestamp": 1691469572,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 33.29406,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.97819185,
+        "Y": 0.6781534,
+        "Z": -2.4581382
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -384.51773,
+        "Y": 0.67384213,
+        "Z": 31.729818
+      },
+      "Timestamp": 1691469573,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.4483953,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0380023,
+        "Y": -0.33285892,
+        "Z": 2.0240054
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -403.18375,
+        "Y": -0.26268187,
+        "Z": 51.702133
+      },
+      "Timestamp": 1691469577,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 21.13569,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.031464,
+        "Y": 0.22771591,
+        "Z": -1.962123
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -614.43805,
+        "Y": -0.52074045,
+        "Z": -19.613667
+      },
+      "Timestamp": 1691469582,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.4273734,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0312284,
+        "Y": -0.33285883,
+        "Z": -0.005255713
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -264.1282,
+        "Y": -0.6339865,
+        "Z": 45.407574
+      },
+      "Timestamp": 1691469598,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 8.654954,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0314271,
+        "Y": 0.22771555,
+        "Z": -1.9621115
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 486.7653,
+        "Y": -0.3607677,
+        "Z": -162.57869
+      },
+      "Timestamp": 1691469622,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 31.491371,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9583069,
+        "Y": 0.7004255,
+        "Z": -2.4058857
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 487.00635,
+        "Y": 0.07627295,
+        "Z": -167.07002
+      },
+      "Timestamp": 1691469623,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 19.251657,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0380001,
+        "Y": -0.33285886,
+        "Z": 2.0240035
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 528.93677,
+        "Y": 0.1936796,
+        "Z": -42.897354
+      },
+      "Timestamp": 1691469628,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 53.910606,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9738652,
+        "Y": 0.8695458,
+        "Z": -2.3004313
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -126.58699,
+        "Y": -0.64444363,
+        "Z": -231.34306
+      },
+      "Timestamp": 1691469688,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 103.38872,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.84637326,
+        "Y": -0.2848718,
+        "Z": 2.0267646
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 122.24703,
+        "Y": -1.9103036,
+        "Z": -231.19037
+      },
+      "Timestamp": 1691469692,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 28,
+      "Driver": {
+        "Guid": "76561199122487571",
+        "GuidsList": [
+          "76561199122487571"
+        ],
+        "Name": "Kabser",
+        "Nation": "GBR",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 14.390426,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0299339,
+        "Y": 0.34245738,
+        "Z": 1.5510232
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 122.93437,
+        "Y": -0.37975672,
+        "Z": 217.22844
+      },
+      "Timestamp": 1691469723,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 11.102651,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.0314318,
+        "Y": 0.22771569,
+        "Z": -1.9621065
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 486.61905,
+        "Y": -0.30883726,
+        "Z": -159.715
+      },
+      "Timestamp": 1691469782,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198987735116",
+        "GuidsList": [
+          "76561198987735116"
+        ],
+        "Name": "SpeedBump",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 133.51506,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.93459326,
+        "Y": -0.33835322,
+        "Z": 2.0963857
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 198.45145,
+        "Y": -0.3264084,
+        "Z": 226.06744
+      },
+      "Timestamp": 1691469802,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 51.250023,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.77746975,
+        "Y": -0.31557018,
+        "Z": 2.226732
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 87.370674,
+        "Y": -0.9803827,
+        "Z": 213.30812
+      },
+      "Timestamp": 1691469802,
+      "AfterSessionEnd": true
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 115631,
+      "Restrictor": 0,
+      "Sectors": [
+        59787,
+        37075,
+        18769
+      ],
+      "Timestamp": 1691469079,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 115981,
+      "Restrictor": 0,
+      "Sectors": [
+        60379,
+        37476,
+        18126
+      ],
+      "Timestamp": 1691469080,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 3,
+      "DriverGuid": "76561199087354592",
+      "DriverName": "Kiagoalski",
+      "LapTime": 116710,
+      "Restrictor": 0,
+      "Sectors": [
+        60991,
+        37678,
+        18041
+      ],
+      "Timestamp": 1691469080,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 3,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 116910,
+      "Restrictor": 0,
+      "Sectors": [
+        61402,
+        37625,
+        17883
+      ],
+      "Timestamp": 1691469081,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 81078,
+      "Restrictor": 0,
+      "Sectors": [
+        41451,
+        26329,
+        13298
+      ],
+      "Timestamp": 1691469161,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 81774,
+      "Restrictor": 0,
+      "Sectors": [
+        41431,
+        27027,
+        13316
+      ],
+      "Timestamp": 1691469162,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 84346,
+      "Restrictor": 0,
+      "Sectors": [
+        44395,
+        26446,
+        13505
+      ],
+      "Timestamp": 1691469164,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199087354592",
+      "DriverName": "Kiagoalski",
+      "LapTime": 84097,
+      "Restrictor": 0,
+      "Sectors": [
+        43980,
+        26473,
+        13644
+      ],
+      "Timestamp": 1691469164,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 80469,
+      "Restrictor": 0,
+      "Sectors": [
+        40347,
+        26855,
+        13267
+      ],
+      "Timestamp": 1691469241,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 79442,
+      "Restrictor": 0,
+      "Sectors": [
+        39051,
+        27202,
+        13189
+      ],
+      "Timestamp": 1691469242,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 78778,
+      "Restrictor": 0,
+      "Sectors": [
+        38404,
+        26968,
+        13406
+      ],
+      "Timestamp": 1691469242,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199087354592",
+      "DriverName": "Kiagoalski",
+      "LapTime": 80200,
+      "Restrictor": 0,
+      "Sectors": [
+        39335,
+        27675,
+        13190
+      ],
+      "Timestamp": 1691469245,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 79110,
+      "Restrictor": 0,
+      "Sectors": [
+        38592,
+        27224,
+        13294
+      ],
+      "Timestamp": 1691469320,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 78485,
+      "Restrictor": 0,
+      "Sectors": [
+        38301,
+        26703,
+        13481
+      ],
+      "Timestamp": 1691469321,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 80175,
+      "Restrictor": 0,
+      "Sectors": [
+        38590,
+        28094,
+        13491
+      ],
+      "Timestamp": 1691469322,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199087354592",
+      "DriverName": "Kiagoalski",
+      "LapTime": 78035,
+      "Restrictor": 0,
+      "Sectors": [
+        38435,
+        26366,
+        13234
+      ],
+      "Timestamp": 1691469323,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 78448,
+      "Restrictor": 0,
+      "Sectors": [
+        38389,
+        26771,
+        13288
+      ],
+      "Timestamp": 1691469399,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 78608,
+      "Restrictor": 0,
+      "Sectors": [
+        38734,
+        26248,
+        13626
+      ],
+      "Timestamp": 1691469400,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 78659,
+      "Restrictor": 0,
+      "Sectors": [
+        38709,
+        26734,
+        13216
+      ],
+      "Timestamp": 1691469401,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 79133,
+      "Restrictor": 0,
+      "Sectors": [
+        38679,
+        27063,
+        13391
+      ],
+      "Timestamp": 1691469478,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 79176,
+      "Restrictor": 0,
+      "Sectors": [
+        38500,
+        26721,
+        13955
+      ],
+      "Timestamp": 1691469479,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 78176,
+      "Restrictor": 0,
+      "Sectors": [
+        38189,
+        26645,
+        13342
+      ],
+      "Timestamp": 1691469479,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 79148,
+      "Restrictor": 0,
+      "Sectors": [
+        39081,
+        26689,
+        13378
+      ],
+      "Timestamp": 1691469557,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 79270,
+      "Restrictor": 0,
+      "Sectors": [
+        38918,
+        27036,
+        13316
+      ],
+      "Timestamp": 1691469558,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 80351,
+      "Restrictor": 0,
+      "Sectors": [
+        39473,
+        27009,
+        13869
+      ],
+      "Timestamp": 1691469559,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 79216,
+      "Restrictor": 0,
+      "Sectors": [
+        38856,
+        27045,
+        13315
+      ],
+      "Timestamp": 1691469636,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 79419,
+      "Restrictor": 0,
+      "Sectors": [
+        38743,
+        27225,
+        13451
+      ],
+      "Timestamp": 1691469638,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 81379,
+      "Restrictor": 0,
+      "Sectors": [
+        41180,
+        26569,
+        13630
+      ],
+      "Timestamp": 1691469639,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 79737,
+      "Restrictor": 0,
+      "Sectors": [
+        38782,
+        27500,
+        13455
+      ],
+      "Timestamp": 1691469716,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 78867,
+      "Restrictor": 0,
+      "Sectors": [
+        38641,
+        26955,
+        13271
+      ],
+      "Timestamp": 1691469717,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 79368,
+      "Restrictor": 0,
+      "Sectors": [
+        38390,
+        27500,
+        13478
+      ],
+      "Timestamp": 1691469719,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 79091,
+      "Restrictor": 0,
+      "Sectors": [
+        39005,
+        26721,
+        13365
+      ],
+      "Timestamp": 1691469795,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "LapTime": 78524,
+      "Restrictor": 0,
+      "Sectors": [
+        38430,
+        26716,
+        13378
+      ],
+      "Timestamp": 1691469796,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "LapTime": 78696,
+      "Restrictor": 0,
+      "Sectors": [
+        38470,
+        26973,
+        13253
+      ],
+      "Timestamp": 1691469798,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 78448,
+      "CarId": 1,
+      "CarModel": "bm_amg_evo_2020",
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "Restrictor": 0,
+      "TotalTime": 831374,
+      "NumLaps": 10,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 2
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 78485,
+      "CarId": 0,
+      "CarModel": "bm_amg_evo_2020",
+      "DriverGuid": "76561198987735116",
+      "DriverName": "SpeedBump",
+      "Restrictor": 0,
+      "TotalTime": 832146,
+      "NumLaps": 10,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 1
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 78176,
+      "CarId": 28,
+      "CarModel": "bm_amg_evo_2020",
+      "DriverGuid": "76561199122487571",
+      "DriverName": "Kabser",
+      "Restrictor": 0,
+      "TotalTime": 833799,
+      "NumLaps": 10,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 4
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 78035,
+      "CarId": 2,
+      "CarModel": "bm_amg_evo_2020",
+      "DriverGuid": "76561199087354592",
+      "DriverName": "Kiagoalski",
+      "Restrictor": 0,
+      "TotalTime": 358990,
+      "NumLaps": 4,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 3
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "t21_long_beach_nrms",
+  "Type": "RACE",
+  "Date": "2023-08-07T22:45:00-07:00",
+  "SessionFile": "2023_8_7_22_45_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 0,
+    "laps": 10,
+    "is_open": 1,
+    "wait_time": 45,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

@@ -55,6 +55,19 @@ class TrackVariant:
     def add_lap(self, lap):
         self.laps.append(lap)
 
+    def get_fastest_lap_in_f4(self):
+        fastest = None
+        for lap in self.laps:
+            if not lap.valid:
+                continue
+            if lap.car == "rss_formula_rss_4_2024":
+                if fastest == None:
+                    fastest = lap
+                else:
+                    if lap.time < fastest.time:
+                        fastest = lap
+        return fastest
+
     def get_fastest_lap_in_car(self, car:Car):
         fastest = None
         for lap in self.laps:
@@ -74,6 +87,19 @@ class TrackVariant:
             if not lap.valid:
                 continue
             if lap.car == car.id and lap.racerguid == racerguid:
+                if fastest == None:
+                    fastest = lap
+                else:
+                    if lap.time < fastest.time:
+                        fastest = lap
+        return fastest
+    
+    def get_racer_fastest_lap_in_car_id(self, carid:str, racerguid:str):
+        fastest = None
+        for lap in self.laps:
+            if not lap.valid:
+                continue
+            if lap.car == carid and lap.racerguid == racerguid:
                 if fastest == None:
                     fastest = lap
                 else:

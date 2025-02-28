@@ -1,0 +1,1913 @@
+{
+  "Version": 6,
+  "Cars": [
+    {
+      "BallastKG": 25,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 10,
+      "Skin": "getspeed_#2_2021",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 25,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 10,
+      "Skin": "2022_IMSA_79_Weathertech Racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 30,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 20,
+      "Skin": "2022_N24H_06_Haupt Racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_IGT_9H_Pro_Am_garage59_188",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 29,
+      "MaxPing": 52
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_BPGT_Pro_Am_oman_97",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_IGT_9H_Pro_r_motorsport_76",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bmw_z4_gt3",
+      "Restrictor": 0,
+      "Skin": "#19_24h_nuerburgring_2013_team_schubert",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 41,
+      "MaxPing": 67
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bmw_z4_gt3",
+      "Restrictor": 0,
+      "Skin": "#20_24h_nuerburgring_2013_team_schubert",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 81,
+      "MaxPing": 115
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_camaro_gt3",
+      "Restrictor": 50,
+      "Skin": "_template_2014",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_camaro_gt3",
+      "Restrictor": 50,
+      "Skin": "FF_ADAC_GTM_12_YACO_Racing_34",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_camaro_gt3",
+      "Restrictor": 50,
+      "Skin": "_template_2012",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_corvette_callaway_gt3",
+      "Restrictor": 20,
+      "Skin": "FF_TimeAttackNuSe_JRR_Racing_650",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 48,
+      "MaxPing": 71
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_corvette_callaway_gt3",
+      "Restrictor": 20,
+      "Skin": "#37_BingoRacingCorvette",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_corvette_callaway_gt3",
+      "Restrictor": 20,
+      "Skin": "FF_ADAC_20_Callaway_Competition_77",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_ferrari_296_gt3",
+      "Restrictor": 5,
+      "Skin": "2023_nls_22_wtm",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 47,
+      "MaxPing": 434
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199309211151",
+        "GuidsList": [
+          "76561199309211151"
+        ],
+        "Name": "NokkAce",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_ferrari_296_gt3",
+      "Restrictor": 5,
+      "Skin": "2023_GTWC_51_AF Corse",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_ferrari_296_gt3",
+      "Restrictor": 5,
+      "Skin": "2023_GTWC_51_AF Corse",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 75,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_gallardo_r-ex",
+      "Restrictor": 25,
+      "Skin": "Boutsen Ginon #6",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 128,
+      "MaxPing": 147
+    },
+    {
+      "BallastKG": 75,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_gallardo_r-ex",
+      "Restrictor": 25,
+      "Skin": "_template_endu",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 75,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_gallardo_r-ex",
+      "Restrictor": 25,
+      "Skin": "Wessex Motorsport #39",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 30,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bentley_continental_gt3_2018",
+      "Restrictor": 0,
+      "Skin": "2022_24hSpa_CMR_107",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 122,
+      "MaxPing": 447
+    },
+    {
+      "BallastKG": 30,
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561199087354592",
+        "GuidsList": [
+          "76561199087354592"
+        ],
+        "Name": "Kiagoalski",
+        "Nation": "KEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bentley_continental_gt3_2018",
+      "Restrictor": 0,
+      "Skin": "_Template_endu",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 61,
+      "MaxPing": 268
+    },
+    {
+      "BallastKG": 30,
+      "CarId": 22,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bentley_continental_gt3_2018",
+      "Restrictor": 0,
+      "Skin": "2022_24hSpa_CMR_107",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 40,
+      "MaxPing": 71
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_IGT_9H_Pro_r_motorsport_62",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 30,
+      "CarId": 24,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bm_amg_evo_2020",
+      "Restrictor": 20,
+      "Skin": "getspeed_#2_2021",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 25,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bentley_continental_gt3_2018",
+      "Restrictor": 0,
+      "Skin": "_Template",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 26,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_bmw_z4_gt3",
+      "Restrictor": 0,
+      "Skin": "#19_24h_nuerburgring_2013_team_schubert",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 27,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_camaro_gt3",
+      "Restrictor": 50,
+      "Skin": "FF_ADAC_GTM_12_YACO_Racing_34",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 28,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_corvette_callaway_gt3",
+      "Restrictor": 20,
+      "Skin": "#77_RTL_Callaway",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 29,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_ferrari_296_gt3",
+      "Restrictor": 5,
+      "Skin": "2023_NLS_racingone_#19",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 75,
+      "CarId": 30,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "cf_gallardo_r-ex",
+      "Restrictor": 25,
+      "Skin": "Reiter Engineering #25",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 31,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bg_mercedes_amg_gt_black_series",
+      "Restrictor": 0,
+      "Skin": "F1_2022_Safety_Car",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 26.207357,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9577796,
+        "Y": 0.07631211,
+        "Z": 1.8054748
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -375.0528,
+        "Y": 100.34318,
+        "Z": 496.87064
+      },
+      "Timestamp": 1687906419,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 19.352787,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9694532,
+        "Y": 0.35857347,
+        "Z": -1.5469581
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -737.11035,
+        "Y": 145.03482,
+        "Z": 340.4037
+      },
+      "Timestamp": 1687906429,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 24.275679,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.97027075,
+        "Y": 0.80306804,
+        "Z": -1.8517512
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -798.4997,
+        "Y": 189.63141,
+        "Z": 701.50903
+      },
+      "Timestamp": 1687906444,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 105.42781,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.92023283,
+        "Y": -0.08260553,
+        "Z": 1.8292769
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -969.26324,
+        "Y": 196.02284,
+        "Z": 1012.2436
+      },
+      "Timestamp": 1687906449,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 69.93816,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.80662745,
+        "Y": -0.30517325,
+        "Z": 2.1720386
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -475.09573,
+        "Y": 181.07335,
+        "Z": 1233.625
+      },
+      "Timestamp": 1687906459,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 68.72691,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.95284534,
+        "Y": -0.15567975,
+        "Z": 1.9164519
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -360.0115,
+        "Y": 163.39914,
+        "Z": 1299.4454
+      },
+      "Timestamp": 1687906464,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 54.09057,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.29001635,
+        "Y": 0.017820727,
+        "Z": 2.5417812
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 332.7901,
+        "Y": 39.79994,
+        "Z": -178.42638
+      },
+      "Timestamp": 1687906509,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 59.911026,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.04214562,
+        "Y": -0.22251385,
+        "Z": 2.6018012
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 327.69662,
+        "Y": 38.49204,
+        "Z": -239.3477
+      },
+      "Timestamp": 1687906514,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.6977224,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.99974906,
+        "Y": -0.2858998,
+        "Z": 1.5670115
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -95.409164,
+        "Y": 36.828487,
+        "Z": -604.49646
+      },
+      "Timestamp": 1687906549,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 2.0096087,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9290889,
+        "Y": 0.8040676,
+        "Z": -2.1814861
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -749.60425,
+        "Y": 146.89262,
+        "Z": 343.72113
+      },
+      "Timestamp": 1687906579,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 41.413692,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.35193738,
+        "Y": 0.017669518,
+        "Z": 2.5815372
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -766.7267,
+        "Y": 159.01115,
+        "Z": 422.64795
+      },
+      "Timestamp": 1687906584,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 22.268278,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9291119,
+        "Y": -0.29520273,
+        "Z": -2.0457234
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -796.83374,
+        "Y": 152.14026,
+        "Z": 371.7392
+      },
+      "Timestamp": 1687906669,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 57.5804,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.95577484,
+        "Y": 0.7812238,
+        "Z": -1.8489171
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -361.30084,
+        "Y": 165.63185,
+        "Z": 1293.0455
+      },
+      "Timestamp": 1687906704,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 7.144409,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9702949,
+        "Y": 0.8030673,
+        "Z": -1.8518027
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -282.80222,
+        "Y": 151.78552,
+        "Z": 1333.6138
+      },
+      "Timestamp": 1687906709,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 81.668564,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9291104,
+        "Y": 0.8040641,
+        "Z": -2.1814835
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -104.96104,
+        "Y": 125.16945,
+        "Z": 1530.4532
+      },
+      "Timestamp": 1687906849,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 30.365108,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9360165,
+        "Y": -0.30260205,
+        "Z": 2.0140073
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -92.726814,
+        "Y": 122.33355,
+        "Z": 1538.5681
+      },
+      "Timestamp": 1687906854,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.228747,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9997365,
+        "Y": 0.36769214,
+        "Z": 1.474024
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 119.793396,
+        "Y": 31.92277,
+        "Z": -578.8947
+      },
+      "Timestamp": 1687906904,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 20.246387,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9852551,
+        "Y": 0.120970406,
+        "Z": 1.7522359
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -103.792175,
+        "Y": 37.938286,
+        "Z": -589.0019
+      },
+      "Timestamp": 1687906919,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 12.797438,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0406969,
+        "Y": 0.26302597,
+        "Z": -1.3003194
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -731.8401,
+        "Y": 166.17088,
+        "Z": 487.74088
+      },
+      "Timestamp": 1687906942,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 73.02671,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.87429655,
+        "Y": 0.11873794,
+        "Z": 1.8774371
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -749.2463,
+        "Y": 182.16249,
+        "Z": 668.6034
+      },
+      "Timestamp": 1687906964,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 38.117878,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9382808,
+        "Y": -0.31675392,
+        "Z": 1.7825077
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -66.815544,
+        "Y": 119.1933,
+        "Z": 1539.8646
+      },
+      "Timestamp": 1687906987,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 2.5331903,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0007699,
+        "Y": 0.040838744,
+        "Z": 1.6152431
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -69.93508,
+        "Y": 118.2482,
+        "Z": 1525.8616
+      },
+      "Timestamp": 1687906992,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 24.587059,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.7213737,
+        "Y": -0.3167522,
+        "Z": 1.9708744
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -69.2307,
+        "Y": 119.55521,
+        "Z": 1541.7107
+      },
+      "Timestamp": 1687906997,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 13.024046,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.93833894,
+        "Y": -0.3167566,
+        "Z": 1.7825133
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -68.82419,
+        "Y": 117.72497,
+        "Z": 1525.3109
+      },
+      "Timestamp": 1687907002,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 27.455112,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9997151,
+        "Y": -0.28590164,
+        "Z": 1.5670269
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -790.89044,
+        "Y": 156.61607,
+        "Z": 410.1357
+      },
+      "Timestamp": 1687907054,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 55.438267,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9694582,
+        "Y": 0.8030726,
+        "Z": -1.8517442
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -971.9568,
+        "Y": 196.87035,
+        "Z": 1007.75867
+      },
+      "Timestamp": 1687907069,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 57.180508,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.91479415,
+        "Y": -0.3077128,
+        "Z": 2.0078993
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -49.929443,
+        "Y": 116.55493,
+        "Z": 1523.7754
+      },
+      "Timestamp": 1687907094,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.3880486,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0308456,
+        "Y": -0.3167614,
+        "Z": 1.5254165
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -727.2843,
+        "Y": 166.39378,
+        "Z": 502.12213
+      },
+      "Timestamp": 1687907102,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198007035148",
+        "GuidsList": [
+          "76561198007035148"
+        ],
+        "Name": "The Dadaist",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 13.82402,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0038401,
+        "Y": -0.2906519,
+        "Z": -0.8485953
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -50.568985,
+        "Y": 116.723114,
+        "Z": 1524.5554
+      },
+      "Timestamp": 1687907147,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 39.32401,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9807801,
+        "Y": 0.12109056,
+        "Z": 1.7458024
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -775.37384,
+        "Y": 159.37367,
+        "Z": 428.9106
+      },
+      "Timestamp": 1687907179,
+      "AfterSessionEnd": true
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 40,
+      "CarId": 14,
+      "CarModel": "cf_ferrari_296_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 151385,
+      "Restrictor": 5,
+      "Sectors": [
+        65899,
+        42529,
+        42957
+      ],
+      "Timestamp": 1687906525,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 14,
+      "CarModel": "cf_ferrari_296_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 232563,
+      "Restrictor": 5,
+      "Sectors": [
+        152849,
+        42148,
+        37566
+      ],
+      "Timestamp": 1687906758,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 14,
+      "CarModel": "cf_ferrari_296_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 137754,
+      "Restrictor": 5,
+      "Sectors": [
+        59201,
+        40802,
+        37751
+      ],
+      "Timestamp": 1687906896,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "cf_bmw_z4_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198007035148",
+      "DriverName": "The Dadaist",
+      "LapTime": 169971,
+      "Restrictor": 0,
+      "Sectors": [
+        64130,
+        66173,
+        39668
+      ],
+      "Timestamp": 1687907052,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 40,
+      "CarId": 14,
+      "CarModel": "cf_ferrari_296_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 239273,
+      "Restrictor": 5,
+      "Sectors": [
+        163714,
+        39793,
+        35766
+      ],
+      "Timestamp": 1687907135,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "cf_bmw_z4_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198007035148",
+      "DriverName": "The Dadaist",
+      "LapTime": 135157,
+      "Restrictor": 0,
+      "Sectors": [
+        54549,
+        43479,
+        37129
+      ],
+      "Timestamp": 1687907187,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 40,
+      "BestLap": 999999999,
+      "CarId": 14,
+      "CarModel": "cf_ferrari_296_gt3",
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "Restrictor": 5,
+      "TotalTime": 1746072,
+      "NumLaps": 4,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 4
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 135157,
+      "CarId": 7,
+      "CarModel": "cf_bmw_z4_gt3",
+      "DriverGuid": "76561198007035148",
+      "DriverName": "The Dadaist",
+      "Restrictor": 0,
+      "TotalTime": 1798116,
+      "NumLaps": 2,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 15
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "rt_bathurst",
+  "Type": "RACE",
+  "Date": "2023-06-27T17:07:00-07:00",
+  "SessionFile": "2023_6_27_17_7_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 24,
+    "laps": 0,
+    "is_open": 1,
+    "wait_time": 30,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

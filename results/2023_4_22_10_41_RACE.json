@@ -1,0 +1,2633 @@
+{
+  "Version": 5,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_panoz_avezzano",
+      "Restrictor": 0,
+      "Skin": "77_pandenie_racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_audi_r8",
+      "Restrictor": 0,
+      "Skin": "t3",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 120,
+      "MaxPing": 135
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_audi_r8",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_fictional_audi_sport_990",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 54,
+      "MaxPing": 74
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_bmw_m4",
+      "Restrictor": 0,
+      "Skin": "Borusan Otomotiv Motorsport 2018",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561198281219302",
+        "GuidsList": [
+          "76561198281219302"
+        ],
+        "Name": "NotDave",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_camaro",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_2019_v8_racing_68",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 37,
+      "MaxPing": 51
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_radical_sr3xxr_2023",
+      "Restrictor": 0,
+      "Skin": "team3",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_aston_martin_vantage",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_street_art_racing_017",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 47,
+      "MaxPing": 57
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_ford_mustang",
+      "Restrictor": 0,
+      "Skin": "77_guerilla_racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 40,
+      "MaxPing": 50
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_mercedes_amg",
+      "Restrictor": 0,
+      "Skin": "gt4_european_series_leipert_4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_alpine_a110",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_2019_redele_competition_35",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_panoz_avezzano",
+      "Restrictor": 0,
+      "Skin": "11_guerilla_racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198340330401",
+        "GuidsList": [
+          "76561198340330401"
+        ],
+        "Name": "CSOCSO",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_porsche_cayman_718",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_fictional_porsche_motorsport_white_993",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 50,
+      "MaxPing": 58
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_bmw_m4",
+      "Restrictor": 0,
+      "Skin": "rn_vision_2",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_sin_r1",
+      "Restrictor": 0,
+      "Skin": "2_racers_edge_motorsport",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 47,
+      "MaxPing": 51
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_camaro",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_2019_v8_racing_69",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_porsche_cayman_718",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_fictional_porsche_motorsport_silver_995",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_sin_r1",
+      "Restrictor": 0,
+      "Skin": "race_keeper",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_aston_martin_vantage",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_prosport_performance_19",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_toyota_supra",
+      "Restrictor": 0,
+      "Skin": "GR_Racing_Red",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 37,
+      "MaxPing": 46
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_ford_mustang",
+      "Restrictor": 0,
+      "Skin": "109_ovr_racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_radical_sr3xxr_2023",
+      "Restrictor": 0,
+      "Skin": "factory_yellow",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_toyota_supra",
+      "Restrictor": 0,
+      "Skin": "Advan_Racing",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 48,
+      "MaxPing": 57
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_mclaren_570s",
+      "Restrictor": 0,
+      "Skin": "rm_british_gt_championship_2019_hhc_motorsport_57",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_mclaren_570s",
+      "Restrictor": 0,
+      "Skin": "rm_british_gt_championship_2019_balfe_motorsport_21",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 24,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_alpine_a110",
+      "Restrictor": 0,
+      "Skin": "rm_gt4_european_series_2019_team_speedcar_88",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 25,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gt4_mercedes_amg",
+      "Restrictor": 0,
+      "Skin": "gt4_european_series_selleslagh_31",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 41.987995,
+      "OtherCarId": 6,
+      "OtherDriver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.33468658,
+        "Y": -0.04509912,
+        "Z": 2.1005197
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -117.7991,
+        "Y": -3.5015507,
+        "Z": -501.42102
+      },
+      "Timestamp": 1682180510,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 14.43219,
+      "OtherCarId": 4,
+      "OtherDriver": {
+        "Guid": "76561198281219302",
+        "GuidsList": [
+          "76561198281219302"
+        ],
+        "Name": "NotDave",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9374334,
+        "Y": -0.25177747,
+        "Z": -1.5455166
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -117.69749,
+        "Y": -3.48553,
+        "Z": -515.0775
+      },
+      "Timestamp": 1682180510,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 49.968594,
+      "OtherCarId": 21,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.15238094,
+        "Y": -0.18148598,
+        "Z": -2.1688468
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -117.98128,
+        "Y": -3.5103722,
+        "Z": -501.5285
+      },
+      "Timestamp": 1682180513,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561198281219302",
+        "GuidsList": [
+          "76561198281219302"
+        ],
+        "Name": "NotDave",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 14.922846,
+      "OtherCarId": 21,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.8941793,
+        "Y": -0.3105224,
+        "Z": 2.04447
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -117.688576,
+        "Y": -3.483953,
+        "Z": -514.98303
+      },
+      "Timestamp": 1682180514,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 0.9513706,
+      "OtherCarId": 4,
+      "OtherDriver": {
+        "Guid": "76561198281219302",
+        "GuidsList": [
+          "76561198281219302"
+        ],
+        "Name": "NotDave",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9287619,
+        "Y": 0.16654119,
+        "Z": -1.5992357
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -116.39921,
+        "Y": -3.0250268,
+        "Z": -518.847
+      },
+      "Timestamp": 1682180515,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198340330401",
+        "GuidsList": [
+          "76561198340330401"
+        ],
+        "Name": "CSOCSO",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.0193796,
+      "OtherCarId": 6,
+      "OtherDriver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.6038545,
+        "Y": -0.2677196,
+        "Z": -1.9884996
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 116.141335,
+        "Y": -5.71228,
+        "Z": -91.18588
+      },
+      "Timestamp": 1682180716,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 7.0331554,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198340330401",
+        "GuidsList": [
+          "76561198340330401"
+        ],
+        "Name": "CSOCSO",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.70808417,
+        "Y": -0.18436688,
+        "Z": 2.0983903
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 115.84717,
+        "Y": -5.71764,
+        "Z": -89.78946
+      },
+      "Timestamp": 1682180718,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561198281219302",
+        "GuidsList": [
+          "76561198281219302"
+        ],
+        "Name": "NotDave",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 30.59689,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.5423789,
+        "Y": -0.010716738,
+        "Z": -2.540514
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 984.7923,
+        "Y": -2.4471338,
+        "Z": -926.025
+      },
+      "Timestamp": 1682180839,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561198281219302",
+        "GuidsList": [
+          "76561198281219302"
+        ],
+        "Name": "NotDave",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 6.4027834,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.7724261,
+        "Y": 0.794466,
+        "Z": -2.420932
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 985.6569,
+        "Y": -1.6692421,
+        "Z": -926.5467
+      },
+      "Timestamp": 1682180844,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 41.53453,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.0000063348834,
+        "Y": 0.007903122,
+        "Z": 2.148779
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 948.4515,
+        "Y": -2.6976764,
+        "Z": -907.625
+      },
+      "Timestamp": 1682181051,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.4797373,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.7577459,
+        "Y": 0.13890362,
+        "Z": -2.1554842
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 924.82074,
+        "Y": -2.482185,
+        "Z": -893.9323
+      },
+      "Timestamp": 1682181056,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 13.66914,
+      "OtherCarId": 21,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.86820465,
+        "Y": -0.22801538,
+        "Z": 1.79192
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 634.1094,
+        "Y": 0.8447785,
+        "Z": -1174.5238
+      },
+      "Timestamp": 1682181060,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 16.079348,
+      "OtherCarId": 7,
+      "OtherDriver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.8801652,
+        "Y": -0.22980241,
+        "Z": 1.7678813
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 658.863,
+        "Y": 0.72192115,
+        "Z": -1191.3292
+      },
+      "Timestamp": 1682181060,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.403905,
+      "OtherCarId": 21,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.5502383,
+        "Y": -0.27359796,
+        "Z": 2.145685
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 662.006,
+        "Y": 0.70463926,
+        "Z": -1192.568
+      },
+      "Timestamp": 1682181065,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 89.70721,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.84387887,
+        "Y": -0.27195552,
+        "Z": 1.9814708
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 970.7881,
+        "Y": -1.4996653,
+        "Z": -1268.9883
+      },
+      "Timestamp": 1682181168,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 33.8179,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9209906,
+        "Y": -0.24898946,
+        "Z": -1.8533158
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 938.7912,
+        "Y": -2.927218,
+        "Z": -902.09973
+      },
+      "Timestamp": 1682181211,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 59.90467,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.738576,
+        "Y": 0.027219057,
+        "Z": 1.890801
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 793.86487,
+        "Y": -2.499425,
+        "Z": -821.66797
+      },
+      "Timestamp": 1682181216,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 16.62949,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.8927477,
+        "Y": -0.27882642,
+        "Z": 1.7887489
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 697.8483,
+        "Y": -2.7547727,
+        "Z": -746.6059
+      },
+      "Timestamp": 1682181221,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 19.254429,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.37890157,
+        "Y": 0.4518113,
+        "Z": -2.2614675
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 645.61176,
+        "Y": -2.299439,
+        "Z": -705.1967
+      },
+      "Timestamp": 1682181226,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198340330401",
+        "GuidsList": [
+          "76561198340330401"
+        ],
+        "Name": "CSOCSO",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 60.450245,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.915902,
+        "Y": -0.27823526,
+        "Z": 1.6449292
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 714.0839,
+        "Y": 0.57657367,
+        "Z": -1183.5021
+      },
+      "Timestamp": 1682181292,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198340330401",
+        "GuidsList": [
+          "76561198340330401"
+        ],
+        "Name": "CSOCSO",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.655449,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.91593903,
+        "Y": -0.27823517,
+        "Z": 1.6449549
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 966.93286,
+        "Y": -1.3980931,
+        "Z": -1269.9741
+      },
+      "Timestamp": 1682181432,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 42.07549,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9421923,
+        "Y": 0.17618684,
+        "Z": 1.2727371
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -142.96112,
+        "Y": -5.3457923,
+        "Z": -101.99328
+      },
+      "Timestamp": 1682181540,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 67.139595,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.90327823,
+        "Y": 0.21617095,
+        "Z": 1.7473571
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -145.15775,
+        "Y": -5.580338,
+        "Z": -59.911026
+      },
+      "Timestamp": 1682181541,
+      "AfterSessionEnd": true
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 1,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128049,
+      "Restrictor": 0,
+      "Sectors": [
+        48723,
+        40175,
+        39151
+      ],
+      "Timestamp": 1682180617,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 130372,
+      "Restrictor": 0,
+      "Sectors": [
+        50695,
+        40037,
+        39640
+      ],
+      "Timestamp": 1682180620,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 1,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 131170,
+      "Restrictor": 0,
+      "Sectors": [
+        48959,
+        41009,
+        41202
+      ],
+      "Timestamp": 1682180621,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 2,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 132347,
+      "Restrictor": 0,
+      "Sectors": [
+        52742,
+        39690,
+        39915
+      ],
+      "Timestamp": 1682180622,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 2,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 137543,
+      "Restrictor": 0,
+      "Sectors": [
+        54411,
+        43983,
+        39149
+      ],
+      "Timestamp": 1682180627,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 1,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 142198,
+      "Restrictor": 0,
+      "Sectors": [
+        54209,
+        43488,
+        44501
+      ],
+      "Timestamp": 1682180632,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 121599,
+      "Restrictor": 0,
+      "Sectors": [
+        43330,
+        39654,
+        38615
+      ],
+      "Timestamp": 1682180739,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 122879,
+      "Restrictor": 0,
+      "Sectors": [
+        44215,
+        39780,
+        38884
+      ],
+      "Timestamp": 1682180745,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 0,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 124453,
+      "Restrictor": 0,
+      "Sectors": [
+        44402,
+        40447,
+        39604
+      ],
+      "Timestamp": 1682180745,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 3,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 125285,
+      "Restrictor": 0,
+      "Sectors": [
+        42809,
+        39852,
+        42624
+      ],
+      "Timestamp": 1682180745,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 123689,
+      "Restrictor": 0,
+      "Sectors": [
+        44323,
+        40190,
+        39176
+      ],
+      "Timestamp": 1682180751,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 4,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 126311,
+      "Restrictor": 0,
+      "Sectors": [
+        42454,
+        42678,
+        41179
+      ],
+      "Timestamp": 1682180758,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 122350,
+      "Restrictor": 0,
+      "Sectors": [
+        43515,
+        39176,
+        39659
+      ],
+      "Timestamp": 1682180861,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 121746,
+      "Restrictor": 0,
+      "Sectors": [
+        43270,
+        39712,
+        38764
+      ],
+      "Timestamp": 1682180866,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 0,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 123229,
+      "Restrictor": 0,
+      "Sectors": [
+        44105,
+        39551,
+        39573
+      ],
+      "Timestamp": 1682180868,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 123352,
+      "Restrictor": 0,
+      "Sectors": [
+        44287,
+        40289,
+        38776
+      ],
+      "Timestamp": 1682180874,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 140664,
+      "Restrictor": 0,
+      "Sectors": [
+        59601,
+        41741,
+        39322
+      ],
+      "Timestamp": 1682180886,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 0,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 150613,
+      "Restrictor": 0,
+      "Sectors": [
+        45007,
+        64229,
+        41377
+      ],
+      "Timestamp": 1682180909,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 121195,
+      "Restrictor": 0,
+      "Sectors": [
+        42895,
+        39488,
+        38812
+      ],
+      "Timestamp": 1682180983,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 2,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 123056,
+      "Restrictor": 0,
+      "Sectors": [
+        43263,
+        41543,
+        38250
+      ],
+      "Timestamp": 1682180989,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 0,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 122667,
+      "Restrictor": 0,
+      "Sectors": [
+        43665,
+        40220,
+        38782
+      ],
+      "Timestamp": 1682180991,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 123000,
+      "Restrictor": 0,
+      "Sectors": [
+        43907,
+        40239,
+        38854
+      ],
+      "Timestamp": 1682180997,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 125450,
+      "Restrictor": 0,
+      "Sectors": [
+        43996,
+        39955,
+        41499
+      ],
+      "Timestamp": 1682181011,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gt4_ford_mustang",
+      "Cuts": 2,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 146858,
+      "Restrictor": 0,
+      "Sectors": [
+        67379,
+        39416,
+        40063
+      ],
+      "Timestamp": 1682181012,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 1,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 130366,
+      "Restrictor": 0,
+      "Sectors": [
+        47660,
+        41823,
+        40883
+      ],
+      "Timestamp": 1682181039,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 128332,
+      "Restrictor": 0,
+      "Sectors": [
+        43237,
+        46256,
+        38839
+      ],
+      "Timestamp": 1682181111,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 122294,
+      "Restrictor": 0,
+      "Sectors": [
+        43094,
+        40221,
+        38979
+      ],
+      "Timestamp": 1682181112,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 2,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 123988,
+      "Restrictor": 0,
+      "Sectors": [
+        43523,
+        41180,
+        39285
+      ],
+      "Timestamp": 1682181115,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 123016,
+      "Restrictor": 0,
+      "Sectors": [
+        44266,
+        39884,
+        38866
+      ],
+      "Timestamp": 1682181120,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gt4_ford_mustang",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 129004,
+      "Restrictor": 0,
+      "Sectors": [
+        43509,
+        46179,
+        39316
+      ],
+      "Timestamp": 1682181141,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 129697,
+      "Restrictor": 0,
+      "Sectors": [
+        44039,
+        46864,
+        38794
+      ],
+      "Timestamp": 1682181141,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 1,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 131545,
+      "Restrictor": 0,
+      "Sectors": [
+        47148,
+        43640,
+        40757
+      ],
+      "Timestamp": 1682181171,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 121280,
+      "Restrictor": 0,
+      "Sectors": [
+        42936,
+        39924,
+        38420
+      ],
+      "Timestamp": 1682181232,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 125660,
+      "Restrictor": 0,
+      "Sectors": [
+        43401,
+        43407,
+        38852
+      ],
+      "Timestamp": 1682181238,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 0,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 123179,
+      "Restrictor": 0,
+      "Sectors": [
+        43520,
+        40473,
+        39186
+      ],
+      "Timestamp": 1682181238,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 123018,
+      "Restrictor": 0,
+      "Sectors": [
+        44420,
+        39938,
+        38660
+      ],
+      "Timestamp": 1682181243,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 140860,
+      "Restrictor": 0,
+      "Sectors": [
+        43854,
+        56650,
+        40356
+      ],
+      "Timestamp": 1682181282,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gt4_ford_mustang",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 141530,
+      "Restrictor": 0,
+      "Sectors": [
+        45064,
+        55480,
+        40986
+      ],
+      "Timestamp": 1682181282,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 0,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 131109,
+      "Restrictor": 0,
+      "Sectors": [
+        46112,
+        43075,
+        41922
+      ],
+      "Timestamp": 1682181302,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 126574,
+      "Restrictor": 0,
+      "Sectors": [
+        48863,
+        39510,
+        38201
+      ],
+      "Timestamp": 1682181364,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 131785,
+      "Restrictor": 0,
+      "Sectors": [
+        53192,
+        39709,
+        38884
+      ],
+      "Timestamp": 1682181364,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 122678,
+      "Restrictor": 0,
+      "Sectors": [
+        44172,
+        39856,
+        38650
+      ],
+      "Timestamp": 1682181366,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 1,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 133202,
+      "Restrictor": 0,
+      "Sectors": [
+        44521,
+        47722,
+        40959
+      ],
+      "Timestamp": 1682181371,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 123009,
+      "Restrictor": 0,
+      "Sectors": [
+        43862,
+        39470,
+        39677
+      ],
+      "Timestamp": 1682181405,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gt4_ford_mustang",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 123248,
+      "Restrictor": 0,
+      "Sectors": [
+        44382,
+        39384,
+        39482
+      ],
+      "Timestamp": 1682181405,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 0,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 129361,
+      "Restrictor": 0,
+      "Sectors": [
+        46943,
+        41608,
+        40810
+      ],
+      "Timestamp": 1682181431,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 124071,
+      "Restrictor": 0,
+      "Sectors": [
+        44438,
+        40276,
+        39357
+      ],
+      "Timestamp": 1682181488,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 124160,
+      "Restrictor": 0,
+      "Sectors": [
+        43943,
+        41828,
+        38389
+      ],
+      "Timestamp": 1682181488,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 122465,
+      "Restrictor": 0,
+      "Sectors": [
+        43945,
+        39740,
+        38780
+      ],
+      "Timestamp": 1682181488,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "Cuts": 1,
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "LapTime": 125543,
+      "Restrictor": 0,
+      "Sectors": [
+        44148,
+        41782,
+        39613
+      ],
+      "Timestamp": 1682181497,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 124861,
+      "Restrictor": 0,
+      "Sectors": [
+        43515,
+        40828,
+        40518
+      ],
+      "Timestamp": 1682181530,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gt4_ford_mustang",
+      "Cuts": 1,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 124364,
+      "Restrictor": 0,
+      "Sectors": [
+        43698,
+        39797,
+        40869
+      ],
+      "Timestamp": 1682181530,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "Cuts": 2,
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "LapTime": 128647,
+      "Restrictor": 0,
+      "Sectors": [
+        44340,
+        43627,
+        40680
+      ],
+      "Timestamp": 1682181560,
+      "Tyre": "GT4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 121195,
+      "CarId": 18,
+      "CarModel": "gt4_toyota_supra",
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "Restrictor": 0,
+      "TotalTime": 998621,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 19
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 121746,
+      "CarId": 6,
+      "CarModel": "gt4_aston_martin_vantage",
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "Restrictor": 0,
+      "TotalTime": 998639,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 7
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 122465,
+      "CarId": 1,
+      "CarModel": "gt4_audi_r8",
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "Restrictor": 0,
+      "TotalTime": 998664,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 2
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 122667,
+      "CarId": 11,
+      "CarModel": "gt4_porsche_cayman_718",
+      "DriverGuid": "76561198340330401",
+      "DriverName": "CSOCSO",
+      "Restrictor": 0,
+      "TotalTime": 1007418,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 12
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 123009,
+      "CarId": 21,
+      "CarModel": "gt4_toyota_supra",
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "Restrictor": 0,
+      "TotalTime": 1040148,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 22
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 129361,
+      "CarId": 4,
+      "CarModel": "gt4_camaro",
+      "DriverGuid": "76561198281219302",
+      "DriverName": "NotDave",
+      "Restrictor": 0,
+      "TotalTime": 1070150,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 5
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 123248,
+      "CarId": 7,
+      "CarModel": "gt4_ford_mustang",
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "Restrictor": 0,
+      "TotalTime": 1040242,
+      "NumLaps": 5,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 8
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "monza",
+  "Type": "RACE",
+  "Date": "2023-04-22T10:41:00-07:00",
+  "SessionFile": "2023_4_22_10_41_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 0,
+    "laps": 8,
+    "is_open": 1,
+    "wait_time": 120,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

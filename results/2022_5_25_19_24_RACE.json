@@ -1,0 +1,4279 @@
+{
+  "Version": 5,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_a522",
+      "Restrictor": 0,
+      "Skin": "Ocon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_a522",
+      "Restrictor": 0,
+      "Skin": "Alonso",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_amr22",
+      "Restrictor": 0,
+      "Skin": "Stroll",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198086350935",
+        "GuidsList": [
+          "76561198086350935"
+        ],
+        "Name": "hortonhearsadan",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_at03",
+      "Restrictor": 0,
+      "Skin": "Gasly",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 42,
+      "MaxPing": 52
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_at03",
+      "Restrictor": 0,
+      "Skin": "Tsunoda",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199020371160",
+        "GuidsList": [
+          "76561199020371160"
+        ],
+        "Name": "David DaSilva",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_c42",
+      "Restrictor": 0,
+      "Skin": "Bottas",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 43,
+      "MaxPing": 84
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_c42",
+      "Restrictor": 0,
+      "Skin": "Zhou",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561199185321800",
+        "GuidsList": [
+          "76561199185321800"
+        ],
+        "Name": "Boogie",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_f175",
+      "Restrictor": 0,
+      "Skin": "Leclerc",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 57
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_f175",
+      "Restrictor": 0,
+      "Skin": "Sainz",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_fw44",
+      "Restrictor": 0,
+      "Skin": "Albon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 60,
+      "MaxPing": 114
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_fw44",
+      "Restrictor": 0,
+      "Skin": "Latifi",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_mcl36",
+      "Restrictor": 0,
+      "Skin": "Norris",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_mcl36",
+      "Restrictor": 0,
+      "Skin": "Ricciardo",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198427997277",
+        "GuidsList": [
+          "76561198427997277"
+        ],
+        "Name": "Naomi Schiff",
+        "Nation": "RWA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_rb18",
+      "Restrictor": 0,
+      "Skin": "Perez",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 39,
+      "MaxPing": 51
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198351639213",
+        "GuidsList": [
+          "76561198351639213"
+        ],
+        "Name": "Busken",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_rb18",
+      "Restrictor": 0,
+      "Skin": "Verstappen",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 82,
+      "MaxPing": 156
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561198199117534",
+        "GuidsList": [
+          "76561198199117534"
+        ],
+        "Name": "Mac Pearmain",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_w13",
+      "Restrictor": 0,
+      "Skin": "Hamilton",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 62,
+      "MaxPing": 80
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_w13",
+      "Restrictor": 0,
+      "Skin": "Russell",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_vf22",
+      "Restrictor": 0,
+      "Skin": "Magnussen",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_vf22",
+      "Restrictor": 0,
+      "Skin": "Schumacher",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561198254293738",
+        "GuidsList": [
+          "76561198254293738"
+        ],
+        "Name": "Safety Car",
+        "Nation": "EST",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bg_mercedes_amg_gt_black_series",
+      "Restrictor": 0,
+      "Skin": "Safety-Car 2022",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 30,
+      "MaxPing": 35
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "gp_2022_amr22",
+      "Restrictor": 0,
+      "Skin": "Vettel",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 13.699789,
+      "OtherCarId": 3,
+      "OtherDriver": {
+        "Guid": "76561198086350935",
+        "GuidsList": [
+          "76561198086350935"
+        ],
+        "Name": "hortonhearsadan",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.6254146,
+        "Y": 0.024116091,
+        "Z": -2.38012
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 571.2574,
+        "Y": 17.149647,
+        "Z": -287.89807
+      },
+      "Timestamp": 1653524995,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 2.2346172,
+      "OtherCarId": 3,
+      "OtherDriver": {
+        "Guid": "76561198086350935",
+        "GuidsList": [
+          "76561198086350935"
+        ],
+        "Name": "hortonhearsadan",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.62541795,
+        "Y": 0.019301265,
+        "Z": -2.371785
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 571.9729,
+        "Y": 17.139538,
+        "Z": -287.5745
+      },
+      "Timestamp": 1653525000,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561198199117534",
+        "GuidsList": [
+          "76561198199117534"
+        ],
+        "Name": "Mac Pearmain",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 82.12004,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.60638916,
+        "Y": -0.11228514,
+        "Z": 2.8780358
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 614.40533,
+        "Y": 11.228699,
+        "Z": -201.4232
+      },
+      "Timestamp": 1653525282,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198351639213",
+        "GuidsList": [
+          "76561198351639213"
+        ],
+        "Name": "Busken",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 66.455414,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.95404994,
+        "Y": -0.14276063,
+        "Z": 2.7535212
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -193.54596,
+        "Y": 12.126115,
+        "Z": 133.564
+      },
+      "Timestamp": 1653527010,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198427997277",
+        "GuidsList": [
+          "76561198427997277"
+        ],
+        "Name": "Naomi Schiff",
+        "Nation": "RWA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 72.039825,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.7914899,
+        "Y": -0.118777655,
+        "Z": 2.772261
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -462.3763,
+        "Y": 53.35205,
+        "Z": -403.84894
+      },
+      "Timestamp": 1653527885,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 69.752426,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.995586,
+        "Y": -0.22602205,
+        "Z": -2.0683582
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -702.2297,
+        "Y": 2.2341304,
+        "Z": 403.34637
+      },
+      "Timestamp": 1653528046,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199020371160",
+        "GuidsList": [
+          "76561199020371160"
+        ],
+        "Name": "David DaSilva",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 100.00505,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.96170294,
+        "Y": 0.041813083,
+        "Z": 2.8178186
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -418.6537,
+        "Y": 51.24773,
+        "Z": -197.50111
+      },
+      "Timestamp": 1653528129,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199020371160",
+        "GuidsList": [
+          "76561199020371160"
+        ],
+        "Name": "David DaSilva",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 165.48659,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.627218,
+        "Y": -0.05531541,
+        "Z": -2.3605254
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -470.9166,
+        "Y": 45.223694,
+        "Z": 16.541838
+      },
+      "Timestamp": 1653528154,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 175.33295,
+      "OtherCarId": 5,
+      "OtherDriver": {
+        "Guid": "76561199020371160",
+        "GuidsList": [
+          "76561199020371160"
+        ],
+        "Name": "David DaSilva",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.030587506,
+        "Y": -0.008287319,
+        "Z": 3.110985
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -470.92105,
+        "Y": 45.240032,
+        "Z": 16.56779
+      },
+      "Timestamp": 1653528156,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199020371160",
+        "GuidsList": [
+          "76561199020371160"
+        ],
+        "Name": "David DaSilva",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 20.431133,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.95892656,
+        "Y": -0.11412137,
+        "Z": 2.8241384
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -448.0568,
+        "Y": 38.04541,
+        "Z": 79.979355
+      },
+      "Timestamp": 1653528159,
+      "AfterSessionEnd": false
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 96405,
+      "Restrictor": 0,
+      "Sectors": [
+        42368,
+        27770,
+        26267
+      ],
+      "Timestamp": 1653525067,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 97315,
+      "Restrictor": 0,
+      "Sectors": [
+        44066,
+        27320,
+        25929
+      ],
+      "Timestamp": 1653525068,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 99259,
+      "Restrictor": 0,
+      "Sectors": [
+        44616,
+        28291,
+        26352
+      ],
+      "Timestamp": 1653525070,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 100411,
+      "Restrictor": 0,
+      "Sectors": [
+        46128,
+        28246,
+        26037
+      ],
+      "Timestamp": 1653525071,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "Cuts": 1,
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "LapTime": 102821,
+      "Restrictor": 0,
+      "Sectors": [
+        46396,
+        29758,
+        26667
+      ],
+      "Timestamp": 1653525074,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91777,
+      "Restrictor": 0,
+      "Sectors": [
+        37907,
+        27721,
+        26149
+      ],
+      "Timestamp": 1653525159,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91202,
+      "Restrictor": 0,
+      "Sectors": [
+        37374,
+        27809,
+        26019
+      ],
+      "Timestamp": 1653525159,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 91495,
+      "Restrictor": 0,
+      "Sectors": [
+        37428,
+        27783,
+        26284
+      ],
+      "Timestamp": 1653525163,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 93362,
+      "Restrictor": 0,
+      "Sectors": [
+        37985,
+        28337,
+        27040
+      ],
+      "Timestamp": 1653525163,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "Cuts": 0,
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "LapTime": 91501,
+      "Restrictor": 0,
+      "Sectors": [
+        37609,
+        27850,
+        26042
+      ],
+      "Timestamp": 1653525165,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 89956,
+      "Restrictor": 0,
+      "Sectors": [
+        36955,
+        27414,
+        25587
+      ],
+      "Timestamp": 1653525249,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 89971,
+      "Restrictor": 0,
+      "Sectors": [
+        37141,
+        27261,
+        25569
+      ],
+      "Timestamp": 1653525249,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90987,
+      "Restrictor": 0,
+      "Sectors": [
+        37410,
+        27638,
+        25939
+      ],
+      "Timestamp": 1653525254,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92487,
+      "Restrictor": 0,
+      "Sectors": [
+        37740,
+        28664,
+        26083
+      ],
+      "Timestamp": 1653525256,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "Cuts": 0,
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "LapTime": 94361,
+      "Restrictor": 0,
+      "Sectors": [
+        38867,
+        28346,
+        27148
+      ],
+      "Timestamp": 1653525260,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91464,
+      "Restrictor": 0,
+      "Sectors": [
+        37679,
+        27918,
+        25867
+      ],
+      "Timestamp": 1653525340,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91823,
+      "Restrictor": 0,
+      "Sectors": [
+        37554,
+        27841,
+        26428
+      ],
+      "Timestamp": 1653525341,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90638,
+      "Restrictor": 0,
+      "Sectors": [
+        37260,
+        27567,
+        25811
+      ],
+      "Timestamp": 1653525344,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92870,
+      "Restrictor": 0,
+      "Sectors": [
+        37881,
+        28188,
+        26801
+      ],
+      "Timestamp": 1653525349,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "Cuts": 1,
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "LapTime": 110774,
+      "Restrictor": 0,
+      "Sectors": [
+        43121,
+        29251,
+        38402
+      ],
+      "Timestamp": 1653525370,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91696,
+      "Restrictor": 0,
+      "Sectors": [
+        37255,
+        28431,
+        26010
+      ],
+      "Timestamp": 1653525432,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 93603,
+      "Restrictor": 0,
+      "Sectors": [
+        39301,
+        28197,
+        26105
+      ],
+      "Timestamp": 1653525435,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 91028,
+      "Restrictor": 0,
+      "Sectors": [
+        37757,
+        27217,
+        26054
+      ],
+      "Timestamp": 1653525435,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91280,
+      "Restrictor": 0,
+      "Sectors": [
+        37668,
+        27931,
+        25681
+      ],
+      "Timestamp": 1653525440,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "Cuts": 1,
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "LapTime": 115396,
+      "Restrictor": 0,
+      "Sectors": [
+        57769,
+        29722,
+        27905
+      ],
+      "Timestamp": 1653525486,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91175,
+      "Restrictor": 0,
+      "Sectors": [
+        37400,
+        28000,
+        25775
+      ],
+      "Timestamp": 1653525523,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90461,
+      "Restrictor": 0,
+      "Sectors": [
+        37141,
+        27463,
+        25857
+      ],
+      "Timestamp": 1653525526,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91723,
+      "Restrictor": 0,
+      "Sectors": [
+        37376,
+        28053,
+        26294
+      ],
+      "Timestamp": 1653525526,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92820,
+      "Restrictor": 0,
+      "Sectors": [
+        37928,
+        28715,
+        26177
+      ],
+      "Timestamp": 1653525533,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "Cuts": 0,
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "LapTime": 98641,
+      "Restrictor": 0,
+      "Sectors": [
+        41392,
+        29669,
+        27580
+      ],
+      "Timestamp": 1653525584,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91069,
+      "Restrictor": 0,
+      "Sectors": [
+        37438,
+        28031,
+        25600
+      ],
+      "Timestamp": 1653525614,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90812,
+      "Restrictor": 0,
+      "Sectors": [
+        37281,
+        27548,
+        25983
+      ],
+      "Timestamp": 1653525616,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90469,
+      "Restrictor": 0,
+      "Sectors": [
+        36978,
+        27441,
+        26050
+      ],
+      "Timestamp": 1653525617,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92628,
+      "Restrictor": 0,
+      "Sectors": [
+        38051,
+        28571,
+        26006
+      ],
+      "Timestamp": 1653525625,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "Cuts": 1,
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "LapTime": 108725,
+      "Restrictor": 0,
+      "Sectors": [
+        39911,
+        29633,
+        39181
+      ],
+      "Timestamp": 1653525693,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91050,
+      "Restrictor": 0,
+      "Sectors": [
+        36797,
+        27815,
+        26438
+      ],
+      "Timestamp": 1653525705,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90662,
+      "Restrictor": 0,
+      "Sectors": [
+        37261,
+        27738,
+        25663
+      ],
+      "Timestamp": 1653525707,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 97909,
+      "Restrictor": 0,
+      "Sectors": [
+        37357,
+        34178,
+        26374
+      ],
+      "Timestamp": 1653525714,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91664,
+      "Restrictor": 0,
+      "Sectors": [
+        37313,
+        27932,
+        26419
+      ],
+      "Timestamp": 1653525717,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 90332,
+      "Restrictor": 0,
+      "Sectors": [
+        37062,
+        27431,
+        25839
+      ],
+      "Timestamp": 1653525796,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 92387,
+      "Restrictor": 0,
+      "Sectors": [
+        38667,
+        28147,
+        25573
+      ],
+      "Timestamp": 1653525800,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90762,
+      "Restrictor": 0,
+      "Sectors": [
+        37360,
+        27594,
+        25808
+      ],
+      "Timestamp": 1653525805,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92464,
+      "Restrictor": 0,
+      "Sectors": [
+        37690,
+        28602,
+        26172
+      ],
+      "Timestamp": 1653525810,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 90767,
+      "Restrictor": 0,
+      "Sectors": [
+        37303,
+        27369,
+        26095
+      ],
+      "Timestamp": 1653525886,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90479,
+      "Restrictor": 0,
+      "Sectors": [
+        37398,
+        27269,
+        25812
+      ],
+      "Timestamp": 1653525890,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 91079,
+      "Restrictor": 0,
+      "Sectors": [
+        37313,
+        27217,
+        26549
+      ],
+      "Timestamp": 1653525896,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91603,
+      "Restrictor": 0,
+      "Sectors": [
+        37549,
+        27774,
+        26280
+      ],
+      "Timestamp": 1653525901,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91501,
+      "Restrictor": 0,
+      "Sectors": [
+        37334,
+        28144,
+        26023
+      ],
+      "Timestamp": 1653525978,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90331,
+      "Restrictor": 0,
+      "Sectors": [
+        37064,
+        27509,
+        25758
+      ],
+      "Timestamp": 1653525981,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90943,
+      "Restrictor": 0,
+      "Sectors": [
+        37483,
+        27567,
+        25893
+      ],
+      "Timestamp": 1653525987,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92908,
+      "Restrictor": 0,
+      "Sectors": [
+        38075,
+        28701,
+        26132
+      ],
+      "Timestamp": 1653525994,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91230,
+      "Restrictor": 0,
+      "Sectors": [
+        37486,
+        27612,
+        26132
+      ],
+      "Timestamp": 1653526069,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90861,
+      "Restrictor": 0,
+      "Sectors": [
+        37670,
+        27486,
+        25705
+      ],
+      "Timestamp": 1653526072,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 91400,
+      "Restrictor": 0,
+      "Sectors": [
+        37517,
+        28018,
+        25865
+      ],
+      "Timestamp": 1653526079,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92408,
+      "Restrictor": 0,
+      "Sectors": [
+        37590,
+        28493,
+        26325
+      ],
+      "Timestamp": 1653526086,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91471,
+      "Restrictor": 0,
+      "Sectors": [
+        37259,
+        27909,
+        26303
+      ],
+      "Timestamp": 1653526161,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91408,
+      "Restrictor": 0,
+      "Sectors": [
+        37826,
+        27351,
+        26231
+      ],
+      "Timestamp": 1653526163,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90264,
+      "Restrictor": 0,
+      "Sectors": [
+        36992,
+        27297,
+        25975
+      ],
+      "Timestamp": 1653526169,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92626,
+      "Restrictor": 0,
+      "Sectors": [
+        37694,
+        28652,
+        26280
+      ],
+      "Timestamp": 1653526179,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 92021,
+      "Restrictor": 0,
+      "Sectors": [
+        37864,
+        28283,
+        25874
+      ],
+      "Timestamp": 1653526253,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 94173,
+      "Restrictor": 0,
+      "Sectors": [
+        40704,
+        27567,
+        25902
+      ],
+      "Timestamp": 1653526257,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 91570,
+      "Restrictor": 0,
+      "Sectors": [
+        37714,
+        27594,
+        26262
+      ],
+      "Timestamp": 1653526260,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91842,
+      "Restrictor": 0,
+      "Sectors": [
+        37634,
+        28377,
+        25831
+      ],
+      "Timestamp": 1653526271,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 91226,
+      "Restrictor": 0,
+      "Sectors": [
+        37416,
+        27751,
+        26059
+      ],
+      "Timestamp": 1653526344,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 91068,
+      "Restrictor": 0,
+      "Sectors": [
+        37905,
+        27413,
+        25750
+      ],
+      "Timestamp": 1653526351,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 101520,
+      "Restrictor": 0,
+      "Sectors": [
+        37345,
+        27968,
+        36207
+      ],
+      "Timestamp": 1653526359,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91885,
+      "Restrictor": 0,
+      "Sectors": [
+        37426,
+        27999,
+        26460
+      ],
+      "Timestamp": 1653526363,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 90988,
+      "Restrictor": 0,
+      "Sectors": [
+        37384,
+        27617,
+        25987
+      ],
+      "Timestamp": 1653526435,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90729,
+      "Restrictor": 0,
+      "Sectors": [
+        37242,
+        27575,
+        25912
+      ],
+      "Timestamp": 1653526442,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92111,
+      "Restrictor": 0,
+      "Sectors": [
+        37706,
+        28297,
+        26108
+      ],
+      "Timestamp": 1653526455,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 108274,
+      "Restrictor": 0,
+      "Sectors": [
+        54269,
+        27756,
+        26249
+      ],
+      "Timestamp": 1653526467,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90153,
+      "Restrictor": 0,
+      "Sectors": [
+        36733,
+        27045,
+        26375
+      ],
+      "Timestamp": 1653526532,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 101408,
+      "Restrictor": 0,
+      "Sectors": [
+        37301,
+        27459,
+        36648
+      ],
+      "Timestamp": 1653526536,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91627,
+      "Restrictor": 0,
+      "Sectors": [
+        37721,
+        27829,
+        26077
+      ],
+      "Timestamp": 1653526547,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91063,
+      "Restrictor": 0,
+      "Sectors": [
+        37373,
+        27847,
+        25843
+      ],
+      "Timestamp": 1653526558,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 93581,
+      "Restrictor": 0,
+      "Sectors": [
+        38101,
+        28976,
+        26504
+      ],
+      "Timestamp": 1653526626,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 91850,
+      "Restrictor": 0,
+      "Sectors": [
+        37716,
+        28044,
+        26090
+      ],
+      "Timestamp": 1653526638,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 102521,
+      "Restrictor": 0,
+      "Sectors": [
+        50457,
+        26914,
+        25150
+      ],
+      "Timestamp": 1653526639,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91059,
+      "Restrictor": 0,
+      "Sectors": [
+        37248,
+        27611,
+        26200
+      ],
+      "Timestamp": 1653526649,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 89985,
+      "Restrictor": 0,
+      "Sectors": [
+        37132,
+        27202,
+        25651
+      ],
+      "Timestamp": 1653526716,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 88787,
+      "Restrictor": 0,
+      "Sectors": [
+        36696,
+        26802,
+        25289
+      ],
+      "Timestamp": 1653526728,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92356,
+      "Restrictor": 0,
+      "Sectors": [
+        37861,
+        27738,
+        26757
+      ],
+      "Timestamp": 1653526731,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91331,
+      "Restrictor": 0,
+      "Sectors": [
+        37467,
+        27670,
+        26194
+      ],
+      "Timestamp": 1653526740,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 93892,
+      "Restrictor": 0,
+      "Sectors": [
+        39559,
+        27941,
+        26392
+      ],
+      "Timestamp": 1653526810,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 87356,
+      "Restrictor": 0,
+      "Sectors": [
+        35913,
+        26694,
+        24749
+      ],
+      "Timestamp": 1653526815,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92017,
+      "Restrictor": 0,
+      "Sectors": [
+        38372,
+        27622,
+        26023
+      ],
+      "Timestamp": 1653526823,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90691,
+      "Restrictor": 0,
+      "Sectors": [
+        37317,
+        27481,
+        25893
+      ],
+      "Timestamp": 1653526831,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 88189,
+      "Restrictor": 0,
+      "Sectors": [
+        35791,
+        27194,
+        25204
+      ],
+      "Timestamp": 1653526903,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 99149,
+      "Restrictor": 0,
+      "Sectors": [
+        37175,
+        27154,
+        34820
+      ],
+      "Timestamp": 1653526909,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 92553,
+      "Restrictor": 0,
+      "Sectors": [
+        37698,
+        27823,
+        27032
+      ],
+      "Timestamp": 1653526915,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90501,
+      "Restrictor": 0,
+      "Sectors": [
+        37189,
+        27450,
+        25862
+      ],
+      "Timestamp": 1653526922,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "Cuts": 1,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 133984,
+      "Restrictor": 0,
+      "Sectors": [
+        68739,
+        29560,
+        35685
+      ],
+      "Timestamp": 1653526927,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 89880,
+      "Restrictor": 0,
+      "Sectors": [
+        36892,
+        27463,
+        25525
+      ],
+      "Timestamp": 1653526993,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 100960,
+      "Restrictor": 0,
+      "Sectors": [
+        50114,
+        26262,
+        24584
+      ],
+      "Timestamp": 1653527010,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91620,
+      "Restrictor": 0,
+      "Sectors": [
+        38123,
+        27352,
+        26145
+      ],
+      "Timestamp": 1653527013,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 100044,
+      "Restrictor": 0,
+      "Sectors": [
+        37305,
+        27472,
+        35267
+      ],
+      "Timestamp": 1653527015,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 88645,
+      "Restrictor": 0,
+      "Sectors": [
+        36206,
+        27181,
+        25258
+      ],
+      "Timestamp": 1653527082,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 86172,
+      "Restrictor": 0,
+      "Sectors": [
+        35668,
+        26240,
+        24264
+      ],
+      "Timestamp": 1653527096,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90783,
+      "Restrictor": 0,
+      "Sectors": [
+        37404,
+        27656,
+        25723
+      ],
+      "Timestamp": 1653527104,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 101956,
+      "Restrictor": 0,
+      "Sectors": [
+        50674,
+        26653,
+        24629
+      ],
+      "Timestamp": 1653527117,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 88151,
+      "Restrictor": 0,
+      "Sectors": [
+        36154,
+        26910,
+        25087
+      ],
+      "Timestamp": 1653527170,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 87259,
+      "Restrictor": 0,
+      "Sectors": [
+        35788,
+        26671,
+        24800
+      ],
+      "Timestamp": 1653527183,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 92555,
+      "Restrictor": 0,
+      "Sectors": [
+        39028,
+        27468,
+        26059
+      ],
+      "Timestamp": 1653527197,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "Cuts": 1,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 272435,
+      "Restrictor": 0,
+      "Sectors": [
+        219975,
+        26828,
+        25632
+      ],
+      "Timestamp": 1653527200,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 88871,
+      "Restrictor": 0,
+      "Sectors": [
+        36320,
+        27437,
+        25114
+      ],
+      "Timestamp": 1653527206,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 89327,
+      "Restrictor": 0,
+      "Sectors": [
+        36147,
+        27143,
+        26037
+      ],
+      "Timestamp": 1653527259,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 86176,
+      "Restrictor": 0,
+      "Sectors": [
+        35313,
+        26338,
+        24525
+      ],
+      "Timestamp": 1653527269,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 87662,
+      "Restrictor": 0,
+      "Sectors": [
+        35265,
+        26631,
+        25766
+      ],
+      "Timestamp": 1653527288,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91060,
+      "Restrictor": 0,
+      "Sectors": [
+        37722,
+        27418,
+        25920
+      ],
+      "Timestamp": 1653527288,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 88698,
+      "Restrictor": 0,
+      "Sectors": [
+        36439,
+        27135,
+        25124
+      ],
+      "Timestamp": 1653527295,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 89489,
+      "Restrictor": 0,
+      "Sectors": [
+        37091,
+        27050,
+        25348
+      ],
+      "Timestamp": 1653527349,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 86212,
+      "Restrictor": 0,
+      "Sectors": [
+        35312,
+        26303,
+        24597
+      ],
+      "Timestamp": 1653527356,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91612,
+      "Restrictor": 0,
+      "Sectors": [
+        37887,
+        27629,
+        26096
+      ],
+      "Timestamp": 1653527379,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 88290,
+      "Restrictor": 0,
+      "Sectors": [
+        36269,
+        27135,
+        24886
+      ],
+      "Timestamp": 1653527383,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 87099,
+      "Restrictor": 0,
+      "Sectors": [
+        36347,
+        26245,
+        24507
+      ],
+      "Timestamp": 1653527443,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 99201,
+      "Restrictor": 0,
+      "Sectors": [
+        37218,
+        26752,
+        35231
+      ],
+      "Timestamp": 1653527448,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90149,
+      "Restrictor": 0,
+      "Sectors": [
+        37306,
+        27279,
+        25564
+      ],
+      "Timestamp": 1653527469,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 89144,
+      "Restrictor": 0,
+      "Sectors": [
+        36081,
+        28007,
+        25056
+      ],
+      "Timestamp": 1653527472,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 96596,
+      "Restrictor": 0,
+      "Sectors": [
+        36062,
+        26465,
+        34069
+      ],
+      "Timestamp": 1653527539,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 101736,
+      "Restrictor": 0,
+      "Sectors": [
+        50454,
+        26234,
+        25048
+      ],
+      "Timestamp": 1653527549,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 91600,
+      "Restrictor": 0,
+      "Sectors": [
+        37767,
+        27558,
+        26275
+      ],
+      "Timestamp": 1653527561,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 88923,
+      "Restrictor": 0,
+      "Sectors": [
+        36380,
+        27460,
+        25083
+      ],
+      "Timestamp": 1653527561,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 86822,
+      "Restrictor": 0,
+      "Sectors": [
+        35712,
+        26477,
+        24633
+      ],
+      "Timestamp": 1653527636,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 101153,
+      "Restrictor": 0,
+      "Sectors": [
+        50128,
+        26572,
+        24453
+      ],
+      "Timestamp": 1653527641,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 88969,
+      "Restrictor": 0,
+      "Sectors": [
+        36791,
+        27131,
+        25047
+      ],
+      "Timestamp": 1653527650,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90636,
+      "Restrictor": 0,
+      "Sectors": [
+        37940,
+        27212,
+        25484
+      ],
+      "Timestamp": 1653527652,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 1,
+      "DriverGuid": "76561199020371160",
+      "DriverName": "David DaSilva",
+      "LapTime": 135919,
+      "Restrictor": 0,
+      "Sectors": [
+        81028,
+        28787,
+        26104
+      ],
+      "Timestamp": 1653527675,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 88329,
+      "Restrictor": 0,
+      "Sectors": [
+        36106,
+        27099,
+        25124
+      ],
+      "Timestamp": 1653527725,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 85817,
+      "Restrictor": 0,
+      "Sectors": [
+        34940,
+        26361,
+        24516
+      ],
+      "Timestamp": 1653527726,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 88881,
+      "Restrictor": 0,
+      "Sectors": [
+        36159,
+        27058,
+        25664
+      ],
+      "Timestamp": 1653527739,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 90665,
+      "Restrictor": 0,
+      "Sectors": [
+        36994,
+        27117,
+        26554
+      ],
+      "Timestamp": 1653527742,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 0,
+      "DriverGuid": "76561199020371160",
+      "DriverName": "David DaSilva",
+      "LapTime": 95090,
+      "Restrictor": 0,
+      "Sectors": [
+        41838,
+        28030,
+        25222
+      ],
+      "Timestamp": 1653527770,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 87223,
+      "Restrictor": 0,
+      "Sectors": [
+        35253,
+        26622,
+        25348
+      ],
+      "Timestamp": 1653527812,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 85602,
+      "Restrictor": 0,
+      "Sectors": [
+        35084,
+        25889,
+        24629
+      ],
+      "Timestamp": 1653527812,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 89091,
+      "Restrictor": 0,
+      "Sectors": [
+        36674,
+        27343,
+        25074
+      ],
+      "Timestamp": 1653527828,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 103840,
+      "Restrictor": 0,
+      "Sectors": [
+        38356,
+        27810,
+        37674
+      ],
+      "Timestamp": 1653527846,
+      "Tyre": "H",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 0,
+      "DriverGuid": "76561199020371160",
+      "DriverName": "David DaSilva",
+      "LapTime": 92649,
+      "Restrictor": 0,
+      "Sectors": [
+        39796,
+        27589,
+        25264
+      ],
+      "Timestamp": 1653527863,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 85671,
+      "Restrictor": 0,
+      "Sectors": [
+        35356,
+        26010,
+        24305
+      ],
+      "Timestamp": 1653527898,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 88667,
+      "Restrictor": 0,
+      "Sectors": [
+        36427,
+        26928,
+        25312
+      ],
+      "Timestamp": 1653527917,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 105436,
+      "Restrictor": 0,
+      "Sectors": [
+        36181,
+        26271,
+        42984
+      ],
+      "Timestamp": 1653527917,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "Cuts": 1,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 657398,
+      "Restrictor": 0,
+      "Sectors": [
+        605612,
+        26829,
+        24957
+      ],
+      "Timestamp": 1653527945,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 106629,
+      "Restrictor": 0,
+      "Sectors": [
+        54946,
+        26888,
+        24795
+      ],
+      "Timestamp": 1653527953,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 1,
+      "DriverGuid": "76561199020371160",
+      "DriverName": "David DaSilva",
+      "LapTime": 92880,
+      "Restrictor": 0,
+      "Sectors": [
+        37327,
+        28179,
+        27374
+      ],
+      "Timestamp": 1653527956,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 86480,
+      "Restrictor": 0,
+      "Sectors": [
+        35766,
+        26284,
+        24430
+      ],
+      "Timestamp": 1653527984,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 90133,
+      "Restrictor": 0,
+      "Sectors": [
+        36961,
+        27896,
+        25276
+      ],
+      "Timestamp": 1653528007,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 1,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 104208,
+      "Restrictor": 0,
+      "Sectors": [
+        52143,
+        27737,
+        24328
+      ],
+      "Timestamp": 1653528021,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 86294,
+      "Restrictor": 0,
+      "Sectors": [
+        35237,
+        26452,
+        24605
+      ],
+      "Timestamp": 1653528031,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 89473,
+      "Restrictor": 0,
+      "Sectors": [
+        37646,
+        26730,
+        25097
+      ],
+      "Timestamp": 1653528042,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "gp_2022_c42",
+      "Cuts": 1,
+      "DriverGuid": "76561199020371160",
+      "DriverName": "David DaSilva",
+      "LapTime": 90040,
+      "Restrictor": 0,
+      "Sectors": [
+        37314,
+        27018,
+        25708
+      ],
+      "Timestamp": 1653528046,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 90101,
+      "Restrictor": 0,
+      "Sectors": [
+        35687,
+        28962,
+        25452
+      ],
+      "Timestamp": 1653528074,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 90370,
+      "Restrictor": 0,
+      "Sectors": [
+        37171,
+        27473,
+        25726
+      ],
+      "Timestamp": 1653528097,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 85959,
+      "Restrictor": 0,
+      "Sectors": [
+        34920,
+        26743,
+        24296
+      ],
+      "Timestamp": 1653528107,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 86583,
+      "Restrictor": 0,
+      "Sectors": [
+        35463,
+        26320,
+        24800
+      ],
+      "Timestamp": 1653528118,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 1,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 88606,
+      "Restrictor": 0,
+      "Sectors": [
+        36204,
+        26712,
+        25690
+      ],
+      "Timestamp": 1653528131,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "Cuts": 0,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 98859,
+      "Restrictor": 0,
+      "Sectors": [
+        36732,
+        26729,
+        35398
+      ],
+      "Timestamp": 1653528173,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "LapTime": 90577,
+      "Restrictor": 0,
+      "Sectors": [
+        37014,
+        27809,
+        25754
+      ],
+      "Timestamp": 1653528188,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "Cuts": 0,
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "LapTime": 88029,
+      "Restrictor": 0,
+      "Sectors": [
+        36053,
+        26929,
+        25047
+      ],
+      "Timestamp": 1653528195,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "Cuts": 0,
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "LapTime": 87187,
+      "Restrictor": 0,
+      "Sectors": [
+        35545,
+        26838,
+        24804
+      ],
+      "Timestamp": 1653528205,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "Cuts": 0,
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "LapTime": 86378,
+      "Restrictor": 0,
+      "Sectors": [
+        35547,
+        26221,
+        24610
+      ],
+      "Timestamp": 1653528217,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 85602,
+      "CarId": 9,
+      "CarModel": "gp_2022_fw44",
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "Restrictor": 0,
+      "TotalTime": 3202234,
+      "NumLaps": 35,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 88290,
+      "CarId": 14,
+      "CarModel": "gp_2022_rb18",
+      "DriverGuid": "76561198351639213",
+      "DriverName": "Busken",
+      "Restrictor": 0,
+      "TotalTime": 3217095,
+      "NumLaps": 35,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 85959,
+      "CarId": 13,
+      "CarModel": "gp_2022_rb18",
+      "DriverGuid": "76561198427997277",
+      "DriverName": "Naomi Schiff",
+      "Restrictor": 0,
+      "TotalTime": 3224707,
+      "NumLaps": 35,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 86378,
+      "CarId": 3,
+      "CarModel": "gp_2022_at03",
+      "DriverGuid": "76561198086350935",
+      "DriverName": "hortonhearsadan",
+      "Restrictor": 0,
+      "TotalTime": 3246397,
+      "NumLaps": 35,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 91501,
+      "CarId": 15,
+      "CarModel": "gp_2022_w13",
+      "DriverGuid": "76561198199117534",
+      "DriverName": "Mac Pearmain",
+      "Restrictor": 0,
+      "TotalTime": 722166,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 86294,
+      "CarId": 7,
+      "CarModel": "gp_2022_f175",
+      "DriverGuid": "76561199185321800",
+      "DriverName": "Boogie",
+      "Restrictor": 0,
+      "TotalTime": 3234194,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 92649,
+      "CarId": 5,
+      "CarModel": "gp_2022_c42",
+      "DriverGuid": "76561199020371160",
+      "DriverName": "David DaSilva",
+      "Restrictor": 0,
+      "TotalTime": 3075050,
+      "NumLaps": 5,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 0
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "a",
+  "TrackName": "gt_autodromo_lago_maggiore",
+  "Type": "RACE",
+  "Date": "2022-05-25T19:24:00-07:00",
+  "SessionFile": "2022_5_25_19_24_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 0,
+    "laps": 35,
+    "is_open": 1,
+    "wait_time": 120,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

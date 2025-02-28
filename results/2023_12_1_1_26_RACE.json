@@ -1,0 +1,942 @@
+{
+  "Version": 6,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198149119092",
+        "GuidsList": [
+          "76561198149119092",
+          "76561199087765581",
+          "76561199362462556",
+          "76561198103843545"
+        ],
+        "Name": "DoostinDoo",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "RB19_Miami_1_Verstappen",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 163,
+      "MaxPing": 183
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561199362462556",
+        "GuidsList": [
+          "76561199362462556",
+          "76561199064216968"
+        ],
+        "Name": "Player",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "W14_44_Hamilton",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 171,
+      "MaxPing": 181
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "W14_63_Russell",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 69,
+      "MaxPing": 73
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198944280912",
+        "GuidsList": [
+          "76561198944280912"
+        ],
+        "Name": "MrBiblyBoo",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "RB19_11_Perez",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561199199663884",
+        "GuidsList": [
+          "76561199199663884"
+        ],
+        "Name": "Rogue",
+        "Nation": "NZL",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "SF23_16_Leclerc",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 161,
+      "MaxPing": 163
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561198097578195",
+        "GuidsList": [
+          "76561198097578195"
+        ],
+        "Name": "Borukhai",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "SF23_55_Sainz",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198129237101",
+        "GuidsList": [
+          "76561198129237101"
+        ],
+        "Name": "NOISEYWALKER",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "VF23_20_Magnussen",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 80,
+      "MaxPing": 84
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561198414670985",
+        "GuidsList": [
+          "76561198414670985"
+        ],
+        "Name": "Slick",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "VF23_27_Hulkenberg",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 182,
+      "MaxPing": 185
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "C43_24_Zhou",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 80,
+      "MaxPing": 312
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198990794608",
+        "GuidsList": [
+          "76561198990794608"
+        ],
+        "Name": "razvanvan",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "C43_77_Bottas",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 193,
+      "MaxPing": 210
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561199572371080",
+        "GuidsList": [
+          "76561199572371080"
+        ],
+        "Name": "eros",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "AMR23_14_Alonso",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 193,
+      "MaxPing": 378
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198376674314",
+        "GuidsList": [
+          "76561198376674314"
+        ],
+        "Name": "Alex",
+        "Nation": "NZL",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "AMR23_18_Stroll",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 191,
+      "MaxPing": 198
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561198059252759",
+        "GuidsList": [
+          "76561198059252759"
+        ],
+        "Name": "TEI",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "A523_10_Gasly",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 174,
+      "MaxPing": 184
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198866378787",
+        "GuidsList": [
+          "76561198866378787"
+        ],
+        "Name": "ZeroFrz",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "A523_31_Ocon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198393069976",
+        "GuidsList": [
+          "76561198393069976"
+        ],
+        "Name": "Gentle Gear YT",
+        "Nation": "IND",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "4_mcl60",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561198251333482",
+        "GuidsList": [
+          "76561198251333482"
+        ],
+        "Name": "F. Polelli",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "81_mcl60",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 109,
+      "MaxPing": 118
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561199120884669",
+        "GuidsList": [
+          "76561199120884669"
+        ],
+        "Name": "loonis.sam",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "3_Scuderia_AlphaTauri_AT04",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 149,
+      "MaxPing": 157
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199102456047",
+        "GuidsList": [
+          "76561199102456047"
+        ],
+        "Name": "the_moucheee",
+        "Nation": "FRA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "22_Scuderia_AlphaTauri_AT04",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 154,
+      "MaxPing": 204
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561198301367064",
+        "GuidsList": [
+          "76561198301367064"
+        ],
+        "Name": "Waldo",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "Williams_23",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 95,
+      "MaxPing": 100
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561199428699378",
+        "GuidsList": [
+          "76561199428699378"
+        ],
+        "Name": "SSG_Aidxn",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "Williams_2",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 81,
+      "MaxPing": 105
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561199033146608",
+        "GuidsList": [
+          "76561199033146608"
+        ],
+        "Name": "Gildfroy",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "10_gsi_luxe_78",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 33,
+      "MaxPing": 37
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198017481596",
+        "GuidsList": [
+          "76561198017481596"
+        ],
+        "Name": "AndyQ",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "07_gsi_ascent_24",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 100,
+      "MaxPing": 123
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "Driver": {
+        "Guid": "76561198085542683",
+        "GuidsList": [
+          "76561198085542683"
+        ],
+        "Name": "quas",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "13_gsi_suzuki_35",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 24,
+      "MaxPing": 64
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "Driver": {
+        "Guid": "76561199013961824",
+        "GuidsList": [
+          "76561199013961824"
+        ],
+        "Name": "ejayyski",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_hybrid_2023",
+      "Restrictor": 0,
+      "Skin": "20_gsi_simucube_18",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 21,
+      "MaxPing": 47
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 23,
+      "Driver": {
+        "Guid": "76561199013961824",
+        "GuidsList": [
+          "76561199013961824"
+        ],
+        "Name": "ejayyski",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 32.2828,
+      "OtherCarId": 22,
+      "OtherDriver": {
+        "Guid": "76561198085542683",
+        "GuidsList": [
+          "76561198085542683"
+        ],
+        "Name": "quas",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9920944,
+        "Y": -0.10810691,
+        "Z": -1.3158062
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 454.68436,
+        "Y": 2.982371,
+        "Z": -130.71378
+      },
+      "Timestamp": 1701421907,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 22,
+      "Driver": {
+        "Guid": "76561198085542683",
+        "GuidsList": [
+          "76561198085542683"
+        ],
+        "Name": "quas",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 27.776075,
+      "OtherCarId": 23,
+      "OtherDriver": {
+        "Guid": "76561199013961824",
+        "GuidsList": [
+          "76561199013961824"
+        ],
+        "Name": "ejayyski",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9671568,
+        "Y": 0.23158401,
+        "Z": 1.699936
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 454.72134,
+        "Y": 3.3859806,
+        "Z": -131.5498
+      },
+      "Timestamp": 1701421908,
+      "AfterSessionEnd": false
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "LapTime": 104258,
+      "Restrictor": 0,
+      "Sectors": [
+        30899,
+        45037,
+        28322
+      ],
+      "Timestamp": 1701421945,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 104964,
+      "Restrictor": 0,
+      "Sectors": [
+        30677,
+        45590,
+        28697
+      ],
+      "Timestamp": 1701421946,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 100529,
+      "Restrictor": 0,
+      "Sectors": [
+        25560,
+        40391,
+        34578
+      ],
+      "Timestamp": 1701422046,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 1,
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "LapTime": 101694,
+      "Restrictor": 0,
+      "Sectors": [
+        26188,
+        41742,
+        33764
+      ],
+      "Timestamp": 1701422047,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 94399,
+      "Restrictor": 0,
+      "Sectors": [
+        25752,
+        41345,
+        27302
+      ],
+      "Timestamp": 1701422141,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "LapTime": 94833,
+      "Restrictor": 0,
+      "Sectors": [
+        25402,
+        41828,
+        27603
+      ],
+      "Timestamp": 1701422142,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 108190,
+      "Restrictor": 0,
+      "Sectors": [
+        25313,
+        52075,
+        30802
+      ],
+      "Timestamp": 1701422249,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 154040,
+      "Restrictor": 0,
+      "Sectors": [
+        86145,
+        41067,
+        26828
+      ],
+      "Timestamp": 1701422403,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "LapTime": 262925,
+      "Restrictor": 0,
+      "Sectors": [
+        194067,
+        41575,
+        27283
+      ],
+      "Timestamp": 1701422405,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 101365,
+      "Restrictor": 0,
+      "Sectors": [
+        25279,
+        43340,
+        32746
+      ],
+      "Timestamp": 1701422504,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "LapTime": 101505,
+      "Restrictor": 0,
+      "Sectors": [
+        25311,
+        44792,
+        31402
+      ],
+      "Timestamp": 1701422506,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 94739,
+      "Restrictor": 0,
+      "Sectors": [
+        26155,
+        41287,
+        27297
+      ],
+      "Timestamp": 1701422599,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "LapTime": 94418,
+      "Restrictor": 0,
+      "Sectors": [
+        25577,
+        41482,
+        27359
+      ],
+      "Timestamp": 1701422601,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "LapTime": 118748,
+      "Restrictor": 0,
+      "Sectors": [
+        27196,
+        57771,
+        33781
+      ],
+      "Timestamp": 1701422718,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "Cuts": 0,
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "LapTime": 119874,
+      "Restrictor": 0,
+      "Sectors": [
+        25770,
+        55012,
+        39092
+      ],
+      "Timestamp": 1701422720,
+      "Tyre": "C4",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 94399,
+      "CarId": 22,
+      "CarModel": "rss_formula_hybrid_2023",
+      "DriverGuid": "76561198085542683",
+      "DriverName": "quas",
+      "Restrictor": 0,
+      "TotalTime": 876947,
+      "NumLaps": 8,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 3
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 94418,
+      "CarId": 23,
+      "CarModel": "rss_formula_hybrid_2023",
+      "DriverGuid": "76561199013961824",
+      "DriverName": "ejayyski",
+      "Restrictor": 0,
+      "TotalTime": 879521,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 2
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "gp",
+  "TrackName": "ks_silverstone",
+  "Type": "RACE",
+  "Date": "2023-12-01T01:26:00-08:00",
+  "SessionFile": "2023_12_1_1_26_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 0,
+    "laps": 8,
+    "is_open": 1,
+    "wait_time": 35,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

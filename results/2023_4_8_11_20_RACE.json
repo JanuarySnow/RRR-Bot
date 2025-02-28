@@ -1,0 +1,6278 @@
+{
+  "Version": 5,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198256324629",
+        "GuidsList": [
+          "76561198256324629"
+        ],
+        "Name": "LonelyDriver",
+        "Nation": "HRV",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "fsr_audi_lms_evo_ii_gt3",
+      "Restrictor": 0,
+      "Skin": "skin_00",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 154
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "fsr_audi_lms_evo_ii_gt3",
+      "Restrictor": 0,
+      "Skin": "TEMPLATE",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 54,
+      "MaxPing": 69
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199137436404",
+        "GuidsList": [
+          "76561199137436404"
+        ],
+        "Name": "H. Clampitt",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amg_evo_gt3_2020",
+      "Restrictor": 14,
+      "Skin": "SPS_Automotive_#20",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 119,
+      "MaxPing": 159
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amg_evo_gt3_2020",
+      "Restrictor": 14,
+      "Skin": "N24h_Getspeed_#9",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_IGT_9H_Pro_r_motorsport_76",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 157,
+      "MaxPing": 418
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_amr_v8_vantage_gt3_acc",
+      "Restrictor": 0,
+      "Skin": "2019_BPGT_Pro_r_motorsport_62",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bentley_continental_gt3_18_acc",
+      "Restrictor": 0,
+      "Skin": "2019_msport_108",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bentley_continental_gt3_18_acc",
+      "Restrictor": 0,
+      "Skin": "6_KPAX",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561197971176884",
+        "GuidsList": [
+          "76561197971176884"
+        ],
+        "Name": "mcownd",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bmw_m4_gt3",
+      "Restrictor": 2,
+      "Skin": "Nova pasta",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 91,
+      "MaxPing": 118
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_bmw_m4_gt3",
+      "Restrictor": 2,
+      "Skin": "#82 bmw_werkslivery",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198059805995",
+        "GuidsList": [
+          "76561198059805995"
+        ],
+        "Name": "Vennasmin",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_crsh_porsche_gt3_2019_endurance",
+      "Restrictor": 0,
+      "Skin": "rowe_racing_98_macau_2019",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 88
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561199008895909",
+        "GuidsList": [
+          "76561199008895909"
+        ],
+        "Name": "OrangeFruit510",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_crsh_porsche_gt3_2019_endurance",
+      "Restrictor": 0,
+      "Skin": "ssr_performance_92_gt_masters_2019",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 52,
+      "MaxPing": 67
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_ferrari_488_gt3_acc",
+      "Restrictor": 8,
+      "Skin": "3_T2 Motorsport",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_ferrari_488_gt3_acc",
+      "Restrictor": 8,
+      "Skin": "LeMans_2019_Risi_Competizione_89",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Restrictor": 6,
+      "Skin": "FF_Honda_Team_JAS_30_Spa24_2019",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 36,
+      "MaxPing": 52
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Restrictor": 6,
+      "Skin": "FF_Honda_Team_JAS_30_Bathurst12_2020",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 49,
+      "MaxPing": 66
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_lexus_rcf_gt3_acc",
+      "Restrictor": 2,
+      "Skin": "BWT_YY",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 40,
+      "MaxPing": 56
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_lexus_rcf_gt3_acc",
+      "Restrictor": 2,
+      "Skin": "aimvasser_daytona2020_12",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_mclaren_720_gt3_acc",
+      "Restrictor": 2,
+      "Skin": "tigerK",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_nissan_gtr_gt3_2018",
+      "Restrictor": 0,
+      "Skin": "rjn_team_motul_#23",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_nissan_gtr_gt3_2018",
+      "Restrictor": 0,
+      "Skin": "kcmg_igtc_california_#18",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Restrictor": 20,
+      "Skin": "03",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 130,
+      "MaxPing": 148
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 22,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Restrictor": 20,
+      "Skin": "04",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "Driver": {
+        "Guid": "76561198391538774",
+        "GuidsList": [
+          "76561198391538774"
+        ],
+        "Name": "VM LividFizz",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "bg_mercedes_amg_gt_black_series",
+      "Restrictor": 0,
+      "Skin": "Safety-Car 2022",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 51,
+      "MaxPing": 70
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.8051361,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0253515,
+        "Y": 0.20564654,
+        "Z": -1.6444622
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 4.0230026,
+        "Y": -2.0008295,
+        "Z": -636.4988
+      },
+      "Timestamp": 1680970330,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 26.023129,
+      "OtherCarId": 1,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.90039825,
+        "Y": -0.30601034,
+        "Z": -0.08217175
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -154.7769,
+        "Y": 14.082155,
+        "Z": -464.21704
+      },
+      "Timestamp": 1680970500,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.6208005,
+      "OtherCarId": 4,
+      "OtherDriver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9963432,
+        "Y": -0.2913931,
+        "Z": 1.7651222
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -153.89789,
+        "Y": 14.157202,
+        "Z": -465.71252
+      },
+      "Timestamp": 1680970502,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 11.934832,
+      "OtherCarId": 1,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0219761,
+        "Y": 0.13465916,
+        "Z": -0.99963915
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -211.65274,
+        "Y": 11.860449,
+        "Z": -426.7347
+      },
+      "Timestamp": 1680970785,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.0236154,
+      "OtherCarId": 4,
+      "OtherDriver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.99870217,
+        "Y": 0.16122918,
+        "Z": 1.1978686
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -211.50569,
+        "Y": 11.922405,
+        "Z": -429.01553
+      },
+      "Timestamp": 1680970787,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 0.88222957,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0253652,
+        "Y": 0.20564578,
+        "Z": -1.6444561
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -140.78516,
+        "Y": 8.204647,
+        "Z": -793.5883
+      },
+      "Timestamp": 1680970820,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 41.40723,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.96708053,
+        "Y": -0.30779755,
+        "Z": 2.001608
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 578.42694,
+        "Y": 73.037346,
+        "Z": 814.045
+      },
+      "Timestamp": 1680971000,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "JX25",
+        "Nation": "VEN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.9725776,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0185553,
+        "Y": 0.12223211,
+        "Z": -0.9947966
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 582.28235,
+        "Y": 73.48446,
+        "Z": 828.5404
+      },
+      "Timestamp": 1680971005,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198059805995",
+        "GuidsList": [
+          "76561198059805995"
+        ],
+        "Name": "Vennasmin",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 14.810543,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.44927678,
+        "Y": -0.2564628,
+        "Z": 2.4985154
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 280.15857,
+        "Y": 55.449646,
+        "Z": 1046.103
+      },
+      "Timestamp": 1680971325,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 6.3328648,
+      "OtherCarId": 14,
+      "OtherDriver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.99837375,
+        "Y": -0.07867104,
+        "Z": -1.4833565
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 392.15457,
+        "Y": 40.45679,
+        "Z": 899.6819
+      },
+      "Timestamp": 1680971424,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561198085102671",
+        "GuidsList": [
+          "76561198085102671"
+        ],
+        "Name": "Steve",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.513987,
+      "OtherCarId": 15,
+      "OtherDriver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.006838,
+        "Y": 0.16272013,
+        "Z": 1.8010387
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 392.63153,
+        "Y": 40.635807,
+        "Z": 899.0942
+      },
+      "Timestamp": 1680971424,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.2717568,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0010555,
+        "Y": 0.2810073,
+        "Z": 1.2760607
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -151.22414,
+        "Y": 9.035877,
+        "Z": -803.7733
+      },
+      "Timestamp": 1680971852,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198059805995",
+        "GuidsList": [
+          "76561198059805995"
+        ],
+        "Name": "Vennasmin",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.204656,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.99744964,
+        "Y": 0.3903159,
+        "Z": -1.191543
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -155.76233,
+        "Y": 9.400763,
+        "Z": -807.91516
+      },
+      "Timestamp": 1680971896,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198059805995",
+        "GuidsList": [
+          "76561198059805995"
+        ],
+        "Name": "Vennasmin",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 25.535315,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.55749905,
+        "Y": -0.2623528,
+        "Z": 2.4024472
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 271.252,
+        "Y": 52.505375,
+        "Z": 1015.04474
+      },
+      "Timestamp": 1680971941,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199137436404",
+        "GuidsList": [
+          "76561199137436404"
+        ],
+        "Name": "H. Clampitt",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 12.763356,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0380168,
+        "Y": 0.37239844,
+        "Z": 1.5062147
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -433.4628,
+        "Y": 27.907211,
+        "Z": -952.624
+      },
+      "Timestamp": 1680972080,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 49.376175,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9006924,
+        "Y": 0.22971374,
+        "Z": 1.8355683
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 558.55756,
+        "Y": 73.818054,
+        "Z": 744.9952
+      },
+      "Timestamp": 1680972167,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 1.7947222,
+      "OtherCarId": 2,
+      "OtherDriver": {
+        "Guid": "76561199137436404",
+        "GuidsList": [
+          "76561199137436404"
+        ],
+        "Name": "H. Clampitt",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0362821,
+        "Y": 0.2669484,
+        "Z": -1.7037956
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -153.44891,
+        "Y": 14.872509,
+        "Z": -469.27985
+      },
+      "Timestamp": 1680972205,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561199137436404",
+        "GuidsList": [
+          "76561199137436404"
+        ],
+        "Name": "H. Clampitt",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 14.998235,
+      "OtherCarId": 21,
+      "OtherDriver": {
+        "Guid": "76561198264410792",
+        "GuidsList": [
+          "76561198264410792"
+        ],
+        "Name": "Gustav Hartgas",
+        "Nation": "DEU",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 1.038001,
+        "Y": -0.28428343,
+        "Z": 2.111243
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -152.9774,
+        "Y": 14.335427,
+        "Z": -470.1796
+      },
+      "Timestamp": 1680972205,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 68.269264,
+      "OtherCarId": 15,
+      "OtherDriver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0008581,
+        "Y": -0.30494478,
+        "Z": -1.7197386
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -432.1549,
+        "Y": 27.430693,
+        "Z": -914.66516
+      },
+      "Timestamp": 1680972417,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 71.156624,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.4731437,
+        "Y": 0.05324707,
+        "Z": 2.3278868
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -462.17822,
+        "Y": 29.952732,
+        "Z": -947.69415
+      },
+      "Timestamp": 1680972417,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 53.30587,
+      "OtherCarId": 1,
+      "OtherDriver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.5240844,
+        "Y": -0.17273243,
+        "Z": 2.4494936
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -432.20465,
+        "Y": 27.483892,
+        "Z": -914.8031
+      },
+      "Timestamp": 1680972419,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 3.6298616,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.90320826,
+        "Y": 0.7055091,
+        "Z": -2.102237
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -474.01016,
+        "Y": 31.354546,
+        "Z": -967.7463
+      },
+      "Timestamp": 1680972422,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 3.185369,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0156724,
+        "Y": -0.331733,
+        "Z": 1.6678809
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -133.02756,
+        "Y": 15.675078,
+        "Z": -498.39288
+      },
+      "Timestamp": 1680972880,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.382583,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0008683,
+        "Y": -0.30494532,
+        "Z": -1.7197229
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -126.42302,
+        "Y": 15.391095,
+        "Z": -484.25473
+      },
+      "Timestamp": 1680972988,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198059805995",
+        "GuidsList": [
+          "76561198059805995"
+        ],
+        "Name": "Vennasmin",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 75.86372,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.553978,
+        "Y": -0.05776076,
+        "Z": 2.3596232
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -228.39322,
+        "Y": 12.1266165,
+        "Z": -420.87262
+      },
+      "Timestamp": 1680973091,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198256324629",
+        "GuidsList": [
+          "76561198256324629"
+        ],
+        "Name": "LonelyDriver",
+        "Nation": "HRV",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 24.638662,
+      "OtherCarId": 15,
+      "OtherDriver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.26934782,
+        "Y": -0.29652536,
+        "Z": 2.4173517
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 390.22574,
+        "Y": 33.693882,
+        "Z": 808.1544
+      },
+      "Timestamp": 1680973256,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 31.4676,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "76561198256324629",
+        "GuidsList": [
+          "76561198256324629"
+        ],
+        "Name": "LonelyDriver",
+        "Nation": "HRV",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.22618411,
+        "Y": -0.28101003,
+        "Z": -1.9434152
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 390.1367,
+        "Y": 33.76134,
+        "Z": 808.75714
+      },
+      "Timestamp": 1680973259,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198059805995",
+        "GuidsList": [
+          "76561198059805995"
+        ],
+        "Name": "Vennasmin",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 139.88126,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.802582,
+        "Y": -0.25579345,
+        "Z": 2.3072283
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -470.8022,
+        "Y": 31.367918,
+        "Z": -1004.5539
+      },
+      "Timestamp": 1680973261,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199213163170",
+        "GuidsList": [
+          "76561199213163170"
+        ],
+        "Name": "flya310q",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 4.68124,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0199493,
+        "Y": -0.27560169,
+        "Z": 1.832339
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -439.3559,
+        "Y": -22.257448,
+        "Z": 938.41486
+      },
+      "Timestamp": 1680973299,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 5.548506,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0068121,
+        "Y": 0.33064973,
+        "Z": -0.12902811
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -433.0466,
+        "Y": 27.891582,
+        "Z": -952.96594
+      },
+      "Timestamp": 1680973616,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198065400100",
+        "GuidsList": [
+          "76561198065400100"
+        ],
+        "Name": "Chloroform",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 62.187107,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.9960643,
+        "Y": -0.34038463,
+        "Z": 1.8069738
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 553.4054,
+        "Y": 72.86841,
+        "Z": 707.8077
+      },
+      "Timestamp": 1680973923,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 51.49207,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "76561198256324629",
+        "GuidsList": [
+          "76561198256324629"
+        ],
+        "Name": "LonelyDriver",
+        "Nation": "HRV",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.5091806,
+        "Y": -0.33123407,
+        "Z": 2.2837133
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -438.9211,
+        "Y": 29.12057,
+        "Z": -979.7454
+      },
+      "Timestamp": 1680974181,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198256324629",
+        "GuidsList": [
+          "76561198256324629"
+        ],
+        "Name": "LonelyDriver",
+        "Nation": "HRV",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 62.639797,
+      "OtherCarId": 16,
+      "OtherDriver": {
+        "Guid": "76561198287158193",
+        "GuidsList": [
+          "76561198287158193"
+        ],
+        "Name": "BassCannon",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.95923907,
+        "Y": -0.3226312,
+        "Z": -1.3597869
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -438.88007,
+        "Y": 29.11206,
+        "Z": -979.14166
+      },
+      "Timestamp": 1680974181,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561197971176884",
+        "GuidsList": [
+          "76561197971176884"
+        ],
+        "Name": "mcownd",
+        "Nation": "CAN",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "ImpactSpeed": 7.53728,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.51157814,
+        "Y": -0.2940076,
+        "Z": 2.3924952
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -328.9097,
+        "Y": 21.652895,
+        "Z": -780.6177
+      },
+      "Timestamp": 1680974213,
+      "AfterSessionEnd": false
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 23,
+      "CarModel": "bg_mercedes_amg_gt_black_series",
+      "Cuts": 1,
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "LapTime": 208835,
+      "Restrictor": 0,
+      "Sectors": [
+        64962,
+        80833,
+        63040
+      ],
+      "Timestamp": 1680970498,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 2,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 213585,
+      "Restrictor": 0,
+      "Sectors": [
+        65440,
+        80743,
+        67402
+      ],
+      "Timestamp": 1680970503,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 214035,
+      "Restrictor": 2,
+      "Sectors": [
+        65643,
+        81630,
+        66762
+      ],
+      "Timestamp": 1680970503,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 214355,
+      "Restrictor": 14,
+      "Sectors": [
+        66251,
+        81765,
+        66339
+      ],
+      "Timestamp": 1680970503,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 1,
+      "DriverGuid": "76561199008895909",
+      "DriverName": "OrangeFruit510",
+      "LapTime": 215130,
+      "Restrictor": 0,
+      "Sectors": [
+        66886,
+        81419,
+        66825
+      ],
+      "Timestamp": 1680970504,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 215970,
+      "Restrictor": 6,
+      "Sectors": [
+        67524,
+        81859,
+        66587
+      ],
+      "Timestamp": 1680970505,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 1,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 215974,
+      "Restrictor": 20,
+      "Sectors": [
+        67397,
+        81558,
+        67019
+      ],
+      "Timestamp": 1680970505,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 217073,
+      "Restrictor": 0,
+      "Sectors": [
+        68605,
+        81536,
+        66932
+      ],
+      "Timestamp": 1680970506,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "vm_amr_v8_vantage_gt3_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561197960267366",
+      "DriverName": "JX25",
+      "LapTime": 217076,
+      "Restrictor": 0,
+      "Sectors": [
+        68365,
+        81364,
+        67347
+      ],
+      "Timestamp": 1680970506,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 1,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 218476,
+      "Restrictor": 0,
+      "Sectors": [
+        70494,
+        83502,
+        64480
+      ],
+      "Timestamp": 1680970507,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 219888,
+      "Restrictor": 6,
+      "Sectors": [
+        69713,
+        83997,
+        66178
+      ],
+      "Timestamp": 1680970509,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 141461,
+      "Restrictor": 0,
+      "Sectors": [
+        41093,
+        63378,
+        36990
+      ],
+      "Timestamp": 1680970644,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 141376,
+      "Restrictor": 2,
+      "Sectors": [
+        40995,
+        63517,
+        36864
+      ],
+      "Timestamp": 1680970644,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 142338,
+      "Restrictor": 14,
+      "Sectors": [
+        41771,
+        63811,
+        36756
+      ],
+      "Timestamp": 1680970646,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 1,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 143799,
+      "Restrictor": 20,
+      "Sectors": [
+        41230,
+        64805,
+        37764
+      ],
+      "Timestamp": 1680970649,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "vm_amr_v8_vantage_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561197960267366",
+      "DriverName": "JX25",
+      "LapTime": 143363,
+      "Restrictor": 0,
+      "Sectors": [
+        41299,
+        64688,
+        37376
+      ],
+      "Timestamp": 1680970649,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 144877,
+      "Restrictor": 6,
+      "Sectors": [
+        41593,
+        65911,
+        37373
+      ],
+      "Timestamp": 1680970650,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 2,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 144524,
+      "Restrictor": 0,
+      "Sectors": [
+        41416,
+        65740,
+        37368
+      ],
+      "Timestamp": 1680970651,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 147885,
+      "Restrictor": 0,
+      "Sectors": [
+        42346,
+        66249,
+        39290
+      ],
+      "Timestamp": 1680970655,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 166621,
+      "Restrictor": 6,
+      "Sectors": [
+        48600,
+        74362,
+        43659
+      ],
+      "Timestamp": 1680970675,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 140353,
+      "Restrictor": 0,
+      "Sectors": [
+        40543,
+        62924,
+        36886
+      ],
+      "Timestamp": 1680970784,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 140320,
+      "Restrictor": 2,
+      "Sectors": [
+        40744,
+        62847,
+        36729
+      ],
+      "Timestamp": 1680970785,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 141012,
+      "Restrictor": 14,
+      "Sectors": [
+        40972,
+        63504,
+        36536
+      ],
+      "Timestamp": 1680970787,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 1,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141407,
+      "Restrictor": 20,
+      "Sectors": [
+        40563,
+        64160,
+        36684
+      ],
+      "Timestamp": 1680970790,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 140761,
+      "Restrictor": 6,
+      "Sectors": [
+        40290,
+        63720,
+        36751
+      ],
+      "Timestamp": 1680970791,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 144331,
+      "Restrictor": 0,
+      "Sectors": [
+        41078,
+        63946,
+        39307
+      ],
+      "Timestamp": 1680970795,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "vm_amr_v8_vantage_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561197960267366",
+      "DriverName": "JX25",
+      "LapTime": 151482,
+      "Restrictor": 0,
+      "Sectors": [
+        40853,
+        65800,
+        44829
+      ],
+      "Timestamp": 1680970801,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 148634,
+      "Restrictor": 0,
+      "Sectors": [
+        42092,
+        68382,
+        38160
+      ],
+      "Timestamp": 1680970804,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 165934,
+      "Restrictor": 6,
+      "Sectors": [
+        46257,
+        76806,
+        42871
+      ],
+      "Timestamp": 1680970841,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 140482,
+      "Restrictor": 0,
+      "Sectors": [
+        40370,
+        63347,
+        36765
+      ],
+      "Timestamp": 1680970925,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 140554,
+      "Restrictor": 2,
+      "Sectors": [
+        40604,
+        63158,
+        36792
+      ],
+      "Timestamp": 1680970925,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 139999,
+      "Restrictor": 14,
+      "Sectors": [
+        40167,
+        63215,
+        36617
+      ],
+      "Timestamp": 1680970927,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141752,
+      "Restrictor": 20,
+      "Sectors": [
+        40115,
+        64863,
+        36774
+      ],
+      "Timestamp": 1680970932,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142228,
+      "Restrictor": 6,
+      "Sectors": [
+        39804,
+        65205,
+        37219
+      ],
+      "Timestamp": 1680970933,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 146021,
+      "Restrictor": 0,
+      "Sectors": [
+        43376,
+        64684,
+        37961
+      ],
+      "Timestamp": 1680970941,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "vm_amr_v8_vantage_gt3_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561197960267366",
+      "DriverName": "JX25",
+      "LapTime": 148716,
+      "Restrictor": 0,
+      "Sectors": [
+        40441,
+        71051,
+        37224
+      ],
+      "Timestamp": 1680970950,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 146284,
+      "Restrictor": 0,
+      "Sectors": [
+        42145,
+        66883,
+        37256
+      ],
+      "Timestamp": 1680970950,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 175911,
+      "Restrictor": 6,
+      "Sectors": [
+        47647,
+        77616,
+        50648
+      ],
+      "Timestamp": 1680971017,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 141287,
+      "Restrictor": 0,
+      "Sectors": [
+        40443,
+        63432,
+        37412
+      ],
+      "Timestamp": 1680971066,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 141085,
+      "Restrictor": 2,
+      "Sectors": [
+        40064,
+        63774,
+        37247
+      ],
+      "Timestamp": 1680971066,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140559,
+      "Restrictor": 14,
+      "Sectors": [
+        40424,
+        63626,
+        36509
+      ],
+      "Timestamp": 1680971067,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141316,
+      "Restrictor": 20,
+      "Sectors": [
+        40178,
+        64044,
+        37094
+      ],
+      "Timestamp": 1680971073,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 140621,
+      "Restrictor": 6,
+      "Sectors": [
+        40524,
+        63368,
+        36729
+      ],
+      "Timestamp": 1680971073,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 143300,
+      "Restrictor": 0,
+      "Sectors": [
+        40939,
+        64706,
+        37655
+      ],
+      "Timestamp": 1680971084,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 153946,
+      "Restrictor": 0,
+      "Sectors": [
+        40654,
+        72058,
+        41234
+      ],
+      "Timestamp": 1680971104,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 165987,
+      "Restrictor": 6,
+      "Sectors": [
+        48518,
+        74219,
+        43250
+      ],
+      "Timestamp": 1680971183,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139705,
+      "Restrictor": 0,
+      "Sectors": [
+        40350,
+        62594,
+        36761
+      ],
+      "Timestamp": 1680971206,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 140315,
+      "Restrictor": 2,
+      "Sectors": [
+        40865,
+        62582,
+        36868
+      ],
+      "Timestamp": 1680971207,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141378,
+      "Restrictor": 20,
+      "Sectors": [
+        40042,
+        64193,
+        37143
+      ],
+      "Timestamp": 1680971215,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141977,
+      "Restrictor": 6,
+      "Sectors": [
+        40030,
+        64318,
+        37629
+      ],
+      "Timestamp": 1680971215,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 153076,
+      "Restrictor": 14,
+      "Sectors": [
+        40994,
+        63752,
+        48330
+      ],
+      "Timestamp": 1680971220,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 142995,
+      "Restrictor": 0,
+      "Sectors": [
+        40701,
+        64705,
+        37589
+      ],
+      "Timestamp": 1680971227,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 155584,
+      "Restrictor": 0,
+      "Sectors": [
+        42445,
+        69705,
+        43434
+      ],
+      "Timestamp": 1680971260,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139100,
+      "Restrictor": 0,
+      "Sectors": [
+        40146,
+        62441,
+        36513
+      ],
+      "Timestamp": 1680971345,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 138773,
+      "Restrictor": 2,
+      "Sectors": [
+        39783,
+        62450,
+        36540
+      ],
+      "Timestamp": 1680971345,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141430,
+      "Restrictor": 20,
+      "Sectors": [
+        40328,
+        64427,
+        36675
+      ],
+      "Timestamp": 1680971356,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141230,
+      "Restrictor": 6,
+      "Sectors": [
+        40034,
+        64413,
+        36783
+      ],
+      "Timestamp": 1680971357,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140437,
+      "Restrictor": 14,
+      "Sectors": [
+        40154,
+        63671,
+        36612
+      ],
+      "Timestamp": 1680971361,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 142906,
+      "Restrictor": 0,
+      "Sectors": [
+        40787,
+        64652,
+        37467
+      ],
+      "Timestamp": 1680971370,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 160925,
+      "Restrictor": 0,
+      "Sectors": [
+        41864,
+        75920,
+        43141
+      ],
+      "Timestamp": 1680971421,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139107,
+      "Restrictor": 0,
+      "Sectors": [
+        39949,
+        62500,
+        36658
+      ],
+      "Timestamp": 1680971484,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139205,
+      "Restrictor": 2,
+      "Sectors": [
+        39990,
+        62320,
+        36895
+      ],
+      "Timestamp": 1680971485,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 142386,
+      "Restrictor": 20,
+      "Sectors": [
+        40154,
+        65048,
+        37184
+      ],
+      "Timestamp": 1680971498,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 141026,
+      "Restrictor": 14,
+      "Sectors": [
+        40236,
+        63877,
+        36913
+      ],
+      "Timestamp": 1680971502,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 150438,
+      "Restrictor": 6,
+      "Sectors": [
+        39990,
+        67148,
+        43300
+      ],
+      "Timestamp": 1680971507,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 3,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 330974,
+      "Restrictor": 6,
+      "Sectors": [
+        211689,
+        72364,
+        46921
+      ],
+      "Timestamp": 1680971514,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 2,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 144604,
+      "Restrictor": 0,
+      "Sectors": [
+        41253,
+        64782,
+        38569
+      ],
+      "Timestamp": 1680971515,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 147850,
+      "Restrictor": 0,
+      "Sectors": [
+        41893,
+        66627,
+        39330
+      ],
+      "Timestamp": 1680971568,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139220,
+      "Restrictor": 0,
+      "Sectors": [
+        40085,
+        62569,
+        36566
+      ],
+      "Timestamp": 1680971623,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139466,
+      "Restrictor": 2,
+      "Sectors": [
+        40035,
+        62946,
+        36485
+      ],
+      "Timestamp": 1680971624,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 143212,
+      "Restrictor": 20,
+      "Sectors": [
+        40567,
+        65088,
+        37557
+      ],
+      "Timestamp": 1680971642,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 142229,
+      "Restrictor": 14,
+      "Sectors": [
+        40772,
+        63900,
+        37557
+      ],
+      "Timestamp": 1680971644,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 147759,
+      "Restrictor": 0,
+      "Sectors": [
+        41019,
+        64385,
+        42355
+      ],
+      "Timestamp": 1680971662,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 174015,
+      "Restrictor": 6,
+      "Sectors": [
+        72350,
+        64180,
+        37485
+      ],
+      "Timestamp": 1680971681,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 168843,
+      "Restrictor": 6,
+      "Sectors": [
+        49160,
+        74498,
+        45185
+      ],
+      "Timestamp": 1680971683,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 151606,
+      "Restrictor": 0,
+      "Sectors": [
+        41396,
+        71204,
+        39006
+      ],
+      "Timestamp": 1680971720,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139521,
+      "Restrictor": 0,
+      "Sectors": [
+        40043,
+        62794,
+        36684
+      ],
+      "Timestamp": 1680971763,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139075,
+      "Restrictor": 2,
+      "Sectors": [
+        40039,
+        62375,
+        36661
+      ],
+      "Timestamp": 1680971763,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 142332,
+      "Restrictor": 20,
+      "Sectors": [
+        40465,
+        64633,
+        37234
+      ],
+      "Timestamp": 1680971784,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140600,
+      "Restrictor": 14,
+      "Sectors": [
+        40183,
+        63823,
+        36594
+      ],
+      "Timestamp": 1680971785,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142893,
+      "Restrictor": 6,
+      "Sectors": [
+        41314,
+        64440,
+        37139
+      ],
+      "Timestamp": 1680971824,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 170243,
+      "Restrictor": 0,
+      "Sectors": [
+        61942,
+        69898,
+        38403
+      ],
+      "Timestamp": 1680971833,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 162859,
+      "Restrictor": 6,
+      "Sectors": [
+        45252,
+        73120,
+        44487
+      ],
+      "Timestamp": 1680971846,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 155386,
+      "Restrictor": 0,
+      "Sectors": [
+        42063,
+        75077,
+        38246
+      ],
+      "Timestamp": 1680971875,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139599,
+      "Restrictor": 0,
+      "Sectors": [
+        40000,
+        62528,
+        37071
+      ],
+      "Timestamp": 1680971902,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139591,
+      "Restrictor": 2,
+      "Sectors": [
+        40074,
+        62595,
+        36922
+      ],
+      "Timestamp": 1680971903,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141110,
+      "Restrictor": 20,
+      "Sectors": [
+        40311,
+        64165,
+        36634
+      ],
+      "Timestamp": 1680971925,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 141217,
+      "Restrictor": 14,
+      "Sectors": [
+        40521,
+        63818,
+        36878
+      ],
+      "Timestamp": 1680971926,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142605,
+      "Restrictor": 6,
+      "Sectors": [
+        40463,
+        64746,
+        37396
+      ],
+      "Timestamp": 1680971967,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 143382,
+      "Restrictor": 0,
+      "Sectors": [
+        41173,
+        64841,
+        37368
+      ],
+      "Timestamp": 1680971976,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 166218,
+      "Restrictor": 6,
+      "Sectors": [
+        46090,
+        72774,
+        47354
+      ],
+      "Timestamp": 1680972012,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 149014,
+      "Restrictor": 0,
+      "Sectors": [
+        41423,
+        68778,
+        38813
+      ],
+      "Timestamp": 1680972024,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139698,
+      "Restrictor": 0,
+      "Sectors": [
+        40095,
+        62756,
+        36847
+      ],
+      "Timestamp": 1680972042,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139789,
+      "Restrictor": 2,
+      "Sectors": [
+        40249,
+        62752,
+        36788
+      ],
+      "Timestamp": 1680972043,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141514,
+      "Restrictor": 20,
+      "Sectors": [
+        40165,
+        64337,
+        37012
+      ],
+      "Timestamp": 1680972067,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 141328,
+      "Restrictor": 14,
+      "Sectors": [
+        40092,
+        64251,
+        36985
+      ],
+      "Timestamp": 1680972067,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142173,
+      "Restrictor": 6,
+      "Sectors": [
+        40778,
+        64090,
+        37305
+      ],
+      "Timestamp": 1680972109,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 142272,
+      "Restrictor": 0,
+      "Sectors": [
+        40567,
+        64526,
+        37179
+      ],
+      "Timestamp": 1680972118,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 145648,
+      "Restrictor": 0,
+      "Sectors": [
+        41527,
+        65462,
+        38659
+      ],
+      "Timestamp": 1680972170,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139266,
+      "Restrictor": 0,
+      "Sectors": [
+        40140,
+        62599,
+        36527
+      ],
+      "Timestamp": 1680972181,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 140293,
+      "Restrictor": 2,
+      "Sectors": [
+        40326,
+        63693,
+        36274
+      ],
+      "Timestamp": 1680972183,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 142183,
+      "Restrictor": 14,
+      "Sectors": [
+        40308,
+        64268,
+        37607
+      ],
+      "Timestamp": 1680972209,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 142889,
+      "Restrictor": 20,
+      "Sectors": [
+        40128,
+        64570,
+        38191
+      ],
+      "Timestamp": 1680972209,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 231039,
+      "Restrictor": 6,
+      "Sectors": [
+        111001,
+        75470,
+        44568
+      ],
+      "Timestamp": 1680972243,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141736,
+      "Restrictor": 6,
+      "Sectors": [
+        40279,
+        64382,
+        37075
+      ],
+      "Timestamp": 1680972250,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 144306,
+      "Restrictor": 0,
+      "Sectors": [
+        40990,
+        66101,
+        37215
+      ],
+      "Timestamp": 1680972263,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 144811,
+      "Restrictor": 0,
+      "Sectors": [
+        41023,
+        65299,
+        38489
+      ],
+      "Timestamp": 1680972315,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139603,
+      "Restrictor": 0,
+      "Sectors": [
+        40063,
+        62905,
+        36635
+      ],
+      "Timestamp": 1680972321,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139249,
+      "Restrictor": 2,
+      "Sectors": [
+        39713,
+        62960,
+        36576
+      ],
+      "Timestamp": 1680972322,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 141328,
+      "Restrictor": 14,
+      "Sectors": [
+        40668,
+        63958,
+        36702
+      ],
+      "Timestamp": 1680972351,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 142796,
+      "Restrictor": 20,
+      "Sectors": [
+        41151,
+        64413,
+        37232
+      ],
+      "Timestamp": 1680972352,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141634,
+      "Restrictor": 6,
+      "Sectors": [
+        40542,
+        64048,
+        37044
+      ],
+      "Timestamp": 1680972392,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 164299,
+      "Restrictor": 6,
+      "Sectors": [
+        48653,
+        73827,
+        41819
+      ],
+      "Timestamp": 1680972408,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 145205,
+      "Restrictor": 0,
+      "Sectors": [
+        40643,
+        64211,
+        40351
+      ],
+      "Timestamp": 1680972408,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139064,
+      "Restrictor": 0,
+      "Sectors": [
+        39916,
+        62631,
+        36517
+      ],
+      "Timestamp": 1680972460,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 138804,
+      "Restrictor": 2,
+      "Sectors": [
+        39601,
+        62919,
+        36284
+      ],
+      "Timestamp": 1680972461,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 1,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 156299,
+      "Restrictor": 0,
+      "Sectors": [
+        42134,
+        69642,
+        44523
+      ],
+      "Timestamp": 1680972471,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141132,
+      "Restrictor": 20,
+      "Sectors": [
+        39611,
+        64549,
+        36972
+      ],
+      "Timestamp": 1680972493,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 146201,
+      "Restrictor": 14,
+      "Sectors": [
+        40195,
+        63927,
+        42079
+      ],
+      "Timestamp": 1680972497,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141850,
+      "Restrictor": 6,
+      "Sectors": [
+        40712,
+        64265,
+        36873
+      ],
+      "Timestamp": 1680972534,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 2,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 151536,
+      "Restrictor": 0,
+      "Sectors": [
+        49377,
+        64827,
+        37332
+      ],
+      "Timestamp": 1680972559,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 173633,
+      "Restrictor": 6,
+      "Sectors": [
+        54159,
+        75662,
+        43812
+      ],
+      "Timestamp": 1680972581,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 138639,
+      "Restrictor": 0,
+      "Sectors": [
+        39737,
+        62407,
+        36495
+      ],
+      "Timestamp": 1680972599,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 138690,
+      "Restrictor": 2,
+      "Sectors": [
+        39735,
+        62743,
+        36212
+      ],
+      "Timestamp": 1680972600,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 142046,
+      "Restrictor": 20,
+      "Sectors": [
+        40311,
+        64484,
+        37251
+      ],
+      "Timestamp": 1680972635,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 1,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 182783,
+      "Restrictor": 0,
+      "Sectors": [
+        77119,
+        67298,
+        38366
+      ],
+      "Timestamp": 1680972654,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 2,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 171021,
+      "Restrictor": 14,
+      "Sectors": [
+        70256,
+        64301,
+        36464
+      ],
+      "Timestamp": 1680972668,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142381,
+      "Restrictor": 6,
+      "Sectors": [
+        41270,
+        63900,
+        37211
+      ],
+      "Timestamp": 1680972676,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 142244,
+      "Restrictor": 0,
+      "Sectors": [
+        40400,
+        64607,
+        37237
+      ],
+      "Timestamp": 1680972702,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139238,
+      "Restrictor": 2,
+      "Sectors": [
+        39635,
+        62807,
+        36796
+      ],
+      "Timestamp": 1680972739,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 144094,
+      "Restrictor": 0,
+      "Sectors": [
+        39843,
+        62779,
+        41472
+      ],
+      "Timestamp": 1680972743,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 1,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 147917,
+      "Restrictor": 20,
+      "Sectors": [
+        39621,
+        65623,
+        42673
+      ],
+      "Timestamp": 1680972783,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 2,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 149637,
+      "Restrictor": 0,
+      "Sectors": [
+        41528,
+        66141,
+        41968
+      ],
+      "Timestamp": 1680972804,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 139752,
+      "Restrictor": 14,
+      "Sectors": [
+        39932,
+        63081,
+        36739
+      ],
+      "Timestamp": 1680972808,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141431,
+      "Restrictor": 6,
+      "Sectors": [
+        40321,
+        64039,
+        37071
+      ],
+      "Timestamp": 1680972818,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 142157,
+      "Restrictor": 0,
+      "Sectors": [
+        40611,
+        64421,
+        37125
+      ],
+      "Timestamp": 1680972844,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 269485,
+      "Restrictor": 6,
+      "Sectors": [
+        154983,
+        73124,
+        41378
+      ],
+      "Timestamp": 1680972851,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 145676,
+      "Restrictor": 2,
+      "Sectors": [
+        41299,
+        63261,
+        41116
+      ],
+      "Timestamp": 1680972885,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 169223,
+      "Restrictor": 0,
+      "Sectors": [
+        70656,
+        62135,
+        36432
+      ],
+      "Timestamp": 1680972912,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140305,
+      "Restrictor": 14,
+      "Sectors": [
+        40252,
+        63005,
+        37048
+      ],
+      "Timestamp": 1680972948,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 1,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 148999,
+      "Restrictor": 0,
+      "Sectors": [
+        41904,
+        68521,
+        38574
+      ],
+      "Timestamp": 1680972953,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 1,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 171336,
+      "Restrictor": 20,
+      "Sectors": [
+        70427,
+        64161,
+        36748
+      ],
+      "Timestamp": 1680972955,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141469,
+      "Restrictor": 6,
+      "Sectors": [
+        40183,
+        64336,
+        36950
+      ],
+      "Timestamp": 1680972959,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 147360,
+      "Restrictor": 0,
+      "Sectors": [
+        41115,
+        64521,
+        41724
+      ],
+      "Timestamp": 1680972991,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 162599,
+      "Restrictor": 6,
+      "Sectors": [
+        47543,
+        72527,
+        42529
+      ],
+      "Timestamp": 1680973014,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 138188,
+      "Restrictor": 0,
+      "Sectors": [
+        39810,
+        61884,
+        36494
+      ],
+      "Timestamp": 1680973050,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 1,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 167947,
+      "Restrictor": 2,
+      "Sectors": [
+        69928,
+        61826,
+        36193
+      ],
+      "Timestamp": 1680973052,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 139497,
+      "Restrictor": 14,
+      "Sectors": [
+        39862,
+        63176,
+        36459
+      ],
+      "Timestamp": 1680973087,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 140292,
+      "Restrictor": 20,
+      "Sectors": [
+        39780,
+        63778,
+        36734
+      ],
+      "Timestamp": 1680973095,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141377,
+      "Restrictor": 6,
+      "Sectors": [
+        40155,
+        64214,
+        37008
+      ],
+      "Timestamp": 1680973101,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 151629,
+      "Restrictor": 0,
+      "Sectors": [
+        42382,
+        65745,
+        43502
+      ],
+      "Timestamp": 1680973104,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 1,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 173448,
+      "Restrictor": 0,
+      "Sectors": [
+        73007,
+        64031,
+        36410
+      ],
+      "Timestamp": 1680973165,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 2,
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "LapTime": 163919,
+      "Restrictor": 6,
+      "Sectors": [
+        45525,
+        76121,
+        42273
+      ],
+      "Timestamp": 1680973177,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 138270,
+      "Restrictor": 0,
+      "Sectors": [
+        39819,
+        61848,
+        36603
+      ],
+      "Timestamp": 1680973188,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 137809,
+      "Restrictor": 2,
+      "Sectors": [
+        39551,
+        62011,
+        36247
+      ],
+      "Timestamp": 1680973190,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 139670,
+      "Restrictor": 14,
+      "Sectors": [
+        39924,
+        63382,
+        36364
+      ],
+      "Timestamp": 1680973227,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 140912,
+      "Restrictor": 20,
+      "Sectors": [
+        39951,
+        64106,
+        36855
+      ],
+      "Timestamp": 1680973236,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142005,
+      "Restrictor": 6,
+      "Sectors": [
+        40098,
+        64844,
+        37063
+      ],
+      "Timestamp": 1680973243,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 146758,
+      "Restrictor": 0,
+      "Sectors": [
+        41462,
+        66524,
+        38772
+      ],
+      "Timestamp": 1680973251,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 2,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 144657,
+      "Restrictor": 0,
+      "Sectors": [
+        43650,
+        64120,
+        36887
+      ],
+      "Timestamp": 1680973309,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139707,
+      "Restrictor": 0,
+      "Sectors": [
+        39933,
+        63427,
+        36347
+      ],
+      "Timestamp": 1680973328,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 139078,
+      "Restrictor": 2,
+      "Sectors": [
+        39426,
+        63386,
+        36266
+      ],
+      "Timestamp": 1680973329,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 142311,
+      "Restrictor": 14,
+      "Sectors": [
+        40044,
+        65601,
+        36666
+      ],
+      "Timestamp": 1680973369,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 139485,
+      "Restrictor": 20,
+      "Sectors": [
+        39688,
+        63306,
+        36491
+      ],
+      "Timestamp": 1680973375,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141232,
+      "Restrictor": 6,
+      "Sectors": [
+        40193,
+        63910,
+        37129
+      ],
+      "Timestamp": 1680973384,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 152123,
+      "Restrictor": 0,
+      "Sectors": [
+        46760,
+        66223,
+        39140
+      ],
+      "Timestamp": 1680973403,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 141016,
+      "Restrictor": 0,
+      "Sectors": [
+        40347,
+        63593,
+        37076
+      ],
+      "Timestamp": 1680973450,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 138132,
+      "Restrictor": 0,
+      "Sectors": [
+        39766,
+        61970,
+        36396
+      ],
+      "Timestamp": 1680973466,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 137845,
+      "Restrictor": 2,
+      "Sectors": [
+        39623,
+        61858,
+        36364
+      ],
+      "Timestamp": 1680973467,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140355,
+      "Restrictor": 14,
+      "Sectors": [
+        40157,
+        63527,
+        36671
+      ],
+      "Timestamp": 1680973510,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 141317,
+      "Restrictor": 20,
+      "Sectors": [
+        39784,
+        63702,
+        37831
+      ],
+      "Timestamp": 1680973517,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142462,
+      "Restrictor": 6,
+      "Sectors": [
+        40145,
+        65106,
+        37211
+      ],
+      "Timestamp": 1680973526,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 146756,
+      "Restrictor": 0,
+      "Sectors": [
+        41677,
+        66659,
+        38420
+      ],
+      "Timestamp": 1680973550,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 2,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 142197,
+      "Restrictor": 0,
+      "Sectors": [
+        40757,
+        64656,
+        36784
+      ],
+      "Timestamp": 1680973592,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139310,
+      "Restrictor": 0,
+      "Sectors": [
+        39834,
+        62054,
+        37422
+      ],
+      "Timestamp": 1680973606,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 138790,
+      "Restrictor": 2,
+      "Sectors": [
+        39524,
+        62163,
+        37103
+      ],
+      "Timestamp": 1680973606,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140021,
+      "Restrictor": 14,
+      "Sectors": [
+        40040,
+        63320,
+        36661
+      ],
+      "Timestamp": 1680973650,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 140528,
+      "Restrictor": 20,
+      "Sectors": [
+        39711,
+        64043,
+        36774
+      ],
+      "Timestamp": 1680973657,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141809,
+      "Restrictor": 6,
+      "Sectors": [
+        40388,
+        64405,
+        37016
+      ],
+      "Timestamp": 1680973668,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 152310,
+      "Restrictor": 0,
+      "Sectors": [
+        41870,
+        70840,
+        39600
+      ],
+      "Timestamp": 1680973702,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 140710,
+      "Restrictor": 0,
+      "Sectors": [
+        40337,
+        63275,
+        37098
+      ],
+      "Timestamp": 1680973733,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 2,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 140088,
+      "Restrictor": 0,
+      "Sectors": [
+        39989,
+        62946,
+        37153
+      ],
+      "Timestamp": 1680973746,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 146507,
+      "Restrictor": 2,
+      "Sectors": [
+        39642,
+        63144,
+        43721
+      ],
+      "Timestamp": 1680973752,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140240,
+      "Restrictor": 14,
+      "Sectors": [
+        40314,
+        63233,
+        36693
+      ],
+      "Timestamp": 1680973790,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 140974,
+      "Restrictor": 20,
+      "Sectors": [
+        39648,
+        63972,
+        37354
+      ],
+      "Timestamp": 1680973798,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141960,
+      "Restrictor": 6,
+      "Sectors": [
+        40277,
+        64557,
+        37126
+      ],
+      "Timestamp": 1680973810,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 148383,
+      "Restrictor": 0,
+      "Sectors": [
+        42133,
+        67522,
+        38728
+      ],
+      "Timestamp": 1680973851,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "LapTime": 140685,
+      "Restrictor": 0,
+      "Sectors": [
+        40253,
+        63500,
+        36932
+      ],
+      "Timestamp": 1680973874,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 138096,
+      "Restrictor": 0,
+      "Sectors": [
+        39735,
+        61951,
+        36410
+      ],
+      "Timestamp": 1680973884,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 138809,
+      "Restrictor": 2,
+      "Sectors": [
+        39746,
+        62802,
+        36261
+      ],
+      "Timestamp": 1680973891,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 139772,
+      "Restrictor": 14,
+      "Sectors": [
+        40057,
+        63220,
+        36495
+      ],
+      "Timestamp": 1680973930,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 140927,
+      "Restrictor": 20,
+      "Sectors": [
+        39862,
+        64098,
+        36967
+      ],
+      "Timestamp": 1680973939,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142325,
+      "Restrictor": 6,
+      "Sectors": [
+        40121,
+        64846,
+        37358
+      ],
+      "Timestamp": 1680973952,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 149372,
+      "Restrictor": 0,
+      "Sectors": [
+        43231,
+        66992,
+        39149
+      ],
+      "Timestamp": 1680974000,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 138762,
+      "Restrictor": 0,
+      "Sectors": [
+        39752,
+        62334,
+        36676
+      ],
+      "Timestamp": 1680974023,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 137698,
+      "Restrictor": 2,
+      "Sectors": [
+        39391,
+        62221,
+        36086
+      ],
+      "Timestamp": 1680974029,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140609,
+      "Restrictor": 14,
+      "Sectors": [
+        40125,
+        63494,
+        36990
+      ],
+      "Timestamp": 1680974070,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 140285,
+      "Restrictor": 20,
+      "Sectors": [
+        39792,
+        63783,
+        36710
+      ],
+      "Timestamp": 1680974079,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 142077,
+      "Restrictor": 6,
+      "Sectors": [
+        40750,
+        64026,
+        37301
+      ],
+      "Timestamp": 1680974094,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 150028,
+      "Restrictor": 0,
+      "Sectors": [
+        42086,
+        69035,
+        38907
+      ],
+      "Timestamp": 1680974150,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "Cuts": 0,
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "LapTime": 139247,
+      "Restrictor": 0,
+      "Sectors": [
+        40135,
+        62465,
+        36647
+      ],
+      "Timestamp": 1680974162,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 6,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "LapTime": 137382,
+      "Restrictor": 2,
+      "Sectors": [
+        39452,
+        61875,
+        36055
+      ],
+      "Timestamp": 1680974166,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 14,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "LapTime": 140281,
+      "Restrictor": 14,
+      "Sectors": [
+        40151,
+        63432,
+        36698
+      ],
+      "Timestamp": 1680974211,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 5,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "Cuts": 0,
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "LapTime": 139214,
+      "Restrictor": 20,
+      "Sectors": [
+        39198,
+        63341,
+        36675
+      ],
+      "Timestamp": 1680974219,
+      "Tyre": "S",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "Cuts": 0,
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "LapTime": 141020,
+      "Restrictor": 6,
+      "Sectors": [
+        40212,
+        64143,
+        36665
+      ],
+      "Timestamp": 1680974236,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "Cuts": 0,
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "LapTime": 153190,
+      "Restrictor": 0,
+      "Sectors": [
+        41352,
+        72747,
+        39091
+      ],
+      "Timestamp": 1680974303,
+      "Tyre": "M",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": null
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 138096,
+      "CarId": 0,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "DriverGuid": "76561198256324629",
+      "DriverName": "LonelyDriver",
+      "Restrictor": 0,
+      "TotalTime": 3872749,
+      "NumLaps": 27,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 2
+    },
+    {
+      "BallastKG": 6,
+      "BestLap": 137382,
+      "CarId": 16,
+      "CarModel": "vm_lexus_rcf_gt3_acc",
+      "DriverGuid": "76561198287158193",
+      "DriverName": "BassCannon",
+      "Restrictor": 2,
+      "TotalTime": 3877372,
+      "NumLaps": 27,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 3
+    },
+    {
+      "BallastKG": 14,
+      "BestLap": 139497,
+      "CarId": 2,
+      "CarModel": "vm_amg_evo_gt3_2020",
+      "DriverGuid": "76561199137436404",
+      "DriverName": "H. Clampitt",
+      "Restrictor": 14,
+      "TotalTime": 3921667,
+      "NumLaps": 27,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 4
+    },
+    {
+      "BallastKG": 5,
+      "BestLap": 139214,
+      "CarId": 21,
+      "CarModel": "vm_wec_gte_chevrolet_corvette_c8r",
+      "DriverGuid": "76561198264410792",
+      "DriverName": "Gustav Hartgas",
+      "Restrictor": 20,
+      "TotalTime": 3929653,
+      "NumLaps": 27,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 9
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 140621,
+      "CarId": 14,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "DriverGuid": "76561198085102671",
+      "DriverName": "Steve",
+      "Restrictor": 6,
+      "TotalTime": 3946508,
+      "NumLaps": 27,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 7
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 144811,
+      "CarId": 10,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "DriverGuid": "76561198059805995",
+      "DriverName": "Vennasmin",
+      "Restrictor": 0,
+      "TotalTime": 4014138,
+      "NumLaps": 26,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 6
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 140685,
+      "CarId": 1,
+      "CarModel": "fsr_audi_lms_evo_ii_gt3",
+      "DriverGuid": "76561198065400100",
+      "DriverName": "Chloroform",
+      "Restrictor": 0,
+      "TotalTime": 3584880,
+      "NumLaps": 24,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 5
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 165987,
+      "CarId": 15,
+      "CarModel": "vm_honda_nsx_gt3_evo_endurance_acc",
+      "DriverGuid": "76561199213163170",
+      "DriverName": "flya310q",
+      "Restrictor": 6,
+      "TotalTime": 2888308,
+      "NumLaps": 15,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 8
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 143363,
+      "CarId": 4,
+      "CarModel": "vm_amr_v8_vantage_gt3_acc",
+      "DriverGuid": "76561197960267366",
+      "DriverName": "JX25",
+      "Restrictor": 0,
+      "TotalTime": 660535,
+      "NumLaps": 4,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 11
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 999999999,
+      "CarId": 23,
+      "CarModel": "bg_mercedes_amg_gt_black_series",
+      "DriverGuid": "76561198391538774",
+      "DriverName": "VM LividFizz",
+      "Restrictor": 0,
+      "TotalTime": 208790,
+      "NumLaps": 1,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 1
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 999999999,
+      "CarId": 11,
+      "CarModel": "vm_crsh_porsche_gt3_2019_endurance",
+      "DriverGuid": "76561199008895909",
+      "DriverName": "OrangeFruit510",
+      "Restrictor": 0,
+      "TotalTime": 215098,
+      "NumLaps": 1,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "GridPosition": 17
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "spa",
+  "Type": "RACE",
+  "Date": "2023-04-08T11:20:00-07:00",
+  "SessionFile": "2023_4_8_11_20_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 60,
+    "laps": 0,
+    "is_open": 1,
+    "wait_time": 260,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "",
+  "RaceWeekendID": "",
+  "EventName": ""
+}
