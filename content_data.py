@@ -30,6 +30,9 @@ class Track:
         self.highest_priority_id = highest_priority_id
         self.highest_priority_name = highest_priority_name
         self.variants = []
+        self.average_rating = 0
+        self.ratings = {} # userid, int
+        self.timesused = 0
 
 class TrackVariant:
     def __init__(self, variant_id, name, priority, parent_track):

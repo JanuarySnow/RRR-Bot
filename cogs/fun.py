@@ -13,6 +13,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import Context
 from typing import List
+from datetime import timedelta, datetime
 
 
 
@@ -218,6 +219,34 @@ class Fun(commands.Cog, name="fun"):
     async def tic(self, ctx:Context):
         """Starts a tic-tac-toe game with yourself."""
         await ctx.send('Tic Tac Toe: X goes first', view=TicTacToe())
+
+    @commands.hybrid_command(name="russianroulette", description="Get a random fact.")
+    @commands.is_owner()
+    async def russianroulette(self, context: Context) -> None:
+        userlist = []
+        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+
+        async for message in channel.history(limit=200):
+            if message.author not in userlist:
+                if message.author.bot:
+                    continue
+                roles = [role.name for role in message.author.roles]
+                if "admin" in roles or "moderator" in roles or "support" in roles:
+                    continue
+                userlist.append(message.author)
+
+        if userlist:
+            chosen_one = random.choice(userlist)
+            timeout_duration = timedelta(seconds=30)  # Timeout duration
+
+            try:
+                await chosen_one.timeout(timeout_duration, reason="Russian Roulette timeout")
+                await context.send(f"{chosen_one.display_name} has been timed out for 30 seconds!")
+            except discord.HTTPException as e:
+                await context.send(f"Failed to timeout {chosen_one.display_name}: {e}")
+        else:
+            await context.send("No users found in the last 200 messages.")
+        
 
     @commands.hybrid_command(name="randomfact", description="Get a random fact.")
     async def randomfact(self, context: Context) -> None:

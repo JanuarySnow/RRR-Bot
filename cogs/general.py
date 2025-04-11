@@ -119,7 +119,7 @@ class General(commands.Cog, name="general"):
             current_chunk = ""
             for line in data:
                 # Ensure we don't split commands between fields
-                if len(current_chunk) + len(line) + 1 > 1024:
+                if len(current_chunk) + len(line) + 1 > 1000:
                     chunks.append(current_chunk)
                     current_chunk = line + "\n"
                 else:

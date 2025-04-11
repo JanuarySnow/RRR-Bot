@@ -58,6 +58,7 @@ class Result():
         self.driverlaps = {}
         self.shortorlong = "short"
         self.logger = logger
+        self.server = ""
 
     def set_region(self, data):
         if data["Region"] == "EU":
@@ -76,11 +77,11 @@ class Result():
                 racer_j = self.entries[j].racer
                 position_j = self.entries[j].finishingposition
                 if position_i < position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, racer_j.gt3rating, racer_j.mx5rating, 1, len(self.entries), self, self.entries[j].racer)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, racer_i.gt3rating, racer_i.mx5rating, 0, len(self.entries), self, self.entries[i].racer)
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 1, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 0, len(self.entries), self, self.entries[i].racer)
                 elif position_i > position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, racer_j.gt3rating, racer_j.mx5rating, 0, len(self.entries), self, self.entries[j].racer)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, racer_i.gt3rating, racer_i.mx5rating, 1, len(self.entries), self, self.entries[i].racer)
+                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 0, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 1, len(self.entries), self, self.entries[i].racer)
 
     def get_position_of_racer(self, racer):
         index = 1
@@ -132,22 +133,24 @@ class Result():
     def get_fastest_lap_of_race(self)->dict:
         fastest = None
         for lap in self.laps:
-            if fastest == None:
-                fastest = lap
-            else:
-                if lap.time < fastest.time:
+            if lap.valid:
+                if fastest == None:
                     fastest = lap
+                else:
+                    if lap.time < fastest.time:
+                        fastest = lap
         return fastest
 
     def get_fastest_lap_of_racer(self, racer:racer.Racerprofile):
         fastest = None
         for lap in self.laps:
             if lap.racerguid == racer.guid:
-                if fastest == None:
-                    fastest = lap
-                else:
-                    if lap.time < fastest.time:
+                if lap.valid:
+                    if fastest == None:
                         fastest = lap
+                    else:
+                        if lap.time < fastest.time:
+                            fastest = lap
         return fastest
     
     def get_numlaps_of_racer(self, racer:racer.Racerprofile):

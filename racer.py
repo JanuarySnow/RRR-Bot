@@ -16,8 +16,6 @@ class Racerprofile():
         self.eucount = 0
         self.nacount = 0
         self.rating = 1500
-        self.mx5rating = 1500
-        self.gt3rating = 1500
         self.mosthitotherdriver = None
         self.mosthitotherdrivergt3 = None
         self.mosthitotherdrivermx5 = None
@@ -51,9 +49,8 @@ class Racerprofile():
         self.raceconsistency = None
         self.pace_percentage_mx5 = 0
         self.pace_percentage_gt3 = 0
+        self.pace_percentage_overall = 0
         self.historyofratingchange = {} # result, rating change
-        self.historyofratingchangemx5 = {} # result, rating change
-        self.historyofratingchangegt3 = {} # result, rating change
         self.gt3progression_plot = {}
         self.mx5progression_plot = {}
         self.positionplot = {}
@@ -62,9 +59,10 @@ class Racerprofile():
         self.paceplot = {}
         self.paceplotaverage = {}
         self.logger = logger
+        self.collisionracers = {}
 
         
-    def update_rating(self, opponent_rating, opponentgt3rating, opponentmx5rating, result, numracers, resultfile, otherracer, k_factor=16):
+    def update_rating(self, opponent_rating, result, numracers, resultfile, otherracer, k_factor=16):
         if self.numraces < 10:
             k_factor=8
         else:
@@ -72,31 +70,11 @@ class Racerprofile():
         if numracers < 5:
             k_factor = k_factor / 4
         expected_score = 1 / (1 + 10 ** ((opponent_rating - self.rating) / 400))
-        if resultfile.mx5orgt3 == "gt3":
-            expected_score = 1 / (1 + 10 ** ((opponentgt3rating - self.gt3rating) / 400))
-        if resultfile.mx5orgt3 == "mx5":
-            expected_score = 1 / (1 + 10 ** ((opponentmx5rating - self.mx5rating) / 400))
         change = k_factor * (result - expected_score)
         
 
         if resultfile.shortorlong == "long":
             change = change * 1.5
-        if resultfile.mx5orgt3 == "gt3":
-            self.gt3rating += change
-            if resultfile in self.historyofratingchangegt3:
-                self.historyofratingchangegt3[resultfile] += change
-            else:
-                self.historyofratingchangegt3[resultfile] = change
-            self.historyofratingchangegt3[resultfile] = round( self.historyofratingchangegt3[resultfile], 2)
-            self.gt3rating = round(self.gt3rating, 2)
-        elif resultfile.mx5orgt3 == "mx5":
-            self.mx5rating += change
-            if resultfile in self.historyofratingchangemx5:
-                self.historyofratingchangemx5[resultfile] += change
-            else:
-                self.historyofratingchangemx5[resultfile] = change
-            self.historyofratingchangemx5[resultfile] = round( self.historyofratingchangemx5[resultfile], 2)
-            self.mx5rating = round(self.mx5rating, 2)
         self.rating += change
         if resultfile in self.historyofratingchange:
             self.historyofratingchange[resultfile] += change
@@ -160,6 +138,7 @@ class Racerprofile():
         if racertointdictmx5:
             mostoften = max(racertointdictmx5, key = racertointdictmx5.get)
             self.mosthitotherdrivermx5 = mostoften
+        self.collisionracers = racertointdict
 
     from statistics import mean
 
@@ -227,7 +206,7 @@ class Racerprofile():
         if not found_any_over_one:
             # Return the first track with a single race position
             for track, positions in trackresultsgt3.items():
-                self.mosthitotherdrivergt3 = {track: positions[0]}  # Return a dict with track and first position entry
+                self.mostsuccesfultrackgt3 = {track: positions[0]}  # Return a dict with track and first position entry
 
         # Return the track with the lowest average finishing position
         if len(averagesgt3) > 0:
@@ -424,7 +403,7 @@ class Racerprofile():
         top = round(top, 2)
         self.positionplot[entry.date] = top
         self.positionaverage[entry.date] = round(mean(self.positionplot.values()), 2)
-        self.incidentplot[entry.date] = self.averageincidents
+        self.incidentplot[entry.date] = currentinchidents
         if entry.result.region == "EU":
             self.eucount += 1
         if entry.result.region == "NA":
@@ -457,9 +436,5 @@ class Racerprofile():
     def update_chart(self, result, entry):
         if self.result_add_ticker >= 5:
             self.progression_plot[entry.date] = self.rating
-        if entry.result.mx5orgt3 == "gt3":
-            self.gt3progression_plot[entry.date] = self.gt3rating
-        if entry.result.mx5orgt3 == "mx5":
-            self.mx5progression_plot[entry.date] = self.mx5rating
 
         

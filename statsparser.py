@@ -41,15 +41,13 @@ class parser():
         self.podiums_rankingsmx5 = []
 
         self.elorankings = []
-        self.elorankingsgt3 = []
-        self.elorankingsmx5 = []
         self.laptimeconsistencyrankings = []
         self.laptimeconsistencyrankingsmx5 = []
         self.laptimeconsistencyrankingsgt3 = []
         self.positionconsistencyrankings = []
         self.pacerankingsmx5 = []
         self.pacerankingsgt3 = []
-
+        self.averageelorankingsovertime = {}
         self.contentdata = None
 
     def get_summary_last_races(self, racer, num):
@@ -78,14 +76,21 @@ class parser():
                 return racer
         return None
     
+    def get_parent_track_from_variant(self, id:str):
+        for track in self.contentdata.tracks:
+            for variant in track.variants:
+                if id == variant.id:
+                    return track
+        return None
+    
     def get_track_name(self, id:str):
-        for track in content_data.tracks:
+        for track in self.contentdata.tracks:
             if id == track.id:
                 return track.highest_priority_name
         return None
     
     def get_track_variants(self, id:str):
-        for track in content_data.tracks:
+        for track in self.contentdata.tracks:
             if id == track.id:
                 return track.variants
         return None
@@ -100,11 +105,9 @@ class parser():
 
         winsdictgt3 = {}
         podiumsdictgt3 = {}
-        elodictgt3 = {}
 
         winsdictmx5 = {}
         podiumsdictmx5 = {}
-        elodictmx5 = {}
 
         laptimeconsistencydict = {}
         laptimeconsistencydictgt3 = {}
@@ -114,7 +117,7 @@ class parser():
         pacedictmx5 = {}
         for racerid in self.racers.keys():
             racer = self.racers[racerid]
-            if racer.numraces > 10:
+            if racer.numraces >= 10:
                 safetydict[racer] = racer.averageincidents
                 if racer.averageincidentsgt3:
                     safetydictgt3[racer] = racer.averageincidentsgt3
@@ -126,11 +129,9 @@ class parser():
 
                 winsdictgt3[racer] = racer.gt3wins
                 podiumsdictgt3[racer] = racer.gt3podiums
-                elodictgt3[racer] = racer.gt3rating
 
                 winsdictmx5[racer] = racer.mx5wins
                 podiumsdictmx5[racer] = racer.mx5podiums
-                elodictmx5[racer] = racer.mx5rating
                 laptimeconsistencydict[racer] = racer.laptimeconsistency
                 if racer.laptimeconsistencygt3:
                     laptimeconsistencydictgt3[racer] = racer.laptimeconsistencygt3
@@ -157,11 +158,10 @@ class parser():
         
         self.wins_rankingsgt3 = [racer for racer in sorted(winsdictgt3, key=winsdictgt3.get, reverse=True)]
         self.podiums_rankingsgt3 = [racer for racer in sorted(podiumsdictgt3, key=podiumsdictgt3.get, reverse=True)]
-        self.elorankingsgt3 = [racer for racer in sorted(elodictgt3, key=elodictgt3.get, reverse=True)]
+        
 
         self.wins_rankingsmx5 = [racer for racer in sorted(winsdictmx5, key=winsdictmx5.get, reverse=True)]
         self.podiums_rankingsmx5 = [racer for racer in sorted(podiumsdictmx5, key=podiumsdictmx5.get, reverse=True)]
-        self.elorankingsmx5 = [racer for racer in sorted(elodictmx5, key=elodictmx5.get, reverse=True)]
     
     def custom_scorer(self, query, choices):
         scores = []
@@ -345,11 +345,18 @@ class parser():
 
     # Traverse the entire directory tree
         for root, dirs, files in os.walk("results/"):
+            if "testserver" in root.split(os.sep):  # Check if "testserver" is part of the path
+                continue
+
             for filename in files:
                 if filename.endswith(".json"):
                     filepath = os.path.join(root, filename)
                     with open(filepath, encoding="utf8") as f:
                         data = json.load(f)
+                        if data.get("TrackName") == "sportsdrome_figure_8_north":
+                            continue
+                        if data.get("TrackName") == "sportsdrome_figure_8_south":
+                            continue
                         if data.get("Type") == "RACE":
                             data["Filename"] = filename
                             # Parse the date string to a datetime object
@@ -376,15 +383,19 @@ class parser():
                 euracers.append(racer)
         return euracers
     
-    async def add_one_result(self, filepath, filename):
+    async def add_one_result(self, filepath, filename, server):
         print("adding one result " + filename)
         with open(filepath, encoding="utf8") as f:
+            if "testserver" in filepath.split(os.sep):
+                print(f"Skipping file in 'testserver' folder: {filename}")
+                return
+
             data = json.load(f)
             if data.get("Type") == "RACE":
                 data["Filename"] = filename
                 resultobj = result.Result()
                 resultobj.filename = data["Filename"]
-
+                resultobj.server = server
                 # Parse the date string to a datetime object
                 race_time = datetime.fromisoformat(data["Date"].replace("Z", "+00:00"))
                 # Determine the region based on the race time
@@ -452,11 +463,15 @@ class parser():
                     trackvariant = self.contentdata.create_basic_track(baseid, data["TrackConfig"])
                 self.usedtracks[combinedid] = trackvariant
             result.track = trackvariant
+            base = trackvariant.parent_track
+            base.timesused += 1
         else:
             #this is a track without a variant id
             combinedid = baseid + ";" + baseid
             if combinedid in self.usedtracks:
                 result.track = self.usedtracks[combinedid]
+                base = result.track.parent_track
+                base.timesused += 1
             else:
                 # not in used tracks
                 #does it exist in content library?
@@ -465,9 +480,14 @@ class parser():
                     trackvariant = self.contentdata.create_basic_track(baseid, "")
                     self.usedtracks[combinedid] = trackvariant
                     result.track = trackvariant
+                    base = result.track.parent_track
+                    base.timesused += 1
                 else:
                     self.usedtracks[combinedid] = trackvariant
                     result.track = trackvariant
+                    base = result.track.parent_track
+                    base.timesused += 1
+        
         if result.track == None:
             print("found a NONE track")   
             print("track id in result file = " + data["TrackName"])
@@ -500,6 +520,7 @@ class parser():
         trackbase = result["TrackName"]
         trackvariant = result["TrackConfig"]
         trackdata = self.contentdata.get_track(trackbase+";"+trackvariant)
+        
         if trackdata is None:
             trackname = trackbase + ";" + trackvariant
         else:
@@ -560,14 +581,13 @@ class parser():
         self.podiums_rankingsgt3.clear()
 
         self.elorankings.clear()
-        self.elorankingsgt3.clear()
-        self.elorankingsmx5.clear()
         self.laptimeconsistencyrankings.clear()
         self.laptimeconsistencyrankingsmx5.clear()
         self.laptimeconsistencyrankingsgt3.clear()
         self.positionconsistencyrankings.clear()
         self.pacerankingsmx5.clear()
         self.pacerankingsgt3.clear()
+        self.averageelorankingsovertime.clear()
 
     def refresh_all_data(self):
         self.clear_old_data()
@@ -584,12 +604,65 @@ class parser():
             resultobj = result.Result()
             resultobj.filename = data["Filename"]
             self.parse_one_result(resultobj, data)
+            self.add_average_elo_step(data["Date"])
         for elem in self.racers.keys():
             racer = self.racers[elem]
             racer.calculate_averages()
             racer.calculatepace()
         self.calculate_raw_pace_percentages_for_all_racers()
         self.calculate_rankings()
+        self.loadtrackratings()
+
+
+    def add_average_elo_step(self, date):
+        elocount = 0
+        valid_racers = 0  # Counter for racers with numraces > 5
+        averageelo = 0
+
+        for racer in self.racers.values():
+            if racer.numraces > 5:  # Only include racers with more than 5 races
+                elocount += racer.rating
+                valid_racers += 1
+
+        if valid_racers > 0:  # Ensure there are valid racers to avoid division by zero
+            averageelo = elocount / valid_racers
+            self.averageelorankingsovertime[date] = averageelo
+        else:
+            self.averageelorankingsovertime[date] = 0  # Default to 0 if no valid racers
+
+
+
+    def loadtrackratings(self, json_file="trackratings.json"):
+        # Check if the JSON file exists
+        if not os.path.exists(json_file):
+            print(f"{json_file} does not exist. No data loaded.")
+            return
+
+        # Load the JSON data with error handling
+        try:
+            with open(json_file, "r") as file:
+                # Ensure the file is not empty before loading
+                if os.path.getsize(json_file) == 0:
+                    print(f"{json_file} is empty. No data loaded.")
+                    return
+                data = json.load(file)
+        except json.JSONDecodeError:
+            print(f"{json_file} contains invalid JSON. No data loaded.")
+            return
+
+        # Update tracks with loaded data
+        for track in self.contentdata.tracks:
+            # Check if this track's ID exists in the JSON data
+            if str(track.id) in data:
+                # Assign the ratings and average_rating
+                track.ratings = data[str(track.id)]["ratings"]
+                track.average_rating = data[str(track.id)]["average_rating"]
+
+    def get_result_by_date(self, date):
+        for result in self.raceresults:
+            if result.date == date:
+                return result
+        return None
         
     def month_report(self, guid, month, year):
         racer = self.racers[guid]
@@ -649,27 +722,6 @@ class parser():
                 'rating': elem.rating
             })
 
-        # Get top 10 GT3 rankings
-        rankings_to_use = filter_active(self.elorankingsgt3) if recently_active else self.elorankingsgt3
-        for index, elem in enumerate(rankings_to_use):
-            if index >= 10:
-                break
-            gt3elos.append({
-                'rank': index + 1,
-                'name': elem.name,
-                'rating': elem.gt3rating
-            })
-
-        # Get top 10 MX5 rankings
-        rankings_to_use = filter_active(self.elorankingsmx5) if recently_active else self.elorankingsmx5
-        for index, elem in enumerate(rankings_to_use):
-            if index >= 10:
-                break
-            mx5elos.append({
-                'rank': index + 1,
-                'name': elem.name,
-                'rating': elem.mx5rating
-            })
 
         # Get top 10 clean racers
         rankings_to_use = filter_active(self.safety_rankings) if recently_active else self.safety_rankings
@@ -713,10 +765,22 @@ class parser():
             total_percentage_gt3 = 0
             count_mx5 = 0
             count_gt3 = 0
-
+            overall_pace = 0
             listofvisited = []
 
+            mx5_count_pre = 0
+            gt3_count_pre = 0
+
             for entry in racer.entries:
+                precar = entry.car
+                if precar.id in result.gt3ids:
+                    gt3_count_pre += 1
+                elif precar.id == "ks_mazda_mx5_cup":
+                    mx5_count_pre += 1
+            if racer.numraces < 5:
+                continue
+            for entry in racer.entries:
+
                 variant = entry.track
                 if variant in listofvisited:
                     continue
@@ -725,9 +789,12 @@ class parser():
                 car_type = None
                 if car.id in result.gt3ids:
                     car_type = 'gt3'
+                    if gt3_count_pre < 5:
+                        continue
                 elif car.id == "ks_mazda_mx5_cup":
                     car_type = 'mx5'
-
+                    if mx5_count_pre < 5:
+                        continue
                 if car_type is None:
                     continue
 
@@ -735,6 +802,7 @@ class parser():
                     fastest = fastest_lap_times[car_type][variant]
                 else:
                     if car_type == 'mx5':
+                        
                         fastest = variant.get_fastest_lap_in_mx5().time
                         if fastest == None:
                             continue
@@ -745,24 +813,28 @@ class parser():
                     fastest_lap_times[car_type][variant] = fastest
 
                 if car_type == 'mx5':
-                    thisracerfastest = variant.get_fastest_lap_in_mx5(racerguid)
-                    if thisracerfastest == None:
+                    thisracefastest_by_racer = entry.result.get_fastest_lap_of_racer(racer)
+                    if thisracefastest_by_racer == None:
                         continue
-                    if thisracerfastest and thisracerfastest.time != 0:
-                        percentage_mx5 = (fastest / thisracerfastest.time) * 100
+                    if thisracefastest_by_racer and thisracefastest_by_racer.time != 0:
+                        percentage_mx5 = (fastest / thisracefastest_by_racer.time) * 100
                         total_percentage_mx5 += percentage_mx5
+                        overall_pace += percentage_mx5
                         count_mx5 += 1
                 elif car_type == 'gt3':
-                    thisracerfastest = variant.get_fastest_lap_in_gt3(racerguid)
-                    if thisracerfastest == None:
+                    thisracefastest_by_racer = entry.result.get_fastest_lap_of_racer(racer)
+                    if thisracefastest_by_racer == None:
                         continue
-                    if thisracerfastest and thisracerfastest.time != 0:
-                        percentage_gt3 = (fastest / thisracerfastest.time) * 100
+                    if thisracefastest_by_racer and thisracefastest_by_racer.time != 0:
+                        percentage_gt3 = (fastest / thisracefastest_by_racer.time) * 100
                         total_percentage_gt3 += percentage_gt3
+                        overall_pace += percentage_gt3
                         count_gt3 += 1
-    
+
+            racer.pace_percentage_overall = round(overall_pace / (count_mx5 + count_gt3), 2) if count_mx5 + count_gt3 > 0 else None
             racer.pace_percentage_gt3 = round(total_percentage_gt3 / count_gt3, 2) if count_gt3 > 0 else None
             racer.pace_percentage_mx5 = round(total_percentage_mx5 / count_mx5, 2) if count_mx5 > 0 else None
+
 
     def get_rank(self, racer, rankings, filter):
         try:
@@ -777,11 +849,6 @@ class parser():
                         rankings = self.podiums_rankingsmx5
                     if filter == "gt3":
                         rankings = self.podiums_rankingsgt3
-                if rankings == self.elorankings:
-                    if filter == "mx5":
-                        rankings = self.elorankingsmx5
-                    if filter == "gt3":
-                        rankings = self.elorankingsgt3
                 if rankings == self.safety_rankings:
                     if filter == "mx5":
                         rankings = self.safety_rankingsmx5
@@ -881,7 +948,12 @@ class parser():
         plt.savefig('scatter_plot.png')  # Save the figure as an image file
         plt.close()  # Close the plot to free up memory
 
-
+    def get_times_track_used(self, variant):
+        count = 0
+        for result in self.raceresults:
+            if result.track == variant:
+                count += 1
+        return count
 
     def test_output(self, id):
         racer = self.racers[id]
@@ -905,13 +977,43 @@ class parser():
         return retstring
     
 
-    def create_progression_chart(self, progression_plot):
+    def create_progression_chart(self, racer, progression_plot):
         dates = list(progression_plot.keys()) 
         finishes = list(progression_plot.values())
         
         # Convert ISO_8601 strings to datetime objects and sort them
         dates = [datetime.fromisoformat(date[:-1]) for date in dates] # Remove the 'Z' at the end of the string
         dates, finishes = zip(*sorted(zip(dates, finishes)))  # Sort dates and finishes together
+        
+        if progression_plot == racer.paceplot:
+            # Calculate mean and standard deviation
+            mean = np.mean(finishes)
+            std_dev = np.std(finishes)
+            
+            # Compute Z-scores and filter out outliers
+            z_scores = [(finish - mean) / std_dev for finish in finishes]
+            filtered_data = [(date, finish) for date, finish, z in zip(dates, finishes, z_scores) if abs(z) <= 2]
+            
+            if len(filtered_data) < 2:
+                print("Not enough data points after filtering outliers")
+                return
+            
+            dates, finishes = zip(*filtered_data)  # Unzip filtered data
+
+        if progression_plot == racer.incidentplot:
+            # Calculate mean and standard deviation
+            mean = np.mean(finishes)
+            std_dev = np.std(finishes)
+            
+            # Compute Z-scores and filter out outliers
+            z_scores = [(finish - mean) / std_dev for finish in finishes]
+            filtered_data = [(date, finish) for date, finish, z in zip(dates, finishes, z_scores) if abs(z) <= 15]
+            
+            if len(filtered_data) < 2:
+                print("Not enough data points after filtering outliers")
+                return
+            
+            dates, finishes = zip(*filtered_data)  # Unzip filtered data
         
         fig, ax = plt.subplots()
         
@@ -925,17 +1027,49 @@ class parser():
         linear_trend = np.poly1d(coeffs)
         
         ax.plot(dates, linear_trend(x), linestyle='-', color='r', label='Linear Trend', linewidth=2)
-
-        ax.set(xlabel='Date', ylabel='ELO', title='Racer Progression Over Time')
+        averagepace = None
+        averageincidents = None
+        # Plot average line for all racers
+        if progression_plot == racer.paceplot:
+            averages = [r.pace_percentage_overall for r in self.racers.values() if r.pace_percentage_overall is not None and r.numraces > 5]
+            if averages:
+                average = np.mean(averages)
+                averagepace = average
+                ax.axhline(y=average, color='g', linestyle='--', label="RRR Average")
+        elif progression_plot == racer.incidentplot:
+            averages = [r.averageincidents for r in self.racers.values() if r.averageincidents is not None and r.numraces > 5]
+            if averages:
+                average = np.mean(averages)
+                averageincidents = average
+                ax.axhline(y=average, color='g', linestyle='--', label='RRR Average')
+        
+        if progression_plot == racer.progression_plot:
+            ax.set(xlabel='Date', ylabel='ELO', title='Racer Progression Over Time')
+        elif progression_plot == racer.paceplot:
+            ax.set(xlabel='Date', ylabel='Pace', title='Pace Progression Over Time')
+        elif progression_plot == racer.incidentplot:
+            ax.set(xlabel='Date', ylabel='Incidents', title='Safety Over Time')
+            ax.invert_yaxis() # Invert y-axis for incidents
         ax.grid()
         
         # Format the date on the x-axis to show month and year
         ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))
         
         # Set y-axis limits based on the actual ELO values
-        y_min = min(finishes) - 50  # Adjust as needed
-        y_max = max(finishes) + 50  # Adjust as needed
+        if progression_plot == racer.progression_plot:
+            y_min = 0
+            y_max = max(max(finishes) + 50, 2200 )
+        elif progression_plot == racer.paceplot:
+            y_min = min(averagepace - 5.0, min(finishes) - 5.0)
+            y_max = 100.0
+        elif progression_plot == racer.incidentplot:
+            y_min = 0.0
+            y_max = 20.0
+
+        
         ax.set_ylim(y_min, y_max)
+        if progression_plot == racer.incidentplot:
+            ax.invert_yaxis() # Invert y-axis for incidents
         
         fig.autofmt_xdate()
         
@@ -945,6 +1079,9 @@ class parser():
         # Save chart as an image
         plt.savefig('progression_chart.png')
         plt.close()
+
+
+
 
     def moving_average(self, data, window_size):
         return np.convolve(data, np.ones(window_size)/window_size, mode='valid')
@@ -997,3 +1134,43 @@ class parser():
         # Save chart as an image
         plt.savefig('progression_chart.png')
         plt.close()
+
+
+    def create_average_elo_progression_chart(self):
+        # Extract dates and elo rankings from the dictionary
+        dates = list(self.averageelorankingsovertime.keys())
+        elo_rankings = list(self.averageelorankingsovertime.values())
+
+        # Filter out entries where Average ELO is zero
+        filtered_data = [(date, elo) for date, elo in zip(dates, elo_rankings) if elo != 0]
+        if not filtered_data:  # Ensure there is data to plot
+            print("No valid data to plot after filtering out zero ELO values.")
+            return
+
+        # Separate filtered dates and rankings
+        dates, elo_rankings = zip(*filtered_data)
+
+        # Convert ISO_8601 strings to datetime objects and sort them
+        dates = [datetime.fromisoformat(date[:-1]) for date in dates]  # Remove the 'Z' at the end
+        dates, elo_rankings = zip(*sorted(zip(dates, elo_rankings)))  # Sort dates and elo rankings together
+
+        # Create the plot
+        plt.figure(figsize=(10, 5))
+        plt.plot(dates, elo_rankings, marker='o', linestyle='-', color='purple', alpha=0.8, label='Filtered Average ELO Progression')
+        plt.xlabel('Date')
+        plt.ylabel('Average ELO')
+        plt.title('Filtered Average ELO Progression Over Time')
+        plt.grid(True)
+        plt.ylim(1200, 1800)  # Set y-axis limits
+
+        # Format the date on the x-axis to show month and year
+        plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))
+        plt.gcf().autofmt_xdate()
+
+        # Add a legend
+        plt.legend(loc='upper left')
+
+        # Save chart as an image
+        plt.savefig('average_elo_progression_chart.png')
+        plt.close()
+

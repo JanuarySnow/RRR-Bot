@@ -1,35 +1,165 @@
 import aiohttp
 import discord
 import math
-import pandas as pd
 from discord.ext import commands, tasks
 from discord.ext.commands import Context
-from discord.ext.commands import Bot
 from discord.ui import Button, View
-from discord import Embed
 import json
-import logging
-from operator import itemgetter
 import os
-import platform
 import random
-import sys
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates 
-from datetime import datetime
-import matplotlib.ticker as mtick
-import numpy as np
-from fuzzywuzzy import process
-import content_data
 import statsparser
-import racer
-import result
+import requests
 import asyncio
-import shutil
 from logger_config import logger
+import asyncio
+import logging
+from base64 import b64encode
+from dataclasses import dataclass, field
+from datetime import timedelta, timezone, datetime
+from typing import Literal, Optional
+import scipy.stats as stats
+from faker import Faker
+from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import features
+import json
+import os
+import difflib
+import pytz
+
 
 ON_READY_FIRST_RUN_DOWNLOAD = True
 ON_READY_FIRST_TIME_SCAN = True
+ON_READY_FIRST_TIME_QUALY_SCAN = True
+ALREADY_BETTING_CLOSED = False
+ON_READY_FIRST_DISTRIBUTE_COIN = True
+ALREADY_ANNOUNCED_BETTING = False
+ON_READY_FIRST_ANNOUNCE_CHECK = True
+
+ALLOWED_CHANNELS = {
+    "global": ["1134963371553337478", "1328800009189195828", "1098040977308000376"],  # Channels for most commands
+    "tracklookup": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"],
+    "votefortrack": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"],
+    "save_track_data_to_json": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"],
+    "select_track": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"],
+    "handle_vote": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"]
+    
+    }
+
+class VoteView(discord.ui.View):
+    def __init__(self, embed, timeout=14400, create_callback=None):
+        super().__init__(timeout=timeout)
+        self.embed = embed
+        self.create_callback = create_callback
+        # Add score buttons from 1 to 5
+        for rating in range(1, 6):
+            button = discord.ui.Button(
+                label=f"{rating} Stars",
+                style=discord.ButtonStyle.primary,
+                custom_id=f"vote_{rating}"  # Optional: helps with debugging/logging
+            )
+            # Bind the button's callback with the rating.
+            button.callback = self._generate_callback(rating)
+            self.add_item(button)
+
+    def _generate_callback(self, rating: int):
+        async def callback(interaction: discord.Interaction):
+            # Delegate to your existing vote handling logic.
+            await self.create_callback(interaction, rating)
+        return callback
+
+    async def on_timeout(self):
+        # When the view times out, disable all the children (buttons)
+        for child in self.children:
+            child.disabled = True
+
+        # Update the embed footer (or you could add a new field) to indicate voting has ended.
+        self.embed.set_footer(text="Voting time expired. You can no longer cast a vote.")
+        # Edit the original message to update the view and embed.
+        if hasattr(self, "message"):
+            try:
+                await self.message.edit(embed=self.embed, view=self)
+            except Exception as e:
+                logger.info(f"Error updating message on timeout: {e}")
+
+@dataclass
+class MsgNode:
+    text: Optional[str] = None
+    images: list = field(default_factory=list)
+
+    role: Literal["user", "assistant"] = "assistant"
+    user_id: Optional[int] = None
+
+    has_bad_attachments: bool = False
+    fetch_parent_failed: bool = False
+
+    parent_msg: Optional[discord.Message] = None
+
+    lock: asyncio.Lock = field(default_factory=asyncio.Lock)
+
+class Bet():
+    def __init__(self, betterid, amount, racerguid, odds):
+        self.amount = amount
+        self.racerguid = racerguid
+        self.odds = odds
+        self.better = betterid
+
+class EventBet():
+    def __init__(self, eventname, track, odds, car, guidtoname, nametoguid, servername):
+        self.eventname = eventname
+        self.track = track
+        self.odds = odds
+        self.timestamp = datetime.now()
+        self.closed = False
+        self.car = car
+        self.bets = []
+        self.guidtoname = guidtoname
+        self.nametoguid = nametoguid
+        self.servername = servername
+
+    def to_dict(self):
+        return {
+            "eventname": self.eventname,
+            "track": self.track,
+            "odds": self.odds,
+            "timestamp": self.timestamp.isoformat(),  # Convert datetime to ISO 8601 string
+            "closed": self.closed,
+            "car": self.car,
+            "bets": [bet.__dict__ for bet in self.bets],  
+            "guidtoname": self.guidtoname,
+            "servername" : self.servername,
+            "nametoguid": self.nametoguid
+        }
+
+    @staticmethod
+    def from_dict(data):
+        # Convert guidtoname and nametoguid keys/values to lowercase
+        guidtoname = {guid.lower(): name.lower() for guid, name in data["guidtoname"].items()}
+        nametoguid = {name.lower(): guid.lower() for name, guid in data["nametoguid"].items()}
+
+        # Create EventBet instance
+        event_bet = EventBet(
+            eventname=data["eventname"],  # Ensure event name is lowercase
+            track=data["track"],          # Ensure track name is lowercase
+            odds={guid.lower(): odds for guid, odds in data["odds"].items()},  # Lowercase keys for odds
+            car=data["car"],              # Ensure car name is lowercase
+            guidtoname=guidtoname,
+            nametoguid=nametoguid,
+            servername=data["servername"]
+        )
+        # Convert each bet dictionary back into a Bet object, mapping `better` to `betterid`
+        event_bet.bets = [
+            Bet(
+                betterid=bet_data["better"],  # Map `better` to `betterid`
+                amount=bet_data["amount"],
+                racerguid=bet_data["racerguid"],
+                odds=bet_data["odds"]
+            )
+            for bet_data in data["bets"]
+        ]
+        event_bet.timestamp = datetime.fromisoformat(data["timestamp"])  # Convert timestamp back to datetime
+        event_bet.closed = data["closed"]  # Restore closed status
+        return event_bet
+
 
 # Here we name the cog and create a new class for the cog.
 class Stats(commands.Cog, name="stats"):
@@ -38,37 +168,155 @@ class Stats(commands.Cog, name="stats"):
         print("loading stats cog")
         self.parsed = statsparser.parser()
         self.user_data = self.load_user_data()
+        self.currenteventbet = None
+        self.load_current_event_bet()
         self.first_load()
         self.fetch_results_list.start()
         self.justadded = []
         self.logger = logger
+        self.currenteutime = None
+        self.currentnatime = None
+        self.mondayannounced = False
+        self.tuesdayannounced = False
+        self.wednesdayannounced = False
+        self.thursdayannounced = False
+        self.fridayannounced = False
+        self.saturdayannounced = False
+        self.sundayannounced = False
+        self.load_announcement_data()
         self.timetrialserver = 'https://timetrial.ac.tekly.racing'
-        self.mx5euserver = "https://eu.mx5.ac.tekly.racing"
-        self.mx5naserver = "https://us.mx5.ac.tekly.racing"
-        self.gt3euserver = "https://eu.gt3.ac.tekly.racing"
-        self.gt3naserver = "https://us.gt3.ac.tekly.racing"
+
+        self.mx5euopenserver = "https://eu.mx5.ac.tekly.racing"
+        self.mx5naopenserver = "https://na.mx5.ac.tekly.racing"
+        self.mx5eurrrserver = "https://eu.mx5.rrr.ac.tekly.racing"
+        self.mx5narrrserver = "https://na.mx5.rrr.ac.tekly.racing"
+        self.mx5nararserver = "https://na.mx5.rar.ac.tekly.racing"
+        self.mx5eurarserver = "https://eu.mx5.rar.ac.tekly.racing"
+        self.gt3euopenserver = "https://eu.gt3.ac.tekly.racing"
+        self.gt3naopenserver = "https://na.gt3.ac.tekly.racing"
+        self.gt3eurrrserver = "https://eu.gt3.rrr.ac.tekly.racing"
+        self.gt3eurarserver = "https://eu.gt3.rar.ac.tekly.racing"
+        self.gt3nararserver = "https://na.gt3.rar.ac.tekly.racing"
+        self.gt3narrrserver = "https://na.gt3.rrr.ac.tekly.racing"
         self.worldtourserver = "https://worldtour.ac.tekly.racing"
-        self.mx5naproserver = "https://us.gpk.ac.tekly.racing"
-        self.servers = (self.mx5euserver, self.mx5naserver, self.gt3euserver, self.gt3naserver, self.worldtourserver, self.mx5naproserver)
+        self.gt4euopenserver = "https://eu.gt4.ac.tekly.racing"
+        self.gt4naopenserver = "https://na.gt4.ac.tekly.racing"
+        self.gt4eurrrserver = "https://eu.gt4.rrr.ac.tekly.racing"
+        self.gt4narrrserver = "https://na.gt4.rrr.ac.tekly.racing"
+        self.gt4eurarserver = "https://eu.gt4.rar.ac.tekly.racing"
+        self.gt4nararserver = "https://na.gt4.rar.ac.tekly.racing"
+        self.formulaeuopenserver = "https://eu.f3.ac.tekly.racing"
+        self.formulanaopenserver = "https://na.f3.ac.tekly.racing"
+        self.formulaeurrrserver = "https://eu.f2.rrr.ac.tekly.racing"
+        self.formulanarrrserver = "https://na.f2.rrr.ac.tekly.racing"
+        self.formulaeurarserver = "https://eu.f1.rar.ac.tekly.racing"
+        self.formulanararserver = "https://na.f1.rar.ac.tekly.racing"
+        self.lmpeuopenserver = "https://eu.lmp.ac.tekly.racing"
+        self.lmpnaopenserver = "https://na.lmp.ac.tekly.racing"
+        self.lmpeurrrserver = "https://eu.lmp.rrr.ac.tekly.racing"
+        self.lmpnarrrserver = "https://na.lmp.rrr.ac.tekly.racing"
+        self.lmpeurarserver = "https://eu.lmp.rar.ac.tekly.racing"
+        self.lmpnararserver =  "https://na.lmp.rar.ac.tekly.racing"
+        self.testserver = "https://eu.wcw.ac.tekly.racing"
+        self.servers = ( self.mx5euopenserver, self.mx5naopenserver, self.mx5eurrrserver, self.mx5narrrserver, self.mx5nararserver, self.mx5eurarserver,
+                        self.gt3euopenserver, self.gt3naopenserver, self.gt3eurrrserver, self.gt3eurarserver, self.gt3nararserver, self.gt3narrrserver,
+                        self.worldtourserver, self.gt4euopenserver, self.gt4naopenserver, self.gt4eurrrserver, self.gt4narrrserver, self.gt4eurarserver,
+                        self.gt4nararserver, self.formulaeuopenserver, self.formulanaopenserver, self.formulaeurrrserver, self.formulanarrrserver,
+                        self.formulaeurarserver, self.formulanararserver, self.lmpeuopenserver, self.lmpnaopenserver, self.lmpeurrrserver, self.lmpnarrrserver)
         self.blacklist = ["2025_1_4_21_37_RACE.json", "2025_1_4_22_2_RACE.json",
                           "2024_12_21_21_58_RACE.json", "2024_12_21_21_32_RACE.json",
                           "2025_2_17_20_30_RACE.json", "2025_2_17_20_57_RACE.json",
-                          "2025_2_22_22_0_RACE.json", "2025_2_22_21_35_RACE.json"]
+                          "2025_2_22_22_0_RACE.json", "2025_2_22_21_35_RACE.json", "2025_4_8_19_42_RACE.json"]
 
         self.servertodirectory = {
-            self.mx5euserver: "eumx5",
-            self.mx5naserver: "namx5",
-            self.mx5naproserver: "namx5pro",
-            self.gt3euserver: "eugt3",
-            self.gt3naserver: "nagt3",
+            self.mx5euopenserver: "mx5euopen",
+            self.mx5naopenserver: "mx5naopen",
+            self.mx5eurrrserver: "mx5eurrr",
+            self.mx5narrrserver: "mx5narrr",
+            self.mx5nararserver: "mx5narar",
+            self.mx5eurarserver: "mx5eurar",
+            self.gt3euopenserver: "gt3euopen",
+            self.gt3naopenserver: "gt3naopen",
+            self.gt3eurrrserver: "gt3eurrr",
+            self.gt3eurarserver: "gt3eurar",
+            self.gt3nararserver: "gt3narar",
+            self.gt3narrrserver: "grt3narrr",
             self.worldtourserver: "worldtour",
+            self.gt4euopenserver: "gt4euopen",
+            self.gt4naopenserver: "gt4naopen",
+            self.gt4eurrrserver: "gt4eurrr",
+            self.gt4narrrserver: "gt4narrr",
+            self.gt4eurarserver: "gt4eurar",
+            self.gt4nararserver: "gt4narar",
+            self.formulaeuopenserver: "formulaeuopen",
+            self.formulanaopenserver: "formulanaopen",
+            self.formulaeurrrserver: "formulaeurrr",
+            self.formulanarrrserver: "formulanarrr",
+            self.formulaeurarserver: "formulaeurar",
+            self.formulanararserver: "formulanarar",
+            self.lmpeuopenserver: "lmpeuopen",
+            self.lmpnaopenserver: "lmpnaopen",
+            self.lmpeurrrserver: "lmpeurrr",
+            self.lmpnarrrserver: "lmpnarrr",
+            self.lmpeurarserver: "lmpeurar",
+            self.lmpnararserver: "lmpnarar",
+
         }
         self.download_queue = []
         logger.info("Stats cog loaded")
+        self.check_sessions_task.start()
+        self.distribute_coins.start()
+        self.fetch_time.start()
+        self.check_for_announcements.start()
 
     def first_load(self):
+        self.currenteutime = self.get_current_time("Europe/London")
+        self.currentnatime = self.get_current_time("US/Central")
         self.parsed.refresh_all_data()
-    
+
+    def load_announcement_data(self):
+        try:
+            with open("raceannouncements.json", "r") as file:
+                data = json.load(file)
+            print("Loaded data:", data)  # DEBUG PRINT
+            # Update the flags based on JSON data
+            self.mondayannounced = data["mondayannounced"]["announced"]
+            self.tuesdayannounced = data["tuesdayannounced"]["announced"]
+            self.wednesdayannounced = data["wednesdayannounced"]["announced"]
+            self.thursdayannounced = data["thursdayannounced"]["announced"]
+            self.fridayannounced = data["fridayannounced"]["announced"]
+            self.saturdayannounced = data["saturdayannounced"]["announced"]
+            self.sundayannounced = data["sundayannounced"]["announced"]
+            print("self.wednesdayannounced on first load = " + str(self.wednesdayannounced))  # DEBUG PRINT
+        except FileNotFoundError:
+            print("raceannouncements.json not found. Using default values.")
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+        except Exception as e:
+            print(f"Unexpected error: {e}")
+
+
+    def save_announcement_data(self):
+        data = {
+            "mondayannounced": {"announced": self.mondayannounced},
+            "tuesdayannounced": {"announced": self.tuesdayannounced},
+            "wednesdayannounced": {"announced": self.wednesdayannounced},
+            "thursdayannounced": {"announced": self.thursdayannounced},
+            "fridayannounced": {"announced": self.fridayannounced},
+            "saturdayannounced": {"announced": self.saturdayannounced},
+            "sundayannounced": {"announced": self.sundayannounced},
+        }
+        try:
+            with open("raceannouncements.json", "w") as file:
+                json.dump(data, file, indent=4)
+            print("Saved data:", data)  # DEBUG PRINT
+        except Exception as e:
+            print(f"Error saving announcement data: {e}")
+
+
+
+
+        
     def load_user_data(self):
         try:
             with open('user_data.json', 'r') as file:
@@ -90,24 +338,581 @@ class Stats(commands.Cog, name="stats"):
 
         # Scenario One: No additional string
         if query is None:
-            print("no steamid provided, looking up Discord ID")
+            logger.info("no steamid provided, looking up Discord ID")
             if user_id in self.user_data:
-                return self.user_data[user_id]
+                return self.user_data[user_id]["guid"]
             else:
                 return None
         # Scenario Two: Steam GUID provided
         else:
-            print("steamid provided, it is " + query)
+            logger.info("steamid provided, it is " + query)
             if query in self.parsed.racers.keys():
                 return query
         return None
+    
+    @commands.hybrid_command(name="clearbets", description="clearbets")
+    @commands.is_owner()
+    async def clearbets(self, ctx):
+        if self.currenteventbet:
+            for bet in self.currenteventbet.bets:
+                betterguid = bet.better
+                for betterid in self.user_data:
+                    if self.user_data[betterid]["guid"] == betterguid:
+                        self.user_data[betterid]["spudcoins"] += bet.amount
+            self.currenteventbet.bets = []
+            self.save_current_event_bet()
+            self.save_user_data()
+            await ctx.send("Cleared bets for current event")
+
+    @commands.hybrid_command(name="cleareventbet", description="cleareventbet")
+    @commands.is_owner()
+    async def cleareventbet(self, ctx):
+        if self.currenteventbet:
+            await self.clear_event_bet()
+            await ctx.send("Cleared entire event for betting")
+
+    async def clear_event_bet(self):
+        if self.currenteventbet:
+            self.currenteventbet = None
+            self.save_current_event_bet()
+
+    @commands.hybrid_command(name="top10collided", description="top10collided")
+    async def top10collided(self, ctx, query: str = None):
+        steam_guid = self.get_steam_guid(ctx, query)
+        if steam_guid:
+            racer = self.parsed.get_racer(steam_guid)
+            if racer:
+                # Sort the collision racers by the number of collisions in descending order
+                top10collided = sorted(
+                    racer.collisionracers.items(),
+                    key=lambda item: item[1],
+                    reverse=True
+                )[:10]  # Get the top 10
+
+                # Create an embed with the top 10 collided racers
+                embed = discord.Embed(
+                    title="Top 10 Collided Racers",
+                    description="Here are the racers you collided with the most:",
+                    color=discord.Color.blue()
+                )
+                
+                for other_racer, collisions in top10collided:
+                    embed.add_field(
+                        name=other_racer.name,  # Racer's name
+                        value=f"{collisions} collisions",  # Collision count
+                        inline=False
+                    )
+                
+                await ctx.send(embed=embed)
+            else:
+                await ctx.send("Could not find racer data for the provided Steam GUID.")
+        else:
+            await ctx.send("Invalid query. Provide a valid Steam GUID or /register your Steam GUID to your Discord name.")
+
+    
+    @commands.hybrid_command(name="changeprompt", description="changeprompt")
+    async def changeprompt(self, ctx, newprompt:str):
+        self.bot.prompt = newprompt
+        await ctx.send("changed chat prompt")
 
     @commands.hybrid_command(name="register", description="register steamid")
     async def register(self, ctx, steam_guid: str):
         user_id = str(ctx.author.id)
-        self.user_data[user_id] = steam_guid
+        self.user_data[user_id] = {}
+        self.user_data[user_id]["guid"] = steam_guid
+        self.user_data[user_id]["spudcoins"] = 1000
+        self.user_data[user_id]["activebets"] = []
         self.save_user_data()
         await ctx.send(f'Registered Steam GUID {steam_guid} for Discord user {ctx.author.name}')
+
+    @commands.hybrid_command(name="mycoins", description="get my coin amount")
+    async def mycoins(self, ctx, query: str = None):
+        steam_guid = self.get_steam_guid(ctx, query)
+        if steam_guid:
+            user_id = str(ctx.author.id)
+            coins = self.user_data[user_id]["spudcoins"]
+            await ctx.send(f'You have {coins} spudcoins!')
+
+
+    def calculate_win_probabilities(self,elo_ratings, k=math.log(6) / 800):
+        """
+        Converts ELO ratings into win probabilities for a multi-competitor race.
+        :param elo_ratings: List of ELO ratings.
+        :param k: Scaling factor (default makes 400-point difference ~10x strength).
+        :return: List of win probabilities that sum to 1.
+        """
+        reducer = 4
+        # Calculate each racer's weight
+        weights = [math.exp(k * elo) / reducer for elo in elo_ratings]
+        total_weight = sum(weights)
+        # The win probability is proportional to the racer's weight
+        probabilities = [w / total_weight for w in weights]
+        return probabilities
+
+    def calculate_odds(self,probabilities):
+        """
+        Converts probabilities into basic decimal odds (without loading/margin).
+        :param probabilities: List of win probabilities.
+        :return: List of odds.
+        """
+        odds = [1 / p if p > 0 else float('inf') for p in probabilities]
+
+        for i in range(len(odds)):
+            odds[i] = odds[i] / 2.0
+            odds[i] = max(1.5, odds[i])
+            odds[i] = min(20, odds[i])
+
+        return odds
+    
+    def get_current_time(self, timezone):
+        # Get the current system time in UTC
+        utc_time = datetime.now(pytz.utc)
+        
+        # Convert UTC time to the specified timezone
+        local_timezone = pytz.timezone(timezone)
+        local_time = utc_time.astimezone(local_timezone)
+        
+        return local_time
+
+        
+    @tasks.loop(seconds=60.0)
+    async def fetch_time(self):
+        self.currenteutime = self.get_current_time("Europe/London")
+        self.currentnatime = self.get_current_time("US/Central")
+        
+    @tasks.loop(seconds=180.0)
+    async def check_for_announcements(self):
+        global ON_READY_FIRST_ANNOUNCE_CHECK
+        if ON_READY_FIRST_ANNOUNCE_CHECK:
+            ON_READY_FIRST_ANNOUNCE_CHECK = False
+            return
+        cst_timezone = pytz.timezone("US/Central")
+        now_cst = self.currentnatime.astimezone(cst_timezone)  # Ensure it's CST-aware
+        current_cst_day = now_cst.strftime("%A")
+        if 8 <= now_cst.hour < 10:
+            race_map = {
+                "Monday": "mx5",
+                "Tuesday": "gt4",
+                "Wednesday": "wcw",
+                "Thursday": "formula",
+                "Friday": "gt3",
+                "Saturday": "worldtour",
+                "Sunday": "lmp"
+            }
+            if current_cst_day in race_map and not getattr(self, f"{current_cst_day.lower()}announced", False):
+                await self.announce_raceday(race_map[current_cst_day])
+            
+                # Reset all flags
+                for day in race_map.keys():
+                    setattr(self, f"{day.lower()}announced", day == current_cst_day)
+                self.save_announcement_data()
+            else:
+                print("Announcements have already been made or invalid day.")
+
+    @commands.hybrid_command(name="testracedayannounce", description="testracedayannounce")
+    @commands.is_owner()
+    async def testracedayannounce(self, ctx, type: str):
+        await self.announce_raceday(type)
+        await ctx.send("Announced raceday for " + type)
+
+    
+    async def announce_raceday(self, type):
+        roles = []
+        leaguechannel = 1317629640793264229
+        announcestr = ""
+        if type == "wcw":
+            roles.append(1117574168611930132)
+            roles.append(1332356298179870821)
+            role_mentions = " ".join([f"<@&{role_id}>" for role_id in roles])
+            announcestr += role_mentions
+            announcestr += "It's Wildcard Wednesday! stay tuned for futher information later on when we reveal what the surprise event is!"
+        else:
+            if type == "mx5":
+                roles.append(1117573512064946196)
+                roles.append(1117573763869978775)
+            elif type == "gt3":
+                roles.append(1117573957634228327)
+                roles.append(1117574027645558888)
+            elif type == "gt4":
+                roles.append(1358914901153681448)
+                roles.append(1358915346362531940)
+            elif type == "formula":
+                roles.append(1358915606115651684)
+                roles.append(1358915647634936058)
+            elif type == "lmp":
+                roles.append(1358915131697926266)
+                roles.append(1358915529498427555)
+            elif type == "worldtour":
+                roles.append(1117574229894901871)
+            role_mentions = " ".join([f"<@&{role_id}>" for role_id in roles])
+            announcestr += role_mentions
+            announcestr += "It's raceday! check out : <#" + str(leaguechannel) + "> for more info!"
+        channel = self.bot.get_channel(1102816381348626462)
+        if channel is None:
+            logger.info("No valid channel available to send the announcement.")
+            return
+        await self.send_announcement(channel, announcestr)
+
+    async def send_announcement(self, channel: discord.TextChannel,  announcement):
+        # 4) Attach the file + embed in a single send call
+        await channel.send(announcement)
+
+
+    
+    def normalize_odds(self, odds, mean=1.5, std_dev=0.5):
+        """
+        Normalize odds to keep them within a reasonable range.
+        The predefined mean and standard deviation squash extreme odds towards more common/expected values.
+        :param odds: List of odds.
+        :param mean: Mean of the normal distribution (default 1.5).
+        :param std_dev: Standard deviation of the normal distribution (default 0.5).
+        :return: List of normalized odds.
+        """
+        return [stats.norm.pdf(o, loc=mean, scale=std_dev) for o in odds]
+
+    @commands.hybrid_command(name="testracebetting", description="testracebetting")
+    @commands.is_owner()
+    async def testracebetting(self, ctx, amount:int):
+        guids = []
+        fakenames = []
+        elo_ratings = []
+        for i in range(amount):
+            randomint = random.randint(800, 2100)
+            elo_ratings.append(randomint)
+            guids.append(i)
+            fakenames.append(Faker().name())
+        win_probs = self.calculate_win_probabilities(elo_ratings)
+        odds = self.calculate_odds(win_probs)
+        odds_dict = {guid: round(odds[i], 2) for i, guid in enumerate(guids)}
+        guidtonamedict = {}
+        nametoguiddict = {}
+        guidtoelodict = {}
+        for i, guid in enumerate(guids):
+            guidtonamedict[guid] = fakenames[i]
+            nametoguiddict[fakenames[i]] = guid
+            guidtoelodict[guid] = elo_ratings[i]
+        newbetevent = EventBet("TESTRACE", "yer mums", odds_dict, "yer da", guidtonamedict, nametoguiddict, "pretend server")
+        self.currenteventbet = newbetevent
+        await self.announce_fake_betting_event("yer mums", "yer da", odds_dict, guidtonamedict, guidtoelodict)
+        self.save_current_event_bet()
+
+    @commands.hybrid_command(name="checksessions", description="checksessions")
+    async def checksessions(self, ctx):
+        await self.check_sessions()
+
+
+    @commands.hybrid_command(name="topratedtracks", description="Displays the top-rated tracks")
+    async def topratedtracks(self, ctx):
+        # Create a dictionary to combine ratings of tracks with the same `highest_priority_name`
+        combined_tracks = {}
+
+        for track in self.parsed.contentdata.tracks:
+            if len(track.ratings) >= 3:  # Only include tracks with 3 or more ratings
+                if track.highest_priority_name in combined_tracks:
+                    # Combine average ratings (weighted based on the number of ratings)
+                    existing_avg = combined_tracks[track.highest_priority_name]["average_rating"]
+                    existing_count = combined_tracks[track.highest_priority_name]["count"]
+                    combined_avg = (existing_avg * existing_count + track.average_rating * len(track.ratings)) / (existing_count + len(track.ratings))
+                    combined_tracks[track.highest_priority_name] = {
+                        "average_rating": combined_avg,
+                        "count": existing_count + len(track.ratings)
+                    }
+                else:
+                    combined_tracks[track.highest_priority_name] = {
+                        "average_rating": track.average_rating,
+                        "count": len(track.ratings)
+                    }
+
+        # Convert combined_tracks to a list of tuples for sorting
+        sorted_tracks = sorted(combined_tracks.items(), key=lambda item: item[1]["average_rating"], reverse=True)
+
+        # Take the top 10 tracks, or fewer if there aren't enough
+        top_tracks = sorted_tracks[:10]
+
+        # Create the embed
+        embed = discord.Embed(title="Top Rated Tracks", description="Tracks with at least 3 ratings", color=discord.Color.blue())
+        
+        # Add tracks to the embed
+        for track, data in top_tracks:
+            embed.add_field(name=track, value=f"Rating: {round(data['average_rating'], 2)}", inline=False)
+
+        embed.set_footer(text="Track Ratings")
+        
+        # Send the embed in the Discord channel
+        await ctx.send(embed=embed)
+
+    @commands.hybrid_command(name="pitboxsearch", description="pitboxsearch")
+    async def pitboxsearch(self, ctx, amount: int):
+        bigtracks = {}
+        for track in self.parsed.contentdata.tracks:
+            for variant in track.variants:
+                if variant.pitboxes == '':
+                    continue
+                if variant.pitboxes == '0':
+                    continue
+                if not variant.pitboxes:
+                    continue
+                if int(variant.pitboxes) >= amount:
+                    if track.highest_priority_name in bigtracks:
+                        bigtracks[track].append(variant)
+                    else:
+                        bigtracks[track] = [variant]
+
+        # Count total track variants
+        total_variants = sum(len(variants) for variants in bigtracks.values())
+        if total_variants > 100:
+            await ctx.send("Too many track variants to display. Please narrow your search.")
+            return
+
+        retstring = ""
+        for track in bigtracks:
+            for variant in bigtracks[track]:
+                line = (
+                    f"{track.highest_priority_name} variant : {variant.name} has "
+                    f"{variant.pitboxes} pitboxes\n"
+                )
+                if len(retstring) + len(line) > 2000:
+                    # Send the accumulated message if it reaches the limit
+                    await ctx.send(retstring)
+                    retstring = ""  # Reset for the next chunk
+                retstring += line
+
+        if retstring:  # Send any remaining message
+            await ctx.send(retstring)
+
+    async def cog_before_invoke(self, ctx):
+        logger.info("before invoke")
+        allowed_channels = ALLOWED_CHANNELS.get(ctx.command.name, ALLOWED_CHANNELS.get("global", []))
+        logger.info(f"channelid = {ctx.channel.id}")
+        logger.info(f"allowed_channels = {allowed_channels}")
+        if allowed_channels and str(ctx.channel.id) not in allowed_channels:
+            await ctx.send("This command cannot be used in this channel.")
+            raise commands.CheckFailure
+
+    @tasks.loop(seconds=86400.0)
+    async def distribute_coins(self):
+        global ON_READY_FIRST_DISTRIBUTE_COIN
+        if ON_READY_FIRST_DISTRIBUTE_COIN:
+            ON_READY_FIRST_DISTRIBUTE_COIN = False
+            return
+        for user_id in self.user_data:
+            self.user_data[user_id]["spudcoins"] += 1
+        self.save_user_data()
+    
+    @tasks.loop(seconds=120.0)
+    async def check_sessions_task(self):
+        await self.check_sessions()
+
+    async def announce_betting_event(self, track, car, odds_dict):
+        # Get the 'bot-testing' channel by name
+        
+        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+
+        # Create an embed for the announcement
+        embed = discord.Embed(
+            title="🏎️ **Betting Event Now Open!** 🏁",
+            description=f"**Track**: {self.parsed.get_track_name(track)} 🌍\n**Car**: {self.parsed.contentdata.get_car(car).name} 🚗\n\n**Betting is now open for 5 minutes!** Place your bets wisely! 🔥",
+            color=discord.Color.blue()
+        )
+        
+        # Add driver odds to the embed
+        for driver_guid, odds in odds_dict.items():
+            driver_name = f"Driver {self.parsed.get_racer(driver_guid).name}"  # Replace with actual driver name retrieval logic if available
+            driver_rating = self.parsed.racers[driver_guid].rating  # Retrieve the driver's ELO rating
+            embed.add_field(
+                name=f"🎯 {driver_name}",
+                value=f"Odds: **{odds}**\nELO Rating: **{driver_rating}**",  # Add the ELO rating here
+                inline=False
+            )
+        
+        # Send the embed to the channel
+        await channel.send(embed=embed)
+
+    async def announce_fake_betting_event(self, track, car, odds_dict, guidtonamedict, guidtoelodict):
+        # Get the 'bot-testing' channel by name
+        
+        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+
+        # Create an embed for the announcement
+        embed = discord.Embed(
+            title="🏎️ **Betting Event Now Open!** 🏁",
+            description=f"**Track**: {track} 🌍\n**Car**: {car} 🚗\n\n**Betting is now open for 8 minutes!** Place your bets wisely! 🔥",
+            color=discord.Color.blue()
+        )
+        
+        # Add driver odds and ELO rating to the embed
+        for driver_guid, odds in odds_dict.items():
+            driver_name = f"Driver {guidtonamedict[driver_guid]}"  # Replace with actual driver name retrieval logic if available
+            driver_rating = guidtoelodict[driver_guid]  # Retrieve the driver's ELO rating
+            embed.add_field(
+                name=f"🎯 {driver_name}",
+                value=f"Odds: **{odds}**\nELO Rating: **{driver_rating}**",  # Add the ELO rating here
+                inline=False
+            )
+
+        # Send the embed to the channel
+        await channel.send(embed=embed)
+
+
+
+    async def check_sessions(self):
+        global ON_READY_FIRST_TIME_QUALY_SCAN
+        global ALREADY_BETTING_CLOSED
+        if ON_READY_FIRST_TIME_QUALY_SCAN:
+            ON_READY_FIRST_TIME_QUALY_SCAN = False
+            return
+        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+        if self.currenteventbet:
+            # Get the current time in UTC
+            # Get the current time as a naive datetime
+            now = datetime.now()
+
+            # Remove timezone info from the timestamp to make it naive
+            timestamp_naive = self.currenteventbet.timestamp.replace(tzinfo=None)
+
+            # Check if 5 minutes have passed since the timestamp
+            if not ALREADY_BETTING_CLOSED:
+                if now - timestamp_naive >= timedelta(minutes=8):
+                    self.currenteventbet.closed = True
+                    logger.info(f"Betting for the current event has been closed. Event timestamp: {self.currenteventbet.timestamp}")
+                    if not ALREADY_BETTING_CLOSED:
+                        await channel.send("BETTING IS NOW CLOSED FOR THE EVENT!")
+                        ALREADY_BETTING_CLOSED = True
+                return
+        else:
+            for server in self.servers:
+                data = await self.get_live_timing_data("regularcheck", server)
+                if not data:
+                    continue
+                if data["Name"] == "Qualify":
+                    if server == self.testserver:
+                        continue
+                    if server == self.mx5naserver:
+                        continue
+                    if data["ConnectedDrivers"] is None:
+                        continue
+                    if len(data["ConnectedDrivers"]) < 1:
+                        continue
+                    racerguids = []
+                    racer_data = {}
+                    car = None
+                    for driver in data["ConnectedDrivers"]:
+                        racerguid = driver["CarInfo"]["DriverGUID"]
+                        car = driver["CarInfo"]["CarModel"]
+                        racerobj = self.parsed.get_racer(racerguid)
+                        if racerobj:
+                            racer_data[racerguid] = racerobj.rating
+                            racerguids.append(racerguid)
+                    elo_ratings = list(racer_data.values())
+                    guids = list(racer_data.keys())
+                    win_probs = self.calculate_win_probabilities(elo_ratings)
+                    odds = self.calculate_odds(win_probs)
+                    odds_dict = {guid: round(odds[i], 2) for i, guid in enumerate(guids)}
+                    guidtonamedict = {}
+                    nametoguiddict = {}
+                    servername = self.servertodirectory[server]
+                    for guid in guids:
+                        guidtonamedict[guid] = self.parsed.get_racer(guid).name.lower()
+                        nametoguiddict[self.parsed.get_racer(guid).name.lower()] = guid
+                    newbetevent = EventBet(data["ServerName"], data["Track"], odds_dict, car, guidtonamedict, nametoguiddict, servername)
+                    self.currenteventbet = newbetevent
+                    logger.info("new event bet created for " + data["ServerName"] + " at " + data["Track"])
+                    logger.info("odds are " + str(odds_dict))
+                    await self.announce_betting_event(data["Track"], car, odds_dict)
+                    self.save_current_event_bet()
+
+    def save_current_event_bet(self):
+        if self.currenteventbet is None:
+            # Clear the file if there is no current event bet
+            with open('current_bet_event.json', 'w') as file:
+                file.write("")  # Writing an empty string clears the file
+            logger.info("The current event bet is None. Cleared the file.")
+        else:
+            # Save the current event bet to the file
+            with open('current_bet_event.json', 'w') as file:
+                json.dump(self.currenteventbet.to_dict(), file, indent=4)
+            logger.info("Saved the current event bet to the file.")
+
+
+    def load_current_event_bet(self):
+        try:
+            # Try to open the file
+            with open('current_bet_event.json', 'r') as file:
+                # Check if the file is empty
+                if file.read().strip() == "":
+                    logger.info("The file is empty. Setting currenteventbet to None.")
+                    self.currenteventbet = None
+                    return
+                
+                # Move the cursor back to the start of the file
+                file.seek(0)
+                
+                # Load JSON data
+                data = json.load(file)
+
+                # Deserialize into EventBet object
+                self.currenteventbet = EventBet.from_dict(data)
+                self.currenteventbet.timestamp = datetime.fromisoformat(data["timestamp"])  # Convert string back to datetime
+
+        except FileNotFoundError:
+            logger.info("File not found. Setting currenteventbet to None.")
+            self.currenteventbet = None
+
+        except json.JSONDecodeError:
+            logger.info("File is invalid or corrupted. Setting currenteventbet to None.")
+            self.currenteventbet = None # Convert string back to datetime
+
+    @commands.hybrid_command(name="getcurrentbetevent", description="getcurrentbetevent")
+    async def getcurrentbetevent(self, ctx):
+        if self.currenteventbet:
+            await ctx.send("Current event betting is " + self.currenteventbet.eventname + " at " + self.currenteventbet.track)
+            for guid, odds in self.currenteventbet.odds.items():
+                await ctx.send("Driver " + self.currenteventbet.guidtoname[guid] + " has odds of " + str(odds))
+            for bet in self.currenteventbet.bets:
+                await ctx.send("Bet of " + str(bet.amount) + " on " + self.currenteventbet.guidtoname[bet.racerguid] + " by " + self.parsed.get_racer(bet.better).name)
+        else:
+            await ctx.send("No current event bet")
+
+    @commands.hybrid_command(name="bet", description="bet on winner")
+    async def bet(self, ctx, winnername, amount):
+        winnername = winnername.lower()
+        amount = int(amount)
+        if amount < 0:
+            await ctx.send(f"{ctx.author.mention}, you cannot bet a negative amount.")
+            return
+        if amount > 100:
+            await ctx.send(f"{ctx.author.mention}, you cannot bet more than 100.")
+            return
+        if self.currenteventbet is None:
+            await ctx.send(f"{ctx.author.mention}, no current event betting is open.")
+            return
+        if self.currenteventbet.closed:
+            await ctx.send(f"{ctx.author.mention}, betting is now closed for the current event.")
+            return
+        steam_guid = self.get_steam_guid(ctx, None)
+        if steam_guid:
+            for bet in self.currenteventbet.bets:
+                if bet.better == str(steam_guid):
+                    await ctx.send(f"{ctx.author.mention}, you have already placed a bet for this event!")
+                    return
+            if winnername not in self.currenteventbet.nametoguid:
+                await ctx.send(f"{ctx.author.mention}, this driver is not in the event.")
+                return
+            winnerguid = self.currenteventbet.nametoguid[winnername]
+            odds = self.currenteventbet.odds[winnerguid]
+            if amount > self.user_data[str(ctx.author.id)]["spudcoins"]:
+                await ctx.send(f"{ctx.author.mention}, you do not have enough spudcoins to place this bet.")
+                return
+            self.user_data[str(ctx.author.id)]["spudcoins"] -= amount
+            newbet = Bet(str(steam_guid), amount, winnerguid, odds)
+            self.currenteventbet.bets.append(newbet)
+            self.save_current_event_bet()
+            self.save_user_data()
+            await ctx.send(f"{ctx.author.mention}, you have bet {amount} on {self.currenteventbet.guidtoname[winnerguid]} at odds of {odds}.")
+        else:
+            await ctx.send(f"{ctx.author.mention}, you have not registered a Steam GUID.")
+            return
+
 
     @commands.hybrid_command(name="unregister", description="unregister steamid")
     async def unregister(self, ctx): 
@@ -123,12 +928,12 @@ class Stats(commands.Cog, name="stats"):
     async def showlink(self, ctx): 
         user_id = str(ctx.author.id) 
         if user_id in self.user_data: 
-            steam_guid = self.user_data[user_id] 
+            steam_guid = self.user_data[user_id]["guid"]
             await ctx.send(f'Steam GUID linked to {ctx.author.name} is {steam_guid}') 
         else: 
             await ctx.send(f'No Steam GUID linked to Discord user {ctx.author.name}')
 
-
+    
     @commands.hybrid_command(name="testoutput", description="show linked steamid for user")
     @commands.is_owner()
     async def testoutput(self, ctx, guid:str):
@@ -209,55 +1014,31 @@ class Stats(commands.Cog, name="stats"):
             await ctx.send(embed=embed)
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
-
-    @commands.hybrid_command(name="mystatsmx5", description="get my stats for mx5")
-    async def mystatsmx5(self, ctx, query: str = None):
-        steam_guid = self.get_steam_guid(ctx, query)
-        if steam_guid:
-            racer = self.parsed.racers[steam_guid]
-            user = ctx.author
-
-            embed = discord.Embed(title="MX5 Racer Stats", description="User Stats for " + racer.name, color=discord.Color.blue())
-            embed.set_thumbnail(url=user.display_avatar.url)
-            embed.add_field(name="🏁 **Total MX5 races**", value=racer.get_num_races("mx5"), inline=True)
-            embed.add_field(name="🥈 **MX5 ELO**", value=f"{racer.mx5rating} (Rank: {self.parsed.get_elo_rank(racer, "mx5") + 1}/{len(self.parsed.elorankingsmx5)})", inline=True)
-            embed.add_field(name="🏆 **Total MX5 wins**", value=f"{racer.mx5wins} (Rank: {self.parsed.get_wins_rank(racer, "mx5") + 1}/{len(self.parsed.wins_rankingsmx5)})"if racer.mx5wins is not None else "No data", inline=True)
-            embed.add_field(name="🥉 **Total MX5 podiums**", value=f"{racer.mx5podiums} (Rank: {self.parsed.get_podiums_rank(racer, "mx5") + 1}/{len(self.parsed.podiums_rankingsmx5)})"if racer.mx5podiums is not None else "No data", inline=True)
-            embed.add_field(name="⚠️ **Average MX5 incidents/race**", value=f"{racer.averageincidentsmx5} (Rank: {self.parsed.get_safety_rank(racer, "mx5") + 1}/{len(self.parsed.safety_rankingsmx5)})"if racer.averageincidentsmx5 is not None else "No data", inline=True)
-            embed.add_field(name="🛣️ **Most successful MX5 track**", value=racer.mostsuccesfultrackmx5.name, inline=True)
-            embed.add_field(name="🔄 **Total MX5 race laps**", value=racer.mx5laps, inline=True)
-            embed.add_field(name="💥 **Most collided with other MX5 racer**", value=racer.mosthitotherdrivermx5.name, inline=True)
-            embed.add_field(name="⏱️ **MX5 Lap Time Consistency**", value=f"{racer.laptimeconsistencymx5:.2f}% (Rank: {self.parsed.get_laptime_consistency_rank(racer, "mx5") + 1}/{len(self.parsed.laptimeconsistencyrankingsmx5)})" if racer.laptimeconsistencygt3 is not None else "No data", inline=True)
-            embed.add_field(name="🚗 **Average Pace % Compared to Top Lap Times in MX5**", value=f"{racer.pace_percentage_mx5:.2f}% (Rank: {self.parsed.get_pace_mx5_rank(racer) + 1}/{len(self.parsed.pacerankingsmx5)})" if racer.pace_percentage_mx5 is not None else "No data", inline=True)
-
-            await ctx.send(embed=embed)
-        else:
-            await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
-
-    @commands.hybrid_command(name="mystatsgt3", description="get my stats for gt3")
-    async def mystatsgt3(self, ctx, query: str = None):
-        steam_guid = self.get_steam_guid(ctx, query)
-        if steam_guid:
-            racer = self.parsed.racers[steam_guid]
-            user = ctx.author
-
-            embed = discord.Embed(title="GT3 Racer Stats", description="User Stats for " + racer.name, color=discord.Color.blue())
-            embed.set_thumbnail(url=user.display_avatar.url)
-            embed.add_field(name="🏁 **Total GT3 races**", value=racer.get_num_races("gt3"), inline=True)
-            embed.add_field(name="🥈 **GT3 ELO**", value=f"{racer.gt3rating} (Rank: {self.parsed.get_elo_rank(racer, "gt3") + 1}/{len(self.parsed.elorankingsgt3)})", inline=True)
-            embed.add_field(name="🏆 **Total GT3 wins**", value=f"{racer.gt3wins} (Rank: {self.parsed.get_wins_rank(racer, "gt3") + 1}/{len(self.parsed.wins_rankingsgt3)})"if racer.gt3wins is not None else "No data", inline=True)
-            embed.add_field(name="🥉 **Total GT3 podiums**", value=f"{racer.gt3podiums} (Rank: {self.parsed.get_podiums_rank(racer, "gt3") + 1}/{len(self.parsed.podiums_rankingsgt3)})"if racer.gt3podiums is not None else "No data", inline=True)
-            embed.add_field(name="⚠️ **Average GT3 incidents/race**", value=f"{racer.averageincidentsgt3} (Rank: {self.parsed.get_safety_rank(racer, "gt3") + 1}/{len(self.parsed.safety_rankingsgt3)})"if racer.averageincidentsgt3 is not None else "No data", inline=True)
-            embed.add_field(name="🛣️ **Most successful GT3 track**", value=racer.mostsuccesfultrackgt3.name, inline=True)
-            embed.add_field(name="🔄 **Total GT3 race laps**", value=racer.gt3laps, inline=True)
-            embed.add_field(name="💥 **Most collided with other GT3 racer**", value=racer.mosthitotherdrivergt3.name, inline=True)
-            embed.add_field(name="⏱️ **GT3 Lap Time Consistency**", value=f"{racer.laptimeconsistencygt3:.2f}% (Rank: {self.parsed.get_laptime_consistency_rank(racer, "gt3") + 1}/{len(self.parsed.laptimeconsistencyrankingsgt3)})" if racer.laptimeconsistencygt3 is not None else "No data", inline=True)
-            embed.add_field(name="🚗 **Average Pace % Compared to Top Lap Times in GT3**", value=f"{racer.pace_percentage_gt3:.2f}% (Rank: {self.parsed.get_pace_gt3_rank(racer) + 1}/{len(self.parsed.pacerankingsgt3)})" if racer.pace_percentage_gt3 is not None else "No data", inline=True)
-
-            await ctx.send(embed=embed)
-        else:
-            await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
     
+    @commands.hybrid_command(name="madracereport", description="get my stats")
+    async def madracereport(self, ctx, query: str = None):
+        steam_guid = self.get_steam_guid(ctx, query)
+        if steam_guid:
+            retstring = ""
+            racer = self.parsed.racers[steam_guid]
+            for incidentplotkey in racer.incidentplot:
+                numincidents = racer.incidentplot[incidentplotkey]
+                if numincidents > 15:
+                    date = incidentplotkey
+                    for result in self.parsed.raceresults:
+                        if result.date == date:
+                            track = result.track.parent_track.highest_priority_name
+                            for entry in result.entries:
+                                if entry.racer == racer:
+                                    position = entry.finishingposition
+                                    rating_change = entry.ratingchange
+                                    car = entry.car.name
+                                    retstring += "raced at track " + track + " on " + date + " in car " + car + " finished in position " + str(position) + " and gained/lost rating " + str(rating_change) + " and incidents were " + str(round(numincidents, 2)) + "\n" 
+                                
+            await ctx.send(retstring)
+        else:
+            await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
+
     @commands.hybrid_command(name="mystats", description="get my stats")
     async def mystats(self, ctx, query: str = None):
         steam_guid = self.get_steam_guid(ctx, query)
@@ -306,28 +1087,31 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send("Please provide a server name from one of the following: mx5eu, mx5na, mx5napro, gt3eu, gt3na, worldtour, timetrial")
             return
-        
+        serverdata = await self.get_live_timing_data(server, servertouse)
+        if not serverdata:
+            await ctx.send("Error fetching data from server")
+            return
+        await self.print_live_timings(ctx, serverdata, raw!="raw")
+
+    async def get_live_timing_data(self, server, servertouse):
         user_agent = "https://github.com/JanuarySnow/RRR-Bot"
         headers  = {"User-Agent":user_agent}
         try:
         # This will prevent your bot from stopping everything when doing a web request - see: https://discordpy.readthedocs.io/en/stable/faq.html#how-do-i-make-a-web-request
-            print("fetching live timings list from " + server)
             livetimingsurl = servertouse + "/api/live-timings/leaderboard.json"
             async with aiohttp.ClientSession() as session:
                 async with session.get(
                         livetimingsurl, 
                         headers=headers) as request:
                     if request.status == 200:
-                        data = await request.json(content_type='application/json')
-                        await self.print_live_timings(ctx, data, raw!="raw")
+                        return await request.json(content_type='application/json')
                     else:
-                        print("error fetching from " + server)
+                        logger.info("error fetching from " + server)
         except Exception as e:
-            import traceback
-            traceback.print_exception(e)
-            1/0
-
-
+            logger.info(f"Failed loading live timing data: {e}")
+            return None
+        return None
+    
 
     async def print_live_timings(self, ctx, data, pretty=False):
 
@@ -438,11 +1222,119 @@ class Stats(commands.Cog, name="stats"):
     @commands.hybrid_command(name="forcerefreshalldata", description="forcescanresults")
     @commands.is_owner()
     async def forcerefreshalldata(self, ctx):
-        print("force refreshing all data")
+        logger.info("force refreshing all data")
         await ctx.defer()
         self.parsed.refresh_all_data()
         await ctx.send("Finished processing results")
 
+
+
+    async def votefortrack(self, ctx=None, track_override=None, channel: discord.TextChannel = None):
+        def save_track_data_to_json(track, json_file="trackratings.json"):
+            if os.path.exists(json_file):
+                try:
+                    with open(json_file, "r") as file:
+                        if os.path.getsize(json_file) == 0:
+                            data = {}
+                        else:
+                            data = json.load(file)
+                except json.JSONDecodeError:
+                    logger.info(f"{json_file} contains invalid JSON. Overwriting with new data.")
+                    data = {}
+            else:
+                data = {}
+
+            data[str(track.id)] = {
+                "average_rating": track.average_rating,
+                "ratings": track.ratings
+            }
+            with open(json_file, "w") as file:
+                json.dump(data, file, indent=4)
+
+        def select_track():
+            used_tracks = [track for track in self.parsed.contentdata.tracks if track.timesused > 1]
+            unused_tracks = [track for track in self.parsed.contentdata.tracks if track.timesused == 0]
+
+            # Convert the user ID to a string (button voters use string keys)
+            used_tracks = [track for track in used_tracks if ctx and str(ctx.author.id) not in track.ratings.keys()]
+            unused_tracks = [track for track in unused_tracks if ctx and str(ctx.author.id) not in track.ratings.keys()]
+
+            used_tracks.sort(key=lambda t: t.timesused, reverse=True)
+            top_candidates = [track for track in used_tracks if len(track.ratings) < 10][:10]
+            if top_candidates:
+                return random.choice(top_candidates)
+            if unused_tracks:
+                return random.choice(unused_tracks)
+            return None
+
+        track = track_override or select_track()
+        if not track:
+            if ctx:
+                await ctx.send("No tracks available for voting.")
+            else:
+                logger.info("No tracks available for voting.")
+            return
+
+        if not hasattr(track, "ratings"):
+            track.ratings = {}
+
+        embed = discord.Embed(
+            title="Vote for the Track",
+            description=f"ID: {track.id}\nName: {track.highest_priority_name}",
+            color=discord.Color.blue()
+        )
+        embed.set_footer(text="Click a button below to submit your rating!")
+
+        async def handle_vote(interaction: discord.Interaction, rating: int):
+            user_id = str(interaction.user.id)  # Ensure user IDs are strings
+            existing_rating = track.ratings.get(user_id)
+            if existing_rating is not None:
+                if existing_rating == rating:
+                    await interaction.response.send_message(
+                        f"You have already rated this track {rating} stars.",
+                        ephemeral=True
+                    )
+                    return
+                else:
+                    track.ratings[user_id] = rating
+                    track.average_rating = sum(track.ratings.values()) / len(track.ratings)
+                    save_track_data_to_json(track)
+                    await interaction.response.send_message(
+                        f"Your vote has been changed to {rating} stars. The current average rating for {track.highest_priority_name} is now {track.average_rating:.2f}.",
+                        ephemeral=True
+                    )
+            else:
+                track.ratings[user_id] = rating
+                track.average_rating = sum(track.ratings.values()) / len(track.ratings)
+                save_track_data_to_json(track)
+                await interaction.response.send_message(
+                    f"Thanks for voting! The current average rating for {track.highest_priority_name} is now {track.average_rating:.2f}.",
+                    ephemeral=True
+                )
+
+        # Create the VoteView, which binds handle_vote to your button callbacks.
+        view = VoteView(embed, timeout=14400, create_callback=handle_vote)
+
+        # Send the message using either the command context or a provided channel
+        if ctx:
+            message = await ctx.send(embed=embed, view=view)
+        else:
+            # In case ctx is None, ensure a fallback channel was provided.
+            if not channel:
+                # Replace this with your actual default channel ID.
+                default_channel_id = 123456789012345678
+                channel = self.bot.get_channel(default_channel_id)
+                if channel is None:
+                    logger.info("No valid channel available to send the vote embed.")
+                    return
+            message = await channel.send(embed=embed, view=view)
+
+        # Link the message back to the view (e.g. for on_timeout handling)
+        view.message = message
+
+    @commands.hybrid_command(name="votetrack", description="Vote for track")
+    async def voterandomtrack(self, ctx):
+        await self.votefortrack(ctx, None)
 
     @commands.hybrid_command(name="allwinners", description="allwinners")
     async def allwinners(self, ctx):
@@ -452,17 +1344,25 @@ class Stats(commands.Cog, name="stats"):
             embed.description = (retstring[(4096*i):(4096*(i+1))])
             await ctx.send(embed=embed)
 
+    def file_exists_in_results(self, filename):
+        for root, _, files in os.walk("results"):
+            if filename in files:
+                return True
+        return False
 
     async def check_one_server_for_results(self, server, query):
         user_agent = "https://github.com/JanuarySnow/RRR-Bot"
         headers = {"User-Agent": user_agent}
+        logger.info("checking for results on " + server)
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(query, headers=headers) as request:
                     if request.status == 200:
                         data = await request.json(content_type='application/json')
+                        if data["results"] is None:
+                            logger.info("no results found")
+                            return None
                         data["results"].sort(key=lambda elem: datetime.fromisoformat(elem["date"]), reverse=True)
-                        print(f"Results size from results list = {len(data['results'])}")
 
                         for result in data["results"]:
                             download_url = result["results_json_url"]
@@ -472,32 +1372,28 @@ class Stats(commands.Cog, name="stats"):
 
                             # Only add to the download queue if the file doesn't already exist
                             if filename in self.blacklist:
-                                print("skipping + " + filename + " due to blacklist")
+                                logger.info("skipping + " + filename + " due to blacklist")
                                 continue
-                            if not os.path.exists(filepath):
-                                print("adding to download queue " + download_url)
+                            if not self.file_exists_in_results(filename):
                                 self.download_queue.append((server, download_url))
-                            else:
-                                print(f"File {filepath} already exists, skipping download")
+ 
                         return data
                     else:
-                        print(f"Error fetching from {server}")
+                        logger.info(f"Error fetching from {server}")
                         return None
         except Exception as e:
-            import traceback
-            traceback.print_exception(e)
-            return None
-            1/0
+            logger.info(f"Failed loading check_one_server_for_results: {e}")
+            return None  
 
     async def download_files_from_queue(self):
         user_agent = "https://github.com/JanuarySnow/RRR-Bot"
         headers = {"User-Agent": user_agent}
 
         while self.download_queue:
-            print("size of download queue = " + str(len(self.download_queue)))
+            logger.info("size of download queue = " + str(len(self.download_queue)))
             server, download_url = self.download_queue.pop(0)
             download_url = server + download_url
-            print("downloading from " + download_url)
+            logger.info("downloading from " + download_url)
             directory = self.servertodirectory[server]
             filename = os.path.basename(download_url)
             filepath = os.path.join("results", directory, filename)
@@ -514,45 +1410,44 @@ class Stats(commands.Cog, name="stats"):
                             # Save the JSON data to a file
                             with open(filepath, 'w') as json_file:
                                 json.dump(data, json_file, indent=4)
-                                print(f"JSON data saved to {filepath}")
-                                self.justadded.append(filepath)
+                                logger.info(f"JSON data saved to {filepath}")
+                                self.justadded.append((filepath, server))
                         else:
-                            print(f"Error fetching from {download_url}")
+                            logger.info(f"Error fetching from {download_url}")
             except Exception as e:
-                import traceback
-                traceback.print_exception(e)
+                logger.info(f"Failed loading download_files_from_queue: {e}")
             if len(self.download_queue) >= 1:
-                print("waiting for next download")
+                logger.info("waiting for next download")
                 await asyncio.sleep(20)
             else:
-                print("no more files to download, exiting")
+                logger.info("no more files to download, exiting")
                 break
 
     @commands.hybrid_command(name='euvsna', description="compare EU vs NA")
     async def euvsna(self, ctx):
         euracers = self.parsed.get_eu_racers()
         naracers = self.parsed.get_na_racers()
-        print("size of euracers = " + str(len(euracers)))
-        print("size of naracers = " + str(len(naracers)))
+        logger.info("size of euracers = " + str(len(euracers)))
+        logger.info("size of naracers = " + str(len(naracers)))
 
         average_eu_elo = sum(racer.rating for racer in euracers) / len(euracers)
         average_na_elo = sum(racer.rating for racer in naracers) / len(naracers)
-        print("average eu elo = " + str(average_eu_elo))
-        print("average na elo = " + str(average_na_elo))
+        logger.info("average eu elo = " + str(average_eu_elo))
+        logger.info("average na elo = " + str(average_na_elo))
 
         average_eu_clean = sum(racer.averageincidents for racer in euracers) / len(euracers)
         average_na_clean = sum(racer.averageincidents for racer in naracers) / len(naracers)
-        print("average eu clean = " + str(average_eu_clean))
-        print("average na clean = " + str(average_na_clean))
+        logger.info("average eu clean = " + str(average_eu_clean))
+        logger.info("average na clean = " + str(average_na_clean))
 
         average_pace_percentage_gt3_eu = sum(racer.pace_percentage_gt3 for racer in euracers if racer.pace_percentage_gt3 is not None) / len(euracers)
         average_pace_percentage_gt3_na = sum(racer.pace_percentage_gt3 for racer in naracers if racer.pace_percentage_gt3 is not None) / len(naracers)
         average_pace_percentage_mx5_eu = sum(racer.pace_percentage_mx5 for racer in euracers if racer.pace_percentage_mx5 is not None) / len(euracers)
         average_pace_percentage_mx5_na = sum(racer.pace_percentage_mx5 for racer in naracers if racer.pace_percentage_mx5 is not None) / len(naracers)
-        print("average pace percentage gt3 eu = " + str(average_pace_percentage_gt3_eu))
-        print("average pace percentage gt3 na = " + str(average_pace_percentage_gt3_na))
-        print("average pace percentage mx5 eu = " + str(average_pace_percentage_mx5_eu))
-        print("average pace percentage mx5 na = " + str(average_pace_percentage_mx5_na))
+        logger.info("average pace percentage gt3 eu = " + str(average_pace_percentage_gt3_eu))
+        logger.info("average pace percentage gt3 na = " + str(average_pace_percentage_gt3_na))
+        logger.info("average pace percentage mx5 eu = " + str(average_pace_percentage_mx5_eu))
+        logger.info("average pace percentage mx5 na = " + str(average_pace_percentage_mx5_na))
 
 
         embed = discord.Embed(
@@ -579,6 +1474,48 @@ class Stats(commands.Cog, name="stats"):
     async def forcetimedtask(self, ctx):
         await self.fetch_results_list()
 
+    async def vote_for_track_results(self, files):
+        logger.info("starting vote for track results")
+        tracks = []
+        for newfile in files:
+            file = newfile[0]
+            with open(file, 'r') as json_file:
+                data = json.load(json_file)
+                baseid = data["TrackName"]
+                if "TrackConfig" in data and data["TrackConfig"] != "":
+                    # This is a variant.
+                    trackconfig = data["TrackConfig"]
+                    combinedid = baseid + ";" + trackconfig
+                    if combinedid in self.parsed.usedtracks:
+                        trackvariant = self.parsed.usedtracks[combinedid]
+                    else:
+                        trackvariant = self.parsed.contentdata.get_track(combinedid)
+                        if trackvariant is None:
+                            logger.info("Track variant not found")
+                            continue
+                    if trackvariant not in tracks:
+                        tracks.append(trackvariant)
+                else:
+                    # This is a track without a variant ID.
+                    combinedid = baseid + ";" + baseid
+                    if combinedid in self.parsed.usedtracks:
+                        trackobj = self.parsed.usedtracks[combinedid]
+                        if trackobj not in tracks:
+                            tracks.append(trackobj)
+        # Replace with your default channel ID
+        default_channel = self.bot.get_channel(1085906626852163636)
+        # Replace with your default channel ID
+
+        # Send an introductory message in the channel
+        await default_channel.send("Please vote for the track that was just used in the race!")
+
+        for track in tracks:
+            trackobj = track.parent_track
+            logger.info("voting for track " + trackobj.highest_priority_name)
+            await self.votefortrack(ctx=None, track_override=trackobj, channel=default_channel)
+            await asyncio.sleep(5)
+            
+
     @tasks.loop(seconds=6000.0)
     async def fetch_results_list(self):
         global ON_READY_FIRST_TIME_SCAN
@@ -586,25 +1523,158 @@ class Stats(commands.Cog, name="stats"):
             ON_READY_FIRST_TIME_SCAN = False
             return
         channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
-        print("starting fetch")
+        logger.info("starting fetch")
         async with channel.typing():
             for server in self.servers:
                 query = server + "/api/results/list.json?q=Type:\"RACE\"&sort=date&page=0"
-                print("query for server = " + query)
+                logger.info("query for server = " + query)
                 await self.check_one_server_for_results(server,query)
             await self.download_files_from_queue()
         if len(self.justadded) == 0:
             pass
         else:
             for elem in self.justadded:
-                await channel.send("Added " + elem)
+                await channel.send("Added " + elem[0] + " from server " + elem[1])
             async with channel.typing():
                 for elem in self.justadded:
-                    await self.parsed.add_one_result(elem, os.path.basename(elem) )
+                    await self.parsed.add_one_result(elem[0], os.path.basename(elem[0]), elem[1] )
                     await asyncio.sleep(3)
             await channel.send("All results have been processed and data has been refreshed")
+            await self.create_results_images(self.justadded)
+            await self.vote_for_track_results(self.justadded)
             self.justadded.clear()
-        
+        await self.process_bet_results()
+
+    @commands.hybrid_command(name='checkforbetresults', description="checkforbetresults")
+    async def checkforbetresults(self, ctx):
+        await self.process_bet_results()
+
+
+    async def process_bet_results(self):
+        global ALREADY_BETTING_CLOSED
+        channel = discord.utils.get(self.bot.get_all_channels(), name="bot-testing")
+        if self.currenteventbet is None:
+            logger.info("No current event bet found.")
+            return
+        logger.info("processing bet results")
+        # Get the current time with timezone information (UTC)
+        now = datetime.now(timezone.utc)
+
+        # Define the 4-hour window
+        four_hours_ago = now - timedelta(hours=4)
+
+        # Filter results from the last 4 hours of the current day
+        recent_results = []
+        for result in self.parsed.raceresults:
+            # Parse the ISO-8601 date string to a datetime object
+            result_time = datetime.fromisoformat(result.date.replace("Z", "+00:00"))
+            
+            # Check if the result is within the last 4 hours and on the same day
+            if result_time.date() == now.date() and four_hours_ago <= result_time <= now:
+                recent_results.append(result)
+
+        # Sort results by date (chronologically)
+        recent_results.sort(key=lambda result: datetime.fromisoformat(result.date.replace("Z", "+00:00")))
+        recent_results_matches = []
+        current_bet_track = self.currenteventbet.track
+        for result in recent_results:
+            if result.track.parent_track.id == current_bet_track:
+                recent_results_matches.append(result)
+
+        # If there are no recent results, return early
+        if not recent_results_matches:
+            logger.info("No recent results that match the current betting round found in the last 4 hours.")
+            return
+
+        # Sort matching results chronologically
+        recent_results_matches.sort(key=lambda result: datetime.fromisoformat(result.date.replace("Z", "+00:00")))
+
+        # Get the earliest result (first in the sorted list)
+        earliest_result = recent_results_matches[0]
+
+        # Get the winner's racer GUID (first entry in self.entries)
+        if earliest_result.entries:
+            winner_guid = earliest_result.entries[0].racer.guid
+            earliest_result_track = earliest_result.track.name
+            earliest_result_car = earliest_result.entries[0].car.name
+            logger.info(f"The winner's racer GUID is: {winner_guid}")
+            logger.info(f"The winner's track is: {earliest_result_track}")
+            logger.info(f"The winner's car is: {earliest_result_car}")
+
+            winningbets = []
+            for bet in self.currenteventbet.bets:
+                chosenwinner = bet.racerguid
+                if chosenwinner == winner_guid:
+                    # Add the winnings to the user's total
+                    betterdiscordid = None
+                    for key in self.user_data:
+                        guid = self.user_data[key]["guid"]
+                        if guid == bet.better:
+                            betterdiscordid = key
+                            break
+                    winnings = bet.amount * bet.odds
+                    self.user_data[betterdiscordid]["spudcoins"] += winnings
+                    winningbets.append({
+                        "betterdiscordid": betterdiscordid,
+                        "amount": bet.amount,
+                        "winnings": winnings,
+                        "total_coins": self.user_data[betterdiscordid]["spudcoins"],
+                        "racerguid": bet.racerguid
+                    })
+
+            # If there are winning bets, create an embed
+            if winningbets:
+                if channel is None:
+                    logger.info("Channel 'bot-testing' not found.")
+                    return
+
+                # Create an embed message
+                # Create the embed
+                embed = discord.Embed(
+                    title="🏁 Race Results 🏎️",
+                    description=f"**Track:** {earliest_result_track}\n**Car:** {earliest_result_car}\n**Winner:** {earliest_result.entries[0].racer.name}",
+                    color=discord.Color.green()
+                )
+
+                # Loop through the top 5 positions (or fewer if there are less than 5 entries)
+                for position, entry in enumerate(earliest_result.entries[:5], start=1):
+                    embed.add_field(
+                        name=f"🏅 Position {position}:",
+                        value=f"Racer: `{entry.racer.name}`",
+                        inline=False
+                    )
+
+                await channel.send(embed=embed)
+                # Add each winning bet to the embed
+                for bet in winningbets:
+                    embed = discord.Embed(
+                        title="🏆 Betting Results 🎲",
+                        color=discord.Color.gold()
+                    )
+                    embed.add_field(
+                        name="🎉 Congratulations! You won!",
+                        value=(
+                            f"Bet Amount: `{bet['amount']}` Spudcoins\n"
+                            f"Racer Bet On: `{self.parsed.get_racer(bet['racerguid']).name}`\n"
+                            f"Winnings: `{bet['winnings']}` Spudcoins\n"
+                            f"New Total: `{bet['total_coins']}` Spudcoins"
+                        ),
+                        inline=False
+                    )
+
+                    mention = f"<@{bet['betterdiscordid']}>"
+                    await channel.send(
+                        f"{mention} Here are your winnings!",
+                        embed=embed
+                    )
+            else:
+                logger.info("No winning bets found.")
+                await channel.send("No winning bets found for recent processed results.")
+        else:
+            logger.info("The earliest result has no entries.")
+        await self.clear_event_bet()
+        ALREADY_BETTING_CLOSED = False
+        self.save_user_data()
 
     @commands.hybrid_command(name='carlookup', description="get car info")
     async def carlookup(self, ctx, *, input_string: str, guid:str = None):
@@ -721,6 +1791,354 @@ class Stats(commands.Cog, name="stats"):
         await ctx.send(embed=embed)
 
 
+    async def create_results_images(self, files):
+        
+        for file in files:
+            await self.create_results_image(file)
+
+    @commands.hybrid_command(name='resultsimagetest', description="resultsimagetest")
+    async def resultsimagetest(self, ctx):
+        # Replace with the actual path to your JSON file
+        test_file = "results/euopenmx5/2025_4_7_19_42_RACE.json"
+        await self.create_results_image(test_file)
+
+
+    async def create_results_image(self, newfile):
+        file = newfile[0]
+        x_name = 150
+        y_start = 275
+        line_spacing = 50
+        logo_offset_x = 448
+        logo_offset_y = 3
+        logo_fixed_x = 500
+        logo_size = 65
+        track_x = 30
+        track_y = 70
+        track_size = 28
+        font_size = 64
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        main_font_path = "/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
+        track_font_path="/share/RRR-Bot/RRR-Bot/fonts/Microgramma D Extended Bold.ttf"
+        time_font_path="/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Regular.ttf"
+        date_font_path= "/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
+
+    
+
+        # Load values from JSON
+        try:
+            with open('VERTICAL.json', 'r') as json_file:
+                json_data = json.load(json_file)
+
+                # Update variables with the values from the JSON
+                x_name = json_data.get("x_name", x_name)  # Fallback to default if key is missing
+                y_start = json_data.get("y_start", y_start)
+                line_spacing = json_data.get("line_spacing", line_spacing)
+                logo_offset_x = json_data.get("logo_offset_x", logo_offset_x)
+                logo_offset_y = json_data.get("logo_offset_y", logo_offset_y)
+                logo_fixed_x = json_data.get("logo_fixed_x", logo_fixed_x)
+                logo_size = json_data.get("logo_size", logo_size)
+                track_x = json_data.get("track_x", track_x)
+                track_y = json_data.get("track_y", track_y)
+                track_size = json_data.get("track_size", track_size)
+                font_size = json_data.get("font_size", font_size)
+
+        except FileNotFoundError:
+            logger.info("JSON file not found. Using default values.")
+        except json.JSONDecodeError:
+            logger.info("Error decoding JSON. Using default values.")
+
+        # Debug: logger.info loaded variables
+        logger.info(f"x_name: {x_name}, y_start: {y_start}, line_spacing: {line_spacing}")
+        logger.info(f"logo_offset_x: {logo_offset_x}, logo_offset_y: {logo_offset_y}")
+        logger.info(f"logo_fixed_x: {logo_fixed_x}, logo_size: {logo_size}")
+        logger.info(f"track_x: {track_x}, track_y: {track_y}, track_size: {track_size}")
+
+        output_dir="output"
+        data = None
+        with open(file, 'r') as json_file:
+            data = json.load(json_file)
+        resultobj = self.parsed.get_result_by_date(data.get("Date"))
+        if resultobj is None:
+            logger.info("resultobj is None")
+            return
+        track = resultobj.track.parent_track
+        track_name = track.highest_priority_name if track else None
+        templatepath = None
+        
+        if resultobj.mx5orgt3 == "mx5":
+            templatepath = "templates/MiataSeriesSocialTemplate_Vert.png"
+        elif resultobj.mx5orgt3 == "gt3":
+            templatepath = "templates/GT3SocialTemplate_Vert.png"
+        image = Image.open(templatepath).convert("RGBA")
+        # Try to load fonts (fallback to default if not found)
+        # Ensure output directory exists
+        os.makedirs(output_dir, exist_ok=True)
+
+        # Attempt to open the template
+        if not os.path.isfile(templatepath):
+            raise FileNotFoundError(f"Template image not found: {templatepath}")
+
+        # Attempt to load the template as RGBA
+        image = Image.open(templatepath).convert("RGBA")
+        draw = ImageDraw.Draw(image)
+
+        # Try to load fonts (fallback to default if not found)
+        try:
+            main_font = ImageFont.truetype(main_font_path, size=font_size)
+            logger.info(f"Successfully loaded {main_font_path} with size={font_size}")
+        except Exception as e:
+            logger.info(f"Failed loading {main_font_path}: {e}")
+            main_font = ImageFont.load_default()
+
+        try:
+            track_font = ImageFont.truetype(track_font_path, size=track_size)
+        except:
+            track_font = ImageFont.load_default()
+
+        try:
+            time_font = ImageFont.truetype(time_font_path, size=26)
+        except:
+            time_font = ImageFont.load_default()
+
+        try:
+            date_font = ImageFont.truetype(date_font_path, size=24)
+        except:
+            date_font = ImageFont.load_default()
+
+        # Optionally draw the track name:
+        if track_name:
+            draw.text((track_x, track_y), track_name, font=track_font, fill="white")
+
+        # Sort driver results in the same way your code does
+        results = data.get("Result", [])
+        sorted_results = sorted(
+            results,
+            key=lambda x: (
+                x.get("Disqualified", False),
+                -x.get("NumLaps", 0),
+                float(x.get("TotalTime", float("inf")))
+            )
+        )
+
+        # Build a GUID -> nation map if needed
+        guid_to_nation = {}
+        for car in data.get("Cars", []):
+            guid = car.get("Driver", {}).get("Guid", "")
+            nation = car.get("Driver", {}).get("Nation", "")
+            if guid:
+                guid_to_nation[guid] = nation
+
+        # Build driver display data
+        driver_data = []
+        for r in sorted_results:
+            driver_data.append({
+                "DriverName": r["DriverName"],
+                "GridPosition": r.get("GridPosition", 0),
+                "CarModel": r["CarModel"],
+                "Nation": guid_to_nation.get(r.get("DriverGuid", ""), "")
+            })
+
+        # Draw each driver line
+        y_cursor = y_start
+
+        leader_time = None  # for calculating time gap
+        for index, item in enumerate(driver_data):
+            # Draw the driver name
+            draw.text((x_name, y_cursor), item["DriverName"], font=main_font, fill="white")
+
+            # Figure out the time or gap
+            total_time_ms = sorted_results[index].get("TotalTime", 0)
+            num_laps = sorted_results[index].get("NumLaps", 0)
+            max_laps = sorted_results[0].get("NumLaps", 0) if sorted_results else 0
+            dnf = (num_laps < max_laps - 2)
+
+            if dnf:
+                time_text = "DNF"
+            else:
+                if index == 0:
+                    leader_time = total_time_ms
+                    # Format minutes:seconds.milliseconds
+                    time_text = datetime.utcfromtimestamp(total_time_ms / 1000).strftime("%M:%S.%f")[:-3]
+                else:
+                    if leader_time is not None:
+                        gap_seconds = (total_time_ms - leader_time) / 1000
+                        time_text = f"+ {gap_seconds:.3f}"
+                    else:
+                        time_text = "N/A"
+
+            # Position to draw total time or gap
+            time_x = 710
+            draw.text((time_x, y_cursor), time_text, font=time_font, fill="white")
+
+            # Position change arrow
+            position_change = (index + 1) - item.get("GridPosition", 0)
+            arrow = "→"
+            color = "white"
+            if position_change > 0:
+                arrow = f"↓{abs(position_change)}"
+                color = "red"
+            elif position_change < 0:
+                arrow = f"↑{abs(position_change)}"
+                color = "lime"
+
+            arrow_x = x_name + 500  # example: position to the right
+            draw.text((arrow_x, y_cursor), arrow, font=main_font, fill=color)
+
+            # Nation flags
+            nation_code_3 = item.get("Nation", "").upper()
+            nation_code = nation_code_3 or "TS"  # Fallback if no nation code
+            # We'll look in "flags" folder for something like "GER.png" or "GER.jpg"
+            flag_file = None
+            for f in os.listdir("flags"):
+                # If a file's name (minus extension) equals e.g. "GER" in uppercase
+                if os.path.splitext(f)[0].upper() == nation_code:
+                    flag_file = os.path.join("flags", f)
+                    break
+
+            if flag_file and os.path.isfile(flag_file):
+                flag_img = Image.open(flag_file).convert("RGBA")
+                flag_img = ImageOps.contain(flag_img, (40, 30))
+                flag_x = x_name + main_font.getlength(item["DriverName"]) + 10
+                flag_y = y_cursor + (main_font.size - flag_img.height) // 2
+                image.paste(flag_img, (int(flag_x), int(flag_y)), flag_img)
+
+            # Logos
+            model_name = item["CarModel"].lower()
+            logo_files_no_ext = [
+                os.path.splitext(f)[0].lower()
+                for f in os.listdir("logos")
+                if f.lower().endswith((".png", ".jpg", ".jpeg"))
+            ]
+            model_parts = model_name.split('_')
+
+            # Try to find best match among brand names
+            brand_guess = None
+            for part in model_parts:
+                match = difflib.get_close_matches(part, logo_files_no_ext, n=1, cutoff=0.7)
+                if match:
+                    brand_guess = match[0]
+                    break
+
+            if not brand_guess:
+                # fallback: just pick the first chunk or something
+                brand_guess = model_parts[0] if model_parts else "car"
+
+            # Now see if we actually have a file that matches brand_guess
+            matched_logo_path = None
+            for f in os.listdir("logos"):
+                if os.path.splitext(f)[0].lower() == brand_guess.lower():
+                    matched_logo_path = os.path.join("logos", f)
+                    break
+
+            if matched_logo_path:
+                try:
+                    logo_img = Image.open(matched_logo_path).convert("RGBA")
+                    logo_img = ImageOps.contain(logo_img, (logo_size, logo_size))
+                    logo_x_pos = logo_fixed_x + logo_offset_x
+                    logo_y_pos = y_cursor + logo_offset_y
+                    image.paste(logo_img, (logo_x_pos, logo_y_pos), logo_img)
+                except:
+                    # If there's an error reading the logo or something
+                    pass
+            else:
+                # If no exact match for a logo image, just write the brand guess as text
+                fallback_x = logo_fixed_x + logo_offset_x
+                fallback_y = y_cursor + logo_offset_y
+                draw.text((fallback_x, fallback_y), brand_guess.upper(), font=main_font, fill="white")
+
+            y_cursor += line_spacing
+
+        # Draw the date if present
+        date_text = None
+        timestamp_str = data.get("Date") or data.get("date") or None
+        # If there's no "Date" key, you could check others:
+        if not timestamp_str:
+            # fallback to scanning keys
+            for k in data.keys():
+                if 'date' in k.lower() or 'time' in k.lower():
+                    timestamp_str = data.get(k)
+                    break
+
+        if timestamp_str:
+            try:
+                dt = datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+                date_text = dt.strftime("%B %d, %Y")
+            except:
+                # If it’s not in ISO format, just use raw
+                date_text = str(timestamp_str)
+        else:
+            date_text = "Unknown Date"
+
+        # Draw the date near the bottom
+        draw.text((30, image.height - 50), date_text, font=date_font, fill="white")
+
+        # Save the image
+        filename_safe = f"{track_name}_{date_text}".replace(" ", "_").replace(",", "").lower()
+        output_path = os.path.join(output_dir, f"{filename_safe}.png")
+        image.save(output_path)
+        logger.info(f"Image saved to {output_path}")
+        await self.send_results(self.bot.get_channel(1328800009189195828), output_path)
+
+    async def send_results(self, channel: discord.TextChannel, final_image_path: str):
+        """
+        Sends the results image as an attachment with an embed message.
+        """
+        # 1) Create the embed
+        embed = discord.Embed(
+            title="Here are the results of the recent race!",
+            description="Check out the attached image above!.",
+            color=0x00FF00  # (Optional) pick some color
+        )
+        
+        # 2) You can add fields, footers, or any other embed info if desired:
+        # embed.add_field(name="Some Field", value="Value")
+        # embed.set_footer(text="Powered by MyRaceBot")
+
+        # 3) Create the File object for your image
+        race_image = discord.File(final_image_path, filename="race_results.png")
+
+        # 4) Attach the file + embed in a single send call
+        await channel.send(
+            embed=embed,
+            file=race_image
+        )
+
+
+
+
+
+    @commands.hybrid_command(name='richest', description="Top 10 Racers with Most Spudcoins")
+    async def richest(self, ctx):
+        # Extract spudcoin data from self.user_data and sort by spudcoins
+        sorted_users = sorted(
+            self.user_data.items(),
+            key=lambda item: item[1].get('spudcoins', 0),
+            reverse=True
+        )[:10]  # Get top 10 users
+        
+        embed = discord.Embed(
+            title="Top 10 Racers with Most Spudcoins",
+            color=discord.Color.green()
+        )
+
+        for index, (discord_id, user_data) in enumerate(sorted_users):
+            guid = user_data.get('guid')  # Retrieve GUID from user data
+            spudcoins = user_data.get('spudcoins', 0)
+
+            # Use the GUID to access the racer and get their name
+            racer = self.parsed.racers.get(guid)
+            racer_name = racer.name if racer else "Unknown Racer"
+
+            embed.add_field(
+                name=f"{index + 1}. {racer_name}",
+                value=f"**Spudcoins**: {spudcoins:,}",  # Format spudcoins with thousand separators
+                inline=False
+            )
+
+        await ctx.send(embed=embed)
+
+
+
     @commands.hybrid_command(name='top10gt3pace', description="get GT3 pace top 10 rankings")
     async def top10gt3pace(self, ctx):
         rankings = self.parsed.pacerankingsgt3[:10]  # Get top 10 rankings
@@ -738,7 +2156,27 @@ class Stats(commands.Cog, name="stats"):
 
         await ctx.send(embed=embed)
 
-
+    @commands.hybrid_command(name='top10trackusage', description="get track info")
+    async def top10trackusage(self, ctx):
+        usagedict = {}
+        for result in self.parsed.raceresults:
+            trackused = result.track
+            if trackused in usagedict:
+                usagedict[trackused] += 1
+            else:
+                usagedict[trackused] = 1
+        sortedusagedict = dict(sorted(usagedict.items(), key=lambda item: item[1], reverse=True))
+        retstring = ""
+        index = 0
+        for elem in sortedusagedict:
+            trackname = self.parsed.get_track_name(self.parsed.get_parent_track_from_variant(elem.id).id)
+            if trackname is None:
+                trackname = elem.id
+            retstring += trackname + " : " + str(sortedusagedict[elem]) + " times" + "\n"
+            index += 1
+            if index == 10:
+                break
+        await ctx.send(retstring)
 
     @commands.hybrid_command(name='tracklookup', description="get track info")
     async def tracklookup(self, ctx, *, input_string: str, guid:str = None):
@@ -779,6 +2217,7 @@ class Stats(commands.Cog, name="stats"):
                     if highest_priority_variant:
                         embed = self.create_variant_embed(highest_priority_variant, guid)
                         await ctx.send(embed=embed)
+                        await self.votefortrack(ctx, matched_track)
                     else:
                         await ctx.send('No highest priority variant found for the matching track.')
                 else:
@@ -801,6 +2240,7 @@ class Stats(commands.Cog, name="stats"):
                     if highest_priority_variant:
                         embed = self.create_variant_embed(highest_priority_variant, guid)
                         await interaction.response.send_message(embed=embed)
+                        await self.votefortrack(ctx, matched_track)
                     else:
                         await interaction.response.send_message('No highest priority variant found for the matching track.')
                 else:
@@ -824,6 +2264,7 @@ class Stats(commands.Cog, name="stats"):
             if highest_priority_variant:
                 embed = self.create_variant_embed(highest_priority_variant, guid)
                 await ctx.send(embed=embed)
+                await self.votefortrack(ctx, matched_track)
             else:
                 await ctx.send('No highest priority variant found for the matching track.')
 
@@ -848,6 +2289,7 @@ class Stats(commands.Cog, name="stats"):
         embed.set_footer(text="Car Information Report")
         return embed
 
+    
 
 
     def create_variant_embed(self, variant, guid:str=None):
@@ -856,6 +2298,7 @@ class Stats(commands.Cog, name="stats"):
             description=variant.description,
             color=discord.Color.blue()
         )
+        numused = self.parsed.get_times_track_used(variant)
         embed.add_field(name="🏷️ Tags", value=", ".join(variant.tags) if variant.tags else "N/A", inline=True)
         embed.add_field(name="🌍 GeoTags", value=", ".join(variant.geotags) if variant.geotags else "N/A", inline=True)
         embed.add_field(name="🇺🇳 Country", value=variant.country or "N/A", inline=True)
@@ -868,7 +2311,8 @@ class Stats(commands.Cog, name="stats"):
         embed.add_field(name="🔢 Version", value=variant.version or "N/A", inline=True)
         embed.add_field(name="🌐 URL", value=variant.url or "N/A", inline=True)
         embed.add_field(name="📅 Year", value=str(variant.year) if variant.year else "N/A", inline=True)
-
+        embed.add_field(name="🔢 Times used", value=str(numused), inline=True)
+        embed.add_field(name="🔢 Track Rating", value=str(round(variant.parent_track.average_rating, 2)), inline=True)
         for elem in variant.parent_track.variants:
             fastest_mx5_lap = elem.get_fastest_lap_in_mx5(guid)
             fastest_gt3_lap = elem.get_fastest_lap_in_gt3(guid)
@@ -907,6 +2351,8 @@ class Stats(commands.Cog, name="stats"):
                     )
 
         return embed
+
+
     
     @commands.hybrid_command(name="mytrackrecord", description="get users fastest lap at track")
     async def mytrackrecord(self, ctx: commands.Context, input_string: str, guid: str = None) -> None:
@@ -917,22 +2363,48 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
 
-    @commands.hybrid_command(name="myskillprogression", description="show improvement over time")
-    async def myskillprogression(self, ctx: Context, guid:str=None) -> None:
+    @commands.hybrid_command(name="rrreloprogression", description="rrreloprogression")
+    async def rrreloprogression(self, ctx: Context) -> None:
+        self.parsed.create_average_elo_progression_chart()
+        file = discord.File("average_elo_progression_chart.png", filename="average_elo_progression_chart.png") 
+        embed = discord.Embed( title="RRR ELO Progression", description=f"How RRR has improved over the years!", color=discord.Color.green() ) 
+        embed.set_image(url="attachment://average_elo_progression_chart.png") 
+        await ctx.send(embed=embed, file=file)
+
+    
+    @commands.hybrid_command(name="mypaceprogression", description="show improvement over time")
+    async def mypaceprogression(self, ctx: Context, guid:str=None) -> None:
         steam_guid = self.get_steam_guid(ctx, guid)
         if steam_guid:
             racer = self.parsed.racers[steam_guid]
-            if not racer.progression_plot:
+            if not racer.paceplot:
                 await ctx.send("Racer hasnt done enough races yet")
                 return
-            self.parsed.create_skill_progression_chart(racer.paceplotaverage,racer.positionaverage)
+            self.parsed.create_progression_chart(racer, racer.paceplot)
             file = discord.File("progression_chart.png", filename="progression_chart.png") 
-            embed = discord.Embed( title="Racer Progression", description=f"Progression Over Time for {racer.name}", color=discord.Color.green() ) 
+            embed = discord.Embed( title="Racer Pace Progression", description=f"Pace Progression Over Time for {racer.name}", color=discord.Color.green() ) 
             embed.set_image(url="attachment://progression_chart.png") 
             await ctx.send(embed=embed, file=file)
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
+
     
+    @commands.hybrid_command(name="mysafetyprogression", description="show improvement over time")
+    async def mysafetyprogression(self, ctx: Context, guid:str=None) -> None:
+        steam_guid = self.get_steam_guid(ctx, guid)
+        if steam_guid:
+            racer = self.parsed.racers[steam_guid]
+            if not racer.paceplot:
+                await ctx.send("Racer hasnt done enough races yet")
+                return
+            self.parsed.create_progression_chart(racer, racer.incidentplot)
+            file = discord.File("progression_chart.png", filename="progression_chart.png") 
+            embed = discord.Embed( title="Racer Safety Progression", description=f"Safety Progression Over Time for {racer.name}", color=discord.Color.green() ) 
+            embed.set_image(url="attachment://progression_chart.png") 
+            await ctx.send(embed=embed, file=file)
+        else:
+            await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
+
     @commands.hybrid_command(name="myprogression", description="show improvement over time")
     async def myprogression(self, ctx: Context, guid:str=None) -> None:
         steam_guid = self.get_steam_guid(ctx, guid)
@@ -941,7 +2413,7 @@ class Stats(commands.Cog, name="stats"):
             if not racer.progression_plot:
                 await ctx.send("Racer hasnt done enough races yet")
                 return
-            self.parsed.create_progression_chart(racer.progression_plot)
+            self.parsed.create_progression_chart(racer, racer.progression_plot)
             file = discord.File("progression_chart.png", filename="progression_chart.png") 
             embed = discord.Embed( title="Racer Progression", description=f"Progression Over Time for {racer.name}", color=discord.Color.green() ) 
             embed.set_image(url="attachment://progression_chart.png") 
@@ -949,94 +2421,6 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
 
-    @commands.hybrid_command(name="gt3rankings", description="gt3 rankings")
-    async def gt3rankings(self, ctx: Context) -> None:
-        stats = self.parsed.get_overall_stats()
-        embed = discord.Embed(
-            title="GT3 Rankings",
-            color=discord.Color.blue()
-        )
-
-        def format_rankings(rankings, value_formatter):
-                        formatted_lines = [value_formatter(entry) for entry in rankings]
-                        return "\n".join(formatted_lines)
-
-        def elo_formatter(entry):
-            return f"{entry['rank']}. {entry['name']} - **Rating**: {entry['rating']}"
-
-        def safety_formatter(entry):
-            return f"{entry['rank']}. {entry['name']} - **Average Incidents**: {entry['averageincidents']:.2f}"
-
-        def consistency_formatter(entry):
-            return f"{entry['rank']}. {entry['name']} - **Consistency**: {entry['laptimeconsistency']:.2f}%"
-
-        # Add top 10 ELO rankings
-        elo_rankings = format_rankings(stats['gt3elos'], elo_formatter)
-        embed.add_field(name="🏆 Top 10 GT3 ELO Rankings 🏆", value=elo_rankings or "\u200b", inline=False)
-
-
-        await ctx.send(embed=embed)
-
-    @commands.hybrid_command(name="mx5rankings", description="mx5 rankings")
-    async def mx5rankings(self, ctx: Context) -> None:
-        stats = self.parsed.get_overall_stats()
-        embed = discord.Embed(
-            title="MX5 Rankings",
-            color=discord.Color.blue()
-        )
-
-        def format_rankings(rankings, value_formatter):
-                        formatted_lines = [value_formatter(entry) for entry in rankings]
-                        return "\n".join(formatted_lines)
-
-        def elo_formatter(entry):
-            return f"{entry['rank']}. {entry['name']} - **Rating**: {entry['rating']}"
-
-        def safety_formatter(entry):
-            return f"{entry['rank']}. {entry['name']} - **Average Incidents**: {entry['averageincidents']:.2f}"
-
-        def consistency_formatter(entry):
-            return f"{entry['rank']}. {entry['name']} - **Consistency**: {entry['laptimeconsistency']:.2f}%"
-
-        # Add top 10 ELO rankings
-        elo_rankings = format_rankings(stats['mx5elos'], elo_formatter)
-        embed.add_field(name="🏆 Top 10 MX5 ELO Rankings 🏆", value=elo_rankings or "\u200b", inline=False)
-
-
-        await ctx.send(embed=embed)
-
-    
-    @commands.hybrid_command(name="myprogressiongt3", description="show improvement over time in GT3")
-    async def myprogressiongt3(self, ctx: Context, guid:str=None) -> None:
-        steam_guid = self.get_steam_guid(ctx, guid)
-        if steam_guid:
-            racer = self.parsed.racers[steam_guid]
-            if not racer.gt3progression_plot:
-                await ctx.send("Racer hasnt done enough GT3 races yet")
-                return
-            self.parsed.create_progression_chart(racer.gt3progression_plot)
-            file = discord.File("progression_chart.png", filename="progression_chart.png") 
-            embed = discord.Embed( title="Racer GT3 Progression", description=f"Progression Over Time for {racer.name}", color=discord.Color.green() ) 
-            embed.set_image(url="attachment://progression_chart.png") 
-            await ctx.send(embed=embed, file=file)
-        else:
-            await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
-    
-    @commands.hybrid_command(name="myprogressionmx5", description="show improvement over time in mx5")
-    async def myprogressionmx5(self, ctx: Context, guid:str=None) -> None:
-        steam_guid = self.get_steam_guid(ctx, guid)
-        if steam_guid:
-            racer = self.parsed.racers[steam_guid]
-            if not racer.mx5progression_plot:
-                await ctx.send("Racer hasnt done enough MX5 races yet")
-                return
-            self.parsed.create_progression_chart(racer.mx5progression_plot)
-            file = discord.File("progression_chart.png", filename="progression_chart.png") 
-            embed = discord.Embed( title="Racer MX5 Progression", description=f"Progression Over Time for {racer.name}", color=discord.Color.green() ) 
-            embed.set_image(url="attachment://progression_chart.png") 
-            await ctx.send(embed=embed, file=file)
-        else:
-            await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
     
     @commands.hybrid_command(name="dickpic", description="get dickpic")
     async def dickpic(self, ctx: commands.Context) -> None:
@@ -1064,9 +2448,9 @@ class Stats(commands.Cog, name="stats"):
             winrankings = self.parsed.wins_rankings
             index = 1
             for elem in winrankings:
-                retstring += str(index) + " : " + elem.name + "\n"
+                retstring += str(index) + " : " + elem.name + " : " + str(elem.wins) + " wins" + "\n"
                 index += 1
-                if index == 10:
+                if index == 11:
                     break
             await ctx.send(retstring)
 
@@ -1098,9 +2482,9 @@ class Stats(commands.Cog, name="stats"):
             winrankings = self.parsed.podiums_rankings
             index = 1
             for elem in winrankings:
-                retstring += str(index) + " : " + elem.name + "\n"
+                retstring += str(index) + " : " + elem.name + " : " + str(elem.podiums) + " wins" + "\n"
                 index += 1
-                if index == 10:
+                if index == 11:
                     break
             await ctx.send(retstring)
 
@@ -1154,7 +2538,7 @@ class Stats(commands.Cog, name="stats"):
     @commands.is_owner()
     async def dumptracks(self, context: Context) -> None:
         for track in self.parsed.contentdata.tracks:
-            print(track.highest_priority_name)
+            logger.info(track.highest_priority_name)
 
 
     @commands.hybrid_command(name="rrrdirty", description="get dirtiest drivers")
