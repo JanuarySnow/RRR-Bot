@@ -1,0 +1,158 @@
+{
+    "id": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+    "track": "tmm_lausitzring;layout_dtm21",
+    "laps": [
+        {
+            "id": "f2e09de6-5604-479b-bbdb-b2474e658861",
+            "time": 103876,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199008053666",
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "4bc6647e-113c-40db-96c1-970aa233b185",
+            "time": 104459,
+            "car": "ks_lamborghini_huracan_gt3",
+            "racerguid": "76561199230023715",
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "4bc52cac-aa0f-4875-90e7-ed2450635df5",
+            "time": 107242,
+            "car": "ks_mclaren_650_gt3",
+            "racerguid": "76561198383491158",
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "9b8f0fa7-8c99-427c-a215-ae1aeeb52989",
+            "racer": "76561199008053666",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "tmm_lausitzring;layout_dtm21",
+            "date": "2024-03-22T21:13:25.203449522Z",
+            "laps": [
+                "f2e09de6-5604-479b-bbdb-b2474e658861"
+            ],
+            "incidents": [],
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 10.27
+        },
+        {
+            "id": "1b4cc1da-9c13-4aba-9b99-f0b2d6306db6",
+            "racer": "76561199230023715",
+            "car": "ks_lamborghini_huracan_gt3",
+            "track": "tmm_lausitzring;layout_dtm21",
+            "date": "2024-03-22T21:13:25.203449522Z",
+            "laps": [
+                "4bc6647e-113c-40db-96c1-970aa233b185"
+            ],
+            "incidents": [],
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": 7.76
+        },
+        {
+            "id": "77b026fa-d070-4191-bd4d-affdfd6819cc",
+            "racer": "76561198383491158",
+            "car": "ks_mclaren_650_gt3",
+            "track": "tmm_lausitzring;layout_dtm21",
+            "date": "2024-03-22T21:13:25.203449522Z",
+            "laps": [
+                "4bc52cac-aa0f-4875-90e7-ed2450635df5"
+            ],
+            "incidents": [],
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "cuts": 0,
+            "finishingposition": 3,
+            "ratingchange": 4.93
+        },
+        {
+            "id": "f30061d6-5c8e-4b1a-b404-bf8bcae7f355",
+            "racer": "76561198117917359",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "tmm_lausitzring;layout_dtm21",
+            "date": "2024-03-22T21:13:25.203449522Z",
+            "laps": [],
+            "incidents": [],
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "cuts": 0,
+            "finishingposition": 4,
+            "ratingchange": -0.56
+        },
+        {
+            "id": "d67054ea-8144-4b29-bf5e-9404c35dd689",
+            "racer": "76561197961501770",
+            "car": "ks_mclaren_650_gt3",
+            "track": "tmm_lausitzring;layout_dtm21",
+            "date": "2024-03-22T21:13:25.203449522Z",
+            "laps": [],
+            "incidents": [],
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "cuts": 0,
+            "finishingposition": 5,
+            "ratingchange": -1.82
+        },
+        {
+            "id": "6a25db95-734d-4db6-92f9-d3e768d68cac",
+            "racer": "76561199121862034",
+            "car": "ks_ferrari_488_gt3",
+            "track": "tmm_lausitzring;layout_dtm21",
+            "date": "2024-03-22T21:13:25.203449522Z",
+            "laps": [],
+            "incidents": [],
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "cuts": 0,
+            "finishingposition": 6,
+            "ratingchange": -16.32
+        },
+        {
+            "id": "b2d5ad1a-e809-4b3a-888e-3f13e9717b4e",
+            "racer": "76561198022238743",
+            "car": "ks_mclaren_650_gt3",
+            "track": "tmm_lausitzring;layout_dtm21",
+            "date": "2024-03-22T21:13:25.203449522Z",
+            "laps": [],
+            "incidents": [
+                "123bc915-c719-4e00-9845-61d5b5393d10"
+            ],
+            "result": "8e16b766-33f0-450a-ba0e-0bbb1cda220d",
+            "cuts": 0,
+            "finishingposition": 7,
+            "ratingchange": -9.95
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "123bc915-c719-4e00-9845-61d5b5393d10",
+            "speed": 115.52772,
+            "racer": "76561198022238743",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "gt3",
+    "filename": "2024_3_22_21_13_RACE.json",
+    "date": "2024-03-22T21:13:25.203449522Z",
+    "region": "EU",
+    "championshipid": "39283667-686e-4618-8c40-bb31704dc76f",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561199008053666": 1,
+        "76561199230023715": 1,
+        "76561198383491158": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

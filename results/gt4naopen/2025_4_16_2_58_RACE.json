@@ -1,0 +1,4591 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_alpine_a110",
+            "Restrictor": 0,
+            "Skin": "gt4_nls_waldow_performance_110",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 25,
+            "MaxPing": 2115
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "2022_PF_Racing_41",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 36,
+            "MaxPing": 1870
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_ginetta_g55",
+            "Restrictor": 0,
+            "Skin": "me_gt4_european_series_ttp_ginetta_JONGH_91",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 91,
+            "MaxPing": 98
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "MCO",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_mclaren_570s",
+            "Restrictor": 0,
+            "Skin": "rm_british_gt_championship_2019_hhc_motorsport_57",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 18,
+            "MaxPing": 87
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_porsche_cayman_718",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_fictional_porsche_motorsport_teal_994",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 26,
+            "MaxPing": 1509
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "MCO",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_toyota_supra",
+            "Restrictor": 0,
+            "Skin": "81_Timo_Hartmann",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 18,
+            "MaxPing": 95
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_alpine_a110",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_cmr_36",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "American_Wheelman_42",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 14,
+            "MaxPing": 573
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_ginetta_g55",
+            "Restrictor": 0,
+            "Skin": "me_gt4_european_series_ttp_ginetta_DAN_991",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 31,
+            "MaxPing": 42
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_mclaren_570s",
+            "Restrictor": 0,
+            "Skin": "rm_british_gt_championship_2019_tolman_motorsport_5",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 16,
+            "MaxPing": 18
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_porsche_cayman_718",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_fictional_porsche_motorsport_white_993",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198196672310",
+                "GuidsList": [
+                    "76561198196672310"
+                ],
+                "Name": "D4ncC",
+                "Nation": "IDN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_toyota_supra",
+            "Restrictor": 0,
+            "Skin": "GR_Racing_Yellow",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 237,
+            "MaxPing": 303
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_alpine_a110",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_cmr_9",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "2022_PF_Racing_42",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 96,
+            "MaxPing": 932
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_ginetta_g55",
+            "Restrictor": 0,
+            "Skin": "me_gt4_european_series_ttp_ginetta_HUE_512",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_mclaren_570s",
+            "Restrictor": 0,
+            "Skin": "rm_british_gt_championship_2019_tolman_motorsport_4",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_porsche_cayman_718",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_fictional_porsche_motorsport_blue_999",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_toyota_supra",
+            "Restrictor": 0,
+            "Skin": "GR_Racing_Blue",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 21,
+            "MaxPing": 1444
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 15.81164,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.06656009,
+                "Y": 0.08895203,
+                "Z": -1.961132
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 36.722183,
+                "Y": -0.44606286,
+                "Z": -2.4684703
+            },
+            "Timestamp": 1744770861,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 15.654228,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.002926006,
+                "Y": 0.12359101,
+                "Z": 2.1779318
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 36.36433,
+                "Y": -0.44607952,
+                "Z": -2.3881633
+            },
+            "Timestamp": 1744770861,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 23.773005,
+            "OtherCarId": 7,
+            "OtherDriver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.85833764,
+                "Y": -0.1844162,
+                "Z": 1.6478264
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 17.195822,
+                "Y": -0.6858123,
+                "Z": -3.2586408
+            },
+            "Timestamp": 1744770861,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.306208,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.92435056,
+                "Y": -0.15328875,
+                "Z": -1.1535059
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 16.725206,
+                "Y": -0.69495213,
+                "Z": -3.2194226
+            },
+            "Timestamp": 1744770861,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 16.075186,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.95890373,
+                "Y": 0.2765261,
+                "Z": 0.027267281
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -379.13525,
+                "Y": 0.48901612,
+                "Z": -366.9805
+            },
+            "Timestamp": 1744770881,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 13.53621,
+            "OtherCarId": 17,
+            "OtherDriver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.92563,
+                "Y": 0.12987487,
+                "Z": 1.4064808
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -104.54411,
+                "Y": 0.22675398,
+                "Z": -273.8796
+            },
+            "Timestamp": 1744770915,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 17,
+            "Driver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 4.8094826,
+            "OtherCarId": 7,
+            "OtherDriver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9148786,
+                "Y": 0.34167948,
+                "Z": 0.6874233
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -104.45911,
+                "Y": 0.37241304,
+                "Z": -273.93896
+            },
+            "Timestamp": 1744770915,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 7.770197,
+            "OtherCarId": 17,
+            "OtherDriver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9489831,
+                "Y": 0.1512524,
+                "Z": -1.1840873
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -189.8523,
+                "Y": 0.22409004,
+                "Z": -138.26736
+            },
+            "Timestamp": 1744770919,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 17,
+            "Driver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 7.395037,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.8996526,
+                "Y": 0.23365068,
+                "Z": 1.5960854
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -189.99028,
+                "Y": 0.27061278,
+                "Z": -138.02869
+            },
+            "Timestamp": 1744770919,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198196672310",
+                "GuidsList": [
+                    "76561198196672310"
+                ],
+                "Name": "D4ncC",
+                "Nation": "IDN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 36.536163,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.80809164,
+                "Y": 0.14143522,
+                "Z": -1.9924802
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -204.3087,
+                "Y": 0.30797416,
+                "Z": -114.189575
+            },
+            "Timestamp": 1744770920,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 21.602886,
+            "OtherCarId": 11,
+            "OtherDriver": {
+                "Guid": "76561198196672310",
+                "GuidsList": [
+                    "76561198196672310"
+                ],
+                "Name": "D4ncC",
+                "Nation": "IDN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.6969035,
+                "Y": 0.05827099,
+                "Z": 1.95046
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -204.41263,
+                "Y": 0.14260492,
+                "Z": -114.082436
+            },
+            "Timestamp": 1744770920,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198196672310",
+                "GuidsList": [
+                    "76561198196672310"
+                ],
+                "Name": "D4ncC",
+                "Nation": "IDN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 19.393898,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": 0.893922,
+                "Y": 0.076330945,
+                "Z": 1.7845336
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -252.25493,
+                "Y": 0.08490505,
+                "Z": -64.45391
+            },
+            "Timestamp": 1744770924,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "MCO",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.033148,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.8705363,
+                "Y": -0.28162977,
+                "Z": -1.7361836
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 552.79803,
+                "Y": -1.1874803,
+                "Z": -83.81436
+            },
+            "Timestamp": 1744771091,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 14.404044,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "MCO",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.70059246,
+                "Y": -0.19626856,
+                "Z": 2.0568426
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 552.64795,
+                "Y": -1.1779287,
+                "Z": -83.94658
+            },
+            "Timestamp": 1744771091,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 11.503759,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.88551974,
+                "Y": 0.067184106,
+                "Z": 1.7491496
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 204.72107,
+                "Y": -0.5472753,
+                "Z": -260.68613
+            },
+            "Timestamp": 1744771265,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 8.865346,
+            "OtherCarId": 7,
+            "OtherDriver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.92435586,
+                "Y": -0.12452785,
+                "Z": -1.6663146
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 204.74873,
+                "Y": -0.7558387,
+                "Z": -260.8797
+            },
+            "Timestamp": 1744771265,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 28.365887,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": -0.042778753,
+                "Y": -0.27578375,
+                "Z": 2.3921366
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 630.7357,
+                "Y": -0.65887636,
+                "Z": -403.56445
+            },
+            "Timestamp": 1744771545,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 17,
+            "Driver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 13.913736,
+            "OtherCarId": 11,
+            "OtherDriver": {
+                "Guid": "76561198196672310",
+                "GuidsList": [
+                    "76561198196672310"
+                ],
+                "Name": "D4ncC",
+                "Nation": "IDN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.2557127,
+                "Y": -0.15565653,
+                "Z": 2.159366
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 725.60767,
+                "Y": -0.52997345,
+                "Z": -359.0275
+            },
+            "Timestamp": 1744771566,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198196672310",
+                "GuidsList": [
+                    "76561198196672310"
+                ],
+                "Name": "D4ncC",
+                "Nation": "IDN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 16.943092,
+            "OtherCarId": 17,
+            "OtherDriver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9233695,
+                "Y": -0.15155871,
+                "Z": -1.8130487
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 725.7487,
+                "Y": -0.52141273,
+                "Z": -358.7607
+            },
+            "Timestamp": 1744771566,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 3.440156,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.6716414,
+                "Y": 0.08379334,
+                "Z": -2.4449017
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -353.22076,
+                "Y": 0.11374432,
+                "Z": -347.56738
+            },
+            "Timestamp": 1744771598,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 24.900852,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.6038463,
+                "Y": -0.3027195,
+                "Z": -1.9884969
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -197.84761,
+                "Y": -0.16149919,
+                "Z": -121.067726
+            },
+            "Timestamp": 1744771878,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 20.340685,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.30262738,
+                "Y": -0.17043279,
+                "Z": 2.1710458
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -197.95944,
+                "Y": -0.1567384,
+                "Z": -120.90441
+            },
+            "Timestamp": 1744771878,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 85.74354,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": -0.83991444,
+                "Y": -0.2816519,
+                "Z": 1.9450843
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -112.547966,
+                "Y": -0.34154493,
+                "Z": -320.09747
+            },
+            "Timestamp": 1744771894,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 3.413044,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": -0.63083833,
+                "Y": -0.023841655,
+                "Z": -1.9656864
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -82.96202,
+                "Y": -0.04762297,
+                "Z": -320.75458
+            },
+            "Timestamp": 1744771901,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 17,
+            "Driver": {
+                "Guid": "76561198824723764",
+                "GuidsList": [
+                    "76561198824723764"
+                ],
+                "Name": "Max Yang",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 65.303856,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": -0.77545404,
+                "Y": 0.040439032,
+                "Z": 1.8807929
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -197.77234,
+                "Y": 0.11093968,
+                "Z": -321.1357
+            },
+            "Timestamp": 1744772033,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 2.4133685,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.95882386,
+                "Y": 0.26657492,
+                "Z": 0.050131995
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 118.952415,
+                "Y": -0.27676448,
+                "Z": -293.40454
+            },
+            "Timestamp": 1744772100,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 2.3378654,
+            "OtherCarId": 7,
+            "OtherDriver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9582843,
+                "Y": 0.280861,
+                "Z": 0.79855037
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 118.863846,
+                "Y": -0.26105264,
+                "Z": -293.40295
+            },
+            "Timestamp": 1744772100,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 6.545617,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.950037,
+                "Y": 0.18528618,
+                "Z": 0.943648
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -109.23699,
+                "Y": 0.32492337,
+                "Z": -267.18875
+            },
+            "Timestamp": 1744772106,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 127.15547,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": -0.5503011,
+                "Y": 0.330904,
+                "Z": 2.107087
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -427.93677,
+                "Y": 0.4831284,
+                "Z": -443.65314
+            },
+            "Timestamp": 1744772192,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 126.731,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": 0.5502969,
+                "Y": 0.33090392,
+                "Z": 2.107076
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -385.7702,
+                "Y": 0.5073936,
+                "Z": -441.46487
+            },
+            "Timestamp": 1744772195,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 50.64655,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.52114546,
+                "Y": -0.2132348,
+                "Z": 2.1509907
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -426.00522,
+                "Y": -0.059214734,
+                "Z": -431.56747
+            },
+            "Timestamp": 1744772206,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 31.187225,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.94419396,
+                "Y": 0.24641843,
+                "Z": 1.2267326
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -425.96814,
+                "Y": 0.38803777,
+                "Z": -431.34204
+            },
+            "Timestamp": 1744772206,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 203.81305,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "MCO",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.3196441e-05,
+                "Y": -0.09410561,
+                "Z": -2.469437
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -427.44867,
+                "Y": 0.07539883,
+                "Z": -427.67914
+            },
+            "Timestamp": 1744772209,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "MCO",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 204.04723,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.006041807,
+                "Y": -0.08770583,
+                "Z": 2.529431
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -427.44962,
+                "Y": 0.07608593,
+                "Z": -427.8968
+            },
+            "Timestamp": 1744772209,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198337770553",
+                "GuidsList": [
+                    "76561198337770553"
+                ],
+                "Name": "J2Quick",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 94.46986,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": 0.55030537,
+                "Y": -0.21320255,
+                "Z": 2.1473415
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -430.36807,
+                "Y": -0.14251669,
+                "Z": -443.6619
+            },
+            "Timestamp": 1744772210,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "MCO",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 86.515976,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": 0.7033203,
+                "Y": -0.31947404,
+                "Z": 2.4346251
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -430.89215,
+                "Y": 0.29145315,
+                "Z": -443.67236
+            },
+            "Timestamp": 1744772210,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "Big Justice",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 13.897664,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": -1.4352384e-05,
+                "Y": -0.023013018,
+                "Z": 2.2078695
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -423.85107,
+                "Y": 0.15158257,
+                "Z": -443.40796
+            },
+            "Timestamp": 1744772211,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 153.32692,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": 0.3459597,
+                "Y": -0.27604818,
+                "Z": 2.3540711
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -430.4349,
+                "Y": -0.061491504,
+                "Z": -443.5766
+            },
+            "Timestamp": 1744772217,
+            "AfterSessionEnd": true
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 126177,
+            "Restrictor": 0,
+            "Sectors": [
+                43988,
+                41162,
+                41027
+            ],
+            "Timestamp": 1744770981,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 126653,
+            "Restrictor": 0,
+            "Sectors": [
+                44479,
+                41621,
+                40553
+            ],
+            "Timestamp": 1744770982,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 127758,
+            "Restrictor": 0,
+            "Sectors": [
+                45813,
+                42542,
+                39403
+            ],
+            "Timestamp": 1744770983,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 128287,
+            "Restrictor": 0,
+            "Sectors": [
+                45996,
+                42399,
+                39892
+            ],
+            "Timestamp": 1744770984,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 128959,
+            "Restrictor": 0,
+            "Sectors": [
+                46969,
+                42187,
+                39803
+            ],
+            "Timestamp": 1744770984,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 132745,
+            "Restrictor": 0,
+            "Sectors": [
+                45351,
+                46989,
+                40405
+            ],
+            "Timestamp": 1744770988,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 135502,
+            "Restrictor": 0,
+            "Sectors": [
+                45642,
+                48779,
+                41081
+            ],
+            "Timestamp": 1744770991,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 135508,
+            "Restrictor": 0,
+            "Sectors": [
+                46498,
+                46769,
+                42241
+            ],
+            "Timestamp": 1744770991,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 120271,
+            "Restrictor": 0,
+            "Sectors": [
+                38848,
+                40910,
+                40513
+            ],
+            "Timestamp": 1744771102,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 118989,
+            "Restrictor": 0,
+            "Sectors": [
+                37786,
+                41022,
+                40181
+            ],
+            "Timestamp": 1744771102,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 118616,
+            "Restrictor": 0,
+            "Sectors": [
+                37886,
+                40833,
+                39897
+            ],
+            "Timestamp": 1744771102,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 124540,
+            "Restrictor": 0,
+            "Sectors": [
+                38959,
+                41724,
+                43857
+            ],
+            "Timestamp": 1744771106,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 122837,
+            "Restrictor": 0,
+            "Sectors": [
+                37815,
+                41426,
+                43596
+            ],
+            "Timestamp": 1744771107,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 117609,
+            "Restrictor": 0,
+            "Sectors": [
+                37454,
+                40734,
+                39421
+            ],
+            "Timestamp": 1744771108,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 119647,
+            "Restrictor": 0,
+            "Sectors": [
+                38354,
+                40825,
+                40468
+            ],
+            "Timestamp": 1744771110,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 124048,
+            "Restrictor": 0,
+            "Sectors": [
+                39313,
+                42759,
+                41976
+            ],
+            "Timestamp": 1744771112,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 118981,
+            "Restrictor": 0,
+            "Sectors": [
+                38318,
+                40825,
+                39838
+            ],
+            "Timestamp": 1744771221,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 120319,
+            "Restrictor": 0,
+            "Sectors": [
+                38604,
+                41800,
+                39915
+            ],
+            "Timestamp": 1744771223,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 120532,
+            "Restrictor": 0,
+            "Sectors": [
+                38772,
+                40923,
+                40837
+            ],
+            "Timestamp": 1744771223,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 118368,
+            "Restrictor": 0,
+            "Sectors": [
+                37966,
+                41090,
+                39312
+            ],
+            "Timestamp": 1744771227,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 122069,
+            "Restrictor": 0,
+            "Sectors": [
+                38370,
+                43974,
+                39725
+            ],
+            "Timestamp": 1744771229,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 119138,
+            "Restrictor": 0,
+            "Sectors": [
+                37581,
+                41445,
+                40112
+            ],
+            "Timestamp": 1744771230,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 123904,
+            "Restrictor": 0,
+            "Sectors": [
+                38652,
+                44612,
+                40640
+            ],
+            "Timestamp": 1744771230,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 120300,
+            "Restrictor": 0,
+            "Sectors": [
+                38130,
+                41327,
+                40843
+            ],
+            "Timestamp": 1744771232,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 119264,
+            "Restrictor": 0,
+            "Sectors": [
+                38120,
+                41094,
+                40050
+            ],
+            "Timestamp": 1744771340,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 119957,
+            "Restrictor": 0,
+            "Sectors": [
+                38184,
+                42151,
+                39622
+            ],
+            "Timestamp": 1744771343,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 116923,
+            "Restrictor": 0,
+            "Sectors": [
+                37457,
+                40136,
+                39330
+            ],
+            "Timestamp": 1744771344,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 122279,
+            "Restrictor": 0,
+            "Sectors": [
+                38557,
+                42084,
+                41638
+            ],
+            "Timestamp": 1744771345,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 118217,
+            "Restrictor": 0,
+            "Sectors": [
+                37654,
+                40810,
+                39753
+            ],
+            "Timestamp": 1744771348,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 119288,
+            "Restrictor": 0,
+            "Sectors": [
+                37721,
+                40726,
+                40841
+            ],
+            "Timestamp": 1744771348,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 120929,
+            "Restrictor": 0,
+            "Sectors": [
+                38318,
+                42633,
+                39978
+            ],
+            "Timestamp": 1744771351,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 120501,
+            "Restrictor": 0,
+            "Sectors": [
+                38223,
+                42074,
+                40204
+            ],
+            "Timestamp": 1744771353,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 118911,
+            "Restrictor": 0,
+            "Sectors": [
+                38023,
+                40995,
+                39893
+            ],
+            "Timestamp": 1744771459,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 117750,
+            "Restrictor": 0,
+            "Sectors": [
+                37816,
+                40676,
+                39258
+            ],
+            "Timestamp": 1744771460,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 117150,
+            "Restrictor": 0,
+            "Sectors": [
+                37428,
+                40410,
+                39312
+            ],
+            "Timestamp": 1744771461,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 117317,
+            "Restrictor": 0,
+            "Sectors": [
+                37604,
+                40717,
+                38996
+            ],
+            "Timestamp": 1744771462,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 119703,
+            "Restrictor": 0,
+            "Sectors": [
+                38099,
+                41095,
+                40509
+            ],
+            "Timestamp": 1744771467,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 119729,
+            "Restrictor": 0,
+            "Sectors": [
+                38252,
+                40932,
+                40545
+            ],
+            "Timestamp": 1744771468,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 119306,
+            "Restrictor": 0,
+            "Sectors": [
+                38419,
+                41099,
+                39788
+            ],
+            "Timestamp": 1744771471,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 122625,
+            "Restrictor": 0,
+            "Sectors": [
+                38394,
+                41364,
+                42867
+            ],
+            "Timestamp": 1744771476,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 118196,
+            "Restrictor": 0,
+            "Sectors": [
+                37602,
+                40711,
+                39883
+            ],
+            "Timestamp": 1744771578,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 118061,
+            "Restrictor": 0,
+            "Sectors": [
+                37453,
+                40523,
+                40085
+            ],
+            "Timestamp": 1744771579,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 117687,
+            "Restrictor": 0,
+            "Sectors": [
+                37537,
+                40486,
+                39664
+            ],
+            "Timestamp": 1744771580,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 124785,
+            "Restrictor": 0,
+            "Sectors": [
+                38205,
+                41305,
+                45275
+            ],
+            "Timestamp": 1744771584,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 118357,
+            "Restrictor": 0,
+            "Sectors": [
+                37357,
+                41103,
+                39897
+            ],
+            "Timestamp": 1744771587,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 118879,
+            "Restrictor": 0,
+            "Sectors": [
+                38063,
+                40910,
+                39906
+            ],
+            "Timestamp": 1744771589,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 138762,
+            "Restrictor": 0,
+            "Sectors": [
+                38006,
+                41603,
+                59153
+            ],
+            "Timestamp": 1744771606,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 131517,
+            "Restrictor": 0,
+            "Sectors": [
+                38497,
+                41161,
+                51859
+            ],
+            "Timestamp": 1744771607,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 120409,
+            "Restrictor": 0,
+            "Sectors": [
+                37758,
+                43029,
+                39622
+            ],
+            "Timestamp": 1744771699,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 119268,
+            "Restrictor": 0,
+            "Sectors": [
+                37903,
+                41602,
+                39763
+            ],
+            "Timestamp": 1744771699,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 120607,
+            "Restrictor": 0,
+            "Sectors": [
+                37672,
+                43483,
+                39452
+            ],
+            "Timestamp": 1744771699,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 119043,
+            "Restrictor": 0,
+            "Sectors": [
+                38020,
+                41333,
+                39690
+            ],
+            "Timestamp": 1744771703,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 118009,
+            "Restrictor": 0,
+            "Sectors": [
+                37760,
+                40689,
+                39560
+            ],
+            "Timestamp": 1744771705,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 120876,
+            "Restrictor": 0,
+            "Sectors": [
+                38287,
+                41152,
+                41437
+            ],
+            "Timestamp": 1744771710,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 119740,
+            "Restrictor": 0,
+            "Sectors": [
+                38340,
+                41152,
+                40248
+            ],
+            "Timestamp": 1744771726,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 119762,
+            "Restrictor": 0,
+            "Sectors": [
+                37863,
+                41616,
+                40283
+            ],
+            "Timestamp": 1744771727,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 22,
+                "Road": 31,
+                "Grip": 1,
+                "WindSpeed": 2,
+                "WindDirection": 13,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 118068,
+            "Restrictor": 0,
+            "Sectors": [
+                38080,
+                40671,
+                39317
+            ],
+            "Timestamp": 1744771817,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.94326,
+                "Road": 30.94326,
+                "Grip": 1,
+                "WindSpeed": 2.1702127,
+                "WindDirection": 9.085106,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 119277,
+            "Restrictor": 0,
+            "Sectors": [
+                37989,
+                41688,
+                39600
+            ],
+            "Timestamp": 1744771818,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.929075,
+                "Road": 30.929075,
+                "Grip": 1,
+                "WindSpeed": 2.212766,
+                "WindDirection": 8.106382,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 119967,
+            "Restrictor": 0,
+            "Sectors": [
+                40303,
+                40522,
+                39142
+            ],
+            "Timestamp": 1744771819,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.91489,
+                "Road": 30.91489,
+                "Grip": 1,
+                "WindSpeed": 2.255319,
+                "WindDirection": 7.127659,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 118656,
+            "Restrictor": 0,
+            "Sectors": [
+                38087,
+                40856,
+                39713
+            ],
+            "Timestamp": 1744771821,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.88652,
+                "Road": 30.88652,
+                "Grip": 1,
+                "WindSpeed": 2.3404255,
+                "WindDirection": 5.170212,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 117672,
+            "Restrictor": 0,
+            "Sectors": [
+                37842,
+                40639,
+                39191
+            ],
+            "Timestamp": 1744771822,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.872335,
+                "Road": 30.872335,
+                "Grip": 1,
+                "WindSpeed": 2.3829787,
+                "WindDirection": 4.1914883,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 120410,
+            "Restrictor": 0,
+            "Sectors": [
+                38870,
+                40977,
+                40563
+            ],
+            "Timestamp": 1744771831,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.758856,
+                "Road": 30.758856,
+                "Grip": 1,
+                "WindSpeed": 2.7234042,
+                "WindDirection": -3.6382995,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 119048,
+            "Restrictor": 0,
+            "Sectors": [
+                38003,
+                40843,
+                40202
+            ],
+            "Timestamp": 1744771845,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.546082,
+                "Road": 30.546082,
+                "Grip": 1,
+                "WindSpeed": 3.361702,
+                "WindDirection": -18.31915,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 119271,
+            "Restrictor": 0,
+            "Sectors": [
+                37793,
+                40834,
+                40644
+            ],
+            "Timestamp": 1744771846,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 21.531897,
+                "Road": 30.531897,
+                "Grip": 1,
+                "WindSpeed": 3.4042552,
+                "WindDirection": -19.297874,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 117792,
+            "Restrictor": 0,
+            "Sectors": [
+                37683,
+                40634,
+                39475
+            ],
+            "Timestamp": 1744771935,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 20.28362,
+                "Road": 29.28362,
+                "Grip": 1,
+                "WindSpeed": 7.148953,
+                "WindDirection": -105.4254,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 116725,
+            "Restrictor": 0,
+            "Sectors": [
+                37183,
+                40158,
+                39384
+            ],
+            "Timestamp": 1744771936,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 20.25525,
+                "Road": 29.25525,
+                "Grip": 1,
+                "WindSpeed": 7.23406,
+                "WindDirection": -107.38284,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 118372,
+            "Restrictor": 0,
+            "Sectors": [
+                37516,
+                40437,
+                40419
+            ],
+            "Timestamp": 1744771937,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 20.25525,
+                "Road": 29.25525,
+                "Grip": 1,
+                "WindSpeed": 7.23406,
+                "WindDirection": -107.38284,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 127601,
+            "Restrictor": 0,
+            "Sectors": [
+                37880,
+                48025,
+                41696
+            ],
+            "Timestamp": 1744771950,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 20.070847,
+                "Road": 29.070847,
+                "Grip": 1,
+                "WindSpeed": 7.7872543,
+                "WindDirection": -120.106224,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 119919,
+            "Restrictor": 0,
+            "Sectors": [
+                38486,
+                41338,
+                40095
+            ],
+            "Timestamp": 1744771951,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 20.056662,
+                "Road": 29.056662,
+                "Grip": 1,
+                "WindSpeed": 7.8298078,
+                "WindDirection": -121.084946,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 137371,
+            "Restrictor": 0,
+            "Sectors": [
+                38439,
+                56646,
+                42286
+            ],
+            "Timestamp": 1744771959,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 118645,
+            "Restrictor": 0,
+            "Sectors": [
+                37992,
+                41066,
+                39587
+            ],
+            "Timestamp": 1744771964,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 119069,
+            "Restrictor": 0,
+            "Sectors": [
+                37575,
+                41098,
+                40396
+            ],
+            "Timestamp": 1744771965,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 118921,
+            "Restrictor": 0,
+            "Sectors": [
+                38195,
+                40883,
+                39843
+            ],
+            "Timestamp": 1744772054,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 117649,
+            "Restrictor": 0,
+            "Sectors": [
+                37409,
+                41022,
+                39218
+            ],
+            "Timestamp": 1744772054,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 117946,
+            "Restrictor": 0,
+            "Sectors": [
+                37459,
+                40829,
+                39658
+            ],
+            "Timestamp": 1744772055,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 118478,
+            "Restrictor": 0,
+            "Sectors": [
+                37812,
+                40711,
+                39955
+            ],
+            "Timestamp": 1744772068,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 120456,
+            "Restrictor": 0,
+            "Sectors": [
+                38727,
+                40941,
+                40788
+            ],
+            "Timestamp": 1744772071,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 119777,
+            "Restrictor": 0,
+            "Sectors": [
+                39156,
+                40999,
+                39622
+            ],
+            "Timestamp": 1744772079,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 121141,
+            "Restrictor": 0,
+            "Sectors": [
+                38089,
+                41994,
+                41058
+            ],
+            "Timestamp": 1744772085,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 129828,
+            "Restrictor": 0,
+            "Sectors": [
+                37591,
+                51620,
+                40617
+            ],
+            "Timestamp": 1744772095,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 119759,
+            "Restrictor": 0,
+            "Sectors": [
+                38760,
+                41354,
+                39645
+            ],
+            "Timestamp": 1744772173,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "LapTime": 119921,
+            "Restrictor": 0,
+            "Sectors": [
+                38282,
+                40577,
+                41062
+            ],
+            "Timestamp": 1744772174,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "LapTime": 119679,
+            "Restrictor": 0,
+            "Sectors": [
+                38075,
+                41072,
+                40532
+            ],
+            "Timestamp": 1744772174,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 117696,
+            "Restrictor": 0,
+            "Sectors": [
+                37794,
+                40662,
+                39240
+            ],
+            "Timestamp": 1744772186,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 121517,
+            "Restrictor": 0,
+            "Sectors": [
+                38497,
+                43047,
+                39973
+            ],
+            "Timestamp": 1744772193,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "Cuts": 0,
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "LapTime": 119113,
+            "Restrictor": 0,
+            "Sectors": [
+                38347,
+                40972,
+                39794
+            ],
+            "Timestamp": 1744772198,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "LapTime": 118473,
+            "Restrictor": 0,
+            "Sectors": [
+                37967,
+                40942,
+                39564
+            ],
+            "Timestamp": 1744772203,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "LapTime": 121940,
+            "Restrictor": 0,
+            "Sectors": [
+                38061,
+                41638,
+                42241
+            ],
+            "Timestamp": 1744772217,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19.985737,
+                "Road": 28.985737,
+                "Grip": 1,
+                "WindSpeed": 8.042574,
+                "WindDirection": -125.97855,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 117750,
+            "CarId": 7,
+            "CarModel": "gt4_ford_mustang",
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "Restrictor": 0,
+            "TotalTime": 1319663,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 5
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 116725,
+            "CarId": 13,
+            "CarModel": "gt4_ford_mustang",
+            "DriverGuid": "76561199008053666",
+            "DriverName": "Big Justice",
+            "Restrictor": 0,
+            "TotalTime": 1319929,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 7
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 117317,
+            "CarId": 1,
+            "CarModel": "gt4_ford_mustang",
+            "DriverGuid": "76561198337770553",
+            "DriverName": "J2Quick",
+            "Restrictor": 0,
+            "TotalTime": 1320573,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 8
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 117672,
+            "CarId": 0,
+            "CarModel": "gt4_alpine_a110",
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "Restrictor": 0,
+            "TotalTime": 1332251,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 6
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 118879,
+            "CarId": 3,
+            "CarModel": "gt4_mclaren_570s",
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "Restrictor": 0,
+            "TotalTime": 1338870,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 3
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 118656,
+            "CarId": 4,
+            "CarModel": "gt4_porsche_cayman_718",
+            "DriverGuid": "76561198027981090",
+            "DriverName": "rev174",
+            "Restrictor": 0,
+            "TotalTime": 1343884,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 2
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 118217,
+            "CarId": 11,
+            "CarModel": "gt4_toyota_supra",
+            "DriverGuid": "76561198196672310",
+            "DriverName": "D4ncC",
+            "Restrictor": 0,
+            "TotalTime": 1349426,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 4
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 119069,
+            "CarId": 17,
+            "CarModel": "gt4_toyota_supra",
+            "DriverGuid": "76561198824723764",
+            "DriverName": "Max Yang",
+            "Restrictor": 0,
+            "TotalTime": 1363170,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 1
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "300",
+    "TrackName": "snetterton2011",
+    "Type": "RACE",
+    "Date": "2025-04-16T02:58:00Z",
+    "SessionFile": "2025_4_16_2_58_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 1,
+        "wait_time": 60,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "1ed6b02f-84e5-42eb-a1c8-5f88fb9c8c7f",
+    "RaceWeekendID": "",
+    "EventName": "Snetterton 300, Great Britain"
+}

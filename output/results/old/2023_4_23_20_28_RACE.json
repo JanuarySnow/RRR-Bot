@@ -1,0 +1,83 @@
+{
+    "id": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+    "track": "ks_barcelona;layout_moto",
+    "laps": [
+        {
+            "id": "d984e558-d3d6-4af6-987f-d26c46cef4f4",
+            "time": 116514,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561198107246618",
+            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "valid": false,
+            "cuts": 2
+        },
+        {
+            "id": "6dea74a4-0446-4231-a542-f825d0b74199",
+            "time": 101682,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561198107246618",
+            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "c2b7d428-51d1-4fd3-b7a9-90682db8580e",
+            "time": 87205,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561198107246618",
+            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "8630c79a-c1d0-41ab-9de0-6bf27c2a0d59",
+            "racer": "76561198107246618",
+            "car": "rss_formula_hybrid_2022",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2023-04-23T20:28:00Z",
+            "laps": [
+                "d984e558-d3d6-4af6-987f-d26c46cef4f4",
+                "6dea74a4-0446-4231-a542-f825d0b74199",
+                "c2b7d428-51d1-4fd3-b7a9-90682db8580e"
+            ],
+            "incidents": [
+                "e6cde609-e163-4a1d-b7d9-56a145801695",
+                "bd48d536-88a5-441e-ba11-9ddbb632f432"
+            ],
+            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "cuts": 3,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "e6cde609-e163-4a1d-b7d9-56a145801695",
+            "speed": 26.136206,
+            "racer": "76561198107246618",
+            "otherracer": null
+        },
+        {
+            "id": "bd48d536-88a5-441e-ba11-9ddbb632f432",
+            "speed": 67.74958,
+            "racer": "76561198107246618",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2023_4_23_20_28_RACE.json",
+    "date": "2023-04-23T20:28:00Z",
+    "region": "EU",
+    "championshipid": "e4bd0478-3595-4374-a2a5-9fa7d0878669",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561198107246618": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

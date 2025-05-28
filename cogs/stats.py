@@ -1,31 +1,57 @@
+from __future__ import annotations
 import aiohttp
 import discord
 import math
-from discord.ext import commands, tasks
+from discord.ext import commands, tasks, voice_recv
 from discord.ext.commands import Context
 from discord.ui import Button, View
 import json
 import os
 import random
+import calendar
 import statsparser
 import requests
 import asyncio
+from zoneinfo import ZoneInfo
 from logger_config import logger
-import asyncio
+import difflib
 import logging
 from base64 import b64encode
 from dataclasses import dataclass, field
-from datetime import timedelta, timezone, datetime
-from typing import Literal, Optional
+from datetime import timedelta, timezone, datetime,date, time as dtime
+from typing import List, Literal, Optional, Tuple, Dict, Any
 import scipy.stats as stats
 from faker import Faker
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from PIL import features
 import json
+from urllib.parse import quote
 import os
 import difflib
 import pytz
+import championship
+import serialize
+import time
+import tempfile
+import discord, pathlib, itertools
+from typing   import Iterable, Optional
+import re
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
 
+# one executor for the whole cog / bot
+BLOCKING_IO_EXECUTOR = ThreadPoolExecutor(max_workers=2)
+
+gt3ids = ["ks_audi_r8_lms_2016","bmw_z4_gt3", "ks_ferrari_488_gt3", "ks_lamborghini_huracan_gt3",
+         "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016"]
+
+gt4ids = ["gt4_alpine_a110", "gt4_ford_mustang","gt4_ginetta_g55", "gt4_mclaren_570s", "gt4_porsche_cayman_718", "gt4_toyota_supra"]
+
+formulaids = ["rss_formula_hybrid_v12-r","rss_formula_rss_4", "rss_formula_rss_3_v6", "rss_formula_rss_2_v6_2020", "rss_formula_rss_2_v8", "rss_formula_hybrid_2021", "rss_formula_hybrid_2018"]
+
+async def _run_blocking(func, *args):
+    loop = asyncio.get_running_loop()
+    return await loop.run_in_executor(BLOCKING_IO_EXECUTOR, func, *args)
 
 ON_READY_FIRST_RUN_DOWNLOAD = True
 ON_READY_FIRST_TIME_SCAN = True
@@ -35,6 +61,33 @@ ON_READY_FIRST_DISTRIBUTE_COIN = True
 ALREADY_ANNOUNCED_BETTING = False
 ON_READY_FIRST_ANNOUNCE_CHECK = True
 
+EU_TIME = dtime(19, 0, tzinfo=ZoneInfo("Europe/London"))
+US_TIME = dtime(20, 0, tzinfo=ZoneInfo("US/Central"))
+SAT_TIME = dtime(20, 0, tzinfo=ZoneInfo("Europe/London"))
+
+_FAMILY_RX = re.compile(r"^([a-z]+[0-9]*?)(?=eu|na|_|$)", re.I)
+
+_TS_RX = re.compile(r"<t:(\d+):")
+
+def _raw_ts(discord_ts: str) -> Optional[int]:
+    m = _TS_RX.search(discord_ts or "")
+    return int(m.group(1)) if m else None
+
+def _family(ch_type: str) -> str:
+    """
+    'mx5euopen'  -> 'mx5'
+    'gt3eurar'   -> 'gt3'
+    'gt4naopen'  -> 'gt4'
+    'formulaeur' -> 'formula'
+    'worldtour'  -> 'worldtour'
+    """
+    m = _FAMILY_RX.match(ch_type)
+    return m.group(1).lower() if m else ch_type.lower()
+
+def _label(ch_type: str) -> str:
+    """'mx5narar' → 'NA'   ·   'gt3eurrr' → 'EU'   ·   fall‑back ⇒ ch_type"""
+    return "NA" if "na" in ch_type.lower() else "EU" if "eu" in ch_type.lower() else ch_type
+
 ALLOWED_CHANNELS = {
     "global": ["1134963371553337478", "1328800009189195828", "1098040977308000376"],  # Channels for most commands
     "tracklookup": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"],
@@ -42,7 +95,6 @@ ALLOWED_CHANNELS = {
     "save_track_data_to_json": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"],
     "select_track": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"],
     "handle_vote": ["1134963371553337478","1328800009189195828","1098040977308000376","1085906626852163636"]
-    
     }
 
 class VoteView(discord.ui.View):
@@ -170,10 +222,13 @@ class Stats(commands.Cog, name="stats"):
         self.user_data = self.load_user_data()
         self.currenteventbet = None
         self.load_current_event_bet()
-        self.first_load()
         self.fetch_results_list.start()
         self.justadded = []
         self.logger = logger
+        self.session_days = [
+            "monday", "tuesday", "wednesday",
+            "thursday", "friday", "saturday", "sunday",
+            ]
         self.currenteutime = None
         self.currentnatime = None
         self.mondayannounced = False
@@ -183,7 +238,24 @@ class Stats(commands.Cog, name="stats"):
         self.fridayannounced = False
         self.saturdayannounced = False
         self.sundayannounced = False
+        self.mondayeuraceannounced = False
+        self.tuesdayeuraceannounced = False
+        self.wednesdayeuraceannounced = False
+        self.thursdayeuraceannounced = False
+        self.fridayeuraceannounced = False
+        self.saturdayraceannounced = False
+        self.sundayeuraceannounced = False
+        self.mondaynaraceannounced = False
+        self.tuesdaynaraceannounced = False
+        self.wednesdaynaraceannounced = False
+        self.thursdaynaraceannounced = False
+        self.fridaynaraceannounced = False
+        self.sundaynaraceannounced = False
         self.load_announcement_data()
+        self.load_race_announcement_data()
+        self.eu_race_slot.start()
+        self.na_race_slot.start()
+        self.sat_special_slot.start()
         self.timetrialserver = 'https://timetrial.ac.tekly.racing'
 
         self.mx5euopenserver = "https://eu.mx5.ac.tekly.racing"
@@ -191,38 +263,22 @@ class Stats(commands.Cog, name="stats"):
         self.mx5eurrrserver = "https://eu.mx5.rrr.ac.tekly.racing"
         self.mx5narrrserver = "https://na.mx5.rrr.ac.tekly.racing"
         self.mx5nararserver = "https://na.mx5.rar.ac.tekly.racing"
-        self.mx5eurarserver = "https://eu.mx5.rar.ac.tekly.racing"
         self.gt3euopenserver = "https://eu.gt3.ac.tekly.racing"
         self.gt3naopenserver = "https://na.gt3.ac.tekly.racing"
         self.gt3eurrrserver = "https://eu.gt3.rrr.ac.tekly.racing"
-        self.gt3eurarserver = "https://eu.gt3.rar.ac.tekly.racing"
-        self.gt3nararserver = "https://na.gt3.rar.ac.tekly.racing"
         self.gt3narrrserver = "https://na.gt3.rrr.ac.tekly.racing"
         self.worldtourserver = "https://worldtour.ac.tekly.racing"
         self.gt4euopenserver = "https://eu.gt4.ac.tekly.racing"
         self.gt4naopenserver = "https://na.gt4.ac.tekly.racing"
-        self.gt4eurrrserver = "https://eu.gt4.rrr.ac.tekly.racing"
-        self.gt4narrrserver = "https://na.gt4.rrr.ac.tekly.racing"
-        self.gt4eurarserver = "https://eu.gt4.rar.ac.tekly.racing"
-        self.gt4nararserver = "https://na.gt4.rar.ac.tekly.racing"
         self.formulaeuopenserver = "https://eu.f3.ac.tekly.racing"
         self.formulanaopenserver = "https://na.f3.ac.tekly.racing"
-        self.formulaeurrrserver = "https://eu.f2.rrr.ac.tekly.racing"
-        self.formulanarrrserver = "https://na.f2.rrr.ac.tekly.racing"
-        self.formulaeurarserver = "https://eu.f1.rar.ac.tekly.racing"
         self.formulanararserver = "https://na.f1.rar.ac.tekly.racing"
-        self.lmpeuopenserver = "https://eu.lmp.ac.tekly.racing"
-        self.lmpnaopenserver = "https://na.lmp.ac.tekly.racing"
-        self.lmpeurrrserver = "https://eu.lmp.rrr.ac.tekly.racing"
-        self.lmpnarrrserver = "https://na.lmp.rrr.ac.tekly.racing"
-        self.lmpeurarserver = "https://eu.lmp.rar.ac.tekly.racing"
-        self.lmpnararserver =  "https://na.lmp.rar.ac.tekly.racing"
         self.testserver = "https://eu.wcw.ac.tekly.racing"
-        self.servers = ( self.mx5euopenserver, self.mx5naopenserver, self.mx5eurrrserver, self.mx5narrrserver, self.mx5nararserver, self.mx5eurarserver,
-                        self.gt3euopenserver, self.gt3naopenserver, self.gt3eurrrserver, self.gt3eurarserver, self.gt3nararserver, self.gt3narrrserver,
-                        self.worldtourserver, self.gt4euopenserver, self.gt4naopenserver, self.gt4eurrrserver, self.gt4narrrserver, self.gt4eurarserver,
-                        self.gt4nararserver, self.formulaeuopenserver, self.formulanaopenserver, self.formulaeurrrserver, self.formulanarrrserver,
-                        self.formulaeurarserver, self.formulanararserver, self.lmpeuopenserver, self.lmpnaopenserver, self.lmpeurrrserver, self.lmpnarrrserver)
+        self.servers = ( self.mx5euopenserver, self.mx5naopenserver, self.mx5eurrrserver, self.mx5narrrserver, self.mx5nararserver,
+                        self.gt3euopenserver, self.gt3naopenserver, self.gt3eurrrserver, self.gt3narrrserver,
+                        self.worldtourserver, self.gt4euopenserver, self.gt4naopenserver,
+                        self.formulaeuopenserver, self.formulanaopenserver,
+                         self.formulanararserver)
         self.blacklist = ["2025_1_4_21_37_RACE.json", "2025_1_4_22_2_RACE.json",
                           "2024_12_21_21_58_RACE.json", "2024_12_21_21_32_RACE.json",
                           "2025_2_17_20_30_RACE.json", "2025_2_17_20_57_RACE.json",
@@ -234,45 +290,152 @@ class Stats(commands.Cog, name="stats"):
             self.mx5eurrrserver: "mx5eurrr",
             self.mx5narrrserver: "mx5narrr",
             self.mx5nararserver: "mx5narar",
-            self.mx5eurarserver: "mx5eurar",
             self.gt3euopenserver: "gt3euopen",
             self.gt3naopenserver: "gt3naopen",
             self.gt3eurrrserver: "gt3eurrr",
-            self.gt3eurarserver: "gt3eurar",
-            self.gt3nararserver: "gt3narar",
-            self.gt3narrrserver: "grt3narrr",
+            self.gt3narrrserver: "gt3narrr",
             self.worldtourserver: "worldtour",
             self.gt4euopenserver: "gt4euopen",
             self.gt4naopenserver: "gt4naopen",
-            self.gt4eurrrserver: "gt4eurrr",
-            self.gt4narrrserver: "gt4narrr",
-            self.gt4eurarserver: "gt4eurar",
-            self.gt4nararserver: "gt4narar",
             self.formulaeuopenserver: "formulaeuopen",
             self.formulanaopenserver: "formulanaopen",
-            self.formulaeurrrserver: "formulaeurrr",
-            self.formulanarrrserver: "formulanarrr",
-            self.formulaeurarserver: "formulaeurar",
-            self.formulanararserver: "formulanarar",
-            self.lmpeuopenserver: "lmpeuopen",
-            self.lmpnaopenserver: "lmpnaopen",
-            self.lmpeurrrserver: "lmpeurrr",
-            self.lmpnarrrserver: "lmpnarrr",
-            self.lmpeurarserver: "lmpeurar",
-            self.lmpnararserver: "lmpnarar",
+            self.formulanararserver: "formulanarar"
 
         }
+        self.servertoseriesname = {
+            self.mx5euopenserver: "MX5 EU Open Race",
+            self.mx5naopenserver: "MX5 NA Open Race",
+            self.mx5eurrrserver: "MX5 EU RRR Season Race",
+            self.mx5narrrserver: "MX5 NA RRR Season Race",
+            self.mx5nararserver: "MX5 NA RAR Season Race",
+            self.gt3euopenserver: "GT3 EU Open Race",
+            self.gt3naopenserver: "GT3 NA Open Race",
+            self.gt3eurrrserver: "GT3 EU RRR Season Race",
+            self.gt3narrrserver: "GT3 NA RRR Season Race",
+            self.worldtourserver: "World Tour Race",
+            self.gt4euopenserver: "GT4 EU Open Race",
+            self.gt4naopenserver: "GT4 NA Open Race",
+            self.formulaeuopenserver: "Formula 3 EU Open Race",
+            self.formulanaopenserver: "Formula 3 NA Open Race",
+            self.formulanararserver: "Formula 1 NA RAR Season Race"
+
+        }
+        self.servertoresultsthread = {
+            self.mx5euopenserver: 1366724741175443456,
+            self.mx5naopenserver: 1366724741175443456,
+            self.mx5eurrrserver: 1366724741175443456,
+            self.mx5narrrserver: 1366724741175443456,
+            self.mx5nararserver: 1366724741175443456,
+            self.gt3euopenserver: 1366725581470830625,
+            self.gt3naopenserver: 1366725581470830625,
+            self.gt3eurrrserver: 1366725581470830625,
+            self.gt3narrrserver: 1366725581470830625,
+            self.worldtourserver: 1366759692294160394,
+            self.gt4euopenserver: 1367102297988923514,
+            self.gt4naopenserver: 1367102297988923514,
+            self.formulaeuopenserver: 1366760813494276156,
+            self.formulanaopenserver: 1366760813494276156,
+            self.formulanararserver: 1366760813494276156
+
+        }
+        self.servertoschedulethread = {
+            self.mx5euopenserver: 1366781901796409464, 
+            self.mx5naopenserver: 1366781901796409464,
+            self.mx5eurrrserver: 1366724891751088129,
+            self.mx5narrrserver: 1366724891751088129,
+            self.mx5nararserver: 1366724891751088129,
+            self.gt4euopenserver: 1366782309659049984,
+            self.gt4naopenserver: 1366782309659049984,
+            self.gt3euopenserver: 1366776293344940042,
+            self.gt3naopenserver: 1366776293344940042,
+            self.gt3eurrrserver: 1366725727604445305,
+            self.gt3narrrserver: 1366725727604445305,
+            self.worldtourserver: 1366759596638601248,
+            self.formulaeuopenserver: 1366781229336100905,
+            self.formulanaopenserver: 1366781229336100905,
+            self.formulanararserver: 1366760782867599462,
+
+        }
+
+        self.servertostandingsthread = {
+            self.mx5euopenserver: 1366725812002492416,
+            self.mx5naopenserver: 1366725812002492416,
+            self.mx5eurrrserver: 1366725812002492416,
+            self.mx5narrrserver: 1366725812002492416,
+            self.mx5nararserver: 1366725812002492416,
+            self.gt3euopenserver: 1366725954852098078,
+            self.gt3naopenserver: 1366725954852098078,
+            self.gt3eurrrserver: 1366725954852098078,
+            self.gt3narrrserver: 1366725954852098078,
+            self.worldtourserver: 1366759596638601248,
+            self.formulaeuopenserver: 1366760700713898106,
+            self.formulanaopenserver: 1366760700713898106,
+            self.formulanararserver: 1366760700713898106,
+
+        }
+        self.servertoparentchannel = {
+            self.mx5euopenserver: 1366724512632148028,
+            self.mx5naopenserver: 1366724512632148028,
+            self.mx5eurrrserver: 1366724512632148028,
+            self.mx5narrrserver: 1366724512632148028,
+            self.mx5nararserver: 1366724512632148028,
+            self.gt3euopenserver: 1366724548719804458,
+            self.gt3naopenserver: 1366724548719804458,
+            self.gt3eurrrserver: 1366724548719804458,
+            self.gt3narrrserver: 1366724548719804458,
+            self.worldtourserver: 1366757441768915034,
+            self.gt4euopenserver: 1366782207238209548,
+            self.gt4naopenserver: 1366782207238209548,
+            self.formulaeuopenserver: 1366755399566491718,
+            self.formulanaopenserver: 1366755399566491718,
+            self.formulanararserver: 1366755399566491718
+        }
         self.download_queue = []
+        self.mx5openrace = None
+        self.gt3openrace = None
+        self.gt4openrace = None
+        self.formulaopenrace = None
+        self.mx5openracemessage = None
+        self.gt3openracemessage = None
+        self.gt4openracemessage = None
+        self.formulaopenracemessage = None
+        self.load_open_race_data()
         logger.info("Stats cog loaded")
         self.check_sessions_task.start()
+        self.check_open_races_task.start()
         self.distribute_coins.start()
         self.fetch_time.start()
         self.check_for_announcements.start()
+        self.bot.loop.create_task(self._first_load())
+        self.base_dir: Path = Path(__file__).parent.parent
+        self.dir_flags = self.base_dir / "flags"
+        self.dir_fonts = self.base_dir / "fonts"
+        self.dir_logos = self.base_dir / "logos"
+        self.dir_output = self.base_dir / "output"
+        self.dir_presets = self.base_dir / "presets"
+        self.dir_results = self.base_dir / "results"
+        self.dir_templates = self.base_dir / "templates"
+        self.default_settings: Dict[str, Any] = {
+            "x_name": 80,
+            "y_start": 150,
+            "line_spacing": 35,
+            "logo_offset_x": 10,
+            "logo_offset_y": -5,
+            "logo_fixed_x": 500,
+            "logo_size": 40,
+            "font_size": 28,
+            "font_path": str(self.dir_fonts / "BaijamJuree-Medium.ttf"),
+        }
+        self.directory_to_series = {
+            dir_name: self.servertoseriesname[server]
+            for server, dir_name in self.servertodirectory.items()
+        }
 
-    def first_load(self):
+    async def _first_load(self):
+        await self.bot.wait_until_ready()          # be safe; optional
         self.currenteutime = self.get_current_time("Europe/London")
         self.currentnatime = self.get_current_time("US/Central")
-        self.parsed.refresh_all_data()
+        await self.deserializeall_internal()
 
     def load_announcement_data(self):
         try:
@@ -290,6 +453,33 @@ class Stats(commands.Cog, name="stats"):
             print("self.wednesdayannounced on first load = " + str(self.wednesdayannounced))  # DEBUG PRINT
         except FileNotFoundError:
             print("raceannouncements.json not found. Using default values.")
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+        except Exception as e:
+            print(f"Unexpected error: {e}")
+
+    def load_race_announcement_data(self):
+        try:
+            with open("racesessionannouncements.json", "r") as file:
+                data = json.load(file)
+            print("Loaded data:", data)  # DEBUG PRINT
+            # Update the flags based on JSON data
+            self.mondayeuraceannounced = data["mondayeuraceannounced"]["announced"]
+            self.tuesdayeuraceannounced = data["tuesdayeuraceannounced"]["announced"]
+            self.wednesdayeuraceannounced = data["wednesdayeuraceannounced"]["announced"]
+            self.thursdayeuraceannounced = data["thursdayeuraceannounced"]["announced"]
+            self.fridayeuraceannounced = data["fridayeuraceannounced"]["announced"]
+            self.saturdayraceannounced = data["saturdayraceannounced"]["announced"]
+            self.sundayeuraceannounced = data["sundayeuraceannounced"]["announced"]
+            self.mondaynaraceannounced = data["mondaynaraceannounced"]["announced"]
+            self.tuesdaynaraceannounced = data["tuesdaynaraceannounced"]["announced"]
+            self.wednesdaynaraceannounced = data["wednesdaynaraceannounced"]["announced"]
+            self.thursdaynaraceannounced = data["thursdaynaraceannounced"]["announced"]
+            self.fridaynaraceannounced = data["fridaynaraceannounced"]["announced"]
+            self.sundaynaraceannounced = data["sundaynaraceannounced"]["announced"]
+            print("self.wednesdayraceannounced on first load = " + str(self.wednesdayannounced))  # DEBUG PRINT
+        except FileNotFoundError:
+            print("racesessionannouncements.json not found. Using default values.")
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON: {e}")
         except Exception as e:
@@ -313,8 +503,69 @@ class Stats(commands.Cog, name="stats"):
         except Exception as e:
             print(f"Error saving announcement data: {e}")
 
+    def save_race_announcement_data(self):
+        data = {
+            "mondayeuraceannounced": {"announced": self.mondayeuraceannounced},
+            "tuesdayeuraceannounced": {"announced": self.tuesdayeuraceannounced},
+            "wednesdayeuraceannounced": {"announced": self.wednesdayeuraceannounced},
+            "thursdayeuraceannounced": {"announced": self.thursdayeuraceannounced},
+            "fridayeuraceannounced": {"announced": self.fridayeuraceannounced},
+            "saturdayraceannounced": {"announced": self.saturdayraceannounced},
+            "sundayeuraceannounced": {"announced": self.sundayeuraceannounced},
+            "mondaynaraceannounced": {"announced": self.mondaynaraceannounced},
+            "tuesdaynaraceannounced": {"announced": self.tuesdaynaraceannounced},
+            "wednesdaynaraceannounced": {"announced": self.wednesdaynaraceannounced},
+            "thursdaynaraceannounced": {"announced": self.thursdaynaraceannounced},
+            "fridaynaraceannounced": {"announced": self.fridaynaraceannounced},
+            "sundaynaraceannounced": {"announced": self.sundaynaraceannounced},
+        }
+        try:
+            with open("racesessionannouncements.json", "w") as file:
+                json.dump(data, file, indent=4)
+            print("Saved data:", data)  # DEBUG PRINT
+        except Exception as e:
+            print(f"Error saving racesessionannouncements data: {e}")
 
 
+    def save_open_race_data(self):
+        print("Saving")
+        data = {
+            "mx5open": self.mx5openrace,
+            "gt4open": self.gt4openrace,
+            "formulaopen": self.formulaopenrace,
+            "gt3open": self.gt3openrace,
+            "mx5openracemessage": self.mx5openracemessage,
+            "gt4openracemessage": self.gt4openracemessage,
+            "formulaopenracemessage": self.formulaopenracemessage,
+            "gt3openracemessage": self.gt3openracemessage
+        }
+        try:
+            with open("openraces.json", "w") as file:
+                json.dump(data, file, indent=4)
+            print("Saved data:", data)  # DEBUG PRINT
+        except Exception as e:
+            print(f"Error saving openrace data: {e}")
+
+    def load_open_race_data(self):
+        try:
+            with open("openraces.json", "r") as file:
+                data = json.load(file)
+            print("Loaded data:", data)  # DEBUG PRINT
+            # Update the flags based on JSON data
+            self.mx5openrace = data["mx5open"]
+            self.gt4openrace = data["gt4open"]
+            self.formulaopenrace = data["formulaopen"]
+            self.gt3openrace = data["gt3open"] # DEBUG PRINT
+            self.mx5openracemessage = data["mx5openracemessage"]
+            self.gt4openracemessage = data["gt4openracemessage"]
+            self.formulaopenracemessage = data["formulaopenracemessage"]
+            self.gt3openracemessage = data["gt3openracemessage"]
+        except FileNotFoundError:
+            print("openraces.json not found. Using default values.")
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+        except Exception as e:
+            print(f"Unexpected error: {e}")
 
         
     def load_user_data(self):
@@ -349,6 +600,46 @@ class Stats(commands.Cog, name="stats"):
             if query in self.parsed.racers.keys():
                 return query
         return None
+    
+    @commands.hybrid_command(name="serializeall", description="serializeall")
+    @commands.is_owner()
+    async def serializeall(self, ctx):
+        await self.serializeall_internal()
+
+    async def serializeall_internal(self):
+        serialize.serialize_all_data(self.parsed)
+
+    @commands.hybrid_command(name="deserializeall", description="deserializeall")
+    @commands.is_owner()
+    async def deserializeall(self, ctx):
+        await self.deserializeall_internal()
+    
+    async def deserializeall_internal(self):
+        def log(msg):
+            # timestamped print helper
+            print(f"[{datetime.now().strftime('%H:%M:%S.%f')[:-3]}] {msg}")
+        t0 = time.perf_counter()
+        log("⏳  Deserialising JSON → objects …")
+        self.parsed = serialize.deserialize_all_data()
+        t1 = time.perf_counter()
+        log(f"✅  Deserialised in {t1 - t0:0.3f}s")
+
+        log("⏳  Calculating raw pace percentages …")
+        self.parsed.calculate_raw_pace_percentages_for_all_racers()
+        t2 = time.perf_counter()
+        log(f"✅  Pace calc done in {t2 - t1:0.3f}s")
+
+        log("⏳  Calculating rankings …")
+        self.parsed.calculate_rankings()
+        t3 = time.perf_counter()
+        log(f"✅  Rankings done in {t3 - t2:0.3f}s")
+
+        log("⏳  Loading track ratings …")
+        self.parsed.loadtrackratings()
+        t4 = time.perf_counter()
+        log(f"✅  Track ratings loaded in {t4 - t3:0.3f}s")
+
+        log(f"🏁  Total elapsed {t4 - t0:0.3f}s")
     
     @commands.hybrid_command(name="clearbets", description="clearbets")
     @commands.is_owner()
@@ -479,6 +770,124 @@ class Stats(commands.Cog, name="stats"):
     async def fetch_time(self):
         self.currenteutime = self.get_current_time("Europe/London")
         self.currentnatime = self.get_current_time("US/Central")
+
+    def clear_session_flags(self):
+        """
+        Set every `*euraceannounced` and `*naraceannounced` flag to False,
+        plus your one “saturdayraceannounced” if you’re using that.
+        """
+        # EU flags
+        for day in self.session_days:
+            setattr(self, f"{day}euraceannounced", False)
+        # NA flags
+        for day in self.session_days:
+            setattr(self, f"{day}naraceannounced", False)
+        # If you have a special saturday flag without region suffix:
+        setattr(self, "saturdayraceannounced", False)
+
+
+    @tasks.loop(time=EU_TIME)
+    async def eu_race_slot(self):
+        # fires Mon/Tue/Thu/Fri at 19:00 Europe/London
+        now = self.get_current_time("Europe/London")
+        wd  = now.weekday()
+        if wd == 0:      # Monday
+            await self.on_race_start(region="EU", event="mx5")
+        elif wd == 1:    # Tuesday
+            await self.on_race_start(region="EU", event="gt4")
+        elif wd == 3:    # Thursday
+            await self.on_race_start(region="EU", event="formula")
+        elif wd == 4:    # Friday
+            await self.on_race_start(region="EU", event="gt3")
+
+    @tasks.loop(time=US_TIME)
+    async def na_race_slot(self):
+        # fires Mon/Tue/Thu/Fri at 20:00 CST
+        now = self.get_current_time("US/Central")
+        wd  = now.weekday()
+        if wd == 0:
+            await self.on_race_start(region="NA", event="mx5")
+        elif wd == 1:
+            await self.on_race_start(region="NA", event="gt4")
+        elif wd == 3:
+            await self.on_race_start(region="NA", event="formula")
+        elif wd == 4:
+            await self.on_race_start(region="NA", event="gt3")
+
+    @tasks.loop(time=SAT_TIME)
+    async def sat_special_slot(self):
+        # fires Saturday at 20:00 Europe/London
+        now = self.get_current_time("Europe/London")
+        if now.weekday() == 5:
+            await self.on_race_start(region="EU", event="worldtour")
+
+    async def on_race_start(self, region: str, event: str):
+        roles = []
+        leaguechannel = 1317629640793264229
+        announcestr = ""
+        tz = ZoneInfo("Europe/London") if region == "EU" else ZoneInfo("US/Central")
+        today = datetime.now(tz).weekday()            # 0=Mon .. 6=Sun
+        day_name = self.session_days[today]
+        flag_attr = f"{day_name}{region.lower()}raceannounced"
+        # for a “normal” weekday race (Mon–Fri):
+        if event in {"mx5", "gt4", "formula", "gt3"}:
+            flag_attr = f"{day_name}{region.lower()}raceannounced"
+        # for your Saturday “worldtour” slot you said you have a single flag:
+        elif event == "worldtour":
+            flag_attr = "saturdayraceannounced"
+        else:
+            # nothing to do for unknown event
+            return
+        if getattr(self, flag_attr, False):
+            print("returning early as already announced for this region, even though it should only occur at that time")
+            return  # already announced today for this region
+        self.clear_session_flags()
+        if event == "mx5":
+            leaguechannel = 1366724512632148028
+            if region == "EU":
+                roles.append(1117573763869978775)
+            else:
+                roles.append(1117573512064946196)
+        elif event == "test":
+            leaguechannel = 1366724512632148028
+            roles.append(1320448907976638485)
+        elif event == "gt3":
+            leaguechannel = 1366724548719804458
+            if region == "EU":
+                roles.append(1117574027645558888)
+            else:
+                roles.append(1117573957634228327)
+        elif event == "gt4":
+            if region == "EU":
+                roles.append(1358914901153681448)
+            else:
+                roles.append(1358915346362531940)
+            leaguechannel = 1366782207238209548
+        elif event == "formula":
+            leaguechannel = 1366755399566491718
+            if region == "EU":
+                roles.append(1358915606115651684)
+            else:
+                roles.append(1358915647634936058)
+        elif event == "worldtour":
+            leaguechannel = 1366757441768915034
+            roles.append(1117574229894901871)
+        isseason = await self.find_if_season_day()
+        setattr(self, flag_attr, True)
+        self.save_race_announcement_data()
+        role_mentions = " ".join([f"<@&{role_id}>" for role_id in roles])
+        announcestr += role_mentions
+        announcestr += "The Race session has started! check out : <#" + str(leaguechannel) + "> for more info!"
+        if isseason:
+            announcestr += " This is a season race today!"
+        else:
+            announcestr += " This is NOT a season race today, it is an OPEN race!"
+        parent_channel = self.bot.get_channel(1102816381348626462)
+        if parent_channel is None:
+            logger.info("No valid channel available to send the announcement.")
+            return
+        await self.send_announcement(parent_channel, announcestr)
+
         
     @tasks.loop(seconds=180.0)
     async def check_for_announcements(self):
@@ -496,8 +905,7 @@ class Stats(commands.Cog, name="stats"):
                 "Wednesday": "wcw",
                 "Thursday": "formula",
                 "Friday": "gt3",
-                "Saturday": "worldtour",
-                "Sunday": "lmp"
+                "Saturday": "worldtour"
             }
             if current_cst_day in race_map and not getattr(self, f"{current_cst_day.lower()}announced", False):
                 await self.announce_raceday(race_map[current_cst_day])
@@ -507,7 +915,7 @@ class Stats(commands.Cog, name="stats"):
                     setattr(self, f"{day.lower()}announced", day == current_cst_day)
                 self.save_announcement_data()
             else:
-                print("Announcements have already been made or invalid day.")
+                pass
 
     @commands.hybrid_command(name="testracedayannounce", description="testracedayannounce")
     @commands.is_owner()
@@ -526,38 +934,55 @@ class Stats(commands.Cog, name="stats"):
             role_mentions = " ".join([f"<@&{role_id}>" for role_id in roles])
             announcestr += role_mentions
             announcestr += "It's Wildcard Wednesday! stay tuned for futher information later on when we reveal what the surprise event is!"
+            leaguechannel = 1366786850760429671
         else:
             if type == "mx5":
+                leaguechannel = 1366724512632148028
                 roles.append(1117573512064946196)
                 roles.append(1117573763869978775)
+            elif type == "test":
+                leaguechannel = 1366724512632148028
+                roles.append(1320448907976638485)
             elif type == "gt3":
+                leaguechannel = 1366724548719804458
                 roles.append(1117573957634228327)
                 roles.append(1117574027645558888)
             elif type == "gt4":
+                leaguechannel = 1366782207238209548
                 roles.append(1358914901153681448)
                 roles.append(1358915346362531940)
             elif type == "formula":
+                leaguechannel = 1366755399566491718
                 roles.append(1358915606115651684)
                 roles.append(1358915647634936058)
-            elif type == "lmp":
-                roles.append(1358915131697926266)
-                roles.append(1358915529498427555)
             elif type == "worldtour":
+                leaguechannel = 1366757441768915034
                 roles.append(1117574229894901871)
+            isseason = await self.find_if_season_day()
+
             role_mentions = " ".join([f"<@&{role_id}>" for role_id in roles])
             announcestr += role_mentions
             announcestr += "It's raceday! check out : <#" + str(leaguechannel) + "> for more info!"
-        channel = self.bot.get_channel(1102816381348626462)
-        if channel is None:
+            if isseason:
+                announcestr += " This is a season race today!"
+            else:
+                announcestr += " This is NOT a season race today, it is an OPEN race!"
+        parent_channel = self.bot.get_channel(1102816381348626462)
+        if parent_channel is None:
             logger.info("No valid channel available to send the announcement.")
             return
-        await self.send_announcement(channel, announcestr)
+        await self.send_announcement(parent_channel, announcestr)
 
     async def send_announcement(self, channel: discord.TextChannel,  announcement):
         # 4) Attach the file + embed in a single send call
         await channel.send(announcement)
 
-
+    async def find_if_season_day(self):
+        for elem in self.parsed.championships.values():
+            for event in elem.schedule:
+                if event.date == date.today().isoformat():
+                    return True
+        return False
     
     def normalize_odds(self, odds, mean=1.5, std_dev=0.5):
         """
@@ -599,6 +1024,10 @@ class Stats(commands.Cog, name="stats"):
     @commands.hybrid_command(name="checksessions", description="checksessions")
     async def checksessions(self, ctx):
         await self.check_sessions()
+
+    @commands.hybrid_command(name="checkopenservers", description="checkopenservers")
+    async def checkopenservers(self, ctx):
+        await self.check_open_servers()
 
 
     @commands.hybrid_command(name="topratedtracks", description="Displays the top-rated tracks")
@@ -681,10 +1110,7 @@ class Stats(commands.Cog, name="stats"):
             await ctx.send(retstring)
 
     async def cog_before_invoke(self, ctx):
-        logger.info("before invoke")
         allowed_channels = ALLOWED_CHANNELS.get(ctx.command.name, ALLOWED_CHANNELS.get("global", []))
-        logger.info(f"channelid = {ctx.channel.id}")
-        logger.info(f"allowed_channels = {allowed_channels}")
         if allowed_channels and str(ctx.channel.id) not in allowed_channels:
             await ctx.send("This command cannot be used in this channel.")
             raise commands.CheckFailure
@@ -698,15 +1124,18 @@ class Stats(commands.Cog, name="stats"):
         for user_id in self.user_data:
             self.user_data[user_id]["spudcoins"] += 1
         self.save_user_data()
+
+    @tasks.loop(seconds=600.0)
+    async def check_open_races_task(self):
+        await self.check_open_servers()
     
     @tasks.loop(seconds=120.0)
     async def check_sessions_task(self):
         await self.check_sessions()
 
     async def announce_betting_event(self, track, car, odds_dict):
-        # Get the 'bot-testing' channel by name
-        
-        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+        print("announcing betting event")
+        channel = self.bot.get_channel(1328800009189195828)
 
         # Create an embed for the announcement
         embed = discord.Embed(
@@ -729,9 +1158,8 @@ class Stats(commands.Cog, name="stats"):
         await channel.send(embed=embed)
 
     async def announce_fake_betting_event(self, track, car, odds_dict, guidtonamedict, guidtoelodict):
-        # Get the 'bot-testing' channel by name
         
-        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+        channel = self.bot.get_channel(1328800009189195828)
 
         # Create an embed for the announcement
         embed = discord.Embed(
@@ -753,6 +1181,33 @@ class Stats(commands.Cog, name="stats"):
         # Send the embed to the channel
         await channel.send(embed=embed)
 
+    async def check_open_servers(self):
+        for server in self.servers:
+            data = await self.get_live_timing_data("regularcheck", server)
+            if not data:
+                continue
+            if data["Name"] == "Practice":
+                track = data["Track"]
+                if server == self.mx5naopenserver:
+                    if track != self.mx5openrace:
+                        print("updated mx5 open race track to " + track)
+                        self.mx5openrace = track
+                        await self.update_open_event(server,"mx5open", track)
+                elif server == self.gt3naopenserver:
+                    if track != self.gt3openrace:
+                        self.gt3openrace = track
+                        print("updated gt3 open race track to " + track)
+                        await self.update_open_event(server,"gt3open", track)
+                elif server == self.gt4naopenserver:
+                    if track != self.gt4openrace:
+                        self.gt4openrace = track
+                        print("updated gt4 open race track to " + track)
+                        await self.update_open_event(server,"gt4open", track)
+                elif server == self.formulanaopenserver:
+                    if track != self.formulaopenrace:
+                        self.formulaopenrace = track
+                        print("updated formula open race track to " + track)
+                        await self.update_open_event(server, "formulaopen", track)
 
 
     async def check_sessions(self):
@@ -761,7 +1216,7 @@ class Stats(commands.Cog, name="stats"):
         if ON_READY_FIRST_TIME_QUALY_SCAN:
             ON_READY_FIRST_TIME_QUALY_SCAN = False
             return
-        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+        channel = self.bot.get_channel(1328800009189195828)
         if self.currenteventbet:
             # Get the current time in UTC
             # Get the current time as a naive datetime
@@ -785,13 +1240,15 @@ class Stats(commands.Cog, name="stats"):
                 if not data:
                     continue
                 if data["Name"] == "Qualify":
-                    if server == self.testserver:
-                        continue
-                    if server == self.mx5naserver:
+                    print("qualy session")
+                    print("in server " + self.servertodirectory[server])
+                    if server == self.mx5nararserver:
                         continue
                     if data["ConnectedDrivers"] is None:
+                        print("connecteddrivers is none in server")
                         continue
                     if len(data["ConnectedDrivers"]) < 1:
+                        print("connecteddrivers is less than 1")
                         continue
                     racerguids = []
                     racer_data = {}
@@ -818,8 +1275,131 @@ class Stats(commands.Cog, name="stats"):
                     self.currenteventbet = newbetevent
                     logger.info("new event bet created for " + data["ServerName"] + " at " + data["Track"])
                     logger.info("odds are " + str(odds_dict))
+
+                    print("about to announce betting event")
                     await self.announce_betting_event(data["Track"], car, odds_dict)
                     self.save_current_event_bet()
+
+    def _to_discord_timestamp(self, dt: datetime, style: str = "f") -> str:
+        """Return a Discord timestamp tag <t:…:style>"""
+        return f"<t:{int(dt.timestamp())}:{style}>"
+    
+    def _next_slot(self,
+        now_utc: datetime,
+        target_weekday: int,       # 0=Mon,1=Tue,…,6=Sun
+        local_tz: ZoneInfo,
+        hour: int,
+        minute: int = 0
+    ) -> datetime:
+        """
+        Return the next datetime (in UTC) that falls on `target_weekday`
+        at local time `hour:minute` in `local_tz`.  If today is that weekday
+        but time has already passed, move 7 days ahead.
+        """
+        local_now = now_utc.astimezone(local_tz)
+        today     = local_now.date()
+        days_ahead = (target_weekday - local_now.weekday()) % 7
+        candidate_date = today + timedelta(days=days_ahead)
+        candidate_local = datetime.combine(candidate_date, dtime(hour, minute), tzinfo=local_tz)
+
+        if candidate_local <= local_now:
+            candidate_date += timedelta(days=7)
+            candidate_local = datetime.combine(candidate_date, dtime(hour, minute), tzinfo=local_tz)
+
+        return candidate_local.astimezone(timezone.utc)
+
+    async def update_open_event(self, server, event_type, track_id):
+        # 1. grab old message ID
+        msg_attr   = f"{event_type}racemessage"
+        old_msg_id = getattr(self, msg_attr, None)
+        # 2. find forum/thread
+        thread_id = self.servertoschedulethread[server]
+        forum_id  = self.servertoparentchannel[server]
+        forum = self.bot.get_channel(forum_id) \
+            or await self.bot.fetch_channel(forum_id)
+        thread = forum.get_thread(thread_id) \
+             or await self.bot.fetch_channel(thread_id)
+        if not thread:
+            print(f"Could not find forum/thread for {event_type} on {server}")
+            return
+
+        # 3. build page URL base
+        base_url     = server  # or map your server key to actual URL
+        page_url     = f"{base_url}/track/{track_id}"
+
+        # 4. scrape everything
+        download_url = championship._scrape_download_url(page_url)
+        image_paths  = championship.scrape_track_images(base_url, track_id)
+        track_name   = championship._scrape_track_name(base_url, track_id)
+        slot_map = {
+            "mx5open":    0,  # Monday
+            "gt4open":    1,  # Tuesday
+            "formulaopen":3,  # Thursday
+            "gt3open":    4,  # Friday
+        }
+        wd = slot_map[event_type]
+        now_utc = datetime.now(timezone.utc)
+        tz_eu   = ZoneInfo("Europe/London")
+        tz_na   = timezone(timedelta(hours=-6))  # CST
+
+        # compute next EU 19:00
+        next_eu_utc = self._next_slot(now_utc, wd, tz_eu, 19, 0)
+        # compute next NA 20:00
+        next_na_utc = self._next_slot(now_utc, wd, tz_na, 19, 0)
+
+        # build description with your helper
+        eu_ts = self._to_discord_timestamp(next_eu_utc, "f")
+        na_ts = self._to_discord_timestamp(next_na_utc, "f")
+
+        emb = discord.Embed(
+            title=f"🏁 Upcoming Open Race • {track_name}",
+            description=(
+                f"**EU session start**: {eu_ts}\n"
+                f"**NA session start**: {na_ts}"
+            ),
+            colour=discord.Colour.dark_teal()
+        )
+
+        # 7. download field (or fallback text)
+        if download_url:
+            emb.add_field(name="Download track", value=f"[Click here]({download_url})", inline=False)
+        else:
+            emb.add_field(
+                name="Download track",
+                value="Comes with the game; no download needed.",
+                inline=False
+            )
+        # 8. attach first image (if any)
+        file = None
+        if isinstance(image_paths, dict) and image_paths:
+            img = next(iter(image_paths.values()))
+            p   = Path(img)
+            if p.is_file():
+                file = discord.File(str(p), filename=p.name)
+                emb.set_image(url=f"attachment://{p.name}")
+
+        # 9. edit vs. send
+        if old_msg_id:
+            try:
+                prev = await thread.fetch_message(int(old_msg_id))
+                if file:
+                    await prev.edit(embed=emb, attachments=[file])
+                else:
+                    await prev.edit(embed=emb)
+                new_id = prev.id
+            except discord.NotFound:
+                fresh = await thread.send(embed=emb, file=file) if file else await thread.send(embed=emb)
+                new_id = fresh.id
+        else:
+            print("fresh message")
+            fresh  = await thread.send(embed=emb, file=file) if file else await thread.send(embed=emb)
+            new_id = fresh.id
+
+        # 10. persist
+        setattr(self, msg_attr, str(new_id))
+        print(self.mx5openrace)
+        self.save_open_race_data()
+
 
     def save_current_event_bet(self):
         if self.currenteventbet is None:
@@ -1001,7 +1581,9 @@ class Stats(commands.Cog, name="stats"):
             return
         if steam_guid:
             racer = self.parsed.racers[steam_guid]
+            print(racer.name)
             mostrecentdict = self.parsed.get_summary_last_races(racer, num)
+
             # Create an embed
             embed = discord.Embed(title="Last Races Summary", description=f"Summary for the last {num} races")
 
@@ -1224,9 +1806,17 @@ class Stats(commands.Cog, name="stats"):
     async def forcerefreshalldata(self, ctx):
         logger.info("force refreshing all data")
         await ctx.defer()
-        self.parsed.refresh_all_data()
+        await _run_blocking(self.parsed.refresh_all_data) 
         await ctx.send("Finished processing results")
 
+    @commands.hybrid_command(name="testdeserialization", description="testdeserialization")
+    @commands.is_owner()
+    async def testdeserialization(self, ctx):
+        steam_guid = self.get_steam_guid(ctx, None)
+        racer = self.parsed.racers[steam_guid]
+        if racer:
+            print(racer.name)
+            print(str(len(racer.entries)))
 
 
     async def votefortrack(self, ctx=None, track_override=None, channel: discord.TextChannel = None):
@@ -1353,14 +1943,12 @@ class Stats(commands.Cog, name="stats"):
     async def check_one_server_for_results(self, server, query):
         user_agent = "https://github.com/JanuarySnow/RRR-Bot"
         headers = {"User-Agent": user_agent}
-        logger.info("checking for results on " + server)
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(query, headers=headers) as request:
                     if request.status == 200:
                         data = await request.json(content_type='application/json')
                         if data["results"] is None:
-                            logger.info("no results found")
                             return None
                         data["results"].sort(key=lambda elem: datetime.fromisoformat(elem["date"]), reverse=True)
 
@@ -1372,7 +1960,6 @@ class Stats(commands.Cog, name="stats"):
 
                             # Only add to the download queue if the file doesn't already exist
                             if filename in self.blacklist:
-                                logger.info("skipping + " + filename + " due to blacklist")
                                 continue
                             if not self.file_exists_in_results(filename):
                                 self.download_queue.append((server, download_url))
@@ -1474,60 +2061,83 @@ class Stats(commands.Cog, name="stats"):
     async def forcetimedtask(self, ctx):
         await self.fetch_results_list()
 
-    async def vote_for_track_results(self, files):
+    @commands.hybrid_command(name='forcetimedtaskdelayed', description="force timed task")
+    async def forcetimedtaskdelayed(self, ctx):
+        await self.fetch_results_list_delayed()
+
+    async def vote_for_track_results(self, numdone):
         logger.info("starting vote for track results")
-        tracks = []
-        for newfile in files:
-            file = newfile[0]
-            with open(file, 'r') as json_file:
-                data = json.load(json_file)
-                baseid = data["TrackName"]
-                if "TrackConfig" in data and data["TrackConfig"] != "":
-                    # This is a variant.
-                    trackconfig = data["TrackConfig"]
-                    combinedid = baseid + ";" + trackconfig
-                    if combinedid in self.parsed.usedtracks:
-                        trackvariant = self.parsed.usedtracks[combinedid]
-                    else:
-                        trackvariant = self.parsed.contentdata.get_track(combinedid)
-                        if trackvariant is None:
-                            logger.info("Track variant not found")
-                            continue
-                    if trackvariant not in tracks:
-                        tracks.append(trackvariant)
-                else:
-                    # This is a track without a variant ID.
-                    combinedid = baseid + ";" + baseid
-                    if combinedid in self.parsed.usedtracks:
-                        trackobj = self.parsed.usedtracks[combinedid]
-                        if trackobj not in tracks:
-                            tracks.append(trackobj)
-        # Replace with your default channel ID
-        default_channel = self.bot.get_channel(1085906626852163636)
-        # Replace with your default channel ID
-
-        # Send an introductory message in the channel
-        await default_channel.send("Please vote for the track that was just used in the race!")
-
-        for track in tracks:
-            trackobj = track.parent_track
+        last_x_elements = self.parsed.raceresults[-numdone:]
+        last_track = None
+        for result in last_x_elements:
+            if last_track == result.track:
+                continue
+            last_track = result.track
+            trackobj = result.track.parent_track
             logger.info("voting for track " + trackobj.highest_priority_name)
+            default_channel = self.bot.get_channel(1085906626852163636)
             await self.votefortrack(ctx=None, track_override=trackobj, channel=default_channel)
             await asyncio.sleep(5)
-            
 
-    @tasks.loop(seconds=6000.0)
-    async def fetch_results_list(self):
-        global ON_READY_FIRST_TIME_SCAN
-        if ON_READY_FIRST_TIME_SCAN:
-            ON_READY_FIRST_TIME_SCAN = False
-            return
-        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
-        logger.info("starting fetch")
+
+    async def post_results(self, numdone):
+        last_x_elements = self.parsed.raceresults[-numdone:]
+        channel_id = 1328800009189195828  # Your target channel
+
+        for result in last_x_elements:
+            server = result.server
+            parentchannel = self.servertoparentchannel[server]
+            announcethread = self.servertoresultsthread[server]
+            serverdirectory = self.servertodirectory[server]
+            series_name = self.servertoseriesname[server]
+            winner_name = result.entries[0].racer.name if result.entries else None
+            
+            iso_timestamp = result.date
+            dt = datetime.strptime(iso_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+
+            formatted_date = dt.strftime("%m/%d/%Y %H:%M")  # Now includes HH:MM
+
+            # Properly encode the result URL
+            encoded_url = quote(result.url, safe='')
+            simresultsurl = f"http://simresults.net/remote?result={encoded_url}"
+            trackname = result.track.parent_track.highest_priority_name
+
+            # Create embed with additional details
+            embed = discord.Embed(
+                title=f"🏎️ Race Results for : {trackname}",
+                description=f"📅 **Date:** {formatted_date}\n🔗 [View Full Results]({simresultsurl})",
+                color=discord.Color.gold()
+            )
+            winnerguid = None
+            winnerdiscordid = None
+            if winner_name:
+                winnerguid = result.entries[0].racer.guid
+                for key in self.user_data:
+                    guid = self.user_data[key]["guid"]
+                    if guid == winnerguid:
+                        winnerdiscordid = key
+                        break
+            if winner_name and winnerdiscordid:
+                winner_name = f"<@{winnerdiscordid}>"
+            embed.add_field(name="🏆 Winner", value=winner_name, inline=False)
+            embed.add_field(name="🏁 Series", value=series_name, inline=False)
+
+            # Send the embed
+            parent_channel = self.bot.get_channel(parentchannel)  # Get the parent forum channel
+            thread = parent_channel.get_thread(announcethread) if parent_channel else None
+            if thread is None:
+                logger.info("No valid channel available to send the announcement.")
+                return
+            await thread.send(embed=embed)
+            
+    async def fetch_results_list_delayed(self):
+        numdone = 0
+        channel = self.bot.get_channel(1328800009189195828)
         async with channel.typing():
-            for server in self.servers:
+            
+            serverstocheck = self.servers
+            for server in serverstocheck:
                 query = server + "/api/results/list.json?q=Type:\"RACE\"&sort=date&page=0"
-                logger.info("query for server = " + query)
                 await self.check_one_server_for_results(server,query)
             await self.download_files_from_queue()
         if len(self.justadded) == 0:
@@ -1537,11 +2147,68 @@ class Stats(commands.Cog, name="stats"):
                 await channel.send("Added " + elem[0] + " from server " + elem[1])
             async with channel.typing():
                 for elem in self.justadded:
-                    await self.parsed.add_one_result(elem[0], os.path.basename(elem[0]), elem[1] )
+                    await self.parsed.add_one_result(elem[0], os.path.basename(elem[0]), elem[1], elem[1] + "/results/download/" + os.path.basename(elem[0]))
+                    numdone += 1
                     await asyncio.sleep(3)
+                await self.update_standings_internal()
+                await self.serializeall_internal()
             await channel.send("All results have been processed and data has been refreshed")
+            await self.post_results(numdone)
             await self.create_results_images(self.justadded)
-            await self.vote_for_track_results(self.justadded)
+            self.justadded.clear()
+        await self.process_bet_results()
+
+    @tasks.loop(seconds=600.0)
+    async def fetch_results_list(self):
+        numdone = 0
+        global ON_READY_FIRST_TIME_SCAN
+        if ON_READY_FIRST_TIME_SCAN:
+            ON_READY_FIRST_TIME_SCAN = False
+            return
+        channel = self.bot.get_channel(1328800009189195828)
+        async with channel.typing():
+            us_timezone = pytz.timezone("America/New_York")
+
+            # Get the current time in the US timezone
+            current_time_us = datetime.now(us_timezone)
+
+            # Get the current day
+            current_day = current_time_us.strftime("%A")
+            serverstocheck = []
+            if current_day == "Monday":
+                serverstocheck = [self.mx5euopenserver, self.mx5naopenserver, self.mx5eurrrserver, self.mx5narrrserver, self.mx5nararserver]
+            elif current_day == "Tuesday":
+                serverstocheck = [self.gt4euopenserver, self.gt4naopenserver]
+            elif current_day == "Wednesday":
+                return
+            elif current_day == "Thursday":
+                serverstocheck = [self.formulaeuopenserver, self.formulanaopenserver, self.formulanararserver]
+            elif current_day == "Friday":
+                serverstocheck = [self.gt3euopenserver, self.gt3eurrrserver, self.gt3naopenserver, self.gt3narrrserver]
+            elif current_day == "Saturday":
+                serverstocheck = [self.worldtourserver]
+            else:
+                print("Error: Invalid weekday detected.")
+            for server in serverstocheck:
+                query = server + "/api/results/list.json?q=Type:\"RACE\"&sort=date&page=0"
+                await self.check_one_server_for_results(server,query)
+            await self.download_files_from_queue()
+        if len(self.justadded) == 0:
+            pass
+        else:
+            for elem in self.justadded:
+                await channel.send("Added " + elem[0] + " from server " + elem[1])
+            async with channel.typing():
+                for elem in self.justadded:
+                    await self.parsed.add_one_result(elem[0], os.path.basename(elem[0]), elem[1], elem[1] + "/results/download/" + os.path.basename(elem[0]))
+                    numdone += 1
+                    await asyncio.sleep(3)
+                await self.update_standings_internal()
+                await self.serializeall_internal()
+            await channel.send("All results have been processed and data has been refreshed")
+            await self.post_results(numdone)
+            await self.create_results_images(self.justadded)
+            await self.vote_for_track_results(numdone)
             self.justadded.clear()
         await self.process_bet_results()
 
@@ -1549,12 +2216,12 @@ class Stats(commands.Cog, name="stats"):
     async def checkforbetresults(self, ctx):
         await self.process_bet_results()
 
+            
 
     async def process_bet_results(self):
         global ALREADY_BETTING_CLOSED
-        channel = discord.utils.get(self.bot.get_all_channels(), name="bot-testing")
+        channel = self.bot.get_channel(1328800009189195828)
         if self.currenteventbet is None:
-            logger.info("No current event bet found.")
             return
         logger.info("processing bet results")
         # Get the current time with timezone information (UTC)
@@ -1772,6 +2439,41 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam GUID to your Discord name.')
 
+    @commands.hybrid_command(name="makeresultsimage",description="makeresultsimage")
+    async def cmd_results(
+        self,
+        ctx: commands.Context) -> None:
+        """Generate an image from an ACC JSON result file.
+
+        **Required**
+        • `json_file`  – The race result JSON attachment.
+
+        **Optional**
+        • `template`   – PNG/JPG background to draw on (defaults to first PNG in /templates).
+        • `preset`     – Name of a saved JSON preset in /presets (without extension).
+        • `custom_text`– Extra headline text placed per preset coords.
+        • `track_text` – Override the auto‑detected track name.
+        """
+        await ctx.typing()
+
+        # ------------------------------------------------------------------ #
+        #                           save attachments                         #
+        # ------------------------------------------------------------------ #
+        json_path = Path("/share/RRR-Bot/RRR-Bot/results/formulanarar/2025_5_16_2_56_RACE.json")
+        
+
+        # ------------------------------------------------------------------ #
+        #                      merge JSON + template → image                 #
+        # ------------------------------------------------------------------ #
+        try:
+            output_path = await asyncio.to_thread(
+                self._generate_image,json_path)
+        except Exception as e:
+            return await ctx.send(f"❌ Failed to generate image: `{e}`")
+
+        # ------------------------------------------------------------------ #
+        await ctx.send(file=discord.File(fp=output_path, filename=output_path.name))
+
 
     @commands.hybrid_command(name='top10mx5pace', description="get MX5 pace top 10 rankings")
     async def top10mx5pace(self, ctx):
@@ -1790,296 +2492,236 @@ class Stats(commands.Cog, name="stats"):
 
         await ctx.send(embed=embed)
 
+    def _load_preset(self, name: str | None) -> Dict[str, Any]:
+        if not name:
+            return {}
+        preset_file = self.dir_presets / f"{name}.json"
+        if not preset_file.exists():
+            raise FileNotFoundError(f"Preset '{name}' not found.")
+        with open(preset_file, "r", encoding="utf‑8") as fp:
+            return json.load(fp)
 
-    async def create_results_images(self, files):
-        
-        for file in files:
-            await self.create_results_image(file)
+    def _generate_image(
+        self,json_path: Path):
+        # ------------------------ settings merge ------------------------- #
+        settings = self.default_settings.copy()
+        settings.update(self._load_preset("VERTICAL"))
 
-    @commands.hybrid_command(name='resultsimagetest', description="resultsimagetest")
-    async def resultsimagetest(self, ctx):
-        # Replace with the actual path to your JSON file
-        test_file = "results/euopenmx5/2025_4_7_19_42_RACE.json"
-        await self.create_results_image(test_file)
+        # ------------------ read race JSON + detect track ---------------- #
+        with open(json_path, "r", encoding="utf‑8") as f:
+            data = json.load(f)
 
+        event_name = data.get("EventName", "Unknown Track")
 
-    async def create_results_image(self, newfile):
-        file = newfile[0]
-        x_name = 150
-        y_start = 275
-        line_spacing = 50
-        logo_offset_x = 448
-        logo_offset_y = 3
-        logo_fixed_x = 500
-        logo_size = 65
-        track_x = 30
-        track_y = 70
-        track_size = 28
-        font_size = 64
-        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        main_font_path = "/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
-        track_font_path="/share/RRR-Bot/RRR-Bot/fonts/Microgramma D Extended Bold.ttf"
-        time_font_path="/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Regular.ttf"
-        date_font_path= "/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
-
-    
-
-        # Load values from JSON
-        try:
-            with open('VERTICAL.json', 'r') as json_file:
-                json_data = json.load(json_file)
-
-                # Update variables with the values from the JSON
-                x_name = json_data.get("x_name", x_name)  # Fallback to default if key is missing
-                y_start = json_data.get("y_start", y_start)
-                line_spacing = json_data.get("line_spacing", line_spacing)
-                logo_offset_x = json_data.get("logo_offset_x", logo_offset_x)
-                logo_offset_y = json_data.get("logo_offset_y", logo_offset_y)
-                logo_fixed_x = json_data.get("logo_fixed_x", logo_fixed_x)
-                logo_size = json_data.get("logo_size", logo_size)
-                track_x = json_data.get("track_x", track_x)
-                track_y = json_data.get("track_y", track_y)
-                track_size = json_data.get("track_size", track_size)
-                font_size = json_data.get("font_size", font_size)
-
-        except FileNotFoundError:
-            logger.info("JSON file not found. Using default values.")
-        except json.JSONDecodeError:
-            logger.info("Error decoding JSON. Using default values.")
-
-        # Debug: logger.info loaded variables
-        logger.info(f"x_name: {x_name}, y_start: {y_start}, line_spacing: {line_spacing}")
-        logger.info(f"logo_offset_x: {logo_offset_x}, logo_offset_y: {logo_offset_y}")
-        logger.info(f"logo_fixed_x: {logo_fixed_x}, logo_size: {logo_size}")
-        logger.info(f"track_x: {track_x}, track_y: {track_y}, track_size: {track_size}")
-
-        output_dir="output"
-        data = None
-        with open(file, 'r') as json_file:
-            data = json.load(json_file)
-        resultobj = self.parsed.get_result_by_date(data.get("Date"))
-        if resultobj is None:
-            logger.info("resultobj is None")
-            return
-        track = resultobj.track.parent_track
-        track_name = track.highest_priority_name if track else None
-        templatepath = None
-        
-        if resultobj.mx5orgt3 == "mx5":
-            templatepath = "templates/MiataSeriesSocialTemplate_Vert.png"
-        elif resultobj.mx5orgt3 == "gt3":
-            templatepath = "templates/GT3SocialTemplate_Vert.png"
-        image = Image.open(templatepath).convert("RGBA")
-        # Try to load fonts (fallback to default if not found)
-        # Ensure output directory exists
-        os.makedirs(output_dir, exist_ok=True)
-
-        # Attempt to open the template
-        if not os.path.isfile(templatepath):
-            raise FileNotFoundError(f"Template image not found: {templatepath}")
-
-        # Attempt to load the template as RGBA
-        image = Image.open(templatepath).convert("RGBA")
-        draw = ImageDraw.Draw(image)
-
-        # Try to load fonts (fallback to default if not found)
-        try:
-            main_font = ImageFont.truetype(main_font_path, size=font_size)
-            logger.info(f"Successfully loaded {main_font_path} with size={font_size}")
-        except Exception as e:
-            logger.info(f"Failed loading {main_font_path}: {e}")
-            main_font = ImageFont.load_default()
-
-        try:
-            track_font = ImageFont.truetype(track_font_path, size=track_size)
-        except:
-            track_font = ImageFont.load_default()
-
-        try:
-            time_font = ImageFont.truetype(time_font_path, size=26)
-        except:
-            time_font = ImageFont.load_default()
-
-        try:
-            date_font = ImageFont.truetype(date_font_path, size=24)
-        except:
-            date_font = ImageFont.load_default()
-
-        # Optionally draw the track name:
-        if track_name:
-            draw.text((track_x, track_y), track_name, font=track_font, fill="white")
-
-        # Sort driver results in the same way your code does
+        # ----------------------- sort driver info ----------------------- #
         results = data.get("Result", [])
         sorted_results = sorted(
             results,
             key=lambda x: (
                 x.get("Disqualified", False),
                 -x.get("NumLaps", 0),
-                float(x.get("TotalTime", float("inf")))
-            )
+                float(x.get("TotalTime", float("inf"))),
+            ),
         )
-
-        # Build a GUID -> nation map if needed
-        guid_to_nation = {}
+        if len(sorted_results) == 0:
+            print("empty result in generate results image")
+            return
+        # GUID → Nation map (so we can draw correct flag)
+        guid_to_nation: Dict[str, str] = {}
         for car in data.get("Cars", []):
             guid = car.get("Driver", {}).get("Guid", "")
             nation = car.get("Driver", {}).get("Nation", "")
             if guid:
                 guid_to_nation[guid] = nation
 
-        # Build driver display data
-        driver_data = []
-        for r in sorted_results:
-            driver_data.append({
+        driver_data = [
+            {
                 "DriverName": r["DriverName"],
                 "GridPosition": r.get("GridPosition", 0),
                 "CarModel": r["CarModel"],
-                "Nation": guid_to_nation.get(r.get("DriverGuid", ""), "")
-            })
+                "Nation": guid_to_nation.get(r.get("DriverGuid", ""), ""),
+            }
+            for r in sorted_results
+        ]
+        templatedict = {
+            "gt3" : "/share/RRR-Bot/RRR-Bot/templates/GT3_TEMP.png",
+            "mx5" : "/share/RRR-Bot/RRR-Bot/templates/MX5_TEMP.png",
+            "gt4" : "/share/RRR-Bot/RRR-Bot/templates/GT3_TEMP.png",
+            "formula" : "/share/RRR-Bot/RRR-Bot/templates/F3_TEMP.png",
+            "other" : "/share/RRR-Bot/RRR-Bot/templates/NORMAL_TEMP.png",
+        }
+        for item in driver_data:
+            carmodel = item["CarModel"]
+            print("carmodel = " + carmodel)
+            if carmodel == "amr_v8_vantage_gt3_sprint_acc":
+                template_path = templatedict["gt3"]
+            elif carmodel in gt3ids:
+                template_path = templatedict["gt3"]
+            elif carmodel == "ks_mazda_mx5_cup":
+                template_path = templatedict["mx5"]
+            elif carmodel in gt4ids:
+                template_path = templatedict["gt3"]
+            elif carmodel in formulaids:
+                template_path = templatedict["formula"]
+            else:
+                template_path = templatedict["other"]
 
-        # Draw each driver line
-        y_cursor = y_start
+        # ------------------------- load template ------------------------ #
+        image = Image.open(template_path).convert("RGBA")
+        draw = ImageDraw.Draw(image)
 
-        leader_time = None  # for calculating time gap
+
+        main_font_path = "/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
+        track_font_path="/share/RRR-Bot/RRR-Bot/fonts/Microgramma D Extended Bold.ttf"
+        time_font_path="/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Regular.ttf"
+        font_arrow_path= "/share/RRR-Bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
+
+        try:
+            font_main = ImageFont.truetype(main_font_path, size=settings["font_size"])
+            logger.info(f"Successfully loaded {main_font_path} with size={settings["font_size"]}")
+        except Exception as e:
+            logger.info(f"Failed loading {main_font_path}: {e}")
+            font_main = ImageFont.load_default()
+
+        try:
+            font_track = ImageFont.truetype(track_font_path, size=settings["font_size"] * 1.4)
+        except:
+            font_track = ImageFont.load_default()
+
+        try:
+            font_time = ImageFont.truetype(time_font_path, size=20)
+        except:
+            font_time = ImageFont.load_default()
+
+        try:
+            font_arrow = ImageFont.truetype(font_arrow_path, size=20)
+        except:
+            font_arrow = ImageFont.load_default()
+        # --------------------------- draw track ------------------------- #
+        draw.text(
+            (30, 70),
+            event_name,
+            font=font_track,
+            fill="white",
+        )
+
+        # -------------------------- driver list ------------------------- #
+        y = settings["y_start"]
         for index, item in enumerate(driver_data):
-            # Draw the driver name
-            draw.text((x_name, y_cursor), item["DriverName"], font=main_font, fill="white")
+            # names
+            draw.text((settings["x_name"], y), item["DriverName"], font=font_main, fill="white")
 
-            # Figure out the time or gap
+            # timing column
             total_time_ms = sorted_results[index].get("TotalTime", 0)
             num_laps = sorted_results[index].get("NumLaps", 0)
-            max_laps = sorted_results[0].get("NumLaps", 0) if sorted_results else 0
-            dnf = (num_laps < max_laps - 2)
+            max_laps = sorted_results[0].get("NumLaps", 0)
+            dnf = num_laps < max_laps - 2
 
             if dnf:
                 time_text = "DNF"
-            else:
-                if index == 0:
-                    leader_time = total_time_ms
-                    # Format minutes:seconds.milliseconds
-                    time_text = datetime.utcfromtimestamp(total_time_ms / 1000).strftime("%M:%S.%f")[:-3]
+            elif index == 0:
+                leader_time = total_time_ms
+                if total_time_ms >= 60_000:
+                    time_text = datetime.utcfromtimestamp(total_time_ms / 1_000).strftime("%M:%S.%f")[:-3]
                 else:
-                    if leader_time is not None:
-                        gap_seconds = (total_time_ms - leader_time) / 1000
-                        time_text = f"+ {gap_seconds:.3f}"
-                    else:
-                        time_text = "N/A"
-
-            # Position to draw total time or gap
-            time_x = 710
-            draw.text((time_x, y_cursor), time_text, font=time_font, fill="white")
-
-            # Position change arrow
-            position_change = (index + 1) - item.get("GridPosition", 0)
-            arrow = "→"
-            color = "white"
-            if position_change > 0:
-                arrow = f"↓{abs(position_change)}"
-                color = "red"
-            elif position_change < 0:
-                arrow = f"↑{abs(position_change)}"
-                color = "lime"
-
-            arrow_x = x_name + 500  # example: position to the right
-            draw.text((arrow_x, y_cursor), arrow, font=main_font, fill=color)
-
-            # Nation flags
-            nation_code_3 = item.get("Nation", "").upper()
-            nation_code = nation_code_3 or "TS"  # Fallback if no nation code
-            # We'll look in "flags" folder for something like "GER.png" or "GER.jpg"
-            flag_file = None
-            for f in os.listdir("flags"):
-                # If a file's name (minus extension) equals e.g. "GER" in uppercase
-                if os.path.splitext(f)[0].upper() == nation_code:
-                    flag_file = os.path.join("flags", f)
-                    break
-
-            if flag_file and os.path.isfile(flag_file):
-                flag_img = Image.open(flag_file).convert("RGBA")
-                flag_img = ImageOps.contain(flag_img, (40, 30))
-                flag_x = x_name + main_font.getlength(item["DriverName"]) + 10
-                flag_y = y_cursor + (main_font.size - flag_img.height) // 2
-                image.paste(flag_img, (int(flag_x), int(flag_y)), flag_img)
-
-            # Logos
-            model_name = item["CarModel"].lower()
-            logo_files_no_ext = [
-                os.path.splitext(f)[0].lower()
-                for f in os.listdir("logos")
-                if f.lower().endswith((".png", ".jpg", ".jpeg"))
-            ]
-            model_parts = model_name.split('_')
-
-            # Try to find best match among brand names
-            brand_guess = None
-            for part in model_parts:
-                match = difflib.get_close_matches(part, logo_files_no_ext, n=1, cutoff=0.7)
-                if match:
-                    brand_guess = match[0]
-                    break
-
-            if not brand_guess:
-                # fallback: just pick the first chunk or something
-                brand_guess = model_parts[0] if model_parts else "car"
-
-            # Now see if we actually have a file that matches brand_guess
-            matched_logo_path = None
-            for f in os.listdir("logos"):
-                if os.path.splitext(f)[0].lower() == brand_guess.lower():
-                    matched_logo_path = os.path.join("logos", f)
-                    break
-
-            if matched_logo_path:
-                try:
-                    logo_img = Image.open(matched_logo_path).convert("RGBA")
-                    logo_img = ImageOps.contain(logo_img, (logo_size, logo_size))
-                    logo_x_pos = logo_fixed_x + logo_offset_x
-                    logo_y_pos = y_cursor + logo_offset_y
-                    image.paste(logo_img, (logo_x_pos, logo_y_pos), logo_img)
-                except:
-                    # If there's an error reading the logo or something
-                    pass
+                    time_text = f"{total_time_ms / 1_000:.3f}"
             else:
-                # If no exact match for a logo image, just write the brand guess as text
-                fallback_x = logo_fixed_x + logo_offset_x
-                fallback_y = y_cursor + logo_offset_y
-                draw.text((fallback_x, fallback_y), brand_guess.upper(), font=main_font, fill="white")
+                if num_laps < max_laps:
+                    time_text = "+1 Lap"
+                else:
+                    gap_seconds = (total_time_ms - leader_time) / 1_000
+                    time_text = f"+ {gap_seconds:.3f}"
 
-            y_cursor += line_spacing
+            draw.text((775, y + 3), time_text, font=font_time, fill="white")
 
-        # Draw the date if present
-        date_text = None
-        timestamp_str = data.get("Date") or data.get("date") or None
-        # If there's no "Date" key, you could check others:
-        if not timestamp_str:
-            # fallback to scanning keys
-            for k in data.keys():
-                if 'date' in k.lower() or 'time' in k.lower():
-                    timestamp_str = data.get(k)
-                    break
+            # position change arrow/number (skipped for DNF)
+            if not dnf:
+                delta = (index + 1) - item.get("GridPosition", 0)
+                if delta > 0:
+                    arrow, colour = f"▼ {abs(delta)}", "red"
+                elif delta < 0:
+                    arrow, colour = f"▲ {abs(delta)}", "lime"
+                else:
+                    arrow, colour = "-", "white"
+                draw.text((settings["x_name"] + 500, y + 5), arrow[0], font=font_arrow, fill=colour)
+                draw.text((settings["x_name"] + 515, y + 1), arrow[1:], font=font_main, fill=colour)
 
-        if timestamp_str:
+            # national flag (fallback to TS.png if not found)
+            nation_code = (item.get("Nation", "") or "TS").upper()
+            flag_path = next(
+                (
+                    f
+                    for f in self.dir_flags.glob("*.png")
+                    if f.stem.upper() == nation_code
+                ),
+                self.dir_flags / "TS.png",
+            )
+            flag = Image.open(flag_path).convert("RGBA")
+            flag = ImageOps.contain(flag, (40, 40))
+            flag_y = y + (font_main.size - flag.height) // 2 + 8
+            image.paste(flag, (90, flag_y), flag)
+
+            # manufacturer logo
+            model = item["CarModel"].lower()
+            logo_files = [f.stem.lower() for f in self.dir_logos.glob("*.png")]
+            guess_brand = next(
+                (
+                    match
+                    for part in model.split("_")
+                    for match in difflib.get_close_matches(part, logo_files, n=1, cutoff=0.7)
+                ),
+                model.split("_")[0],
+            )
             try:
-                dt = datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
-                date_text = dt.strftime("%B %d, %Y")
-            except:
-                # If it’s not in ISO format, just use raw
-                date_text = str(timestamp_str)
-        else:
-            date_text = "Unknown Date"
+                logo_path = next(
+                    p for p in self.dir_logos.glob("*.png") if p.stem.lower() == guess_brand.lower()
+                )
+                logo = Image.open(logo_path).convert("RGBA")
+                logo = ImageOps.contain(logo, (settings["logo_size"], settings["logo_size"]))
+                image.paste(
+                    logo,
+                    (settings["logo_fixed_x"] + settings["logo_offset_x"], y + settings["logo_offset_y"]),
+                    logo,
+                )
+            except StopIteration:
+                draw.text(
+                    (
+                        settings["logo_fixed_x"] + settings["logo_offset_x"],
+                        y + settings["logo_offset_y"],
+                    ),
+                    guess_brand.upper(),
+                    font=font_main,
+                    fill="white",
+                )
 
-        # Draw the date near the bottom
-        draw.text((30, image.height - 50), date_text, font=date_font, fill="white")
+            y += settings["line_spacing"]
 
-        # Save the image
-        filename_safe = f"{track_name}_{date_text}".replace(" ", "_").replace(",", "").lower()
-        output_path = os.path.join(output_dir, f"{filename_safe}.png")
-        image.save(output_path)
-        logger.info(f"Image saved to {output_path}")
-        await self.send_results(self.bot.get_channel(1328800009189195828), output_path)
 
-    async def send_results(self, channel: discord.TextChannel, final_image_path: str):
+        # --------------------------- date stamp ------------------------- #
+        timestamp_str = data.get("Date") or next(
+            (data.get(k) for k in data if "date" in k.lower() or "time" in k.lower()),
+            None,
+        )
+        try:
+            dt = datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+            date_text = dt.strftime("%B %d, %Y")
+        except Exception:
+            date_text = timestamp_str or "Unknown Date"
+        draw.text((60, image.height - 36), date_text, font=font_arrow, fill="white")
+
+        #---------------------------- event name ------------------------- #
+        folder = Path(json_path).parent.name  
+        series_name = self.directory_to_series.get(folder, "Unknown Series")
+        draw.text((image.width - 330, image.height - 36), series_name, font=font_arrow, fill="white")
+        # ----------------------------- save ----------------------------- #
+        filename_safe = f"{event_name}_{date_text}".replace(" ", "_").replace(",", "").lower()
+        out_path = self.dir_output / f"{filename_safe}.png"
+        image.save(out_path)
+        self.send_results(str(out_path), folder)
+        return out_path
+    
+
+    async def send_results(self, final_image_path: str, folder: Path) -> None:
         """
         Sends the results image as an attachment with an embed message.
         """
@@ -2089,7 +2731,7 @@ class Stats(commands.Cog, name="stats"):
             description="Check out the attached image above!.",
             color=0x00FF00  # (Optional) pick some color
         )
-        
+        announcechannel = self.bot.get_channel(1102816381348626462)
         # 2) You can add fields, footers, or any other embed info if desired:
         # embed.add_field(name="Some Field", value="Value")
         # embed.set_footer(text="Powered by MyRaceBot")
@@ -2098,13 +2740,43 @@ class Stats(commands.Cog, name="stats"):
         race_image = discord.File(final_image_path, filename="race_results.png")
 
         # 4) Attach the file + embed in a single send call
-        await channel.send(
+        await announcechannel.send(
+            embed=embed,
+            file=race_image
+        )
+        for key,value in self.servertodirectory.items():
+            if value == folder:
+                server = key
+        if not server:
+            return
+
+        #now for the results thread too
+        parentchannel = self.servertoparentchannel[server]
+        announcethread = self.servertoresultsthread[server]
+        thread = parentchannel.get_thread(announcethread) if parentchannel else None
+        if thread is None:
+            logger.info("No valid channel available to send the announcement.")
+            return
+        await thread.send(
             embed=embed,
             file=race_image
         )
 
+        # 5) Optionally, you can delete the image file after sending
+        if os.path.exists(final_image_path):
+            os.remove(final_image_path)
 
 
+    async def create_results_images(self, files):   
+        for file in files:
+            try:
+                output_path = await asyncio.to_thread(
+                    self._generate_image,
+                    json_path=file,
+                )
+            except Exception as e:
+                print(f"❌ Failed to generate image: `{e}`")
+                return
 
 
     @commands.hybrid_command(name='richest', description="Top 10 Racers with Most Spudcoins")
@@ -2349,6 +3021,41 @@ class Stats(commands.Cog, name="stats"):
                         value=f"⏱️ {minutes}:{seconds:06.3f}",
                         inline=False
                     )
+            avg_mx5 = elem.get_average_lap_in_mx5(guid)
+            if avg_mx5 is not None:
+                total_s = avg_mx5 / 1000.0
+                m = int(total_s // 60)
+                s = total_s % 60
+                if guid:
+                    embed.add_field(
+                        name=f"{self.parsed.racers[guid].name}'s average MX-5 lap at {elem.name}",
+                        value=f"⏱️ {m}:{s:06.3f}",
+                        inline=False
+                    )
+                else:
+                    embed.add_field(
+                        name=f"overall average MX-5 lap at {elem.name}",
+                        value=f"⏱️ {m}:{s:06.3f}",
+                        inline=False
+                    )
+
+            avg_gt3 = elem.get_average_lap_in_gt3(guid)
+            if avg_gt3 is not None:
+                total_s = avg_gt3 / 1000.0
+                m = int(total_s // 60)
+                s = total_s % 60
+                if guid:
+                    embed.add_field(
+                        name=f"{self.parsed.racers[guid].name}'s average GT3 lap at {elem.name}",
+                        value=f"⏱️ {m}:{s:06.3f}",
+                        inline=False
+                    )
+                else:
+                    embed.add_field(
+                        name=f"overall average GT3 lap at {elem.name}",
+                        value=f"⏱️ {m}:{s:06.3f}",
+                        inline=False
+                    )
 
         return embed
 
@@ -2534,11 +3241,419 @@ class Stats(commands.Cog, name="stats"):
         else:
             await ctx.send("ERROR: Overall results have not been parsed yet")
 
+    def car_embed(self, champ) -> Tuple[discord.Embed, List[discord.File]]:
+        """
+        Overview embed for a championship.
+
+        • Lists every car, each with its download-URL and a short spec line
+        (Power / Weight if available).
+        • Shows preview images for **up to four** cars. If there are more
+        than four cars → no images at all.
+        • Returns (embed, [files…]) so the caller can send:
+            embed, files = car_embed(champ)
+            await thread.send(embed=embed, files=files)
+        """
+        cars      = champ.available_cars
+        print("size ofa vaialble cars = " + str(len(cars)))
+        first_evt = min(champ.schedule, key=lambda ev: ev.date)
+
+        # ─── build description ─────────────────────────────────────────────
+        desc_lines: list[str] = []
+        for c in cars:
+            dl_url = champ.car_download_links.get(c.id)
+            dl = f"[Download]({dl_url})" if dl_url else "—"
+            print("download link = " + dl)
+            specs = []
+            if c.specs:
+                if bhp := c.specs.get("bhp"):
+                    specs.append(f"{bhp} hp")
+                if w := c.specs.get("weight"):
+                    specs.append(f"{w} kg")
+            specs_str = " • ".join(specs)
+            line = f"• **{c.name}** — {dl}"
+            if specs_str:
+                line += f"  ({specs_str})"
+            desc_lines.append(line)
+
+        # strip leading EU/NA from the championship name
+        display_name = re.sub(r'^\s*(EU|NA)\s+', '', champ.name, flags=re.IGNORECASE)
+
+        emb = discord.Embed(
+            title       = f"🏁 {display_name}",
+            colour      = discord.Colour.blue(),
+            description = "\n".join(desc_lines),
+        )
+        emb.add_field(
+            name="Events",
+            value=f"{len(champ.schedule)} races",
+            inline=False,
+        )
+
+        # ─── attach up to 4 previews ────────────────────────────────────────
+        files: list[discord.File] = []
+        if len(cars) <= 4:
+            for idx, c in enumerate(cars):
+                if not c.imagepath:
+                    continue
+                p = Path(c.imagepath)
+                print("path = " + str(p))
+                # if it's relative, resolve it against cwd
+                if not p.is_absolute():
+                    p = Path.cwd() / c.imagepath
+                if p.is_file():
+                    df = discord.File(str(p), filename=p.name)
+                    files.append(df)
+                    # first image becomes the embed's hero
+                    if idx == 0:
+                        emb.set_image(url=f"attachment://{p.name}")
+
+        return emb, files
+
+    def _first_map_under(self,track_id: str) -> Optional[pathlib.Path]:
+        """
+        Look for *any* “map.png / preview.png / …” file saved by your scraper
+        under  contentmedia/tracks/<track_id>/**  and return the first hit.
+        """
+        for p in (championship._MEDIA_ROOT / "tracks" / track_id).rglob("map.png"):
+            return p
+        for p in (championship._MEDIA_ROOT / "tracks" / track_id).rglob("preview.png"):
+            return p
+        for p in (championship._MEDIA_ROOT / "tracks" / track_id).rglob("*.png"):
+            return p
+        return None
+
+    def event_embeds(self,
+        events: Iterable, 
+        root: str = "contentmedia"
+    ) -> List[Tuple[discord.Embed, Optional[discord.File]]]:
+        """
+        • Adds **Race N** prefix (based on chronological order).
+        • Shows variant name only when it differs from parent id/default.
+        • Adds a “Download track” field.
+        • Image lookup:
+            1. ev.track.imagepath  (only if the file exists)
+            2. first PNG under …/tracks/<track_id>/…
+        """
+        out: List[Tuple[discord.Embed, Optional[discord.File]]] = []
+        def _multiplier(val: int | float) -> str:
+            """250 → '2.5'   100 → '1'   45 → '0.45'"""
+            return f"{val/100:.2f}".rstrip("0").rstrip(".")
+                # make sure the list is in chronological order
+        events = sorted(events, key=lambda e: e.date)
+
+        for idx, ev in enumerate(events, 1):
+            parent      = ev.track.parent_track
+            base_name   = parent.highest_priority_name or parent.id
+            variant_raw = ev.track.id.split(";")[-1]         # e.g. “default” or “gp”
+            show_var    = variant_raw.lower() not in {
+                parent.id.lower(),
+                "default",
+                "_base",
+            }
+
+            title = f"🏁 Race {idx} • {base_name}"
+            if show_var:
+                title += f" / {ev.track.name}"
+
+            # readable date (still keep the discord timestamp below)
+            pretty_date = datetime.fromisoformat(ev.date).strftime("%d %b %Y")
+
+            desc_lines = [
+                f"**Date**: {pretty_date}",
+                f"**Session start**: {ev.sessionstarttime}",
+                f"**Practice** {ev.practicelength} min",
+                f"**Quali** {ev.qualifyinglength} min",
+                # this will be overwritten if you’re doing a lap-based race
+                f"**Race** {ev.raceonelength} min",
+                f"Fuel ×{_multiplier(ev.fuelrate)}",
+                f"Tyre ×{_multiplier(ev.tirewear)}",
+                f"Damage ×{_multiplier(ev.damage)}",
+            ]
+
+            # lap-based instead of time-based?
+            if ev.raceonelength == 0 and getattr(ev, "racelaps", 0) > 0:
+                desc_lines[4] = f"**Race** {ev.racelaps} laps"
+
+            # now insert Race 2 immediately after the first Race line
+            if ev.doublerace:
+                # pick either minutes or laps
+                if ev.racetwolength > 0:
+                    second = f"{ev.racetwolength} min"
+                elif getattr(ev, "racelaps", 0) > 0:
+                    second = f"{ev.racelaps} laps"
+                else:
+                    second = f"{ev.racetwolength} min"
+                desc_lines.insert(
+                    5,           # right after desc_lines[4]
+                    f"**Race 2** {second}"
+                )
+
+            emb = discord.Embed(
+                title       = title,
+                description = "\n".join(desc_lines),
+                colour      = discord.Colour.dark_teal(),
+            )
+            # download link
+            if ev.track_download_link:
+                emb.add_field(
+                    name="Download track",
+                    value=f"[Click here]({ev.track_download_link})",
+                    inline=False,
+                )
+
+            # ─────────── image handling ────────────
+            img_path: Optional[pathlib.Path] = None
+
+            if ev.track.imagepath:
+                p = pathlib.Path(ev.track.imagepath)
+                if p.is_file():
+                    img_path = p
+
+            if img_path is None:                       # fallback search
+                img_path = self._first_map_under(parent.id)
+
+            file: Optional[discord.File] = None
+            if img_path and img_path.is_file():
+                file = discord.File(img_path, filename=img_path.name)
+                emb.set_image(url=f"attachment://{img_path.name}")
+
+            out.append((emb, file))
+
+        return out
+    
+    @commands.hybrid_command(name="forceupdatestandings", description="forceupdatestandings")
+    async def forceupdatestandings(self,ctx: commands.Context):
+        await self.update_standings_internal()
+        await ctx.send("Standings updated")
+
+    async def update_standings_internal(self):
+
+        for elem in self.parsed.championships.values():
+            server   = {v: k for k, v in self.servertodirectory.items()}.get(elem.type)
+            threadID = self.servertostandingsthread[server]
+            forumID  = self.servertoparentchannel[server]
+
+            forum  = self.bot.get_channel(forumID)              # discord.ForumChannel
+            thread = forum.get_thread(threadID) 
+            print(f"updating standings for {elem.name}")
+            elem.update_standings()
+            standings = elem.standings
+            # 1) build the embed
+            emb = discord.Embed(
+                title   = f"🏆  {elem.name} — Driver Standings",
+                colour  = discord.Colour.gold(),
+            )
+            lines = []
+            for idx, (driver_name, pts) in enumerate(standings.items(), start=1):
+                lines.append(f"**{idx}.** {driver_name} — {pts} pts")
+
+            emb.description = "\n".join(lines)
+            if elem.standingsmessage and elem.standingsmessage != "":
+                msg = await thread.fetch_message(int(elem.standingsmessage))
+                await msg.edit(embed=emb)
+            else:
+                sent = await thread.send(embed=emb)
+                elem.standingsmessage = str(sent.id)
+        await self.serializeall_internal()
+
+
+    @commands.hybrid_command(name="sendschedule", description="sendschedule")
+    async def sendschedule(self,ctx: commands.Context,type: str):
+        await self.send_schedule_embeds(ctx, type)
+
+    async def send_schedule_embeds(self, ctx: commands.Context, ch_type: str) -> None:
+        """
+        • If a sister schedule (EU/NA) already exists → do **nothing**.
+        • Otherwise post a full schedule and automatically add the
+        other region’s start‑time in the description (± 6 h),
+        except for family ‘worldtour’.
+        """
+
+        # ─── 0. locate the Championship object ──────────────────────────────
+        champ: Optional[championship.Championship] = self.parsed.championships.get(ch_type)
+        if not champ:
+            await ctx.send(f"❌ No championship of type **{ch_type}** registered.")
+            return
+
+        fam = _family(ch_type)                          # mx5 / gt3 / …
+        if fam == "worldtour":                          # special case → no sister
+            sister = None
+        else:
+            sister = next(
+                (
+                    c for t, c in self.parsed.championships.items()
+                    if _family(t) == fam and t != ch_type
+                    and any(getattr(ev, "schedulemessage", None) for ev in c.schedule)
+                ),
+                None,
+            )
+
+        # ─── 1. if sister already has schedule messages → do nothing ─────────
+        if sister:
+            await ctx.send(
+                f"ℹ️  Schedule for **{fam.upper()}** already posted – "
+                "nothing to do."
+            )
+            return
+
+        # ─── 2. figure out forum / thread objects (your mappings) ────────────
+        server   = {v: k for k, v in self.servertodirectory.items()}.get(ch_type)
+        threadID = self.servertoschedulethread.get(server,         1368551209400795187)
+        forumID  = self.servertoparentchannel.get(server,          1368551150537670766)
+
+        forum  = self.bot.get_channel(forumID)                 # discord.ForumChannel
+        thread = forum.get_thread(threadID) if forum else None
+        if thread is None:
+            await ctx.send("❌ Could not find the announcement thread.")
+            return
+
+        # ─── 3. region helpers ───────────────────────────────────────────────
+        this_region  = "EU" if "eu" in ch_type.lower() else "NA"
+        other_region = "NA" if this_region == "EU" else "EU"
+        add_other    = fam != "worldtour"                      # only mx5 / gt3 / …
+
+        # -------------------------------------------------------------------- #
+        # 4. build + send the overview card
+        # -------------------------------------------------------------------- #
+        ovw_emb, ovw_files = self.car_embed(champ)
+        if ovw_files:
+            if len(ovw_files) == 1:
+                msg = await thread.send(embed=ovw_emb, file=ovw_files[0])
+            else:
+                msg = await thread.send(embed=ovw_emb, files=ovw_files)
+        else:
+            msg = await thread.send(embed=ovw_emb)
+        champ.infomessage = str(msg.id)
+
+        # -------------------------------------------------------------------- #
+        # 5. per‑event cards
+        # -------------------------------------------------------------------- #
+        for ev, (emb, f) in zip(
+                sorted(champ.schedule, key=lambda e: e.date),
+                self.event_embeds(champ.schedule),
+        ):
+            # ───── rebuild the “Session start” row so *both* regions sit on ONE line
+            if add_other:
+                ts_main  = ev.sessionstarttime                      # '<t:…:f>'
+                raw_main = _raw_ts(ts_main)
+                if raw_main:
+                    # EU is always six hours *ahead* of NA
+                    delta      = 7 * 3600 if this_region == "EU" else -7 * 3600
+                    raw_other  = raw_main + delta
+                    ts_other   = f"<t:{raw_other}:f>"
+
+                    main_lbl   = f"{this_region} session start"
+                    other_lbl  = f"{other_region} session start"
+
+                    # ▸ split the description into individual lines
+                    lines = emb.description.split("\n")
+
+                    # helper that lower‑cases and swaps NBSP → normal space
+                    def _norm(s: str) -> str:
+                        return s.replace("\u00a0", " ").lower()
+
+                    # locate the original “Session start” line
+                    for i, l in enumerate(lines):
+                        if _norm(l).startswith("**session start**"):
+                            # replace it with   "**EU session start**: …   **NA session start**: …"
+                            lines[i] = f"**{main_lbl}**: {ts_main}"
+                            lines.insert(i + 1, f"**{other_lbl}**: {ts_other}")
+                            break
+                    else:
+                        # fail‑safe: append a new combined line
+                        lines.append(
+                            f"**{main_lbl}**: {ts_main}   **{other_lbl}**: {ts_other}"
+                        )
+
+                    emb.description = "\n".join(lines)
+
+            # ───── send the embed (and attachment, if any) ─────────────
+            msg = await thread.send(embed=emb, file=f) if f else await thread.send(embed=emb)
+            ev.schedulemessage = str(msg.id)
+
+        await ctx.send(f"🗓️  Schedule for **{ch_type}** posted.")
+
+    @commands.hybrid_command(name="registerchampionship", description="Register a new championship with an attached file")
+    async def registerchampionship(self,ctx: commands.Context,attachment: discord.Attachment,  type: str):
+        file_name = attachment.filename
+        if not file_name.endswith(".json"):
+            await ctx.send("Please upload a valid JSON file.")
+            return
+        if not file_name:
+            await ctx.send("Please upload a file.")
+            return
+        rolesuser = ctx.author.roles
+        if not any(role.id == 1099807643918422036 for role in rolesuser):
+            await ctx.send("You are not allowed to register championships")
+            return
+        allowedtypes = ["mx5euopen", "mx5naopen", "mx5eurrr", "mx5narrr", "mx5narar", "gt3naopen", "gt3eurrr",
+                         "gt4euopen", "gt4naopen", "formulaeuopen", "formulanaopen",
+                         "formulnarrr", "formulanarar", "worldtour"]
+        if type not in allowedtypes:
+            await ctx.send("Invalid type. Allowed types are: " + ", ".join(allowedtypes))
+            return
+        reverse_lookup = {v: k for k, v in self.servertodirectory.items()}
+        server = reverse_lookup.get(type)
+
+        champ_dict = None
+        try:
+            data_bytes = await attachment.read()
+            champ_dict = json.loads(data_bytes.decode("utf‑8"))
+        except Exception as exc:
+            return await ctx.send(f"Could not parse JSON: {exc}")
+        if type in self.parsed.championships:
+            await ctx.send("Championship already registered")
+            return
+        # Getting the server name from a type
+        baseurl = server
+        with tempfile.NamedTemporaryFile("w+", delete=False, suffix=".json") as tf:
+            json.dump(champ_dict, tf, indent=2)
+            tmp_name = tf.name
+        try:
+            champ = championship.create_championship(tmp_name, baseurl, self.parsed.contentdata, type)
+            self.parsed.championships[type] = champ     
+        finally:
+            await self.serializeall_internal()
+            await ctx.send(f"Championship " + type + " has been registered!")
+            os.remove(tmp_name)
+
+        
+
+    @commands.hybrid_command(name="unregisterchampionship", description="unregisterchampionship ")
+    async def unregisterchampionship(self, ctx: commands.Context, type:str) -> None:
+        rolesuser = ctx.author.roles
+        if not 1099807643918422036 in rolesuser:
+            await ctx.send("You are not allowed to register championships")
+            return
+
     @commands.hybrid_command(name="dumptracks", description="dump all tracks")
     @commands.is_owner()
     async def dumptracks(self, context: Context) -> None:
         for track in self.parsed.contentdata.tracks:
             logger.info(track.highest_priority_name)
+
+    @commands.hybrid_command(name="exportall", description="exportall")
+    @commands.is_owner()
+    async def exportall(self, context: Context) -> None:
+        track_json_output = json.dumps([track.to_dict() for track in self.parsed.contentdata.tracks], indent=4)
+        # Save to file
+        with open("export/tracks.json", "w") as f:
+            f.write(track_json_output)
+
+        car_json_output = json.dumps([car.to_dict() for car in self.parsed.contentdata.cars], indent=4)
+        # Save to file
+        with open("export/cars.json", "w") as f:
+            f.write(car_json_output)
+
+        racer_json_output = json.dumps([racer.to_dict() for racer in self.parsed.racers.values()], indent=4)
+        # Save to file
+        with open("export/racers.json", "w") as f:
+            f.write(racer_json_output)
+
+        result_json_output = json.dumps([result.to_dict() for result in self.parsed.raceresults], indent=4)
+        # Save to file
+        with open("export/results.json", "w") as f:
+            f.write(result_json_output)
 
 
     @commands.hybrid_command(name="rrrdirty", description="get dirtiest drivers")

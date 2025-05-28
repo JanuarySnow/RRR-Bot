@@ -1,0 +1,128 @@
+{
+    "id": "bf12cc37-e703-415b-8ba7-027648a45097",
+    "track": "mugello;mugello",
+    "laps": [
+        {
+            "id": "968aa51a-4acf-4c77-b7f3-635badc48d1f",
+            "time": 123273,
+            "car": "ferrari_312t",
+            "racerguid": "76561198042185500",
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "9ac24947-b31b-44ad-9685-50256e33b998",
+            "time": 163330,
+            "car": "ferrari_312t",
+            "racerguid": "76561198157983036",
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "9a729630-f4e6-41c2-bc4b-7aaf26e2768b",
+            "time": 125117,
+            "car": "ferrari_312t",
+            "racerguid": "76561198042185500",
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c3ddefe8-c0e5-4db0-b4a4-cc6ce59eba15",
+            "time": 113632,
+            "car": "ferrari_312t",
+            "racerguid": "76561198042185500",
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "389967cf-e198-4aab-8e96-12b0e6d5470e",
+            "time": 117617,
+            "car": "ferrari_312t",
+            "racerguid": "76561198042185500",
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "47a1252f-b8ba-41f9-b931-00a9474a7268",
+            "time": 159001,
+            "car": "ferrari_312t",
+            "racerguid": "76561198042185500",
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "6a03c744-3059-4b0f-a613-d751b062fdf9",
+            "racer": "76561198042185500",
+            "car": "ferrari_312t",
+            "track": "mugello;mugello",
+            "date": "2024-02-01T05:32:48.01470272Z",
+            "laps": [
+                "968aa51a-4acf-4c77-b7f3-635badc48d1f",
+                "9a729630-f4e6-41c2-bc4b-7aaf26e2768b",
+                "c3ddefe8-c0e5-4db0-b4a4-cc6ce59eba15",
+                "389967cf-e198-4aab-8e96-12b0e6d5470e",
+                "47a1252f-b8ba-41f9-b931-00a9474a7268"
+            ],
+            "incidents": [],
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "e30696b2-1367-420c-82df-4d9ea13f77c5",
+            "racer": "76561198157983036",
+            "car": "ferrari_312t",
+            "track": "mugello;mugello",
+            "date": "2024-02-01T05:32:48.01470272Z",
+            "laps": [
+                "9ac24947-b31b-44ad-9685-50256e33b998"
+            ],
+            "incidents": [
+                "c84284b1-b4e2-4759-bae7-aeb4e7b714fc",
+                "b935d21d-1ece-4a46-b52f-f06f85247c1e"
+            ],
+            "result": "bf12cc37-e703-415b-8ba7-027648a45097",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "c84284b1-b4e2-4759-bae7-aeb4e7b714fc",
+            "speed": 28.038494,
+            "racer": "76561198157983036",
+            "otherracer": null
+        },
+        {
+            "id": "b935d21d-1ece-4a46-b52f-f06f85247c1e",
+            "speed": 35.839745,
+            "racer": "76561198157983036",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2024_2_1_5_32_RACE.json",
+    "date": "2024-02-01T05:32:48.01470272Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 5,
+    "driverlaps": {
+        "76561198042185500": 5,
+        "76561198157983036": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

@@ -11,7 +11,7 @@ import matplotlib.dates as mdates
 from datetime import datetime
 import matplotlib.ticker as mtick
 import numpy as np
-from fuzzywuzzy import fuzz
+from fuzzywuzzy import fuzz 
 from fuzzywuzzy import process
 import content_data
 import racer
@@ -20,6 +20,7 @@ from dateutil.relativedelta import relativedelta
 from datetime import datetime, timedelta
 from adjustText import adjust_text
 from logger_config import logger
+
 
 class parser():
     def __init__(self):
@@ -49,6 +50,8 @@ class parser():
         self.pacerankingsgt3 = []
         self.averageelorankingsovertime = {}
         self.contentdata = None
+        self.championships = {}
+
 
     def get_summary_last_races(self, racer, num):
         retdict = {}
@@ -84,6 +87,7 @@ class parser():
         return None
     
     def get_track_name(self, id:str):
+
         for track in self.contentdata.tracks:
             if id == track.id:
                 return track.highest_priority_name
@@ -362,6 +366,7 @@ class parser():
                             # Parse the date string to a datetime object
                             race_time = datetime.fromisoformat(data["Date"].replace("Z", "+00:00"))
                             # Determine the region based on the race time
+                            data["directory"] = os.path.basename(os.path.dirname(filepath))
                             if race_time.hour < 24 and race_time.hour >= 12:
                                 data["Region"] = "EU"
                             else:
@@ -383,8 +388,9 @@ class parser():
                 euracers.append(racer)
         return euracers
     
-    async def add_one_result(self, filepath, filename, server):
+    async def add_one_result(self, filepath, filename, server, url):
         print("adding one result " + filename)
+        print("from url " + url)
         with open(filepath, encoding="utf8") as f:
             if "testserver" in filepath.split(os.sep):
                 print(f"Skipping file in 'testserver' folder: {filename}")
@@ -396,6 +402,8 @@ class parser():
                 resultobj = result.Result()
                 resultobj.filename = data["Filename"]
                 resultobj.server = server
+                resultobj.url = url
+                resultobj.directory = os.path.basename(os.path.dirname(filepath))
                 # Parse the date string to a datetime object
                 race_time = datetime.fromisoformat(data["Date"].replace("Z", "+00:00"))
                 # Determine the region based on the race time
@@ -411,7 +419,6 @@ class parser():
                     guid = car["DriverGuid"]
                     racer = self.racers[guid]
                     racer.calculate_averages()
-                    racer.calculatepace()
         self.calculate_raw_pace_percentages_for_all_racers()
         self.calculate_rankings()
         print("done adding one result")
@@ -603,12 +610,13 @@ class parser():
         for data in datalist:
             resultobj = result.Result()
             resultobj.filename = data["Filename"]
+            resultobj.directory = data["directory"]
+            resultobj.championshipid = data["ChampionshipID"]
             self.parse_one_result(resultobj, data)
             self.add_average_elo_step(data["Date"])
         for elem in self.racers.keys():
             racer = self.racers[elem]
             racer.calculate_averages()
-            racer.calculatepace()
         self.calculate_raw_pace_percentages_for_all_racers()
         self.calculate_rankings()
         self.loadtrackratings()

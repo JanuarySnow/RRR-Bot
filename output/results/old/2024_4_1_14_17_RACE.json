@@ -1,0 +1,97 @@
+{
+    "id": "6b446596-3da6-4817-83a3-4921341190a5",
+    "track": "monza;monza",
+    "laps": [
+        {
+            "id": "4288b130-8c55-4271-b889-b4260f9788fa",
+            "time": 266676,
+            "car": "ks_ferrari_sf15t",
+            "racerguid": "76561198287763745",
+            "result": "6b446596-3da6-4817-83a3-4921341190a5",
+            "valid": false,
+            "cuts": 3
+        },
+        {
+            "id": "485b2fb8-cef3-4a62-be47-7216957b9f7b",
+            "time": 132061,
+            "car": "ks_ferrari_sf15t",
+            "racerguid": "76561198287763745",
+            "result": "6b446596-3da6-4817-83a3-4921341190a5",
+            "valid": false,
+            "cuts": 2
+        },
+        {
+            "id": "d4ca5408-a158-4e96-9011-10e0979cb25b",
+            "time": 111741,
+            "car": "ks_ferrari_sf15t",
+            "racerguid": "76561198287763745",
+            "result": "6b446596-3da6-4817-83a3-4921341190a5",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "7e90fa44-8198-4a3d-9141-243fe5377a55",
+            "racer": "76561198287763745",
+            "car": "ks_ferrari_sf15t",
+            "track": "monza;monza",
+            "date": "2024-04-01T14:17:05.401508616Z",
+            "laps": [
+                "4288b130-8c55-4271-b889-b4260f9788fa",
+                "485b2fb8-cef3-4a62-be47-7216957b9f7b",
+                "d4ca5408-a158-4e96-9011-10e0979cb25b"
+            ],
+            "incidents": [
+                "db0a8ba8-0c56-4296-ba11-c8a6045d8e67",
+                "ca5e4159-6c10-4c24-88f9-05fd4fb5de8b",
+                "a91f0d75-defd-4503-9d9f-59f4d4f18bb8",
+                "c1bb0e9e-268d-493d-8ba7-924359cd0ba2"
+            ],
+            "result": "6b446596-3da6-4817-83a3-4921341190a5",
+            "cuts": 5,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "db0a8ba8-0c56-4296-ba11-c8a6045d8e67",
+            "speed": 42.44821,
+            "racer": "76561198287763745",
+            "otherracer": null
+        },
+        {
+            "id": "ca5e4159-6c10-4c24-88f9-05fd4fb5de8b",
+            "speed": 81.027985,
+            "racer": "76561198287763745",
+            "otherracer": null
+        },
+        {
+            "id": "a91f0d75-defd-4503-9d9f-59f4d4f18bb8",
+            "speed": 39.341988,
+            "racer": "76561198287763745",
+            "otherracer": null
+        },
+        {
+            "id": "c1bb0e9e-268d-493d-8ba7-924359cd0ba2",
+            "speed": 131.63812,
+            "racer": "76561198287763745",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "gt3",
+    "filename": "2024_4_1_14_17_RACE.json",
+    "date": "2024-04-01T14:17:05.401508616Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561198287763745": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

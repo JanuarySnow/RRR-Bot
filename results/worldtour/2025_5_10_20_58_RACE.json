@@ -1,0 +1,5546 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_fgx",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "MinPing": 96,
+            "MaxPing": 2756
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_mustang",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "MinPing": 104,
+            "MaxPing": 8460
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199789936873",
+                "GuidsList": [
+                    "76561199789936873"
+                ],
+                "Name": "RRR",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_vf",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "MinPing": 166,
+            "MaxPing": 196
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198805226582",
+                "GuidsList": [
+                    "76561198805226582"
+                ],
+                "Name": "Nick Cruz",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden_zb",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_zb",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_nissan",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_l33",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "MinPing": 120,
+            "MaxPing": 458
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561199008053666",
+                "GuidsList": [
+                    "76561199008053666"
+                ],
+                "Name": "EL Garritto",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_fgx",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_mustang",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "MinPing": 28,
+            "MaxPing": 822
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561199179068038",
+                "GuidsList": [
+                    "76561199179068038"
+                ],
+                "Name": "Maple",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_vf",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden_zb",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_zb",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_nissan",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_l33",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "76561198269003680",
+                "GuidsList": [
+                    "76561198269003680"
+                ],
+                "Name": "sokol",
+                "Nation": "YUG",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_fgx",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 145,
+            "MaxPing": 1138
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_mustang",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "MinPing": 34,
+            "MaxPing": 249
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "76561198097901659",
+                "GuidsList": [
+                    "76561198097901659"
+                ],
+                "Name": "Feras Sword",
+                "Nation": "SAU",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_vf",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 144,
+            "MaxPing": 3607
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198002604748",
+                "GuidsList": [
+                    "76561198002604748"
+                ],
+                "Name": "Botlando",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden_zb",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_zb",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_nissan",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_l33",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "76561198065400100",
+                "GuidsList": [
+                    "76561198065400100"
+                ],
+                "Name": "Chloroform",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_fgx",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_mustang",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_vf",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "Driver": {
+                "Guid": "76561198198719963",
+                "GuidsList": [
+                    "76561198198719963"
+                ],
+                "Name": "Patchy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden_zb",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_zb",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_nissan",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_l33",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_fgx",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_mustang",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 22,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_vf",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 23,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_holden_zb",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_zb",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 24,
+            "Driver": {
+                "Guid": "76561198360326108",
+                "GuidsList": [
+                    "76561198360326108"
+                ],
+                "Name": "Nick Chin",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_nissan",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_l33",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 25,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "Model": "supercars_ford",
+            "Restrictor": 0,
+            "Skin": "v8scorsa_base_fgx",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 26.102985,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.8937413,
+                "Y": 0.116052054,
+                "Z": 1.6007925
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -428.58536,
+                "Y": 9.853081,
+                "Z": -166.06079
+            },
+            "Timestamp": 1746909246,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 28.754017,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.83613473,
+                "Y": -0.30383974,
+                "Z": 1.967077
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -442.98828,
+                "Y": 9.121453,
+                "Z": -172.31912
+            },
+            "Timestamp": 1746909250,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 18.135891,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.8196177,
+                "Y": 0.21460295,
+                "Z": -2.6720545
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -441.5912,
+                "Y": 9.65905,
+                "Z": -174.39148
+            },
+            "Timestamp": 1746909250,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 23.137056,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.84234506,
+                "Y": -0.49543813,
+                "Z": 2.059507
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -438.7455,
+                "Y": 8.784849,
+                "Z": -194.55978
+            },
+            "Timestamp": 1746909250,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 23.262838,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.573214,
+                "Y": -0.38121358,
+                "Z": 2.145606
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -449.3684,
+                "Y": 9.180392,
+                "Z": -165.63934
+            },
+            "Timestamp": 1746909251,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 50.871235,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.57321024,
+                "Y": -0.38121286,
+                "Z": 2.1456027
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -449.18585,
+                "Y": 9.216062,
+                "Z": -167.4455
+            },
+            "Timestamp": 1746909251,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 15.0663805,
+            "OtherCarId": 11,
+            "OtherDriver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.784572,
+                "Y": 0.11104604,
+                "Z": -2.176291
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -447.4332,
+                "Y": 8.848601,
+                "Z": -167.03903
+            },
+            "Timestamp": 1746909251,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 20.538155,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.5731995,
+                "Y": -0.38121262,
+                "Z": 2.1455991
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -442.1017,
+                "Y": 9.046453,
+                "Z": -184.36922
+            },
+            "Timestamp": 1746909251,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 21.486397,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.58112174,
+                "Y": -0.38121232,
+                "Z": 2.1455986
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -438.7366,
+                "Y": 8.895988,
+                "Z": -194.30891
+            },
+            "Timestamp": 1746909251,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 35.137974,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.8795769,
+                "Y": -0.3576523,
+                "Z": 1.7834331
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -442.57336,
+                "Y": 9.115633,
+                "Z": -172.51082
+            },
+            "Timestamp": 1746909252,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 24.400705,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.9164244,
+                "Y": 0.38822585,
+                "Z": 1.2229553
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -440.12756,
+                "Y": 9.064208,
+                "Z": -216.26189
+            },
+            "Timestamp": 1746909255,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 37.09995,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.8784463,
+                "Y": 0.1716295,
+                "Z": 1.5901067
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -439.47787,
+                "Y": 9.431079,
+                "Z": -196.27965
+            },
+            "Timestamp": 1746909255,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 10.627276,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.91565794,
+                "Y": 0.24077772,
+                "Z": 1.5721987
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -439.42682,
+                "Y": 9.244427,
+                "Z": -205.0477
+            },
+            "Timestamp": 1746909256,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 11.452001,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.1918125,
+                "Y": 0.16705771,
+                "Z": 1.9825752
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -440.71118,
+                "Y": 9.0303545,
+                "Z": -208.35638
+            },
+            "Timestamp": 1746909256,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 2.7351742,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.95231223,
+                "Y": 0.24841082,
+                "Z": 0.5738073
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -24.574705,
+                "Y": 6.6570473,
+                "Z": -483.2673
+            },
+            "Timestamp": 1746909286,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 43.871414,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.5251372,
+                "Y": 0.11251162,
+                "Z": 2.131408
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 127.85605,
+                "Y": 9.498434,
+                "Z": -115.86786
+            },
+            "Timestamp": 1746909306,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 25.476566,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.82045597,
+                "Y": 0.10345833,
+                "Z": -2.6532474
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 313.68503,
+                "Y": 11.633451,
+                "Z": 271.65945
+            },
+            "Timestamp": 1746909315,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 16.93956,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.71033835,
+                "Y": 0.16215803,
+                "Z": 1.924079
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 313.66522,
+                "Y": 11.647873,
+                "Z": 271.4766
+            },
+            "Timestamp": 1746909316,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 12.690201,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.84143066,
+                "Y": -0.3697396,
+                "Z": 2.0184298
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 296.33762,
+                "Y": 11.077521,
+                "Z": 256.77664
+            },
+            "Timestamp": 1746909320,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 12.397477,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9199987,
+                "Y": 0.7405419,
+                "Z": -2.785537
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 297.62167,
+                "Y": 12.147294,
+                "Z": 239.81808
+            },
+            "Timestamp": 1746909320,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 16.139177,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.8421002,
+                "Y": -0.37809986,
+                "Z": 1.8114402
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 296.64313,
+                "Y": 11.081666,
+                "Z": 256.7979
+            },
+            "Timestamp": 1746909321,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 4.416566,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9193245,
+                "Y": 0.39915174,
+                "Z": -2.045189
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -21.417849,
+                "Y": 6.889083,
+                "Z": -483.2486
+            },
+            "Timestamp": 1746909375,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 34.394848,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.5133347,
+                "Y": 0.13262397,
+                "Z": 2.1325676
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -513.05347,
+                "Y": 7.912678,
+                "Z": -308.4183
+            },
+            "Timestamp": 1746909437,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 55.940155,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.5731996,
+                "Y": 0.13241038,
+                "Z": 2.168507
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -472.3487,
+                "Y": 9.553433,
+                "Z": -155.77902
+            },
+            "Timestamp": 1746909517,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 17.941397,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.5207515,
+                "Y": 0.39082158,
+                "Z": -2.6556547
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -466.95667,
+                "Y": 9.841507,
+                "Z": -147.34052
+            },
+            "Timestamp": 1746909522,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 6.0944915,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.51980686,
+                "Y": 0.41237628,
+                "Z": -2.6636643
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -467.1805,
+                "Y": 9.84149,
+                "Z": -147.31485
+            },
+            "Timestamp": 1746909527,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 48.541565,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.27918234,
+                "Y": 0.11250681,
+                "Z": 2.1321707
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -505.7486,
+                "Y": 7.9764657,
+                "Z": -308.9971
+            },
+            "Timestamp": 1746909546,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 2.968711,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.94863516,
+                "Y": 0.24728067,
+                "Z": 0.7070516
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -56.393723,
+                "Y": 6.0833187,
+                "Z": -483.47833
+            },
+            "Timestamp": 1746909566,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 92.912186,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.9159942,
+                "Y": 0.39116418,
+                "Z": 1.1893958
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -210.05077,
+                "Y": 5.537145,
+                "Z": -184.24011
+            },
+            "Timestamp": 1746909600,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 43.145634,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.893417,
+                "Y": -0.38055107,
+                "Z": 1.6944916
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -2.4658842,
+                "Y": 5.5326056,
+                "Z": -114.18546
+            },
+            "Timestamp": 1746909616,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 1.8030021,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.960828,
+                "Y": 0.27199784,
+                "Z": -0.22999984
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -38.58956,
+                "Y": 6.4264927,
+                "Z": -483.35928
+            },
+            "Timestamp": 1746909636,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 27.71079,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.8865846,
+                "Y": -0.38119325,
+                "Z": 1.7561677
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 336.36078,
+                "Y": 12.013414,
+                "Z": -188.6991
+            },
+            "Timestamp": 1746909651,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 41.133327,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9101496,
+                "Y": -0.025810665,
+                "Z": 1.6528726
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 102.246086,
+                "Y": 7.973279,
+                "Z": -454.1992
+            },
+            "Timestamp": 1746909656,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 29.364601,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.84549683,
+                "Y": 0.28885773,
+                "Z": 1.5470946
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -521.1347,
+                "Y": 8.56595,
+                "Z": -307.7738
+            },
+            "Timestamp": 1746909722,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 13.510275,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.95583737,
+                "Y": 0.27220824,
+                "Z": -0.23003063
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -51.306904,
+                "Y": 6.1932216,
+                "Z": -483.44266
+            },
+            "Timestamp": 1746909726,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 13.591223,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.573213,
+                "Y": 0.112410285,
+                "Z": 2.1485012
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 381.7126,
+                "Y": 12.531256,
+                "Z": -186.96999
+            },
+            "Timestamp": 1746909861,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 7.201809,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.9647232,
+                "Y": 0.2719978,
+                "Z": -0.22999488
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -182.25832,
+                "Y": 5.3457985,
+                "Z": -186.1282
+            },
+            "Timestamp": 1746909861,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 0.39001638,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.5732068,
+                "Y": -0.3812129,
+                "Z": 2.145605
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 380.79962,
+                "Y": 12.045005,
+                "Z": -187.00945
+            },
+            "Timestamp": 1746909866,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 19.957476,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.91028845,
+                "Y": 0.33869243,
+                "Z": -2.0449667
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -536.60614,
+                "Y": 9.158666,
+                "Z": -318.5667
+            },
+            "Timestamp": 1746909870,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 46.96747,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.5731948,
+                "Y": 0.11241101,
+                "Z": 2.1485102
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -511.64764,
+                "Y": 8.155131,
+                "Z": -308.4615
+            },
+            "Timestamp": 1746909896,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 0.36021155,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9608284,
+                "Y": 0.27199814,
+                "Z": -0.23000008
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -37.027077,
+                "Y": 6.4537067,
+                "Z": -483.34906
+            },
+            "Timestamp": 1746909896,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 17.073397,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.79834414,
+                "Y": -0.19293612,
+                "Z": -2.4836612
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -510.36896,
+                "Y": 7.717896,
+                "Z": -321.18787
+            },
+            "Timestamp": 1746909901,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 6.950965,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.91733456,
+                "Y": 0.2399331,
+                "Z": 1.5731764
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -442.61316,
+                "Y": 8.071219,
+                "Z": -253.57759
+            },
+            "Timestamp": 1746909926,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 48.441784,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.8310515,
+                "Y": -0.51373553,
+                "Z": 1.9944602
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -449.27298,
+                "Y": 9.06194,
+                "Z": -167.97783
+            },
+            "Timestamp": 1746909950,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 38.570675,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9215155,
+                "Y": 0.23948967,
+                "Z": 1.5710893
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -622.2007,
+                "Y": 9.258254,
+                "Z": -356.44638
+            },
+            "Timestamp": 1746909996,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 44.420517,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.8725581,
+                "Y": -0.38112575,
+                "Z": 1.7446568
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -586.6558,
+                "Y": 6.7355385,
+                "Z": -470.03717
+            },
+            "Timestamp": 1746910001,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 1.9649563,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9608173,
+                "Y": 0.2919981,
+                "Z": -0.20999947
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -30.506199,
+                "Y": 6.6048155,
+                "Z": -483.307
+            },
+            "Timestamp": 1746910007,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 1.1687757,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.84208107,
+                "Y": -0.04708612,
+                "Z": 1.9317302
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -421.16162,
+                "Y": 9.369839,
+                "Z": -157.62373
+            },
+            "Timestamp": 1746910040,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 8.565367,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.6433014,
+                "Y": -0.14807424,
+                "Z": -2.6030731
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -421.82498,
+                "Y": 9.327969,
+                "Z": -157.69147
+            },
+            "Timestamp": 1746910041,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 44.065376,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.8943015,
+                "Y": -0.3803424,
+                "Z": 1.674007
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -2.465218,
+                "Y": 5.5176063,
+                "Z": -114.18581
+            },
+            "Timestamp": 1746910056,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 32.085167,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.9143913,
+                "Y": 0.2980863,
+                "Z": -2.0448453
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 300.30298,
+                "Y": 12.516024,
+                "Z": -206.4925
+            },
+            "Timestamp": 1746910085,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 48.564953,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.7695602,
+                "Y": -0.38119668,
+                "Z": 1.8995497
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -593.6347,
+                "Y": 6.9299607,
+                "Z": -469.37903
+            },
+            "Timestamp": 1746910086,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 81.41947,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.8332939,
+                "Y": -0.5100448,
+                "Z": 2.0075734
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -622.03107,
+                "Y": 8.417758,
+                "Z": -364.08255
+            },
+            "Timestamp": 1746910145,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 29.914644,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.5811185,
+                "Y": 0.112411246,
+                "Z": 2.148515
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 318.40866,
+                "Y": 12.415503,
+                "Z": -206.47932
+            },
+            "Timestamp": 1746910151,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 40.56288,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9435391,
+                "Y": 0.30966663,
+                "Z": -1.1882894
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -449.7747,
+                "Y": 9.840277,
+                "Z": -175.10085
+            },
+            "Timestamp": 1746910152,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 0.90670806,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.96083367,
+                "Y": 0.27199778,
+                "Z": -0.22999988
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -59.48162,
+                "Y": 6.043357,
+                "Z": -483.48935
+            },
+            "Timestamp": 1746910156,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 8.188479,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.92474896,
+                "Y": 0.25993294,
+                "Z": 1.5931747
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -449.68784,
+                "Y": 9.389424,
+                "Z": -196.83424
+            },
+            "Timestamp": 1746910157,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 13.672275,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.95384467,
+                "Y": 0.27802497,
+                "Z": -0.22943968
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -51.626472,
+                "Y": 6.1970963,
+                "Z": -483.44473
+            },
+            "Timestamp": 1746910186,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 3.908144,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.96082026,
+                "Y": 0.29199797,
+                "Z": -0.21000092
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -25.56297,
+                "Y": 6.69124,
+                "Z": -483.2737
+            },
+            "Timestamp": 1746910187,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 39.70146,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9357698,
+                "Y": -0.37057078,
+                "Z": 0.71506935
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -2.4457438,
+                "Y": 5.533814,
+                "Z": -114.2049
+            },
+            "Timestamp": 1746910201,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 45.06242,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.5811374,
+                "Y": 0.11241038,
+                "Z": 2.1485116
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -441.4762,
+                "Y": 8.268589,
+                "Z": -238.01584
+            },
+            "Timestamp": 1746910211,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 0.27639627,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.91841555,
+                "Y": 0.41391236,
+                "Z": 1.176421
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -444.0762,
+                "Y": 8.041416,
+                "Z": -273.4382
+            },
+            "Timestamp": 1746910220,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 5.265272,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.94386405,
+                "Y": 0.24618939,
+                "Z": 0.83798504
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -23.339659,
+                "Y": 6.6692452,
+                "Z": -483.26007
+            },
+            "Timestamp": 1746910276,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 54.651287,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.8728895,
+                "Y": 0.2295659,
+                "Z": 1.5412283
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -177.6468,
+                "Y": 5.351412,
+                "Z": -186.42348
+            },
+            "Timestamp": 1746910306,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 5.375678,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.009305674,
+                "Y": -0.12871125,
+                "Z": 2.1445386
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 235.1245,
+                "Y": 10.861543,
+                "Z": 173.79546
+            },
+            "Timestamp": 1746910311,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 1.5216048,
+            "OtherCarId": 11,
+            "OtherDriver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.27384037,
+                "Y": -0.09736953,
+                "Z": -2.6662476
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 236.58636,
+                "Y": 10.873616,
+                "Z": 175.7552
+            },
+            "Timestamp": 1746910312,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 6.6183906,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9524218,
+                "Y": 0.11638199,
+                "Z": -0.21619028
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 118.248,
+                "Y": 8.390211,
+                "Z": -440.95523
+            },
+            "Timestamp": 1746910362,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 3.180432,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.96083325,
+                "Y": 0.2919983,
+                "Z": -0.21001013
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 212.69977,
+                "Y": 10.199601,
+                "Z": -360.30344
+            },
+            "Timestamp": 1746910367,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198042272495",
+                "GuidsList": [
+                    "76561198042272495"
+                ],
+                "Name": "Yossarian",
+                "Nation": "HRV",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 24.93356,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.57321846,
+                "Y": -0.38115096,
+                "Z": 2.1350892
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -450.7188,
+                "Y": 9.148248,
+                "Z": -162.8425
+            },
+            "Timestamp": 1746910392,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 56.926434,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.58112824,
+                "Y": 0.11248869,
+                "Z": 2.135169
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -70.38103,
+                "Y": 5.359052,
+                "Z": -157.6633
+            },
+            "Timestamp": 1746910396,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 168.36577,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.83481646,
+                "Y": -0.03837213,
+                "Z": 1.9242159
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 122.32507,
+                "Y": 8.283801,
+                "Z": -437.58972
+            },
+            "Timestamp": 1746910421,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 68.76299,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.3526526,
+                "Y": -0.38067225,
+                "Z": 2.0875864
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -449.42963,
+                "Y": 9.234805,
+                "Z": -165.15974
+            },
+            "Timestamp": 1746910421,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 12.071404,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.842347,
+                "Y": -0.49543852,
+                "Z": 2.0595162
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 175.88988,
+                "Y": 8.809946,
+                "Z": -391.93378
+            },
+            "Timestamp": 1746910426,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 8.823388,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.8479907,
+                "Y": -0.3185188,
+                "Z": 1.8069859
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -449.2396,
+                "Y": 9.295293,
+                "Z": -166.17691
+            },
+            "Timestamp": 1746910426,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 5.8646564,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9118587,
+                "Y": 0.36098456,
+                "Z": 1.2759633
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 185.06421,
+                "Y": 9.833264,
+                "Z": -384.04254
+            },
+            "Timestamp": 1746910431,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199121818116",
+                "GuidsList": [
+                    "76561199121818116"
+                ],
+                "Name": "Vojtech Adamira",
+                "Nation": "CZE",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 0.868498,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": 0.9608379,
+                "Y": 0.2919981,
+                "Z": -0.21000065
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -37.669865,
+                "Y": 6.4792013,
+                "Z": -483.3535
+            },
+            "Timestamp": 1746910457,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198282139933",
+                "GuidsList": [
+                    "76561198282139933"
+                ],
+                "Name": "Zaneninja13",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 30.494684,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.9140045,
+                "Y": 0.2289103,
+                "Z": 1.5687841
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 138.78374,
+                "Y": 9.620827,
+                "Z": -111.06259
+            },
+            "Timestamp": 1746910461,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "ImpactSpeed": 18.454208,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3"
+            },
+            "RelPosition": {
+                "X": -0.9188324,
+                "Y": 0.40087265,
+                "Z": 1.2077874
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 76.90308,
+                "Y": 9.050082,
+                "Z": -39.541817
+            },
+            "Timestamp": 1746910476,
+            "AfterSessionEnd": true
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 96421,
+            "Restrictor": 0,
+            "Sectors": [
+                35559,
+                27251,
+                33611
+            ],
+            "Timestamp": 1746909320,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 100472,
+            "Restrictor": 0,
+            "Sectors": [
+                36977,
+                27446,
+                36049
+            ],
+            "Timestamp": 1746909324,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 105300,
+            "Restrictor": 0,
+            "Sectors": [
+                36458,
+                27262,
+                41580
+            ],
+            "Timestamp": 1746909329,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 105995,
+            "Restrictor": 0,
+            "Sectors": [
+                40224,
+                29632,
+                36139
+            ],
+            "Timestamp": 1746909329,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 111460,
+            "Restrictor": 0,
+            "Sectors": [
+                39302,
+                27036,
+                45122
+            ],
+            "Timestamp": 1746909335,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 89205,
+            "Restrictor": 0,
+            "Sectors": [
+                25880,
+                26847,
+                36478
+            ],
+            "Timestamp": 1746909409,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 88815,
+            "Restrictor": 0,
+            "Sectors": [
+                26233,
+                26807,
+                35775
+            ],
+            "Timestamp": 1746909413,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 85761,
+            "Restrictor": 0,
+            "Sectors": [
+                24579,
+                26550,
+                34632
+            ],
+            "Timestamp": 1746909415,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 90813,
+            "Restrictor": 0,
+            "Sectors": [
+                26894,
+                27811,
+                36108
+            ],
+            "Timestamp": 1746909420,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 86604,
+            "Restrictor": 0,
+            "Sectors": [
+                25466,
+                26829,
+                34309
+            ],
+            "Timestamp": 1746909422,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 89279,
+            "Restrictor": 0,
+            "Sectors": [
+                26289,
+                28872,
+                34118
+            ],
+            "Timestamp": 1746909498,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 85068,
+            "Restrictor": 0,
+            "Sectors": [
+                24804,
+                26549,
+                33715
+            ],
+            "Timestamp": 1746909500,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 89694,
+            "Restrictor": 0,
+            "Sectors": [
+                25919,
+                26568,
+                37207
+            ],
+            "Timestamp": 1746909502,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 92277,
+            "Restrictor": 0,
+            "Sectors": [
+                25992,
+                27134,
+                39151
+            ],
+            "Timestamp": 1746909514,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 93950,
+            "Restrictor": 0,
+            "Sectors": [
+                26738,
+                29336,
+                37876
+            ],
+            "Timestamp": 1746909514,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 87228,
+            "Restrictor": 0,
+            "Sectors": [
+                25218,
+                26716,
+                35294
+            ],
+            "Timestamp": 1746909587,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 87165,
+            "Restrictor": 0,
+            "Sectors": [
+                26482,
+                26793,
+                33890
+            ],
+            "Timestamp": 1746909590,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 101707,
+            "Restrictor": 0,
+            "Sectors": [
+                40309,
+                27652,
+                33746
+            ],
+            "Timestamp": 1746909600,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 92016,
+            "Restrictor": 0,
+            "Sectors": [
+                26653,
+                26906,
+                38457
+            ],
+            "Timestamp": 1746909606,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 100532,
+            "Restrictor": 0,
+            "Sectors": [
+                34733,
+                30169,
+                35630
+            ],
+            "Timestamp": 1746909615,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 86980,
+            "Restrictor": 0,
+            "Sectors": [
+                26284,
+                26924,
+                33772
+            ],
+            "Timestamp": 1746909674,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 86597,
+            "Restrictor": 0,
+            "Sectors": [
+                25326,
+                26770,
+                34501
+            ],
+            "Timestamp": 1746909676,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 90662,
+            "Restrictor": 0,
+            "Sectors": [
+                25966,
+                27009,
+                37687
+            ],
+            "Timestamp": 1746909691,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 86305,
+            "Restrictor": 0,
+            "Sectors": [
+                25830,
+                26378,
+                34097
+            ],
+            "Timestamp": 1746909692,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 92644,
+            "Restrictor": 0,
+            "Sectors": [
+                27083,
+                28391,
+                37170
+            ],
+            "Timestamp": 1746909707,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 84903,
+            "Restrictor": 0,
+            "Sectors": [
+                24674,
+                26902,
+                33327
+            ],
+            "Timestamp": 1746909759,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 86682,
+            "Restrictor": 0,
+            "Sectors": [
+                25905,
+                26865,
+                33912
+            ],
+            "Timestamp": 1746909763,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 87780,
+            "Restrictor": 0,
+            "Sectors": [
+                26220,
+                27382,
+                34178
+            ],
+            "Timestamp": 1746909779,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 87801,
+            "Restrictor": 0,
+            "Sectors": [
+                25881,
+                26973,
+                34947
+            ],
+            "Timestamp": 1746909780,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 90973,
+            "Restrictor": 0,
+            "Sectors": [
+                27032,
+                28279,
+                35662
+            ],
+            "Timestamp": 1746909798,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 84815,
+            "Restrictor": 0,
+            "Sectors": [
+                24443,
+                26843,
+                33529
+            ],
+            "Timestamp": 1746909844,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 85482,
+            "Restrictor": 0,
+            "Sectors": [
+                25285,
+                26995,
+                33202
+            ],
+            "Timestamp": 1746909848,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 85693,
+            "Restrictor": 0,
+            "Sectors": [
+                25717,
+                26510,
+                33466
+            ],
+            "Timestamp": 1746909864,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 85742,
+            "Restrictor": 0,
+            "Sectors": [
+                25244,
+                26776,
+                33722
+            ],
+            "Timestamp": 1746909866,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 103190,
+            "Restrictor": 0,
+            "Sectors": [
+                26547,
+                28134,
+                48509
+            ],
+            "Timestamp": 1746909902,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 86776,
+            "Restrictor": 0,
+            "Sectors": [
+                24397,
+                28741,
+                33638
+            ],
+            "Timestamp": 1746909930,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 86219,
+            "Restrictor": 0,
+            "Sectors": [
+                25775,
+                26892,
+                33552
+            ],
+            "Timestamp": 1746909935,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 92849,
+            "Restrictor": 0,
+            "Sectors": [
+                25399,
+                26658,
+                40792
+            ],
+            "Timestamp": 1746909957,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 96109,
+            "Restrictor": 0,
+            "Sectors": [
+                25882,
+                36409,
+                33818
+            ],
+            "Timestamp": 1746909962,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 93148,
+            "Restrictor": 0,
+            "Sectors": [
+                27911,
+                29007,
+                36230
+            ],
+            "Timestamp": 1746909995,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 87127,
+            "Restrictor": 0,
+            "Sectors": [
+                25860,
+                26572,
+                34695
+            ],
+            "Timestamp": 1746910022,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 92408,
+            "Restrictor": 0,
+            "Sectors": [
+                26331,
+                27008,
+                39069
+            ],
+            "Timestamp": 1746910023,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 89327,
+            "Restrictor": 0,
+            "Sectors": [
+                25508,
+                26938,
+                36881
+            ],
+            "Timestamp": 1746910046,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 88057,
+            "Restrictor": 0,
+            "Sectors": [
+                24656,
+                29134,
+                34267
+            ],
+            "Timestamp": 1746910050,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 91859,
+            "Restrictor": 0,
+            "Sectors": [
+                27348,
+                28768,
+                35743
+            ],
+            "Timestamp": 1746910087,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 86900,
+            "Restrictor": 0,
+            "Sectors": [
+                26357,
+                26870,
+                33673
+            ],
+            "Timestamp": 1746910109,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 87523,
+            "Restrictor": 0,
+            "Sectors": [
+                26102,
+                26587,
+                34834
+            ],
+            "Timestamp": 1746910110,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 87546,
+            "Restrictor": 0,
+            "Sectors": [
+                25882,
+                27355,
+                34309
+            ],
+            "Timestamp": 1746910134,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 88025,
+            "Restrictor": 0,
+            "Sectors": [
+                25970,
+                27374,
+                34681
+            ],
+            "Timestamp": 1746910138,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 99237,
+            "Restrictor": 0,
+            "Sectors": [
+                26957,
+                28058,
+                44222
+            ],
+            "Timestamp": 1746910186,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 86348,
+            "Restrictor": 0,
+            "Sectors": [
+                25743,
+                26675,
+                33930
+            ],
+            "Timestamp": 1746910195,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 87476,
+            "Restrictor": 0,
+            "Sectors": [
+                25664,
+                28022,
+                33790
+            ],
+            "Timestamp": 1746910198,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 89500,
+            "Restrictor": 0,
+            "Sectors": [
+                28291,
+                26775,
+                34434
+            ],
+            "Timestamp": 1746910223,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 86947,
+            "Restrictor": 0,
+            "Sectors": [
+                25256,
+                26893,
+                34798
+            ],
+            "Timestamp": 1746910225,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 86933,
+            "Restrictor": 0,
+            "Sectors": [
+                25877,
+                27036,
+                34020
+            ],
+            "Timestamp": 1746910282,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 87528,
+            "Restrictor": 0,
+            "Sectors": [
+                26705,
+                26730,
+                34093
+            ],
+            "Timestamp": 1746910285,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 105956,
+            "Restrictor": 0,
+            "Sectors": [
+                41327,
+                28846,
+                35783
+            ],
+            "Timestamp": 1746910292,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 88372,
+            "Restrictor": 0,
+            "Sectors": [
+                26070,
+                27094,
+                35208
+            ],
+            "Timestamp": 1746910312,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 87152,
+            "Restrictor": 0,
+            "Sectors": [
+                25395,
+                26927,
+                34830
+            ],
+            "Timestamp": 1746910312,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 86762,
+            "Restrictor": 0,
+            "Sectors": [
+                25608,
+                27090,
+                34064
+            ],
+            "Timestamp": 1746910369,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 83852,
+            "Restrictor": 0,
+            "Sectors": [
+                23984,
+                26613,
+                33255
+            ],
+            "Timestamp": 1746910369,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 90817,
+            "Restrictor": 0,
+            "Sectors": [
+                27111,
+                28521,
+                35185
+            ],
+            "Timestamp": 1746910383,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 88734,
+            "Restrictor": 0,
+            "Sectors": [
+                27047,
+                26816,
+                34871
+            ],
+            "Timestamp": 1746910401,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 97534,
+            "Restrictor": 0,
+            "Sectors": [
+                26349,
+                27175,
+                44010
+            ],
+            "Timestamp": 1746910409,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "LapTime": 93485,
+            "Restrictor": 0,
+            "Sectors": [
+                30809,
+                27446,
+                35230
+            ],
+            "Timestamp": 1746910462,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 96379,
+            "Restrictor": 0,
+            "Sectors": [
+                26624,
+                33566,
+                36189
+            ],
+            "Timestamp": 1746910466,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "LapTime": 98313,
+            "Restrictor": 0,
+            "Sectors": [
+                32504,
+                28490,
+                37319
+            ],
+            "Timestamp": 1746910481,
+            "Tyre": "S",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 92033,
+            "Restrictor": 0,
+            "Sectors": [
+                30176,
+                27140,
+                34717
+            ],
+            "Timestamp": 1746910493,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "Cuts": 0,
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "LapTime": 89537,
+            "Restrictor": 0,
+            "Sectors": [
+                26803,
+                27153,
+                35581
+            ],
+            "Timestamp": 1746910499,
+            "Tyre": "SS",
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 19,
+                "WindDirection": -60,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 85482,
+            "CarId": 1,
+            "CarModel": "supercars_ford_mustang",
+            "DriverGuid": "76561198042272495",
+            "DriverName": "Yossarian",
+            "Restrictor": 0,
+            "TotalTime": 1239853,
+            "NumLaps": 14,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "GridPosition": 6
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 83852,
+            "CarId": 4,
+            "CarModel": "supercars_nissan",
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "Restrictor": 0,
+            "TotalTime": 1243225,
+            "NumLaps": 14,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "GridPosition": 5
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 85742,
+            "CarId": 11,
+            "CarModel": "supercars_ford_mustang",
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "Restrictor": 0,
+            "TotalTime": 1270476,
+            "NumLaps": 14,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "GridPosition": 3
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 85693,
+            "CarId": 0,
+            "CarModel": "supercars_ford",
+            "DriverGuid": "76561199121818116",
+            "DriverName": "Vojtech Adamira",
+            "Restrictor": 0,
+            "TotalTime": 1276636,
+            "NumLaps": 14,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "GridPosition": 4
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 90813,
+            "CarId": 6,
+            "CarModel": "supercars_ford_mustang",
+            "DriverGuid": "76561198282139933",
+            "DriverName": "Zaneninja13",
+            "Restrictor": 0,
+            "TotalTime": 1258664,
+            "NumLaps": 13,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "a9082321-0e78-4ee6-ac38-fb7faf2fe1f3",
+            "GridPosition": 1
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "",
+    "TrackName": "adelaide2011",
+    "Type": "RACE",
+    "Date": "2025-05-10T20:58:00Z",
+    "SessionFile": "2025_5_10_20_58_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 2,
+        "wait_time": 60,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "d4a88bde-1718-4c5a-a0cf-40ab7a30d5d9",
+    "RaceWeekendID": "",
+    "EventName": "Adelaide"
+}

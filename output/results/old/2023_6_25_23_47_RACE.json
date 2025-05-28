@@ -1,0 +1,67 @@
+{
+    "id": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+    "track": "ks_laguna_seca;ks_laguna_seca",
+    "laps": [
+        {
+            "id": "4d8fba38-e878-4014-8889-2782a558557d",
+            "time": 108332,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561197997029041",
+            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c8089b5f-4a73-45ee-a063-1523638b7a37",
+            "time": 100290,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561197997029041",
+            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "31f6e3cc-ced4-4060-afb6-c6580d6c4be8",
+            "time": 101736,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561197997029041",
+            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "6a445267-7b4d-404b-8e3c-270dc79d49e9",
+            "racer": "76561197997029041",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_laguna_seca;ks_laguna_seca",
+            "date": "2023-06-25T23:47:22.413727368Z",
+            "laps": [
+                "4d8fba38-e878-4014-8889-2782a558557d",
+                "c8089b5f-4a73-45ee-a063-1523638b7a37",
+                "31f6e3cc-ced4-4060-afb6-c6580d6c4be8"
+            ],
+            "incidents": [],
+            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "mx5",
+    "filename": "2023_6_25_23_47_RACE.json",
+    "date": "2023-06-25T23:47:22.413727368Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561197997029041": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

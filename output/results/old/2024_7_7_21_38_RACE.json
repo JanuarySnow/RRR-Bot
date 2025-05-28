@@ -1,0 +1,111 @@
+{
+    "id": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+    "track": "monza;monza",
+    "laps": [
+        {
+            "id": "d6656b3f-06de-49a9-88f1-f1a2c77995fe",
+            "time": 125468,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199237719366",
+            "result": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+            "valid": false,
+            "cuts": 2
+        },
+        {
+            "id": "3477391f-9bae-43b1-9a6d-db266b9f6d27",
+            "time": 138847,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561198198838851",
+            "result": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "b92e8e4c-539a-4c53-b5a2-8c722104dc7f",
+            "time": 125688,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199237719366",
+            "result": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "93c05dde-f479-4c9a-915e-f361b89910cd",
+            "time": 122342,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561198198838851",
+            "result": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "f33f1687-f318-469d-8a88-227def6e49c4",
+            "time": 121788,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199237719366",
+            "result": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+            "valid": false,
+            "cuts": 2
+        }
+    ],
+    "entries": [
+        {
+            "id": "cb75f02f-a7cc-4ec2-8114-347a11e1a68e",
+            "racer": "76561199237719366",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "monza;monza",
+            "date": "2024-07-07T21:38:36.936435279Z",
+            "laps": [
+                "d6656b3f-06de-49a9-88f1-f1a2c77995fe",
+                "b92e8e4c-539a-4c53-b5a2-8c722104dc7f",
+                "f33f1687-f318-469d-8a88-227def6e49c4"
+            ],
+            "incidents": [],
+            "result": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+            "cuts": 4,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "1ac97f32-75db-4d1d-9488-2da99dcb7536",
+            "racer": "76561198198838851",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "monza;monza",
+            "date": "2024-07-07T21:38:36.936435279Z",
+            "laps": [
+                "3477391f-9bae-43b1-9a6d-db266b9f6d27",
+                "93c05dde-f479-4c9a-915e-f361b89910cd"
+            ],
+            "incidents": [
+                "9571c741-766c-47de-8ae5-c2e67796bddf"
+            ],
+            "result": "0b44f155-0b7e-4d3f-a434-700acdb58305",
+            "cuts": 4,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "9571c741-766c-47de-8ae5-c2e67796bddf",
+            "speed": 13.303577,
+            "racer": "76561198198838851",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_7_7_21_38_RACE.json",
+    "date": "2024-07-07T21:38:36.936435279Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199237719366": 3,
+        "76561198198838851": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

@@ -3,19 +3,31 @@ import content_data
 import racer
 import statsparser
 from logger_config import logger
+import uuid
+
 
 gt3ids = ["ks_audi_r8_lms_2016","bmw_z4_gt3", "ks_ferrari_488_gt3", "ks_lamborghini_huracan_gt3",
          "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016"]
 
 class Incident():
     def __init__(self, speed, racer, otherracer) -> None:
+        self.id = str(uuid.uuid4()) 
         self.speed = speed
         self.racer = racer
         self.otherracer = otherracer
         self.logger = logger
+    
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "speed": self.speed,
+            "racer": self.racer.guid if self.racer else None,
+            "otherracer": self.otherracer.guid if self.otherracer else None
+        }
 
 class Lap():
     def __init__(self, time, car, racerguid, result, valid, cuts) -> None:
+        self.id = str(uuid.uuid4()) 
         self.time = time
         self.car = car
         self.racerguid = racerguid
@@ -24,9 +36,21 @@ class Lap():
         self.cuts = cuts
         self.logger = logger
 
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "time": self.time,
+            "car": self.car,
+            "racerguid": self.racerguid,
+            "result": self.result.id,
+            "valid": self.valid,
+            "cuts": self.cuts
+        }
+
 # this is the driver-specific result
 class Entry():
     def __init__(self, racer, car, track, date):
+        self.id = str(uuid.uuid4()) 
         self.racer = racer
         self.car = car
         self.track = track
@@ -39,8 +63,24 @@ class Entry():
         self.ratingchange = 0
         self.logger = logger
 
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "racer": self.racer.guid,
+            "car": self.car.id,
+            "track": self.track.id,
+            "date": self.date,
+            "laps": [lap.id for lap in self.laps],
+            "incidents": [incident.id for incident in self.incidents],
+            "result": self.result.id if self.result else None,
+            "cuts": self.cuts,
+            "finishingposition": self.finishingposition,
+            "ratingchange": self.ratingchange
+        }
+
 class Result():
     def __init__(self):
+        self.id = str(uuid.uuid4()) 
         #racers is a dictionary of dictionarys
         #outer key is racer guid
         #inner key is finishing position, fastest lap ( for that racer ), starting position, incidents
@@ -59,6 +99,29 @@ class Result():
         self.shortorlong = "short"
         self.logger = logger
         self.server = ""
+        self.url = ""
+        self.directory = ""
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "track": self.track.id if self.track else None,
+            "laps": [lap.to_dict() for lap in self.laps],
+            "entries": [entry.to_dict() for entry in self.entries],
+            "endurance": self.endurance,
+            "incidents": [incident.to_dict() for incident in self.incidents],
+            "mx5orgt3": self.mx5orgt3,
+            "filename": self.filename,
+            "date": self.date,
+            "region": self.region,
+            "championshipid": self.championshipid,
+            "numlaps": self.numlaps,
+            "driverlaps": self.driverlaps,
+            "shortorlong": self.shortorlong,
+            "server": self.server,
+            "url": self.url,
+            "directory": self.directory,
+        }
 
     def set_region(self, data):
         if data["Region"] == "EU":

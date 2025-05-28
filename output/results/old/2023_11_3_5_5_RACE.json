@@ -1,0 +1,148 @@
+{
+    "id": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+    "track": "imola;imola",
+    "laps": [
+        {
+            "id": "be6c3591-621d-4704-b7de-c053e66a019f",
+            "time": 170468,
+            "car": "ferrari_458_gt2",
+            "racerguid": "76561198434546781",
+            "result": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+            "valid": false,
+            "cuts": 3
+        },
+        {
+            "id": "98d5b4a1-74f1-4d2b-8644-9686ec2896b6",
+            "time": 125683,
+            "car": "ferrari_458_gt2",
+            "racerguid": "76561198434546781",
+            "result": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+            "valid": false,
+            "cuts": 3
+        },
+        {
+            "id": "e783d15a-312f-470b-931c-ec7b20afaf17",
+            "time": 125074,
+            "car": "ferrari_458_gt2",
+            "racerguid": "76561198434546781",
+            "result": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "507f7204-eb8a-434a-ac2e-b52c6e42dc2f",
+            "time": 271594,
+            "car": "ferrari_458_gt2",
+            "racerguid": "76561198434546781",
+            "result": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "7c919033-99f9-44ab-9eba-16c7c96d9c39",
+            "time": 119112,
+            "car": "ferrari_458_gt2",
+            "racerguid": "76561198434546781",
+            "result": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c959065a-f4ac-4006-bd34-1d5ff90ab9a8",
+            "time": 113746,
+            "car": "ferrari_458_gt2",
+            "racerguid": "76561198434546781",
+            "result": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "46651400-12ea-43a0-b7ca-743d77e574ba",
+            "racer": "76561198434546781",
+            "car": "ferrari_458_gt2",
+            "track": "imola;imola",
+            "date": "2023-11-03T05:05:23.044122849Z",
+            "laps": [
+                "be6c3591-621d-4704-b7de-c053e66a019f",
+                "98d5b4a1-74f1-4d2b-8644-9686ec2896b6",
+                "e783d15a-312f-470b-931c-ec7b20afaf17",
+                "507f7204-eb8a-434a-ac2e-b52c6e42dc2f",
+                "7c919033-99f9-44ab-9eba-16c7c96d9c39",
+                "c959065a-f4ac-4006-bd34-1d5ff90ab9a8"
+            ],
+            "incidents": [
+                "b0c7568e-e795-4880-b801-9f819db6a4db",
+                "84590f93-2b05-46b7-adfe-4574ac91a11c",
+                "2c663c70-fc6d-4c6c-b1d8-280b412b1965",
+                "644e3644-0dfe-42ef-ae20-67640f868af7",
+                "4fc59c20-2e43-4dd1-8c19-40157aac9d54",
+                "23a20957-d0b7-4898-862a-62040001931b",
+                "372740a5-39a4-480e-975a-814f0606f55e"
+            ],
+            "result": "1a18f633-70d9-4dac-acb0-55d9ebc6a1a3",
+            "cuts": 6,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "b0c7568e-e795-4880-b801-9f819db6a4db",
+            "speed": 9.17678,
+            "racer": "76561198434546781",
+            "otherracer": null
+        },
+        {
+            "id": "84590f93-2b05-46b7-adfe-4574ac91a11c",
+            "speed": 36.85702,
+            "racer": "76561198434546781",
+            "otherracer": null
+        },
+        {
+            "id": "2c663c70-fc6d-4c6c-b1d8-280b412b1965",
+            "speed": 23.105633,
+            "racer": "76561198434546781",
+            "otherracer": null
+        },
+        {
+            "id": "644e3644-0dfe-42ef-ae20-67640f868af7",
+            "speed": 35.361675,
+            "racer": "76561198434546781",
+            "otherracer": null
+        },
+        {
+            "id": "4fc59c20-2e43-4dd1-8c19-40157aac9d54",
+            "speed": 91.10317,
+            "racer": "76561198434546781",
+            "otherracer": null
+        },
+        {
+            "id": "23a20957-d0b7-4898-862a-62040001931b",
+            "speed": 2.26492,
+            "racer": "76561198434546781",
+            "otherracer": null
+        },
+        {
+            "id": "372740a5-39a4-480e-975a-814f0606f55e",
+            "speed": 29.016203,
+            "racer": "76561198434546781",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2023_11_3_5_5_RACE.json",
+    "date": "2023-11-03T05:05:23.044122849Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 6,
+    "driverlaps": {
+        "76561198434546781": 6
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

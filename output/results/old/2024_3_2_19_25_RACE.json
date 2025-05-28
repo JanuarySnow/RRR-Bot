@@ -1,0 +1,63 @@
+{
+    "id": "7d36a0cb-7c68-4ad8-9fe3-e98d07d2ee8b",
+    "track": "prinzen_f3ct;prinzen_long",
+    "laps": [
+        {
+            "id": "8e536932-3e13-4ab1-9228-cb890403b3e3",
+            "time": 181553,
+            "car": "ks_maserati_250f_6cyl",
+            "racerguid": "76561198079460346",
+            "result": "7d36a0cb-7c68-4ad8-9fe3-e98d07d2ee8b",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "f2cd9e18-0be8-4ab2-af5d-69e71ea6b522",
+            "racer": "76561198079460346",
+            "car": "ks_maserati_250f_6cyl",
+            "track": "prinzen_f3ct;prinzen_long",
+            "date": "2024-03-02T19:25:00Z",
+            "laps": [
+                "8e536932-3e13-4ab1-9228-cb890403b3e3"
+            ],
+            "incidents": [
+                "ef9984f1-ede4-4650-8b9e-82f817cfbae4",
+                "5fb5ae43-4ad5-4041-9493-18cdd8b28db3"
+            ],
+            "result": "7d36a0cb-7c68-4ad8-9fe3-e98d07d2ee8b",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "ef9984f1-ede4-4650-8b9e-82f817cfbae4",
+            "speed": 24.461275,
+            "racer": "76561198079460346",
+            "otherracer": null
+        },
+        {
+            "id": "5fb5ae43-4ad5-4041-9493-18cdd8b28db3",
+            "speed": 49.322914,
+            "racer": "76561198079460346",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2024_3_2_19_25_RACE.json",
+    "date": "2024-03-02T19:25:00Z",
+    "region": "EU",
+    "championshipid": "85df30d3-76dc-4d2d-af63-d91594d7335e",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198079460346": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

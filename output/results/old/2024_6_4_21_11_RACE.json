@@ -1,0 +1,63 @@
+{
+    "id": "35dd8bd8-69f2-486b-84cb-dfa01864ad7e",
+    "track": "spa;spa",
+    "laps": [
+        {
+            "id": "722179b2-e13d-4a70-81f2-d8af46018433",
+            "time": 321068,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199053260491",
+            "result": "35dd8bd8-69f2-486b-84cb-dfa01864ad7e",
+            "valid": false,
+            "cuts": 1
+        }
+    ],
+    "entries": [
+        {
+            "id": "edc7354a-8bdf-4985-b4e8-89b8be7b8796",
+            "racer": "76561199053260491",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "spa;spa",
+            "date": "2024-06-04T21:11:26.842631878Z",
+            "laps": [
+                "722179b2-e13d-4a70-81f2-d8af46018433"
+            ],
+            "incidents": [
+                "fabd0fb3-8b23-42a6-8216-b04c70866e9d",
+                "3b5eb3ed-efb6-443f-b281-1d934195dd24"
+            ],
+            "result": "35dd8bd8-69f2-486b-84cb-dfa01864ad7e",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "fabd0fb3-8b23-42a6-8216-b04c70866e9d",
+            "speed": 5.208206,
+            "racer": "76561199053260491",
+            "otherracer": null
+        },
+        {
+            "id": "3b5eb3ed-efb6-443f-b281-1d934195dd24",
+            "speed": 45.342953,
+            "racer": "76561199053260491",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_6_4_21_11_RACE.json",
+    "date": "2024-06-04T21:11:26.842631878Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561199053260491": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

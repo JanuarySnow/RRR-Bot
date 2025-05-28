@@ -1,0 +1,67 @@
+{
+    "id": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+    "track": "imola;imola",
+    "laps": [
+        {
+            "id": "e0c496f4-1da2-4fbd-b54c-0d18c39fc214",
+            "time": 141449,
+            "car": "ks_bmw_m235i_racing",
+            "racerguid": "76561198008585393",
+            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "abdfcc6d-7321-41c7-aa76-48dd309b000d",
+            "time": 127447,
+            "car": "ks_bmw_m235i_racing",
+            "racerguid": "76561198008585393",
+            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "33d32d88-b1d1-4cb3-bd39-a6c69ef26eb3",
+            "time": 123873,
+            "car": "ks_bmw_m235i_racing",
+            "racerguid": "76561198008585393",
+            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "b2e00f3e-079e-4de9-8e46-47d2afa3e472",
+            "racer": "76561198008585393",
+            "car": "ks_bmw_m235i_racing",
+            "track": "imola;imola",
+            "date": "2023-11-11T18:29:58.593106682Z",
+            "laps": [
+                "e0c496f4-1da2-4fbd-b54c-0d18c39fc214",
+                "abdfcc6d-7321-41c7-aa76-48dd309b000d",
+                "33d32d88-b1d1-4cb3-bd39-a6c69ef26eb3"
+            ],
+            "incidents": [],
+            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "mx5",
+    "filename": "2023_11_11_18_29_RACE.json",
+    "date": "2023-11-11T18:29:58.593106682Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561198008585393": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

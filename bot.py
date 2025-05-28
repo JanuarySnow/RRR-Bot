@@ -73,7 +73,26 @@ intents.message_content = True
 intents.presences = True
 """
 
+
 intents = discord.Intents.default()
+intents.bans = True
+intents.dm_messages = True
+intents.dm_reactions = True
+intents.dm_typing = True
+intents.emojis = True
+intents.emojis_and_stickers = True
+intents.guild_messages = True
+intents.guild_reactions = True
+intents.guild_scheduled_events = True
+intents.guild_typing = True
+intents.guilds = True
+intents.integrations = True
+intents.invites = True
+intents.messages = True # `message_content` is required to get the content of the messages
+intents.reactions = True
+intents.typing = True
+intents.voice_states = True
+intents.webhooks = True
 """
 Uncomment this if you want to use prefix (normal) commands.
 It is recommended to use slash commands and therefore not use prefix commands.
@@ -214,8 +233,8 @@ class DiscordBot(commands.Bot):
         if message.author == self.user or message.author.bot:
             return
         if self.user.mentioned_in(message):
-            channelbot = discord.utils.get(self.get_all_channels(), name='bot-testing')
-            channelmember = discord.utils.get(self.get_all_channels(), name='members-chat')
+            channelbot = self.get_channel(1328800009189195828)
+            channelmember = self.get_channel(1317982679517626388)
             if message.channel != channelbot and message.channel != channelmember:
                 return
             await self.do_chat_message(message)
@@ -514,10 +533,7 @@ ALLOWED_CHANNELS = {
 
 @bot.before_invoke
 async def check_channel(ctx):
-    print("before invoke")
     allowed_channels = ALLOWED_CHANNELS.get(ctx.command.name, ALLOWED_CHANNELS["global"])
-    print("channelid = " + str(ctx.channel.id))
-    print("allowed_channels = " + str(allowed_channels))
     if allowed_channels and str(ctx.channel.id) not in allowed_channels:
         await ctx.send(f"This command cannot be used in this channel.")
         raise commands.CheckFailure  # Prevent command execution

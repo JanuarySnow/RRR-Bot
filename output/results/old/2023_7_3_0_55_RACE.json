@@ -1,0 +1,60 @@
+{
+    "id": "a68674a3-b74d-4380-965f-0cdf4fdcea8c",
+    "track": "ks_silverstone1967;ks_silverstone1967",
+    "laps": [
+        {
+            "id": "89962540-bedd-4a11-a384-d10cd123e060",
+            "time": 144950,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198952526653",
+            "result": "a68674a3-b74d-4380-965f-0cdf4fdcea8c",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "c9053775-85a7-43c9-94ff-1e10a041ee01",
+            "racer": "76561198952526653",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_silverstone1967;ks_silverstone1967",
+            "date": "2023-07-03T00:55:13.001087713Z",
+            "laps": [
+                "89962540-bedd-4a11-a384-d10cd123e060"
+            ],
+            "incidents": [],
+            "result": "a68674a3-b74d-4380-965f-0cdf4fdcea8c",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "fa4d3062-ca2a-4366-af69-6d52a718e32a",
+            "racer": "76561198876992006",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_silverstone1967;ks_silverstone1967",
+            "date": "2023-07-03T00:55:13.001087713Z",
+            "laps": [],
+            "incidents": [],
+            "result": "a68674a3-b74d-4380-965f-0cdf4fdcea8c",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "mx5",
+    "filename": "2023_7_3_0_55_RACE.json",
+    "date": "2023-07-03T00:55:13.001087713Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198952526653": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

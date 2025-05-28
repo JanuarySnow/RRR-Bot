@@ -1,0 +1,109 @@
+{
+    "id": "93e759b5-1a88-4be2-955d-e74dd4cdc2d1",
+    "track": "ks_barcelona;layout_moto",
+    "laps": [
+        {
+            "id": "7aa2e4c5-bba7-4b1e-9a32-23ecbad3fad7",
+            "time": 114936,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561198967834986",
+            "result": "93e759b5-1a88-4be2-955d-e74dd4cdc2d1",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "ed416218-7149-4d3d-9c73-ddde7d9db9b0",
+            "time": 119095,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561198808524102",
+            "result": "93e759b5-1a88-4be2-955d-e74dd4cdc2d1",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "83861a93-97a7-4900-aa0f-54777bb94334",
+            "racer": "76561198967834986",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2024-10-23T05:22:48.155450117Z",
+            "laps": [
+                "7aa2e4c5-bba7-4b1e-9a32-23ecbad3fad7"
+            ],
+            "incidents": [
+                "b0ff1ebc-408f-4def-b066-dee16c2a3281"
+            ],
+            "result": "93e759b5-1a88-4be2-955d-e74dd4cdc2d1",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 2.0
+        },
+        {
+            "id": "0432b9cf-6254-4118-9a87-3a36a30a98a7",
+            "racer": "76561198808524102",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2024-10-23T05:22:48.155450117Z",
+            "laps": [
+                "ed416218-7149-4d3d-9c73-ddde7d9db9b0"
+            ],
+            "incidents": [],
+            "result": "93e759b5-1a88-4be2-955d-e74dd4cdc2d1",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": 0.0
+        },
+        {
+            "id": "07f58988-2e75-4a38-8cde-b961930a4ff6",
+            "racer": "76561198151404035",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2024-10-23T05:22:48.155450117Z",
+            "laps": [],
+            "incidents": [
+                "d4e0d28b-e56c-435d-9a1b-a17c87dbd276",
+                "39a55919-4d6e-435a-b214-2e024c714f23"
+            ],
+            "result": "93e759b5-1a88-4be2-955d-e74dd4cdc2d1",
+            "cuts": 0,
+            "finishingposition": 3,
+            "ratingchange": -1.99
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "d4e0d28b-e56c-435d-9a1b-a17c87dbd276",
+            "speed": 21.182806,
+            "racer": "76561198151404035",
+            "otherracer": null
+        },
+        {
+            "id": "39a55919-4d6e-435a-b214-2e024c714f23",
+            "speed": 70.206245,
+            "racer": "76561198151404035",
+            "otherracer": null
+        },
+        {
+            "id": "b0ff1ebc-408f-4def-b066-dee16c2a3281",
+            "speed": 16.921434,
+            "racer": "76561198967834986",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_10_23_5_22_RACE.json",
+    "date": "2024-10-23T05:22:48.155450117Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198967834986": 1,
+        "76561198808524102": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

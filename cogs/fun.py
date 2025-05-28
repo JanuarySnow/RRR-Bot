@@ -224,7 +224,7 @@ class Fun(commands.Cog, name="fun"):
     @commands.is_owner()
     async def russianroulette(self, context: Context) -> None:
         userlist = []
-        channel = discord.utils.get(self.bot.get_all_channels(), name='bot-testing')
+        channel = self.get_channel(1328800009189195828)
 
         async for message in channel.history(limit=200):
             if message.author not in userlist:

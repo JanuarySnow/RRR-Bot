@@ -23,6 +23,30 @@ class Car:
         self.author = ""
         self.url = ""
         self.version = ""
+        self.download_url = None 
+        self.imagepath = None
+    
+    def to_dict(self):
+        retdict = {}
+        retdict["id"] = self.id
+        retdict["name"] = self.name
+        retdict["brand"] = self.brand
+        retdict["usages"] = self.rrrusages
+        retdict["trackusages"] = self.trackusages
+        retdict["carclass"] = self.carclass
+        retdict["country"] = self.country
+        retdict["description"] = self.description
+        retdict["tags"] = self.tags
+        retdict["torquecurve"] = self.torquecurve
+        retdict["powercurve"] = self.powercurve
+        retdict["year"] = self.year
+        retdict["author"] = self.author
+        retdict["specs"] = self.specs
+        retdict["url"] = self.url
+        retdict["version"] = self.version
+        retdict["download_url"] = self.download_url
+        retdict["imagepath"] = self.imagepath
+        return retdict
 
 class Track:
     def __init__(self, track_id, highest_priority_id, highest_priority_name):
@@ -33,6 +57,20 @@ class Track:
         self.average_rating = 0
         self.ratings = {} # userid, int
         self.timesused = 0
+        
+
+    def to_dict(self):
+        retdict = {}
+        retdict["id"] = self.id
+        retdict["highestpriorityid"] = self.highest_priority_id
+        retdict["highestpriorityname"] = self.highest_priority_name
+        retdict["average_rating"] = self.average_rating
+        retdict["ratings"] = self.ratings
+        retdict["timesused"] = self.timesused
+        retdict["variants"] = []
+        for variant in self.variants:
+            retdict["variants"].append(variant.to_dict())
+        return retdict
 
 class TrackVariant:
     def __init__(self, variant_id, name, priority, parent_track):
@@ -54,6 +92,34 @@ class TrackVariant:
         self.url = ""
         self.year = 0
         self.laps = [] # list of lap objects
+        self.download_url = None 
+        self.imagepath = None
+
+    def to_dict(self):
+        retdict = {}
+        retdict["id"] = self.id
+        retdict["name"] = self.name
+        retdict["priority"] = self.priority
+        retdict["description"] = self.description
+        retdict["parent_track"] = self.parent_track.id
+        retdict["tags"] = self.tags
+        retdict["geotags"] = self.geotags
+        retdict["country"] = self.country
+        retdict["city"] = self.city
+        retdict["length"] = self.length
+        retdict["width"] = self.width
+        retdict["pitboxes"] = self.pitboxes
+        retdict["run"] = self.run
+        retdict["author"] = self.author
+        retdict["version"] = self.version
+        retdict["url"] = self.url
+        retdict["year"] = self.year
+        retdict["laps"] = []
+        retdict["download_url"] = self.download_url
+        retdict["imagepath"] = self.imagepath
+        for lap in self.laps:
+            retdict["laps"].append(lap.id)
+        return retdict
 
     def add_lap(self, lap):
         self.laps.append(lap)
@@ -113,7 +179,34 @@ class TrackVariant:
                     if lap.time < fastest.time:
                         fastest = lap
         return fastest
+    
+    def get_average_lap_in_mx5(self, racerguid: str = None) -> float | None:
+        """Return the average MX-5 lap time (ms), or None if no valid laps."""
+        # collect only valid MX-5 laps (and only this driver if racerguid set)
+        laps = [
+            lap for lap in self.laps
+            if lap.valid
+            and lap.car == "ks_mazda_mx5_cup"
+            and (racerguid is None or lap.racerguid == racerguid)
+        ]
+        if not laps:
+            return None
+        total = sum(lap.time for lap in laps)
+        return total / len(laps)
 
+
+    def get_average_lap_in_gt3(self, racerguid: str = None) -> float | None:
+        """Return the average GT3 lap time (ms), or None if no valid laps."""
+        laps = [
+            lap for lap in self.laps
+            if lap.valid
+            and lap.car in gt3ids
+            and (racerguid is None or lap.racerguid == racerguid)
+        ]
+        if not laps:
+            return None
+        total = sum(lap.time for lap in laps)
+        return total / len(laps)
 
 class Contentdata:
     def __init__(self):
@@ -184,6 +277,7 @@ class Contentdata:
             car.author = car_data.get("author", "")
             car.url = car_data.get("url", "")
             car.version = car_data.get("version", "")
+            car.specs = car_data.get("specs", {})
             self.cars.append(car)
 
     def load_tracks(self):

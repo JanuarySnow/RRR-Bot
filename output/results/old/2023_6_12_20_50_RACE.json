@@ -1,0 +1,106 @@
+{
+    "id": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+    "track": "ks_brands_hatch;gp",
+    "laps": [
+        {
+            "id": "15084202-5e72-47d5-99bd-424c7a2886fb",
+            "time": 296870,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199183099394",
+            "result": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "6f40b866-9456-4611-b708-48256f97b4a9",
+            "time": 101653,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199183099394",
+            "result": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1ac3b8d2-e34f-4f3b-962e-b8e873dba39f",
+            "time": 102434,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199183099394",
+            "result": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "67eb4cac-93bb-409b-810e-fd35cdbe66ae",
+            "time": 104803,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199183099394",
+            "result": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "176b9ff6-8832-4868-9eb0-c94586a1c113",
+            "time": 107762,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199183099394",
+            "result": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "01fd2209-0aae-444f-a03f-94f49cb636fb",
+            "time": 115986,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199183099394",
+            "result": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "0768c153-e3d0-4809-85fa-d7d744918afc",
+            "racer": "76561199183099394",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_brands_hatch;gp",
+            "date": "2023-06-12T20:50:26.114181473Z",
+            "laps": [
+                "15084202-5e72-47d5-99bd-424c7a2886fb",
+                "6f40b866-9456-4611-b708-48256f97b4a9",
+                "1ac3b8d2-e34f-4f3b-962e-b8e873dba39f",
+                "67eb4cac-93bb-409b-810e-fd35cdbe66ae",
+                "176b9ff6-8832-4868-9eb0-c94586a1c113",
+                "01fd2209-0aae-444f-a03f-94f49cb636fb"
+            ],
+            "incidents": [
+                "bef2f13d-e636-43da-bc47-4c0af1209cf3"
+            ],
+            "result": "c5ebc77e-811d-4ac8-b720-02b64621db98",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "bef2f13d-e636-43da-bc47-4c0af1209cf3",
+            "speed": 12.26934,
+            "racer": "76561199183099394",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2023_6_12_20_50_RACE.json",
+    "date": "2023-06-12T20:50:26.114181473Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 6,
+    "driverlaps": {
+        "76561199183099394": 6
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

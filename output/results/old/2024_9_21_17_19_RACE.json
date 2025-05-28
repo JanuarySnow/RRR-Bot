@@ -1,0 +1,56 @@
+{
+    "id": "6376884c-41b5-4e5a-90e8-927a1f49a886",
+    "track": "spa;spa",
+    "laps": [
+        {
+            "id": "82d1df9c-0f7a-465f-b025-818a11a82a00",
+            "time": 150721,
+            "car": "ks_ferrari_488_gt3",
+            "racerguid": "76561198238132230",
+            "result": "6376884c-41b5-4e5a-90e8-927a1f49a886",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "237c93fb-5cbc-4dd7-8f84-a8de2f440a53",
+            "racer": "76561198238132230",
+            "car": "ks_ferrari_488_gt3",
+            "track": "spa;spa",
+            "date": "2024-09-21T17:19:02.001989143Z",
+            "laps": [
+                "82d1df9c-0f7a-465f-b025-818a11a82a00"
+            ],
+            "incidents": [
+                "d7806cff-dfdb-42e9-aade-1a946da9dba6"
+            ],
+            "result": "6376884c-41b5-4e5a-90e8-927a1f49a886",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "d7806cff-dfdb-42e9-aade-1a946da9dba6",
+            "speed": 360.63797,
+            "racer": "76561198238132230",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_9_21_17_19_RACE.json",
+    "date": "2024-09-21T17:19:02.001989143Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198238132230": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

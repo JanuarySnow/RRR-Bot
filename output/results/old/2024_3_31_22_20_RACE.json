@@ -1,0 +1,113 @@
+{
+    "id": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+    "track": "monza;monza",
+    "laps": [
+        {
+            "id": "5c08a888-288f-48b0-9ad6-80496043458d",
+            "time": 97368,
+            "car": "ks_ferrari_f2004",
+            "racerguid": "76561198649593117",
+            "result": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "3ca223c7-6e0a-4cd9-b57f-8668ff32c9ed",
+            "time": 96669,
+            "car": "ks_ferrari_f2004",
+            "racerguid": "76561198649593117",
+            "result": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "cd084186-f755-4683-a54d-d2caf32d1287",
+            "time": 150134,
+            "car": "ferrari_458",
+            "racerguid": "76561198649593117",
+            "result": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c6e0f7a2-eb5a-4beb-99ac-e57171d39a0e",
+            "time": 126012,
+            "car": "ferrari_458",
+            "racerguid": "76561198649593117",
+            "result": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "d4e2de75-b84a-415b-8b88-d58ff7ba646f",
+            "racer": "76561198649593117",
+            "car": "ks_ferrari_f2004",
+            "track": "monza;monza",
+            "date": "2024-03-31T22:20:33.401521259Z",
+            "laps": [
+                "5c08a888-288f-48b0-9ad6-80496043458d",
+                "3ca223c7-6e0a-4cd9-b57f-8668ff32c9ed",
+                "cd084186-f755-4683-a54d-d2caf32d1287",
+                "c6e0f7a2-eb5a-4beb-99ac-e57171d39a0e"
+            ],
+            "incidents": [],
+            "result": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+            "cuts": 1,
+            "finishingposition": 3,
+            "ratingchange": 0
+        },
+        {
+            "id": "db055eac-babd-4951-99cd-93880a04ba1c",
+            "racer": "76561198649593117",
+            "car": "ferrari_458",
+            "track": "monza;monza",
+            "date": "2024-03-31T22:20:33.401521259Z",
+            "laps": [
+                "5c08a888-288f-48b0-9ad6-80496043458d",
+                "3ca223c7-6e0a-4cd9-b57f-8668ff32c9ed",
+                "cd084186-f755-4683-a54d-d2caf32d1287",
+                "c6e0f7a2-eb5a-4beb-99ac-e57171d39a0e"
+            ],
+            "incidents": [],
+            "result": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+            "cuts": 1,
+            "finishingposition": 3,
+            "ratingchange": 0
+        },
+        {
+            "id": "e1e02ff4-593d-4d1b-b01d-92310152c12d",
+            "racer": "76561198649593117",
+            "car": "ferrari_312t",
+            "track": "monza;monza",
+            "date": "2024-03-31T22:20:33.401521259Z",
+            "laps": [
+                "5c08a888-288f-48b0-9ad6-80496043458d",
+                "3ca223c7-6e0a-4cd9-b57f-8668ff32c9ed",
+                "cd084186-f755-4683-a54d-d2caf32d1287",
+                "c6e0f7a2-eb5a-4beb-99ac-e57171d39a0e"
+            ],
+            "incidents": [],
+            "result": "9415d669-a3c5-4bb7-9849-9a2c565f888c",
+            "cuts": 1,
+            "finishingposition": 3,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "gt3",
+    "filename": "2024_3_31_22_20_RACE.json",
+    "date": "2024-03-31T22:20:33.401521259Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 4,
+    "driverlaps": {
+        "76561198649593117": 4
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

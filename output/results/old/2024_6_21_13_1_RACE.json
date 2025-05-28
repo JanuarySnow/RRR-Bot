@@ -1,0 +1,179 @@
+{
+    "id": "411b221f-bacf-4b2f-8e57-2014c0ceca00",
+    "track": "ks_silverstone1967;ks_silverstone1967",
+    "laps": [
+        {
+            "id": "90f1c0a8-c203-4320-bd58-83d5a885f0f7",
+            "time": 140774,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199164320117",
+            "result": "411b221f-bacf-4b2f-8e57-2014c0ceca00",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "03cea69d-16ee-4ac8-9933-0b5a9eb37b4a",
+            "time": 145270,
+            "car": "ks_ferrari_488_gt3",
+            "racerguid": "76561199610528034",
+            "result": "411b221f-bacf-4b2f-8e57-2014c0ceca00",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "840c93b0-dfb6-4139-98f2-29c58a295552",
+            "time": 96834,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199164320117",
+            "result": "411b221f-bacf-4b2f-8e57-2014c0ceca00",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "581f432f-bbfb-4072-856e-1e00fbdad5e1",
+            "time": 136923,
+            "car": "ks_ferrari_488_gt3",
+            "racerguid": "76561199610528034",
+            "result": "411b221f-bacf-4b2f-8e57-2014c0ceca00",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "70c28c11-8c20-4de3-9ad0-dfaf550a0e43",
+            "racer": "76561199164320117",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "ks_silverstone1967;ks_silverstone1967",
+            "date": "2024-06-21T13:01:55.925084213Z",
+            "laps": [
+                "90f1c0a8-c203-4320-bd58-83d5a885f0f7",
+                "840c93b0-dfb6-4139-98f2-29c58a295552"
+            ],
+            "incidents": [
+                "f41966cd-f677-4ed8-b215-7c020cafb91f",
+                "b14e1adf-a7d5-4d22-9ebf-eb4d9336748a",
+                "4ff71be9-50e1-46b7-8c1d-990b6e474660"
+            ],
+            "result": "411b221f-bacf-4b2f-8e57-2014c0ceca00",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "f08ba5dc-1cbe-4b56-88a9-671517ef3257",
+            "racer": "76561199610528034",
+            "car": "ks_ferrari_488_gt3",
+            "track": "ks_silverstone1967;ks_silverstone1967",
+            "date": "2024-06-21T13:01:55.925084213Z",
+            "laps": [
+                "03cea69d-16ee-4ac8-9933-0b5a9eb37b4a",
+                "581f432f-bbfb-4072-856e-1e00fbdad5e1"
+            ],
+            "incidents": [
+                "c7c1ff5f-83c7-4ac9-886b-6a0a176aaaff",
+                "a9773b4d-a47e-4aeb-ab6b-f7cc31e82bae",
+                "e74466c1-ccf6-4b87-ac0d-934332733ade",
+                "7095b313-1f0d-4360-aabc-50f1ed92f1e9",
+                "fd473ff2-cdec-48ae-a8cc-796aad4bb341",
+                "fda1f723-b7cf-4b99-92a1-5f6f44e10809",
+                "8fac2eaf-22f7-4a25-b9b6-965baf9b0360",
+                "926bdc45-5cc5-46e7-9dd0-a64cd212fb8d",
+                "6224a50b-691e-43ba-985b-b8134727bbb2"
+            ],
+            "result": "411b221f-bacf-4b2f-8e57-2014c0ceca00",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "c7c1ff5f-83c7-4ac9-886b-6a0a176aaaff",
+            "speed": 58.788223,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "f41966cd-f677-4ed8-b215-7c020cafb91f",
+            "speed": 53.947475,
+            "racer": "76561199164320117",
+            "otherracer": null
+        },
+        {
+            "id": "a9773b4d-a47e-4aeb-ab6b-f7cc31e82bae",
+            "speed": 21.39117,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "e74466c1-ccf6-4b87-ac0d-934332733ade",
+            "speed": 3.3649182,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "7095b313-1f0d-4360-aabc-50f1ed92f1e9",
+            "speed": 41.271263,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "fd473ff2-cdec-48ae-a8cc-796aad4bb341",
+            "speed": 46.8793,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "fda1f723-b7cf-4b99-92a1-5f6f44e10809",
+            "speed": 8.36157,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "8fac2eaf-22f7-4a25-b9b6-965baf9b0360",
+            "speed": 101.54263,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "b14e1adf-a7d5-4d22-9ebf-eb4d9336748a",
+            "speed": 112.374596,
+            "racer": "76561199164320117",
+            "otherracer": null
+        },
+        {
+            "id": "926bdc45-5cc5-46e7-9dd0-a64cd212fb8d",
+            "speed": 18.217024,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "6224a50b-691e-43ba-985b-b8134727bbb2",
+            "speed": 41.083862,
+            "racer": "76561199610528034",
+            "otherracer": null
+        },
+        {
+            "id": "4ff71be9-50e1-46b7-8c1d-990b6e474660",
+            "speed": 16.876806,
+            "racer": "76561199164320117",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_6_21_13_1_RACE.json",
+    "date": "2024-06-21T13:01:55.925084213Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561199164320117": 2,
+        "76561199610528034": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

@@ -1,0 +1,2029 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198007554388",
+                "GuidsList": [
+                    "76561198007554388"
+                ],
+                "Name": "Ken Scott",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "56_guerilla_racing",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 114,
+            "MaxPing": 5917
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_mclaren_570s",
+            "Restrictor": 0,
+            "Skin": "rm_british_gt_championship_2019_hhc_motorsport_58",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 110,
+            "MaxPing": 839
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198150780911",
+                "GuidsList": [
+                    "76561198150780911"
+                ],
+                "Name": "Andy Thompson",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_porsche_cayman_718",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_allied_racing_21",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 129,
+            "MaxPing": 143
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198269003680",
+                "GuidsList": [
+                    "76561198269003680"
+                ],
+                "Name": "Ivan Stublic",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_alpine_a110",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_redele_competition_35",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 41,
+            "MaxPing": 166
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_mclaren_570s",
+            "Restrictor": 0,
+            "Skin": "rm_british_gt_championship_2019_hhc_motorsport_57",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561199016198981",
+                "GuidsList": [
+                    "76561199016198981"
+                ],
+                "Name": "projectpurple",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_toyota_supra",
+            "Restrictor": 0,
+            "Skin": "GR_Racing_Red_White",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 160,
+            "MaxPing": 1346
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199843678045",
+                "GuidsList": [
+                    "76561199843678045"
+                ],
+                "Name": "Jean-Claude Fontana",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "109_ovr_racing",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198269003680",
+                "GuidsList": [
+                    "76561198269003680"
+                ],
+                "Name": "Ivan Stublic",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_ford_mustang",
+            "Restrictor": 0,
+            "Skin": "PF_Racing_40",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_ginetta_g55",
+            "Restrictor": 0,
+            "Skin": "me_gt4_european_series_ttp_ginetta_JONGH_91",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_ginetta_g55",
+            "Restrictor": 0,
+            "Skin": "me_gt4_european_series_ttp_ginetta_DAN_991",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_mclaren_570s",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_las_moras_racing_team_11",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_alpine_a110",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_redele_competition_76",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_alpine_a110",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_cmr_9",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199698700081",
+                "GuidsList": [
+                    "76561199698700081"
+                ],
+                "Name": "ApexMagnet",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_porsche_cayman_718",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_2019_centri_porsche_ticino_718",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_ginetta_g55",
+            "Restrictor": 0,
+            "Skin": "me_gt4_european_series_ttp_ginetta_PAVEL_191",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "76561198008585393",
+                "GuidsList": [
+                    "76561198008585393"
+                ],
+                "Name": "Georgi Choparinov",
+                "Nation": "BGR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_toyota_supra",
+            "Restrictor": 0,
+            "Skin": "GR_Racing_Yellow",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 9,
+            "MaxPing": 1024
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198940512950",
+                "GuidsList": [
+                    "76561198940512950"
+                ],
+                "Name": "baller",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "gt4_toyota_supra",
+            "Restrictor": 0,
+            "Skin": "GR_Racing_Silver",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "MinPing": 41,
+            "MaxPing": 29712
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "Model": "gt4_porsche_cayman_718",
+            "Restrictor": 0,
+            "Skin": "rm_gt4_european_series_fictional_porsche_motorsport_purple_997",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 44.441296,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198007554388",
+                "GuidsList": [
+                    "76561198007554388"
+                ],
+                "Name": "Ken Scott",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9557971,
+                "Y": -0.2910162,
+                "Z": -1.6082873
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -455.90323,
+                "Y": 0.92768145,
+                "Z": -152.68932
+            },
+            "Timestamp": 1746560033,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198007554388",
+                "GuidsList": [
+                    "76561198007554388"
+                ],
+                "Name": "Ken Scott",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 33.9073,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.8527392,
+                "Y": -0.17305163,
+                "Z": 1.8383381
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -455.98218,
+                "Y": 0.96928,
+                "Z": -152.70074
+            },
+            "Timestamp": 1746560033,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198007554388",
+                "GuidsList": [
+                    "76561198007554388"
+                ],
+                "Name": "Ken Scott",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 16.42009,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.8854942,
+                "Y": -0.05079774,
+                "Z": 1.7731717
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -960.1608,
+                "Y": -8.258195,
+                "Z": -211.941
+            },
+            "Timestamp": 1746560079,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198013813110",
+                "GuidsList": [
+                    "76561198013813110"
+                ],
+                "Name": "Josh Fulton",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 4.2738786,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198007554388",
+                "GuidsList": [
+                    "76561198007554388"
+                ],
+                "Name": "Ken Scott",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.94592327,
+                "Y": 0.36139134,
+                "Z": -0.07893801
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -959.3857,
+                "Y": -7.8768487,
+                "Z": -212.98428
+            },
+            "Timestamp": 1746560079,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198007554388",
+                "GuidsList": [
+                    "76561198007554388"
+                ],
+                "Name": "Ken Scott",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 27.25739,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8"
+            },
+            "RelPosition": {
+                "X": -0.55030316,
+                "Y": -0.21320285,
+                "Z": 2.1473272
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -783.7415,
+                "Y": -4.6891127,
+                "Z": -285.16867
+            },
+            "Timestamp": 1746560087,
+            "AfterSessionEnd": false
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 108634,
+            "Restrictor": 0,
+            "Sectors": [
+                59408,
+                24670,
+                24556
+            ],
+            "Timestamp": 1746560126,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 108917,
+            "Restrictor": 0,
+            "Sectors": [
+                60147,
+                24074,
+                24696
+            ],
+            "Timestamp": 1746560126,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 109864,
+            "Restrictor": 0,
+            "Sectors": [
+                61835,
+                24237,
+                23792
+            ],
+            "Timestamp": 1746560127,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 1,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 111469,
+            "Restrictor": 0,
+            "Sectors": [
+                62212,
+                24574,
+                24683
+            ],
+            "Timestamp": 1746560129,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 97544,
+            "Restrictor": 0,
+            "Sectors": [
+                50663,
+                23265,
+                23616
+            ],
+            "Timestamp": 1746560224,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 99672,
+            "Restrictor": 0,
+            "Sectors": [
+                51431,
+                23711,
+                24530
+            ],
+            "Timestamp": 1746560227,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 5,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 100976,
+            "Restrictor": 0,
+            "Sectors": [
+                52084,
+                23935,
+                24957
+            ],
+            "Timestamp": 1746560227,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 6,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 100500,
+            "Restrictor": 0,
+            "Sectors": [
+                52242,
+                24065,
+                24193
+            ],
+            "Timestamp": 1746560229,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 97553,
+            "Restrictor": 0,
+            "Sectors": [
+                50789,
+                23221,
+                23543
+            ],
+            "Timestamp": 1746560321,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 98509,
+            "Restrictor": 0,
+            "Sectors": [
+                50850,
+                23791,
+                23868
+            ],
+            "Timestamp": 1746560325,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 3,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 100424,
+            "Restrictor": 0,
+            "Sectors": [
+                51861,
+                24286,
+                24277
+            ],
+            "Timestamp": 1746560327,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 100035,
+            "Restrictor": 0,
+            "Sectors": [
+                51948,
+                24066,
+                24021
+            ],
+            "Timestamp": 1746560329,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 2,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 97185,
+            "Restrictor": 0,
+            "Sectors": [
+                50537,
+                22932,
+                23716
+            ],
+            "Timestamp": 1746560418,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 98686,
+            "Restrictor": 0,
+            "Sectors": [
+                50833,
+                23688,
+                24165
+            ],
+            "Timestamp": 1746560424,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 99110,
+            "Restrictor": 0,
+            "Sectors": [
+                51329,
+                23751,
+                24030
+            ],
+            "Timestamp": 1746560426,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 100714,
+            "Restrictor": 0,
+            "Sectors": [
+                51245,
+                24836,
+                24633
+            ],
+            "Timestamp": 1746560430,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 96952,
+            "Restrictor": 0,
+            "Sectors": [
+                50444,
+                23103,
+                23405
+            ],
+            "Timestamp": 1746560515,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 7,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 100226,
+            "Restrictor": 0,
+            "Sectors": [
+                52274,
+                24075,
+                23877
+            ],
+            "Timestamp": 1746560527,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 5,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 104180,
+            "Restrictor": 0,
+            "Sectors": [
+                51944,
+                24687,
+                27549
+            ],
+            "Timestamp": 1746560528,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 99784,
+            "Restrictor": 0,
+            "Sectors": [
+                51535,
+                24197,
+                24052
+            ],
+            "Timestamp": 1746560530,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 97570,
+            "Restrictor": 0,
+            "Sectors": [
+                50441,
+                23648,
+                23481
+            ],
+            "Timestamp": 1746560613,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 99147,
+            "Restrictor": 0,
+            "Sectors": [
+                51406,
+                23782,
+                23959
+            ],
+            "Timestamp": 1746560626,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 2,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 98849,
+            "Restrictor": 0,
+            "Sectors": [
+                51599,
+                23392,
+                23858
+            ],
+            "Timestamp": 1746560627,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 0,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 100761,
+            "Restrictor": 0,
+            "Sectors": [
+                51630,
+                24907,
+                24224
+            ],
+            "Timestamp": 1746560631,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 96832,
+            "Restrictor": 0,
+            "Sectors": [
+                50406,
+                23071,
+                23355
+            ],
+            "Timestamp": 1746560710,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 99477,
+            "Restrictor": 0,
+            "Sectors": [
+                51326,
+                24211,
+                23940
+            ],
+            "Timestamp": 1746560725,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 99119,
+            "Restrictor": 0,
+            "Sectors": [
+                51140,
+                24022,
+                23957
+            ],
+            "Timestamp": 1746560726,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "Cuts": 1,
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "LapTime": 101605,
+            "Restrictor": 0,
+            "Sectors": [
+                51515,
+                24219,
+                25871
+            ],
+            "Timestamp": 1746560732,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 2,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 97556,
+            "Restrictor": 0,
+            "Sectors": [
+                50338,
+                23701,
+                23517
+            ],
+            "Timestamp": 1746560807,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 14,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 100457,
+            "Restrictor": 0,
+            "Sectors": [
+                51371,
+                24269,
+                24817
+            ],
+            "Timestamp": 1746560826,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 99776,
+            "Restrictor": 0,
+            "Sectors": [
+                52203,
+                23588,
+                23985
+            ],
+            "Timestamp": 1746560826,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 97778,
+            "Restrictor": 0,
+            "Sectors": [
+                50547,
+                23359,
+                23872
+            ],
+            "Timestamp": 1746560905,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 17,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 16,
+                "WindDirection": -130,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 100307,
+            "Restrictor": 0,
+            "Sectors": [
+                51797,
+                24314,
+                24196
+            ],
+            "Timestamp": 1746560926,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 16.788471,
+                "Road": 25.788471,
+                "Grip": 1,
+                "WindSpeed": 15.894236,
+                "WindDirection": -108.21156,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 100415,
+            "Restrictor": 0,
+            "Sectors": [
+                51797,
+                24566,
+                24052
+            ],
+            "Timestamp": 1746560926,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 16.788471,
+                "Road": 25.788471,
+                "Grip": 1,
+                "WindSpeed": 15.894236,
+                "WindDirection": -108.21156,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 97135,
+            "Restrictor": 0,
+            "Sectors": [
+                50402,
+                23184,
+                23549
+            ],
+            "Timestamp": 1746561002,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 15.326966,
+                "Road": 24.327,
+                "Grip": 1,
+                "WindSpeed": 15.1635,
+                "WindDirection": 42.326866,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 100055,
+            "Restrictor": 0,
+            "Sectors": [
+                51752,
+                24071,
+                24232
+            ],
+            "Timestamp": 1746561026,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 99767,
+            "Restrictor": 0,
+            "Sectors": [
+                51788,
+                24080,
+                23899
+            ],
+            "Timestamp": 1746561026,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 100346,
+            "Restrictor": 0,
+            "Sectors": [
+                50802,
+                25775,
+                23769
+            ],
+            "Timestamp": 1746561103,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 99579,
+            "Restrictor": 0,
+            "Sectors": [
+                51883,
+                23976,
+                23720
+            ],
+            "Timestamp": 1746561126,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 101968,
+            "Restrictor": 0,
+            "Sectors": [
+                53183,
+                24111,
+                24674
+            ],
+            "Timestamp": 1746561128,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 1,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 98372,
+            "Restrictor": 0,
+            "Sectors": [
+                50790,
+                23679,
+                23903
+            ],
+            "Timestamp": 1746561201,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 99580,
+            "Restrictor": 0,
+            "Sectors": [
+                51776,
+                24053,
+                23751
+            ],
+            "Timestamp": 1746561225,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 100063,
+            "Restrictor": 0,
+            "Sectors": [
+                51647,
+                24080,
+                24336
+            ],
+            "Timestamp": 1746561228,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "LapTime": 98220,
+            "Restrictor": 0,
+            "Sectors": [
+                50785,
+                23386,
+                24049
+            ],
+            "Timestamp": 1746561299,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "LapTime": 99689,
+            "Restrictor": 0,
+            "Sectors": [
+                51360,
+                24011,
+                24318
+            ],
+            "Timestamp": 1746561325,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "Cuts": 0,
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "LapTime": 103317,
+            "Restrictor": 0,
+            "Sectors": [
+                52242,
+                25398,
+                25677
+            ],
+            "Timestamp": 1746561331,
+            "Tyre": "GT4",
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 14.980811,
+                "Road": 23.980862,
+                "Grip": 1,
+                "WindSpeed": 14.990431,
+                "WindDirection": 77.9807,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 96832,
+            "CarId": 16,
+            "CarModel": "gt4_toyota_supra",
+            "DriverGuid": "76561198940512950",
+            "DriverName": "baller",
+            "Restrictor": 0,
+            "TotalTime": 1283435,
+            "NumLaps": 13,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 5
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 98509,
+            "CarId": 5,
+            "CarModel": "gt4_toyota_supra",
+            "DriverGuid": "76561199016198981",
+            "DriverName": "projectpurple",
+            "Restrictor": 0,
+            "TotalTime": 1309108,
+            "NumLaps": 13,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 4
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 99110,
+            "CarId": 15,
+            "CarModel": "gt4_toyota_supra",
+            "DriverGuid": "76561198008585393",
+            "DriverName": "Georgi Choparinov",
+            "Restrictor": 0,
+            "TotalTime": 1315628,
+            "NumLaps": 13,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 1
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 99784,
+            "CarId": 1,
+            "CarModel": "gt4_mclaren_570s",
+            "DriverGuid": "76561198013813110",
+            "DriverName": "Josh Fulton",
+            "Restrictor": 0,
+            "TotalTime": 716290,
+            "NumLaps": 7,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "64e9fbdc-fcdb-453c-b140-874cd1137de8",
+            "GridPosition": 2
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "chicane",
+    "TrackName": "rt_autodrom_most",
+    "Type": "RACE",
+    "Date": "2025-05-06T19:57:00Z",
+    "SessionFile": "2025_5_6_19_57_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 1,
+        "wait_time": 60,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "0782c488-9086-430f-8436-83355294b592",
+    "RaceWeekendID": "",
+    "EventName": "Autodrom Most, Czech Republic"
+}
