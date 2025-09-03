@@ -1,0 +1,102 @@
+{
+    "id": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+    "track": "ks_silverstone;gp",
+    "laps": [
+        {
+            "id": "b49e8cbc-3000-42b2-b26d-8fcb3f4b2a40",
+            "time": 135346,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561198358544800",
+            "result": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "7e75046b-a28f-4e55-a524-7e2de7d1d89d",
+            "time": 128381,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561198358544800",
+            "result": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "3acb5ac1-7a6e-4365-b9d1-67cdc93293e3",
+            "time": 125467,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561198358544800",
+            "result": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "6be4a75b-0b99-4b57-a90c-73e1d50c55f0",
+            "time": 656383,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199004697695",
+            "result": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "65691857-597d-4b46-bdc4-178b8c60c2ed",
+            "time": 144114,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199004697695",
+            "result": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "f5c1632f-04af-42a7-bda2-6c6e391dfcb3",
+            "racer": "76561198358544800",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "ks_silverstone;gp",
+            "date": "2024-11-30T07:41:30.281919407Z",
+            "laps": [
+                "b49e8cbc-3000-42b2-b26d-8fcb3f4b2a40",
+                "7e75046b-a28f-4e55-a524-7e2de7d1d89d",
+                "3acb5ac1-7a6e-4365-b9d1-67cdc93293e3"
+            ],
+            "incidents": [],
+            "result": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "01fd2be5-8ed5-4196-9a20-76799df15308",
+            "racer": "76561199004697695",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "ks_silverstone;gp",
+            "date": "2024-11-30T07:41:30.281919407Z",
+            "laps": [
+                "6be4a75b-0b99-4b57-a90c-73e1d50c55f0",
+                "65691857-597d-4b46-bdc4-178b8c60c2ed"
+            ],
+            "incidents": [],
+            "result": "db5d3e73-2b09-47bf-bb20-a6930b9828c6",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "mx5",
+    "filename": "2024_11_30_7_41_RACE.json",
+    "date": "2024-11-30T07:41:30.281919407Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561198358544800": 3,
+        "76561199004697695": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

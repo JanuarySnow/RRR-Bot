@@ -1,0 +1,87 @@
+{
+    "id": "2263c849-72da-4e8e-8d60-f21db0e3314b",
+    "track": "shanghai_v2;gp",
+    "laps": [
+        {
+            "id": "ec54dbd3-8a29-40b2-869d-b1205c1385aa",
+            "time": 307319,
+            "car": "rss_formula_rss_3_v6",
+            "racerguid": "76561199188267389",
+            "result": "2263c849-72da-4e8e-8d60-f21db0e3314b",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "e335bb6d-3543-46f6-9c73-b96dc3413546",
+            "time": 119311,
+            "car": "rss_formula_rss_3_v6",
+            "racerguid": "76561199188267389",
+            "result": "2263c849-72da-4e8e-8d60-f21db0e3314b",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "777f1082-c749-4be6-9cb3-5f17c1949fd6",
+            "racer": "76561199188267389",
+            "car": "rss_formula_rss_3_v6",
+            "track": "shanghai_v2;gp",
+            "date": "2025-05-08T19:27:00Z",
+            "laps": [
+                "ec54dbd3-8a29-40b2-869d-b1205c1385aa",
+                "e335bb6d-3543-46f6-9c73-b96dc3413546"
+            ],
+            "incidents": [
+                "60b210e9-2f54-4906-8508-e2b6eb2df083",
+                "201d0c18-89e1-4a64-8f2b-b567b4092d19",
+                "a496f86f-1e23-4fa1-ac50-e68a5b753c95",
+                "6c7ef13d-6191-4373-a6c6-84d7a0f6ff03"
+            ],
+            "result": "2263c849-72da-4e8e-8d60-f21db0e3314b",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "60b210e9-2f54-4906-8508-e2b6eb2df083",
+            "speed": 54.540726,
+            "racer": "76561199188267389",
+            "otherracer": null
+        },
+        {
+            "id": "201d0c18-89e1-4a64-8f2b-b567b4092d19",
+            "speed": 10.360578,
+            "racer": "76561199188267389",
+            "otherracer": null
+        },
+        {
+            "id": "a496f86f-1e23-4fa1-ac50-e68a5b753c95",
+            "speed": 6.6037693,
+            "racer": "76561199188267389",
+            "otherracer": null
+        },
+        {
+            "id": "6c7ef13d-6191-4373-a6c6-84d7a0f6ff03",
+            "speed": 20.864239,
+            "racer": "76561199188267389",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2025_5_8_19_27_RACE.json",
+    "date": "2025-05-08T19:27:00Z",
+    "region": "EU",
+    "championshipid": "8b4a6123-45e9-44d5-90ac-6afa8ff0d363",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561199188267389": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "formulaeuopen"
+}

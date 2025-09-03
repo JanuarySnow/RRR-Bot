@@ -1,66 +1,71 @@
 {
-    "id": "c2807156-def5-4c3e-a093-f5703fb54f74",
+    "id": "d20e50d8-f565-4191-b704-7edae63a95fc",
     "track": "lemans_2017;no_lights",
     "laps": [
         {
-            "id": "316f0b3f-5180-4d13-bae5-ff4e4d83d449",
+            "id": "90b74027-7361-4aac-b17d-863731181db2",
             "time": 255476,
             "car": "ks_lamborghini_huracan_gt3",
             "racerguid": "76561197971872704",
-            "result": "c2807156-def5-4c3e-a093-f5703fb54f74",
+            "result": "d20e50d8-f565-4191-b704-7edae63a95fc",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1712347682
         },
         {
-            "id": "b2b40e80-9791-4070-8d5a-69e96a25b9e2",
+            "id": "7cb538a2-30f4-4eb8-98d0-fe0df44fb8f0",
             "time": 244677,
             "car": "ks_lamborghini_huracan_gt3",
             "racerguid": "76561197971872704",
-            "result": "c2807156-def5-4c3e-a093-f5703fb54f74",
+            "result": "d20e50d8-f565-4191-b704-7edae63a95fc",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1712347927
         }
     ],
     "entries": [
         {
-            "id": "8508e2b0-69a6-412e-ad5f-2ad0da40c2e3",
+            "id": "2ff0833e-1706-4726-b8da-9c3056153d03",
             "racer": "76561197971872704",
             "car": "ks_lamborghini_huracan_gt3",
             "track": "lemans_2017;no_lights",
             "date": "2024-04-05T20:31:00Z",
             "laps": [
-                "316f0b3f-5180-4d13-bae5-ff4e4d83d449",
-                "b2b40e80-9791-4070-8d5a-69e96a25b9e2"
+                "90b74027-7361-4aac-b17d-863731181db2",
+                "7cb538a2-30f4-4eb8-98d0-fe0df44fb8f0"
             ],
             "incidents": [],
-            "result": "c2807156-def5-4c3e-a093-f5703fb54f74",
+            "result": "d20e50d8-f565-4191-b704-7edae63a95fc",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "9a02f821-c3a4-46f3-bd80-fa241fbd7268",
+            "id": "76a72c29-5678-48de-89b5-9687c8faf11e",
             "speed": 60.86918,
             "racer": null,
             "otherracer": null
         },
         {
-            "id": "2335e557-03b9-4197-9701-d7836c62a890",
+            "id": "9ffedd8a-057e-4703-9ddc-dda864ccd5ba",
             "speed": 39.459248,
             "racer": null,
             "otherracer": null
         },
         {
-            "id": "721ff687-2680-46d0-9318-e7ef8f6d402e",
+            "id": "ff327793-0c5c-400d-a84f-5ab198601ab1",
             "speed": 32.674885,
             "racer": null,
             "otherracer": null
         },
         {
-            "id": "6cce372f-bbd6-419f-8a7b-2dbb344aef62",
+            "id": "ab5eea20-0265-4360-bb4a-6a59f3fd19af",
             "speed": 29.361305,
             "racer": null,
             "otherracer": null
@@ -78,5 +83,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

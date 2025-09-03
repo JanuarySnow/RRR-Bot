@@ -1,0 +1,78 @@
+{
+    "id": "1f31b02a-1fa1-4850-b910-6ee3c0abdb5a",
+    "track": "ks_laguna_seca;ks_laguna_seca",
+    "laps": [
+        {
+            "id": "4c4dddd8-8914-4858-84a9-0206e6f8cbef",
+            "time": 88294,
+            "car": "ks_mclaren_650_gt3",
+            "racerguid": "76561198072111101",
+            "result": "1f31b02a-1fa1-4850-b910-6ee3c0abdb5a",
+            "valid": true,
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1749261392
+        },
+        {
+            "id": "99ebac59-1cf6-4ebe-9888-f97a692a997a",
+            "time": 164301,
+            "car": "ks_mclaren_650_gt3",
+            "racerguid": "76561198072111101",
+            "result": "1f31b02a-1fa1-4850-b910-6ee3c0abdb5a",
+            "valid": false,
+            "cuts": 1,
+            "position": 1,
+            "timestamp": 1749261556
+        }
+    ],
+    "entries": [
+        {
+            "id": "a2f26734-51eb-427a-9d9b-4ceb8b0b2d7b",
+            "racer": "76561198072111101",
+            "car": "ks_mclaren_650_gt3",
+            "track": "ks_laguna_seca;ks_laguna_seca",
+            "date": "2025-06-07T02:16:00Z",
+            "laps": [
+                "4c4dddd8-8914-4858-84a9-0206e6f8cbef",
+                "99ebac59-1cf6-4ebe-9888-f97a692a997a"
+            ],
+            "incidents": [
+                "9575f5a6-7e63-4033-8bae-201895c032c3"
+            ],
+            "result": "1f31b02a-1fa1-4850-b910-6ee3c0abdb5a",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0,
+            "startingposition": 2
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "9575f5a6-7e63-4033-8bae-201895c032c3",
+            "speed": 38.764324,
+            "racer": "76561198072111101",
+            "otherracer": null
+        },
+        {
+            "id": "a8a957e9-2e39-474d-ac09-b153306d5c3b",
+            "speed": 47.096436,
+            "racer": null,
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "gt3",
+    "filename": "2025_6_7_2_16_RACE.json",
+    "date": "2025-06-07T02:16:00Z",
+    "region": "NA",
+    "championshipid": "6fa21082-beae-422e-84b0-571ceb3e1d06",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561198072111101": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "gt3euopen",
+    "issecond": false
+}

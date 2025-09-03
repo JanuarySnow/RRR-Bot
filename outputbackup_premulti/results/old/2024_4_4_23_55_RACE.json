@@ -1,0 +1,76 @@
+{
+    "id": "f35ccd2b-93fa-4f09-b61c-725d174f04dd",
+    "track": "auto_club_speedway;superspeedway",
+    "laps": [
+        {
+            "id": "bbc67688-d258-4dc4-b868-94ef94c3793c",
+            "time": 72834,
+            "car": "fsr_camaro_s",
+            "racerguid": "76561199016198981",
+            "result": "f35ccd2b-93fa-4f09-b61c-725d174f04dd",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "a1024c9b-3435-41fe-8b2b-edb937557904",
+            "time": 40900,
+            "car": "fsr_camaro_s",
+            "racerguid": "76561199016198981",
+            "result": "f35ccd2b-93fa-4f09-b61c-725d174f04dd",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "e903d2f2-1bab-4754-b34b-180c024eb411",
+            "time": 40551,
+            "car": "fsr_camaro_s",
+            "racerguid": "76561199016198981",
+            "result": "f35ccd2b-93fa-4f09-b61c-725d174f04dd",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "5db62e9c-61c8-43f6-ab50-b68338f3ef50",
+            "racer": "76561199016198981",
+            "car": "fsr_camaro_s",
+            "track": "auto_club_speedway;superspeedway",
+            "date": "2024-04-04T23:55:52.375346237Z",
+            "laps": [
+                "bbc67688-d258-4dc4-b868-94ef94c3793c",
+                "a1024c9b-3435-41fe-8b2b-edb937557904",
+                "e903d2f2-1bab-4754-b34b-180c024eb411"
+            ],
+            "incidents": [
+                "0ecb63cf-71f7-46f2-bec9-f0977ed2b9c4"
+            ],
+            "result": "f35ccd2b-93fa-4f09-b61c-725d174f04dd",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "0ecb63cf-71f7-46f2-bec9-f0977ed2b9c4",
+            "speed": 8.520364,
+            "racer": "76561199016198981",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2024_4_4_23_55_RACE.json",
+    "date": "2024-04-04T23:55:52.375346237Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199016198981": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

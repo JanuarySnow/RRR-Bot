@@ -1,0 +1,72 @@
+{
+    "id": "945f0747-50fb-4eb5-a166-8db146f0841b",
+    "track": "ks_laguna_seca;ks_laguna_seca",
+    "laps": [
+        {
+            "id": "7b06c02b-db6d-40f0-b3e6-3140b79d2b1e",
+            "time": 88294,
+            "car": "ks_mclaren_650_gt3",
+            "racerguid": "76561198072111101",
+            "result": "945f0747-50fb-4eb5-a166-8db146f0841b",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "70f7183f-7eff-4a89-9a26-85a2a144bc7b",
+            "time": 164301,
+            "car": "ks_mclaren_650_gt3",
+            "racerguid": "76561198072111101",
+            "result": "945f0747-50fb-4eb5-a166-8db146f0841b",
+            "valid": false,
+            "cuts": 1
+        }
+    ],
+    "entries": [
+        {
+            "id": "362648e9-d895-4839-983f-86388ed8cc0b",
+            "racer": "76561198072111101",
+            "car": "ks_mclaren_650_gt3",
+            "track": "ks_laguna_seca;ks_laguna_seca",
+            "date": "2025-06-07T02:16:00Z",
+            "laps": [
+                "7b06c02b-db6d-40f0-b3e6-3140b79d2b1e",
+                "70f7183f-7eff-4a89-9a26-85a2a144bc7b"
+            ],
+            "incidents": [
+                "e3c890f6-3973-4d6f-b1f2-31fc103b0f17"
+            ],
+            "result": "945f0747-50fb-4eb5-a166-8db146f0841b",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "e3c890f6-3973-4d6f-b1f2-31fc103b0f17",
+            "speed": 38.764324,
+            "racer": "76561198072111101",
+            "otherracer": null
+        },
+        {
+            "id": "3bc77894-d33f-45dd-a8ef-293f801081d0",
+            "speed": 47.096436,
+            "racer": null,
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "gt3",
+    "filename": "2025_6_7_2_16_RACE.json",
+    "date": "2025-06-07T02:16:00Z",
+    "region": "NA",
+    "championshipid": "6fa21082-beae-422e-84b0-571ceb3e1d06",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561198072111101": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "gt3euopen"
+}

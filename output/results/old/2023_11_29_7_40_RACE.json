@@ -1,78 +1,83 @@
 {
-    "id": "853f3f33-f497-4498-b33c-bf98d21fa16d",
+    "id": "98e0d3d3-df03-464e-b880-82a3f4421b5b",
     "track": "lasvegas23;lasvegas23",
     "laps": [
         {
-            "id": "c1768365-3f38-4f67-a534-820f7cabe9e5",
+            "id": "7910b35c-820a-4be6-a62e-47974fd97346",
             "time": 148361,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198829312692",
-            "result": "853f3f33-f497-4498-b33c-bf98d21fa16d",
+            "result": "98e0d3d3-df03-464e-b880-82a3f4421b5b",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1701242887
         },
         {
-            "id": "391b92f2-62c6-41a9-86f7-1055f3dc7d6b",
+            "id": "25f5259e-391f-4f55-b34a-a8ee024b0fb3",
             "time": 135628,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198829312692",
-            "result": "853f3f33-f497-4498-b33c-bf98d21fa16d",
+            "result": "98e0d3d3-df03-464e-b880-82a3f4421b5b",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1701243023
         }
     ],
     "entries": [
         {
-            "id": "a0a41f4f-e937-448b-baf4-b84b5308b287",
+            "id": "deefd8fc-9243-4bf8-a456-f44bbd2a8f69",
             "racer": "76561198829312692",
             "car": "ks_ferrari_f2004",
             "track": "lasvegas23;lasvegas23",
             "date": "2023-11-29T07:40:04.4600176Z",
             "laps": [
-                "c1768365-3f38-4f67-a534-820f7cabe9e5",
-                "391b92f2-62c6-41a9-86f7-1055f3dc7d6b"
+                "7910b35c-820a-4be6-a62e-47974fd97346",
+                "25f5259e-391f-4f55-b34a-a8ee024b0fb3"
             ],
             "incidents": [
-                "eea11e9d-0df4-4026-8f4a-c9919ab5b888",
-                "89f0a6dc-c36a-4e7e-9e05-a5ef930fe812",
-                "9863dcfa-5eac-403b-b589-1a5bf74a78f2",
-                "ea3f0306-d668-41c3-9d6b-e7eedb89c5f2",
-                "c50316ba-2188-427b-9bdb-7b2396d26b3b"
+                "f2ace17b-bae3-4451-8577-b8726e717977",
+                "8d31c393-e2a8-44f6-b70b-9b7f6da297dc",
+                "6c679bee-948d-4d41-8dc3-323e655d5e66",
+                "a7b0fd47-3505-4661-a854-a9b591b9faa4",
+                "232d95d6-a77c-4602-9ef5-d3545debb3e0"
             ],
-            "result": "853f3f33-f497-4498-b33c-bf98d21fa16d",
+            "result": "98e0d3d3-df03-464e-b880-82a3f4421b5b",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "eea11e9d-0df4-4026-8f4a-c9919ab5b888",
+            "id": "f2ace17b-bae3-4451-8577-b8726e717977",
             "speed": 20.80895,
             "racer": "76561198829312692",
             "otherracer": null
         },
         {
-            "id": "89f0a6dc-c36a-4e7e-9e05-a5ef930fe812",
+            "id": "8d31c393-e2a8-44f6-b70b-9b7f6da297dc",
             "speed": 233.08725,
             "racer": "76561198829312692",
             "otherracer": null
         },
         {
-            "id": "9863dcfa-5eac-403b-b589-1a5bf74a78f2",
+            "id": "6c679bee-948d-4d41-8dc3-323e655d5e66",
             "speed": 15.12525,
             "racer": "76561198829312692",
             "otherracer": null
         },
         {
-            "id": "ea3f0306-d668-41c3-9d6b-e7eedb89c5f2",
+            "id": "a7b0fd47-3505-4661-a854-a9b591b9faa4",
             "speed": 29.22662,
             "racer": "76561198829312692",
             "otherracer": null
         },
         {
-            "id": "c50316ba-2188-427b-9bdb-7b2396d26b3b",
+            "id": "232d95d6-a77c-4602-9ef5-d3545debb3e0",
             "speed": 262.39178,
             "racer": "76561198829312692",
             "otherracer": null
@@ -90,5 +95,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

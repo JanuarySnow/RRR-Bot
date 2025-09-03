@@ -1,0 +1,57 @@
+{
+    "id": "86460b93-2670-4db3-bc0e-05bb95aada47",
+    "track": "ks_barcelona;layout_moto",
+    "laps": [
+        {
+            "id": "48b18c86-8d8e-4f2a-b248-a361f5565991",
+            "time": 126001,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198295783688",
+            "result": "86460b93-2670-4db3-bc0e-05bb95aada47",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1aeea48c-fc11-4a6d-b77a-7169683a3bcb",
+            "time": 114432,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198295783688",
+            "result": "86460b93-2670-4db3-bc0e-05bb95aada47",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "896a540a-3b02-4dcb-b484-deaa2b619544",
+            "racer": "76561198295783688",
+            "car": "bmw_z4_gt3",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2023-12-22T21:42:00Z",
+            "laps": [
+                "48b18c86-8d8e-4f2a-b248-a361f5565991",
+                "1aeea48c-fc11-4a6d-b77a-7169683a3bcb"
+            ],
+            "incidents": [],
+            "result": "86460b93-2670-4db3-bc0e-05bb95aada47",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "gt3",
+    "filename": "2023_12_22_21_42_RACE.json",
+    "date": "2023-12-22T21:42:00Z",
+    "region": "EU",
+    "championshipid": "78563de8-93cd-4e69-8380-516ff1823f3a",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561198295783688": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

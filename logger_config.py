@@ -1,49 +1,135 @@
+# logger_config.py
 import logging
+import sys
+import re
 
-class LoggingFormatter(logging.Formatter):
-    # Colors
-    black = "\x1b[30m"
-    red = "\x1b[31m"
-    green = "\x1b[32m"
-    yellow = "\x1b[33m"
-    blue = "\x1b[34m"
-    gray = "\x1b[38m"
-    # Styles
-    reset = "\x1b[0m"
-    bold = "\x1b[1m"
+# ---------- helpers ----------
+
+_CTRL_RE = re.compile(r"[\x00-\x08\x0B\x0C\x0E-\x1F]")
+
+def _sanitize_text(text: str) -> str:
+    """Remove control characters (incl. NUL) except common whitespace."""
+    if not isinstance(text, str):
+        text = str(text)
+    return _CTRL_RE.sub("", text)
+
+
+# ---------- safe logger class ----------
+
+class SafeLogger(logging.Logger):
+    """
+    A logger that tolerates calls like:
+        logger.info("label:", value)
+    even when the message has no %-placeholders.
+    If args exist and '%' not in msg -> concatenates args into the message.
+    Otherwise, uses normal %-style formatting.
+    """
+    def _log(self, level, msg, args, exc_info=None, extra=None, stack_info=False, stacklevel=1):
+        if args and "%" not in str(msg):
+            # Concatenate args as text, adding a space unless msg already ends with punctuation/space
+            suffix = " ".join(map(str, args))
+            sep = "" if str(msg).endswith((" ", ":", "·", "-", "—")) else " "
+            msg = f"{msg}{sep}{suffix}"
+            args = ()  # prevent downstream formatting attempts
+        super()._log(level, msg, args, exc_info=exc_info, extra=extra, stack_info=stack_info, stacklevel=stacklevel)
+
+
+# Install SafeLogger BEFORE any loggers are created
+logging.setLoggerClass(SafeLogger)
+
+
+# ---------- formatters ----------
+
+class ColorFormatter(logging.Formatter):
+    RESET  = "\x1b[0m"
+    BOLD   = "\x1b[1m"
+    BLACK  = "\x1b[30m"
+    RED    = "\x1b[31m"
+    GREEN  = "\x1b[32m"
+    YELLOW = "\x1b[33m"
+    BLUE   = "\x1b[34m"
+    GRAY   = "\x1b[38m"
 
     COLORS = {
-        logging.DEBUG: gray + bold,
-        logging.INFO: blue + bold,
-        logging.WARNING: yellow + bold,
-        logging.ERROR: red,
-        logging.CRITICAL: red + bold,
+        logging.DEBUG:   GRAY + BOLD,
+        logging.INFO:    BLUE + BOLD,
+        logging.WARNING: YELLOW + BOLD,
+        logging.ERROR:   RED,
+        logging.CRITICAL: RED + BOLD,
     }
 
-    def format(self, record):
-        log_color = self.COLORS[record.levelno]
-        format = "(black){asctime}(reset) (levelcolor){levelname:<8}(reset) (green){name}(reset) {message}"
-        format = format.replace("(black)", self.black + self.bold)
-        format = format.replace("(reset)", self.reset)
-        format = format.replace("(levelcolor)", log_color)
-        format = format.replace("(green)", self.green + self.bold)
-        formatter = logging.Formatter(format, "%Y-%m-%d %H:%M:%S", style="{")
-        return formatter.format(record)
+    def __init__(self, datefmt="%Y-%m-%d %H:%M:%S"):
+        super().__init__(datefmt=datefmt, style="{")
+
+    def format(self, record: logging.LogRecord) -> str:
+        msg = _sanitize_text(record.getMessage())
+        ts    = self.formatTime(record, self.datefmt)
+        level = record.levelname
+        name  = record.name
+
+        level_color = self.COLORS.get(record.levelno, self.GRAY)
+        name_color  = self.GREEN + self.BOLD
+        time_color  = self.BLACK + self.BOLD
+
+        out = (
+            f"{time_color}[{ts}]{self.RESET} "
+            f"{level_color}[{level:<8}]{self.RESET} "
+            f"{name_color}{name}{self.RESET}: {msg}"
+        )
+
+        if record.exc_info:
+            exc_text = self.formatException(record.exc_info)
+            out += "\n" + _sanitize_text(exc_text)
+        if record.stack_info:
+            out += "\n" + self.formatStack(record.stack_info)
+        return out
 
 
-logger = logging.getLogger("discord_bot")
-logger.setLevel(logging.INFO)
+class PlainFormatter(logging.Formatter):
+    def __init__(self, datefmt="%Y-%m-%d %H:%M:%S"):
+        super().__init__("[{asctime}] [{levelname:<8}] {name}: {message}", datefmt=datefmt, style="{")
 
-# Console handler
-console_handler = logging.StreamHandler()
-console_handler.setFormatter(LoggingFormatter())
-# File handler
-file_handler = logging.FileHandler(filename="discord.log", encoding="utf-8", mode="w")
-file_handler_formatter = logging.Formatter(
-    "[{asctime}] [{levelname:<8}] {name}: {message}", "%Y-%m-%d %H:%M:%S", style="{"
-)
-file_handler.setFormatter(file_handler_formatter)
+    def format(self, record: logging.LogRecord) -> str:
+        # Let logging compute record.message via getMessage(), then sanitize it
+        s = super().format(record)
+        return _sanitize_text(s)
 
-# Add the handlers
-logger.addHandler(console_handler)
-logger.addHandler(file_handler)
+
+# ---------- setup ----------
+
+def get_logger(
+    name: str = "discord_bot",
+    level: int = logging.INFO,
+    logfile: str = "discord.log",
+) -> logging.Logger:
+    """
+    Create/return a configured logger with:
+      - colorized console output (TTY only)
+      - plain file logging (UTF-8, TRUNCATE on start)
+      - control-character sanitization
+      - no duplicate handlers on repeated imports
+    """
+    logger = logging.getLogger(name)
+    if logger.handlers:
+        return logger  # already configured
+
+    logger.setLevel(level)
+    logger.propagate = False
+
+    # Console handler
+    ch = logging.StreamHandler(sys.stdout)
+    ch.setLevel(level)
+    ch.setFormatter(ColorFormatter() if sys.stdout.isatty() else PlainFormatter())
+    logger.addHandler(ch)
+
+    # File handler (truncate each start; use mode="a" to append instead)
+    fh = logging.FileHandler(filename=logfile, encoding="utf-8", mode="w")
+    fh.setLevel(level)
+    fh.setFormatter(PlainFormatter())
+    logger.addHandler(fh)
+
+    return logger
+
+
+# Module-level logger you can import directly:
+logger = get_logger()

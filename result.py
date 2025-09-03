@@ -7,7 +7,7 @@ import uuid
 
 
 gt3ids = ["ks_audi_r8_lms_2016","bmw_z4_gt3", "ks_ferrari_488_gt3", "ks_lamborghini_huracan_gt3",
-         "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016"]
+         "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016", "amr_v8_vantage_gt3_sprint_acc"]
 
 class Incident():
     def __init__(self, speed, racer, otherracer) -> None:
@@ -26,7 +26,7 @@ class Incident():
         }
 
 class Lap():
-    def __init__(self, time, car, racerguid, result, valid, cuts) -> None:
+    def __init__(self, time, car, racerguid, result, valid, cuts, timestamp) -> None:
         self.id = str(uuid.uuid4()) 
         self.time = time
         self.car = car
@@ -35,6 +35,8 @@ class Lap():
         self.valid = valid
         self.cuts = cuts
         self.logger = logger
+        self.position = 0
+        self.timestamp = timestamp
 
     def to_dict(self):
         return {
@@ -44,7 +46,9 @@ class Lap():
             "racerguid": self.racerguid,
             "result": self.result.id,
             "valid": self.valid,
-            "cuts": self.cuts
+            "cuts": self.cuts,
+            "position": self.position,
+            "timestamp": self.timestamp
         }
 
 # this is the driver-specific result
@@ -62,6 +66,7 @@ class Entry():
         self.finishingposition = 0
         self.ratingchange = 0
         self.logger = logger
+        self.startingposition = 0
 
     def to_dict(self):
         return {
@@ -75,7 +80,8 @@ class Entry():
             "result": self.result.id if self.result else None,
             "cuts": self.cuts,
             "finishingposition": self.finishingposition,
-            "ratingchange": self.ratingchange
+            "ratingchange": self.ratingchange,
+            "startingposition": self.startingposition
         }
 
 class Result():
@@ -98,6 +104,7 @@ class Result():
         self.driverlaps = {}
         self.shortorlong = "short"
         self.logger = logger
+        self.issecond = False
         self.server = ""
         self.url = ""
         self.directory = ""
@@ -121,6 +128,7 @@ class Result():
             "server": self.server,
             "url": self.url,
             "directory": self.directory,
+            "issecond": self.issecond
         }
 
     def set_region(self, data):
@@ -135,16 +143,56 @@ class Result():
         n = len(self.entries)
         for i in range(n):
             racer_i = self.entries[i].racer
+            
             position_i = self.entries[i].finishingposition
             for j in range(i + 1, n):
                 racer_j = self.entries[j].racer
                 position_j = self.entries[j].finishingposition
+                ratingtousei = racer_i.ratingbeforeeachresult
+                if racer_i.ratingbeforeeachresult == -1:
+                    ratingtousei = racer_i.rating
+                ratingtousej = racer_j.ratingbeforeeachresult
+                if racer_j.ratingbeforeeachresult == -1:
+                    ratingtousej = racer_j.rating
                 if position_i < position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 1, len(self.entries), self, self.entries[j].racer)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 0, len(self.entries), self, self.entries[i].racer)
+                    self.entries[i].ratingchange = racer_i.update_rating(ratingtousej, 1, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(ratingtousei, 0, len(self.entries), self, self.entries[i].racer)
                 elif position_i > position_j:
-                    self.entries[i].ratingchange = racer_i.update_rating(racer_j.rating, 0, len(self.entries), self, self.entries[j].racer)
-                    self.entries[j].ratingchange = racer_j.update_rating(racer_i.rating, 1, len(self.entries), self, self.entries[i].racer)
+                    self.entries[i].ratingchange = racer_i.update_rating(ratingtousej, 0, len(self.entries), self, self.entries[j].racer)
+                    self.entries[j].ratingchange = racer_j.update_rating(ratingtousei, 1, len(self.entries), self, self.entries[i].racer)
+        n = len(self.entries)
+        for i in range(n):
+            racer_i = self.entries[i].racer
+            racer_i.ratingbeforeeachresult = racer_i.rating
+        self.update_qualifying_ratings()
+
+    def update_qualifying_ratings(self):
+        if self.issecond:
+            return
+        n = len(self.entries)
+        for i in range(n):
+            racer_i = self.entries[i].racer
+            
+            position_i = self.entries[i].startingposition
+            if position_i == 0:
+                continue
+            for j in range(i + 1, n):
+                racer_j = self.entries[j].racer
+                position_j = self.entries[j].startingposition
+                ratingtousei = racer_i.qualyratingbeforeeachresult
+                if racer_i.qualyratingbeforeeachresult == -1:
+                    ratingtousei = racer_i.qualifyingrating
+                ratingtousej = racer_j.qualyratingbeforeeachresult
+                if racer_j.qualyratingbeforeeachresult == -1:
+                    ratingtousej = racer_j.qualifyingrating
+                if position_j == 0:
+                    continue
+                if position_i < position_j:
+                    racer_i.update_qualifying_rating(ratingtousej, 1, len(self.entries), self, self.entries[j].racer)
+                    racer_j.update_qualifying_rating(ratingtousei, 0, len(self.entries), self, self.entries[i].racer)
+                elif position_i > position_j:
+                    racer_i.update_qualifying_rating(ratingtousej, 0, len(self.entries), self, self.entries[j].racer)
+                    racer_j.update_qualifying_rating(ratingtousei, 1, len(self.entries), self, self.entries[i].racer)
 
     def get_position_of_racer(self, racer):
         index = 1
@@ -172,10 +220,73 @@ class Result():
             entry.cuts = cuts
             entry.result = self
             entry.racer.add_result(entry)
+            self.calculate_positions_at_laps(entry)
         self.numlaps = self.get_numlaps_total()
         self.entries.sort(key=lambda x: x.finishingposition, reverse=False)
         self.update_ratings()
         self.update_charts()
+
+    def calculate_positions_at_laps(self, entry):
+        all_laps = []
+        lap_objects_by_guid = {}
+
+        # 1. Build a dict of laps per driver and a flat list of all laps
+        for e in self.entries:
+            lap_objects_by_guid[e.racer.guid] = sorted(e.laps, key=lambda x: x.timestamp)
+            for lap in e.laps:
+                all_laps.append(lap)
+
+        # 2. Sort all laps chronologically (this is our "event stream")
+        all_laps.sort(key=lambda x: x.timestamp)
+
+        # 3. Initialize cumulative time per driver and lap index
+        cumulative_time = {e.racer.guid: 0 for e in self.entries}
+        completed_laps = {e.racer.guid: 0 for e in self.entries}
+        latest_lap_obj = {e.racer.guid: None for e in self.entries}
+
+        # 4. Race duration reference: first timestamp and last timestamp (for % calculation)
+        if not all_laps:
+            return
+
+        first_timestamp = all_laps[0].timestamp
+        last_timestamp = max(lap.timestamp for lap in all_laps)
+        total_race_ms = last_timestamp - first_timestamp if last_timestamp > first_timestamp else 1
+
+        # 5. For the driver we're analyzing, store their position per lap
+        previous_position = entry.startingposition
+        entry.percentageracedone_overtakes = []
+
+        for lap in all_laps:
+            guid = lap.racerguid
+            cumulative_time[guid] += lap.time
+            completed_laps[guid] += 1
+            latest_lap_obj[guid] = lap
+
+            # Build current running order (only include drivers who have completed a lap)
+            current_racers = [
+                (g, cumulative_time[g])
+                for g in cumulative_time
+                if completed_laps[g] > 0
+            ]
+
+            # Sort by race time ascending = lower time is ahead
+            sorted_guids = [g for g, _ in sorted(current_racers, key=lambda x: x[1])]
+
+            # Assign positions based on this ordering
+            for pos, g in enumerate(sorted_guids, 1):
+                obj = latest_lap_obj[g]
+                if obj:
+                    obj.position = pos  # Update the lap object itself
+
+            # For the target entry, if this is their lap, check if position improved
+            if lap.racerguid == entry.racer.guid:
+                current_pos = lap.position
+                if current_pos < previous_position:
+                    # Overtake detected
+                    percentage = int(((lap.timestamp - first_timestamp) / total_race_ms) * 100)
+                    entry.racer.percentageracedone_overtakes.append(percentage)
+                previous_position = current_pos
+
 
     def update_charts(self):
         for entry in self.entries:
@@ -230,7 +341,12 @@ class Result():
             else:
                 self.driverlaps[lapguid] = 1
 
+        if not self.driverlaps:
+            self.logger.warning("No driver laps recorded in get_numlaps_total")
+            return 0  # fallback value when no laps are present
+
         return max(self.driverlaps.values())
+
     
     def calculate_collisions(self, data):
         if not data["Events"]:
@@ -254,6 +370,12 @@ class Result():
 
     
     def calculate_positions(self, data):
+        for result in data["Result"]:
+            racerguid = result["DriverGuid"]
+            for entry in self.entries:
+                if entry.racer.guid == racerguid:
+                    entry.startingposition = result["GridPosition"] if "GridPosition" in result else 0
+                    break
         highest_num_laps_done = 0
         driverlaps = {}
         for lap in self.laps:
@@ -262,7 +384,9 @@ class Result():
                 driverlaps[lapguid] += 1
             else:
                 driverlaps[lapguid] = 1
-
+        if len(driverlaps) == 0:
+            self.logger.error("No driver laps found in result data, cannot calculate positions")
+            return
         highest_num_laps_done = max(driverlaps.values())
 
         list_of_drivers_who_did_all_laps = []
@@ -307,7 +431,7 @@ class Result():
             racerguid = lap["DriverGuid"]
             laptime = lap["LapTime"]
             carid = lap["CarModel"]
-            lap = Lap(lap["LapTime"], carid, racerguid, self, lap["Cuts"] == 0, lap["Cuts"])
+            lap = Lap(lap["LapTime"], carid, racerguid, self, lap["Cuts"] == 0, lap["Cuts"], lap["Timestamp"])
             self.laps.append(lap)
             self.track.laps.append(lap)
     

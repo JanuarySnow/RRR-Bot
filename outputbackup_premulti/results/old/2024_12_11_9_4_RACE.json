@@ -1,0 +1,129 @@
+{
+    "id": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+    "track": "ks_silverstone;gp",
+    "laps": [
+        {
+            "id": "eebae0f0-8609-43b6-88e0-1f0b2c4f7fcc",
+            "time": 159458,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561199039011550",
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "8e6c237e-f233-4282-925d-5bc8cd510014",
+            "time": 196798,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198868409600",
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "03d52b21-d3a9-4a76-89f1-b4b3fffca223",
+            "time": 307483,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561199039011550",
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "86237688-8497-493a-a437-a4d484a371f8",
+            "time": 270622,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198868409600",
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "9db70b0d-ba73-44fe-8261-55d66b432836",
+            "time": 150616,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561199039011550",
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "5ba17461-a358-4f74-836a-9981c2598ce9",
+            "time": 150589,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198868409600",
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "965628e6-ec4b-43a1-844f-35650ce07033",
+            "racer": "76561198868409600",
+            "car": "bmw_z4_gt3",
+            "track": "ks_silverstone;gp",
+            "date": "2024-12-11T09:04:19.282285363Z",
+            "laps": [
+                "8e6c237e-f233-4282-925d-5bc8cd510014",
+                "86237688-8497-493a-a437-a4d484a371f8",
+                "5ba17461-a358-4f74-836a-9981c2598ce9"
+            ],
+            "incidents": [
+                "6e3f1852-54c1-4a52-b459-88c0ef413282"
+            ],
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "2d2e5381-d0e8-4315-9bbe-0b31dcce1c3e",
+            "racer": "76561199039011550",
+            "car": "bmw_z4_gt3",
+            "track": "ks_silverstone;gp",
+            "date": "2024-12-11T09:04:19.282285363Z",
+            "laps": [
+                "eebae0f0-8609-43b6-88e0-1f0b2c4f7fcc",
+                "03d52b21-d3a9-4a76-89f1-b4b3fffca223",
+                "9db70b0d-ba73-44fe-8261-55d66b432836"
+            ],
+            "incidents": [
+                "ddf0a43e-da85-438e-b957-6883d17c9511"
+            ],
+            "result": "3a465e8b-0c12-45a7-bf9a-5feda1df3a92",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "ddf0a43e-da85-438e-b957-6883d17c9511",
+            "speed": 31.71044,
+            "racer": "76561199039011550",
+            "otherracer": "76561198868409600"
+        },
+        {
+            "id": "6e3f1852-54c1-4a52-b459-88c0ef413282",
+            "speed": 36.034733,
+            "racer": "76561198868409600",
+            "otherracer": "76561199039011550"
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_12_11_9_4_RACE.json",
+    "date": "2024-12-11T09:04:19.282285363Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199039011550": 3,
+        "76561198868409600": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

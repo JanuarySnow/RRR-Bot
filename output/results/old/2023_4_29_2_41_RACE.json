@@ -1,70 +1,79 @@
 {
-    "id": "ed0e402c-8acb-45af-b7bd-501277db85b0",
+    "id": "f2024f46-bfc2-44d7-a88f-b7652370a905",
     "track": "ks_vallelunga;classic_circuit",
     "laps": [
         {
-            "id": "2e917930-4a59-44a6-9288-7c2e6b02183e",
+            "id": "0bc99801-4607-482b-869c-d89d86163652",
             "time": 123877,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198993811682",
-            "result": "ed0e402c-8acb-45af-b7bd-501277db85b0",
+            "result": "f2024f46-bfc2-44d7-a88f-b7652370a905",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682735514
         },
         {
-            "id": "b7938cab-4956-4d0f-8916-60ef395225fd",
+            "id": "155e1fc3-5f2f-467b-84af-b939b81a4e55",
             "time": 133745,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198993811682",
-            "result": "ed0e402c-8acb-45af-b7bd-501277db85b0",
+            "result": "f2024f46-bfc2-44d7-a88f-b7652370a905",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682735648
         },
         {
-            "id": "2fc657ba-d9e8-4984-9c37-70d338bd746e",
+            "id": "49250957-2412-4e76-bb42-ce842e01507b",
             "time": 262474,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198993811682",
-            "result": "ed0e402c-8acb-45af-b7bd-501277db85b0",
+            "result": "f2024f46-bfc2-44d7-a88f-b7652370a905",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682735911
         },
         {
-            "id": "24547dbc-8d35-417e-8fe2-6d8084ebec28",
+            "id": "8cdb5cb7-ffc7-493a-a068-4c1afac9b699",
             "time": 116762,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198993811682",
-            "result": "ed0e402c-8acb-45af-b7bd-501277db85b0",
+            "result": "f2024f46-bfc2-44d7-a88f-b7652370a905",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682736027
         }
     ],
     "entries": [
         {
-            "id": "4dbe3096-bb3c-4986-9193-f787a1ee0634",
+            "id": "9d171d57-4b47-4043-9d0f-75180f83edc4",
             "racer": "76561198993811682",
             "car": "ks_mazda_mx5_cup",
             "track": "ks_vallelunga;classic_circuit",
             "date": "2023-04-29T02:41:59.021313511Z",
             "laps": [
-                "2e917930-4a59-44a6-9288-7c2e6b02183e",
-                "b7938cab-4956-4d0f-8916-60ef395225fd",
-                "2fc657ba-d9e8-4984-9c37-70d338bd746e",
-                "24547dbc-8d35-417e-8fe2-6d8084ebec28"
+                "0bc99801-4607-482b-869c-d89d86163652",
+                "155e1fc3-5f2f-467b-84af-b939b81a4e55",
+                "49250957-2412-4e76-bb42-ce842e01507b",
+                "8cdb5cb7-ffc7-493a-a068-4c1afac9b699"
             ],
             "incidents": [
-                "bf75e74a-d422-459d-82bf-d49eba6b2e8c"
+                "cc77ee4e-40ab-4601-a3ab-fee4d0f698bb"
             ],
-            "result": "ed0e402c-8acb-45af-b7bd-501277db85b0",
+            "result": "f2024f46-bfc2-44d7-a88f-b7652370a905",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "bf75e74a-d422-459d-82bf-d49eba6b2e8c",
+            "id": "cc77ee4e-40ab-4601-a3ab-fee4d0f698bb",
             "speed": 28.034441,
             "racer": "76561198993811682",
             "otherracer": null
@@ -82,5 +91,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

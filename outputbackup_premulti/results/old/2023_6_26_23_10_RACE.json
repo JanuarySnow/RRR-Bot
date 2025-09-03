@@ -1,0 +1,57 @@
+{
+    "id": "99d652f9-28db-40fd-b25b-99e8bec65d62",
+    "track": "ks_laguna_seca;ks_laguna_seca",
+    "laps": [
+        {
+            "id": "b2515c76-b6f5-4e08-8737-35866c68002a",
+            "time": 107382,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198364628247",
+            "result": "99d652f9-28db-40fd-b25b-99e8bec65d62",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "60e81b23-15b9-468d-b086-c8a0dad7dd64",
+            "time": 112729,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198364628247",
+            "result": "99d652f9-28db-40fd-b25b-99e8bec65d62",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "2fba9ab3-04c8-4094-b99b-705e30d16e50",
+            "racer": "76561198364628247",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_laguna_seca;ks_laguna_seca",
+            "date": "2023-06-26T23:10:29.413991549Z",
+            "laps": [
+                "b2515c76-b6f5-4e08-8737-35866c68002a",
+                "60e81b23-15b9-468d-b086-c8a0dad7dd64"
+            ],
+            "incidents": [],
+            "result": "99d652f9-28db-40fd-b25b-99e8bec65d62",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "mx5",
+    "filename": "2023_6_26_23_10_RACE.json",
+    "date": "2023-06-26T23:10:29.413991549Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561198364628247": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

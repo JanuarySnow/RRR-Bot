@@ -1,42 +1,47 @@
 {
-    "id": "4e7da924-c4d8-44f9-9c3f-99a8258cfc98",
+    "id": "770d4d64-7eb4-4831-8e5b-f971391b3335",
     "track": "ks_barcelona;layout_moto",
     "laps": [
         {
-            "id": "af0d74be-bab7-4a32-a009-aea90a3e41c4",
+            "id": "f248818e-3325-471e-a054-ea8997a6c475",
             "time": 218758,
             "car": "ks_ferrari_488_gt3",
             "racerguid": "76561198360326108",
-            "result": "4e7da924-c4d8-44f9-9c3f-99a8258cfc98",
+            "result": "770d4d64-7eb4-4831-8e5b-f971391b3335",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1729957321
         },
         {
-            "id": "a1372025-6409-4f4d-9a99-ac2c55f70017",
+            "id": "5a0cd78e-f683-48e4-9417-ae57e3d18be5",
             "time": 104882,
             "car": "ks_ferrari_488_gt3",
             "racerguid": "76561198360326108",
-            "result": "4e7da924-c4d8-44f9-9c3f-99a8258cfc98",
+            "result": "770d4d64-7eb4-4831-8e5b-f971391b3335",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1729957426
         }
     ],
     "entries": [
         {
-            "id": "a856fd28-4eae-463b-ad6e-0163d2c5b45f",
+            "id": "d1417e7a-a72e-4231-b9be-9f0c3e525ee6",
             "racer": "76561198360326108",
             "car": "ks_ferrari_488_gt3",
             "track": "ks_barcelona;layout_moto",
             "date": "2024-10-26T15:59:55.155072019Z",
             "laps": [
-                "af0d74be-bab7-4a32-a009-aea90a3e41c4",
-                "a1372025-6409-4f4d-9a99-ac2c55f70017"
+                "f248818e-3325-471e-a054-ea8997a6c475",
+                "5a0cd78e-f683-48e4-9417-ae57e3d18be5"
             ],
             "incidents": [],
-            "result": "4e7da924-c4d8-44f9-9c3f-99a8258cfc98",
+            "result": "770d4d64-7eb4-4831-8e5b-f971391b3335",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -53,5 +58,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

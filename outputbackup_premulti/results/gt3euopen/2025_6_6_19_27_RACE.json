@@ -1,0 +1,116 @@
+{
+    "id": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+    "track": "ks_laguna_seca;ks_laguna_seca",
+    "laps": [
+        {
+            "id": "94034f00-9526-4938-8cb5-f3e74d0c1eb7",
+            "time": 111675,
+            "car": "ks_nissan_gtr_gt3",
+            "racerguid": "76561198022238743",
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "da8807a8-3d49-4fd1-9f8c-5dcebcb8dcc8",
+            "time": 89234,
+            "car": "ks_nissan_gtr_gt3",
+            "racerguid": "76561198022238743",
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "53c1d680-4f27-4cde-abe5-eeb2fd92efe6",
+            "time": 85570,
+            "car": "ks_nissan_gtr_gt3",
+            "racerguid": "76561198022238743",
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "d17b8d0e-b445-45e5-a160-1df5a17d36b2",
+            "time": 87792,
+            "car": "ks_nissan_gtr_gt3",
+            "racerguid": "76561198022238743",
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "ae12ffef-2127-4a81-bec3-8e1f33856e22",
+            "time": 87002,
+            "car": "ks_nissan_gtr_gt3",
+            "racerguid": "76561198022238743",
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "64bd9375-1cd1-423e-b1a7-e25b10b10732",
+            "time": 95069,
+            "car": "ks_nissan_gtr_gt3",
+            "racerguid": "76561198022238743",
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "47b05d97-c64d-4c99-8867-e244e3dd604a",
+            "time": 86173,
+            "car": "ks_nissan_gtr_gt3",
+            "racerguid": "76561198022238743",
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "014d47c5-a26d-4e2f-8d15-699217b1ba89",
+            "racer": "76561198022238743",
+            "car": "ks_nissan_gtr_gt3",
+            "track": "ks_laguna_seca;ks_laguna_seca",
+            "date": "2025-06-06T19:27:00Z",
+            "laps": [
+                "94034f00-9526-4938-8cb5-f3e74d0c1eb7",
+                "da8807a8-3d49-4fd1-9f8c-5dcebcb8dcc8",
+                "53c1d680-4f27-4cde-abe5-eeb2fd92efe6",
+                "d17b8d0e-b445-45e5-a160-1df5a17d36b2",
+                "ae12ffef-2127-4a81-bec3-8e1f33856e22",
+                "64bd9375-1cd1-423e-b1a7-e25b10b10732",
+                "47b05d97-c64d-4c99-8867-e244e3dd604a"
+            ],
+            "incidents": [
+                "bd928779-1357-4282-b3a7-f4d5afafe077"
+            ],
+            "result": "e8e16ccd-a56c-4b1d-b3f5-96e1de19d741",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "bd928779-1357-4282-b3a7-f4d5afafe077",
+            "speed": 62.493668,
+            "racer": "76561198022238743",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "gt3",
+    "filename": "2025_6_6_19_27_RACE.json",
+    "date": "2025-06-06T19:27:00Z",
+    "region": "EU",
+    "championshipid": "6fa21082-beae-422e-84b0-571ceb3e1d06",
+    "numlaps": 7,
+    "driverlaps": {
+        "76561198022238743": 7
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "gt3euopen"
+}

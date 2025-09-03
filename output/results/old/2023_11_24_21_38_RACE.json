@@ -1,105 +1,115 @@
 {
-    "id": "c18925ea-96d1-42f8-8c52-2dad91b4a298",
+    "id": "08a954b2-1a74-42c8-8539-af23de17aed9",
     "track": "ks_red_bull_ring;layout_gp",
     "laps": [
         {
-            "id": "e393fe6d-aec9-4681-828c-a0866314ac6d",
+            "id": "17837c86-653e-4c85-88a8-e5404d11af7a",
             "time": 153700,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198807709085",
-            "result": "c18925ea-96d1-42f8-8c52-2dad91b4a298",
+            "result": "08a954b2-1a74-42c8-8539-af23de17aed9",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1700860752
         },
         {
-            "id": "a23dff0b-c0dc-4b34-aa81-6cdd69c590c2",
+            "id": "bef4ef7b-738e-4660-a4e3-ade84787a29c",
             "time": 160875,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561199126204605",
-            "result": "c18925ea-96d1-42f8-8c52-2dad91b4a298",
+            "result": "08a954b2-1a74-42c8-8539-af23de17aed9",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1700860759
         },
         {
-            "id": "7bdfb676-d893-49dc-95bf-5ed5a5d1a198",
+            "id": "00c13c0a-0880-4087-9b17-f346f5c92dcd",
             "time": 119161,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198807709085",
-            "result": "c18925ea-96d1-42f8-8c52-2dad91b4a298",
+            "result": "08a954b2-1a74-42c8-8539-af23de17aed9",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1700860871
         },
         {
-            "id": "b4a8c26e-dd3f-473b-8dee-028d0cdb3dc4",
+            "id": "89f0ee6e-6093-4165-950d-505a165b004b",
             "time": 117096,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198807709085",
-            "result": "c18925ea-96d1-42f8-8c52-2dad91b4a298",
+            "result": "08a954b2-1a74-42c8-8539-af23de17aed9",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1700860988
         }
     ],
     "entries": [
         {
-            "id": "7f7587ec-b8d0-4b4f-afef-f0158c442b00",
+            "id": "e273e124-522b-464b-b1da-d5eb81fa8cf6",
             "racer": "76561198807709085",
             "car": "ks_mazda_mx5_cup",
             "track": "ks_red_bull_ring;layout_gp",
             "date": "2023-11-24T21:38:09.903707318Z",
             "laps": [
-                "e393fe6d-aec9-4681-828c-a0866314ac6d",
-                "7bdfb676-d893-49dc-95bf-5ed5a5d1a198",
-                "b4a8c26e-dd3f-473b-8dee-028d0cdb3dc4"
+                "17837c86-653e-4c85-88a8-e5404d11af7a",
+                "00c13c0a-0880-4087-9b17-f346f5c92dcd",
+                "89f0ee6e-6093-4165-950d-505a165b004b"
             ],
             "incidents": [],
-            "result": "c18925ea-96d1-42f8-8c52-2dad91b4a298",
+            "result": "08a954b2-1a74-42c8-8539-af23de17aed9",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 1.0
+            "ratingchange": 4.0,
+            "startingposition": 2
         },
         {
-            "id": "42331ddb-7013-4229-b6df-a733b498d00a",
+            "id": "61921b47-9c3a-4842-94ba-f69f912777e5",
             "racer": "76561199126204605",
             "car": "ks_mazda_mx5_cup",
             "track": "ks_red_bull_ring;layout_gp",
             "date": "2023-11-24T21:38:09.903707318Z",
             "laps": [
-                "a23dff0b-c0dc-4b34-aa81-6cdd69c590c2"
+                "bef4ef7b-738e-4660-a4e3-ade84787a29c"
             ],
             "incidents": [
-                "87091999-543c-48a5-8957-8b89cff32935",
-                "e81112d3-8c21-44f2-96d9-be33f36b2caf",
-                "fe93c80c-2468-48f6-bd1d-e549cc66d809",
-                "d5cd6919-da8e-4f29-a117-5b7e0fcc9a72"
+                "a54ad781-4b81-47bf-814b-83039ea2f47f",
+                "53138338-028c-44db-9244-afc4e4debb23",
+                "f9d43d48-2683-4fd1-89e2-ceb15bee170c",
+                "7e97dc0c-0bc6-40fd-9e28-c3536ae5fa09"
             ],
-            "result": "c18925ea-96d1-42f8-8c52-2dad91b4a298",
+            "result": "08a954b2-1a74-42c8-8539-af23de17aed9",
             "cuts": 0,
             "finishingposition": 2,
-            "ratingchange": -1.0
+            "ratingchange": -4.0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "87091999-543c-48a5-8957-8b89cff32935",
+            "id": "a54ad781-4b81-47bf-814b-83039ea2f47f",
             "speed": 35.400154,
             "racer": "76561199126204605",
             "otherracer": null
         },
         {
-            "id": "e81112d3-8c21-44f2-96d9-be33f36b2caf",
+            "id": "53138338-028c-44db-9244-afc4e4debb23",
             "speed": 0.47581637,
             "racer": "76561199126204605",
             "otherracer": null
         },
         {
-            "id": "fe93c80c-2468-48f6-bd1d-e549cc66d809",
+            "id": "f9d43d48-2683-4fd1-89e2-ceb15bee170c",
             "speed": 0.017131638,
             "racer": "76561199126204605",
             "otherracer": null
         },
         {
-            "id": "d5cd6919-da8e-4f29-a117-5b7e0fcc9a72",
+            "id": "7e97dc0c-0bc6-40fd-9e28-c3536ae5fa09",
             "speed": 27.764696,
             "racer": "76561199126204605",
             "otherracer": null
@@ -118,5 +128,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

@@ -1,40 +1,43 @@
 {
-    "id": "a3dc267a-0793-4ba6-bd95-b762ed05f3c5",
+    "id": "795aba29-5b38-456b-9d73-afdc27e6c74f",
     "track": "monza;monza",
     "laps": [
         {
-            "id": "c920d52c-afdf-4304-8d1a-ee3c9baeaabf",
+            "id": "e9a3460b-c7f2-4248-a5da-6e2e09820a0d",
             "time": 144644,
             "car": "ferrari_312t",
             "racerguid": "76561198006573508",
-            "result": "a3dc267a-0793-4ba6-bd95-b762ed05f3c5",
+            "result": "795aba29-5b38-456b-9d73-afdc27e6c74f",
             "valid": false,
-            "cuts": 2
+            "cuts": 2,
+            "position": 1,
+            "timestamp": 1712070349
         }
     ],
     "entries": [
         {
-            "id": "1eebfa95-1dcf-4fd3-ae1e-7671dab715f9",
+            "id": "1a966f98-fb9e-4611-8b27-da5fdc118ddf",
             "racer": "76561198006573508",
             "car": "ferrari_312t",
             "track": "monza;monza",
             "date": "2024-04-02T15:23:24.809801278Z",
             "laps": [
-                "c920d52c-afdf-4304-8d1a-ee3c9baeaabf"
+                "e9a3460b-c7f2-4248-a5da-6e2e09820a0d"
             ],
             "incidents": [
-                "12ba58f0-7c40-44fe-8529-33a8a8b8c5c7"
+                "7f1095f3-4954-4ffa-b03e-b224f553ccb7"
             ],
-            "result": "a3dc267a-0793-4ba6-bd95-b762ed05f3c5",
+            "result": "795aba29-5b38-456b-9d73-afdc27e6c74f",
             "cuts": 2,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 11
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "12ba58f0-7c40-44fe-8529-33a8a8b8c5c7",
+            "id": "7f1095f3-4954-4ffa-b03e-b224f553ccb7",
             "speed": 168.33148,
             "racer": "76561198006573508",
             "otherracer": null
@@ -52,5 +55,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

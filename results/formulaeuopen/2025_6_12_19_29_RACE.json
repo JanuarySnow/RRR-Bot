@@ -1,0 +1,776 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561199188267389",
+                "GuidsList": [
+                    "76561199188267389"
+                ],
+                "Name": "ankylosaurus",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "15_White",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 11,
+            "MaxPing": 14
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198079081530",
+                "GuidsList": [
+                    "76561198079081530"
+                ],
+                "Name": "suloguti",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "10_Nacho_Racing",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 46,
+            "MaxPing": 48
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199122122231",
+                "GuidsList": [
+                    "76561199122122231"
+                ],
+                "Name": "rovaperas",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "03_RSS_junior",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 42,
+            "MaxPing": 2698
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198004283173",
+                "GuidsList": [
+                    "76561198004283173"
+                ],
+                "Name": "Paul Jewell",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "13_Outback_Stars",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "MinPing": 31,
+            "MaxPing": 657
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198311778771",
+                "GuidsList": [
+                    "76561198311778771"
+                ],
+                "Name": "Szymon Ptasnik",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "10_Nacho_Racing",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "85_Greenery_FH",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "05_Smith_Racing",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "08_Chinese_Dragons",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "17_Carbon_Realistic",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "19_Black",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "05_Smith_Racing",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "07_Chinese_Dragons",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "18_Carbon_Dark",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "85_Greenery_FH",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "02_Team_RSS",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "05_Smith_Racing",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "07_Chinese_Dragons",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "Model": "rss_formula_rss_4",
+            "Restrictor": 0,
+            "Skin": "06_Smith_Racing",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198004283173",
+                "GuidsList": [
+                    "76561198004283173"
+                ],
+                "Name": "Paul Jewell",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 5.9685125,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9"
+            },
+            "RelPosition": {
+                "X": 0.8610522,
+                "Y": 0.30175,
+                "Z": -1.4951813
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -343.6547,
+                "Y": -1.5661613,
+                "Z": 264.24936
+            },
+            "Timestamp": 1749755557,
+            "AfterSessionEnd": false
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 114000,
+            "Restrictor": 0,
+            "Sectors": [
+                47548,
+                51561,
+                14891
+            ],
+            "Timestamp": 1749755408,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 119978,
+            "Restrictor": 0,
+            "Sectors": [
+                39550,
+                51169,
+                29259
+            ],
+            "Timestamp": 1749755528,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 105933,
+            "Restrictor": 0,
+            "Sectors": [
+                39206,
+                51733,
+                14994
+            ],
+            "Timestamp": 1749755634,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 105520,
+            "Restrictor": 0,
+            "Sectors": [
+                39366,
+                51232,
+                14922
+            ],
+            "Timestamp": 1749755739,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 104828,
+            "Restrictor": 0,
+            "Sectors": [
+                39187,
+                50715,
+                14926
+            ],
+            "Timestamp": 1749755844,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 2,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 114419,
+            "Restrictor": 0,
+            "Sectors": [
+                39899,
+                59684,
+                14836
+            ],
+            "Timestamp": 1749755958,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 104664,
+            "Restrictor": 0,
+            "Sectors": [
+                39035,
+                51013,
+                14616
+            ],
+            "Timestamp": 1749756063,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 104372,
+            "Restrictor": 0,
+            "Sectors": [
+                39478,
+                50512,
+                14382
+            ],
+            "Timestamp": 1749756167,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 103835,
+            "Restrictor": 0,
+            "Sectors": [
+                38756,
+                50459,
+                14620
+            ],
+            "Timestamp": 1749756271,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 23,
+                "Road": 32,
+                "Grip": 1,
+                "WindSpeed": 5,
+                "WindDirection": 151,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 112187,
+            "Restrictor": 0,
+            "Sectors": [
+                47054,
+                50455,
+                14678
+            ],
+            "Timestamp": 1749756383,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 24.173565,
+                "Road": 33.760212,
+                "Grip": 1,
+                "WindSpeed": 2.0661216,
+                "WindDirection": -8.016552,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "Cuts": 0,
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "LapTime": 112034,
+            "Restrictor": 0,
+            "Sectors": [
+                46055,
+                51206,
+                14773
+            ],
+            "Timestamp": 1749756496,
+            "Tyre": "S",
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 25.00002,
+                "Road": 34.999798,
+                "Grip": 1,
+                "WindSpeed": 5.3048134e-06,
+                "WindDirection": -120.00004,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 103835,
+            "CarId": 3,
+            "CarModel": "rss_formula_rss_4",
+            "DriverGuid": "76561198004283173",
+            "DriverName": "Paul Jewell",
+            "Restrictor": 0,
+            "TotalTime": 1202251,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "ab00d79e-bdd9-4c71-a9d0-48786862adb9",
+            "GridPosition": 1
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "",
+    "TrackName": "montreal",
+    "Type": "RACE",
+    "Date": "2025-06-12T19:29:00Z",
+    "SessionFile": "2025_6_12_19_29_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 1,
+        "wait_time": 60,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "8b4a6123-45e9-44d5-90ac-6afa8ff0d363",
+    "RaceWeekendID": "",
+    "EventName": "Montreal, Canada"
+}

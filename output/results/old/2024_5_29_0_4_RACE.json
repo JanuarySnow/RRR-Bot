@@ -1,72 +1,83 @@
 {
-    "id": "f7e2b925-6566-4dd4-874c-b364f7e9411b",
+    "id": "124a05e4-820e-4d5e-a4df-6d5d9b0f2922",
     "track": "spa;spa",
     "laps": [
         {
-            "id": "4ed3aa46-f5ea-4cb8-89f7-7baa735587b8",
+            "id": "1f16f761-df1a-4c79-b1ad-d2cc81a0070c",
             "time": 140980,
             "car": "bmw_z4_gt3",
             "racerguid": "76561198309443188",
-            "result": "f7e2b925-6566-4dd4-874c-b364f7e9411b",
+            "result": "124a05e4-820e-4d5e-a4df-6d5d9b0f2922",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716940439
         },
         {
-            "id": "8ab261f1-c627-4423-abef-73458e3ac9f2",
+            "id": "36eb4576-2ff4-4d15-813b-b21d1167e6d6",
             "time": 137976,
             "car": "bmw_z4_gt3",
             "racerguid": "76561198309443188",
-            "result": "f7e2b925-6566-4dd4-874c-b364f7e9411b",
+            "result": "124a05e4-820e-4d5e-a4df-6d5d9b0f2922",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716940577
         },
         {
-            "id": "888a1da5-4cb2-4c78-8c56-c2a7e7220e68",
+            "id": "4b29de82-7568-46df-89f4-e0d22a4c0e15",
             "time": 137609,
             "car": "bmw_z4_gt3",
             "racerguid": "76561198309443188",
-            "result": "f7e2b925-6566-4dd4-874c-b364f7e9411b",
+            "result": "124a05e4-820e-4d5e-a4df-6d5d9b0f2922",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716940715
         },
         {
-            "id": "2179cd64-396e-4b15-a4bc-6c2dbafde399",
+            "id": "ab8b0731-531b-4c5e-88b0-4cbc03ffa87c",
             "time": 138603,
             "car": "bmw_z4_gt3",
             "racerguid": "76561198309443188",
-            "result": "f7e2b925-6566-4dd4-874c-b364f7e9411b",
+            "result": "124a05e4-820e-4d5e-a4df-6d5d9b0f2922",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716940853
         },
         {
-            "id": "d30613ae-0fff-4bce-867a-ae31b0a12a29",
+            "id": "a5a03eea-e1c2-496e-bb11-b93978d37317",
             "time": 138478,
             "car": "bmw_z4_gt3",
             "racerguid": "76561198309443188",
-            "result": "f7e2b925-6566-4dd4-874c-b364f7e9411b",
+            "result": "124a05e4-820e-4d5e-a4df-6d5d9b0f2922",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716940992
         }
     ],
     "entries": [
         {
-            "id": "1ac79a50-7417-4927-85d9-81f6e35a0247",
+            "id": "273eb0fe-b842-4eed-a7f6-5ddd3eb49ed5",
             "racer": "76561198309443188",
             "car": "bmw_z4_gt3",
             "track": "spa;spa",
             "date": "2024-05-29T00:04:57.722415892Z",
             "laps": [
-                "4ed3aa46-f5ea-4cb8-89f7-7baa735587b8",
-                "8ab261f1-c627-4423-abef-73458e3ac9f2",
-                "888a1da5-4cb2-4c78-8c56-c2a7e7220e68",
-                "2179cd64-396e-4b15-a4bc-6c2dbafde399",
-                "d30613ae-0fff-4bce-867a-ae31b0a12a29"
+                "1f16f761-df1a-4c79-b1ad-d2cc81a0070c",
+                "36eb4576-2ff4-4d15-813b-b21d1167e6d6",
+                "4b29de82-7568-46df-89f4-e0d22a4c0e15",
+                "ab8b0731-531b-4c5e-88b0-4cbc03ffa87c",
+                "a5a03eea-e1c2-496e-bb11-b93978d37317"
             ],
             "incidents": [],
-            "result": "f7e2b925-6566-4dd4-874c-b364f7e9411b",
+            "result": "124a05e4-820e-4d5e-a4df-6d5d9b0f2922",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -83,5 +94,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

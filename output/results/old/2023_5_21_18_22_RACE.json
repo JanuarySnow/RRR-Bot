@@ -1,82 +1,90 @@
 {
-    "id": "a0b2dfa8-83e8-439f-bd83-ae870801dc25",
+    "id": "775491c3-11fb-4eb4-9857-a9e788ac3fb3",
     "track": "ks_vallelunga;club_circuit",
     "laps": [
         {
-            "id": "b92a3e75-2224-46e8-9af6-c3e6d3cb67d2",
+            "id": "f3241f07-c743-4902-bc89-da0ba4525249",
             "time": 63127,
             "car": "gokart125s",
             "racerguid": "76561199502656393",
-            "result": "a0b2dfa8-83e8-439f-bd83-ae870801dc25",
+            "result": "775491c3-11fb-4eb4-9857-a9e788ac3fb3",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1684692102
         },
         {
-            "id": "30e42790-c8bd-40e9-9523-c7add639c8b5",
+            "id": "88dd3ebe-5e9f-4de1-9207-121b1fa47fff",
             "time": 65363,
             "car": "gokart125s",
             "racerguid": "76561198815206972",
-            "result": "a0b2dfa8-83e8-439f-bd83-ae870801dc25",
+            "result": "775491c3-11fb-4eb4-9857-a9e788ac3fb3",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 2,
+            "timestamp": 1684692104
         }
     ],
     "entries": [
         {
-            "id": "3bb6d1af-cd72-4266-9749-7cad906beede",
+            "id": "6997686b-0aea-4e43-8f01-c16c1fa6881b",
             "racer": "76561199502656393",
             "car": "gokart125s",
             "track": "ks_vallelunga;club_circuit",
             "date": "2023-05-21T18:22:11.285053593Z",
             "laps": [
-                "b92a3e75-2224-46e8-9af6-c3e6d3cb67d2"
+                "f3241f07-c743-4902-bc89-da0ba4525249"
             ],
             "incidents": [],
-            "result": "a0b2dfa8-83e8-439f-bd83-ae870801dc25",
+            "result": "775491c3-11fb-4eb4-9857-a9e788ac3fb3",
             "cuts": 1,
             "finishingposition": 1,
-            "ratingchange": 2.99
+            "ratingchange": 11.86,
+            "startingposition": 1
         },
         {
-            "id": "b0138abf-cd9e-4368-9a75-b29be8d87976",
+            "id": "f84a4d6b-fccf-4c30-8c65-290d7b614e9f",
             "racer": "76561198815206972",
             "car": "gokart125s",
             "track": "ks_vallelunga;club_circuit",
             "date": "2023-05-21T18:22:11.285053593Z",
             "laps": [
-                "30e42790-c8bd-40e9-9523-c7add639c8b5"
+                "88dd3ebe-5e9f-4de1-9207-121b1fa47fff"
             ],
             "incidents": [],
-            "result": "a0b2dfa8-83e8-439f-bd83-ae870801dc25",
+            "result": "775491c3-11fb-4eb4-9857-a9e788ac3fb3",
             "cuts": 1,
             "finishingposition": 2,
-            "ratingchange": 1.0
+            "ratingchange": 3.95,
+            "startingposition": 2
         },
         {
-            "id": "7d5757ea-f368-4070-9bc7-25874763267d",
+            "id": "35f93b57-eee9-480e-ad41-d792d1bb179f",
             "racer": "76561199107124769",
             "car": "gokart125s",
             "track": "ks_vallelunga;club_circuit",
             "date": "2023-05-21T18:22:11.285053593Z",
             "laps": [],
             "incidents": [],
-            "result": "a0b2dfa8-83e8-439f-bd83-ae870801dc25",
+            "result": "775491c3-11fb-4eb4-9857-a9e788ac3fb3",
             "cuts": 1,
             "finishingposition": 3,
-            "ratingchange": -0.99
+            "ratingchange": -3.95,
+            "startingposition": 2
         },
         {
-            "id": "e7fa94d8-97ae-490e-b8e1-50cce75e9844",
+            "id": "727e7073-f814-4221-a545-43b92c7e8eec",
             "racer": "76561199159090607",
             "car": "gokart125s",
             "track": "ks_vallelunga;club_circuit",
             "date": "2023-05-21T18:22:11.285053593Z",
             "laps": [],
             "incidents": [],
-            "result": "a0b2dfa8-83e8-439f-bd83-ae870801dc25",
+            "result": "775491c3-11fb-4eb4-9857-a9e788ac3fb3",
             "cuts": 1,
             "finishingposition": 4,
-            "ratingchange": -2.98
+            "ratingchange": -11.86,
+            "startingposition": 2
         }
     ],
     "endurance": false,
@@ -94,5 +102,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

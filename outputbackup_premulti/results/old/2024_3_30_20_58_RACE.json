@@ -1,0 +1,327 @@
+{
+    "id": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+    "track": "monza;monza",
+    "laps": [
+        {
+            "id": "cce2421a-7d62-4165-a235-8710c08ffa2d",
+            "time": 99322,
+            "car": "ks_ferrari_sf70h",
+            "racerguid": "76561199304963627",
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "valid": false,
+            "cuts": 2
+        },
+        {
+            "id": "40d6a127-9a4b-425b-8049-68d2d6901815",
+            "time": 178762,
+            "car": "ks_ferrari_312_67",
+            "racerguid": "76561198397767365",
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "valid": false,
+            "cuts": 5
+        },
+        {
+            "id": "d50fe6e5-f5c3-4f6b-8379-1af0fb8cce96",
+            "time": 195195,
+            "car": "ferrari_312t",
+            "racerguid": "76561198249359766",
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "valid": false,
+            "cuts": 2
+        },
+        {
+            "id": "819d9f21-6cb8-4741-acd4-6331ddb404bb",
+            "time": 100014,
+            "car": "ks_ferrari_sf70h",
+            "racerguid": "76561199304963627",
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "1d1c3497-799c-4be5-a508-2baea97ffb77",
+            "time": 113058,
+            "car": "ks_ferrari_sf70h",
+            "racerguid": "76561199304963627",
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "7b46d960-2c40-478d-9639-d77e359d1e40",
+            "time": 181783,
+            "car": "ks_ferrari_312_67",
+            "racerguid": "76561198397767365",
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "19b2c292-3354-4c7d-8c86-2362ed904837",
+            "racer": "76561199304963627",
+            "car": "ks_ferrari_sf70h",
+            "track": "monza;monza",
+            "date": "2024-03-30T20:58:04.401637915Z",
+            "laps": [
+                "cce2421a-7d62-4165-a235-8710c08ffa2d",
+                "819d9f21-6cb8-4741-acd4-6331ddb404bb",
+                "1d1c3497-799c-4be5-a508-2baea97ffb77"
+            ],
+            "incidents": [
+                "d57506f4-815d-4801-9890-6f4a82e8a651",
+                "b36060fa-850d-4abd-b92a-654b8a0d29e0",
+                "efc71eb5-96b9-4ae7-ac94-375b5a25fb56",
+                "8a2516c4-c6e2-4918-85ad-95fbb22c1fd0",
+                "723a1b07-420b-48c0-8795-56ba413706dc"
+            ],
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "cuts": 10,
+            "finishingposition": 1,
+            "ratingchange": 2.99
+        },
+        {
+            "id": "8b0d713a-e140-4aab-a6a0-d5563b477762",
+            "racer": "76561198397767365",
+            "car": "ks_ferrari_312_67",
+            "track": "monza;monza",
+            "date": "2024-03-30T20:58:04.401637915Z",
+            "laps": [
+                "40d6a127-9a4b-425b-8049-68d2d6901815",
+                "7b46d960-2c40-478d-9639-d77e359d1e40"
+            ],
+            "incidents": [
+                "cc66f617-6f68-4b60-a817-2625e2c824d4",
+                "6023658f-5047-4158-bdaa-153b60bc2b63",
+                "33c4903a-567b-4fb2-8ac1-403ad51f1a9b",
+                "3dd8d8c2-9a40-4fca-a5e7-6275db827d29",
+                "803aa68f-a5c3-4fb4-8ae7-954960a7d114",
+                "cbe88d35-242f-4691-b3d1-ce79602ab7c8",
+                "5d145f1d-b437-448a-9c12-28923703d378",
+                "f0e0ac9b-7faf-44b5-a353-1e856cb14fcb",
+                "55ddf4d5-8af0-4710-b1d2-479a9e02928c",
+                "958870d1-fb7a-41dc-a02c-85391f332464",
+                "830adb1a-3622-47e3-b452-604f43d21050",
+                "1d59b69b-ccbe-46cd-b523-731a355eb90c"
+            ],
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "cuts": 10,
+            "finishingposition": 2,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "be6a2a0d-d242-4ef7-bd26-b80d19a60ed8",
+            "racer": "76561198249359766",
+            "car": "ferrari_312t",
+            "track": "monza;monza",
+            "date": "2024-03-30T20:58:04.401637915Z",
+            "laps": [
+                "d50fe6e5-f5c3-4f6b-8379-1af0fb8cce96"
+            ],
+            "incidents": [
+                "9a4f25f1-4551-43fc-87ea-24b215f73879",
+                "cf34a079-ab66-4fd7-a89f-b37cf5f00160",
+                "9e89e3aa-386f-4dac-9d20-ca53483fa7b5",
+                "9de21b59-342a-45c8-a32b-6b9d43235254",
+                "2eaa958d-5eca-4294-95c5-d8a66b232f30",
+                "dfbaabb7-eee2-4279-80ef-02b7ece2e6b4",
+                "a6486ca8-2bac-404f-87d7-2db5ce8c0f49",
+                "d84e3482-d08c-4618-ae86-9aadd19aab2f"
+            ],
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "cuts": 10,
+            "finishingposition": 3,
+            "ratingchange": -0.99
+        },
+        {
+            "id": "206a01c6-defb-4541-a1b3-9c1178e327e6",
+            "racer": "76561199205064019",
+            "car": "ks_ferrari_fxx_k",
+            "track": "monza;monza",
+            "date": "2024-03-30T20:58:04.401637915Z",
+            "laps": [],
+            "incidents": [
+                "076c1032-943b-4641-bdce-a3f806cbd213"
+            ],
+            "result": "04d72500-aaf3-408e-a697-e53b1fba39a0",
+            "cuts": 10,
+            "finishingposition": 4,
+            "ratingchange": -2.98
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "9a4f25f1-4551-43fc-87ea-24b215f73879",
+            "speed": 31.353655,
+            "racer": "76561198249359766",
+            "otherracer": null
+        },
+        {
+            "id": "cf34a079-ab66-4fd7-a89f-b37cf5f00160",
+            "speed": 7.088809,
+            "racer": "76561198249359766",
+            "otherracer": null
+        },
+        {
+            "id": "cc66f617-6f68-4b60-a817-2625e2c824d4",
+            "speed": 22.462467,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "076c1032-943b-4641-bdce-a3f806cbd213",
+            "speed": 46.89354,
+            "racer": "76561199205064019",
+            "otherracer": null
+        },
+        {
+            "id": "6023658f-5047-4158-bdaa-153b60bc2b63",
+            "speed": 26.420359,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "33c4903a-567b-4fb2-8ac1-403ad51f1a9b",
+            "speed": 61.425747,
+            "racer": "76561198397767365",
+            "otherracer": "76561198249359766"
+        },
+        {
+            "id": "9e89e3aa-386f-4dac-9d20-ca53483fa7b5",
+            "speed": 55.786037,
+            "racer": "76561198249359766",
+            "otherracer": "76561198397767365"
+        },
+        {
+            "id": "9de21b59-342a-45c8-a32b-6b9d43235254",
+            "speed": 17.788866,
+            "racer": "76561198249359766",
+            "otherracer": null
+        },
+        {
+            "id": "2eaa958d-5eca-4294-95c5-d8a66b232f30",
+            "speed": 10.650123,
+            "racer": "76561198249359766",
+            "otherracer": null
+        },
+        {
+            "id": "3dd8d8c2-9a40-4fca-a5e7-6275db827d29",
+            "speed": 77.37528,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "803aa68f-a5c3-4fb4-8ae7-954960a7d114",
+            "speed": 102.470276,
+            "racer": "76561198397767365",
+            "otherracer": "76561199304963627"
+        },
+        {
+            "id": "d57506f4-815d-4801-9890-6f4a82e8a651",
+            "speed": 50.627876,
+            "racer": "76561199304963627",
+            "otherracer": "76561198397767365"
+        },
+        {
+            "id": "dfbaabb7-eee2-4279-80ef-02b7ece2e6b4",
+            "speed": 92.619156,
+            "racer": "76561198249359766",
+            "otherracer": "76561199304963627"
+        },
+        {
+            "id": "b36060fa-850d-4abd-b92a-654b8a0d29e0",
+            "speed": 138.24855,
+            "racer": "76561199304963627",
+            "otherracer": "76561198249359766"
+        },
+        {
+            "id": "cbe88d35-242f-4691-b3d1-ce79602ab7c8",
+            "speed": 34.953144,
+            "racer": "76561198397767365",
+            "otherracer": "76561199304963627"
+        },
+        {
+            "id": "efc71eb5-96b9-4ae7-ac94-375b5a25fb56",
+            "speed": 33.18157,
+            "racer": "76561199304963627",
+            "otherracer": "76561198397767365"
+        },
+        {
+            "id": "5d145f1d-b437-448a-9c12-28923703d378",
+            "speed": 35.44169,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "f0e0ac9b-7faf-44b5-a353-1e856cb14fcb",
+            "speed": 30.991755,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "a6486ca8-2bac-404f-87d7-2db5ce8c0f49",
+            "speed": 29.095198,
+            "racer": "76561198249359766",
+            "otherracer": null
+        },
+        {
+            "id": "55ddf4d5-8af0-4710-b1d2-479a9e02928c",
+            "speed": 11.632378,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "d84e3482-d08c-4618-ae86-9aadd19aab2f",
+            "speed": 11.714078,
+            "racer": "76561198249359766",
+            "otherracer": null
+        },
+        {
+            "id": "958870d1-fb7a-41dc-a02c-85391f332464",
+            "speed": 10.607054,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "830adb1a-3622-47e3-b452-604f43d21050",
+            "speed": 3.1478593,
+            "racer": "76561198397767365",
+            "otherracer": null
+        },
+        {
+            "id": "8a2516c4-c6e2-4918-85ad-95fbb22c1fd0",
+            "speed": 48.054592,
+            "racer": "76561199304963627",
+            "otherracer": "76561198397767365"
+        },
+        {
+            "id": "1d59b69b-ccbe-46cd-b523-731a355eb90c",
+            "speed": 48.000294,
+            "racer": "76561198397767365",
+            "otherracer": "76561199304963627"
+        },
+        {
+            "id": "723a1b07-420b-48c0-8795-56ba413706dc",
+            "speed": 10.862593,
+            "racer": "76561199304963627",
+            "otherracer": "76561198397767365"
+        }
+    ],
+    "mx5orgt3": "gt3",
+    "filename": "2024_3_30_20_58_RACE.json",
+    "date": "2024-03-30T20:58:04.401637915Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199304963627": 3,
+        "76561198397767365": 2,
+        "76561198249359766": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

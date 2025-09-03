@@ -1,71 +1,76 @@
 {
-    "id": "70811853-f785-4a6c-b0f7-608ce3acc4d9",
+    "id": "e7915fbd-2a86-4234-a311-91916cab1f97",
     "track": "shanghai_v2;gp",
     "laps": [
         {
-            "id": "7dbbbd75-ea0e-42b5-949b-6f7683548483",
+            "id": "aaeaa47b-5b20-434c-946b-d4aa6daf6014",
             "time": 307319,
             "car": "rss_formula_rss_3_v6",
             "racerguid": "76561199188267389",
-            "result": "70811853-f785-4a6c-b0f7-608ce3acc4d9",
+            "result": "e7915fbd-2a86-4234-a311-91916cab1f97",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 1,
+            "timestamp": 1746732039
         },
         {
-            "id": "9330702c-e77e-4fd2-8351-f8cbb9ce8fab",
+            "id": "385166fc-4174-42dc-91f1-c04782ad7049",
             "time": 119311,
             "car": "rss_formula_rss_3_v6",
             "racerguid": "76561199188267389",
-            "result": "70811853-f785-4a6c-b0f7-608ce3acc4d9",
+            "result": "e7915fbd-2a86-4234-a311-91916cab1f97",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1746732158
         }
     ],
     "entries": [
         {
-            "id": "6777f9a4-13c0-4577-af10-da32696d42f6",
+            "id": "3c6dd432-6e40-4d7d-ab27-a66c43e6255c",
             "racer": "76561199188267389",
             "car": "rss_formula_rss_3_v6",
             "track": "shanghai_v2;gp",
             "date": "2025-05-08T19:27:00Z",
             "laps": [
-                "7dbbbd75-ea0e-42b5-949b-6f7683548483",
-                "9330702c-e77e-4fd2-8351-f8cbb9ce8fab"
+                "aaeaa47b-5b20-434c-946b-d4aa6daf6014",
+                "385166fc-4174-42dc-91f1-c04782ad7049"
             ],
             "incidents": [
-                "0c49ee87-d92f-4efb-84a0-d73e33608801",
-                "44325eb3-801d-4bb5-b611-8dcb9099919e",
-                "57bf4032-abcb-46b4-84ae-c2e9b3cf94ff",
-                "2adfab62-3a78-487c-bf6f-362ec4a99352"
+                "84c989ca-10ae-4d78-abc5-7e4ee7e9c493",
+                "86c0b336-7578-471b-8c62-7d640f92aec4",
+                "d989db6e-a4d9-435c-8d48-340a8956e551",
+                "272a15b6-7a58-4595-a15f-e05393bde833"
             ],
-            "result": "70811853-f785-4a6c-b0f7-608ce3acc4d9",
+            "result": "e7915fbd-2a86-4234-a311-91916cab1f97",
             "cuts": 1,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 2
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "0c49ee87-d92f-4efb-84a0-d73e33608801",
+            "id": "84c989ca-10ae-4d78-abc5-7e4ee7e9c493",
             "speed": 54.540726,
             "racer": "76561199188267389",
             "otherracer": null
         },
         {
-            "id": "44325eb3-801d-4bb5-b611-8dcb9099919e",
+            "id": "86c0b336-7578-471b-8c62-7d640f92aec4",
             "speed": 10.360578,
             "racer": "76561199188267389",
             "otherracer": null
         },
         {
-            "id": "57bf4032-abcb-46b4-84ae-c2e9b3cf94ff",
+            "id": "d989db6e-a4d9-435c-8d48-340a8956e551",
             "speed": 6.6037693,
             "racer": "76561199188267389",
             "otherracer": null
         },
         {
-            "id": "2adfab62-3a78-487c-bf6f-362ec4a99352",
+            "id": "272a15b6-7a58-4595-a15f-e05393bde833",
             "speed": 20.864239,
             "racer": "76561199188267389",
             "otherracer": null
@@ -83,5 +88,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "formulaeuopen"
+    "directory": "formulaeuopen",
+    "issecond": false
 }

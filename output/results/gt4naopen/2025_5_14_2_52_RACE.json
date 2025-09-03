@@ -1,32 +1,35 @@
 {
-    "id": "6c5a1d74-39d7-4f6a-aadd-fc7d8aae9571",
+    "id": "fd044193-0ea5-4d20-817e-6e3b7f239a4c",
     "track": "masduclos;fullcircuit",
     "laps": [
         {
-            "id": "78a1b418-5f27-4fca-9b71-cfdf17e423f2",
+            "id": "18da909d-ae6c-45dc-bc9f-8dcb7244640f",
             "time": 86781,
             "car": "gt4_alpine_a110",
             "racerguid": "76561198002604748",
-            "result": "6c5a1d74-39d7-4f6a-aadd-fc7d8aae9571",
+            "result": "fd044193-0ea5-4d20-817e-6e3b7f239a4c",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1747189930
         }
     ],
     "entries": [
         {
-            "id": "45938e62-8d83-4078-ba32-ee73f2e6beb5",
+            "id": "4dbd46b0-9212-45a5-93b5-d0a5beaa529d",
             "racer": "76561198002604748",
             "car": "gt4_alpine_a110",
             "track": "masduclos;fullcircuit",
             "date": "2025-05-14T02:52:00Z",
             "laps": [
-                "78a1b418-5f27-4fca-9b71-cfdf17e423f2"
+                "18da909d-ae6c-45dc-bc9f-8dcb7244640f"
             ],
             "incidents": [],
-            "result": "6c5a1d74-39d7-4f6a-aadd-fc7d8aae9571",
+            "result": "fd044193-0ea5-4d20-817e-6e3b7f239a4c",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 2
         }
     ],
     "endurance": false,
@@ -43,5 +46,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "gt4naopen"
+    "directory": "gt4naopen",
+    "issecond": true
 }

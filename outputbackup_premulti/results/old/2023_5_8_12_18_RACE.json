@@ -1,0 +1,89 @@
+{
+    "id": "d9cc7f1f-3669-44d8-9688-d6509d6f990c",
+    "track": "ks_vallelunga;classic_circuit",
+    "laps": [
+        {
+            "id": "11722937-6ed8-492f-bb47-a3f2c0a495cb",
+            "time": 164390,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199145422856",
+            "result": "d9cc7f1f-3669-44d8-9688-d6509d6f990c",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "eef0c059-a1c2-4d70-91b3-2e11f058f6e4",
+            "time": 105708,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199145422856",
+            "result": "d9cc7f1f-3669-44d8-9688-d6509d6f990c",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1b309ddb-ee42-46cf-a487-6525157ac8a1",
+            "time": 138397,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199145422856",
+            "result": "d9cc7f1f-3669-44d8-9688-d6509d6f990c",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "0f406d61-5cfa-457d-816e-5a889af8bb53",
+            "racer": "76561199145422856",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_vallelunga;classic_circuit",
+            "date": "2023-05-08T12:18:45.121304823Z",
+            "laps": [
+                "11722937-6ed8-492f-bb47-a3f2c0a495cb",
+                "eef0c059-a1c2-4d70-91b3-2e11f058f6e4",
+                "1b309ddb-ee42-46cf-a487-6525157ac8a1"
+            ],
+            "incidents": [
+                "821556bf-ad0f-4d48-856b-66dd676f38a8"
+            ],
+            "result": "d9cc7f1f-3669-44d8-9688-d6509d6f990c",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "35e8dd75-3547-4360-bf51-662dcd67505f",
+            "racer": "76561198973413498",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_vallelunga;classic_circuit",
+            "date": "2023-05-08T12:18:45.121304823Z",
+            "laps": [],
+            "incidents": [],
+            "result": "d9cc7f1f-3669-44d8-9688-d6509d6f990c",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "821556bf-ad0f-4d48-856b-66dd676f38a8",
+            "speed": 18.292921,
+            "racer": "76561199145422856",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2023_5_8_12_18_RACE.json",
+    "date": "2023-05-08T12:18:45.121304823Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199145422856": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

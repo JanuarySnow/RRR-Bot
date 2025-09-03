@@ -1,0 +1,111 @@
+{
+    "id": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+    "track": "ks_silverstone;gp",
+    "laps": [
+        {
+            "id": "beddc5a9-e1da-4a0c-8e1f-e1108df4e3ed",
+            "time": 174392,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199070961664",
+            "result": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "9007ee66-0333-4849-8006-1f6fc925272a",
+            "time": 199517,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198850473561",
+            "result": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "bc554c5a-81e9-4c41-9f4d-655d49609b1e",
+            "time": 145258,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199070961664",
+            "result": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "90f4ff5c-6e22-4693-b8a7-3e50515ef3d9",
+            "time": 164878,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198850473561",
+            "result": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "e6d6a15e-391b-475e-ad2a-7e51c1ff23c8",
+            "time": 143915,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199070961664",
+            "result": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "451f972d-d8cc-4377-9200-a932b249e16b",
+            "racer": "76561199070961664",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "ks_silverstone;gp",
+            "date": "2024-12-02T23:29:36.281767663Z",
+            "laps": [
+                "beddc5a9-e1da-4a0c-8e1f-e1108df4e3ed",
+                "bc554c5a-81e9-4c41-9f4d-655d49609b1e",
+                "e6d6a15e-391b-475e-ad2a-7e51c1ff23c8"
+            ],
+            "incidents": [
+                "c4a835cb-6174-4dc1-9739-87b27d70acc5"
+            ],
+            "result": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+            "cuts": 2,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "82ac30f1-02d2-4ddc-a57d-ce750791b117",
+            "racer": "76561198850473561",
+            "car": "bmw_z4_gt3",
+            "track": "ks_silverstone;gp",
+            "date": "2024-12-02T23:29:36.281767663Z",
+            "laps": [
+                "9007ee66-0333-4849-8006-1f6fc925272a",
+                "90f4ff5c-6e22-4693-b8a7-3e50515ef3d9"
+            ],
+            "incidents": [],
+            "result": "e5b5f6e5-eabc-4979-9fd0-ff43e9f84c50",
+            "cuts": 2,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "c4a835cb-6174-4dc1-9739-87b27d70acc5",
+            "speed": 69.646645,
+            "racer": "76561199070961664",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_12_2_23_29_RACE.json",
+    "date": "2024-12-02T23:29:36.281767663Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199070961664": 3,
+        "76561198850473561": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

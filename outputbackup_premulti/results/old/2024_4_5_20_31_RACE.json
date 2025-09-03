@@ -1,0 +1,82 @@
+{
+    "id": "5c5f9ab5-6507-491c-b3dc-94a61e718732",
+    "track": "lemans_2017;no_lights",
+    "laps": [
+        {
+            "id": "86248f8e-0211-4516-9f5b-1797ae3ca46b",
+            "time": 255476,
+            "car": "ks_lamborghini_huracan_gt3",
+            "racerguid": "76561197971872704",
+            "result": "5c5f9ab5-6507-491c-b3dc-94a61e718732",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "8353fe04-7c12-4a22-8f64-4e9a79c9cdae",
+            "time": 244677,
+            "car": "ks_lamborghini_huracan_gt3",
+            "racerguid": "76561197971872704",
+            "result": "5c5f9ab5-6507-491c-b3dc-94a61e718732",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "b6abd5fb-b298-418c-9ce9-64152c13cb3f",
+            "racer": "76561197971872704",
+            "car": "ks_lamborghini_huracan_gt3",
+            "track": "lemans_2017;no_lights",
+            "date": "2024-04-05T20:31:00Z",
+            "laps": [
+                "86248f8e-0211-4516-9f5b-1797ae3ca46b",
+                "8353fe04-7c12-4a22-8f64-4e9a79c9cdae"
+            ],
+            "incidents": [],
+            "result": "5c5f9ab5-6507-491c-b3dc-94a61e718732",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "203df7ba-8bdc-4c27-8d6b-95d889ac727b",
+            "speed": 60.86918,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "d3661783-6a2c-43e6-a3b1-c825d0efbe30",
+            "speed": 39.459248,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "b939ddae-abe8-4a75-8235-c62f9da88cce",
+            "speed": 32.674885,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "3fd2be14-ac22-4d5a-8e82-2de195d3bb6a",
+            "speed": 29.361305,
+            "racer": null,
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "gt3",
+    "filename": "2024_4_5_20_31_RACE.json",
+    "date": "2024-04-05T20:31:00Z",
+    "region": "EU",
+    "championshipid": "39283667-686e-4618-8c40-bb31704dc76f",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561197971872704": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

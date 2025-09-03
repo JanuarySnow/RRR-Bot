@@ -3,10 +3,10 @@
         "announced": false
     },
     "tuesdayannounced": {
-        "announced": false
+        "announced": true
     },
     "wednesdayannounced": {
-        "announced": true
+        "announced": false
     },
     "thursdayannounced": {
         "announced": false
@@ -19,5 +19,8 @@
     },
     "sundayannounced": {
         "announced": false
+    },
+    "serverhealthcheck": {
+        "lastrun": 1756890006.392687
     }
 }

@@ -1,86 +1,95 @@
 {
-    "id": "980b3e3b-85f7-43c1-8ca0-100f7eff7dc4",
+    "id": "6e23b952-8bca-4cc5-bcc1-688e58e8b172",
     "track": "monza;monza",
     "laps": [
         {
-            "id": "2136697b-aa5b-4eef-adc5-e29c4075e80f",
+            "id": "9385c391-c720-40b7-be9b-7af9254ae12f",
             "time": 107302,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198962312812",
-            "result": "980b3e3b-85f7-43c1-8ca0-100f7eff7dc4",
+            "result": "6e23b952-8bca-4cc5-bcc1-688e58e8b172",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1711925248
         },
         {
-            "id": "13a9a5ee-7f70-4b59-bb63-b44ff762a86c",
+            "id": "9e62777d-f72b-4b10-a241-0b7ec4828d5e",
             "time": 144852,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198962312812",
-            "result": "980b3e3b-85f7-43c1-8ca0-100f7eff7dc4",
+            "result": "6e23b952-8bca-4cc5-bcc1-688e58e8b172",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1711925393
         },
         {
-            "id": "5c1c64d0-3517-4fac-9a6a-f9589ad1e490",
+            "id": "6e13a8b7-ab0c-4bd2-8cea-62425d7b972e",
             "time": 90404,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198962312812",
-            "result": "980b3e3b-85f7-43c1-8ca0-100f7eff7dc4",
+            "result": "6e23b952-8bca-4cc5-bcc1-688e58e8b172",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1711925483
         }
     ],
     "entries": [
         {
-            "id": "0d70b588-cebe-4f1c-b4e5-5d5fb616a7d1",
+            "id": "7e8d3388-8e63-4931-a0bf-552daa184388",
             "racer": "76561198962312812",
             "car": "ks_ferrari_f2004",
             "track": "monza;monza",
             "date": "2024-03-31T23:07:13.402013249Z",
             "laps": [
-                "2136697b-aa5b-4eef-adc5-e29c4075e80f",
-                "13a9a5ee-7f70-4b59-bb63-b44ff762a86c",
-                "5c1c64d0-3517-4fac-9a6a-f9589ad1e490"
+                "9385c391-c720-40b7-be9b-7af9254ae12f",
+                "9e62777d-f72b-4b10-a241-0b7ec4828d5e",
+                "6e13a8b7-ab0c-4bd2-8cea-62425d7b972e"
             ],
             "incidents": [
-                "9754f02d-e379-4b12-a9ff-e5fbb11edc0f"
+                "1f768a3b-a35a-490a-b186-47bc178ea9d1"
             ],
-            "result": "980b3e3b-85f7-43c1-8ca0-100f7eff7dc4",
+            "result": "6e23b952-8bca-4cc5-bcc1-688e58e8b172",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 1.99
+            "ratingchange": 7.91,
+            "startingposition": 1
         },
         {
-            "id": "05aecfc2-db4c-4299-9441-e7033a48dee4",
+            "id": "fa726838-2ff0-456a-8ef6-64bdfae01781",
             "racer": "76561198307551118",
             "car": "ferrari_599xxevo",
             "track": "monza;monza",
             "date": "2024-03-31T23:07:13.402013249Z",
             "laps": [],
             "incidents": [],
-            "result": "980b3e3b-85f7-43c1-8ca0-100f7eff7dc4",
+            "result": "6e23b952-8bca-4cc5-bcc1-688e58e8b172",
             "cuts": 0,
             "finishingposition": 3,
-            "ratingchange": -1.0
+            "ratingchange": -4.0,
+            "startingposition": 17
         },
         {
-            "id": "05d9e665-9942-4d31-897e-7f5637e29401",
+            "id": "27fb8757-1cad-4b8a-bbc8-cfa2991a1a9d",
             "racer": "76561198307551118",
             "car": "ferrari_458_s3",
             "track": "monza;monza",
             "date": "2024-03-31T23:07:13.402013249Z",
             "laps": [],
             "incidents": [],
-            "result": "980b3e3b-85f7-43c1-8ca0-100f7eff7dc4",
+            "result": "6e23b952-8bca-4cc5-bcc1-688e58e8b172",
             "cuts": 0,
             "finishingposition": 3,
-            "ratingchange": -1.99
+            "ratingchange": -7.91,
+            "startingposition": 0
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "9754f02d-e379-4b12-a9ff-e5fbb11edc0f",
+            "id": "1f768a3b-a35a-490a-b186-47bc178ea9d1",
             "speed": 52.19136,
             "racer": "76561198962312812",
             "otherracer": null
@@ -98,5 +107,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

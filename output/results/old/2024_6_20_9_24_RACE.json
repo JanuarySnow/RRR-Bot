@@ -1,84 +1,91 @@
 {
-    "id": "92c6ceb9-d17f-4206-86b9-921faacbd4df",
+    "id": "5d4a1c8a-9481-4044-b52b-18b6140c74c7",
     "track": "ks_silverstone1967;ks_silverstone1967",
     "laps": [
         {
-            "id": "0bef3201-de2d-4814-80fa-b9e48a1abd63",
+            "id": "5a0c1e29-baa3-41d8-838f-3a3b9160d435",
             "time": 94556,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561198109758560",
-            "result": "92c6ceb9-d17f-4206-86b9-921faacbd4df",
+            "result": "5d4a1c8a-9481-4044-b52b-18b6140c74c7",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1718875439
         },
         {
-            "id": "fc72b8d7-a0e4-4c56-8e56-81ac39af117e",
+            "id": "a33cc913-e926-4ca9-9a2c-f67ade07a737",
             "time": 94802,
             "car": "bmw_z4_gt3",
             "racerguid": "76561198802983862",
-            "result": "92c6ceb9-d17f-4206-86b9-921faacbd4df",
+            "result": "5d4a1c8a-9481-4044-b52b-18b6140c74c7",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1718875439
         }
     ],
     "entries": [
         {
-            "id": "72b16cb3-cbcf-417b-83d9-947a488b8833",
+            "id": "6c33080c-3129-4dad-8e71-3c3dd30cfe76",
             "racer": "76561198109758560",
             "car": "ks_mercedes_amg_gt3",
             "track": "ks_silverstone1967;ks_silverstone1967",
             "date": "2024-06-20T09:24:00.79747349Z",
             "laps": [
-                "0bef3201-de2d-4814-80fa-b9e48a1abd63"
+                "5a0c1e29-baa3-41d8-838f-3a3b9160d435"
             ],
             "incidents": [],
-            "result": "92c6ceb9-d17f-4206-86b9-921faacbd4df",
+            "result": "5d4a1c8a-9481-4044-b52b-18b6140c74c7",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 1.92
+            "ratingchange": 7.67,
+            "startingposition": 3
         },
         {
-            "id": "cecfbad2-0716-414b-828f-31fd3569e5f4",
+            "id": "5b9a6e54-ee14-4167-ba41-3340ac4ab6d5",
             "racer": "76561198802983862",
             "car": "bmw_z4_gt3",
             "track": "ks_silverstone1967;ks_silverstone1967",
             "date": "2024-06-20T09:24:00.79747349Z",
             "laps": [
-                "fc72b8d7-a0e4-4c56-8e56-81ac39af117e"
+                "a33cc913-e926-4ca9-9a2c-f67ade07a737"
             ],
             "incidents": [],
-            "result": "92c6ceb9-d17f-4206-86b9-921faacbd4df",
+            "result": "5d4a1c8a-9481-4044-b52b-18b6140c74c7",
             "cuts": 0,
             "finishingposition": 2,
-            "ratingchange": -0.05
+            "ratingchange": -0.06,
+            "startingposition": 2
         },
         {
-            "id": "c0e23dde-8a83-4e44-8d4f-d36d0d8e7a5f",
+            "id": "18e58a81-ee9f-46a7-8f1a-9c87c8c85422",
             "racer": "76561198112229607",
             "car": "ks_porsche_911_gt3_r_2016",
             "track": "ks_silverstone1967;ks_silverstone1967",
             "date": "2024-06-20T09:24:00.79747349Z",
             "laps": [],
             "incidents": [
-                "25ef5b83-2b4f-4504-918e-bc2daa5e70c6",
-                "826797d9-fc7f-4e51-ba4a-97ee65ba158c"
+                "8b84ef9f-a109-48d2-9777-5d963f3949f0",
+                "b34595c4-b940-49cf-a80d-800a70f95518"
             ],
-            "result": "92c6ceb9-d17f-4206-86b9-921faacbd4df",
+            "result": "5d4a1c8a-9481-4044-b52b-18b6140c74c7",
             "cuts": 0,
             "finishingposition": 3,
-            "ratingchange": -1.85
+            "ratingchange": -7.61,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "25ef5b83-2b4f-4504-918e-bc2daa5e70c6",
+            "id": "8b84ef9f-a109-48d2-9777-5d963f3949f0",
             "speed": 53.055527,
             "racer": "76561198112229607",
             "otherracer": null
         },
         {
-            "id": "826797d9-fc7f-4e51-ba4a-97ee65ba158c",
+            "id": "b34595c4-b940-49cf-a80d-800a70f95518",
             "speed": 42.68452,
             "racer": "76561198112229607",
             "otherracer": null
@@ -97,5 +104,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

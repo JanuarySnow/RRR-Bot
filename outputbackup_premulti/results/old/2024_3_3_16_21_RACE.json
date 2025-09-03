@@ -1,0 +1,438 @@
+{
+    "id": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+    "track": "interlagos;interlagos",
+    "laps": [
+        {
+            "id": "35370b07-8f35-4a62-a6fd-53fe264de884",
+            "time": 89933,
+            "car": "yzd_oreca_07_2017",
+            "racerguid": "76561198360326108",
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1307fa87-eee8-46b9-a5da-a7bbc6fc282d",
+            "time": 91593,
+            "car": "yzd_oreca_07_2017",
+            "racerguid": "76561197971872704",
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "7a6c308b-cd9a-4498-85ac-098371052b5d",
+            "time": 93024,
+            "car": "yzd_oreca_07_2017",
+            "racerguid": "76561198324203128",
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "f65c5412-dacd-4447-9c1c-9c5c42de5ed0",
+            "time": 108477,
+            "car": "gt4_aston_martin_vantage",
+            "racerguid": "76561198309443188",
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "ae5e2360-dc77-4c3c-85ff-98c076748c3c",
+            "time": 110726,
+            "car": "yzd_oreca_07_2017",
+            "racerguid": "76561198006737063",
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "50e05767-f021-402c-aa45-78954ddf6bda",
+            "racer": "76561198360326108",
+            "car": "yzd_oreca_07_2017",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [
+                "35370b07-8f35-4a62-a6fd-53fe264de884"
+            ],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 18.17
+        },
+        {
+            "id": "daffbbe7-beee-4432-a1c8-c94ba06a1d85",
+            "racer": "76561197971872704",
+            "car": "yzd_oreca_07_2017",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [
+                "1307fa87-eee8-46b9-a5da-a7bbc6fc282d"
+            ],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": 9.54
+        },
+        {
+            "id": "a1d80abd-0b35-4f92-b054-b1fda6e69fc2",
+            "racer": "76561198324203128",
+            "car": "yzd_oreca_07_2017",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [
+                "7a6c308b-cd9a-4498-85ac-098371052b5d"
+            ],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 3,
+            "ratingchange": 39.48
+        },
+        {
+            "id": "2a912c1d-4452-49a3-b574-9f78a08d0191",
+            "racer": "76561198309443188",
+            "car": "gt4_aston_martin_vantage",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [
+                "f65c5412-dacd-4447-9c1c-9c5c42de5ed0"
+            ],
+            "incidents": [
+                "2b98f665-18f2-4598-ac7a-d70534d2c108"
+            ],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 4,
+            "ratingchange": 2.04
+        },
+        {
+            "id": "beb7bd64-86d2-4054-8d70-f4ed687f19fd",
+            "racer": "76561198006737063",
+            "car": "yzd_oreca_07_2017",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [
+                "ae5e2360-dc77-4c3c-85ff-98c076748c3c"
+            ],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 5,
+            "ratingchange": 15.19
+        },
+        {
+            "id": "e95e3f5c-ef72-4ef5-8759-dd631859466e",
+            "racer": "76561199016198981",
+            "car": "gt4_camaro",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [
+                "dd62c937-c54b-4df2-9e50-2cc2b51529da",
+                "1c417948-d805-47a9-8735-657b459e6515",
+                "57da9f7c-b66f-40c4-8402-bb874838b3a0"
+            ],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 6,
+            "ratingchange": 10.04
+        },
+        {
+            "id": "55dd255a-c268-48e3-9337-75138810fee8",
+            "racer": "76561198013813110",
+            "car": "yzd_oreca_07_2017",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 7,
+            "ratingchange": 7.17
+        },
+        {
+            "id": "0ef65367-3b60-4f9b-b794-c4413c195193",
+            "racer": "76561198112229607",
+            "car": "gt4_aston_martin_vantage",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [
+                "e5770559-f003-441d-a452-8e8fef9b93d7"
+            ],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 8,
+            "ratingchange": 10.68
+        },
+        {
+            "id": "7dbc5ebf-5dbd-4d20-bda0-fb36bf014a2d",
+            "racer": "76561197979979433",
+            "car": "yzd_oreca_07_2017",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 9,
+            "ratingchange": -9.1
+        },
+        {
+            "id": "80fe9b0b-52b4-4df3-84a5-31d423ed7d03",
+            "racer": "76561198047230400",
+            "car": "gt4_camaro",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [
+                "cfdad3ed-0125-4eab-9a41-c6a3c888358f",
+                "da5b5520-42a6-4e1e-9aed-7660818cecf1",
+                "38052595-839b-44c9-a5ce-542ce8388abd",
+                "5af8dc32-2d15-460b-8c0f-4853aaadea5a",
+                "5bd4953f-5a9c-4ddf-9f57-349b7c10da48",
+                "b0fb7c53-61a9-4f72-a925-a115dfc215a3",
+                "317c18f4-55f8-4c80-a987-0f04381c0c82",
+                "becaa203-17bc-4fef-8d17-effb5796a04a",
+                "d51a48e0-1d61-466d-b8c8-26857dce4c1f"
+            ],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 10,
+            "ratingchange": -8.49
+        },
+        {
+            "id": "d4fbd3b7-980e-4170-9745-4a232174b14c",
+            "racer": "76561198987735116",
+            "car": "gt4_aston_martin_vantage",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 11,
+            "ratingchange": -22.44
+        },
+        {
+            "id": "59831e44-d339-468a-988f-d6991f73a0f4",
+            "racer": "76561198008585393",
+            "car": "gt4_sin_r1",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [
+                "01757f6b-c344-41e1-a09c-1997d12447c4",
+                "e4ec8792-690b-4b67-816a-f82ad47ed4c2"
+            ],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 12,
+            "ratingchange": -10.92
+        },
+        {
+            "id": "55d19e2b-42b7-48b4-8f04-a707482d521c",
+            "racer": "76561199008053666",
+            "car": "yzd_oreca_07_2017",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [
+                "b9fc1cd8-2682-438e-8d4c-a1d491d743ae"
+            ],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 13,
+            "ratingchange": -37.72
+        },
+        {
+            "id": "72300b8f-b3c2-4cb9-a14b-5f84bb7dd940",
+            "racer": "76561198103373944",
+            "car": "ks_mazda_mx5_cup",
+            "track": "interlagos;interlagos",
+            "date": "2024-03-03T16:21:31.979910872Z",
+            "laps": [],
+            "incidents": [],
+            "result": "e9a43df7-0269-4025-a599-f31f37fc6a28",
+            "cuts": 0,
+            "finishingposition": 14,
+            "ratingchange": -20.6
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "b9fc1cd8-2682-438e-8d4c-a1d491d743ae",
+            "speed": 254.77086,
+            "racer": "76561199008053666",
+            "otherracer": "76561197971872704"
+        },
+        {
+            "id": "cfdad3ed-0125-4eab-9a41-c6a3c888358f",
+            "speed": 7.478733,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "7b5efbb3-2d59-4047-a830-413a0bdceef8",
+            "speed": 6.9388185,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "da5b5520-42a6-4e1e-9aed-7660818cecf1",
+            "speed": 7.981458,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "50ec5227-0fce-42c8-9635-25491df9af29",
+            "speed": 8.36804,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "38052595-839b-44c9-a5ce-542ce8388abd",
+            "speed": 7.7132993,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "e83cbd81-978d-492c-9fab-18d27b545f1f",
+            "speed": 6.138648,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "5af8dc32-2d15-460b-8c0f-4853aaadea5a",
+            "speed": 3.60811,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "ab258dd3-c70c-4745-b9f7-709ae8576303",
+            "speed": 1.9780546,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "5bd4953f-5a9c-4ddf-9f57-349b7c10da48",
+            "speed": 0.004218348,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "58bcd2bd-0baf-49da-b13c-90cf2ad8b2c4",
+            "speed": 0.03452455,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "b0fb7c53-61a9-4f72-a925-a115dfc215a3",
+            "speed": 0.0013984024,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "3ee569a8-5d5e-49dd-86c8-475674a5fda2",
+            "speed": 0.047756676,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "317c18f4-55f8-4c80-a987-0f04381c0c82",
+            "speed": 0.0021655618,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "e9d1bcaa-960a-4058-9cef-9c8fad02a29f",
+            "speed": 0.04405536,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "becaa203-17bc-4fef-8d17-effb5796a04a",
+            "speed": 16.026695,
+            "racer": "76561198047230400",
+            "otherracer": null
+        },
+        {
+            "id": "7ece45df-e161-41fd-9a54-4661545eb063",
+            "speed": 14.389854,
+            "racer": null,
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "d51a48e0-1d61-466d-b8c8-26857dce4c1f",
+            "speed": 8.837591,
+            "racer": "76561198047230400",
+            "otherracer": "76561199016198981"
+        },
+        {
+            "id": "dd62c937-c54b-4df2-9e50-2cc2b51529da",
+            "speed": 9.329022,
+            "racer": "76561199016198981",
+            "otherracer": "76561198047230400"
+        },
+        {
+            "id": "01757f6b-c344-41e1-a09c-1997d12447c4",
+            "speed": 13.687296,
+            "racer": "76561198008585393",
+            "otherracer": "76561199016198981"
+        },
+        {
+            "id": "1c417948-d805-47a9-8735-657b459e6515",
+            "speed": 3.2940638,
+            "racer": "76561199016198981",
+            "otherracer": "76561198008585393"
+        },
+        {
+            "id": "e5770559-f003-441d-a452-8e8fef9b93d7",
+            "speed": 10.176567,
+            "racer": "76561198112229607",
+            "otherracer": "76561198309443188"
+        },
+        {
+            "id": "2b98f665-18f2-4598-ac7a-d70534d2c108",
+            "speed": 6.06232,
+            "racer": "76561198309443188",
+            "otherracer": "76561198112229607"
+        },
+        {
+            "id": "e4ec8792-690b-4b67-816a-f82ad47ed4c2",
+            "speed": 40.47721,
+            "racer": "76561198008585393",
+            "otherracer": "76561199016198981"
+        },
+        {
+            "id": "57da9f7c-b66f-40c4-8402-bb874838b3a0",
+            "speed": 22.226543,
+            "racer": "76561199016198981",
+            "otherracer": "76561198008585393"
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_3_3_16_21_RACE.json",
+    "date": "2024-03-03T16:21:31.979910872Z",
+    "region": "EU",
+    "championshipid": "7515f848-3f46-4f1e-b5b1-ed7153c52c83",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198360326108": 1,
+        "76561197971872704": 1,
+        "76561198324203128": 1,
+        "76561198309443188": 1,
+        "76561198006737063": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

@@ -1,60 +1,67 @@
 {
-    "id": "7a9d8713-7b56-4b58-82a8-9be636c5b3cb",
+    "id": "15d15c44-8d1b-4c35-9f34-be80d25034d3",
     "track": "auto_club_speedway;superspeedway",
     "laps": [
         {
-            "id": "088360aa-3524-40cc-9b35-29ea5030b033",
+            "id": "16063b44-2d42-448e-b0f9-d6bdc46b1be7",
             "time": 72834,
             "car": "fsr_camaro_s",
             "racerguid": "76561199016198981",
-            "result": "7a9d8713-7b56-4b58-82a8-9be636c5b3cb",
+            "result": "15d15c44-8d1b-4c35-9f34-be80d25034d3",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1712273799
         },
         {
-            "id": "b42429d2-dcfd-4cbf-af72-9322133cc4c2",
+            "id": "61ece016-8bdf-423c-b94d-90bc19eb08f4",
             "time": 40900,
             "car": "fsr_camaro_s",
             "racerguid": "76561199016198981",
-            "result": "7a9d8713-7b56-4b58-82a8-9be636c5b3cb",
+            "result": "15d15c44-8d1b-4c35-9f34-be80d25034d3",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1712273840
         },
         {
-            "id": "00957a6a-7e8d-4271-9342-16848bc0b047",
+            "id": "45e849b7-52f9-4bba-b49c-8dffac2f3001",
             "time": 40551,
             "car": "fsr_camaro_s",
             "racerguid": "76561199016198981",
-            "result": "7a9d8713-7b56-4b58-82a8-9be636c5b3cb",
+            "result": "15d15c44-8d1b-4c35-9f34-be80d25034d3",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1712273880
         }
     ],
     "entries": [
         {
-            "id": "f6b32625-e532-4f6b-98e0-2bfc28ff5f05",
+            "id": "30c34880-e5e8-4d24-97ba-f653a6a3affe",
             "racer": "76561199016198981",
             "car": "fsr_camaro_s",
             "track": "auto_club_speedway;superspeedway",
             "date": "2024-04-04T23:55:52.375346237Z",
             "laps": [
-                "088360aa-3524-40cc-9b35-29ea5030b033",
-                "b42429d2-dcfd-4cbf-af72-9322133cc4c2",
-                "00957a6a-7e8d-4271-9342-16848bc0b047"
+                "16063b44-2d42-448e-b0f9-d6bdc46b1be7",
+                "61ece016-8bdf-423c-b94d-90bc19eb08f4",
+                "45e849b7-52f9-4bba-b49c-8dffac2f3001"
             ],
             "incidents": [
-                "043454e7-7bab-4f1b-b70d-dd8978865f63"
+                "ce29ec31-473a-4641-82ed-f052c4b9d4b3"
             ],
-            "result": "7a9d8713-7b56-4b58-82a8-9be636c5b3cb",
+            "result": "15d15c44-8d1b-4c35-9f34-be80d25034d3",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 5
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "043454e7-7bab-4f1b-b70d-dd8978865f63",
+            "id": "ce29ec31-473a-4641-82ed-f052c4b9d4b3",
             "speed": 8.520364,
             "racer": "76561199016198981",
             "otherracer": null
@@ -72,5 +79,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

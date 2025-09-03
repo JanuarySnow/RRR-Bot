@@ -1,52 +1,59 @@
 {
-    "id": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+    "id": "ee602870-5422-4b00-9e07-76800e5e9160",
     "track": "ks_laguna_seca;ks_laguna_seca",
     "laps": [
         {
-            "id": "4d8fba38-e878-4014-8889-2782a558557d",
+            "id": "d5038f76-30f4-434e-85ed-bb6d4d1a1f5c",
             "time": 108332,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561197997029041",
-            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "result": "ee602870-5422-4b00-9e07-76800e5e9160",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1687735659
         },
         {
-            "id": "c8089b5f-4a73-45ee-a063-1523638b7a37",
+            "id": "c172fa03-f93c-450f-8632-bbb2c09c3316",
             "time": 100290,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561197997029041",
-            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "result": "ee602870-5422-4b00-9e07-76800e5e9160",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1687735759
         },
         {
-            "id": "31f6e3cc-ced4-4060-afb6-c6580d6c4be8",
+            "id": "3712321c-8955-4686-a967-7bb5f9bde2bf",
             "time": 101736,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561197997029041",
-            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "result": "ee602870-5422-4b00-9e07-76800e5e9160",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1687735861
         }
     ],
     "entries": [
         {
-            "id": "6a445267-7b4d-404b-8e3c-270dc79d49e9",
+            "id": "4902eafb-9286-4d1b-9a14-03f39fa778f7",
             "racer": "76561197997029041",
             "car": "ks_mazda_mx5_cup",
             "track": "ks_laguna_seca;ks_laguna_seca",
             "date": "2023-06-25T23:47:22.413727368Z",
             "laps": [
-                "4d8fba38-e878-4014-8889-2782a558557d",
-                "c8089b5f-4a73-45ee-a063-1523638b7a37",
-                "31f6e3cc-ced4-4060-afb6-c6580d6c4be8"
+                "d5038f76-30f4-434e-85ed-bb6d4d1a1f5c",
+                "c172fa03-f93c-450f-8632-bbb2c09c3316",
+                "3712321c-8955-4686-a967-7bb5f9bde2bf"
             ],
             "incidents": [],
-            "result": "a91bda49-4b6c-4050-96bb-8d37f8a359cf",
+            "result": "ee602870-5422-4b00-9e07-76800e5e9160",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 2
         }
     ],
     "endurance": false,
@@ -63,5 +70,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

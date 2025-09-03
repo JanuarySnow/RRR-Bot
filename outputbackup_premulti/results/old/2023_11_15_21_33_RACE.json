@@ -1,0 +1,76 @@
+{
+    "id": "460631e0-562c-49c9-9df5-78517c48cc40",
+    "track": "monaco;monaco",
+    "laps": [
+        {
+            "id": "b1bdf598-7374-4876-9138-9808af987564",
+            "time": 256333,
+            "car": "gokart125s",
+            "racerguid": "76561197971872704",
+            "result": "460631e0-562c-49c9-9df5-78517c48cc40",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1e063c35-1d32-4cfb-8ca7-83bb3c4c4046",
+            "time": 115395,
+            "car": "gokart125s",
+            "racerguid": "76561197971872704",
+            "result": "460631e0-562c-49c9-9df5-78517c48cc40",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "0ab702c0-7416-46a7-a7fd-a4c5b8112117",
+            "time": 962072,
+            "car": "gokart125s",
+            "racerguid": "76561197971872704",
+            "result": "460631e0-562c-49c9-9df5-78517c48cc40",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "046cfe50-2225-49d2-810b-5f35566e3218",
+            "racer": "76561197971872704",
+            "car": "gokart125s",
+            "track": "monaco;monaco",
+            "date": "2023-11-15T21:33:00Z",
+            "laps": [
+                "b1bdf598-7374-4876-9138-9808af987564",
+                "1e063c35-1d32-4cfb-8ca7-83bb3c4c4046",
+                "0ab702c0-7416-46a7-a7fd-a4c5b8112117"
+            ],
+            "incidents": [
+                "d261d251-4836-4884-8215-c12b5fabbbb8"
+            ],
+            "result": "460631e0-562c-49c9-9df5-78517c48cc40",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "d261d251-4836-4884-8215-c12b5fabbbb8",
+            "speed": 15.775544,
+            "racer": "76561197971872704",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2023_11_15_21_33_RACE.json",
+    "date": "2023-11-15T21:33:00Z",
+    "region": "EU",
+    "championshipid": "f15e8a35-4a5a-4aba-a9a6-b399d0bf3731",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561197971872704": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

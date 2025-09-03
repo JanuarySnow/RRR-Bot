@@ -1,52 +1,59 @@
 {
-    "id": "e4a75a5e-207d-4f5e-828e-f80e59847a65",
+    "id": "4fe38b56-3c68-42dd-af1e-8f4cfaba55bd",
     "track": "ks_brands_hatch;indy",
     "laps": [
         {
-            "id": "5c3f282f-b3fb-4462-887c-1daf44cfab52",
+            "id": "f1486708-a3c4-4898-a16f-ee0d52817783",
             "time": 90069,
             "car": "gokart125s",
             "racerguid": "76561199151946610",
-            "result": "e4a75a5e-207d-4f5e-828e-f80e59847a65",
+            "result": "4fe38b56-3c68-42dd-af1e-8f4cfaba55bd",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1700687219
         },
         {
-            "id": "29ccc92e-f219-4495-aec7-986a7183822b",
+            "id": "13b0e72a-1040-4bec-8200-0ee5073b6ff2",
             "time": 57073,
             "car": "gokart125s",
             "racerguid": "76561199151946610",
-            "result": "e4a75a5e-207d-4f5e-828e-f80e59847a65",
+            "result": "4fe38b56-3c68-42dd-af1e-8f4cfaba55bd",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1700687276
         },
         {
-            "id": "fa0690f8-25ff-438c-8c8f-1d9de98291f1",
+            "id": "e5ba0bb2-07b2-4436-a2e3-5f2d1e227903",
             "time": 57056,
             "car": "gokart125s",
             "racerguid": "76561199151946610",
-            "result": "e4a75a5e-207d-4f5e-828e-f80e59847a65",
+            "result": "4fe38b56-3c68-42dd-af1e-8f4cfaba55bd",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1700687333
         }
     ],
     "entries": [
         {
-            "id": "f49a199c-2154-43d4-99c4-2aa46df6a04b",
+            "id": "d485b71d-e9ba-4be9-b62e-84c2296461e9",
             "racer": "76561199151946610",
             "car": "gokart125s",
             "track": "ks_brands_hatch;indy",
             "date": "2023-11-22T21:25:00Z",
             "laps": [
-                "5c3f282f-b3fb-4462-887c-1daf44cfab52",
-                "29ccc92e-f219-4495-aec7-986a7183822b",
-                "fa0690f8-25ff-438c-8c8f-1d9de98291f1"
+                "f1486708-a3c4-4898-a16f-ee0d52817783",
+                "13b0e72a-1040-4bec-8200-0ee5073b6ff2",
+                "e5ba0bb2-07b2-4436-a2e3-5f2d1e227903"
             ],
             "incidents": [],
-            "result": "e4a75a5e-207d-4f5e-828e-f80e59847a65",
+            "result": "4fe38b56-3c68-42dd-af1e-8f4cfaba55bd",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -63,5 +70,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

@@ -1,47 +1,50 @@
 {
-    "id": "35dd8bd8-69f2-486b-84cb-dfa01864ad7e",
+    "id": "30c1a5af-6700-47d4-8ed9-1f2f2fa2a0fb",
     "track": "spa;spa",
     "laps": [
         {
-            "id": "722179b2-e13d-4a70-81f2-d8af46018433",
+            "id": "2f1dd401-9ced-4e65-b63f-93d2c285578a",
             "time": 321068,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561199053260491",
-            "result": "35dd8bd8-69f2-486b-84cb-dfa01864ad7e",
+            "result": "30c1a5af-6700-47d4-8ed9-1f2f2fa2a0fb",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 1,
+            "timestamp": 1717534515
         }
     ],
     "entries": [
         {
-            "id": "edc7354a-8bdf-4985-b4e8-89b8be7b8796",
+            "id": "f78e35fb-4554-4e04-9c32-4c8a2de7fc41",
             "racer": "76561199053260491",
             "car": "ks_mercedes_amg_gt3",
             "track": "spa;spa",
             "date": "2024-06-04T21:11:26.842631878Z",
             "laps": [
-                "722179b2-e13d-4a70-81f2-d8af46018433"
+                "2f1dd401-9ced-4e65-b63f-93d2c285578a"
             ],
             "incidents": [
-                "fabd0fb3-8b23-42a6-8216-b04c70866e9d",
-                "3b5eb3ed-efb6-443f-b281-1d934195dd24"
+                "e5ded7f5-f88b-4e79-ae62-6fc58303228a",
+                "ee15c7b3-2c87-40a3-9e65-3f11716b7c9e"
             ],
-            "result": "35dd8bd8-69f2-486b-84cb-dfa01864ad7e",
+            "result": "30c1a5af-6700-47d4-8ed9-1f2f2fa2a0fb",
             "cuts": 1,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "fabd0fb3-8b23-42a6-8216-b04c70866e9d",
+            "id": "e5ded7f5-f88b-4e79-ae62-6fc58303228a",
             "speed": 5.208206,
             "racer": "76561199053260491",
             "otherracer": null
         },
         {
-            "id": "3b5eb3ed-efb6-443f-b281-1d934195dd24",
+            "id": "ee15c7b3-2c87-40a3-9e65-3f11716b7c9e",
             "speed": 45.342953,
             "racer": "76561199053260491",
             "otherracer": null
@@ -59,5 +62,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

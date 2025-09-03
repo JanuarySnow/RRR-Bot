@@ -1,52 +1,59 @@
 {
-    "id": "bf93b60b-13da-4c37-bf5c-af3b36e6ff79",
+    "id": "c725367f-103d-4979-b4b5-b2a4ff378852",
     "track": "auto_club_speedway;superspeedway",
     "laps": [
         {
-            "id": "1584a7f5-652f-4808-b8a2-b56801f22ffd",
+            "id": "39a85c8c-6d8a-4fca-92b8-0cd0853efa93",
             "time": 67302,
             "car": "fsr_ford_mustang_s",
             "racerguid": "76561197962584694",
-            "result": "bf93b60b-13da-4c37-bf5c-af3b36e6ff79",
+            "result": "c725367f-103d-4979-b4b5-b2a4ff378852",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1717024725
         },
         {
-            "id": "4830ea0c-fbd0-4bbb-9bc3-1267f1310975",
+            "id": "a1596017-a794-4b52-9b6f-ccdea0c95964",
             "time": 40423,
             "car": "fsr_ford_mustang_s",
             "racerguid": "76561197962584694",
-            "result": "bf93b60b-13da-4c37-bf5c-af3b36e6ff79",
+            "result": "c725367f-103d-4979-b4b5-b2a4ff378852",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1717024766
         },
         {
-            "id": "e5362fea-8311-4d27-bd53-79ec8a176d3e",
+            "id": "12bacbbb-b0d3-4bbf-b59e-83b081b7b8ba",
             "time": 40838,
             "car": "fsr_ford_mustang_s",
             "racerguid": "76561197962584694",
-            "result": "bf93b60b-13da-4c37-bf5c-af3b36e6ff79",
+            "result": "c725367f-103d-4979-b4b5-b2a4ff378852",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1717024806
         }
     ],
     "entries": [
         {
-            "id": "cfecd943-d02b-4d68-a8a2-63ceb52c647a",
+            "id": "9d7c124c-6fc7-45a3-9a45-60be81c79448",
             "racer": "76561197962584694",
             "car": "fsr_ford_mustang_s",
             "track": "auto_club_speedway;superspeedway",
             "date": "2024-05-29T23:21:00Z",
             "laps": [
-                "1584a7f5-652f-4808-b8a2-b56801f22ffd",
-                "4830ea0c-fbd0-4bbb-9bc3-1267f1310975",
-                "e5362fea-8311-4d27-bd53-79ec8a176d3e"
+                "39a85c8c-6d8a-4fca-92b8-0cd0853efa93",
+                "a1596017-a794-4b52-9b6f-ccdea0c95964",
+                "12bacbbb-b0d3-4bbf-b59e-83b081b7b8ba"
             ],
             "incidents": [],
-            "result": "bf93b60b-13da-4c37-bf5c-af3b36e6ff79",
+            "result": "c725367f-103d-4979-b4b5-b2a4ff378852",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -63,5 +70,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

@@ -1,0 +1,320 @@
+{
+    "id": "8f9ad627-4092-4b27-8773-e27d76012a50",
+    "track": "pico_veleta_subida;pico_veleta_subida",
+    "laps": [
+        {
+            "id": "86c869f6-7380-47d9-aa2d-b4e445ba215b",
+            "time": 482929,
+            "car": "ks_abarth500_assetto_corse",
+            "racerguid": "76561198309443188",
+            "result": "8f9ad627-4092-4b27-8773-e27d76012a50",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "ece4245b-1720-4fc5-830d-49b6d9e848d7",
+            "time": 530978,
+            "car": "ks_abarth500_assetto_corse",
+            "racerguid": "76561198103373944",
+            "result": "8f9ad627-4092-4b27-8773-e27d76012a50",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "2f094283-f53f-4070-8149-cb974907fadb",
+            "time": 610298,
+            "car": "ks_abarth500_assetto_corse",
+            "racerguid": "76561198040631272",
+            "result": "8f9ad627-4092-4b27-8773-e27d76012a50",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "7f604b36-f9e8-43ce-a4e9-9be57dbe8905",
+            "racer": "76561198309443188",
+            "car": "ks_abarth500_assetto_corse",
+            "track": "pico_veleta_subida;pico_veleta_subida",
+            "date": "2024-10-10T02:41:00Z",
+            "laps": [
+                "86c869f6-7380-47d9-aa2d-b4e445ba215b"
+            ],
+            "incidents": [],
+            "result": "8f9ad627-4092-4b27-8773-e27d76012a50",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0.3
+        },
+        {
+            "id": "783ba78a-38f3-4507-8f96-3b2977859285",
+            "racer": "76561198103373944",
+            "car": "ks_abarth500_assetto_corse",
+            "track": "pico_veleta_subida;pico_veleta_subida",
+            "date": "2024-10-10T02:41:00Z",
+            "laps": [
+                "ece4245b-1720-4fc5-830d-49b6d9e848d7"
+            ],
+            "incidents": [
+                "f8359d72-1be9-4842-adf3-ba2f88a676ca"
+            ],
+            "result": "8f9ad627-4092-4b27-8773-e27d76012a50",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": 0.2
+        },
+        {
+            "id": "03eecbca-be4a-414d-97ca-6d829a4a5156",
+            "racer": "76561198040631272",
+            "car": "ks_abarth500_assetto_corse",
+            "track": "pico_veleta_subida;pico_veleta_subida",
+            "date": "2024-10-10T02:41:00Z",
+            "laps": [
+                "2f094283-f53f-4070-8149-cb974907fadb"
+            ],
+            "incidents": [
+                "3a6df4a0-e59d-4bf5-a215-42da9955a6bf",
+                "d53f5493-eb26-4a93-afef-d2e7ea5bf369",
+                "1eb8f3ec-0056-46f9-951a-22b8c23d3c52"
+            ],
+            "result": "8f9ad627-4092-4b27-8773-e27d76012a50",
+            "cuts": 0,
+            "finishingposition": 3,
+            "ratingchange": -0.99
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "92f829e9-2b54-4075-9fcf-190c2083af4c",
+            "speed": 8.034177,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "f8359d72-1be9-4842-adf3-ba2f88a676ca",
+            "speed": 13.583477,
+            "racer": "76561198103373944",
+            "otherracer": null
+        },
+        {
+            "id": "ed5f13e3-d6e5-4775-b8d1-5c0d839ce2cb",
+            "speed": 5.6739235,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "2b3ade0f-6476-4af0-89b0-16bb9ef5bba5",
+            "speed": 13.529166,
+            "racer": null,
+            "otherracer": "76561198103373944"
+        },
+        {
+            "id": "8641f761-214d-4a22-8598-c1b4b76bdaf1",
+            "speed": 15.651922,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "16a7966e-0cfb-4a1b-9300-14ba7962c4fe",
+            "speed": 102.09836,
+            "racer": null,
+            "otherracer": "76561198040631272"
+        },
+        {
+            "id": "0b9de2df-3797-4c04-9cc0-48d908bd0d62",
+            "speed": 15.885574,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "3a6df4a0-e59d-4bf5-a215-42da9955a6bf",
+            "speed": 46.63684,
+            "racer": "76561198040631272",
+            "otherracer": null
+        },
+        {
+            "id": "d53f5493-eb26-4a93-afef-d2e7ea5bf369",
+            "speed": 101.58552,
+            "racer": "76561198040631272",
+            "otherracer": null
+        },
+        {
+            "id": "6b96d7df-e69c-4aa0-9314-e0625fb49f53",
+            "speed": 14.87618,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "d5be85b2-0ec6-48d7-9f60-e0c79be49e80",
+            "speed": 9.15517,
+            "racer": null,
+            "otherracer": "76561198040631272"
+        },
+        {
+            "id": "1eb8f3ec-0056-46f9-951a-22b8c23d3c52",
+            "speed": 15.441881,
+            "racer": "76561198040631272",
+            "otherracer": null
+        },
+        {
+            "id": "3d663faa-d248-4ced-b0f7-90282517de3d",
+            "speed": 5.0924134,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "d91bd904-1a05-4789-aabb-16276f8d176c",
+            "speed": 3.7477522,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "9f028cd4-f549-4f34-960f-0466414e9850",
+            "speed": 108.477264,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "49ad6ddd-f130-4457-96b1-a1013b96ab50",
+            "speed": 13.6041565,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "28750569-badc-4ac6-bf92-5373002f4785",
+            "speed": 10.26815,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "1e39cba7-12f5-4a18-9736-4f3aca8d0418",
+            "speed": 8.94341,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "78c65108-7de8-4c6d-9092-19e440c2e126",
+            "speed": 0.14040107,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "a27b6a26-59e2-4c8b-b85d-dcf88022cd19",
+            "speed": 6.080555,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "48127ff2-0b49-4758-aa5a-9ebb3aad640e",
+            "speed": 18.354624,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "cd371538-c48f-4843-a6ea-ace2d79671f4",
+            "speed": 21.627235,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "a0fadd38-6b9f-4e21-a6d7-654dd3fcf7fc",
+            "speed": 85.68996,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "96172a89-3b3a-4179-8460-f474cac37e59",
+            "speed": 15.498179,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "ae46d5f3-2ce9-47ba-8b02-2c98b3c7321f",
+            "speed": 94.70135,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "96171811-efac-41a0-b884-f024d328d84a",
+            "speed": 33.13502,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "5e238bd2-00a5-49fe-90d6-23aa1e8b5f3f",
+            "speed": 109.54587,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "6e467bce-3a02-4d0a-9ae6-7fd35185e280",
+            "speed": 10.820616,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "b593f455-3fe8-4fa6-9ab3-aebea16105e1",
+            "speed": 19.337618,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "8a527d2b-4db6-427b-85a3-cd2bdbde103d",
+            "speed": 13.09411,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "d650b1a8-009a-4536-8304-f18e94969a71",
+            "speed": 60.80253,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "2b7135a0-e274-41ae-8259-ec5fb220d6c2",
+            "speed": 1.2602385,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "c7946b7b-a454-486b-abd4-2348f44b4606",
+            "speed": 33.062817,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "35ad5597-346b-4748-a7be-c4a4c7f8335f",
+            "speed": 40.903168,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "9347b004-bb91-4669-a7cb-0e0223553b70",
+            "speed": 56.090565,
+            "racer": null,
+            "otherracer": null
+        },
+        {
+            "id": "b0a515eb-a153-4033-b3a3-2fd96d9750da",
+            "speed": 71.1956,
+            "racer": null,
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2024_10_10_2_41_RACE.json",
+    "date": "2024-10-10T02:41:00Z",
+    "region": "NA",
+    "championshipid": "5a768f3f-dc02-4e1d-9054-b4e7282ce83d",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198309443188": 1,
+        "76561198103373944": 1,
+        "76561198040631272": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

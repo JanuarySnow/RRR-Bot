@@ -1,67 +1,74 @@
 {
-    "id": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+    "id": "2e14058b-3ba9-47f4-a9c4-85854c193af5",
     "track": "ks_barcelona;layout_moto",
     "laps": [
         {
-            "id": "d984e558-d3d6-4af6-987f-d26c46cef4f4",
+            "id": "5dcc0412-f90b-4d82-bdf6-b8b4d625ccaa",
             "time": 116514,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561198107246618",
-            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "result": "2e14058b-3ba9-47f4-a9c4-85854c193af5",
             "valid": false,
-            "cuts": 2
+            "cuts": 2,
+            "position": 1,
+            "timestamp": 1682280525
         },
         {
-            "id": "6dea74a4-0446-4231-a542-f825d0b74199",
+            "id": "d0c635fa-b718-4e2b-af06-9aa2c86b0879",
             "time": 101682,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561198107246618",
-            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "result": "2e14058b-3ba9-47f4-a9c4-85854c193af5",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 1,
+            "timestamp": 1682280621
         },
         {
-            "id": "c2b7d428-51d1-4fd3-b7a9-90682db8580e",
+            "id": "0182f834-1ff2-421e-b9b7-402367fd3880",
             "time": 87205,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561198107246618",
-            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "result": "2e14058b-3ba9-47f4-a9c4-85854c193af5",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682280704
         }
     ],
     "entries": [
         {
-            "id": "8630c79a-c1d0-41ab-9de0-6bf27c2a0d59",
+            "id": "4b344bb0-f873-4ba1-9fbb-7bd17d8e58ff",
             "racer": "76561198107246618",
             "car": "rss_formula_hybrid_2022",
             "track": "ks_barcelona;layout_moto",
             "date": "2023-04-23T20:28:00Z",
             "laps": [
-                "d984e558-d3d6-4af6-987f-d26c46cef4f4",
-                "6dea74a4-0446-4231-a542-f825d0b74199",
-                "c2b7d428-51d1-4fd3-b7a9-90682db8580e"
+                "5dcc0412-f90b-4d82-bdf6-b8b4d625ccaa",
+                "d0c635fa-b718-4e2b-af06-9aa2c86b0879",
+                "0182f834-1ff2-421e-b9b7-402367fd3880"
             ],
             "incidents": [
-                "e6cde609-e163-4a1d-b7d9-56a145801695",
-                "bd48d536-88a5-441e-ba11-9ddbb632f432"
+                "163ee70b-82cb-496c-a790-22c97d5b4469",
+                "ae914e4d-31bb-479b-99bf-c00b9b9437bc"
             ],
-            "result": "03a8c01a-ac9b-4ca4-884a-1549e6147cf8",
+            "result": "2e14058b-3ba9-47f4-a9c4-85854c193af5",
             "cuts": 3,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "e6cde609-e163-4a1d-b7d9-56a145801695",
+            "id": "163ee70b-82cb-496c-a790-22c97d5b4469",
             "speed": 26.136206,
             "racer": "76561198107246618",
             "otherracer": null
         },
         {
-            "id": "bd48d536-88a5-441e-ba11-9ddbb632f432",
+            "id": "ae914e4d-31bb-479b-99bf-c00b9b9437bc",
             "speed": 67.74958,
             "racer": "76561198107246618",
             "otherracer": null
@@ -79,5 +86,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

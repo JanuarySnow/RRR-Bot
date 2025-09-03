@@ -1,0 +1,176 @@
+{
+    "id": "f8028e9b-65a4-4cb4-a10a-9149042c46e9",
+    "track": "mugello;mugello",
+    "laps": [
+        {
+            "id": "ade0583d-580b-4a18-bc97-735372ecae07",
+            "time": 215197,
+            "car": "ks_ferrari_f2004",
+            "racerguid": "76561198045522603",
+            "result": "f8028e9b-65a4-4cb4-a10a-9149042c46e9",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "48a59cd3-7e86-4e6c-a39b-8f0420b72b7c",
+            "racer": "76561198045522603",
+            "car": "ks_ferrari_f2004",
+            "track": "mugello;mugello",
+            "date": "2024-02-02T13:12:57.015020398Z",
+            "laps": [
+                "ade0583d-580b-4a18-bc97-735372ecae07"
+            ],
+            "incidents": [
+                "0db9ddcd-93f7-4be6-9835-a121d467f57c"
+            ],
+            "result": "f8028e9b-65a4-4cb4-a10a-9149042c46e9",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 15.64
+        },
+        {
+            "id": "e0818dab-f948-42f9-ad31-5eb8ca22b3f8",
+            "racer": "76561199081466855",
+            "car": "ks_ferrari_312_67",
+            "track": "mugello;mugello",
+            "date": "2024-02-02T13:12:57.015020398Z",
+            "laps": [],
+            "incidents": [
+                "0b8f1cdd-53b7-4402-925b-ec023478bb4e",
+                "7c00ac88-c1af-40e3-84eb-8a1b1126cbee",
+                "dbebe531-525a-4f0e-b178-cfb14ebb0579",
+                "9710611e-526d-48a2-92e3-9a45b2cb923f",
+                "af8070c3-611c-4d83-a78f-9ef3972567e5"
+            ],
+            "result": "f8028e9b-65a4-4cb4-a10a-9149042c46e9",
+            "cuts": 0,
+            "finishingposition": 4,
+            "ratingchange": 0.1
+        },
+        {
+            "id": "0161f215-07fc-4755-9b08-1a5586bf89a3",
+            "racer": "76561199081466855",
+            "car": "ferrari_458",
+            "track": "mugello;mugello",
+            "date": "2024-02-02T13:12:57.015020398Z",
+            "laps": [],
+            "incidents": [
+                "0b8f1cdd-53b7-4402-925b-ec023478bb4e",
+                "7c00ac88-c1af-40e3-84eb-8a1b1126cbee",
+                "dbebe531-525a-4f0e-b178-cfb14ebb0579",
+                "9710611e-526d-48a2-92e3-9a45b2cb923f",
+                "af8070c3-611c-4d83-a78f-9ef3972567e5"
+            ],
+            "result": "f8028e9b-65a4-4cb4-a10a-9149042c46e9",
+            "cuts": 0,
+            "finishingposition": 4,
+            "ratingchange": 7.65
+        },
+        {
+            "id": "77a68a79-e84d-4808-af2b-e0e23a994ea9",
+            "racer": "76561199407212117",
+            "car": "ks_ferrari_312_67",
+            "track": "mugello;mugello",
+            "date": "2024-02-02T13:12:57.015020398Z",
+            "laps": [],
+            "incidents": [
+                "7acf62ee-cb26-4776-aa6c-d6d40a11ef79",
+                "b2d20111-e868-44f8-ad83-1ea236fb3720",
+                "87773bc9-2c71-4497-b71a-c0c508173fb1"
+            ],
+            "result": "f8028e9b-65a4-4cb4-a10a-9149042c46e9",
+            "cuts": 0,
+            "finishingposition": 5,
+            "ratingchange": -19.25
+        },
+        {
+            "id": "c81ab6e1-3480-4690-a3d9-717a444f7840",
+            "racer": "76561199407212117",
+            "car": "ks_ferrari_f2004",
+            "track": "mugello;mugello",
+            "date": "2024-02-02T13:12:57.015020398Z",
+            "laps": [],
+            "incidents": [
+                "7acf62ee-cb26-4776-aa6c-d6d40a11ef79",
+                "b2d20111-e868-44f8-ad83-1ea236fb3720",
+                "87773bc9-2c71-4497-b71a-c0c508173fb1"
+            ],
+            "result": "f8028e9b-65a4-4cb4-a10a-9149042c46e9",
+            "cuts": 0,
+            "finishingposition": 5,
+            "ratingchange": -22.94
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "7acf62ee-cb26-4776-aa6c-d6d40a11ef79",
+            "speed": 27.33953,
+            "racer": "76561199407212117",
+            "otherracer": "76561199081466855"
+        },
+        {
+            "id": "0b8f1cdd-53b7-4402-925b-ec023478bb4e",
+            "speed": 18.35768,
+            "racer": "76561199081466855",
+            "otherracer": "76561199407212117"
+        },
+        {
+            "id": "7c00ac88-c1af-40e3-84eb-8a1b1126cbee",
+            "speed": 22.436794,
+            "racer": "76561199081466855",
+            "otherracer": null
+        },
+        {
+            "id": "b2d20111-e868-44f8-ad83-1ea236fb3720",
+            "speed": 33.376507,
+            "racer": "76561199407212117",
+            "otherracer": "76561199081466855"
+        },
+        {
+            "id": "dbebe531-525a-4f0e-b178-cfb14ebb0579",
+            "speed": 26.214458,
+            "racer": "76561199081466855",
+            "otherracer": "76561199407212117"
+        },
+        {
+            "id": "9710611e-526d-48a2-92e3-9a45b2cb923f",
+            "speed": 30.995115,
+            "racer": "76561199081466855",
+            "otherracer": null
+        },
+        {
+            "id": "af8070c3-611c-4d83-a78f-9ef3972567e5",
+            "speed": 32.73894,
+            "racer": "76561199081466855",
+            "otherracer": null
+        },
+        {
+            "id": "87773bc9-2c71-4497-b71a-c0c508173fb1",
+            "speed": 98.781845,
+            "racer": "76561199407212117",
+            "otherracer": null
+        },
+        {
+            "id": "0db9ddcd-93f7-4be6-9835-a121d467f57c",
+            "speed": 48.38199,
+            "racer": "76561198045522603",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2024_2_2_13_12_RACE.json",
+    "date": "2024-02-02T13:12:57.015020398Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198045522603": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

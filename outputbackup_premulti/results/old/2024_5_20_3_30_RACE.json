@@ -1,0 +1,86 @@
+{
+    "id": "585a9660-2244-4930-bc53-5efd919b1786",
+    "track": "imola;imola",
+    "laps": [
+        {
+            "id": "df50f0cb-7d8f-4e9b-9df0-19d0cee550d8",
+            "time": 120237,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680817827",
+            "result": "585a9660-2244-4930-bc53-5efd919b1786",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "234f6057-c704-46df-bcde-6ba68a5404c4",
+            "time": 112099,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680817827",
+            "result": "585a9660-2244-4930-bc53-5efd919b1786",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "f7a0760c-656b-4d31-bb66-f75da000ab8b",
+            "time": 112564,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680817827",
+            "result": "585a9660-2244-4930-bc53-5efd919b1786",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "01316335-3526-4629-a49c-7e3ec45a3a31",
+            "time": 111997,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680817827",
+            "result": "585a9660-2244-4930-bc53-5efd919b1786",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "80a18e0d-2662-44f1-b36c-81033ebb71d4",
+            "racer": "76561199680817827",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "imola;imola",
+            "date": "2024-05-20T03:30:56.870096494Z",
+            "laps": [
+                "df50f0cb-7d8f-4e9b-9df0-19d0cee550d8",
+                "234f6057-c704-46df-bcde-6ba68a5404c4",
+                "f7a0760c-656b-4d31-bb66-f75da000ab8b",
+                "01316335-3526-4629-a49c-7e3ec45a3a31"
+            ],
+            "incidents": [
+                "a8d22e45-02cc-4d00-b040-a35cadf95726"
+            ],
+            "result": "585a9660-2244-4930-bc53-5efd919b1786",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "a8d22e45-02cc-4d00-b040-a35cadf95726",
+            "speed": 79.51867,
+            "racer": "76561199680817827",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_5_20_3_30_RACE.json",
+    "date": "2024-05-20T03:30:56.870096494Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 4,
+    "driverlaps": {
+        "76561199680817827": 4
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

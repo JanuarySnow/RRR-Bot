@@ -1,0 +1,92 @@
+{
+    "id": "987e8564-aa32-405d-b234-0882f97d1dc5",
+    "track": "mugello;mugello",
+    "laps": [
+        {
+            "id": "3239ae15-fc8a-4431-99b6-72eb68d531da",
+            "time": 139619,
+            "car": "ferrari_458",
+            "racerguid": "76561199037967850",
+            "result": "987e8564-aa32-405d-b234-0882f97d1dc5",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "34590c1c-a4dc-4a27-a8b2-14b36cfd7faf",
+            "time": 155198,
+            "car": "ferrari_458",
+            "racerguid": "76561199064473878",
+            "result": "987e8564-aa32-405d-b234-0882f97d1dc5",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "98590499-665a-4304-88fa-0dcffad45529",
+            "time": 138328,
+            "car": "ferrari_458",
+            "racerguid": "76561199037967850",
+            "result": "987e8564-aa32-405d-b234-0882f97d1dc5",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "5c6de2ab-b00b-424d-937a-528cad4ddb46",
+            "time": 147774,
+            "car": "ferrari_458",
+            "racerguid": "76561199064473878",
+            "result": "987e8564-aa32-405d-b234-0882f97d1dc5",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "cdea056f-11a3-4317-80b5-d7534b7ede12",
+            "racer": "76561199037967850",
+            "car": "ferrari_458",
+            "track": "mugello;mugello",
+            "date": "2024-01-30T22:47:25.287472781Z",
+            "laps": [
+                "3239ae15-fc8a-4431-99b6-72eb68d531da",
+                "98590499-665a-4304-88fa-0dcffad45529"
+            ],
+            "incidents": [],
+            "result": "987e8564-aa32-405d-b234-0882f97d1dc5",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "acae956a-63dd-4c45-af4b-52432a554ab8",
+            "racer": "76561199064473878",
+            "car": "ferrari_458",
+            "track": "mugello;mugello",
+            "date": "2024-01-30T22:47:25.287472781Z",
+            "laps": [
+                "34590c1c-a4dc-4a27-a8b2-14b36cfd7faf",
+                "5c6de2ab-b00b-424d-937a-528cad4ddb46"
+            ],
+            "incidents": [],
+            "result": "987e8564-aa32-405d-b234-0882f97d1dc5",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "neither",
+    "filename": "2024_1_30_22_47_RACE.json",
+    "date": "2024-01-30T22:47:25.287472781Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561199037967850": 2,
+        "76561199064473878": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

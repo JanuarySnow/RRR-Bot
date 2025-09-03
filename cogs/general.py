@@ -373,36 +373,5 @@ class General(commands.Cog, name="general"):
                     )
                 await context.send(embed=embed)
 
-    @app_commands.command(
-        name="feedback", description="Submit a feedback for the owners of the bot"
-    )
-    async def feedback(self, interaction: discord.Interaction) -> None:
-        """
-        Submit a feedback for the owners of the bot.
-
-        :param context: The hybrid command context.
-        """
-        feedback_form = FeedbackForm()
-        await interaction.response.send_modal(feedback_form)
-
-        await feedback_form.wait()
-        interaction = feedback_form.interaction
-        await interaction.response.send_message(
-            embed=discord.Embed(
-                description="Thank you for your feedback, the owners have been notified about it.",
-                color=0xBEBEFE,
-            )
-        )
-
-        app_owner = (await self.bot.application_info()).owner
-        await app_owner.send(
-            embed=discord.Embed(
-                title="New Feedback",
-                description=f"{interaction.user} (<@{interaction.user.id}>) has submitted a new feedback:\n```\n{feedback_form.answer}\n```",
-                color=0xBEBEFE,
-            )
-        )
-
-
 async def setup(bot) -> None:
     await bot.add_cog(General(bot))

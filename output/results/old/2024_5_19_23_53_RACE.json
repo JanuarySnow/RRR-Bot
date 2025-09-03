@@ -1,116 +1,128 @@
 {
-    "id": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+    "id": "83164673-2901-4333-96c6-56297f026b5c",
     "track": "imola;imola",
     "laps": [
         {
-            "id": "e4bf9b6a-4ec4-42a8-b2e8-32ef509dca46",
+            "id": "a247faea-f383-4ce1-bc7b-da3e239c5069",
             "time": 123685,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561198153710021",
-            "result": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+            "result": "83164673-2901-4333-96c6-56297f026b5c",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716161622
         },
         {
-            "id": "cbc00dd7-a40b-4665-aaca-049533a463ad",
+            "id": "4f4c357d-8313-42c0-9ed1-74b211f64026",
             "time": 142240,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561198021087963",
-            "result": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+            "result": "83164673-2901-4333-96c6-56297f026b5c",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716161641
         },
         {
-            "id": "ea4f7eed-68b4-4acc-81d5-01fdac8a7448",
+            "id": "be4c1583-f3d0-4507-aee6-ad47eee9548c",
             "time": 124764,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561198153710021",
-            "result": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+            "result": "83164673-2901-4333-96c6-56297f026b5c",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 1,
+            "timestamp": 1716161747
         },
         {
-            "id": "fdc4398e-90b2-405f-bd3f-881bf20364ae",
+            "id": "5f51505f-36ef-4278-b0cc-23c0dedc703e",
             "time": 131883,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561198021087963",
-            "result": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+            "result": "83164673-2901-4333-96c6-56297f026b5c",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1716161772
         },
         {
-            "id": "c4a31062-7da7-41a2-ac2f-37b018f0f95c",
+            "id": "5de786eb-d230-4151-afaf-f3b9e357b844",
             "time": 115573,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561198153710021",
-            "result": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+            "result": "83164673-2901-4333-96c6-56297f026b5c",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1716161862
         }
     ],
     "entries": [
         {
-            "id": "8d6c8c67-2745-4bbb-99f4-4f7d72f97c2a",
+            "id": "5b18d1cc-1a9d-4a93-95fd-5f736c3e26c2",
             "racer": "76561198153710021",
             "car": "ks_mercedes_amg_gt3",
             "track": "imola;imola",
             "date": "2024-05-19T23:53:10.869164779Z",
             "laps": [
-                "e4bf9b6a-4ec4-42a8-b2e8-32ef509dca46",
-                "ea4f7eed-68b4-4acc-81d5-01fdac8a7448",
-                "c4a31062-7da7-41a2-ac2f-37b018f0f95c"
+                "a247faea-f383-4ce1-bc7b-da3e239c5069",
+                "be4c1583-f3d0-4507-aee6-ad47eee9548c",
+                "5de786eb-d230-4151-afaf-f3b9e357b844"
             ],
             "incidents": [
-                "d4112378-fbaf-4413-8c47-41a880f04b3d"
+                "dfe4149e-dd32-4c3d-9768-a9c08691ed21"
             ],
-            "result": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+            "result": "83164673-2901-4333-96c6-56297f026b5c",
             "cuts": 1,
             "finishingposition": 1,
-            "ratingchange": 1.0
+            "ratingchange": 4.0,
+            "startingposition": 2
         },
         {
-            "id": "8ef0cfff-3614-4f24-8c89-df872d44aaf1",
+            "id": "a41dff2f-eaae-4e22-a815-2af05d3c7b54",
             "racer": "76561198021087963",
             "car": "ks_mercedes_amg_gt3",
             "track": "imola;imola",
             "date": "2024-05-19T23:53:10.869164779Z",
             "laps": [
-                "cbc00dd7-a40b-4665-aaca-049533a463ad",
-                "fdc4398e-90b2-405f-bd3f-881bf20364ae"
+                "4f4c357d-8313-42c0-9ed1-74b211f64026",
+                "5f51505f-36ef-4278-b0cc-23c0dedc703e"
             ],
             "incidents": [
-                "5a6b17ca-0482-45af-8799-407967a37d82",
-                "daaa03c8-9d11-4266-b143-58ff6bce073c",
-                "e4c40f67-dbb1-4a5e-88ff-6a07de329d36"
+                "675b055e-3205-4394-9dc0-b33318521a8d",
+                "2edc725d-96f9-42e3-840d-d60bcfe75359",
+                "5a6ceb07-ae41-40dd-8b79-cd2f7c4892d7"
             ],
-            "result": "acf5d1ac-f232-4ce6-9aa1-775ca04e303a",
+            "result": "83164673-2901-4333-96c6-56297f026b5c",
             "cuts": 1,
             "finishingposition": 2,
-            "ratingchange": -1.0
+            "ratingchange": -4.0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "d4112378-fbaf-4413-8c47-41a880f04b3d",
+            "id": "dfe4149e-dd32-4c3d-9768-a9c08691ed21",
             "speed": 17.245932,
             "racer": "76561198153710021",
             "otherracer": null
         },
         {
-            "id": "5a6b17ca-0482-45af-8799-407967a37d82",
+            "id": "675b055e-3205-4394-9dc0-b33318521a8d",
             "speed": 56.898827,
             "racer": "76561198021087963",
             "otherracer": null
         },
         {
-            "id": "daaa03c8-9d11-4266-b143-58ff6bce073c",
+            "id": "2edc725d-96f9-42e3-840d-d60bcfe75359",
             "speed": 43.07735,
             "racer": "76561198021087963",
             "otherracer": null
         },
         {
-            "id": "e4c40f67-dbb1-4a5e-88ff-6a07de329d36",
+            "id": "5a6ceb07-ae41-40dd-8b79-cd2f7c4892d7",
             "speed": 27.749218,
             "racer": "76561198021087963",
             "otherracer": null
@@ -129,5 +141,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

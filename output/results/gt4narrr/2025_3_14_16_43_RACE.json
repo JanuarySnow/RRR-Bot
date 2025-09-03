@@ -1,42 +1,47 @@
 {
-    "id": "ee9f7c92-aa32-432a-a072-8751ed509122",
+    "id": "e63dba4c-f201-4b53-beb1-ce4037ddc083",
     "track": "ks_brands_hatch;indy",
     "laps": [
         {
-            "id": "4ced8373-cd74-41b5-9472-18c36d977f39",
+            "id": "69a19547-ed60-4f69-bf76-52d425c1e13a",
             "time": 75754,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198801402641",
-            "result": "ee9f7c92-aa32-432a-a072-8751ed509122",
+            "result": "e63dba4c-f201-4b53-beb1-ce4037ddc083",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1741970523
         },
         {
-            "id": "b1f460a4-9042-48fb-b6db-537317994671",
+            "id": "d41f2e5b-2380-4e11-b2e4-0a3d8b76afdf",
             "time": 63622,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198801402641",
-            "result": "ee9f7c92-aa32-432a-a072-8751ed509122",
+            "result": "e63dba4c-f201-4b53-beb1-ce4037ddc083",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1741970587
         }
     ],
     "entries": [
         {
-            "id": "2ba1b631-4e41-409c-b79a-558ed99e0c6b",
+            "id": "49675542-8153-4de0-bf7e-a3222c7e55a6",
             "racer": "76561198801402641",
             "car": "ks_mazda_mx5_cup",
             "track": "ks_brands_hatch;indy",
             "date": "2025-03-14T16:43:00Z",
             "laps": [
-                "4ced8373-cd74-41b5-9472-18c36d977f39",
-                "b1f460a4-9042-48fb-b6db-537317994671"
+                "69a19547-ed60-4f69-bf76-52d425c1e13a",
+                "d41f2e5b-2380-4e11-b2e4-0a3d8b76afdf"
             ],
             "incidents": [],
-            "result": "ee9f7c92-aa32-432a-a072-8751ed509122",
+            "result": "e63dba4c-f201-4b53-beb1-ce4037ddc083",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -53,5 +58,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "gt4narrr"
+    "directory": "gt4narrr",
+    "issecond": false
 }

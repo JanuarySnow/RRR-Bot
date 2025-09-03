@@ -1,0 +1,94 @@
+{
+    "id": "98299011-ded9-4a62-809e-df80da5dc044",
+    "track": "lasvegas23;lasvegas23",
+    "laps": [
+        {
+            "id": "4911d9c6-9e9b-41a1-a93b-f38cc21581ae",
+            "time": 148361,
+            "car": "ks_ferrari_f2004",
+            "racerguid": "76561198829312692",
+            "result": "98299011-ded9-4a62-809e-df80da5dc044",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "9d6f9bbe-495d-4568-b2b2-2e2a85b33c39",
+            "time": 135628,
+            "car": "ks_ferrari_f2004",
+            "racerguid": "76561198829312692",
+            "result": "98299011-ded9-4a62-809e-df80da5dc044",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "070bf590-d032-45d2-9438-f76b375dbb7a",
+            "racer": "76561198829312692",
+            "car": "ks_ferrari_f2004",
+            "track": "lasvegas23;lasvegas23",
+            "date": "2023-11-29T07:40:04.4600176Z",
+            "laps": [
+                "4911d9c6-9e9b-41a1-a93b-f38cc21581ae",
+                "9d6f9bbe-495d-4568-b2b2-2e2a85b33c39"
+            ],
+            "incidents": [
+                "87c91c68-618e-4022-a546-956a67e45ca7",
+                "97333596-6881-4c7b-b06e-ccb3619f1287",
+                "d2ae5cfa-f04b-42f6-ab4b-bd86519458fa",
+                "cab3d984-7a13-432a-9fdc-dfa372b10121",
+                "181e4c17-f0ca-4fd7-9acc-605144e9ffe6"
+            ],
+            "result": "98299011-ded9-4a62-809e-df80da5dc044",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "87c91c68-618e-4022-a546-956a67e45ca7",
+            "speed": 20.80895,
+            "racer": "76561198829312692",
+            "otherracer": null
+        },
+        {
+            "id": "97333596-6881-4c7b-b06e-ccb3619f1287",
+            "speed": 233.08725,
+            "racer": "76561198829312692",
+            "otherracer": null
+        },
+        {
+            "id": "d2ae5cfa-f04b-42f6-ab4b-bd86519458fa",
+            "speed": 15.12525,
+            "racer": "76561198829312692",
+            "otherracer": null
+        },
+        {
+            "id": "cab3d984-7a13-432a-9fdc-dfa372b10121",
+            "speed": 29.22662,
+            "racer": "76561198829312692",
+            "otherracer": null
+        },
+        {
+            "id": "181e4c17-f0ca-4fd7-9acc-605144e9ffe6",
+            "speed": 262.39178,
+            "racer": "76561198829312692",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2023_11_29_7_40_RACE.json",
+    "date": "2023-11-29T07:40:04.4600176Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561198829312692": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

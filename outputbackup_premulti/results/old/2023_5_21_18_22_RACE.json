@@ -1,0 +1,98 @@
+{
+    "id": "8cb91dea-1b86-4151-88c4-6e8b01235ab3",
+    "track": "ks_vallelunga;club_circuit",
+    "laps": [
+        {
+            "id": "15533957-f394-40c2-a12d-54d0450cceb6",
+            "time": 63127,
+            "car": "gokart125s",
+            "racerguid": "76561199502656393",
+            "result": "8cb91dea-1b86-4151-88c4-6e8b01235ab3",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "df6b115d-f4f2-40f1-a982-37c681d64e21",
+            "time": 65363,
+            "car": "gokart125s",
+            "racerguid": "76561198815206972",
+            "result": "8cb91dea-1b86-4151-88c4-6e8b01235ab3",
+            "valid": false,
+            "cuts": 1
+        }
+    ],
+    "entries": [
+        {
+            "id": "ef1791d0-a4b4-4500-a7a4-f988eb2f9a52",
+            "racer": "76561199502656393",
+            "car": "gokart125s",
+            "track": "ks_vallelunga;club_circuit",
+            "date": "2023-05-21T18:22:11.285053593Z",
+            "laps": [
+                "15533957-f394-40c2-a12d-54d0450cceb6"
+            ],
+            "incidents": [],
+            "result": "8cb91dea-1b86-4151-88c4-6e8b01235ab3",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 2.99
+        },
+        {
+            "id": "9699ebfb-935f-4e13-9413-98002d07035d",
+            "racer": "76561198815206972",
+            "car": "gokart125s",
+            "track": "ks_vallelunga;club_circuit",
+            "date": "2023-05-21T18:22:11.285053593Z",
+            "laps": [
+                "df6b115d-f4f2-40f1-a982-37c681d64e21"
+            ],
+            "incidents": [],
+            "result": "8cb91dea-1b86-4151-88c4-6e8b01235ab3",
+            "cuts": 1,
+            "finishingposition": 2,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "790640b9-cc2e-4258-b506-9286fa3b174b",
+            "racer": "76561199107124769",
+            "car": "gokart125s",
+            "track": "ks_vallelunga;club_circuit",
+            "date": "2023-05-21T18:22:11.285053593Z",
+            "laps": [],
+            "incidents": [],
+            "result": "8cb91dea-1b86-4151-88c4-6e8b01235ab3",
+            "cuts": 1,
+            "finishingposition": 3,
+            "ratingchange": -0.99
+        },
+        {
+            "id": "57820e05-1ce8-4afb-b964-1113ec8a6a1f",
+            "racer": "76561199159090607",
+            "car": "gokart125s",
+            "track": "ks_vallelunga;club_circuit",
+            "date": "2023-05-21T18:22:11.285053593Z",
+            "laps": [],
+            "incidents": [],
+            "result": "8cb91dea-1b86-4151-88c4-6e8b01235ab3",
+            "cuts": 1,
+            "finishingposition": 4,
+            "ratingchange": -2.98
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "neither",
+    "filename": "2023_5_21_18_22_RACE.json",
+    "date": "2023-05-21T18:22:11.285053593Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561199502656393": 1,
+        "76561198815206972": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

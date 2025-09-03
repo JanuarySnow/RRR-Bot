@@ -1,32 +1,35 @@
 {
-    "id": "19cc0115-fc1b-42c2-9026-e14a91cfafa3",
+    "id": "b7a3b852-7752-4519-974e-367989bc4ec3",
     "track": "ks_laguna_seca;ks_laguna_seca",
     "laps": [
         {
-            "id": "b35482ae-139d-4b9e-a1e8-84b709e96899",
+            "id": "2f1a5a81-b124-4e43-beba-615f963ce165",
             "time": 191656,
             "car": "ks_nissan_gtr_gt3",
             "racerguid": "76561198008773371",
-            "result": "19cc0115-fc1b-42c2-9026-e14a91cfafa3",
+            "result": "b7a3b852-7752-4519-974e-367989bc4ec3",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1684699004
         }
     ],
     "entries": [
         {
-            "id": "877f7c03-06fd-4bc7-8abe-e1bef863fb9a",
+            "id": "d2633c82-6136-4a96-9b3d-e7d9e5dc998a",
             "racer": "76561198008773371",
             "car": "ks_nissan_gtr_gt3",
             "track": "ks_laguna_seca;ks_laguna_seca",
             "date": "2023-05-21T20:15:04.604756764Z",
             "laps": [
-                "b35482ae-139d-4b9e-a1e8-84b709e96899"
+                "2f1a5a81-b124-4e43-beba-615f963ce165"
             ],
             "incidents": [],
-            "result": "19cc0115-fc1b-42c2-9026-e14a91cfafa3",
+            "result": "b7a3b852-7752-4519-974e-367989bc4ec3",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -43,5 +46,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

@@ -1,0 +1,111 @@
+{
+    "id": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+    "track": "doningtonpark2018;national",
+    "laps": [
+        {
+            "id": "4469b493-f17a-4c02-b5f3-0b0a760189a2",
+            "time": 87563,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199132478655",
+            "result": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "d74b2d4b-8482-49ff-8ca2-25daffd6e86c",
+            "time": 91769,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198195777550",
+            "result": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "080cd115-fe13-4da9-8759-751fed869633",
+            "time": 87132,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199132478655",
+            "result": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "2a02c192-df45-4beb-8124-a0648fe28ab3",
+            "time": 86155,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198195777550",
+            "result": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c0551d71-73ca-4a14-9b5c-474a79b8ce5d",
+            "time": 82323,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199132478655",
+            "result": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "765e9419-5e32-4056-be1c-8df1cc353487",
+            "racer": "76561199132478655",
+            "car": "ks_mazda_mx5_cup",
+            "track": "doningtonpark2018;national",
+            "date": "2023-07-19T20:55:00.317572219Z",
+            "laps": [
+                "4469b493-f17a-4c02-b5f3-0b0a760189a2",
+                "080cd115-fe13-4da9-8759-751fed869633",
+                "c0551d71-73ca-4a14-9b5c-474a79b8ce5d"
+            ],
+            "incidents": [],
+            "result": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.0
+        },
+        {
+            "id": "e62d4d1e-9605-4b70-9040-a6acce10945d",
+            "racer": "76561198195777550",
+            "car": "ks_mazda_mx5_cup",
+            "track": "doningtonpark2018;national",
+            "date": "2023-07-19T20:55:00.317572219Z",
+            "laps": [
+                "d74b2d4b-8482-49ff-8ca2-25daffd6e86c",
+                "2a02c192-df45-4beb-8124-a0648fe28ab3"
+            ],
+            "incidents": [
+                "33da8652-f3bb-49a1-9f8f-d7d98e5a64f6"
+            ],
+            "result": "b5e89409-5040-4fc6-9f68-d9013b019f58",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -1.0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "33da8652-f3bb-49a1-9f8f-d7d98e5a64f6",
+            "speed": 59.923145,
+            "racer": "76561198195777550",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2023_7_19_20_55_RACE.json",
+    "date": "2023-07-19T20:55:00.317572219Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199132478655": 3,
+        "76561198195777550": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

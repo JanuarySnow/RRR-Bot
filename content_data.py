@@ -2,7 +2,7 @@ import json
 import racer
 
 gt3ids = ["ks_audi_r8_lms_2016","bmw_z4_gt3", "ks_ferrari_488_gt3", "ks_lamborghini_huracan_gt3",
-         "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016"]
+         "ks_mclaren_650_gt3", "ks_mercedes_amg_gt3", "ks_nissan_gtr_gt3", "ks_porsche_911_gt3_r_2016", "amr_v8_vantage_gt3_sprint_acc"]
 
 
 class Car:
@@ -179,6 +179,37 @@ class TrackVariant:
                     if lap.time < fastest.time:
                         fastest = lap
         return fastest
+    
+    def _fastest_per_driver(self, laps):
+        """
+        Return one lap – the quickest – for every unique racer GUID.
+        """
+        fastest = {}                       # {racerguid: Lap}
+        for lap in laps:
+            guid = lap.racerguid
+            # store the very first lap, or replace it if this one is quicker
+            if guid not in fastest or lap.time < fastest[guid].time:
+                fastest[guid] = lap
+        return list(fastest.values())
+    
+    def get_top_ten_fastest_laps_in_mx5(self):
+        valid = [lap for lap in self.laps
+                if lap.valid and lap.car == "ks_mazda_mx5_cup"]
+
+        fastest_each_driver = self._fastest_per_driver(valid)
+
+        # sort the surviving laps by time and take the first 10
+        return sorted(fastest_each_driver, key=lambda lap: lap.time)[:10]
+
+
+    def get_top_ten_fastest_laps_in_gt3(self):
+        valid = [lap for lap in self.laps
+                if lap.valid and lap.car in gt3ids]
+
+        fastest_each_driver = self._fastest_per_driver(valid)
+
+        return sorted(fastest_each_driver, key=lambda lap: lap.time)[:10]
+
     
     def get_average_lap_in_mx5(self, racerguid: str = None) -> float | None:
         """Return the average MX-5 lap time (ms), or None if no valid laps."""

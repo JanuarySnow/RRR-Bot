@@ -1,0 +1,113 @@
+{
+    "id": "c61bf0ec-6e97-415d-bb14-0137f28fdc51",
+    "track": "ks_vallelunga;club_circuit",
+    "laps": [
+        {
+            "id": "78cbb23f-ba91-4672-a22f-bceebbd7b947",
+            "time": 199346,
+            "car": "gokart125s",
+            "racerguid": "76561199090096339",
+            "result": "c61bf0ec-6e97-415d-bb14-0137f28fdc51",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "17e64974-1629-4ebc-8fb7-17702b70ed34",
+            "racer": "76561199090096339",
+            "car": "gokart125s",
+            "track": "ks_vallelunga;club_circuit",
+            "date": "2023-05-22T09:44:19.285052306Z",
+            "laps": [
+                "78cbb23f-ba91-4672-a22f-bceebbd7b947"
+            ],
+            "incidents": [
+                "60b6e57d-84ea-41d3-a4fd-40e9b23d8d8f",
+                "f43de70d-1430-49bb-b245-a3ec0555651b",
+                "95422e38-6594-467b-89a9-326cf6dedfef",
+                "bca78a27-0589-4844-b9cd-02113f15150c"
+            ],
+            "result": "c61bf0ec-6e97-415d-bb14-0137f28fdc51",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 1.99
+        },
+        {
+            "id": "2d05f51e-0b17-4821-8017-3ee478654bd1",
+            "racer": "76561198192084177",
+            "car": "gokart125s",
+            "track": "ks_vallelunga;club_circuit",
+            "date": "2023-05-22T09:44:19.285052306Z",
+            "laps": [],
+            "incidents": [
+                "511614d5-e8e8-4238-8960-4f6b778f9ef8"
+            ],
+            "result": "c61bf0ec-6e97-415d-bb14-0137f28fdc51",
+            "cuts": 0,
+            "finishingposition": 3,
+            "ratingchange": -1.0
+        },
+        {
+            "id": "0212bb21-feb6-485b-a401-1aa83a879045",
+            "racer": "76561198192084177",
+            "car": "gokart125s",
+            "track": "ks_vallelunga;club_circuit",
+            "date": "2023-05-22T09:44:19.285052306Z",
+            "laps": [],
+            "incidents": [
+                "511614d5-e8e8-4238-8960-4f6b778f9ef8"
+            ],
+            "result": "c61bf0ec-6e97-415d-bb14-0137f28fdc51",
+            "cuts": 0,
+            "finishingposition": 3,
+            "ratingchange": -1.99
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "511614d5-e8e8-4238-8960-4f6b778f9ef8",
+            "speed": 44.628704,
+            "racer": "76561198192084177",
+            "otherracer": null
+        },
+        {
+            "id": "60b6e57d-84ea-41d3-a4fd-40e9b23d8d8f",
+            "speed": 8.854225,
+            "racer": "76561199090096339",
+            "otherracer": null
+        },
+        {
+            "id": "f43de70d-1430-49bb-b245-a3ec0555651b",
+            "speed": 10.078586,
+            "racer": "76561199090096339",
+            "otherracer": null
+        },
+        {
+            "id": "95422e38-6594-467b-89a9-326cf6dedfef",
+            "speed": 1.804043,
+            "racer": "76561199090096339",
+            "otherracer": null
+        },
+        {
+            "id": "bca78a27-0589-4844-b9cd-02113f15150c",
+            "speed": 26.102983,
+            "racer": "76561199090096339",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2023_5_22_9_44_RACE.json",
+    "date": "2023-05-22T09:44:19.285052306Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561199090096339": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

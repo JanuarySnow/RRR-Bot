@@ -1,82 +1,85 @@
 {
-    "id": "6a4f014b-0618-4402-a4a7-6701e73b8ec6",
+    "id": "ba6e5426-fbd1-4631-84f8-379c833dbace",
     "track": "ks_highlands;layout_drift",
     "laps": [
         {
-            "id": "e3a00c74-8684-4c3c-a9d2-1b0ed50ab483",
+            "id": "d4d29481-987a-424a-b99d-f455de220b67",
             "time": 134850,
             "car": "ks_porsche_911_gt3_r_2016",
             "racerguid": "76561198084555453",
-            "result": "6a4f014b-0618-4402-a4a7-6701e73b8ec6",
+            "result": "ba6e5426-fbd1-4631-84f8-379c833dbace",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1726417120
         }
     ],
     "entries": [
         {
-            "id": "bd81276d-c9ce-44c2-8de2-7a64ffaa12af",
+            "id": "ad22c74f-941d-4c2b-8ec7-af9f7cc3a4c7",
             "racer": "76561198084555453",
             "car": "ks_porsche_911_gt3_r_2016",
             "track": "ks_highlands;layout_drift",
             "date": "2024-09-15T16:37:57.764268309Z",
             "laps": [
-                "e3a00c74-8684-4c3c-a9d2-1b0ed50ab483"
+                "d4d29481-987a-424a-b99d-f455de220b67"
             ],
             "incidents": [
-                "4e810862-597a-4308-b3c7-dc21f622b678",
-                "d6961b20-cf46-4618-b6f0-e2137ac9f820",
-                "b26d8f46-31a0-4dd1-ad84-831df64d7034",
-                "2c7d576d-f538-492f-8498-b7ea445388e7",
-                "78df0c9e-5ea3-4467-9361-f3fe82d649a6",
-                "7961144d-a36d-4a84-9993-e8e1ec0a103e",
-                "9704761e-faff-4369-996d-20db178c243d"
+                "f81a462b-cfaa-40b6-808f-eb240f850ac4",
+                "25fe907e-e75c-474f-805c-ac3b65a0a890",
+                "e5b9af45-bef4-48ed-a906-036309843484",
+                "ea16233a-8a0f-4e91-9567-65398718634d",
+                "815ba856-aa13-483a-81e0-11d78527dd4b",
+                "ecbab7e8-7faa-4598-a263-bf64ae743643",
+                "1828bcba-ad2c-4fa3-9eed-9102934cf34e"
             ],
-            "result": "6a4f014b-0618-4402-a4a7-6701e73b8ec6",
+            "result": "ba6e5426-fbd1-4631-84f8-379c833dbace",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "4e810862-597a-4308-b3c7-dc21f622b678",
+            "id": "f81a462b-cfaa-40b6-808f-eb240f850ac4",
             "speed": 15.736663,
             "racer": "76561198084555453",
             "otherracer": null
         },
         {
-            "id": "d6961b20-cf46-4618-b6f0-e2137ac9f820",
+            "id": "25fe907e-e75c-474f-805c-ac3b65a0a890",
             "speed": 46.837868,
             "racer": "76561198084555453",
             "otherracer": null
         },
         {
-            "id": "b26d8f46-31a0-4dd1-ad84-831df64d7034",
+            "id": "e5b9af45-bef4-48ed-a906-036309843484",
             "speed": 52.584286,
             "racer": "76561198084555453",
             "otherracer": null
         },
         {
-            "id": "2c7d576d-f538-492f-8498-b7ea445388e7",
+            "id": "ea16233a-8a0f-4e91-9567-65398718634d",
             "speed": 55.845417,
             "racer": "76561198084555453",
             "otherracer": null
         },
         {
-            "id": "78df0c9e-5ea3-4467-9361-f3fe82d649a6",
+            "id": "815ba856-aa13-483a-81e0-11d78527dd4b",
             "speed": 4.9732842,
             "racer": "76561198084555453",
             "otherracer": null
         },
         {
-            "id": "7961144d-a36d-4a84-9993-e8e1ec0a103e",
+            "id": "ecbab7e8-7faa-4598-a263-bf64ae743643",
             "speed": 124.61262,
             "racer": "76561198084555453",
             "otherracer": null
         },
         {
-            "id": "9704761e-faff-4369-996d-20db178c243d",
+            "id": "1828bcba-ad2c-4fa3-9eed-9102934cf34e",
             "speed": 34.07727,
             "racer": "76561198084555453",
             "otherracer": null
@@ -94,5 +97,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

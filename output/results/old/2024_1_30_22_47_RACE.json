@@ -1,76 +1,86 @@
 {
-    "id": "2d6cdace-6701-4253-ba81-29d4c4c273a7",
+    "id": "3c1580d6-87b0-453d-8ab5-1709f3b4e2f8",
     "track": "mugello;mugello",
     "laps": [
         {
-            "id": "e4ccc34e-4074-412e-a67d-ec7cef15e190",
+            "id": "db9b3eaa-cb2a-4098-943b-3bf651edeee1",
             "time": 139619,
             "car": "ferrari_458",
             "racerguid": "76561199037967850",
-            "result": "2d6cdace-6701-4253-ba81-29d4c4c273a7",
+            "result": "3c1580d6-87b0-453d-8ab5-1709f3b4e2f8",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1706653692
         },
         {
-            "id": "d0bfada5-20ed-4756-822d-d2d7ebd31e0c",
+            "id": "57f36212-1b08-4f8c-b18e-3f057131dfdc",
             "time": 155198,
             "car": "ferrari_458",
             "racerguid": "76561199064473878",
-            "result": "2d6cdace-6701-4253-ba81-29d4c4c273a7",
+            "result": "3c1580d6-87b0-453d-8ab5-1709f3b4e2f8",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1706653708
         },
         {
-            "id": "bec07b2b-6bcd-4af2-b38c-049d134d18fb",
+            "id": "1fe71e9d-1847-4be9-96da-9c64dd67797b",
             "time": 138328,
             "car": "ferrari_458",
             "racerguid": "76561199037967850",
-            "result": "2d6cdace-6701-4253-ba81-29d4c4c273a7",
+            "result": "3c1580d6-87b0-453d-8ab5-1709f3b4e2f8",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1706653830
         },
         {
-            "id": "0fcacba6-d0a4-4f04-81d9-4de7c65af6a6",
+            "id": "44e3c7c9-7455-42d4-a5d7-17b2dec5480e",
             "time": 147774,
             "car": "ferrari_458",
             "racerguid": "76561199064473878",
-            "result": "2d6cdace-6701-4253-ba81-29d4c4c273a7",
+            "result": "3c1580d6-87b0-453d-8ab5-1709f3b4e2f8",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1706653855
         }
     ],
     "entries": [
         {
-            "id": "c4df547b-bcc4-4b21-a255-d8702d4fbace",
+            "id": "a9ab416c-a76e-47ba-bb46-15b93a507f9c",
             "racer": "76561199037967850",
             "car": "ferrari_458",
             "track": "mugello;mugello",
             "date": "2024-01-30T22:47:25.287472781Z",
             "laps": [
-                "e4ccc34e-4074-412e-a67d-ec7cef15e190",
-                "bec07b2b-6bcd-4af2-b38c-049d134d18fb"
+                "db9b3eaa-cb2a-4098-943b-3bf651edeee1",
+                "1fe71e9d-1847-4be9-96da-9c64dd67797b"
             ],
             "incidents": [],
-            "result": "2d6cdace-6701-4253-ba81-29d4c4c273a7",
+            "result": "3c1580d6-87b0-453d-8ab5-1709f3b4e2f8",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 1.0
+            "ratingchange": 4.0,
+            "startingposition": 1
         },
         {
-            "id": "068b447c-61c6-417a-87c0-9cd144fe5426",
+            "id": "211601a7-47e7-4778-a7b2-9de52774bfc2",
             "racer": "76561199064473878",
             "car": "ferrari_458",
             "track": "mugello;mugello",
             "date": "2024-01-30T22:47:25.287472781Z",
             "laps": [
-                "d0bfada5-20ed-4756-822d-d2d7ebd31e0c",
-                "0fcacba6-d0a4-4f04-81d9-4de7c65af6a6"
+                "57f36212-1b08-4f8c-b18e-3f057131dfdc",
+                "44e3c7c9-7455-42d4-a5d7-17b2dec5480e"
             ],
             "incidents": [],
-            "result": "2d6cdace-6701-4253-ba81-29d4c4c273a7",
+            "result": "3c1580d6-87b0-453d-8ab5-1709f3b4e2f8",
             "cuts": 0,
             "finishingposition": 2,
-            "ratingchange": -1.0
+            "ratingchange": -4.0,
+            "startingposition": 2
         }
     ],
     "endurance": false,
@@ -88,5 +98,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

@@ -1,32 +1,35 @@
 {
-    "id": "b10a568b-8976-4ce6-afaf-cfe67b266cce",
+    "id": "7db7a80b-7724-4289-aecf-b4d98f461ced",
     "track": "ks_nurburgring;layout_gp_b",
     "laps": [
         {
-            "id": "35dc98f8-2629-43e7-921c-d3325d3ef90b",
+            "id": "c64d4f2f-bd26-4e19-b9f8-d57dc38caa82",
             "time": 104185,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561197971872704",
-            "result": "b10a568b-8976-4ce6-afaf-cfe67b266cce",
+            "result": "7db7a80b-7724-4289-aecf-b4d98f461ced",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1704921856
         }
     ],
     "entries": [
         {
-            "id": "6b9ec3fe-ad18-47b9-8cab-bf56e36f76ba",
+            "id": "b0c56ecd-c5b2-48b8-8f04-5a58f69c6a84",
             "racer": "76561197971872704",
             "car": "rss_formula_hybrid_2022",
             "track": "ks_nurburgring;layout_gp_b",
             "date": "2024-01-10T21:25:00Z",
             "laps": [
-                "35dc98f8-2629-43e7-921c-d3325d3ef90b"
+                "c64d4f2f-bd26-4e19-b9f8-d57dc38caa82"
             ],
             "incidents": [],
-            "result": "b10a568b-8976-4ce6-afaf-cfe67b266cce",
+            "result": "7db7a80b-7724-4289-aecf-b4d98f461ced",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -43,5 +46,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

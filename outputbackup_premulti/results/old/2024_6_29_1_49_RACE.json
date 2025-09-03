@@ -1,0 +1,186 @@
+{
+    "id": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+    "track": "ks_barcelona;layout_gp",
+    "laps": [
+        {
+            "id": "49e023a8-3640-4d83-9d30-0cb69289e999",
+            "time": 240016,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199681047877",
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "valid": false,
+            "cuts": 3
+        },
+        {
+            "id": "dcbf496d-0787-4a13-a4c4-1713271c067d",
+            "time": 256665,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199177151499",
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1eb2a09d-7c60-43a0-bbbc-95cc40695ac6",
+            "time": 111631,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199177151499",
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "977619af-7531-4331-a2f0-c0770c01c4bd",
+            "time": 146724,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199681047877",
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "b3e934d6-1668-4ab8-ae4c-5815bcd72e3d",
+            "time": 149693,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561198803161900",
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "valid": false,
+            "cuts": 1
+        }
+    ],
+    "entries": [
+        {
+            "id": "469c7d1c-8b59-4228-9227-1e8626b3b59d",
+            "racer": "76561199177151499",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "ks_barcelona;layout_gp",
+            "date": "2024-06-29T01:49:01.09166559Z",
+            "laps": [
+                "dcbf496d-0787-4a13-a4c4-1713271c067d",
+                "1eb2a09d-7c60-43a0-bbbc-95cc40695ac6"
+            ],
+            "incidents": [],
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "cuts": 5,
+            "finishingposition": 1,
+            "ratingchange": 15.53
+        },
+        {
+            "id": "df81d8a1-48ae-4296-86db-81cce2311279",
+            "racer": "76561199681047877",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "ks_barcelona;layout_gp",
+            "date": "2024-06-29T01:49:01.09166559Z",
+            "laps": [
+                "49e023a8-3640-4d83-9d30-0cb69289e999",
+                "977619af-7531-4331-a2f0-c0770c01c4bd"
+            ],
+            "incidents": [
+                "c4807ed9-f1ce-4e02-8b28-9bc541fa0280",
+                "8d4987ca-359f-4e8d-86a4-4f04b29f00f0",
+                "c9a431cf-afd2-49af-a43d-36d6b910e045"
+            ],
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "cuts": 5,
+            "finishingposition": 2,
+            "ratingchange": 7.97
+        },
+        {
+            "id": "983d4031-ee65-40d6-ab62-2472d14a941d",
+            "racer": "76561199043100704",
+            "car": "ks_ferrari_488_gt3",
+            "track": "ks_barcelona;layout_gp",
+            "date": "2024-06-29T01:49:01.09166559Z",
+            "laps": [],
+            "incidents": [],
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "cuts": 5,
+            "finishingposition": 4,
+            "ratingchange": -0.18
+        },
+        {
+            "id": "463318de-0847-4c60-a2df-2e042358ebdb",
+            "racer": "76561198803161900",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "ks_barcelona;layout_gp",
+            "date": "2024-06-29T01:49:01.09166559Z",
+            "laps": [
+                "b3e934d6-1668-4ab8-ae4c-5815bcd72e3d"
+            ],
+            "incidents": [
+                "54192161-ac54-4eb9-a24a-fcb6fa8c0f33",
+                "d4096693-e53d-419d-bf2e-1f744ec8c6cf"
+            ],
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "cuts": 5,
+            "finishingposition": 5,
+            "ratingchange": -19.14
+        },
+        {
+            "id": "131d0047-d120-4a9a-bc07-0e7444be470c",
+            "racer": "76561198803161900",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "ks_barcelona;layout_gp",
+            "date": "2024-06-29T01:49:01.09166559Z",
+            "laps": [
+                "b3e934d6-1668-4ab8-ae4c-5815bcd72e3d"
+            ],
+            "incidents": [
+                "54192161-ac54-4eb9-a24a-fcb6fa8c0f33",
+                "d4096693-e53d-419d-bf2e-1f744ec8c6cf"
+            ],
+            "result": "de5e6211-76b3-4948-bae7-2f426d3e8bba",
+            "cuts": 5,
+            "finishingposition": 5,
+            "ratingchange": -22.91
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "c4807ed9-f1ce-4e02-8b28-9bc541fa0280",
+            "speed": 13.369644,
+            "racer": "76561199681047877",
+            "otherracer": "76561199177151499"
+        },
+        {
+            "id": "8d4987ca-359f-4e8d-86a4-4f04b29f00f0",
+            "speed": 64.312386,
+            "racer": "76561199681047877",
+            "otherracer": null
+        },
+        {
+            "id": "c9a431cf-afd2-49af-a43d-36d6b910e045",
+            "speed": 20.253542,
+            "racer": "76561199681047877",
+            "otherracer": null
+        },
+        {
+            "id": "54192161-ac54-4eb9-a24a-fcb6fa8c0f33",
+            "speed": 42.362835,
+            "racer": "76561198803161900",
+            "otherracer": null
+        },
+        {
+            "id": "d4096693-e53d-419d-bf2e-1f744ec8c6cf",
+            "speed": 30.941328,
+            "racer": "76561198803161900",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_6_29_1_49_RACE.json",
+    "date": "2024-06-29T01:49:01.09166559Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561199681047877": 2,
+        "76561199177151499": 2,
+        "76561198803161900": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

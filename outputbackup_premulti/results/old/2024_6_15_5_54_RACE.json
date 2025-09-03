@@ -1,0 +1,167 @@
+{
+    "id": "498cf634-a200-403e-8339-3e621f431d04",
+    "track": "ks_silverstone1967;ks_silverstone1967",
+    "laps": [
+        {
+            "id": "90ce6256-fe17-44f0-bf13-e82f607cc8d6",
+            "time": 162147,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680556703",
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "31e5d2a3-894f-42bd-99c1-56de1983376e",
+            "time": 162412,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198178921422",
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "d18a89f4-b1b9-4e5e-8188-39cde28f75f0",
+            "time": 122491,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198178921422",
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1bedc956-07e3-4e1d-8571-ede2f1e9c244",
+            "time": 123988,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680556703",
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c1405c1b-4af4-4716-9a74-43684c913851",
+            "time": 98879,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680556703",
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c5c36b35-c0be-45bf-9b17-7a497c677ab5",
+            "time": 105009,
+            "car": "bmw_z4_gt3",
+            "racerguid": "76561198178921422",
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "305f16e8-4634-4e7b-b4cb-c502462d8db8",
+            "time": 94620,
+            "car": "ks_mercedes_amg_gt3",
+            "racerguid": "76561199680556703",
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "8bbf3289-4599-4fdc-87ea-2192426d50d9",
+            "racer": "76561199680556703",
+            "car": "ks_mercedes_amg_gt3",
+            "track": "ks_silverstone1967;ks_silverstone1967",
+            "date": "2024-06-15T05:54:20.925362198Z",
+            "laps": [
+                "90ce6256-fe17-44f0-bf13-e82f607cc8d6",
+                "1bedc956-07e3-4e1d-8571-ede2f1e9c244",
+                "c1405c1b-4af4-4716-9a74-43684c913851",
+                "305f16e8-4634-4e7b-b4cb-c502462d8db8"
+            ],
+            "incidents": [
+                "4f7e4ced-a4b0-44cd-8446-1c8d79acf19f",
+                "5303cf8d-540b-4a3c-ac37-721e9bc91d14",
+                "b64a209a-287b-4bd9-ae20-81c06d834556",
+                "f25444b3-9c64-4656-a79e-c738e2a0d68b",
+                "df803f59-0ef6-4e19-be02-8e2ed27665a9"
+            ],
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0.8
+        },
+        {
+            "id": "1b02062d-5ae0-4dcf-bed4-068523189ccc",
+            "racer": "76561198178921422",
+            "car": "bmw_z4_gt3",
+            "track": "ks_silverstone1967;ks_silverstone1967",
+            "date": "2024-06-15T05:54:20.925362198Z",
+            "laps": [
+                "31e5d2a3-894f-42bd-99c1-56de1983376e",
+                "d18a89f4-b1b9-4e5e-8188-39cde28f75f0",
+                "c5c36b35-c0be-45bf-9b17-7a497c677ab5"
+            ],
+            "incidents": [
+                "2b181238-829e-45e8-bb15-611559caf1c6"
+            ],
+            "result": "498cf634-a200-403e-8339-3e621f431d04",
+            "cuts": 0,
+            "finishingposition": 2,
+            "ratingchange": -0.8
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "4f7e4ced-a4b0-44cd-8446-1c8d79acf19f",
+            "speed": 26.989616,
+            "racer": "76561199680556703",
+            "otherracer": null
+        },
+        {
+            "id": "5303cf8d-540b-4a3c-ac37-721e9bc91d14",
+            "speed": 73.988914,
+            "racer": "76561199680556703",
+            "otherracer": null
+        },
+        {
+            "id": "2b181238-829e-45e8-bb15-611559caf1c6",
+            "speed": 16.517914,
+            "racer": "76561198178921422",
+            "otherracer": "76561199680556703"
+        },
+        {
+            "id": "b64a209a-287b-4bd9-ae20-81c06d834556",
+            "speed": 5.8724823,
+            "racer": "76561199680556703",
+            "otherracer": "76561198178921422"
+        },
+        {
+            "id": "f25444b3-9c64-4656-a79e-c738e2a0d68b",
+            "speed": 99.37079,
+            "racer": "76561199680556703",
+            "otherracer": null
+        },
+        {
+            "id": "df803f59-0ef6-4e19-be02-8e2ed27665a9",
+            "speed": 0.23698497,
+            "racer": "76561199680556703",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_6_15_5_54_RACE.json",
+    "date": "2024-06-15T05:54:20.925362198Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 4,
+    "driverlaps": {
+        "76561199680556703": 4,
+        "76561198178921422": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

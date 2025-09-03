@@ -1,52 +1,59 @@
 {
-    "id": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+    "id": "5384d601-274f-4e06-9dbf-8f7ecdc00523",
     "track": "imola;imola",
     "laps": [
         {
-            "id": "e0c496f4-1da2-4fbd-b54c-0d18c39fc214",
+            "id": "7b8c74dd-b911-4e88-b7fe-d960c870b7d6",
             "time": 141449,
             "car": "ks_bmw_m235i_racing",
             "racerguid": "76561198008585393",
-            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "result": "5384d601-274f-4e06-9dbf-8f7ecdc00523",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1699726248
         },
         {
-            "id": "abdfcc6d-7321-41c7-aa76-48dd309b000d",
+            "id": "b4d0363c-0a99-41c4-9d6c-1e6ab1c9f674",
             "time": 127447,
             "car": "ks_bmw_m235i_racing",
             "racerguid": "76561198008585393",
-            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "result": "5384d601-274f-4e06-9dbf-8f7ecdc00523",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 1,
+            "timestamp": 1699726375
         },
         {
-            "id": "33d32d88-b1d1-4cb3-bd39-a6c69ef26eb3",
+            "id": "b7082bf6-3649-49b0-b0bd-a4aa433322e2",
             "time": 123873,
             "car": "ks_bmw_m235i_racing",
             "racerguid": "76561198008585393",
-            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "result": "5384d601-274f-4e06-9dbf-8f7ecdc00523",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1699726499
         }
     ],
     "entries": [
         {
-            "id": "b2e00f3e-079e-4de9-8e46-47d2afa3e472",
+            "id": "f4a5958c-0f67-4057-9537-8a97fa20b471",
             "racer": "76561198008585393",
             "car": "ks_bmw_m235i_racing",
             "track": "imola;imola",
             "date": "2023-11-11T18:29:58.593106682Z",
             "laps": [
-                "e0c496f4-1da2-4fbd-b54c-0d18c39fc214",
-                "abdfcc6d-7321-41c7-aa76-48dd309b000d",
-                "33d32d88-b1d1-4cb3-bd39-a6c69ef26eb3"
+                "7b8c74dd-b911-4e88-b7fe-d960c870b7d6",
+                "b4d0363c-0a99-41c4-9d6c-1e6ab1c9f674",
+                "b7082bf6-3649-49b0-b0bd-a4aa433322e2"
             ],
             "incidents": [],
-            "result": "650e6697-ec9e-4a50-be7e-f4567e9c55d2",
+            "result": "5384d601-274f-4e06-9dbf-8f7ecdc00523",
             "cuts": 1,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -63,5 +70,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

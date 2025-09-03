@@ -1,0 +1,2396 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198314332959",
+                "GuidsList": [
+                    "76561198314332959"
+                ],
+                "Name": "Ahsan",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "82_smejkal_2023",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 136,
+            "MaxPing": 779
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "nbr24_832_cao-dong-he-yan",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 33,
+            "MaxPing": 7584
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "imsa_77_hagler-morris",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 98,
+            "MaxPing": 194
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198063790107",
+                "GuidsList": [
+                    "76561198063790107"
+                ],
+                "Name": "Arkhen",
+                "Nation": "FRA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "wtcr_82_baldan",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 13,
+            "MaxPing": 61
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "tcree_68_kout",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561199482713847",
+                "GuidsList": [
+                    "76561199482713847"
+                ],
+                "Name": "jamper",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "97_groszek",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 22,
+            "MaxPing": 89
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "tcree_70_homola",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198211020029",
+                "GuidsList": [
+                    "76561198211020029"
+                ],
+                "Name": "HMG",
+                "Nation": "POL",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "19_fernandez",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 24,
+            "MaxPing": 2148
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "mathilda_racing2_12",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561198314332959",
+                "GuidsList": [
+                    "76561198314332959"
+                ],
+                "Name": "Ahsan",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "22_pauwels",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 128,
+            "MaxPing": 132
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "default",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "12_fernandez_r",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "tcree_68_kout",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "wtcr_82_baldan",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "2022_tcree_steibel_23",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "68_soltes",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "12_fernandez_r",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "azcona_96",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "default",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "mathilda_racing2_12",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "121_vallers",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "fulda_22_2022",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 22,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "default",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 23,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "99_eithacup_2024",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561199482713847",
+                "GuidsList": [
+                    "76561199482713847"
+                ],
+                "Name": "jamper",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 18.495678,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198063790107",
+                "GuidsList": [
+                    "76561198063790107"
+                ],
+                "Name": "Arkhen",
+                "Nation": "FRA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.94281906,
+                "Y": -0.07418314,
+                "Z": 1.1200364
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 865.416,
+                "Y": -82.60846,
+                "Z": -393.87698
+            },
+            "Timestamp": 1752608203,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198063790107",
+                "GuidsList": [
+                    "76561198063790107"
+                ],
+                "Name": "Arkhen",
+                "Nation": "FRA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 12.826977,
+            "OtherCarId": 5,
+            "OtherDriver": {
+                "Guid": "76561199482713847",
+                "GuidsList": [
+                    "76561199482713847"
+                ],
+                "Name": "jamper",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9584741,
+                "Y": 0.062042132,
+                "Z": 1.516042
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 865.90094,
+                "Y": -82.55771,
+                "Z": -394.28223
+            },
+            "Timestamp": 1752608203,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.830816,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.3194812,
+                "Y": -0.36000183,
+                "Z": 2.0232904
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 250.51227,
+                "Y": -85.41022,
+                "Z": -396.5787
+            },
+            "Timestamp": 1752609234,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 24.656843,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.31947833,
+                "Y": -0.36000308,
+                "Z": 2.023286
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 231.22148,
+                "Y": -85.38538,
+                "Z": -396.0233
+            },
+            "Timestamp": 1752609244,
+            "AfterSessionEnd": false
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 122795,
+            "Restrictor": 0,
+            "Sectors": [
+                41427,
+                43708,
+                37660
+            ],
+            "Timestamp": 1752608099,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 125757,
+            "Restrictor": 0,
+            "Sectors": [
+                42574,
+                44825,
+                38358
+            ],
+            "Timestamp": 1752608102,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 126992,
+            "Restrictor": 0,
+            "Sectors": [
+                41907,
+                46066,
+                39019
+            ],
+            "Timestamp": 1752608103,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 127819,
+            "Restrictor": 0,
+            "Sectors": [
+                42422,
+                46431,
+                38966
+            ],
+            "Timestamp": 1752608104,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 2,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 129996,
+            "Restrictor": 0,
+            "Sectors": [
+                45017,
+                45531,
+                39448
+            ],
+            "Timestamp": 1752608106,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 113434,
+            "Restrictor": 0,
+            "Sectors": [
+                31547,
+                43785,
+                38102
+            ],
+            "Timestamp": 1752608212,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 112954,
+            "Restrictor": 0,
+            "Sectors": [
+                31788,
+                43452,
+                37714
+            ],
+            "Timestamp": 1752608215,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 115243,
+            "Restrictor": 0,
+            "Sectors": [
+                32294,
+                44883,
+                38066
+            ],
+            "Timestamp": 1752608218,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 123206,
+            "Restrictor": 0,
+            "Sectors": [
+                33877,
+                46215,
+                43114
+            ],
+            "Timestamp": 1752608227,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 121995,
+            "Restrictor": 0,
+            "Sectors": [
+                34078,
+                44330,
+                43587
+            ],
+            "Timestamp": 1752608228,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 113289,
+            "Restrictor": 0,
+            "Sectors": [
+                31614,
+                44095,
+                37580
+            ],
+            "Timestamp": 1752608325,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 113577,
+            "Restrictor": 0,
+            "Sectors": [
+                32050,
+                44438,
+                37089
+            ],
+            "Timestamp": 1752608328,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 116699,
+            "Restrictor": 0,
+            "Sectors": [
+                33216,
+                44581,
+                38902
+            ],
+            "Timestamp": 1752608335,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 117882,
+            "Restrictor": 0,
+            "Sectors": [
+                33741,
+                45296,
+                38845
+            ],
+            "Timestamp": 1752608346,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 121836,
+            "Restrictor": 0,
+            "Sectors": [
+                35494,
+                45599,
+                40743
+            ],
+            "Timestamp": 1752608349,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 92,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 112797,
+            "Restrictor": 0,
+            "Sectors": [
+                31500,
+                43568,
+                37729
+            ],
+            "Timestamp": 1752608438,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 13.28125,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 112549,
+            "Restrictor": 0,
+            "Sectors": [
+                31499,
+                43912,
+                37138
+            ],
+            "Timestamp": 1752608441,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 9.703125,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 120117,
+            "Restrictor": 0,
+            "Sectors": [
+                35872,
+                45248,
+                38997
+            ],
+            "Timestamp": 1752608455,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -17.132812,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 118296,
+            "Restrictor": 0,
+            "Sectors": [
+                32732,
+                44699,
+                40865
+            ],
+            "Timestamp": 1752608464,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -33.234375,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 3,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 119511,
+            "Restrictor": 0,
+            "Sectors": [
+                34033,
+                46391,
+                39087
+            ],
+            "Timestamp": 1752608468,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -40.390625,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 112805,
+            "Restrictor": 0,
+            "Sectors": [
+                31463,
+                43462,
+                37880
+            ],
+            "Timestamp": 1752608551,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 112744,
+            "Restrictor": 0,
+            "Sectors": [
+                31560,
+                43834,
+                37350
+            ],
+            "Timestamp": 1752608553,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 116423,
+            "Restrictor": 0,
+            "Sectors": [
+                32809,
+                44591,
+                39023
+            ],
+            "Timestamp": 1752608571,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 116442,
+            "Restrictor": 0,
+            "Sectors": [
+                33308,
+                44523,
+                38611
+            ],
+            "Timestamp": 1752608581,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 2,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 116666,
+            "Restrictor": 0,
+            "Sectors": [
+                32940,
+                45297,
+                38429
+            ],
+            "Timestamp": 1752608585,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 113681,
+            "Restrictor": 0,
+            "Sectors": [
+                31484,
+                43889,
+                38308
+            ],
+            "Timestamp": 1752608665,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 112469,
+            "Restrictor": 0,
+            "Sectors": [
+                31429,
+                43506,
+                37534
+            ],
+            "Timestamp": 1752608666,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 118785,
+            "Restrictor": 0,
+            "Sectors": [
+                32772,
+                47394,
+                38619
+            ],
+            "Timestamp": 1752608690,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 2,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 114304,
+            "Restrictor": 0,
+            "Sectors": [
+                32408,
+                44222,
+                37674
+            ],
+            "Timestamp": 1752608695,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 118483,
+            "Restrictor": 0,
+            "Sectors": [
+                33298,
+                46112,
+                39073
+            ],
+            "Timestamp": 1752608703,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 112601,
+            "Restrictor": 0,
+            "Sectors": [
+                31444,
+                43614,
+                37543
+            ],
+            "Timestamp": 1752608777,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 3,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 114456,
+            "Restrictor": 0,
+            "Sectors": [
+                32839,
+                43960,
+                37657
+            ],
+            "Timestamp": 1752608780,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 118647,
+            "Restrictor": 0,
+            "Sectors": [
+                32602,
+                47196,
+                38849
+            ],
+            "Timestamp": 1752608809,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 117631,
+            "Restrictor": 0,
+            "Sectors": [
+                33378,
+                44765,
+                39488
+            ],
+            "Timestamp": 1752608812,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 118022,
+            "Restrictor": 0,
+            "Sectors": [
+                34070,
+                45154,
+                38798
+            ],
+            "Timestamp": 1752608821,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -137,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 113537,
+            "Restrictor": 0,
+            "Sectors": [
+                31763,
+                43997,
+                37777
+            ],
+            "Timestamp": 1752608891,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 7.845521,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 7,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 114376,
+            "Restrictor": 0,
+            "Sectors": [
+                31680,
+                45108,
+                37588
+            ],
+            "Timestamp": 1752608895,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 16.365847,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 116590,
+            "Restrictor": 0,
+            "Sectors": [
+                32323,
+                44397,
+                39870
+            ],
+            "Timestamp": 1752608925,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 82.39837,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 115718,
+            "Restrictor": 0,
+            "Sectors": [
+                32721,
+                44496,
+                38501
+            ],
+            "Timestamp": 1752608928,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 88.78861,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 119914,
+            "Restrictor": 0,
+            "Sectors": [
+                35129,
+                46017,
+                38768
+            ],
+            "Timestamp": 1752608941,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 116.47967,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 112836,
+            "Restrictor": 0,
+            "Sectors": [
+                31475,
+                43646,
+                37715
+            ],
+            "Timestamp": 1752609004,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 3,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 112802,
+            "Restrictor": 0,
+            "Sectors": [
+                31735,
+                43902,
+                37165
+            ],
+            "Timestamp": 1752609008,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 118050,
+            "Restrictor": 0,
+            "Sectors": [
+                33913,
+                44941,
+                39196
+            ],
+            "Timestamp": 1752609043,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 116935,
+            "Restrictor": 0,
+            "Sectors": [
+                32213,
+                44569,
+                40153
+            ],
+            "Timestamp": 1752609045,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 121537,
+            "Restrictor": 0,
+            "Sectors": [
+                34822,
+                48262,
+                38453
+            ],
+            "Timestamp": 1752609063,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 115303,
+            "Restrictor": 0,
+            "Sectors": [
+                31783,
+                44203,
+                39317
+            ],
+            "Timestamp": 1752609119,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 112660,
+            "Restrictor": 0,
+            "Sectors": [
+                31822,
+                43574,
+                37264
+            ],
+            "Timestamp": 1752609120,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 121293,
+            "Restrictor": 0,
+            "Sectors": [
+                34766,
+                46405,
+                40122
+            ],
+            "Timestamp": 1752609165,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 119741,
+            "Restrictor": 0,
+            "Sectors": [
+                33940,
+                46202,
+                39599
+            ],
+            "Timestamp": 1752609165,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 119894,
+            "Restrictor": 0,
+            "Sectors": [
+                34215,
+                46165,
+                39514
+            ],
+            "Timestamp": 1752609183,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 113171,
+            "Restrictor": 0,
+            "Sectors": [
+                31609,
+                43798,
+                37764
+            ],
+            "Timestamp": 1752609232,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 2,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 134637,
+            "Restrictor": 0,
+            "Sectors": [
+                31460,
+                44865,
+                58312
+            ],
+            "Timestamp": 1752609255,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "LapTime": 119343,
+            "Restrictor": 0,
+            "Sectors": [
+                33582,
+                45180,
+                40581
+            ],
+            "Timestamp": 1752609284,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "LapTime": 119654,
+            "Restrictor": 0,
+            "Sectors": [
+                33241,
+                45472,
+                40941
+            ],
+            "Timestamp": 1752609284,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 5,
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "LapTime": 117637,
+            "Restrictor": 0,
+            "Sectors": [
+                33919,
+                44771,
+                38947
+            ],
+            "Timestamp": 1752609300,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 127.13007,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 112601,
+            "CarId": 1,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "Restrictor": 0,
+            "TotalTime": 1257435,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 6
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 112469,
+            "CarId": 2,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "Restrictor": 0,
+            "TotalTime": 1280078,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 5
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 115718,
+            "CarId": 3,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561198063790107",
+            "DriverName": "Arkhen",
+            "Restrictor": 0,
+            "TotalTime": 1309414,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 2
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 115243,
+            "CarId": 7,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "DriverGuid": "76561198211020029",
+            "DriverName": "HMG",
+            "Restrictor": 0,
+            "TotalTime": 1309661,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 3
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 118022,
+            "CarId": 5,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "DriverGuid": "76561199482713847",
+            "DriverName": "jamper",
+            "Restrictor": 0,
+            "TotalTime": 1325683,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 1
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "",
+    "TrackName": "imola",
+    "Type": "RACE",
+    "Date": "2025-07-15T19:56:00Z",
+    "SessionFile": "2025_7_15_19_56_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 1,
+        "wait_time": 60,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "365a48bc-18b2-4bdf-b0ec-36cf35df6068",
+    "RaceWeekendID": "",
+    "EventName": "Imola, Italy"
+}

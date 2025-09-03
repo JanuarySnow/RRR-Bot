@@ -1,72 +1,83 @@
 {
-    "id": "b7077307-5643-494f-8959-284b4030d972",
+    "id": "5e180352-cb96-4f36-a0b2-9986bafb48c7",
     "track": "ks_vallelunga;classic_circuit",
     "laps": [
         {
-            "id": "b529bcbc-3aba-4a6d-b199-792ab1e19e8a",
+            "id": "bdee094e-ec88-4f8e-bb9e-453017e77049",
             "time": 106801,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198137155153",
-            "result": "b7077307-5643-494f-8959-284b4030d972",
+            "result": "5e180352-cb96-4f36-a0b2-9986bafb48c7",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682661099
         },
         {
-            "id": "d7257c17-08cb-4604-a772-a64b524310c1",
+            "id": "5ec29041-5e5b-49a2-a1e5-076854bd093b",
             "time": 106719,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198137155153",
-            "result": "b7077307-5643-494f-8959-284b4030d972",
+            "result": "5e180352-cb96-4f36-a0b2-9986bafb48c7",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682661206
         },
         {
-            "id": "031be59b-22e0-408e-82fa-a7ca2a0fc6bd",
+            "id": "ba8141a4-e3a7-4cde-88da-857267d281d7",
             "time": 88442,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198137155153",
-            "result": "b7077307-5643-494f-8959-284b4030d972",
+            "result": "5e180352-cb96-4f36-a0b2-9986bafb48c7",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682661294
         },
         {
-            "id": "98dad62a-cf22-475d-8277-0e27a60e3dca",
+            "id": "e7282bad-0e49-4fa8-aca5-2fe1d6da9235",
             "time": 88603,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198137155153",
-            "result": "b7077307-5643-494f-8959-284b4030d972",
+            "result": "5e180352-cb96-4f36-a0b2-9986bafb48c7",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682661383
         },
         {
-            "id": "4466f72c-6a74-4aaf-8144-265555186c77",
+            "id": "a9380d56-04c3-45f3-a83c-337d5164496b",
             "time": 93772,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198137155153",
-            "result": "b7077307-5643-494f-8959-284b4030d972",
+            "result": "5e180352-cb96-4f36-a0b2-9986bafb48c7",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682661477
         }
     ],
     "entries": [
         {
-            "id": "e649eb44-e61d-42db-9a72-91623bb4a005",
+            "id": "70ecfad3-d616-4972-b4f5-c2e962b56cde",
             "racer": "76561198137155153",
             "car": "ks_mazda_mx5_cup",
             "track": "ks_vallelunga;classic_circuit",
             "date": "2023-04-28T06:01:25.020600094Z",
             "laps": [
-                "b529bcbc-3aba-4a6d-b199-792ab1e19e8a",
-                "d7257c17-08cb-4604-a772-a64b524310c1",
-                "031be59b-22e0-408e-82fa-a7ca2a0fc6bd",
-                "98dad62a-cf22-475d-8277-0e27a60e3dca",
-                "4466f72c-6a74-4aaf-8144-265555186c77"
+                "bdee094e-ec88-4f8e-bb9e-453017e77049",
+                "5ec29041-5e5b-49a2-a1e5-076854bd093b",
+                "ba8141a4-e3a7-4cde-88da-857267d281d7",
+                "e7282bad-0e49-4fa8-aca5-2fe1d6da9235",
+                "a9380d56-04c3-45f3-a83c-337d5164496b"
             ],
             "incidents": [],
-            "result": "b7077307-5643-494f-8959-284b4030d972",
+            "result": "5e180352-cb96-4f36-a0b2-9986bafb48c7",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -83,5 +94,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

@@ -1,0 +1,80 @@
+{
+    "id": "77f62883-60bd-4400-a449-8d557a72538a",
+    "track": "ks_silverstone;gp",
+    "laps": [
+        {
+            "id": "484ecef9-1dd8-471a-8fad-866314ddf0ed",
+            "time": 161754,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199480080061",
+            "result": "77f62883-60bd-4400-a449-8d557a72538a",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "daefcbfc-b392-47ac-b6d5-272e6da37835",
+            "time": 163597,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199480080061",
+            "result": "77f62883-60bd-4400-a449-8d557a72538a",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "8fb26ece-cc33-4de5-aa5a-7d1480befff9",
+            "racer": "76561199480080061",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_silverstone;gp",
+            "date": "2024-12-07T09:16:30.281360603Z",
+            "laps": [
+                "484ecef9-1dd8-471a-8fad-866314ddf0ed",
+                "daefcbfc-b392-47ac-b6d5-272e6da37835"
+            ],
+            "incidents": [
+                "5d270d07-3e6f-4b59-adc4-e1cb39064c09",
+                "c8379f15-7730-488f-b76f-ae328f5a01e7",
+                "c6215959-31f2-4852-990a-84d8fbad1c37"
+            ],
+            "result": "77f62883-60bd-4400-a449-8d557a72538a",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "5d270d07-3e6f-4b59-adc4-e1cb39064c09",
+            "speed": 39.599216,
+            "racer": "76561199480080061",
+            "otherracer": null
+        },
+        {
+            "id": "c8379f15-7730-488f-b76f-ae328f5a01e7",
+            "speed": 5.745674,
+            "racer": "76561199480080061",
+            "otherracer": null
+        },
+        {
+            "id": "c6215959-31f2-4852-990a-84d8fbad1c37",
+            "speed": 27.43587,
+            "racer": "76561199480080061",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_12_7_9_16_RACE.json",
+    "date": "2024-12-07T09:16:30.281360603Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561199480080061": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

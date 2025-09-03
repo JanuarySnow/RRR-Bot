@@ -1,0 +1,73 @@
+{
+    "id": "752023a4-0acd-4c7e-80c6-0881d7f42c47",
+    "track": "lasvegas23;lasvegas23",
+    "laps": [
+        {
+            "id": "2d0b37bf-2795-44ae-818a-181d1050be24",
+            "time": 99040,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561199099992032",
+            "result": "752023a4-0acd-4c7e-80c6-0881d7f42c47",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "7deafbdc-403f-4b56-8c0c-209e4b45b04b",
+            "time": 93390,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561199099992032",
+            "result": "752023a4-0acd-4c7e-80c6-0881d7f42c47",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "608ef072-05fd-4278-bed2-2619fd32a5f8",
+            "racer": "76561199099992032",
+            "car": "rss_formula_hybrid_2022",
+            "track": "lasvegas23;lasvegas23",
+            "date": "2023-05-31T21:54:00Z",
+            "laps": [
+                "2d0b37bf-2795-44ae-818a-181d1050be24",
+                "7deafbdc-403f-4b56-8c0c-209e4b45b04b"
+            ],
+            "incidents": [
+                "0ac7455c-3d86-4345-8def-f7275d98784e",
+                "a28e2e13-bcfd-46ef-9912-b9ecf26420dd"
+            ],
+            "result": "752023a4-0acd-4c7e-80c6-0881d7f42c47",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "0ac7455c-3d86-4345-8def-f7275d98784e",
+            "speed": 26.266672,
+            "racer": "76561199099992032",
+            "otherracer": null
+        },
+        {
+            "id": "a28e2e13-bcfd-46ef-9912-b9ecf26420dd",
+            "speed": 47.809925,
+            "racer": "76561199099992032",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2023_5_31_21_54_RACE.json",
+    "date": "2023-05-31T21:54:00Z",
+    "region": "EU",
+    "championshipid": "3b25088e-a486-43c6-a2b3-f8da2909ca96",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561199099992032": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

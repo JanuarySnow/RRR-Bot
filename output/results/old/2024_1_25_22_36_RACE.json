@@ -1,32 +1,35 @@
 {
-    "id": "0e709d64-aa19-46ee-ac4a-f7cf42836bb9",
+    "id": "02f8c2d1-4eb5-43ee-96b4-2cd26863f42e",
     "track": "mugello;mugello",
     "laps": [
         {
-            "id": "bcc3a7cd-322a-4add-8be5-07ae86eec463",
+            "id": "adfb6a2f-6397-4412-8545-7cc17037ee58",
             "time": 92869,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198979459890",
-            "result": "0e709d64-aa19-46ee-ac4a-f7cf42836bb9",
+            "result": "02f8c2d1-4eb5-43ee-96b4-2cd26863f42e",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1706220999
         }
     ],
     "entries": [
         {
-            "id": "096a0ce4-1151-4999-8a46-ef607a0ba960",
+            "id": "6cb16b51-bd8f-4632-880b-e080cc1819ba",
             "racer": "76561198979459890",
             "car": "ks_ferrari_f2004",
             "track": "mugello;mugello",
             "date": "2024-01-25T22:36:38.014689373Z",
             "laps": [
-                "bcc3a7cd-322a-4add-8be5-07ae86eec463"
+                "adfb6a2f-6397-4412-8545-7cc17037ee58"
             ],
             "incidents": [],
-            "result": "0e709d64-aa19-46ee-ac4a-f7cf42836bb9",
+            "result": "02f8c2d1-4eb5-43ee-96b4-2cd26863f42e",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -43,5 +46,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

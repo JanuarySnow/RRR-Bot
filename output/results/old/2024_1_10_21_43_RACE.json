@@ -1,95 +1,102 @@
 {
-    "id": "3580e775-3094-4858-bec4-f760cfb8eb10",
+    "id": "3aa50a06-3df8-4c72-91e6-e59fc3f4226e",
     "track": "ks_nurburgring;layout_gp_b",
     "laps": [
         {
-            "id": "3a2ffc14-9a40-4b03-ba1c-ef42d86acff9",
+            "id": "147c524f-14ab-481a-8a35-269fa30eaab6",
             "time": 107084,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561197971872704",
-            "result": "3580e775-3094-4858-bec4-f760cfb8eb10",
+            "result": "3aa50a06-3df8-4c72-91e6-e59fc3f4226e",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1704922116
         },
         {
-            "id": "5c8e948f-a55a-46cb-ae24-942ecebbd9c9",
+            "id": "d0dea008-20eb-4672-96b9-f8fdccc1caa1",
             "time": 143026,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561197971872704",
-            "result": "3580e775-3094-4858-bec4-f760cfb8eb10",
+            "result": "3aa50a06-3df8-4c72-91e6-e59fc3f4226e",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1704922259
         },
         {
-            "id": "74ab8212-045c-47bb-8fd1-273df13dbf09",
+            "id": "dd70caeb-c5e9-462a-8aff-c0d6e95e75e0",
             "time": 99671,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561197971872704",
-            "result": "3580e775-3094-4858-bec4-f760cfb8eb10",
+            "result": "3aa50a06-3df8-4c72-91e6-e59fc3f4226e",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1704922359
         }
     ],
     "entries": [
         {
-            "id": "865f9794-3579-4ed0-bda7-6b93d30d0753",
+            "id": "002c13e0-fcae-48db-bd33-d26cd1bd967e",
             "racer": "76561197971872704",
             "car": "rss_formula_hybrid_2022",
             "track": "ks_nurburgring;layout_gp_b",
             "date": "2024-01-10T21:43:00Z",
             "laps": [
-                "3a2ffc14-9a40-4b03-ba1c-ef42d86acff9",
-                "5c8e948f-a55a-46cb-ae24-942ecebbd9c9",
-                "74ab8212-045c-47bb-8fd1-273df13dbf09"
+                "147c524f-14ab-481a-8a35-269fa30eaab6",
+                "d0dea008-20eb-4672-96b9-f8fdccc1caa1",
+                "dd70caeb-c5e9-462a-8aff-c0d6e95e75e0"
             ],
             "incidents": [
-                "88c92e4e-c436-4c6a-85b6-2951fd88df5a",
-                "e5c80322-1cad-4391-8ae1-9f3baaef5048",
-                "558611cf-e578-44a8-9ee4-65392496cc98",
-                "4472f257-c1f6-4fba-b0ea-edfc9660cd55",
-                "90226afa-9081-44c8-8210-cbb1153411c2",
-                "c0581664-095c-49b9-9aa6-691210c8b730"
+                "071b5914-324d-4f13-aa98-82340f31ea78",
+                "4a238251-ba41-4f7f-b9b4-50eee68f10a8",
+                "faabf033-e362-4faf-9a15-8a9e75b91698",
+                "442bd665-5024-42e3-92b4-9712b08806bf",
+                "356359ea-9344-4b2a-9c8d-317dd07d87a6",
+                "f6fddac7-0e1b-463f-a059-78b133151cd3"
             ],
-            "result": "3580e775-3094-4858-bec4-f760cfb8eb10",
+            "result": "3aa50a06-3df8-4c72-91e6-e59fc3f4226e",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "88c92e4e-c436-4c6a-85b6-2951fd88df5a",
+            "id": "071b5914-324d-4f13-aa98-82340f31ea78",
             "speed": 62.96318,
             "racer": "76561197971872704",
             "otherracer": null
         },
         {
-            "id": "e5c80322-1cad-4391-8ae1-9f3baaef5048",
+            "id": "4a238251-ba41-4f7f-b9b4-50eee68f10a8",
             "speed": 30.818264,
             "racer": "76561197971872704",
             "otherracer": null
         },
         {
-            "id": "558611cf-e578-44a8-9ee4-65392496cc98",
+            "id": "faabf033-e362-4faf-9a15-8a9e75b91698",
             "speed": 46.23191,
             "racer": "76561197971872704",
             "otherracer": null
         },
         {
-            "id": "4472f257-c1f6-4fba-b0ea-edfc9660cd55",
+            "id": "442bd665-5024-42e3-92b4-9712b08806bf",
             "speed": 23.087496,
             "racer": "76561197971872704",
             "otherracer": null
         },
         {
-            "id": "90226afa-9081-44c8-8210-cbb1153411c2",
+            "id": "356359ea-9344-4b2a-9c8d-317dd07d87a6",
             "speed": 99.28078,
             "racer": "76561197971872704",
             "otherracer": null
         },
         {
-            "id": "c0581664-095c-49b9-9aa6-691210c8b730",
+            "id": "f6fddac7-0e1b-463f-a059-78b133151cd3",
             "speed": 34.836864,
             "racer": "76561197971872704",
             "otherracer": null
@@ -107,5 +114,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

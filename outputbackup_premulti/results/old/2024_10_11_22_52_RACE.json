@@ -1,0 +1,76 @@
+{
+    "id": "19c1b717-0365-46c8-b6ad-407fce79c88b",
+    "track": "ks_brands_hatch;gp",
+    "laps": [
+        {
+            "id": "c6aef871-9efa-4c2d-999e-a5fa2de5293d",
+            "time": 105336,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198309443188",
+            "result": "19c1b717-0365-46c8-b6ad-407fce79c88b",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "4636a112-1210-407a-8977-2a4331549f06",
+            "time": 168308,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198309443188",
+            "result": "19c1b717-0365-46c8-b6ad-407fce79c88b",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "7a22f487-0cfd-49cb-ba8e-83ccc4f633ed",
+            "time": 98804,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561198309443188",
+            "result": "19c1b717-0365-46c8-b6ad-407fce79c88b",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "d34ec3f0-21c4-4827-8007-b7fece3badd5",
+            "racer": "76561198309443188",
+            "car": "ks_mazda_mx5_cup",
+            "track": "ks_brands_hatch;gp",
+            "date": "2024-10-11T22:52:33.587590666Z",
+            "laps": [
+                "c6aef871-9efa-4c2d-999e-a5fa2de5293d",
+                "4636a112-1210-407a-8977-2a4331549f06",
+                "7a22f487-0cfd-49cb-ba8e-83ccc4f633ed"
+            ],
+            "incidents": [
+                "2f197f6a-2ff1-486e-9120-a270a2d92f56"
+            ],
+            "result": "19c1b717-0365-46c8-b6ad-407fce79c88b",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "2f197f6a-2ff1-486e-9120-a270a2d92f56",
+            "speed": 40.055645,
+            "racer": "76561198309443188",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_10_11_22_52_RACE.json",
+    "date": "2024-10-11T22:52:33.587590666Z",
+    "region": "EU",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561198309443188": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

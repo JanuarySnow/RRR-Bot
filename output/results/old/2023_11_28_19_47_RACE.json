@@ -1,88 +1,95 @@
 {
-    "id": "9d729ca5-0791-4144-aa9f-2abf6665442b",
+    "id": "3934aa6d-7f11-4271-a7f8-2f0ad0f51a36",
     "track": "lasvegas23;lasvegas23",
     "laps": [
         {
-            "id": "ead93b51-c7f5-435f-a160-238634bd81eb",
+            "id": "2614914c-49ec-439c-a9a8-ef86d58ecfaa",
             "time": 150597,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198820027693",
-            "result": "9d729ca5-0791-4144-aa9f-2abf6665442b",
+            "result": "3934aa6d-7f11-4271-a7f8-2f0ad0f51a36",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1701199678
         },
         {
-            "id": "e2c15932-7a9d-44e7-b942-a007a785e55b",
+            "id": "2846e0e3-6c51-4e2d-9647-3ba4daca682e",
             "time": 101335,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198820027693",
-            "result": "9d729ca5-0791-4144-aa9f-2abf6665442b",
+            "result": "3934aa6d-7f11-4271-a7f8-2f0ad0f51a36",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1701199779
         },
         {
-            "id": "66e837b1-a4f8-4d72-bbed-638994210855",
+            "id": "7806d84e-37be-4ba6-b6e4-51e236873006",
             "time": 105494,
             "car": "ks_ferrari_f2004",
             "racerguid": "76561198820027693",
-            "result": "9d729ca5-0791-4144-aa9f-2abf6665442b",
+            "result": "3934aa6d-7f11-4271-a7f8-2f0ad0f51a36",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1701199885
         }
     ],
     "entries": [
         {
-            "id": "fa1feda0-11f4-44f8-bba0-681f3dde8a63",
+            "id": "93b44a66-ada7-4e53-bd5b-bed064fd4ad3",
             "racer": "76561198820027693",
             "car": "ks_ferrari_f2004",
             "track": "lasvegas23;lasvegas23",
             "date": "2023-11-28T19:47:00.039949073Z",
             "laps": [
-                "ead93b51-c7f5-435f-a160-238634bd81eb",
-                "e2c15932-7a9d-44e7-b942-a007a785e55b",
-                "66e837b1-a4f8-4d72-bbed-638994210855"
+                "2614914c-49ec-439c-a9a8-ef86d58ecfaa",
+                "2846e0e3-6c51-4e2d-9647-3ba4daca682e",
+                "7806d84e-37be-4ba6-b6e4-51e236873006"
             ],
             "incidents": [
-                "6144fefb-0af9-4eda-9f80-d4d3f22940e6",
-                "f95d683e-5b10-4fb9-9fc1-bb62254bf7c0",
-                "d70caa21-a9dd-41dd-9294-3c36500f702d",
-                "682fbe05-4ad8-4e71-bac5-2df3b4067749",
-                "5800bb17-3d99-47c2-9ed0-f54f3a5ba5aa"
+                "cc4eaa10-3706-4865-9fb1-55b41ba449df",
+                "86f9a7b5-32cc-4e57-99a6-95b9e07d26c7",
+                "fdc8e430-e315-4550-b764-c393d02e7762",
+                "670418fd-14cb-45bf-850b-50507792e6a0",
+                "d768a4bf-394e-493c-9617-42f0308996f4"
             ],
-            "result": "9d729ca5-0791-4144-aa9f-2abf6665442b",
+            "result": "3934aa6d-7f11-4271-a7f8-2f0ad0f51a36",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "6144fefb-0af9-4eda-9f80-d4d3f22940e6",
+            "id": "cc4eaa10-3706-4865-9fb1-55b41ba449df",
             "speed": 36.91752,
             "racer": "76561198820027693",
             "otherracer": null
         },
         {
-            "id": "f95d683e-5b10-4fb9-9fc1-bb62254bf7c0",
+            "id": "86f9a7b5-32cc-4e57-99a6-95b9e07d26c7",
             "speed": 28.753458,
             "racer": "76561198820027693",
             "otherracer": null
         },
         {
-            "id": "d70caa21-a9dd-41dd-9294-3c36500f702d",
+            "id": "fdc8e430-e315-4550-b764-c393d02e7762",
             "speed": 17.17706,
             "racer": "76561198820027693",
             "otherracer": null
         },
         {
-            "id": "682fbe05-4ad8-4e71-bac5-2df3b4067749",
+            "id": "670418fd-14cb-45bf-850b-50507792e6a0",
             "speed": 71.4565,
             "racer": "76561198820027693",
             "otherracer": null
         },
         {
-            "id": "5800bb17-3d99-47c2-9ed0-f54f3a5ba5aa",
+            "id": "d768a4bf-394e-493c-9617-42f0308996f4",
             "speed": 113.68754,
             "racer": "76561198820027693",
             "otherracer": null
@@ -100,5 +107,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

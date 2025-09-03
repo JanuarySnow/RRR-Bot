@@ -1,40 +1,43 @@
 {
-    "id": "6376884c-41b5-4e5a-90e8-927a1f49a886",
+    "id": "7c9163e7-1be0-40b7-a946-e40a8452953a",
     "track": "spa;spa",
     "laps": [
         {
-            "id": "82d1df9c-0f7a-465f-b025-818a11a82a00",
+            "id": "a6a6e730-69e0-4596-a2d4-50405f2e7913",
             "time": 150721,
             "car": "ks_ferrari_488_gt3",
             "racerguid": "76561198238132230",
-            "result": "6376884c-41b5-4e5a-90e8-927a1f49a886",
+            "result": "7c9163e7-1be0-40b7-a946-e40a8452953a",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1726938000
         }
     ],
     "entries": [
         {
-            "id": "237c93fb-5cbc-4dd7-8f84-a8de2f440a53",
+            "id": "f89256bf-56a1-4be1-bf79-47f58a3835c3",
             "racer": "76561198238132230",
             "car": "ks_ferrari_488_gt3",
             "track": "spa;spa",
             "date": "2024-09-21T17:19:02.001989143Z",
             "laps": [
-                "82d1df9c-0f7a-465f-b025-818a11a82a00"
+                "a6a6e730-69e0-4596-a2d4-50405f2e7913"
             ],
             "incidents": [
-                "d7806cff-dfdb-42e9-aade-1a946da9dba6"
+                "33808736-5b1e-4c39-8e18-316faa68f5d7"
             ],
-            "result": "6376884c-41b5-4e5a-90e8-927a1f49a886",
+            "result": "7c9163e7-1be0-40b7-a946-e40a8452953a",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "d7806cff-dfdb-42e9-aade-1a946da9dba6",
+            "id": "33808736-5b1e-4c39-8e18-316faa68f5d7",
             "speed": 360.63797,
             "racer": "76561198238132230",
             "otherracer": null
@@ -52,5 +55,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

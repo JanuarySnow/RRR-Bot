@@ -1,0 +1,218 @@
+{
+    "id": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+    "track": "monza;monza",
+    "laps": [
+        {
+            "id": "2b72ca23-9a08-4506-9b9f-0341eb751f16",
+            "time": 155035,
+            "car": "ks_ferrari_488_gt3",
+            "racerguid": "76561198147823146",
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "2091e614-4ed7-4960-874f-bd44a4fc9e99",
+            "time": 156725,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199478085486",
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "valid": false,
+            "cuts": 2
+        },
+        {
+            "id": "94cec8b0-07e0-40e2-b25c-5404feb454d4",
+            "time": 128356,
+            "car": "ks_porsche_911_gt3_r_2016",
+            "racerguid": "76561199478085486",
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "b1f70ac0-a48f-4231-99f6-fb66e30b535c",
+            "time": 130190,
+            "car": "ks_ferrari_488_gt3",
+            "racerguid": "76561198147823146",
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "20d2cbee-0ea7-4135-9c27-8a0106a72daf",
+            "racer": "76561199478085486",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "monza;monza",
+            "date": "2024-07-11T03:19:19.710505655Z",
+            "laps": [
+                "2091e614-4ed7-4960-874f-bd44a4fc9e99",
+                "94cec8b0-07e0-40e2-b25c-5404feb454d4"
+            ],
+            "incidents": [
+                "7a7eda80-51b1-4243-b239-a5917154487b",
+                "f550d1bd-986c-4fab-aaac-d07876c1ec09",
+                "ff1cfb0f-b05f-4f07-9590-9681d7448adf",
+                "88904644-be2e-474a-bd9f-023b815bf369",
+                "a77a8393-a23c-4d84-af78-a41dcd1863a8"
+            ],
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "cuts": 2,
+            "finishingposition": 1,
+            "ratingchange": 15.72
+        },
+        {
+            "id": "4020c2da-2c81-4ecb-a4e3-bd9a4bd99ff7",
+            "racer": "76561198147823146",
+            "car": "ks_ferrari_488_gt3",
+            "track": "monza;monza",
+            "date": "2024-07-11T03:19:19.710505655Z",
+            "laps": [
+                "2b72ca23-9a08-4506-9b9f-0341eb751f16",
+                "b1f70ac0-a48f-4231-99f6-fb66e30b535c"
+            ],
+            "incidents": [
+                "744e7664-0489-4462-ab5e-e98e61af4e64",
+                "7a9c1ef4-62a7-4f0a-b82e-f3f193336fdb",
+                "73ed0593-5d88-4c71-9052-91213ba130fb",
+                "5a77c061-0092-4be4-97f4-a6ec583116be",
+                "26e70fd1-b2ed-4bbb-88fd-a95cb909c395",
+                "c15fc65a-314d-4d89-9c6b-5e6e4069b2a2",
+                "000c822c-c705-4211-bef3-d60845d161c1"
+            ],
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "cuts": 2,
+            "finishingposition": 2,
+            "ratingchange": 7.91
+        },
+        {
+            "id": "eeb6f3e4-4642-4229-b0c3-15f45a139a86",
+            "racer": "76561198354320937",
+            "car": "ks_ferrari_488_gt3",
+            "track": "monza;monza",
+            "date": "2024-07-11T03:19:19.710505655Z",
+            "laps": [],
+            "incidents": [],
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "cuts": 2,
+            "finishingposition": 3,
+            "ratingchange": 0.1
+        },
+        {
+            "id": "1a22ae2f-9b66-4b20-9353-d7645b4d9ed9",
+            "racer": "76561198840135656",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "monza;monza",
+            "date": "2024-07-11T03:19:19.710505655Z",
+            "laps": [],
+            "incidents": [],
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "cuts": 2,
+            "finishingposition": 4,
+            "ratingchange": -7.72
+        },
+        {
+            "id": "2028d595-e190-4d8f-a465-a4669b1bec5d",
+            "racer": "76561198044378289",
+            "car": "ks_porsche_911_gt3_r_2016",
+            "track": "monza;monza",
+            "date": "2024-07-11T03:19:19.710505655Z",
+            "laps": [],
+            "incidents": [],
+            "result": "2cec3007-8437-442e-a295-f838fc4b3e3a",
+            "cuts": 2,
+            "finishingposition": 5,
+            "ratingchange": -15.56
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "744e7664-0489-4462-ab5e-e98e61af4e64",
+            "speed": 1.0243889,
+            "racer": "76561198147823146",
+            "otherracer": "76561199478085486"
+        },
+        {
+            "id": "7a9c1ef4-62a7-4f0a-b82e-f3f193336fdb",
+            "speed": 22.539095,
+            "racer": "76561198147823146",
+            "otherracer": "76561199478085486"
+        },
+        {
+            "id": "7a7eda80-51b1-4243-b239-a5917154487b",
+            "speed": 28.686865,
+            "racer": "76561199478085486",
+            "otherracer": "76561198147823146"
+        },
+        {
+            "id": "f550d1bd-986c-4fab-aaac-d07876c1ec09",
+            "speed": 37.90198,
+            "racer": "76561199478085486",
+            "otherracer": null
+        },
+        {
+            "id": "73ed0593-5d88-4c71-9052-91213ba130fb",
+            "speed": 29.02585,
+            "racer": "76561198147823146",
+            "otherracer": null
+        },
+        {
+            "id": "ff1cfb0f-b05f-4f07-9590-9681d7448adf",
+            "speed": 2.4315534,
+            "racer": "76561199478085486",
+            "otherracer": "76561198147823146"
+        },
+        {
+            "id": "5a77c061-0092-4be4-97f4-a6ec583116be",
+            "speed": 17.25848,
+            "racer": "76561198147823146",
+            "otherracer": "76561199478085486"
+        },
+        {
+            "id": "26e70fd1-b2ed-4bbb-88fd-a95cb909c395",
+            "speed": 33.604733,
+            "racer": "76561198147823146",
+            "otherracer": "76561199478085486"
+        },
+        {
+            "id": "88904644-be2e-474a-bd9f-023b815bf369",
+            "speed": 13.681985,
+            "racer": "76561199478085486",
+            "otherracer": "76561198147823146"
+        },
+        {
+            "id": "c15fc65a-314d-4d89-9c6b-5e6e4069b2a2",
+            "speed": 18.54154,
+            "racer": "76561198147823146",
+            "otherracer": "76561199478085486"
+        },
+        {
+            "id": "a77a8393-a23c-4d84-af78-a41dcd1863a8",
+            "speed": 31.055183,
+            "racer": "76561199478085486",
+            "otherracer": "76561198147823146"
+        },
+        {
+            "id": "000c822c-c705-4211-bef3-d60845d161c1",
+            "speed": 24.328482,
+            "racer": "76561198147823146",
+            "otherracer": "76561199478085486"
+        }
+    ],
+    "mx5orgt3": "mx5",
+    "filename": "2024_7_11_3_19_RACE.json",
+    "date": "2024-07-11T03:19:19.710505655Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 2,
+    "driverlaps": {
+        "76561198147823146": 2,
+        "76561199478085486": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

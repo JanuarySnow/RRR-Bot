@@ -1,52 +1,59 @@
 {
-    "id": "d6d18f54-d866-420c-b0f1-4815134ae002",
+    "id": "c1c1b7e0-3c18-4e0a-a179-4c3cfad43490",
     "track": "acu_cota_2021;acu_cota_2021",
     "laps": [
         {
-            "id": "cc6ab151-365e-4de1-afaf-1fbaf4e7d371",
+            "id": "385cd2c2-75fc-490f-bb3e-06b5347c8fee",
             "time": 101559,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561197971872704",
-            "result": "d6d18f54-d866-420c-b0f1-4815134ae002",
+            "result": "c1c1b7e0-3c18-4e0a-a179-4c3cfad43490",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1688587688
         },
         {
-            "id": "3cb9568d-a11a-4e54-8b97-ef20209d8e83",
+            "id": "195d50f6-50b6-4da7-a978-1a7d4a841857",
             "time": 100170,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561197971872704",
-            "result": "d6d18f54-d866-420c-b0f1-4815134ae002",
+            "result": "c1c1b7e0-3c18-4e0a-a179-4c3cfad43490",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1688587788
         },
         {
-            "id": "37e55db3-a915-42f4-8a22-dc57f40a1d3e",
+            "id": "2727fa1d-4abd-44c3-951c-2b888d655cbe",
             "time": 100876,
             "car": "rss_formula_hybrid_2022",
             "racerguid": "76561197971872704",
-            "result": "d6d18f54-d866-420c-b0f1-4815134ae002",
+            "result": "c1c1b7e0-3c18-4e0a-a179-4c3cfad43490",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1688587889
         }
     ],
     "entries": [
         {
-            "id": "488fe37a-3c57-42b2-93c2-f05cf612dff9",
+            "id": "4c840bda-a8b0-450a-8e4e-8355a2382df8",
             "racer": "76561197971872704",
             "car": "rss_formula_hybrid_2022",
             "track": "acu_cota_2021;acu_cota_2021",
             "date": "2023-07-05T20:27:00Z",
             "laps": [
-                "cc6ab151-365e-4de1-afaf-1fbaf4e7d371",
-                "3cb9568d-a11a-4e54-8b97-ef20209d8e83",
-                "37e55db3-a915-42f4-8a22-dc57f40a1d3e"
+                "385cd2c2-75fc-490f-bb3e-06b5347c8fee",
+                "195d50f6-50b6-4da7-a978-1a7d4a841857",
+                "2727fa1d-4abd-44c3-951c-2b888d655cbe"
             ],
             "incidents": [],
-            "result": "d6d18f54-d866-420c-b0f1-4815134ae002",
+            "result": "c1c1b7e0-3c18-4e0a-a179-4c3cfad43490",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -63,5 +70,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

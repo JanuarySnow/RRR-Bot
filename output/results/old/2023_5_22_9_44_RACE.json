@@ -1,97 +1,102 @@
 {
-    "id": "ee0e9820-abcc-4089-a167-421a28794fb5",
+    "id": "9a5f3703-6a5e-4551-8a57-d2433c6e2fd0",
     "track": "ks_vallelunga;club_circuit",
     "laps": [
         {
-            "id": "46b4eebb-7502-431d-a0c0-68cd0db58b18",
+            "id": "cf2a301b-a922-4ab7-bbfd-85c97b960859",
             "time": 199346,
             "car": "gokart125s",
             "racerguid": "76561199090096339",
-            "result": "ee0e9820-abcc-4089-a167-421a28794fb5",
+            "result": "9a5f3703-6a5e-4551-8a57-d2433c6e2fd0",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1684747636
         }
     ],
     "entries": [
         {
-            "id": "46322c5a-59c7-4b62-9cac-d088dc7d7e2f",
+            "id": "b21e7949-82b4-42dd-a10e-3846ee75f56b",
             "racer": "76561199090096339",
             "car": "gokart125s",
             "track": "ks_vallelunga;club_circuit",
             "date": "2023-05-22T09:44:19.285052306Z",
             "laps": [
-                "46b4eebb-7502-431d-a0c0-68cd0db58b18"
+                "cf2a301b-a922-4ab7-bbfd-85c97b960859"
             ],
             "incidents": [
-                "ef223671-858c-4c2b-8e97-e794253b0359",
-                "41a0e954-e59c-4d3f-90b2-fe1b731f91be",
-                "182448ad-7c33-49f8-99fa-2e95d2fc1ab4",
-                "dd3e8664-9b1c-4a9f-9d87-69dc91682e09"
+                "3971b020-4752-416f-991e-deab8fa93941",
+                "67c6a7b7-3c91-4730-b86e-3a6075772ad7",
+                "798af90b-462d-41a7-a5bc-39633b36147d",
+                "9897eed9-eae1-4d61-9040-075c457b2cd0"
             ],
-            "result": "ee0e9820-abcc-4089-a167-421a28794fb5",
+            "result": "9a5f3703-6a5e-4551-8a57-d2433c6e2fd0",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 1.99
+            "ratingchange": 7.91,
+            "startingposition": 1
         },
         {
-            "id": "59f487ce-b8a1-46d6-972e-5cc44f20501b",
+            "id": "2710ea66-f7f7-4d74-a365-7dcff707c74e",
             "racer": "76561198192084177",
             "car": "gokart125s",
             "track": "ks_vallelunga;club_circuit",
             "date": "2023-05-22T09:44:19.285052306Z",
             "laps": [],
             "incidents": [
-                "1c11d4f4-877e-49eb-9826-9e1bfcf45038"
+                "8a964731-d719-4ca3-b3fe-f73df5aea2df"
             ],
-            "result": "ee0e9820-abcc-4089-a167-421a28794fb5",
+            "result": "9a5f3703-6a5e-4551-8a57-d2433c6e2fd0",
             "cuts": 0,
             "finishingposition": 3,
-            "ratingchange": -1.0
+            "ratingchange": -4.0,
+            "startingposition": 2
         },
         {
-            "id": "cd488c2e-43c4-48a5-a305-a25d2dc51ec1",
+            "id": "edf61c26-8e37-4942-8804-1fb9717e9278",
             "racer": "76561198192084177",
             "car": "gokart125s",
             "track": "ks_vallelunga;club_circuit",
             "date": "2023-05-22T09:44:19.285052306Z",
             "laps": [],
             "incidents": [
-                "1c11d4f4-877e-49eb-9826-9e1bfcf45038"
+                "8a964731-d719-4ca3-b3fe-f73df5aea2df"
             ],
-            "result": "ee0e9820-abcc-4089-a167-421a28794fb5",
+            "result": "9a5f3703-6a5e-4551-8a57-d2433c6e2fd0",
             "cuts": 0,
             "finishingposition": 3,
-            "ratingchange": -1.99
+            "ratingchange": -7.91,
+            "startingposition": 0
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "1c11d4f4-877e-49eb-9826-9e1bfcf45038",
+            "id": "8a964731-d719-4ca3-b3fe-f73df5aea2df",
             "speed": 44.628704,
             "racer": "76561198192084177",
             "otherracer": null
         },
         {
-            "id": "ef223671-858c-4c2b-8e97-e794253b0359",
+            "id": "3971b020-4752-416f-991e-deab8fa93941",
             "speed": 8.854225,
             "racer": "76561199090096339",
             "otherracer": null
         },
         {
-            "id": "41a0e954-e59c-4d3f-90b2-fe1b731f91be",
+            "id": "67c6a7b7-3c91-4730-b86e-3a6075772ad7",
             "speed": 10.078586,
             "racer": "76561199090096339",
             "otherracer": null
         },
         {
-            "id": "182448ad-7c33-49f8-99fa-2e95d2fc1ab4",
+            "id": "798af90b-462d-41a7-a5bc-39633b36147d",
             "speed": 1.804043,
             "racer": "76561199090096339",
             "otherracer": null
         },
         {
-            "id": "dd3e8664-9b1c-4a9f-9d87-69dc91682e09",
+            "id": "9897eed9-eae1-4d61-9040-075c457b2cd0",
             "speed": 26.102983,
             "racer": "76561199090096339",
             "otherracer": null
@@ -109,5 +114,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

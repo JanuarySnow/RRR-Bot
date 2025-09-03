@@ -1,0 +1,161 @@
+{
+    "id": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+    "track": "ks_barcelona;layout_moto",
+    "laps": [
+        {
+            "id": "67d42227-4355-4d0d-a78b-81667f1b9ccf",
+            "time": 119582,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "700c8611-1813-43c9-918d-637f7fe3c111",
+            "time": 139108,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198142140601",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "0faa7571-02e0-484c-aec3-6478091914ae",
+            "time": 116624,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "33aade51-8708-4582-b6d8-9de8b161848e",
+            "time": 113690,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "8db32611-e5c7-47a7-abfc-b9defcdcc77f",
+            "time": 131749,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "658d3482-1344-41c5-832f-86b7f4bef55a",
+            "time": 130465,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "9e5b354f-5440-4226-b690-02e536549247",
+            "time": 112208,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "1846462b-0aa4-4a8a-a514-75e7e55fbc74",
+            "time": 148129,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "valid": false,
+            "cuts": 1
+        }
+    ],
+    "entries": [
+        {
+            "id": "97f0e426-0051-4270-bb6b-00976903a2f0",
+            "racer": "76561198008585393",
+            "car": "ks_praga_r1",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2023-07-29T19:09:00Z",
+            "laps": [
+                "67d42227-4355-4d0d-a78b-81667f1b9ccf",
+                "0faa7571-02e0-484c-aec3-6478091914ae",
+                "33aade51-8708-4582-b6d8-9de8b161848e",
+                "8db32611-e5c7-47a7-abfc-b9defcdcc77f",
+                "658d3482-1344-41c5-832f-86b7f4bef55a",
+                "9e5b354f-5440-4226-b690-02e536549247",
+                "1846462b-0aa4-4a8a-a514-75e7e55fbc74"
+            ],
+            "incidents": [
+                "f93ed0ad-b88d-4c0e-b84f-0b68bace3727",
+                "0e9711dd-edae-4f04-bdc6-70eefe027979",
+                "44e0dcdd-8210-4b06-90f4-5a1c7e41f18e"
+            ],
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "cuts": 3,
+            "finishingposition": 1,
+            "ratingchange": 0.46
+        },
+        {
+            "id": "65852798-05d8-4394-bd16-0de147486370",
+            "racer": "76561198142140601",
+            "car": "ks_praga_r1",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2023-07-29T19:09:00Z",
+            "laps": [
+                "700c8611-1813-43c9-918d-637f7fe3c111"
+            ],
+            "incidents": [],
+            "result": "19430699-ff67-40cd-81c2-10fb9f5122b9",
+            "cuts": 3,
+            "finishingposition": 2,
+            "ratingchange": -0.92
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "f93ed0ad-b88d-4c0e-b84f-0b68bace3727",
+            "speed": 22.983784,
+            "racer": "76561198008585393",
+            "otherracer": null
+        },
+        {
+            "id": "0e9711dd-edae-4f04-bdc6-70eefe027979",
+            "speed": 36.4756,
+            "racer": "76561198008585393",
+            "otherracer": null
+        },
+        {
+            "id": "44e0dcdd-8210-4b06-90f4-5a1c7e41f18e",
+            "speed": 31.555586,
+            "racer": "76561198008585393",
+            "otherracer": null
+        },
+        {
+            "id": "760597b1-4e20-403e-afbb-5d51e1df6e77",
+            "speed": 13.751993,
+            "racer": null,
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2023_7_29_19_9_RACE.json",
+    "date": "2023-07-29T19:09:00Z",
+    "region": "EU",
+    "championshipid": "31e5cb93-74d6-4ca6-9241-abd61c45d04b",
+    "numlaps": 7,
+    "driverlaps": {
+        "76561198008585393": 7,
+        "76561198142140601": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

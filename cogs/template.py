@@ -11,6 +11,7 @@ from discord.ext import commands, tasks
 from discord.ext.commands import Context
 import json
 
+GUILD_ID: int = 917204555459100703
 
 # Here we name the cog and create a new class for the cog.
 class Template(commands.Cog, name="potato"):
@@ -168,6 +169,7 @@ class Template(commands.Cog, name="potato"):
                     print("error")
                     return retdict
         return retdict
+    
     
     @tasks.loop(minutes=1600.0)
     async def check_ac_sale(self) -> None:

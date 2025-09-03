@@ -1,47 +1,50 @@
 {
-    "id": "dc1d2e5a-d635-4b5f-99bd-1b64a68a78d9",
+    "id": "eaeb5c6a-41c4-451e-8bf6-23562608a4e8",
     "track": "prinzen_f3ct;prinzen_long",
     "laps": [
         {
-            "id": "d80f6079-84c2-4950-9e71-083ad1b8d8b2",
+            "id": "c17a4977-ca06-42b1-9ef9-47f32b87c409",
             "time": 1209686,
             "car": "ks_maserati_250f_6cyl",
             "racerguid": "76561198079460346",
-            "result": "dc1d2e5a-d635-4b5f-99bd-1b64a68a78d9",
+            "result": "eaeb5c6a-41c4-451e-8bf6-23562608a4e8",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1709408826
         }
     ],
     "entries": [
         {
-            "id": "81b2e232-2f9d-44c9-8df5-141d08cb5d23",
+            "id": "22915386-8130-49dd-adcb-e9cbb3862c37",
             "racer": "76561198079460346",
             "car": "ks_maserati_250f_6cyl",
             "track": "prinzen_f3ct;prinzen_long",
             "date": "2024-03-02T19:48:00Z",
             "laps": [
-                "d80f6079-84c2-4950-9e71-083ad1b8d8b2"
+                "c17a4977-ca06-42b1-9ef9-47f32b87c409"
             ],
             "incidents": [
-                "7452a94d-5020-4142-bf80-927c618d5ec2",
-                "20bcfeb7-464a-4565-a3ef-fd1f95232d96"
+                "2765dfc1-4474-4f37-855f-b662595928f5",
+                "1efe6cb4-8e16-4824-ad71-bb339d3906cc"
             ],
-            "result": "dc1d2e5a-d635-4b5f-99bd-1b64a68a78d9",
+            "result": "eaeb5c6a-41c4-451e-8bf6-23562608a4e8",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "7452a94d-5020-4142-bf80-927c618d5ec2",
+            "id": "2765dfc1-4474-4f37-855f-b662595928f5",
             "speed": 79.39093,
             "racer": "76561198079460346",
             "otherracer": null
         },
         {
-            "id": "20bcfeb7-464a-4565-a3ef-fd1f95232d96",
+            "id": "1efe6cb4-8e16-4824-ad71-bb339d3906cc",
             "speed": 79.05942,
             "racer": "76561198079460346",
             "otherracer": null
@@ -59,5 +62,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

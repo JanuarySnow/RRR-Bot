@@ -1,0 +1,111 @@
+{
+    "id": "ffd1a846-8117-4c3b-9604-8fb0ed5a3855",
+    "track": "ks_nurburgring;layout_gp_b",
+    "laps": [
+        {
+            "id": "6c850143-5724-4c6b-b62b-226f67ddd096",
+            "time": 107084,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561197971872704",
+            "result": "ffd1a846-8117-4c3b-9604-8fb0ed5a3855",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "8cb6991a-8f2c-4304-b6d0-c6afc781a5af",
+            "time": 143026,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561197971872704",
+            "result": "ffd1a846-8117-4c3b-9604-8fb0ed5a3855",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "4a72bd1d-4e0c-415d-b6b8-c04de40c8af1",
+            "time": 99671,
+            "car": "rss_formula_hybrid_2022",
+            "racerguid": "76561197971872704",
+            "result": "ffd1a846-8117-4c3b-9604-8fb0ed5a3855",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "5b4f0e4b-d1ce-4b7e-a87f-4c04dca2c27c",
+            "racer": "76561197971872704",
+            "car": "rss_formula_hybrid_2022",
+            "track": "ks_nurburgring;layout_gp_b",
+            "date": "2024-01-10T21:43:00Z",
+            "laps": [
+                "6c850143-5724-4c6b-b62b-226f67ddd096",
+                "8cb6991a-8f2c-4304-b6d0-c6afc781a5af",
+                "4a72bd1d-4e0c-415d-b6b8-c04de40c8af1"
+            ],
+            "incidents": [
+                "5617c3e7-755d-4e03-9698-a06f24c8d559",
+                "5e13def7-6b1e-422d-99d8-b893186049b4",
+                "bca36af8-a70a-4955-8185-667d5da69915",
+                "8fbc281a-017a-4a31-b015-cb1fb0248277",
+                "a72bae8a-e2a4-4715-87a6-04d0c5e6ed3a",
+                "91797568-2133-46b5-a550-4ce5e54d04ef"
+            ],
+            "result": "ffd1a846-8117-4c3b-9604-8fb0ed5a3855",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "5617c3e7-755d-4e03-9698-a06f24c8d559",
+            "speed": 62.96318,
+            "racer": "76561197971872704",
+            "otherracer": null
+        },
+        {
+            "id": "5e13def7-6b1e-422d-99d8-b893186049b4",
+            "speed": 30.818264,
+            "racer": "76561197971872704",
+            "otherracer": null
+        },
+        {
+            "id": "bca36af8-a70a-4955-8185-667d5da69915",
+            "speed": 46.23191,
+            "racer": "76561197971872704",
+            "otherracer": null
+        },
+        {
+            "id": "8fbc281a-017a-4a31-b015-cb1fb0248277",
+            "speed": 23.087496,
+            "racer": "76561197971872704",
+            "otherracer": null
+        },
+        {
+            "id": "a72bae8a-e2a4-4715-87a6-04d0c5e6ed3a",
+            "speed": 99.28078,
+            "racer": "76561197971872704",
+            "otherracer": null
+        },
+        {
+            "id": "91797568-2133-46b5-a550-4ce5e54d04ef",
+            "speed": 34.836864,
+            "racer": "76561197971872704",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2024_1_10_21_43_RACE.json",
+    "date": "2024-01-10T21:43:00Z",
+    "region": "EU",
+    "championshipid": "5bc46ef7-c7be-473e-8c27-5c790670a934",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561197971872704": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

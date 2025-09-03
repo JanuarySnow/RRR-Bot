@@ -1,0 +1,4284 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "bmw_z4_gt3",
+            "Restrictor": 0,
+            "Skin": "bmw_motorsport_2012",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 26,
+            "MaxPing": 218
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198047002406",
+                "GuidsList": [
+                    "76561198047002406"
+                ],
+                "Name": "Tommy Boy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_lamborghini_huracan_gt3",
+            "Restrictor": 0,
+            "Skin": "Racing_Violet",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 19,
+            "MaxPing": 26
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mclaren_650_gt3",
+            "Restrictor": 0,
+            "Skin": "McYoren",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 23,
+            "MaxPing": 4696
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_ferrari_488_gt3",
+            "Restrictor": 0,
+            "Skin": "07_racing_501",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 17,
+            "MaxPing": 22
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561199124578354",
+                "GuidsList": [
+                    "76561199124578354"
+                ],
+                "Name": "MyEyesSweatin'",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "bmw_z4_gt3",
+            "Restrictor": 0,
+            "Skin": "Tommy Boy",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 20,
+            "MaxPing": 269
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561198797063865",
+                "GuidsList": [
+                    "76561198797063865"
+                ],
+                "Name": "karm",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_lamborghini_huracan_gt3",
+            "Restrictor": 0,
+            "Skin": "Racing_BlizzardBlue",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 71,
+            "MaxPing": 215
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561198047002406",
+                "GuidsList": [
+                    "76561198047002406"
+                ],
+                "Name": "Tommy Boy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_nissan_gtr_gt3",
+            "Restrictor": 0,
+            "Skin": "2t_96",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 19,
+            "MaxPing": 25
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_audi_r8_lms_2016",
+            "Restrictor": 0,
+            "Skin": "22_racing_223",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 17,
+            "MaxPing": 20
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "76561199057292223",
+                "GuidsList": [
+                    "76561199057292223"
+                ],
+                "Name": "Cameron McIntosh",
+                "Nation": "AUS",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_ferrari_488_gt3",
+            "Restrictor": 0,
+            "Skin": "12_racing_494",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 94,
+            "MaxPing": 415
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "bmw_z4_gt3",
+            "Restrictor": 0,
+            "Skin": "Ostrich Z4",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 30,
+            "MaxPing": 85
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "76561198027981090",
+                "GuidsList": [
+                    "76561198027981090"
+                ],
+                "Name": "rev174",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_audi_r8_lms_2016",
+            "Restrictor": 0,
+            "Skin": "00_racing_06",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 30,
+            "MaxPing": 55
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561199833578848",
+                "GuidsList": [
+                    "76561199833578848",
+                    "76561199498900004"
+                ],
+                "Name": "fantaz",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_lamborghini_huracan_gt3",
+            "Restrictor": 0,
+            "Skin": "Racing_Violet",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 51,
+            "MaxPing": 955
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "76561199064142765",
+                "GuidsList": [
+                    "76561199064142765"
+                ],
+                "Name": "Bullet",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_porsche_911_gt3_r_2016",
+            "Restrictor": 0,
+            "Skin": "75_DUCKHAMS",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 46,
+            "MaxPing": 229
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561199506212849",
+                "GuidsList": [
+                    "76561199506212849"
+                ],
+                "Name": "Broadcasting",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_audi_r8_lms_2016",
+            "Restrictor": 0,
+            "Skin": "17_racing_118",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 40,
+            "MaxPing": 1964
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "76561198117493519",
+                "GuidsList": [
+                    "76561198117493519"
+                ],
+                "Name": "FacundoRW25",
+                "Nation": "ARG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_ferrari_488_gt3",
+            "Restrictor": 0,
+            "Skin": "Santander_488_GT3_nero",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 142,
+            "MaxPing": 147
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "76561198084581025",
+                "GuidsList": [
+                    "76561198084581025"
+                ],
+                "Name": "IronDuck",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "bmw_z4_gt3",
+            "Restrictor": 0,
+            "Skin": "Sky Motorsport",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 51,
+            "MaxPing": 54
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_porsche_911_gt3_r_2016",
+            "Restrictor": 0,
+            "Skin": "93_gt3",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 34,
+            "MaxPing": 114
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561198388379209"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_porsche_911_gt3_r_2016",
+            "Restrictor": 0,
+            "Skin": "93_gt3",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 34,
+            "MaxPing": 114
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530",
+                    "76561198279879151"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mclaren_650_gt3",
+            "Restrictor": 0,
+            "Skin": "RRR_Tommy Boy",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 52,
+            "MaxPing": 80
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "Driver": {
+                "Guid": "76561197993463507",
+                "GuidsList": [
+                    "76561197993463507"
+                ],
+                "Name": "Kevin Kanuck",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_nissan_gtr_gt3",
+            "Restrictor": 0,
+            "Skin": "0_Nissan_12",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 52,
+            "MaxPing": 117
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "Model": "ks_ferrari_488_gt3",
+            "Restrictor": 0,
+            "Skin": "16_racing_498",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "Driver": {
+                "Guid": "76561199215221537",
+                "GuidsList": [
+                    "76561199215221537"
+                ],
+                "Name": "dommooo",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_audi_r8_lms_2016",
+            "Restrictor": 0,
+            "Skin": "48_Cheesus",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 35,
+            "MaxPing": 60
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "Driver": {
+                "Guid": "76561198279879151",
+                "GuidsList": [
+                    "76561198279879151"
+                ],
+                "Name": "damx",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_nissan_gtr_gt3",
+            "Restrictor": 0,
+            "Skin": "gt3_91",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 54,
+            "MaxPing": 56
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 22,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mclaren_650_gt3",
+            "Restrictor": 0,
+            "Skin": "racing_60",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 62,
+            "MaxPing": 633
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_porsche_911_gt3_r_2016",
+            "Restrictor": 0,
+            "Skin": "01_racing_912",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "MinPing": 24,
+            "MaxPing": 702
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199230634094",
+                    "76561199173315530",
+                    "76561198158686072"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.351557,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561198388379209"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0131507,
+                "Y": -0.28387442,
+                "Z": -0.79085195
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -762.9453,
+                "Y": 12.645261,
+                "Z": -19.334919
+            },
+            "Timestamp": 1750473282,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561198388379209",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 20.466568,
+            "OtherCarId": 23,
+            "OtherDriver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.84452516,
+                "Y": -0.26219717,
+                "Z": 2.3442383
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -762.71423,
+                "Y": 12.628737,
+                "Z": -19.114603
+            },
+            "Timestamp": 1750473282,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 2.676383,
+            "OtherCarId": 23,
+            "OtherDriver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.065519795,
+                "Y": -0.32940137,
+                "Z": -1.9957749
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -769.7107,
+                "Y": 13.441859,
+                "Z": -32.772964
+            },
+            "Timestamp": 1750473282,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530",
+                    "76561198158686072",
+                    "76561199230634094"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 6.694943,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.0014417169,
+                "Y": -0.24748078,
+                "Z": 2.5728025
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -769.7198,
+                "Y": 13.466099,
+                "Z": -33.359913
+            },
+            "Timestamp": 1750473283,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561199215221537",
+                    "76561198388379209",
+                    "76561198140804351",
+                    "76561199847670874"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 18.812256,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9684355,
+                "Y": -0.28563628,
+                "Z": -0.5727807
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -763.0859,
+                "Y": 15.119761,
+                "Z": -65.670135
+            },
+            "Timestamp": 1750473284,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 12.082873,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561198388379209"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.53701067,
+                "Y": -0.22812143,
+                "Z": 2.5137286
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -762.9181,
+                "Y": 15.19105,
+                "Z": -66.08454
+            },
+            "Timestamp": 1750473284,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 42.333954,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9456158,
+                "Y": -0.32705793,
+                "Z": 0.29713556
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -765.64594,
+                "Y": 15.634362,
+                "Z": -71.21128
+            },
+            "Timestamp": 1750473285,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561199114458579",
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 40.447334,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9246157,
+                "Y": -0.2984746,
+                "Z": 1.7953972
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -765.6865,
+                "Y": 15.632709,
+                "Z": -71.264435
+            },
+            "Timestamp": 1750473285,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116",
+                    "76561199114458579"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 48.8055,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561199124578354",
+                "GuidsList": [
+                    "76561199124578354"
+                ],
+                "Name": "MyEyesSweatin'",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9956174,
+                "Y": -0.22745411,
+                "Z": -1.7641858
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -767.23486,
+                "Y": 16.459932,
+                "Z": -79.78498
+            },
+            "Timestamp": 1750473287,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561199124578354",
+                "GuidsList": [
+                    "76561199124578354",
+                    "76561197995235396",
+                    "76561198299711664"
+                ],
+                "Name": "MyEyesSweatin'",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 53.58324,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.07717577,
+                "Y": 0.15218331,
+                "Z": 2.0350063
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -766.9568,
+                "Y": 16.790956,
+                "Z": -79.53864
+            },
+            "Timestamp": 1750473287,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561199124578354",
+                "GuidsList": [
+                    "76561198299711664",
+                    "76561199124578354",
+                    "76561197995235396"
+                ],
+                "Name": "MyEyesSweatin'",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 30.355574,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.7079559,
+                "Y": -0.22787337,
+                "Z": 1.95816
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -764.8184,
+                "Y": 16.433905,
+                "Z": -80.82002
+            },
+            "Timestamp": 1750473287,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 20.346622,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561199124578354",
+                "GuidsList": [
+                    "76561199124578354"
+                ],
+                "Name": "MyEyesSweatin'",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.8106748,
+                "Y": -0.30072474,
+                "Z": 2.3729148
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -764.6298,
+                "Y": 16.44913,
+                "Z": -81.2203
+            },
+            "Timestamp": 1750473287,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 4.795818,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -1.0315188,
+                "Y": -0.3019079,
+                "Z": 1.9908552
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -733.94806,
+                "Y": 16.816494,
+                "Z": -74.42471
+            },
+            "Timestamp": 1750473296,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209",
+                    "76561198140804351"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 40.86367,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 0.84454274,
+                "Y": -0.26219693,
+                "Z": 2.3442478
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -592.11334,
+                "Y": 28.457638,
+                "Z": -229.90846
+            },
+            "Timestamp": 1750473300,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561199215221537",
+                    "76561198388379209",
+                    "76561198140804351",
+                    "76561199847670874"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 124.31281,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0011352,
+                "Y": 0.0731924,
+                "Z": 1.8027127
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -2.5870874,
+                "Y": 24.21965,
+                "Z": -289.2798
+            },
+            "Timestamp": 1750473323,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198047142586",
+                "GuidsList": [
+                    "76561198047142586"
+                ],
+                "Name": "Mahatma Ghandi",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 123.73361,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561198388379209"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -6.0440075e-06,
+                "Y": -0.25894755,
+                "Z": 2.6147068
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -2.576397,
+                "Y": 23.870457,
+                "Z": -289.2393
+            },
+            "Timestamp": 1750473323,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 84.266495,
+            "OtherCarId": 23,
+            "OtherDriver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.63425183,
+                "Y": -0.32562897,
+                "Z": -2.0161452
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 677.91437,
+                "Y": -4.4154897,
+                "Z": 90.33225
+            },
+            "Timestamp": 1750473328,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530",
+                    "76561198158686072",
+                    "76561199230634094"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 81.88383,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.62353855,
+                "Y": -0.26197955,
+                "Z": 2.40665
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 677.90125,
+                "Y": -4.4254208,
+                "Z": 90.385574
+            },
+            "Timestamp": 1750473328,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 9.789069,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 1.030932,
+                "Y": 0.74697644,
+                "Z": -2.1469786
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 651.2191,
+                "Y": 0.5506771,
+                "Z": 141.46129
+            },
+            "Timestamp": 1750473333,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561198388379209",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 13.138279,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -0.9989771,
+                "Y": 0.6398893,
+                "Z": -2.121798
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 117.0228,
+                "Y": 20.196892,
+                "Z": -271.8869
+            },
+            "Timestamp": 1750473336,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561198797063865",
+                "GuidsList": [
+                    "76561198797063865",
+                    "76561199499894022"
+                ],
+                "Name": "karm",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 5.4995503,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9938616,
+                "Y": 0.21150665,
+                "Z": -1.6698518
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 345.83127,
+                "Y": -4.2095985,
+                "Z": 27.534454
+            },
+            "Timestamp": 1750473383,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116",
+                    "76561199114458579"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 12.339568,
+            "OtherCarId": 5,
+            "OtherDriver": {
+                "Guid": "76561198797063865",
+                "GuidsList": [
+                    "76561198797063865"
+                ],
+                "Name": "karm",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.87261933,
+                "Y": 0.16971171,
+                "Z": 1.7318743
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 345.77255,
+                "Y": -4.215394,
+                "Z": 27.536074
+            },
+            "Timestamp": 1750473383,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561198797063865",
+                "GuidsList": [
+                    "76561198797063865",
+                    "76561199499894022"
+                ],
+                "Name": "karm",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 42.989555,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 0.75055355,
+                "Y": -0.30605057,
+                "Z": 2.4689639
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 283.87106,
+                "Y": -3.5868573,
+                "Z": 36.27578
+            },
+            "Timestamp": 1750473385,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561198797063865",
+                "GuidsList": [
+                    "76561198797063865",
+                    "76561199499894022"
+                ],
+                "Name": "karm",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 11.14559,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -0.9224492,
+                "Y": 0.7745009,
+                "Z": -2.101714
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 68.215996,
+                "Y": -0.08553271,
+                "Z": 12.89801
+            },
+            "Timestamp": 1750473390,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561198797063865",
+                "GuidsList": [
+                    "76561198797063865",
+                    "76561199499894022"
+                ],
+                "Name": "karm",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 21.474928,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 0.75056297,
+                "Y": -0.30605185,
+                "Z": 2.4689713
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -715.76355,
+                "Y": 18.789152,
+                "Z": -87.04807
+            },
+            "Timestamp": 1750473419,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198388379209",
+                "GuidsList": [
+                    "76561198388379209",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537"
+                ],
+                "Name": "Melonlabe",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 24.042568,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -0.9989767,
+                "Y": 0.6398899,
+                "Z": -2.1218026
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -169.74106,
+                "Y": 11.450677,
+                "Z": 87.60804
+            },
+            "Timestamp": 1750473431,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561199124578354",
+                "GuidsList": [
+                    "76561199124578354",
+                    "76561197995235396",
+                    "76561198299711664"
+                ],
+                "Name": "MyEyesSweatin'",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 6.2094555,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 1.0308406,
+                "Y": -0.3199637,
+                "Z": 1.5353298
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 347.0381,
+                "Y": -0.9340319,
+                "Z": -95.406525
+            },
+            "Timestamp": 1750473457,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 44.974056,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 0.8335491,
+                "Y": -0.33181947,
+                "Z": 2.445186
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 247.84995,
+                "Y": 5.315055,
+                "Z": 104.64256
+            },
+            "Timestamp": 1750473500,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116",
+                    "76561199114458579"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 34.211746,
+            "OtherCarId": 9,
+            "OtherDriver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.99131316,
+                "Y": -0.021385971,
+                "Z": 1.6532072
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -651.7584,
+                "Y": 24.04231,
+                "Z": -122.997696
+            },
+            "Timestamp": 1750473517,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198027981090"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 38.256184,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9419052,
+                "Y": 0.01943172,
+                "Z": 0.855544
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -652.0128,
+                "Y": 24.097473,
+                "Z": -122.98848
+            },
+            "Timestamp": 1750473518,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198047002406",
+                "GuidsList": [
+                    "76561198047002406"
+                ],
+                "Name": "Tommy Boy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 105.05933,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0136559,
+                "Y": -0.30321974,
+                "Z": -0.56576055
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -728.695,
+                "Y": 11.5848,
+                "Z": 6.693375
+            },
+            "Timestamp": 1750473613,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 88.69979,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198047002406",
+                "GuidsList": [
+                    "76561198047002406"
+                ],
+                "Name": "Tommy Boy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.81506467,
+                "Y": -0.2281094,
+                "Z": 2.2883184
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -729.33984,
+                "Y": 11.596412,
+                "Z": 6.4848843
+            },
+            "Timestamp": 1750473616,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561198158686072",
+                    "76561199230634094",
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 30.95988,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -0.84453017,
+                "Y": -0.26219654,
+                "Z": 2.3442426
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 587.508,
+                "Y": -10.668944,
+                "Z": -96.85476
+            },
+            "Timestamp": 1750473664,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561198158686072",
+                    "76561199230634094",
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 35.333332,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -0.8445167,
+                "Y": -0.26219708,
+                "Z": 2.3442347
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 655.07965,
+                "Y": -6.343342,
+                "Z": 65.8086
+            },
+            "Timestamp": 1750473682,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530",
+                    "76561198158686072",
+                    "76561199230634094"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 143.86653,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.6744536,
+                "Y": -0.23166671,
+                "Z": -1.9401884
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 670.4682,
+                "Y": -3.8239222,
+                "Z": 100.41513
+            },
+            "Timestamp": 1750473710,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 145.25653,
+            "OtherCarId": 23,
+            "OtherDriver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.3798475e-05,
+                "Y": -0.22353059,
+                "Z": 2.5718641
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 670.43066,
+                "Y": -3.8151746,
+                "Z": 100.442635
+            },
+            "Timestamp": 1750473711,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 14.991935,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0278459,
+                "Y": -0.30781314,
+                "Z": -1.6984798
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 104.846306,
+                "Y": 12.702701,
+                "Z": 193.41702
+            },
+            "Timestamp": 1750473733,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 13.373763,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.89749527,
+                "Y": -0.2722869,
+                "Z": 2.1852822
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 104.3236,
+                "Y": 12.715989,
+                "Z": 193.51012
+            },
+            "Timestamp": 1750473736,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 96.72087,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.032491,
+                "Y": 0.24344452,
+                "Z": -0.0855865
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 548.8911,
+                "Y": 6.3741736,
+                "Z": 179.33633
+            },
+            "Timestamp": 1750473758,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 29.282497,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 0.94692,
+                "Y": 0.6378214,
+                "Z": -2.1215808
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 615.7469,
+                "Y": 7.2630305,
+                "Z": 177.22633
+            },
+            "Timestamp": 1750473761,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 93.610756,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198079733921",
+                "GuidsList": [
+                    "76561198079733921"
+                ],
+                "Name": "Trent",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9578534,
+                "Y": 0.28289443,
+                "Z": 1.7640544
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 548.7086,
+                "Y": 6.387951,
+                "Z": 179.38829
+            },
+            "Timestamp": 1750473761,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 143.15892,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 0.8445283,
+                "Y": -0.26219666,
+                "Z": 2.3442512
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 613.8829,
+                "Y": 6.58999,
+                "Z": 185.57178
+            },
+            "Timestamp": 1750473761,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530",
+                    "76561198158686072",
+                    "76561199230634094"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 78.62864,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -0.84452516,
+                "Y": -0.26219612,
+                "Z": 2.3442192
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 615.09985,
+                "Y": 6.3957443,
+                "Z": 180.07556
+            },
+            "Timestamp": 1750473763,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 134.95944,
+            "OtherCarId": 23,
+            "OtherDriver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 3.33786e-06,
+                "Y": -0.26136503,
+                "Z": 2.582751
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 601.1488,
+                "Y": 6.0812464,
+                "Z": 180.4575
+            },
+            "Timestamp": 1750473766,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561199767779477",
+                "GuidsList": [
+                    "76561199767779477",
+                    "76561198140804351",
+                    "76561199847670874",
+                    "76561199215221537",
+                    "76561198388379209"
+                ],
+                "Name": "alumrof one",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 16.449678,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -2.7418137e-06,
+                "Y": -0.26136348,
+                "Z": 2.582754
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 614.3866,
+                "Y": 6.4910564,
+                "Z": 182.74808
+            },
+            "Timestamp": 1750473766,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 23,
+            "Driver": {
+                "Guid": "76561199173315530",
+                "GuidsList": [
+                    "76561199173315530",
+                    "76561198158686072",
+                    "76561199230634094"
+                ],
+                "Name": "IMEH  :S",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.355202,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": 0.99897844,
+                "Y": 0.63989,
+                "Z": -2.1218004
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 18.29626,
+                "Y": 0.3171931,
+                "Z": 10.859219
+            },
+            "Timestamp": 1750473798,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 12,
+            "Driver": {
+                "Guid": "76561199064142765",
+                "GuidsList": [
+                    "76561199064142765"
+                ],
+                "Name": "Bullet",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 19.0978,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799"
+            },
+            "RelPosition": {
+                "X": -0.8445425,
+                "Y": -0.262197,
+                "Z": 2.3442352
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 286.0248,
+                "Y": 4.2107415,
+                "Z": -132.90622
+            },
+            "Timestamp": 1750474164,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116",
+                    "76561199114458579"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 28.423126,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198047002406",
+                "GuidsList": [
+                    "76561198047002406"
+                ],
+                "Name": "Tommy Boy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.89849705,
+                "Y": -0.30721465,
+                "Z": 0.13479461
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -742.62787,
+                "Y": 12.061357,
+                "Z": 6.5195136
+            },
+            "Timestamp": 1750474514,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198047002406",
+                "GuidsList": [
+                    "76561198047002406"
+                ],
+                "Name": "Tommy Boy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 26.532848,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.33418757,
+                "Y": -0.2798548,
+                "Z": 2.5802124
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -742.64233,
+                "Y": 12.06067,
+                "Z": 6.453983
+            },
+            "Timestamp": 1750474514,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 12,
+            "Driver": {
+                "Guid": "76561199064142765",
+                "GuidsList": [
+                    "76561199064142765"
+                ],
+                "Name": "Bullet",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 263.35992,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198047002406",
+                "GuidsList": [
+                    "76561198047002406"
+                ],
+                "Name": "Tommy Boy",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.54615176,
+                "Y": 0.1889807,
+                "Z": 2.21533
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -738.8668,
+                "Y": 12.334728,
+                "Z": 6.5344105
+            },
+            "Timestamp": 1750474597,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 12,
+            "Driver": {
+                "Guid": "76561199064142765",
+                "GuidsList": [
+                    "76561199064142765"
+                ],
+                "Name": "Bullet",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 32.822063,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.6878636,
+                "Y": -0.20743309,
+                "Z": 0.3001277
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -744.0941,
+                "Y": 12.327712,
+                "Z": 6.5595427
+            },
+            "Timestamp": 1750474597,
+            "AfterSessionEnd": true
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 120465,
+            "Restrictor": 0,
+            "Sectors": [
+                34964,
+                34124,
+                51377
+            ],
+            "Timestamp": 1750473383,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 120495,
+            "Restrictor": 0,
+            "Sectors": [
+                35256,
+                34024,
+                51215
+            ],
+            "Timestamp": 1750473383,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 23,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199173315530",
+            "DriverName": "IMEH  :S",
+            "LapTime": 125408,
+            "Restrictor": 0,
+            "Sectors": [
+                38559,
+                36364,
+                50485
+            ],
+            "Timestamp": 1750473388,
+            "Tyre": "M",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 127767,
+            "Restrictor": 0,
+            "Sectors": [
+                43716,
+                33583,
+                50468
+            ],
+            "Timestamp": 1750473390,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199124578354",
+            "DriverName": "MyEyesSweatin'",
+            "LapTime": 137104,
+            "Restrictor": 0,
+            "Sectors": [
+                41943,
+                39032,
+                56129
+            ],
+            "Timestamp": 1750473400,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "LapTime": 140832,
+            "Restrictor": 0,
+            "Sectors": [
+                36756,
+                51232,
+                52844
+            ],
+            "Timestamp": 1750473403,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 140895,
+            "Restrictor": 0,
+            "Sectors": [
+                51579,
+                38672,
+                50644
+            ],
+            "Timestamp": 1750473403,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 110214,
+            "Restrictor": 0,
+            "Sectors": [
+                27567,
+                33106,
+                49541
+            ],
+            "Timestamp": 1750473493,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 109818,
+            "Restrictor": 0,
+            "Sectors": [
+                27027,
+                32854,
+                49937
+            ],
+            "Timestamp": 1750473500,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 23,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199173315530",
+            "DriverName": "IMEH  :S",
+            "LapTime": 112529,
+            "Restrictor": 0,
+            "Sectors": [
+                27763,
+                34317,
+                50449
+            ],
+            "Timestamp": 1750473500,
+            "Tyre": "M",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 128308,
+            "Restrictor": 0,
+            "Sectors": [
+                40716,
+                34735,
+                52857
+            ],
+            "Timestamp": 1750473511,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 112540,
+            "Restrictor": 0,
+            "Sectors": [
+                28008,
+                34434,
+                50098
+            ],
+            "Timestamp": 1750473516,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "LapTime": 131409,
+            "Restrictor": 0,
+            "Sectors": [
+                29898,
+                35901,
+                65610
+            ],
+            "Timestamp": 1750473535,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 109385,
+            "Restrictor": 0,
+            "Sectors": [
+                27107,
+                32823,
+                49455
+            ],
+            "Timestamp": 1750473603,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 110164,
+            "Restrictor": 0,
+            "Sectors": [
+                28075,
+                32958,
+                49131
+            ],
+            "Timestamp": 1750473610,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 23,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199173315530",
+            "DriverName": "IMEH  :S",
+            "LapTime": 111783,
+            "Restrictor": 0,
+            "Sectors": [
+                28447,
+                33529,
+                49807
+            ],
+            "Timestamp": 1750473612,
+            "Tyre": "M",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 110571,
+            "Restrictor": 0,
+            "Sectors": [
+                27595,
+                33287,
+                49689
+            ],
+            "Timestamp": 1750473627,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 126415,
+            "Restrictor": 0,
+            "Sectors": [
+                38728,
+                36311,
+                51376
+            ],
+            "Timestamp": 1750473638,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "LapTime": 119349,
+            "Restrictor": 0,
+            "Sectors": [
+                28709,
+                35776,
+                54864
+            ],
+            "Timestamp": 1750473654,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 108572,
+            "Restrictor": 0,
+            "Sectors": [
+                27033,
+                32562,
+                48977
+            ],
+            "Timestamp": 1750473719,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 121061,
+            "Restrictor": 0,
+            "Sectors": [
+                38252,
+                33183,
+                49626
+            ],
+            "Timestamp": 1750473724,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 111316,
+            "Restrictor": 0,
+            "Sectors": [
+                27737,
+                33993,
+                49586
+            ],
+            "Timestamp": 1750473738,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 115053,
+            "Restrictor": 0,
+            "Sectors": [
+                28387,
+                35028,
+                51638
+            ],
+            "Timestamp": 1750473753,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "LapTime": 129667,
+            "Restrictor": 0,
+            "Sectors": [
+                28943,
+                37175,
+                63549
+            ],
+            "Timestamp": 1750473784,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 108480,
+            "Restrictor": 0,
+            "Sectors": [
+                26751,
+                32584,
+                49145
+            ],
+            "Timestamp": 1750473827,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 109704,
+            "Restrictor": 0,
+            "Sectors": [
+                26921,
+                33494,
+                49289
+            ],
+            "Timestamp": 1750473833,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 110913,
+            "Restrictor": 0,
+            "Sectors": [
+                27393,
+                33763,
+                49757
+            ],
+            "Timestamp": 1750473849,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 114943,
+            "Restrictor": 0,
+            "Sectors": [
+                28125,
+                34820,
+                51998
+            ],
+            "Timestamp": 1750473868,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "LapTime": 120106,
+            "Restrictor": 0,
+            "Sectors": [
+                28643,
+                37351,
+                54112
+            ],
+            "Timestamp": 1750473904,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 108535,
+            "Restrictor": 0,
+            "Sectors": [
+                26847,
+                32498,
+                49190
+            ],
+            "Timestamp": 1750473936,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 109444,
+            "Restrictor": 0,
+            "Sectors": [
+                27130,
+                32945,
+                49369
+            ],
+            "Timestamp": 1750473943,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 110623,
+            "Restrictor": 0,
+            "Sectors": [
+                27251,
+                33454,
+                49918
+            ],
+            "Timestamp": 1750473959,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 130177,
+            "Restrictor": 0,
+            "Sectors": [
+                27744,
+                36728,
+                65705
+            ],
+            "Timestamp": 1750473998,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "LapTime": 119121,
+            "Restrictor": 0,
+            "Sectors": [
+                28823,
+                35182,
+                55116
+            ],
+            "Timestamp": 1750474023,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 109248,
+            "Restrictor": 0,
+            "Sectors": [
+                26700,
+                33344,
+                49204
+            ],
+            "Timestamp": 1750474045,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 110197,
+            "Restrictor": 0,
+            "Sectors": [
+                27024,
+                33574,
+                49599
+            ],
+            "Timestamp": 1750474053,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 110714,
+            "Restrictor": 0,
+            "Sectors": [
+                27379,
+                33529,
+                49806
+            ],
+            "Timestamp": 1750474070,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 117906,
+            "Restrictor": 0,
+            "Sectors": [
+                29282,
+                36941,
+                51683
+            ],
+            "Timestamp": 1750474116,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 109449,
+            "Restrictor": 0,
+            "Sectors": [
+                27261,
+                32926,
+                49262
+            ],
+            "Timestamp": 1750474155,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "LapTime": 136017,
+            "Restrictor": 0,
+            "Sectors": [
+                32323,
+                36770,
+                66924
+            ],
+            "Timestamp": 1750474159,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 110530,
+            "Restrictor": 0,
+            "Sectors": [
+                27213,
+                33268,
+                50049
+            ],
+            "Timestamp": 1750474164,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 110091,
+            "Restrictor": 0,
+            "Sectors": [
+                27155,
+                33111,
+                49825
+            ],
+            "Timestamp": 1750474180,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 121122,
+            "Restrictor": 0,
+            "Sectors": [
+                29348,
+                39438,
+                52336
+            ],
+            "Timestamp": 1750474237,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 109278,
+            "Restrictor": 0,
+            "Sectors": [
+                26801,
+                32977,
+                49500
+            ],
+            "Timestamp": 1750474264,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 110786,
+            "Restrictor": 0,
+            "Sectors": [
+                27239,
+                33665,
+                49882
+            ],
+            "Timestamp": 1750474274,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 110515,
+            "Restrictor": 0,
+            "Sectors": [
+                27256,
+                33723,
+                49536
+            ],
+            "Timestamp": 1750474291,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 117189,
+            "Restrictor": 0,
+            "Sectors": [
+                28413,
+                35361,
+                53415
+            ],
+            "Timestamp": 1750474354,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 111447,
+            "Restrictor": 0,
+            "Sectors": [
+                26873,
+                32860,
+                51714
+            ],
+            "Timestamp": 1750474375,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 110964,
+            "Restrictor": 0,
+            "Sectors": [
+                27448,
+                33552,
+                49964
+            ],
+            "Timestamp": 1750474385,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 112794,
+            "Restrictor": 0,
+            "Sectors": [
+                27442,
+                35420,
+                49932
+            ],
+            "Timestamp": 1750474404,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 116734,
+            "Restrictor": 0,
+            "Sectors": [
+                28421,
+                36001,
+                52312
+            ],
+            "Timestamp": 1750474471,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 109453,
+            "Restrictor": 0,
+            "Sectors": [
+                26955,
+                33137,
+                49361
+            ],
+            "Timestamp": 1750474485,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "LapTime": 112859,
+            "Restrictor": 0,
+            "Sectors": [
+                27413,
+                34475,
+                50971
+            ],
+            "Timestamp": 1750474498,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "LapTime": 111271,
+            "Restrictor": 0,
+            "Sectors": [
+                27274,
+                33809,
+                50188
+            ],
+            "Timestamp": 1750474515,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "LapTime": 116924,
+            "Restrictor": 0,
+            "Sectors": [
+                28869,
+                35910,
+                52145
+            ],
+            "Timestamp": 1750474588,
+            "Tyre": "S",
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 18,
+                "Road": 24,
+                "Grip": 1,
+                "WindSpeed": 6,
+                "WindDirection": 23,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 108480,
+            "CarId": 0,
+            "CarModel": "bmw_z4_gt3",
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "Restrictor": 0,
+            "TotalTime": 1223193,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "GridPosition": 5
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 109385,
+            "CarId": 1,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "DriverGuid": "76561198047002406",
+            "DriverName": "Tommy Boy",
+            "Restrictor": 0,
+            "TotalTime": 1236637,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "GridPosition": 4
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 110091,
+            "CarId": 2,
+            "CarModel": "ks_mclaren_650_gt3",
+            "DriverGuid": "76561198047142586",
+            "DriverName": "Mahatma Ghandi",
+            "Restrictor": 0,
+            "TotalTime": 1253258,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "GridPosition": 3
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 114943,
+            "CarId": 12,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "DriverGuid": "76561199064142765",
+            "DriverName": "Bullet",
+            "Restrictor": 0,
+            "TotalTime": 1326220,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "GridPosition": 1
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 119121,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "DriverGuid": "76561198079733921",
+            "DriverName": "Trent",
+            "Restrictor": 0,
+            "TotalTime": 897532,
+            "NumLaps": 7,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "GridPosition": 6
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 111783,
+            "CarId": 23,
+            "CarModel": "ks_porsche_911_gt3_r_2016",
+            "DriverGuid": "76561199173315530",
+            "DriverName": "IMEH  :S",
+            "Restrictor": 0,
+            "TotalTime": 350695,
+            "NumLaps": 3,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "GridPosition": 11
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 137104,
+            "CarId": 4,
+            "CarModel": "bmw_z4_gt3",
+            "DriverGuid": "76561199124578354",
+            "DriverName": "MyEyesSweatin'",
+            "Restrictor": 0,
+            "TotalTime": 138080,
+            "NumLaps": 1,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "6d118d6e-296e-4219-9e4d-2ecbe39b0799",
+            "GridPosition": 14
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "",
+    "TrackName": "mugello",
+    "Type": "RACE",
+    "Date": "2025-06-21T02:59:00Z",
+    "SessionFile": "2025_6_21_2_59_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 1,
+        "wait_time": 60,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "a9e1d720-0421-48d0-bfbb-788aa9a064c3",
+    "RaceWeekendID": "",
+    "EventName": "Mugello, Italy"
+}

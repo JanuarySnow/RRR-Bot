@@ -1,32 +1,35 @@
 {
-    "id": "ec10aa98-6bd5-4a51-ad8c-6df271aadb94",
+    "id": "4e6ce938-7003-4505-8b83-43e52098bfed",
     "track": "ks_vallelunga;classic_circuit",
     "laps": [
         {
-            "id": "1e91bab3-9aca-403a-8eef-3075cf69ed84",
+            "id": "99ef1d96-48a7-4317-aa55-41c9d628d813",
             "time": 99472,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198267261283",
-            "result": "ec10aa98-6bd5-4a51-ad8c-6df271aadb94",
+            "result": "4e6ce938-7003-4505-8b83-43e52098bfed",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1682821650
         }
     ],
     "entries": [
         {
-            "id": "0594f8e0-2bd3-4bf6-a34e-9e9cd25ea596",
+            "id": "298d071a-460a-4c93-bc52-e7648afef14a",
             "racer": "76561198267261283",
             "car": "ks_mazda_mx5_cup",
             "track": "ks_vallelunga;classic_circuit",
             "date": "2023-04-30T02:37:23.021020024Z",
             "laps": [
-                "1e91bab3-9aca-403a-8eef-3075cf69ed84"
+                "99ef1d96-48a7-4317-aa55-41c9d628d813"
             ],
             "incidents": [],
-            "result": "ec10aa98-6bd5-4a51-ad8c-6df271aadb94",
+            "result": "4e6ce938-7003-4505-8b83-43e52098bfed",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -43,5 +46,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

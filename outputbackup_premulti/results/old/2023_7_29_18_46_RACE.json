@@ -1,0 +1,128 @@
+{
+    "id": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+    "track": "ks_barcelona;layout_moto",
+    "laps": [
+        {
+            "id": "895fa753-93e0-4665-aaa7-4624be9638d7",
+            "time": 161416,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "7c631ca6-576e-4373-b88f-3ada36ea352d",
+            "time": 302181,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198142140601",
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "valid": false,
+            "cuts": 2
+        },
+        {
+            "id": "48df4d58-4dd0-4c65-8453-b34e872ee518",
+            "time": 131027,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "acd378d4-a80a-454c-8e58-58c084a8b981",
+            "time": 138090,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "c7622e65-a686-4037-b1de-7b067c7c2604",
+            "time": 284395,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198008585393",
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "f243f89a-56c9-4869-b42f-f200afefaafd",
+            "time": 452592,
+            "car": "ks_praga_r1",
+            "racerguid": "76561198142140601",
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "fcdf5adc-8cb3-4c72-a816-2e309493831a",
+            "racer": "76561198008585393",
+            "car": "ks_praga_r1",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2023-07-29T18:46:00Z",
+            "laps": [
+                "895fa753-93e0-4665-aaa7-4624be9638d7",
+                "48df4d58-4dd0-4c65-8453-b34e872ee518",
+                "acd378d4-a80a-454c-8e58-58c084a8b981",
+                "c7622e65-a686-4037-b1de-7b067c7c2604"
+            ],
+            "incidents": [
+                "7b2d049c-d1b8-4e02-bb78-7f5fd5463124",
+                "f0c3ecb9-3188-439f-8a80-bf0e7b6f9e2f"
+            ],
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "cuts": 3,
+            "finishingposition": 1,
+            "ratingchange": 0.46
+        },
+        {
+            "id": "c3a3b6e0-9125-466c-9494-67957861b363",
+            "racer": "76561198142140601",
+            "car": "ks_praga_r1",
+            "track": "ks_barcelona;layout_moto",
+            "date": "2023-07-29T18:46:00Z",
+            "laps": [
+                "7c631ca6-576e-4373-b88f-3ada36ea352d",
+                "f243f89a-56c9-4869-b42f-f200afefaafd"
+            ],
+            "incidents": [],
+            "result": "d38851fb-add2-4dab-b8b2-87351a3d303b",
+            "cuts": 3,
+            "finishingposition": 2,
+            "ratingchange": -0.92
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "7b2d049c-d1b8-4e02-bb78-7f5fd5463124",
+            "speed": 26.045088,
+            "racer": "76561198008585393",
+            "otherracer": null
+        },
+        {
+            "id": "f0c3ecb9-3188-439f-8a80-bf0e7b6f9e2f",
+            "speed": 8.110829,
+            "racer": "76561198008585393",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2023_7_29_18_46_RACE.json",
+    "date": "2023-07-29T18:46:00Z",
+    "region": "EU",
+    "championshipid": "31e5cb93-74d6-4ca6-9241-abd61c45d04b",
+    "numlaps": 4,
+    "driverlaps": {
+        "76561198008585393": 4,
+        "76561198142140601": 2
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

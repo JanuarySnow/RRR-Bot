@@ -6,6 +6,7 @@ from result import Result, Entry, Lap, Incident
 import shutil
 import time
 from datetime import datetime
+from logger_config import logger
 from championship import Championship, Event
 
 
@@ -13,6 +14,11 @@ RACER_SCALAR_FIELDS = [
     "result_add_ticker",
     "eucount", "nacount",
     "rating",
+    "safety_rating",
+    "safety_rate_ema",
+    "sr_target_rate",
+    "sr_memory_km",
+    "incidentsperkm",
     "wins", "gt3wins", "mx5wins",
     "podiums", "gt3podiums", "mx5podiums",
     "totallaps", "mx5laps", "gt3laps",
@@ -21,6 +27,7 @@ RACER_SCALAR_FIELDS = [
     "numraces", "numracesgt3", "numracesmx5",
     "laptimeconsistency", "laptimeconsistencymx5", "laptimeconsistencygt3",
     "raceconsistency",
+    "distancedriven",
     "pace_percentage_mx5", "pace_percentage_gt3", "pace_percentage_overall",
 ]
 
@@ -55,6 +62,10 @@ def serialize_all_data(parser_obj, clean: bool = True):
     championships_data = [c.to_dict() for c in parser_obj.championships.values()]
     with open("output/championships/championships.json", "w") as f:
         json.dump(championships_data, f, indent=4)
+
+    completed_championships_data = [c.to_dict() for c in parser_obj.completedchampionships]
+    with open("output/championships/completedchampionships.json", "w") as f:
+        json.dump(completed_championships_data, f, indent=4)
     
     results_root = os.path.join("output", "results")
 
@@ -208,17 +219,22 @@ def deserialize_all_data():
             result.shortorlong = result_data["shortorlong"]
             result.server = result_data["server"]
             result.url = result_data["url"]
+            result.issecond = result_data.get("issecond", False)  # New field
 
             # ----- laps -----
             laps_by_id = {}
+
             for lap_dict in result_data["laps"]:
+                timestamp = lap_dict.get("timestamp")
                 lap = Lap(lap_dict["time"],
                           lap_dict["car"],
                           lap_dict["racerguid"],
                           result,
                           lap_dict["valid"],
-                          lap_dict["cuts"])
+                          lap_dict["cuts"],
+                          timestamp or 0)
                 lap.id = lap_dict["id"]
+                lap.position = lap_dict.get("position", 0)  # New field
                 result.laps.append(lap)
                 laps_by_id[lap.id] = lap
                 if result.track:
@@ -237,6 +253,7 @@ def deserialize_all_data():
                 entry.cuts          = entry_dict["cuts"]
                 entry.ratingchange  = entry_dict["ratingchange"]
                 entry.result        = result
+                entry.startingposition = entry_dict.get("startingposition", 0)  # New field
 
                 result.entries.append(entry)
                 racer.entries.append(entry)
@@ -333,6 +350,76 @@ def deserialize_all_data():
             # 3. dump into contentdata ------------------------------------
             parser_obj.championships[champ.type] = champ
 
+    completed_champs_file = "output/championships/completedchampionships.json"
+    if os.path.isfile(completed_champs_file):
+        with open(completed_champs_file, "r", encoding="utf-8") as f:
+            championships_json = json.load(f)      # list[dict]
+
+        for chd in championships_json:
+            # 1. shell ----------------------------------------------------
+            racers_objs = [racers_by_guid[g] for g in chd.get("racers", [])
+                           if g in racers_by_guid]
+
+            champ = Championship(
+                name      = chd["name"],
+                racers    = racers_objs,
+                schedule  = [],                 # we fill it below
+                open      = chd.get("open", False),
+                type      = chd.get("type", ""),
+            )
+            champ.id        = chd["id"]
+            champ.completed = chd.get("completed", False)
+            champ.car_download_links = chd.get("car_download_links", {}) # Dictionary to store car download links
+            champ.standingsmessage =  chd.get("standingsmessage", None)
+            champ.infomessage = chd.get("infomessage", None)
+            for car in chd.get("available_cars", []):
+                car_obj = cars_by_id.get(car)
+                if car_obj:
+                    champ.available_cars.append(car_obj)
+            champ.baseurl = chd.get("baseurl", None)
+
+            # standings  (name  → position)
+            for racer, pos in chd.get("standings", {}).items():
+                champ.standings[racer] = pos
+
+            # 2. events ---------------------------------------------------
+            for evd in chd.get("schedule", []):
+                tvar = track_variants_by_id.get(evd["track"])
+                if not tvar:                     # should not happen, skip
+                    continue
+
+                ev = Event(
+                    name               = evd["name"],
+                    date               = evd["date"],
+                    track              = tvar,
+                    doublerace         = evd["doublerace"],
+                    practicelength     = evd["practicelength"],
+                    qualifyinglength   = evd["qualifyinglength"],
+                    raceonelength      = evd["raceonelength"],
+                    racetwolength      = evd["racetwolength"],
+                    location           = evd.get("location", ""),
+                    sessionstarttime   = evd.get("sessionstarttime", ""),
+                    track_download_link= evd.get("track_download_link"),
+
+                )
+                ev.id        = evd["id"]
+                ev.fuelrate  = evd.get("fuelrate", 100)
+                ev.damage    = evd.get("damage",   100)
+                ev.tirewear  = evd.get("tirewear", 100)
+                ev.resultmessage = evd.get("resultmessage", None)
+                ev.schedulemessage = evd.get("schedulemessage", None)
+                ev.racelaps = evd.get("racelaps", 0)
+
+                # back‑link to Result object (if present)
+                res_id = evd.get("result")
+                if res_id and res_id in results_by_id:
+                    ev.result = results_by_id[res_id]
+
+                champ.schedule.append(ev)
+            print("loaded championship ", champ.name)
+            # 3. dump into contentdata ------------------------------------
+            parser_obj.completedchampionships.append(champ)
+
     log("✅  Deserialised CHAMPIONSHIPS")
 
     log("⏳  Fixing cross-references racers and RESULTS …")
@@ -376,6 +463,7 @@ def _populate_racer_from_json(racer: Racerprofile, rd: dict):
     racer.positionaverage     = rd.get("positionaverage", {})
     racer.paceplot            = rd.get("paceplot", {})
     racer.paceplotaverage     = rd.get("paceplotaverage", {})
+    racer.licenseclass       = rd.get("licenseclass", "Rookie")
 
     # fields that hold GUIDs / IDs -> leave strings for now, we resolve later
     racer.mosthitotherdriver     = rd.get("mosthitotherdriver")

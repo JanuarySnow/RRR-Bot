@@ -16,12 +16,26 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from pathlib import Path
+from typing import Optional
+
+
+_ts_re = re.compile(r"<t:(\d+):")      # grabs the integer part
+
+def discord_ts_to_dt(tag: str) -> datetime:
+    _ts_re = re.compile(r"<t:(\d+):")  
+    """
+    Convert a Discord timestamp   <t:1718292000:f>   →   2025-06-13 18:00:00+00:00
+    """
+    m = _ts_re.match(tag)
+    if not m:
+        raise ValueError(f"Not a Discord timestamp: {tag!r}")
+    return datetime.fromtimestamp(int(m.group(1)), tz=timezone.utc)
 
 _MEDIA_ROOT = Path("contentmedia")          # root folder on disk
 def _ensure_dir(p: Path) -> None:
     p.mkdir(parents=True, exist_ok=True)
 
-def _download(url: str, dest: Path, timeout: int = 15) -> Path | None:
+def _download(url: str, dest: Path, timeout: int = 30) -> Path | None:
     """
     Download *url* to *dest* (only if it is missing) and return *dest*.
     Silently returns **None** if the remote file is a placeholder (‘#’ etc.)
@@ -44,7 +58,7 @@ def _download(url: str, dest: Path, timeout: int = 15) -> Path | None:
     except requests.RequestException:
         return None
 
-def _scrape_download_url(page_url: str, timeout: int = 10) -> str | None:
+def _scrape_download_url(page_url: str, timeout: int = 30) -> str | None:
     """
     Scrape a Tekly ‘/car/…’ or ‘/track/…’ page (public view) and
     return the real download link from the green button.
@@ -98,7 +112,7 @@ def _scrape_track_name(base_url: str, track_id: str) -> str | None:
 def _scrape_car_media(
     page_url: str,
     root_dir: Path = _MEDIA_ROOT / "cars",
-    timeout:  int  = 10,
+    timeout:  int  = 30,
 ) -> str | None:
     """
     Return a *local* path to the hero preview image.
@@ -329,14 +343,29 @@ class Championship:
     def update_standings(self) -> None:#
         debug = False
         self.standings = scrape_championship_standings(self.baseurl, self.id, debug)
-    
-    def get_next_race(self):
-        # get closest date in the future
-        closest_event = None
+
+
+    def get_next_race(self, *, now: Optional[datetime] = None):
+        if now is None:
+            now = datetime.now(timezone.utc)
+
+        next_evt       = None
+        next_evt_start = None          # keep the datetime so we can compare
+
         for event in self.schedule:
-            if event.date > datetime.now().strftime("%Y-%m-%d"):
-                if closest_event is None or event.date < closest_event.date:
-                    closest_event = event
+            try:
+                start_dt = discord_ts_to_dt(event.sessionstarttime)
+            except ValueError:
+                continue               # bad tag? just ignore
+
+            if start_dt > now and (
+                next_evt_start is None or start_dt < next_evt_start
+            ):
+                next_evt       = event
+                next_evt_start = start_dt
+
+        return next_evt
+
 
 
 # championship_loader.py  (⇦ put this next to championship.py)

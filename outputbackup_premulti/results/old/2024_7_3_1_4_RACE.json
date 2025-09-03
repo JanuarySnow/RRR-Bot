@@ -1,0 +1,67 @@
+{
+    "id": "7c1c0189-5d96-47a2-8907-c72e3e7f6fd1",
+    "track": "monza;monza",
+    "laps": [
+        {
+            "id": "fbc87532-b9c7-4a08-a693-ec3d9f68b4e3",
+            "time": 165262,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199088234135",
+            "result": "7c1c0189-5d96-47a2-8907-c72e3e7f6fd1",
+            "valid": false,
+            "cuts": 1
+        },
+        {
+            "id": "63e5ce2a-9342-4463-9069-c5979d08b3f0",
+            "time": 145832,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199088234135",
+            "result": "7c1c0189-5d96-47a2-8907-c72e3e7f6fd1",
+            "valid": true,
+            "cuts": 0
+        },
+        {
+            "id": "88387152-9acd-436f-a071-59f25f02e3f1",
+            "time": 144587,
+            "car": "ks_mazda_mx5_cup",
+            "racerguid": "76561199088234135",
+            "result": "7c1c0189-5d96-47a2-8907-c72e3e7f6fd1",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "abd24377-a507-4226-92c0-1b25d8f74123",
+            "racer": "76561199088234135",
+            "car": "ks_mazda_mx5_cup",
+            "track": "monza;monza",
+            "date": "2024-07-03T01:04:51.606607236Z",
+            "laps": [
+                "fbc87532-b9c7-4a08-a693-ec3d9f68b4e3",
+                "63e5ce2a-9342-4463-9069-c5979d08b3f0",
+                "88387152-9acd-436f-a071-59f25f02e3f1"
+            ],
+            "incidents": [],
+            "result": "7c1c0189-5d96-47a2-8907-c72e3e7f6fd1",
+            "cuts": 1,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [],
+    "mx5orgt3": "mx5",
+    "filename": "2024_7_3_1_4_RACE.json",
+    "date": "2024-07-03T01:04:51.606607236Z",
+    "region": "NA",
+    "championshipid": "",
+    "numlaps": 3,
+    "driverlaps": {
+        "76561199088234135": 3
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "old"
+}

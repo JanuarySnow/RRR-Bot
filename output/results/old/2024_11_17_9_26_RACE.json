@@ -1,32 +1,35 @@
 {
-    "id": "300b4ad1-7809-47a1-af7f-a46fc56a5923",
+    "id": "19635995-9012-4e8d-88d2-1d359f9f318b",
     "track": "ks_barcelona;layout_moto",
     "laps": [
         {
-            "id": "87f1255c-5713-4809-958c-769bfe2dda55",
+            "id": "ae3ae52e-3b37-4c4c-8154-31274ee81c91",
             "time": 299750,
             "car": "ks_porsche_911_gt3_r_2016",
             "racerguid": "76561198004957283",
-            "result": "300b4ad1-7809-47a1-af7f-a46fc56a5923",
+            "result": "19635995-9012-4e8d-88d2-1d359f9f318b",
             "valid": false,
-            "cuts": 3
+            "cuts": 3,
+            "position": 1,
+            "timestamp": 1731834937
         }
     ],
     "entries": [
         {
-            "id": "4fea138c-c446-4545-a712-d9f1e1f30625",
+            "id": "1c572b71-8f9d-45d1-b997-f7d1fa2bd0ff",
             "racer": "76561198004957283",
             "car": "ks_porsche_911_gt3_r_2016",
             "track": "ks_barcelona;layout_moto",
             "date": "2024-11-17T09:26:50.451104049Z",
             "laps": [
-                "87f1255c-5713-4809-958c-769bfe2dda55"
+                "ae3ae52e-3b37-4c4c-8154-31274ee81c91"
             ],
             "incidents": [],
-            "result": "300b4ad1-7809-47a1-af7f-a46fc56a5923",
+            "result": "19635995-9012-4e8d-88d2-1d359f9f318b",
             "cuts": 3,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -43,5 +46,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

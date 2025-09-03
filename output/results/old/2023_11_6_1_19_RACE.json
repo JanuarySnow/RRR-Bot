@@ -1,96 +1,110 @@
 {
-    "id": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+    "id": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
     "track": "imola;imola",
     "laps": [
         {
-            "id": "5e414f10-dca1-4f05-b43f-993f3cb5c59a",
+            "id": "0b6b3caa-9bce-4609-8a0e-5e5f1a3349a0",
             "time": 124753,
             "car": "ferrari_458_gt2",
             "racerguid": "76561199235021317",
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1699232411
         },
         {
-            "id": "8bb9629e-6845-425f-83c8-31dcf430fd59",
+            "id": "8368ae5d-226d-4ad9-8c28-ca8658026ef0",
             "time": 139147,
             "car": "ferrari_458_gt2",
             "racerguid": "76561198803294261",
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1699232425
         },
         {
-            "id": "2831f95a-86ff-4f01-b9b0-ac1f91716cc2",
+            "id": "9f036e14-d7ea-4f88-adab-bf3f7ea26089",
             "time": 122442,
             "car": "ferrari_458_gt2",
             "racerguid": "76561199235021317",
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1699232533
         },
         {
-            "id": "bff7b362-a464-4aa6-a653-21b2ac288af9",
+            "id": "786a2014-1489-457b-a3ba-328df2eb5b2a",
             "time": 145095,
             "car": "ferrari_458_gt2",
             "racerguid": "76561198803294261",
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1699232570
         },
         {
-            "id": "76f82a7e-5e52-4cf6-b280-cdb37d623582",
+            "id": "5ade89fc-4872-4a56-aa00-55db530f2db7",
             "time": 135954,
             "car": "ferrari_458_gt2",
             "racerguid": "76561198803294261",
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1699232706
         },
         {
-            "id": "25c55a2f-e7f3-42d4-ab8e-1fd20ee17300",
+            "id": "1ae88220-e559-499e-bcc2-eca250aea08d",
             "time": 151888,
             "car": "ferrari_458_gt2",
             "racerguid": "76561198803294261",
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1699232858
         }
     ],
     "entries": [
         {
-            "id": "707c1ea3-8445-4e2c-b5e4-1f288b565d60",
+            "id": "7758b7c8-1e95-405c-97c1-092cb1714b77",
             "racer": "76561198803294261",
             "car": "ferrari_458_gt2",
             "track": "imola;imola",
             "date": "2023-11-06T01:19:38.593094965Z",
             "laps": [
-                "8bb9629e-6845-425f-83c8-31dcf430fd59",
-                "bff7b362-a464-4aa6-a653-21b2ac288af9",
-                "76f82a7e-5e52-4cf6-b280-cdb37d623582",
-                "25c55a2f-e7f3-42d4-ab8e-1fd20ee17300"
+                "8368ae5d-226d-4ad9-8c28-ca8658026ef0",
+                "786a2014-1489-457b-a3ba-328df2eb5b2a",
+                "5ade89fc-4872-4a56-aa00-55db530f2db7",
+                "1ae88220-e559-499e-bcc2-eca250aea08d"
             ],
             "incidents": [],
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 1.0
+            "ratingchange": 4.0,
+            "startingposition": 1
         },
         {
-            "id": "717c5014-bade-4d1e-9da5-75773c531119",
+            "id": "2dae90e9-408a-486d-af0c-724fe90177a9",
             "racer": "76561199235021317",
             "car": "ferrari_458_gt2",
             "track": "imola;imola",
             "date": "2023-11-06T01:19:38.593094965Z",
             "laps": [
-                "5e414f10-dca1-4f05-b43f-993f3cb5c59a",
-                "2831f95a-86ff-4f01-b9b0-ac1f91716cc2"
+                "0b6b3caa-9bce-4609-8a0e-5e5f1a3349a0",
+                "9f036e14-d7ea-4f88-adab-bf3f7ea26089"
             ],
             "incidents": [],
-            "result": "06320b3c-2fe9-485f-a8ce-f6bbc7668503",
+            "result": "559eef6f-fa2a-4daa-96fa-386ad6df77ab",
             "cuts": 0,
             "finishingposition": 2,
-            "ratingchange": -1.0
+            "ratingchange": -4.0,
+            "startingposition": 2
         }
     ],
     "endurance": false,
@@ -108,5 +122,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": false
 }

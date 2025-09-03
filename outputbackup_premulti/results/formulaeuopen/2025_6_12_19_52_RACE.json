@@ -1,0 +1,63 @@
+{
+    "id": "13c9e0ac-4bfd-4fe9-a2f7-3c3485b36d22",
+    "track": "montreal;montreal",
+    "laps": [
+        {
+            "id": "0235afa6-55f2-42bf-8378-c12fdf0f264d",
+            "time": 109176,
+            "car": "rss_formula_rss_4",
+            "racerguid": "76561198004283173",
+            "result": "13c9e0ac-4bfd-4fe9-a2f7-3c3485b36d22",
+            "valid": true,
+            "cuts": 0
+        }
+    ],
+    "entries": [
+        {
+            "id": "2fff0b3f-606d-4216-b1f4-ca4784f08545",
+            "racer": "76561198004283173",
+            "car": "rss_formula_rss_4",
+            "track": "montreal;montreal",
+            "date": "2025-06-12T19:52:00Z",
+            "laps": [
+                "0235afa6-55f2-42bf-8378-c12fdf0f264d"
+            ],
+            "incidents": [
+                "c073b425-97c7-4e86-88c3-5b573bbdd245",
+                "2251a86c-14f0-49b4-ab06-e09bdee32936"
+            ],
+            "result": "13c9e0ac-4bfd-4fe9-a2f7-3c3485b36d22",
+            "cuts": 0,
+            "finishingposition": 1,
+            "ratingchange": 0
+        }
+    ],
+    "endurance": false,
+    "incidents": [
+        {
+            "id": "c073b425-97c7-4e86-88c3-5b573bbdd245",
+            "speed": 173.786,
+            "racer": "76561198004283173",
+            "otherracer": null
+        },
+        {
+            "id": "2251a86c-14f0-49b4-ab06-e09bdee32936",
+            "speed": 42.1393,
+            "racer": "76561198004283173",
+            "otherracer": null
+        }
+    ],
+    "mx5orgt3": "neither",
+    "filename": "2025_6_12_19_52_RACE.json",
+    "date": "2025-06-12T19:52:00Z",
+    "region": "EU",
+    "championshipid": "8b4a6123-45e9-44d5-90ac-6afa8ff0d363",
+    "numlaps": 1,
+    "driverlaps": {
+        "76561198004283173": 1
+    },
+    "shortorlong": "short",
+    "server": "",
+    "url": "",
+    "directory": "formulaeuopen"
+}

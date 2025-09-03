@@ -1,42 +1,47 @@
 {
-    "id": "c049a733-b97a-492a-956b-8f1e296fc2f8",
+    "id": "94993bdf-6557-43b5-b5b6-7c75421513d4",
     "track": "spa;2022",
     "laps": [
         {
-            "id": "abf9181d-390b-4e71-8eb3-7eedb1c2f916",
+            "id": "b3d582bc-1f68-4d9c-a4a6-d45499137b9f",
             "time": 139321,
             "car": "yzd_oreca_07_2022",
             "racerguid": "76561198329986666",
-            "result": "c049a733-b97a-492a-956b-8f1e296fc2f8",
+            "result": "94993bdf-6557-43b5-b5b6-7c75421513d4",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1729737590
         },
         {
-            "id": "6d346d56-e228-4d08-a44b-9ef025a75811",
+            "id": "e07230b1-6edd-4ae9-8653-2f026b0f65e3",
             "time": 131018,
             "car": "yzd_oreca_07_2022",
             "racerguid": "76561198329986666",
-            "result": "c049a733-b97a-492a-956b-8f1e296fc2f8",
+            "result": "94993bdf-6557-43b5-b5b6-7c75421513d4",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1729737721
         }
     ],
     "entries": [
         {
-            "id": "a44d5631-30e2-45e5-a139-51b0cb58a024",
+            "id": "78b3e805-0351-49e4-a114-d486cf4ea6e6",
             "racer": "76561198329986666",
             "car": "yzd_oreca_07_2022",
             "track": "spa;2022",
             "date": "2024-10-24T02:44:00Z",
             "laps": [
-                "abf9181d-390b-4e71-8eb3-7eedb1c2f916",
-                "6d346d56-e228-4d08-a44b-9ef025a75811"
+                "b3d582bc-1f68-4d9c-a4a6-d45499137b9f",
+                "e07230b1-6edd-4ae9-8653-2f026b0f65e3"
             ],
             "incidents": [],
-            "result": "c049a733-b97a-492a-956b-8f1e296fc2f8",
+            "result": "94993bdf-6557-43b5-b5b6-7c75421513d4",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 0
+            "ratingchange": 0,
+            "startingposition": 1
         }
     ],
     "endurance": false,
@@ -53,5 +58,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

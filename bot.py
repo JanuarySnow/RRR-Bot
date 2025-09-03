@@ -122,6 +122,32 @@ EDIT_DELAY_SECONDS = 1
 
 MAX_MESSAGE_NODES = 100
 
+import sys
+import builtins
+import sys
+from logger_config import logger
+
+def _sanitize(s: str) -> str:
+    # drop NULs and other non-printables except common whitespace
+    return ''.join(ch for ch in s if ch.isprintable() or ch in '\n\r\t')
+
+def print_and_log(*args, **kwargs):
+    message = " ".join(map(str, args))
+    message = _sanitize(message)
+    logger.info(message)
+
+# Monkey-patch print
+builtins.print = print_and_log
+
+def log_exception(exc_type, exc_value, exc_traceback):
+    if issubclass(exc_type, KeyboardInterrupt):
+        return sys.__excepthook__(exc_type, exc_value, exc_traceback)
+    # This records full stack info; no stdout writes
+    logger.exception("Unhandled Exception", exc_info=(exc_type, exc_value, exc_traceback))
+
+sys.excepthook = log_exception
+
+
 @dataclass
 class MsgNode:
     text: Optional[str] = None
@@ -150,6 +176,7 @@ class DiscordBot(commands.Bot):
         self.config = config
         self.database = None
         self.httpx_client = httpx.AsyncClient()
+        self.parsed = None
 
         self.msg_nodes = {}
         self.last_task_time = 0
@@ -527,7 +554,7 @@ bot = DiscordBot()
 bot.run(os.getenv("TOKEN"))
 
 ALLOWED_CHANNELS = {
-    "global": ["1134963371553337478", "1328800009189195828", "1328117523740229792"],  # Channels for most commands
+    "global": ["1134963371553337478", "1328800009189195828", "1328117523740229792", "1094610718222979123"],  # Channels for most commands
     "command_name": ["1328117523740229792"]  # Specific channel for one command
 }
 

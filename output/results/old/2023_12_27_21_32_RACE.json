@@ -1,81 +1,85 @@
 {
-    "id": "c07ef0a1-8b5a-40aa-826d-76f970f02d88",
+    "id": "cbdfc8db-68d1-4f14-80ab-7e5af6967cc6",
     "track": "ks_red_bull_ring;layout_gp",
     "laps": [
         {
-            "id": "a8452ba2-6e8a-4d89-9f45-f0f6c7a20ed5",
+            "id": "294308e8-7426-42a7-ac25-c80062facadb",
             "time": 57738,
             "car": "urd_redbull_x2010_s1",
             "racerguid": "76561198135642660",
-            "result": "c07ef0a1-8b5a-40aa-826d-76f970f02d88",
+            "result": "cbdfc8db-68d1-4f14-80ab-7e5af6967cc6",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 1,
+            "timestamp": 1703712635
         }
     ],
     "entries": [
         {
-            "id": "6fb38f17-e258-47e1-a4a6-dc9e90d87e13",
+            "id": "b2405309-8f94-4ee3-a1cc-e55dec2c18dc",
             "racer": "76561198135642660",
             "car": "urd_redbull_x2010_s1",
             "track": "ks_red_bull_ring;layout_gp",
             "date": "2023-12-27T21:32:06.754488968Z",
             "laps": [
-                "a8452ba2-6e8a-4d89-9f45-f0f6c7a20ed5"
+                "294308e8-7426-42a7-ac25-c80062facadb"
             ],
             "incidents": [],
-            "result": "c07ef0a1-8b5a-40aa-826d-76f970f02d88",
+            "result": "cbdfc8db-68d1-4f14-80ab-7e5af6967cc6",
             "cuts": 0,
             "finishingposition": 1,
-            "ratingchange": 1.58
+            "ratingchange": 6.27,
+            "startingposition": 2
         },
         {
-            "id": "61463a6a-1dc6-4c94-91ab-fcd253a051f0",
+            "id": "419cc827-b72d-4778-9552-b8eb6b20db5d",
             "racer": "76561198309443188",
             "car": "urd_redbull_x2010_s1",
             "track": "ks_red_bull_ring;layout_gp",
             "date": "2023-12-27T21:32:06.754488968Z",
             "laps": [],
             "incidents": [
-                "35767a2e-1cab-4a59-81a4-7001b99bbce5",
-                "6aee2aec-bacd-47bc-a2e0-22cf77c891b4",
-                "e3fb3509-93dc-49bf-8c35-f0d6502f97a7",
-                "9c3a97e2-4b48-4412-ad7c-fe51bf4fa07c",
-                "eb853771-220b-4046-a5ee-6e01d32b7f1e"
+                "41b4e565-4820-497f-ac4a-9d262d4e5f17",
+                "eb6c416f-c31b-48db-9725-59d2828352ca",
+                "b4e80084-39de-47fb-ab89-80111f1ee6ee",
+                "c1733c3b-b3fd-44cb-8499-e249c679fb90",
+                "2cd348a3-e964-4dd9-9853-7d766574206e"
             ],
-            "result": "c07ef0a1-8b5a-40aa-826d-76f970f02d88",
+            "result": "cbdfc8db-68d1-4f14-80ab-7e5af6967cc6",
             "cuts": 0,
             "finishingposition": 2,
-            "ratingchange": -0.79
+            "ratingchange": -3.13,
+            "startingposition": 1
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "35767a2e-1cab-4a59-81a4-7001b99bbce5",
+            "id": "41b4e565-4820-497f-ac4a-9d262d4e5f17",
             "speed": 32.868263,
             "racer": "76561198309443188",
             "otherracer": null
         },
         {
-            "id": "6aee2aec-bacd-47bc-a2e0-22cf77c891b4",
+            "id": "eb6c416f-c31b-48db-9725-59d2828352ca",
             "speed": 5.222839,
             "racer": "76561198309443188",
             "otherracer": null
         },
         {
-            "id": "e3fb3509-93dc-49bf-8c35-f0d6502f97a7",
+            "id": "b4e80084-39de-47fb-ab89-80111f1ee6ee",
             "speed": 31.041052,
             "racer": "76561198309443188",
             "otherracer": null
         },
         {
-            "id": "9c3a97e2-4b48-4412-ad7c-fe51bf4fa07c",
+            "id": "c1733c3b-b3fd-44cb-8499-e249c679fb90",
             "speed": 28.198528,
             "racer": "76561198309443188",
             "otherracer": null
         },
         {
-            "id": "eb853771-220b-4046-a5ee-6e01d32b7f1e",
+            "id": "2cd348a3-e964-4dd9-9853-7d766574206e",
             "speed": 47.805813,
             "racer": "76561198309443188",
             "otherracer": null
@@ -93,5 +97,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

@@ -1,168 +1,183 @@
 {
-    "id": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+    "id": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
     "track": "ks_barcelona;layout_gp",
     "laps": [
         {
-            "id": "99a70d99-7a30-4e5d-be43-c880d073f13a",
+            "id": "b76646a0-4a76-4540-b2ab-8ee95c714b7e",
             "time": 240016,
             "car": "ks_porsche_911_gt3_r_2016",
             "racerguid": "76561199681047877",
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "valid": false,
-            "cuts": 3
+            "cuts": 3,
+            "position": 1,
+            "timestamp": 1719624689
         },
         {
-            "id": "39462ae2-0ebe-437b-a196-a6c3ddcc6679",
+            "id": "5e8d921d-89ac-44d0-97c3-82ce16d72793",
             "time": 256665,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561199177151499",
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1719624705
         },
         {
-            "id": "b2187c24-a03c-4f09-81b6-8d1569ee4f0a",
+            "id": "f1d38fa6-4be2-4885-8992-bb3751dc896f",
             "time": 111631,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561199177151499",
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "valid": true,
-            "cuts": 0
+            "cuts": 0,
+            "position": 2,
+            "timestamp": 1719624817
         },
         {
-            "id": "913dec3d-1712-475e-b7d0-45bd56f9c9c7",
+            "id": "86611cb8-b58c-4aa7-8ca2-f2eca6a7bc9a",
             "time": 146724,
             "car": "ks_porsche_911_gt3_r_2016",
             "racerguid": "76561199681047877",
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 3,
+            "timestamp": 1719624835
         },
         {
-            "id": "92b2592e-0050-41ae-9a2b-7892844ff18e",
+            "id": "8bc68550-2592-44e6-87cc-b0066eca57a8",
             "time": 149693,
             "car": "ks_mercedes_amg_gt3",
             "racerguid": "76561198803161900",
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "valid": false,
-            "cuts": 1
+            "cuts": 1,
+            "position": 1,
+            "timestamp": 1719624977
         }
     ],
     "entries": [
         {
-            "id": "12e014fa-1b92-4c19-86eb-864383a803b1",
+            "id": "b3a99e47-6b65-4828-ab52-fd899987dbe0",
             "racer": "76561199177151499",
             "car": "ks_mercedes_amg_gt3",
             "track": "ks_barcelona;layout_gp",
             "date": "2024-06-29T01:49:01.09166559Z",
             "laps": [
-                "39462ae2-0ebe-437b-a196-a6c3ddcc6679",
-                "b2187c24-a03c-4f09-81b6-8d1569ee4f0a"
+                "5e8d921d-89ac-44d0-97c3-82ce16d72793",
+                "f1d38fa6-4be2-4885-8992-bb3751dc896f"
             ],
             "incidents": [],
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "cuts": 5,
             "finishingposition": 1,
-            "ratingchange": 15.53
+            "ratingchange": 15.32,
+            "startingposition": 2
         },
         {
-            "id": "b2676e7f-5462-4a7b-aaed-cce4a3f31fe6",
+            "id": "fe618144-13c4-4b14-95aa-9c6d61e3f5f5",
             "racer": "76561199681047877",
             "car": "ks_porsche_911_gt3_r_2016",
             "track": "ks_barcelona;layout_gp",
             "date": "2024-06-29T01:49:01.09166559Z",
             "laps": [
-                "99a70d99-7a30-4e5d-be43-c880d073f13a",
-                "913dec3d-1712-475e-b7d0-45bd56f9c9c7"
+                "b76646a0-4a76-4540-b2ab-8ee95c714b7e",
+                "86611cb8-b58c-4aa7-8ca2-f2eca6a7bc9a"
             ],
             "incidents": [
-                "c38a414b-dda9-46e6-a9b3-ae1061694780",
-                "4bc7e7bb-05ae-4600-813f-1cca6b419a8c",
-                "ab5c2f48-355d-4029-b06b-2375b7606c41"
+                "9a0edcb9-e3c3-4b5f-9f29-573803a01620",
+                "dcdab444-0024-4497-b6bc-8cc1ab56b8d1",
+                "04c5a988-8e66-46c7-b660-507435bbb932"
             ],
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "cuts": 5,
             "finishingposition": 2,
-            "ratingchange": 7.97
+            "ratingchange": 8.5,
+            "startingposition": 3
         },
         {
-            "id": "0a64e7e3-a296-4966-9ee9-513cfbc04610",
+            "id": "3971f8d0-e824-432b-921d-fa30faf10bd6",
             "racer": "76561199043100704",
             "car": "ks_ferrari_488_gt3",
             "track": "ks_barcelona;layout_gp",
             "date": "2024-06-29T01:49:01.09166559Z",
             "laps": [],
             "incidents": [],
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "cuts": 5,
             "finishingposition": 4,
-            "ratingchange": -0.18
+            "ratingchange": -0.59,
+            "startingposition": 1
         },
         {
-            "id": "d5481714-a6de-410c-b914-619499c6d75d",
+            "id": "c001e3c6-f861-4ddd-8123-49ede820e250",
             "racer": "76561198803161900",
             "car": "ks_mercedes_amg_gt3",
             "track": "ks_barcelona;layout_gp",
             "date": "2024-06-29T01:49:01.09166559Z",
             "laps": [
-                "92b2592e-0050-41ae-9a2b-7892844ff18e"
+                "8bc68550-2592-44e6-87cc-b0066eca57a8"
             ],
             "incidents": [
-                "f627aa8e-59c5-4023-b01f-f7cb13b4d914",
-                "acdad791-4c3f-4aab-adc3-74b34c8d4b76"
+                "72072a6a-a2a5-482e-bea7-5a0709b87b6a",
+                "274a63cc-b971-4b64-bb67-496cf210090b"
             ],
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "cuts": 5,
             "finishingposition": 5,
-            "ratingchange": -19.14
+            "ratingchange": -19.5,
+            "startingposition": 7
         },
         {
-            "id": "fbabdea4-fc55-46ec-98cd-64395554c409",
+            "id": "90ee5691-aa19-42b6-9ab6-5a78b68a600b",
             "racer": "76561198803161900",
             "car": "ks_porsche_911_gt3_r_2016",
             "track": "ks_barcelona;layout_gp",
             "date": "2024-06-29T01:49:01.09166559Z",
             "laps": [
-                "92b2592e-0050-41ae-9a2b-7892844ff18e"
+                "8bc68550-2592-44e6-87cc-b0066eca57a8"
             ],
             "incidents": [
-                "f627aa8e-59c5-4023-b01f-f7cb13b4d914",
-                "acdad791-4c3f-4aab-adc3-74b34c8d4b76"
+                "72072a6a-a2a5-482e-bea7-5a0709b87b6a",
+                "274a63cc-b971-4b64-bb67-496cf210090b"
             ],
-            "result": "b8e72a0d-4aef-4a6d-8889-6cc9e3657429",
+            "result": "bc28ee7b-65b7-4a25-90f4-e3afaa7091d4",
             "cuts": 5,
             "finishingposition": 5,
-            "ratingchange": -22.91
+            "ratingchange": -23.23,
+            "startingposition": 0
         }
     ],
     "endurance": false,
     "incidents": [
         {
-            "id": "c38a414b-dda9-46e6-a9b3-ae1061694780",
+            "id": "9a0edcb9-e3c3-4b5f-9f29-573803a01620",
             "speed": 13.369644,
             "racer": "76561199681047877",
             "otherracer": "76561199177151499"
         },
         {
-            "id": "4bc7e7bb-05ae-4600-813f-1cca6b419a8c",
+            "id": "dcdab444-0024-4497-b6bc-8cc1ab56b8d1",
             "speed": 64.312386,
             "racer": "76561199681047877",
             "otherracer": null
         },
         {
-            "id": "ab5c2f48-355d-4029-b06b-2375b7606c41",
+            "id": "04c5a988-8e66-46c7-b660-507435bbb932",
             "speed": 20.253542,
             "racer": "76561199681047877",
             "otherracer": null
         },
         {
-            "id": "f627aa8e-59c5-4023-b01f-f7cb13b4d914",
+            "id": "72072a6a-a2a5-482e-bea7-5a0709b87b6a",
             "speed": 42.362835,
             "racer": "76561198803161900",
             "otherracer": null
         },
         {
-            "id": "acdad791-4c3f-4aab-adc3-74b34c8d4b76",
+            "id": "274a63cc-b971-4b64-bb67-496cf210090b",
             "speed": 30.941328,
             "racer": "76561198803161900",
             "otherracer": null
@@ -182,5 +197,6 @@
     "shortorlong": "short",
     "server": "",
     "url": "",
-    "directory": "old"
+    "directory": "old",
+    "issecond": true
 }

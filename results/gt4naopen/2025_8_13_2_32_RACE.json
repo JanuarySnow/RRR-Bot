@@ -1,0 +1,5255 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "nbr24_832_cao-dong-he-yan",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 174,
+            "MaxPing": 2054
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "cizin_76_2021",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 16,
+            "MaxPing": 1019
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "38_adamek",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 23,
+            "MaxPing": 3139
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198416337099",
+                "GuidsList": [
+                    "76561198416337099"
+                ],
+                "Name": "Alan Montes",
+                "Nation": "MEX",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "audi_sport",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 64,
+            "MaxPing": 2116
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "38_adamek",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "22_pauwels",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "default",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "121_vallers",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "76561198813709452",
+                "GuidsList": [
+                    "76561198813709452"
+                ],
+                "Name": "Soup",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "44_eithacup_2024",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 60,
+            "MaxPing": 193
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561198403818896",
+                "GuidsList": [
+                    "76561198403818896"
+                ],
+                "Name": "DeadlyD4N13L",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "2022_tcreur_filippi_27",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 42,
+            "MaxPing": 956
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "76561197971026790",
+                "GuidsList": [
+                    "76561197971026790"
+                ],
+                "Name": "PogoXS",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "2022_stcc_bengtsson_55",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 32,
+            "MaxPing": 877
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561197997278862",
+                "GuidsList": [
+                    "76561197997278862"
+                ],
+                "Name": "LeftSinkHandle",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "yg_imsa_80_vgrt",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 45,
+            "MaxPing": 57
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "wittke_222",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "301_kadlecik",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "wittke_222",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "76561198360326108",
+                "GuidsList": [
+                    "76561198360326108"
+                ],
+                "Name": "Nick Chin",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "wtcr_82_baldan",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 27,
+            "MaxPing": 926
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "fulda_22_2022",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "76561197971026790",
+                "GuidsList": [
+                    "76561197971026790"
+                ],
+                "Name": "PogoXS",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "tcree_70_homola",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 32,
+            "MaxPing": 35
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_audi_rs3_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "121_vallers",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "tcreur_264_losonczy",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 36,
+            "MaxPing": 47
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "Driver": {
+                "Guid": "76561198979459890",
+                "GuidsList": [
+                    "76561198979459890"
+                ],
+                "Name": "WooHooMan43",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "tcree_11_zbozinek",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 38,
+            "MaxPing": 636
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "Driver": {
+                "Guid": "76561198150780911",
+                "GuidsList": [
+                    "76561198150780911"
+                ],
+                "Name": "Andy Thompson",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "nbr24_832_cao-dong-he-yan",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "MinPing": 25,
+            "MaxPing": 538
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 22,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_cupra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "58_eithacup_2024",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 23,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "Model": "fw_elantra_tcr_2024",
+            "Restrictor": 0,
+            "Skin": "69_obrtal-full",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 10,
+            "Driver": {
+                "Guid": "76561197971026790",
+                "GuidsList": [
+                    "76561197971026790"
+                ],
+                "Name": "PogoXS",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 29.661478,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.14366725,
+                "Y": -0.06293046,
+                "Z": 1.9364997
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -426.38562,
+                "Y": 6.398538,
+                "Z": -598.0494
+            },
+            "Timestamp": 1755050932,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 27.177227,
+            "OtherCarId": 10,
+            "OtherDriver": {
+                "Guid": "76561197971026790",
+                "GuidsList": [
+                    "76561197971026790"
+                ],
+                "Name": "PogoXS",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.012563158,
+                "Y": -0.0746576,
+                "Z": -2.5376756
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -426.1719,
+                "Y": 6.37651,
+                "Z": -598.4739
+            },
+            "Timestamp": 1755050932,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561197997278862",
+                "GuidsList": [
+                    "76561197997278862"
+                ],
+                "Name": "LeftSinkHandle",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 5.9105515,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9346646,
+                "Y": 0.038487893,
+                "Z": -1.9180487
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -79.02453,
+                "Y": -18.559599,
+                "Z": -917.1392
+            },
+            "Timestamp": 1755050951,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 0.08498697,
+            "OtherCarId": 11,
+            "OtherDriver": {
+                "Guid": "76561197997278862",
+                "GuidsList": [
+                    "76561197997278862"
+                ],
+                "Name": "LeftSinkHandle",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.96970147,
+                "Y": 0.13258274,
+                "Z": 1.372351
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -70.800545,
+                "Y": -18.920181,
+                "Z": -911.7802
+            },
+            "Timestamp": 1755050951,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 48.734,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.8811374,
+                "Y": 0.1976133,
+                "Z": 1.6069297
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 12.212053,
+                "Y": -15.567967,
+                "Z": -810.8716
+            },
+            "Timestamp": 1755050954,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561197997278862",
+                "GuidsList": [
+                    "76561197997278862"
+                ],
+                "Name": "LeftSinkHandle",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 44.616795,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.9314407,
+                "Y": -0.17712364,
+                "Z": -2.1903827
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 14.04648,
+                "Y": -15.28806,
+                "Z": -804.92523
+            },
+            "Timestamp": 1755050954,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 21,
+            "Driver": {
+                "Guid": "76561198150780911",
+                "GuidsList": [
+                    "76561198150780911"
+                ],
+                "Name": "Andy Thompson",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 4.1587167,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.95845795,
+                "Y": 0.08826812,
+                "Z": 1.5160162
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -50.417934,
+                "Y": 9.36087,
+                "Z": 125.17277
+            },
+            "Timestamp": 1755051149,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 25.193827,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.9696876,
+                "Y": 0.13258326,
+                "Z": 1.3723533
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 4.427582,
+                "Y": 10.625305,
+                "Z": 518.2659
+            },
+            "Timestamp": 1755051224,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 18.960205,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.7095049,
+                "Y": -0.3586803,
+                "Z": 1.8301994
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -158.28122,
+                "Y": -1.6447369,
+                "Z": 332.60324
+            },
+            "Timestamp": 1755051231,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198416337099",
+                "GuidsList": [
+                    "76561198416337099"
+                ],
+                "Name": "Alan Montes",
+                "Nation": "MEX",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 11.663078,
+            "OtherCarId": 10,
+            "OtherDriver": {
+                "Guid": "76561197971026790",
+                "GuidsList": [
+                    "76561197971026790"
+                ],
+                "Name": "PogoXS",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9636234,
+                "Y": 0.04645576,
+                "Z": 1.380779
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -389.2091,
+                "Y": 3.8442914,
+                "Z": 129.19449
+            },
+            "Timestamp": 1755051258,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561199106047354",
+                "GuidsList": [
+                    "76561199106047354"
+                ],
+                "Name": "sebastien_beaulieu",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.060373,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.9696823,
+                "Y": 0.13258328,
+                "Z": 1.3723575
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -49.406265,
+                "Y": 9.427736,
+                "Z": 129.97247
+            },
+            "Timestamp": 1755051340,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 21,
+            "Driver": {
+                "Guid": "76561198150780911",
+                "GuidsList": [
+                    "76561198150780911"
+                ],
+                "Name": "Andy Thompson",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 10.129424,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.9584559,
+                "Y": -0.3599997,
+                "Z": 1.5160179
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -463.00665,
+                "Y": 10.289752,
+                "Z": -310.23044
+            },
+            "Timestamp": 1755051399,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561197997278862",
+                "GuidsList": [
+                    "76561197997278862"
+                ],
+                "Name": "LeftSinkHandle",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 12.814016,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.9584589,
+                "Y": 0.088267855,
+                "Z": 1.5160224
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -48.346348,
+                "Y": 9.438303,
+                "Z": 134.93756
+            },
+            "Timestamp": 1755051401,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561197997278862",
+                "GuidsList": [
+                    "76561197997278862"
+                ],
+                "Name": "LeftSinkHandle",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 77.80206,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.7766733,
+                "Y": -0.13629837,
+                "Z": 1.6785418
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 243.63986,
+                "Y": 20.801886,
+                "Z": 329.8095
+            },
+            "Timestamp": 1755051462,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 21,
+            "Driver": {
+                "Guid": "76561198150780911",
+                "GuidsList": [
+                    "76561198150780911"
+                ],
+                "Name": "Andy Thompson",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.03273,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.95907384,
+                "Y": 0.12213374,
+                "Z": 1.3763183
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -47.40554,
+                "Y": 9.527447,
+                "Z": 139.28441
+            },
+            "Timestamp": 1755051502,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 6.264251,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.9584564,
+                "Y": 0.0882673,
+                "Z": 1.5160195
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -51.98435,
+                "Y": 9.310741,
+                "Z": 117.495575
+            },
+            "Timestamp": 1755051606,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 20,
+            "Driver": {
+                "Guid": "76561198979459890",
+                "GuidsList": [
+                    "76561198979459890"
+                ],
+                "Name": "WooHooMan43",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 6.8768797,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.9323846,
+                "Y": 0.2806318,
+                "Z": -2.016509
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -47.70299,
+                "Y": 9.71895,
+                "Z": 137.9584
+            },
+            "Timestamp": 1755051609,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 9.664989,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.9777455,
+                "Y": -0.35095987,
+                "Z": 1.4032768
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -462.14786,
+                "Y": 10.059133,
+                "Z": -320.6034
+            },
+            "Timestamp": 1755051621,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198416337099",
+                "GuidsList": [
+                    "76561198416337099"
+                ],
+                "Name": "Alan Montes",
+                "Nation": "MEX",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 20.568987,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.9696815,
+                "Y": 0.1325825,
+                "Z": 1.3723757
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -334.17453,
+                "Y": -12.836212,
+                "Z": 773.2396
+            },
+            "Timestamp": 1755051715,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 20,
+            "Driver": {
+                "Guid": "76561198979459890",
+                "GuidsList": [
+                    "76561198979459890"
+                ],
+                "Name": "WooHooMan43",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.673767,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.958458,
+                "Y": 0.088267714,
+                "Z": 1.516019
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -47.304478,
+                "Y": 9.50103,
+                "Z": 139.72914
+            },
+            "Timestamp": 1755051724,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 21.840466,
+            "OtherCarId": 8,
+            "OtherDriver": {
+                "Guid": "76561198813709452",
+                "GuidsList": [
+                    "76561198813709452"
+                ],
+                "Name": "Soup",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9584658,
+                "Y": -0.07733634,
+                "Z": 1.5160158
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -119.30099,
+                "Y": 1.8006511,
+                "Z": 344.8321
+            },
+            "Timestamp": 1755051796,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 8,
+            "Driver": {
+                "Guid": "76561198813709452",
+                "GuidsList": [
+                    "76561198813709452"
+                ],
+                "Name": "Soup",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 7.3756223,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9613342,
+                "Y": 0.060709517,
+                "Z": 0.86355907
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -121.00359,
+                "Y": 1.73522,
+                "Z": 343.5048
+            },
+            "Timestamp": 1755051796,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 27.06782,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.93145007,
+                "Y": -0.17712402,
+                "Z": -2.190386
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -179.31352,
+                "Y": -1.207056,
+                "Z": 308.792
+            },
+            "Timestamp": 1755051798,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 1.8589967,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198287158193",
+                "GuidsList": [
+                    "76561198287158193"
+                ],
+                "Name": "BassCannon",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9314332,
+                "Y": -0.1771238,
+                "Z": -2.1903846
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -175.48607,
+                "Y": -2.3435857,
+                "Z": 324.7583
+            },
+            "Timestamp": 1755051914,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 8,
+            "Driver": {
+                "Guid": "76561198813709452",
+                "GuidsList": [
+                    "76561198813709452"
+                ],
+                "Name": "Soup",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 4.139014,
+            "OtherCarId": 19,
+            "OtherDriver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.001292424,
+                "Y": 0.078812316,
+                "Z": -2.421415
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 247.65204,
+                "Y": 12.202893,
+                "Z": -22.781422
+            },
+            "Timestamp": 1755052007,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 4.68988,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.95845455,
+                "Y": 0.08826694,
+                "Z": 1.516016
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -51.514584,
+                "Y": 9.3240185,
+                "Z": 119.79685
+            },
+            "Timestamp": 1755052072,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.798145,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.31948373,
+                "Y": -0.11312158,
+                "Z": -2.6634939
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 213.03136,
+                "Y": 19.900797,
+                "Z": 285.10117
+            },
+            "Timestamp": 1755052130,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 14.052078,
+            "OtherCarId": 19,
+            "OtherDriver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.11751323,
+                "Y": -0.060590375,
+                "Z": 2.0031197
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 212.75034,
+                "Y": 19.879295,
+                "Z": 285.79553
+            },
+            "Timestamp": 1755052130,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 62.449062,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": 0.31947806,
+                "Y": 0.08826683,
+                "Z": 2.0233061
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 259.70193,
+                "Y": 22.144842,
+                "Z": 382.1662
+            },
+            "Timestamp": 1755052134,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 8,
+            "Driver": {
+                "Guid": "76561198813709452",
+                "GuidsList": [
+                    "76561198813709452"
+                ],
+                "Name": "Soup",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 4.053217,
+            "OtherCarId": 20,
+            "OtherDriver": {
+                "Guid": "76561198979459890",
+                "GuidsList": [
+                    "76561198979459890"
+                ],
+                "Name": "WooHooMan43",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.9359597,
+                "Y": -0.33206198,
+                "Z": 1.4234622
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -88.10791,
+                "Y": 9.222772,
+                "Z": -35.160816
+            },
+            "Timestamp": 1755052192,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 20,
+            "Driver": {
+                "Guid": "76561198979459890",
+                "GuidsList": [
+                    "76561198979459890"
+                ],
+                "Name": "WooHooMan43",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 3.782545,
+            "OtherCarId": 8,
+            "OtherDriver": {
+                "Guid": "76561198813709452",
+                "GuidsList": [
+                    "76561198813709452"
+                ],
+                "Name": "Soup",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9532394,
+                "Y": -0.34363186,
+                "Z": 0.5758254
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -88.139465,
+                "Y": 9.222451,
+                "Z": -35.34404
+            },
+            "Timestamp": 1755052192,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199441236219",
+                "GuidsList": [
+                    "76561199441236219"
+                ],
+                "Name": "Brett Anderson",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 66.14231,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b"
+            },
+            "RelPosition": {
+                "X": -0.31949183,
+                "Y": 0.08826869,
+                "Z": 2.0233111
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -380.50934,
+                "Y": -4.598342,
+                "Z": -1039.034
+            },
+            "Timestamp": 1755052232,
+            "AfterSessionEnd": true
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 121649,
+            "Restrictor": 0,
+            "Sectors": [
+                33814,
+                42840,
+                44995
+            ],
+            "Timestamp": 1755051049,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 121951,
+            "Restrictor": 0,
+            "Sectors": [
+                33989,
+                43178,
+                44784
+            ],
+            "Timestamp": 1755051050,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 122781,
+            "Restrictor": 0,
+            "Sectors": [
+                34806,
+                43407,
+                44568
+            ],
+            "Timestamp": 1755051051,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 123193,
+            "Restrictor": 0,
+            "Sectors": [
+                34228,
+                43911,
+                45054
+            ],
+            "Timestamp": 1755051051,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198360326108",
+            "DriverName": "Nick Chin",
+            "LapTime": 124163,
+            "Restrictor": 0,
+            "Sectors": [
+                35698,
+                43888,
+                44577
+            ],
+            "Timestamp": 1755051052,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 125360,
+            "Restrictor": 0,
+            "Sectors": [
+                35757,
+                44635,
+                44968
+            ],
+            "Timestamp": 1755051053,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 126141,
+            "Restrictor": 0,
+            "Sectors": [
+                37243,
+                43659,
+                45239
+            ],
+            "Timestamp": 1755051054,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 128560,
+            "Restrictor": 0,
+            "Sectors": [
+                38187,
+                44496,
+                45877
+            ],
+            "Timestamp": 1755051056,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 129055,
+            "Restrictor": 0,
+            "Sectors": [
+                38502,
+                44486,
+                46067
+            ],
+            "Timestamp": 1755051057,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 129808,
+            "Restrictor": 0,
+            "Sectors": [
+                38796,
+                44586,
+                46426
+            ],
+            "Timestamp": 1755051058,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 131832,
+            "Restrictor": 0,
+            "Sectors": [
+                42268,
+                44019,
+                45545
+            ],
+            "Timestamp": 1755051060,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 142717,
+            "Restrictor": 0,
+            "Sectors": [
+                50265,
+                45818,
+                46634
+            ],
+            "Timestamp": 1755051071,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 114887,
+            "Restrictor": 0,
+            "Sectors": [
+                27398,
+                42733,
+                44756
+            ],
+            "Timestamp": 1755051164,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 115250,
+            "Restrictor": 0,
+            "Sectors": [
+                27289,
+                43141,
+                44820
+            ],
+            "Timestamp": 1755051165,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 114718,
+            "Restrictor": 0,
+            "Sectors": [
+                27036,
+                43092,
+                44590
+            ],
+            "Timestamp": 1755051165,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 114746,
+            "Restrictor": 0,
+            "Sectors": [
+                27136,
+                43074,
+                44536
+            ],
+            "Timestamp": 1755051166,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115689,
+            "Restrictor": 0,
+            "Sectors": [
+                27542,
+                42899,
+                45248
+            ],
+            "Timestamp": 1755051169,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 116977,
+            "Restrictor": 0,
+            "Sectors": [
+                27333,
+                43546,
+                46098
+            ],
+            "Timestamp": 1755051171,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 117663,
+            "Restrictor": 0,
+            "Sectors": [
+                27532,
+                44311,
+                45820
+            ],
+            "Timestamp": 1755051174,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 117464,
+            "Restrictor": 0,
+            "Sectors": [
+                27258,
+                44410,
+                45796
+            ],
+            "Timestamp": 1755051174,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 117249,
+            "Restrictor": 0,
+            "Sectors": [
+                27172,
+                43983,
+                46094
+            ],
+            "Timestamp": 1755051175,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "LapTime": 116262,
+            "Restrictor": 0,
+            "Sectors": [
+                27342,
+                43362,
+                45558
+            ],
+            "Timestamp": 1755051176,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 117564,
+            "Restrictor": 0,
+            "Sectors": [
+                27469,
+                44068,
+                46027
+            ],
+            "Timestamp": 1755051188,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 115288,
+            "Restrictor": 0,
+            "Sectors": [
+                27020,
+                43543,
+                44725
+            ],
+            "Timestamp": 1755051280,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 114971,
+            "Restrictor": 0,
+            "Sectors": [
+                26970,
+                43186,
+                44815
+            ],
+            "Timestamp": 1755051280,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 115594,
+            "Restrictor": 0,
+            "Sectors": [
+                26845,
+                43834,
+                44915
+            ],
+            "Timestamp": 1755051281,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 115364,
+            "Restrictor": 0,
+            "Sectors": [
+                27092,
+                43174,
+                45098
+            ],
+            "Timestamp": 1755051281,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115663,
+            "Restrictor": 0,
+            "Sectors": [
+                27161,
+                42939,
+                45563
+            ],
+            "Timestamp": 1755051285,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 117068,
+            "Restrictor": 0,
+            "Sectors": [
+                27991,
+                43511,
+                45566
+            ],
+            "Timestamp": 1755051288,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 118408,
+            "Restrictor": 0,
+            "Sectors": [
+                27197,
+                44249,
+                46962
+            ],
+            "Timestamp": 1755051293,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 119294,
+            "Restrictor": 0,
+            "Sectors": [
+                27242,
+                44875,
+                47177
+            ],
+            "Timestamp": 1755051293,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 119514,
+            "Restrictor": 0,
+            "Sectors": [
+                27182,
+                45028,
+                47304
+            ],
+            "Timestamp": 1755051294,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 118012,
+            "Restrictor": 0,
+            "Sectors": [
+                27697,
+                44383,
+                45932
+            ],
+            "Timestamp": 1755051306,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -162,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 114782,
+            "Restrictor": 0,
+            "Sectors": [
+                26934,
+                42839,
+                45009
+            ],
+            "Timestamp": 1755051394,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -77.56241,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 116184,
+            "Restrictor": 0,
+            "Sectors": [
+                27039,
+                43771,
+                45374
+            ],
+            "Timestamp": 1755051396,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -74.11598,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 115387,
+            "Restrictor": 0,
+            "Sectors": [
+                26742,
+                43573,
+                45072
+            ],
+            "Timestamp": 1755051397,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -74.11598,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 116322,
+            "Restrictor": 0,
+            "Sectors": [
+                26772,
+                44261,
+                45289
+            ],
+            "Timestamp": 1755051397,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -74.11598,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115804,
+            "Restrictor": 0,
+            "Sectors": [
+                27249,
+                43443,
+                45112
+            ],
+            "Timestamp": 1755051400,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -67.22313,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 118299,
+            "Restrictor": 0,
+            "Sectors": [
+                27326,
+                43831,
+                47142
+            ],
+            "Timestamp": 1755051406,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -56.88385,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 118307,
+            "Restrictor": 0,
+            "Sectors": [
+                27835,
+                44100,
+                46372
+            ],
+            "Timestamp": 1755051412,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -48.267784,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 118733,
+            "Restrictor": 0,
+            "Sectors": [
+                28085,
+                44136,
+                46512
+            ],
+            "Timestamp": 1755051412,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -48.267784,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 118444,
+            "Restrictor": 0,
+            "Sectors": [
+                27548,
+                44370,
+                46526
+            ],
+            "Timestamp": 1755051412,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -46.54457,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 118428,
+            "Restrictor": 0,
+            "Sectors": [
+                27465,
+                44261,
+                46702
+            ],
+            "Timestamp": 1755051425,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -25.866005,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 116166,
+            "Restrictor": 0,
+            "Sectors": [
+                27030,
+                43893,
+                45243
+            ],
+            "Timestamp": 1755051511,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 115235,
+            "Restrictor": 0,
+            "Sectors": [
+                27485,
+                42949,
+                44801
+            ],
+            "Timestamp": 1755051512,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 115632,
+            "Restrictor": 0,
+            "Sectors": [
+                27454,
+                43294,
+                44884
+            ],
+            "Timestamp": 1755051513,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 116209,
+            "Restrictor": 0,
+            "Sectors": [
+                27312,
+                44306,
+                44591
+            ],
+            "Timestamp": 1755051513,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115349,
+            "Restrictor": 0,
+            "Sectors": [
+                27365,
+                43462,
+                44522
+            ],
+            "Timestamp": 1755051516,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 118759,
+            "Restrictor": 0,
+            "Sectors": [
+                28179,
+                44099,
+                46481
+            ],
+            "Timestamp": 1755051525,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 116417,
+            "Restrictor": 0,
+            "Sectors": [
+                27344,
+                43691,
+                45382
+            ],
+            "Timestamp": 1755051528,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 117299,
+            "Restrictor": 0,
+            "Sectors": [
+                27641,
+                44267,
+                45391
+            ],
+            "Timestamp": 1755051529,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 117086,
+            "Restrictor": 0,
+            "Sectors": [
+                27267,
+                44306,
+                45513
+            ],
+            "Timestamp": 1755051529,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 115785,
+            "Restrictor": 0,
+            "Sectors": [
+                27319,
+                43542,
+                44924
+            ],
+            "Timestamp": 1755051626,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 114942,
+            "Restrictor": 0,
+            "Sectors": [
+                27210,
+                42988,
+                44744
+            ],
+            "Timestamp": 1755051627,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 114120,
+            "Restrictor": 0,
+            "Sectors": [
+                26968,
+                42741,
+                44411
+            ],
+            "Timestamp": 1755051627,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 115071,
+            "Restrictor": 0,
+            "Sectors": [
+                27347,
+                42858,
+                44866
+            ],
+            "Timestamp": 1755051628,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115761,
+            "Restrictor": 0,
+            "Sectors": [
+                27043,
+                42908,
+                45810
+            ],
+            "Timestamp": 1755051631,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 116385,
+            "Restrictor": 0,
+            "Sectors": [
+                27523,
+                43934,
+                44928
+            ],
+            "Timestamp": 1755051641,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 115553,
+            "Restrictor": 0,
+            "Sectors": [
+                27299,
+                43304,
+                44950
+            ],
+            "Timestamp": 1755051644,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 116615,
+            "Restrictor": 0,
+            "Sectors": [
+                27259,
+                43807,
+                45549
+            ],
+            "Timestamp": 1755051646,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 116355,
+            "Restrictor": 0,
+            "Sectors": [
+                26966,
+                44033,
+                45356
+            ],
+            "Timestamp": 1755051646,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 1,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 231291,
+            "Restrictor": 0,
+            "Sectors": [
+                140656,
+                44015,
+                46620
+            ],
+            "Timestamp": 1755051656,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 115924,
+            "Restrictor": 0,
+            "Sectors": [
+                27220,
+                43511,
+                45193
+            ],
+            "Timestamp": 1755051742,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 115784,
+            "Restrictor": 0,
+            "Sectors": [
+                27513,
+                43434,
+                44837
+            ],
+            "Timestamp": 1755051742,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 115870,
+            "Restrictor": 0,
+            "Sectors": [
+                27382,
+                43916,
+                44572
+            ],
+            "Timestamp": 1755051743,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 115276,
+            "Restrictor": 0,
+            "Sectors": [
+                27576,
+                42975,
+                44725
+            ],
+            "Timestamp": 1755051743,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115636,
+            "Restrictor": 0,
+            "Sectors": [
+                27494,
+                42642,
+                45500
+            ],
+            "Timestamp": 1755051747,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 116856,
+            "Restrictor": 0,
+            "Sectors": [
+                27521,
+                43929,
+                45406
+            ],
+            "Timestamp": 1755051758,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 116337,
+            "Restrictor": 0,
+            "Sectors": [
+                27061,
+                43961,
+                45315
+            ],
+            "Timestamp": 1755051760,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 119504,
+            "Restrictor": 0,
+            "Sectors": [
+                28100,
+                45415,
+                45989
+            ],
+            "Timestamp": 1755051765,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 119619,
+            "Restrictor": 0,
+            "Sectors": [
+                27864,
+                45175,
+                46580
+            ],
+            "Timestamp": 1755051765,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 117342,
+            "Restrictor": 0,
+            "Sectors": [
+                27729,
+                43290,
+                46323
+            ],
+            "Timestamp": 1755051773,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 117159,
+            "Restrictor": 0,
+            "Sectors": [
+                27253,
+                44874,
+                45032
+            ],
+            "Timestamp": 1755051860,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 117780,
+            "Restrictor": 0,
+            "Sectors": [
+                27374,
+                45423,
+                44983
+            ],
+            "Timestamp": 1755051860,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 117402,
+            "Restrictor": 0,
+            "Sectors": [
+                27217,
+                45054,
+                45131
+            ],
+            "Timestamp": 1755051860,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 120279,
+            "Restrictor": 0,
+            "Sectors": [
+                27210,
+                47970,
+                45099
+            ],
+            "Timestamp": 1755051863,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115907,
+            "Restrictor": 0,
+            "Sectors": [
+                27042,
+                43344,
+                45521
+            ],
+            "Timestamp": 1755051863,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 117549,
+            "Restrictor": 0,
+            "Sectors": [
+                27980,
+                44083,
+                45486
+            ],
+            "Timestamp": 1755051876,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 115865,
+            "Restrictor": 0,
+            "Sectors": [
+                27044,
+                43479,
+                45342
+            ],
+            "Timestamp": 1755051876,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 31.000076,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 116873,
+            "Restrictor": 0,
+            "Sectors": [
+                28071,
+                43600,
+                45202
+            ],
+            "Timestamp": 1755051882,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 24.583403,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 117228,
+            "Restrictor": 0,
+            "Sectors": [
+                27884,
+                43435,
+                45909
+            ],
+            "Timestamp": 1755051882,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 24.583403,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 115393,
+            "Restrictor": 0,
+            "Sectors": [
+                26869,
+                43088,
+                45436
+            ],
+            "Timestamp": 1755051889,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": 15.60006,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 115892,
+            "Restrictor": 0,
+            "Sectors": [
+                27283,
+                43101,
+                45508
+            ],
+            "Timestamp": 1755051976,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -96.04995,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 116311,
+            "Restrictor": 0,
+            "Sectors": [
+                27724,
+                43511,
+                45076
+            ],
+            "Timestamp": 1755051976,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -96.04995,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 115892,
+            "Restrictor": 0,
+            "Sectors": [
+                27391,
+                43479,
+                45022
+            ],
+            "Timestamp": 1755051976,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -96.04995,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 115254,
+            "Restrictor": 0,
+            "Sectors": [
+                27301,
+                43263,
+                44690
+            ],
+            "Timestamp": 1755051978,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -98.616615,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 116408,
+            "Restrictor": 0,
+            "Sectors": [
+                27210,
+                44108,
+                45090
+            ],
+            "Timestamp": 1755051979,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -99.89995,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 116175,
+            "Restrictor": 0,
+            "Sectors": [
+                27570,
+                43677,
+                44928
+            ],
+            "Timestamp": 1755051992,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -116.583275,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 117400,
+            "Restrictor": 0,
+            "Sectors": [
+                27711,
+                44657,
+                45032
+            ],
+            "Timestamp": 1755051993,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -117.86661,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 117494,
+            "Restrictor": 0,
+            "Sectors": [
+                28197,
+                44207,
+                45090
+            ],
+            "Timestamp": 1755052000,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 119855,
+            "Restrictor": 0,
+            "Sectors": [
+                28145,
+                46431,
+                45279
+            ],
+            "Timestamp": 1755052002,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 116097,
+            "Restrictor": 0,
+            "Sectors": [
+                27429,
+                43388,
+                45280
+            ],
+            "Timestamp": 1755052005,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 116610,
+            "Restrictor": 0,
+            "Sectors": [
+                27474,
+                44036,
+                45100
+            ],
+            "Timestamp": 1755052093,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 116917,
+            "Restrictor": 0,
+            "Sectors": [
+                27606,
+                43731,
+                45580
+            ],
+            "Timestamp": 1755052093,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 116714,
+            "Restrictor": 0,
+            "Sectors": [
+                27345,
+                44221,
+                45148
+            ],
+            "Timestamp": 1755052093,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 115447,
+            "Restrictor": 0,
+            "Sectors": [
+                27054,
+                43218,
+                45175
+            ],
+            "Timestamp": 1755052093,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115310,
+            "Restrictor": 0,
+            "Sectors": [
+                27331,
+                42975,
+                45004
+            ],
+            "Timestamp": 1755052095,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 116131,
+            "Restrictor": 0,
+            "Sectors": [
+                26990,
+                43700,
+                45441
+            ],
+            "Timestamp": 1755052108,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 116659,
+            "Restrictor": 0,
+            "Sectors": [
+                27478,
+                44033,
+                45148
+            ],
+            "Timestamp": 1755052110,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 116984,
+            "Restrictor": 0,
+            "Sectors": [
+                27479,
+                43840,
+                45665
+            ],
+            "Timestamp": 1755052117,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 115689,
+            "Restrictor": 0,
+            "Sectors": [
+                26966,
+                43533,
+                45190
+            ],
+            "Timestamp": 1755052118,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 117594,
+            "Restrictor": 0,
+            "Sectors": [
+                28053,
+                43542,
+                45999
+            ],
+            "Timestamp": 1755052122,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "LapTime": 117031,
+            "Restrictor": 0,
+            "Sectors": [
+                27382,
+                44311,
+                45338
+            ],
+            "Timestamp": 1755052210,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "LapTime": 115643,
+            "Restrictor": 0,
+            "Sectors": [
+                26805,
+                43389,
+                45449
+            ],
+            "Timestamp": 1755052210,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "LapTime": 117523,
+            "Restrictor": 0,
+            "Sectors": [
+                27253,
+                44573,
+                45697
+            ],
+            "Timestamp": 1755052210,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "LapTime": 130053,
+            "Restrictor": 0,
+            "Sectors": [
+                27295,
+                58144,
+                44614
+            ],
+            "Timestamp": 1755052223,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 130222,
+            "Restrictor": 0,
+            "Sectors": [
+                27167,
+                58383,
+                44672
+            ],
+            "Timestamp": 1755052224,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "LapTime": 116083,
+            "Restrictor": 0,
+            "Sectors": [
+                27158,
+                43732,
+                45193
+            ],
+            "Timestamp": 1755052225,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "LapTime": 117086,
+            "Restrictor": 0,
+            "Sectors": [
+                27825,
+                44185,
+                45076
+            ],
+            "Timestamp": 1755052227,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "LapTime": 117407,
+            "Restrictor": 0,
+            "Sectors": [
+                27291,
+                44063,
+                46053
+            ],
+            "Timestamp": 1755052234,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 116482,
+            "Restrictor": 0,
+            "Sectors": [
+                27499,
+                43506,
+                45477
+            ],
+            "Timestamp": 1755052234,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "Cuts": 0,
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "LapTime": 118457,
+            "Restrictor": 0,
+            "Sectors": [
+                28120,
+                44033,
+                46304
+            ],
+            "Timestamp": 1755052241,
+            "Tyre": "S",
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 26,
+                "Grip": 1,
+                "WindSpeed": 0,
+                "WindDirection": -124.28327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 114120,
+            "CarId": 1,
+            "CarModel": "fw_cupra_tcr_2024",
+            "DriverGuid": "76561198287158193",
+            "DriverName": "BassCannon",
+            "Restrictor": 0,
+            "TotalTime": 1283472,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 2
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 115310,
+            "CarId": 20,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561198979459890",
+            "DriverName": "WooHooMan43",
+            "Restrictor": 0,
+            "TotalTime": 1284130,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 7
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 114782,
+            "CarId": 8,
+            "CarModel": "fw_cupra_tcr_2024",
+            "DriverGuid": "76561198813709452",
+            "DriverName": "Soup",
+            "Restrictor": 0,
+            "TotalTime": 1284193,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 6
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 114746,
+            "CarId": 19,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561199441236219",
+            "DriverName": "Brett Anderson",
+            "Restrictor": 0,
+            "TotalTime": 1296917,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 4
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 114718,
+            "CarId": 0,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "Restrictor": 0,
+            "TotalTime": 1297331,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 3
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 115553,
+            "CarId": 10,
+            "CarModel": "fw_cupra_tcr_2024",
+            "DriverGuid": "76561197971026790",
+            "DriverName": "PogoXS",
+            "Restrictor": 0,
+            "TotalTime": 1298360,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 9
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 116385,
+            "CarId": 21,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561198150780911",
+            "DriverName": "Andy Thompson",
+            "Restrictor": 0,
+            "TotalTime": 1300840,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 12
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 116615,
+            "CarId": 3,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "DriverGuid": "76561198416337099",
+            "DriverName": "Alan Montes",
+            "Restrictor": 0,
+            "TotalTime": 1307954,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 11
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 115689,
+            "CarId": 9,
+            "CarModel": "fw_cupra_tcr_2024",
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "Restrictor": 0,
+            "TotalTime": 1308069,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 10
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 115393,
+            "CarId": 11,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561197997278862",
+            "DriverName": "LeftSinkHandle",
+            "Restrictor": 0,
+            "TotalTime": 1314492,
+            "NumLaps": 10,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 8
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 116262,
+            "CarId": 2,
+            "CarModel": "fw_audi_rs3_tcr_2024",
+            "DriverGuid": "76561199106047354",
+            "DriverName": "sebastien_beaulieu",
+            "Restrictor": 0,
+            "TotalTime": 249721,
+            "NumLaps": 2,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 5
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 124163,
+            "CarId": 15,
+            "CarModel": "fw_elantra_tcr_2024",
+            "DriverGuid": "76561198360326108",
+            "DriverName": "Nick Chin",
+            "Restrictor": 0,
+            "TotalTime": 125772,
+            "NumLaps": 1,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "b6cca9f3-ee1e-4aa0-887f-98d10c1d535b",
+            "GridPosition": 1
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "boot",
+    "TrackName": "lilski_watkins_glen",
+    "Type": "RACE",
+    "Date": "2025-08-13T02:32:00Z",
+    "SessionFile": "2025_8_13_2_32_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 1,
+        "wait_time": 60,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "9c7b2881-96f2-4884-966f-6a34ade6f6f2",
+    "RaceWeekendID": "",
+    "EventName": "Watkins Glen Boot, USA"
+}
