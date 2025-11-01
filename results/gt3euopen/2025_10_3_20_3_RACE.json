@@ -1,0 +1,6051 @@
+{
+    "Version": 7,
+    "Cars": [
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mclaren_650_gt3",
+            "Restrictor": 0,
+            "Skin": "RRR_Tommy Boy",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 23,
+            "MaxPing": 793
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_audi_r8_lms_2016",
+            "Restrictor": 0,
+            "Skin": "08_racing_33",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 86,
+            "MaxPing": 2848
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_ferrari_488_gt3",
+            "Restrictor": 0,
+            "Skin": "Santander_488_GT3_bianco",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 19,
+            "MaxPing": 80
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198281535522",
+                "GuidsList": [
+                    "76561198281535522"
+                ],
+                "Name": "CoolConcrete",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_ferrari_488_gt3",
+            "Restrictor": 0,
+            "Skin": "Santander_488_GT3_blupozzi",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 115,
+            "MaxPing": 240
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198403818896",
+                "GuidsList": [
+                    "76561198403818896"
+                ],
+                "Name": "DeadlyD4N13L",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_lamborghini_huracan_gt3",
+            "Restrictor": 0,
+            "Skin": "Racing_Black",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 112,
+            "MaxPing": 231
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 5,
+            "Driver": {
+                "Guid": "76561198150780911",
+                "GuidsList": [
+                    "76561198150780911"
+                ],
+                "Name": "Andy Thompson",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mercedes_amg_gt3",
+            "Restrictor": 0,
+            "Skin": "racing_74",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 118,
+            "MaxPing": 129
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mclaren_650_gt3",
+            "Restrictor": 0,
+            "Skin": "racing_60",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 42,
+            "MaxPing": 122
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "bmw_z4_gt3",
+            "Restrictor": 0,
+            "Skin": "0_bmw_motorsport_2013_black",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 149,
+            "MaxPing": 2646
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 8,
+            "Driver": {
+                "Guid": "76561198331671435",
+                "GuidsList": [
+                    "76561198331671435",
+                    "76561198994773237",
+                    "76561198039337092",
+                    "76561199689498852"
+                ],
+                "Name": "Raytarra",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_ferrari_488_gt3",
+            "Restrictor": 0,
+            "Skin": "18_racing_503",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 13,
+            "MaxPing": 45
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561199166486667",
+                "GuidsList": [
+                    "76561199166486667"
+                ],
+                "Name": "theraxo",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "bmw_z4_gt3",
+            "Restrictor": 0,
+            "Skin": "0jawa",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 34,
+            "MaxPing": 108
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 10,
+            "Driver": {
+                "Guid": "76561199789936873",
+                "GuidsList": [
+                    "76561199789936873"
+                ],
+                "Name": "RRR",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_porsche_911_gt3_r_2016",
+            "Restrictor": 0,
+            "Skin": "13_BWmotorsports",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 94,
+            "MaxPing": 194
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 11,
+            "Driver": {
+                "Guid": "76561199075926258",
+                "GuidsList": [
+                    "76561199075926258"
+                ],
+                "Name": "Skrimpers",
+                "Nation": "EGY",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_audi_r8_lms_2016",
+            "Restrictor": 0,
+            "Skin": "48_Cheesus",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 94,
+            "MaxPing": 217
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 12,
+            "Driver": {
+                "Guid": "76561198314332959",
+                "GuidsList": [
+                    "76561198314332959"
+                ],
+                "Name": "Ahsan",
+                "Nation": "PAK",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_lamborghini_huracan_gt3",
+            "Restrictor": 0,
+            "Skin": "Racing_White",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 134,
+            "MaxPing": 135
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_nissan_gtr_gt3",
+            "Restrictor": 0,
+            "Skin": "JRM_230",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 25,
+            "MaxPing": 7619
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "Driver": {
+                "Guid": "76561198039337092",
+                "GuidsList": [
+                    "76561198039337092"
+                ],
+                "Name": "Marc den Besten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mclaren_650_gt3",
+            "Restrictor": 0,
+            "Skin": "racing_64",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 15,
+            "MaxPing": 242
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 15,
+            "Driver": {
+                "Guid": "76561199042637599",
+                "GuidsList": [
+                    "76561199042637599",
+                    "76561198864423911"
+                ],
+                "Name": "connor",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "bmw_z4_gt3",
+            "Restrictor": 0,
+            "Skin": "Exeter bmw z4 updated",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 24,
+            "MaxPing": 1922
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198354199848",
+                "GuidsList": [
+                    "76561198354199848"
+                ],
+                "Name": "cpdenbesten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_lamborghini_huracan_gt3",
+            "Restrictor": 0,
+            "Skin": "Racing_darkred",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 25,
+            "MaxPing": 242
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 17,
+            "Driver": {
+                "Guid": "",
+                "GuidsList": [
+                    ""
+                ],
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "Model": "ks_porsche_911_gt3_r_2016",
+            "Restrictor": 0,
+            "Skin": "Gundam Style",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MinPing": 0,
+            "MaxPing": 0
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "Driver": {
+                "Guid": "76561199643257651",
+                "GuidsList": [
+                    "76561199643257651"
+                ],
+                "Name": "TheDutchSteww",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_mercedes_amg_gt3",
+            "Restrictor": 0,
+            "Skin": "racing_69",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 13,
+            "MaxPing": 19
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "Model": "ks_nissan_gtr_gt3",
+            "Restrictor": 0,
+            "Skin": "ac_15",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "MinPing": 19,
+            "MaxPing": 110
+        }
+    ],
+    "Events": [
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 19.014082,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.046041463,
+                "Y": -0.3454693,
+                "Z": -2.0350425
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 26.467348,
+                "Y": -4.4058504,
+                "Z": -275.757
+            },
+            "Timestamp": 1759520262,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 15.408193,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.002238975,
+                "Y": -0.26499668,
+                "Z": 2.6031117
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 26.56222,
+                "Y": -4.4096875,
+                "Z": -276.43387
+            },
+            "Timestamp": 1759520262,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.772299,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0009369,
+                "Y": 0.21545012,
+                "Z": 1.8349954
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 29.368254,
+                "Y": -3.917706,
+                "Z": -296.78143
+            },
+            "Timestamp": 1759520263,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 7.401603,
+            "OtherCarId": 6,
+            "OtherDriver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0344083,
+                "Y": 0.20995063,
+                "Z": 1.1697371
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 29.670961,
+                "Y": -3.9474118,
+                "Z": -297.8379
+            },
+            "Timestamp": 1759520263,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 14,
+            "Driver": {
+                "Guid": "76561198039337092",
+                "GuidsList": [
+                    "76561198039337092",
+                    "76561198314332959"
+                ],
+                "Name": "Marc den Besten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 18.625088,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.8429179,
+                "Y": -0.2917257,
+                "Z": 2.2879133
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 22.907825,
+                "Y": -4.36725,
+                "Z": -289.76547
+            },
+            "Timestamp": 1759520264,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 15.218968,
+            "OtherCarId": 14,
+            "OtherDriver": {
+                "Guid": "76561198039337092",
+                "GuidsList": [
+                    "76561198039337092"
+                ],
+                "Name": "Marc den Besten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0015486,
+                "Y": -0.35342017,
+                "Z": -1.7219403
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 22.933964,
+                "Y": -4.3681836,
+                "Z": -290.1017
+            },
+            "Timestamp": 1759520264,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198281535522",
+                "GuidsList": [
+                    "76561198281535522"
+                ],
+                "Name": "CoolConcrete",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 9.344562,
+            "OtherCarId": 9,
+            "OtherDriver": {
+                "Guid": "76561199166486667",
+                "GuidsList": [
+                    "76561199166486667"
+                ],
+                "Name": "theraxo",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0309286,
+                "Y": -0.17480706,
+                "Z": 2.100068
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 268.75967,
+                "Y": -1.7832924,
+                "Z": -410.98944
+            },
+            "Timestamp": 1759520270,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561199166486667",
+                "GuidsList": [
+                    "76561199166486667"
+                ],
+                "Name": "theraxo",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 9.481912,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198281535522",
+                "GuidsList": [
+                    "76561198281535522"
+                ],
+                "Name": "CoolConcrete",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0297883,
+                "Y": 0.23174202,
+                "Z": 1.4601582
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 269.60083,
+                "Y": -1.3900628,
+                "Z": -411.17526
+            },
+            "Timestamp": 1759520270,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561199166486667",
+                "GuidsList": [
+                    "76561199166486667"
+                ],
+                "Name": "theraxo",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 12.045527,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0308442,
+                "Y": 0.20116585,
+                "Z": 1.5492122
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 282.26685,
+                "Y": -1.3243545,
+                "Z": -416.26657
+            },
+            "Timestamp": 1759520271,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 10.320327,
+            "OtherCarId": 9,
+            "OtherDriver": {
+                "Guid": "76561199166486667",
+                "GuidsList": [
+                    "76561199166486667"
+                ],
+                "Name": "theraxo",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0189364,
+                "Y": 0.19793743,
+                "Z": 0.042070854
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 282.81088,
+                "Y": -1.3131119,
+                "Z": -416.37637
+            },
+            "Timestamp": 1759520271,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198281535522",
+                "GuidsList": [
+                    "76561198281535522"
+                ],
+                "Name": "CoolConcrete",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 15.555928,
+            "OtherCarId": 19,
+            "OtherDriver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0492965,
+                "Y": 0.25959238,
+                "Z": 0.98030674
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 283.58673,
+                "Y": -1.2524616,
+                "Z": -411.18494
+            },
+            "Timestamp": 1759520271,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 15.567576,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198281535522",
+                "GuidsList": [
+                    "76561198281535522"
+                ],
+                "Name": "CoolConcrete",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.9913561,
+                "Y": 0.26544607,
+                "Z": 1.8033087
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 283.14667,
+                "Y": -1.2556719,
+                "Z": -411.0844
+            },
+            "Timestamp": 1759520271,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 9,
+            "Driver": {
+                "Guid": "76561199166486667",
+                "GuidsList": [
+                    "76561199166486667"
+                ],
+                "Name": "theraxo",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 29.29539,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0308495,
+                "Y": -0.3199633,
+                "Z": 1.5353395
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 332.82208,
+                "Y": -1.470224,
+                "Z": -428.53568
+            },
+            "Timestamp": 1759520272,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 19.609987,
+            "OtherCarId": 9,
+            "OtherDriver": {
+                "Guid": "76561199166486667",
+                "GuidsList": [
+                    "76561199166486667"
+                ],
+                "Name": "theraxo",
+                "Nation": "ESP",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.98660827,
+                "Y": 0.25577143,
+                "Z": 1.9455698
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 333.6165,
+                "Y": -0.87796926,
+                "Z": -428.55182
+            },
+            "Timestamp": 1759520272,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 183.49776,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": -0.74748963,
+                "Y": 0.21786857,
+                "Z": 2.052008
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 380.74402,
+                "Y": -0.5934257,
+                "Z": -426.59158
+            },
+            "Timestamp": 1759520272,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 41.98828,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 0.74748105,
+                "Y": -0.3338842,
+                "Z": 2.188963
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 377.52985,
+                "Y": -1.1417637,
+                "Z": -448.43555
+            },
+            "Timestamp": 1759520273,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 16.30793,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0308416,
+                "Y": -0.3199632,
+                "Z": 1.5353459
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 388.5473,
+                "Y": -1.0778209,
+                "Z": -437.75616
+            },
+            "Timestamp": 1759520274,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 8.179441,
+            "OtherCarId": 7,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.99917287,
+                "Y": 0.13927399,
+                "Z": 1.4038934
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 389.94507,
+                "Y": -0.5989974,
+                "Z": -438.07773
+            },
+            "Timestamp": 1759520274,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 28.42934,
+            "OtherCarId": 7,
+            "OtherDriver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0437216,
+                "Y": -0.33933017,
+                "Z": -0.28337467
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 398.48953,
+                "Y": -0.8417188,
+                "Z": -437.80798
+            },
+            "Timestamp": 1759520274,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 43.03561,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.5440107,
+                "Y": -0.33393794,
+                "Z": 2.2077644
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 421.2963,
+                "Y": -0.8565579,
+                "Z": -447.4179
+            },
+            "Timestamp": 1759520274,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 34.34762,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.99911857,
+                "Y": -0.053151593,
+                "Z": 1.8565556
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 421.75287,
+                "Y": -0.581887,
+                "Z": -447.43558
+            },
+            "Timestamp": 1759520274,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 11.907543,
+            "OtherCarId": 6,
+            "OtherDriver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0367966,
+                "Y": -0.3418058,
+                "Z": -0.83378106
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 582.6991,
+                "Y": -0.5909757,
+                "Z": -429.41412
+            },
+            "Timestamp": 1759520279,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 1.6818948,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0264078,
+                "Y": -0.18442062,
+                "Z": 1.9554563
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 582.26685,
+                "Y": -0.5395693,
+                "Z": -427.5164
+            },
+            "Timestamp": 1759520279,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 11.613175,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 0.9950363,
+                "Y": -0.33058316,
+                "Z": 1.9791936
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 457.78043,
+                "Y": -0.6256771,
+                "Z": -465.65097
+            },
+            "Timestamp": 1759520280,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 3.9390607,
+            "OtherCarId": 19,
+            "OtherDriver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 9.126099e-06,
+                "Y": -0.23401617,
+                "Z": -2.5473638
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 749.2243,
+                "Y": -2.9929101,
+                "Z": -0.86443865
+            },
+            "Timestamp": 1759520301,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 1.8085278,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.00012437173,
+                "Y": -0.24393368,
+                "Z": 2.2376857
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 751.2886,
+                "Y": -2.994499,
+                "Z": 1.1713508
+            },
+            "Timestamp": 1759520301,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 38.52611,
+            "OtherCarId": 6,
+            "OtherDriver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.4816003,
+                "Y": -0.3340666,
+                "Z": -1.9656146
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 1389.9673,
+                "Y": -0.26834628,
+                "Z": 259.26535
+            },
+            "Timestamp": 1759520301,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 34.003525,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.5393823,
+                "Y": -0.25207785,
+                "Z": 2.5152047
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 1390.0066,
+                "Y": -0.26599616,
+                "Z": 259.2355
+            },
+            "Timestamp": 1759520301,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198354199848",
+                "GuidsList": [
+                    "76561198354199848"
+                ],
+                "Name": "cpdenbesten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 20.470583,
+            "OtherCarId": 18,
+            "OtherDriver": {
+                "Guid": "76561199643257651",
+                "GuidsList": [
+                    "76561199643257651"
+                ],
+                "Name": "TheDutchSteww",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.013663,
+                "Y": 0.050314575,
+                "Z": -1.0521793
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -2.5397844,
+                "Y": -3.577463,
+                "Z": 246.92564
+            },
+            "Timestamp": 1759520355,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 18,
+            "Driver": {
+                "Guid": "76561199643257651",
+                "GuidsList": [
+                    "76561199643257651"
+                ],
+                "Name": "TheDutchSteww",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.565443,
+            "OtherCarId": 16,
+            "OtherDriver": {
+                "Guid": "76561198354199848",
+                "GuidsList": [
+                    "76561198354199848"
+                ],
+                "Name": "cpdenbesten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.024202,
+                "Y": -0.25409555,
+                "Z": 2.0884807
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -2.9746609,
+                "Y": -3.937786,
+                "Z": 246.60727
+            },
+            "Timestamp": 1759520355,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198354199848",
+                "GuidsList": [
+                    "76561198354199848"
+                ],
+                "Name": "cpdenbesten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 25.673368,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 0.7505371,
+                "Y": -0.30605134,
+                "Z": 2.468988
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 148.90883,
+                "Y": -2.9095428,
+                "Z": -361.1944
+            },
+            "Timestamp": 1759520382,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 3,
+            "Driver": {
+                "Guid": "76561198281535522",
+                "GuidsList": [
+                    "76561198281535522"
+                ],
+                "Name": "CoolConcrete",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 11.080816,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0219512,
+                "Y": 0.21832213,
+                "Z": 1.2590045
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 1396.7686,
+                "Y": 0.3085273,
+                "Z": 265.5926
+            },
+            "Timestamp": 1759520409,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 19.91116,
+            "OtherCarId": 3,
+            "OtherDriver": {
+                "Guid": "76561198281535522",
+                "GuidsList": [
+                    "76561198281535522"
+                ],
+                "Name": "CoolConcrete",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0052547,
+                "Y": 0.23025116,
+                "Z": 1.8304973
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 1396.9226,
+                "Y": 0.3040565,
+                "Z": 265.6583
+            },
+            "Timestamp": 1759520409,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 7,
+            "Driver": {
+                "Guid": "76561198987735116",
+                "GuidsList": [
+                    "76561198987735116"
+                ],
+                "Name": "SpeedBump",
+                "Nation": "CAN",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 1.9174429,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.94726056,
+                "Y": -0.26926777,
+                "Z": 1.7689683
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 191.91139,
+                "Y": -3.917385,
+                "Z": -31.066671
+            },
+            "Timestamp": 1759520446,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 19,
+            "Driver": {
+                "Guid": "76561199230023715",
+                "GuidsList": [
+                    "76561199230023715"
+                ],
+                "Name": "ZeroToHero",
+                "Nation": "ENG",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 43.02211,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 0.74748176,
+                "Y": -0.3338842,
+                "Z": 2.1889658
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 161.71906,
+                "Y": -3.770285,
+                "Z": 33.67191
+            },
+            "Timestamp": 1759520456,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 2,
+            "Driver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 7.930021,
+            "OtherCarId": 4,
+            "OtherDriver": {
+                "Guid": "76561198403818896",
+                "GuidsList": [
+                    "76561198403818896"
+                ],
+                "Name": "DeadlyD4N13L",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0075654,
+                "Y": 0.07814823,
+                "Z": 1.0241815
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -43.905216,
+                "Y": -3.6312952,
+                "Z": 158.67755
+            },
+            "Timestamp": 1759520464,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 4,
+            "Driver": {
+                "Guid": "76561198403818896",
+                "GuidsList": [
+                    "76561198403818896"
+                ],
+                "Name": "DeadlyD4N13L",
+                "Nation": "USA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 12.544377,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.97664106,
+                "Y": 0.344333,
+                "Z": 1.68518
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": -43.98448,
+                "Y": -3.3691902,
+                "Z": 158.86267
+            },
+            "Timestamp": 1759520464,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 18,
+            "Driver": {
+                "Guid": "76561199643257651",
+                "GuidsList": [
+                    "76561199643257651"
+                ],
+                "Name": "TheDutchSteww",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 7.982041,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.6032606,
+                "Y": -0.32197428,
+                "Z": -2.2078807
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 1402.7666,
+                "Y": -0.24369198,
+                "Z": 276.31015
+            },
+            "Timestamp": 1759520513,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 3.5372329,
+            "OtherCarId": 18,
+            "OtherDriver": {
+                "Guid": "76561199643257651",
+                "GuidsList": [
+                    "76561199643257651"
+                ],
+                "Name": "TheDutchSteww",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.17883486,
+                "Y": -0.22586825,
+                "Z": 2.5663404
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 1402.6625,
+                "Y": -0.23403211,
+                "Z": 276.60373
+            },
+            "Timestamp": 1759520513,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 18.482037,
+            "OtherCarId": 6,
+            "OtherDriver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0425615,
+                "Y": -0.28842542,
+                "Z": -1.3085148
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 575.5529,
+                "Y": -1.000672,
+                "Z": -407.9099
+            },
+            "Timestamp": 1759520601,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 12.41329,
+            "OtherCarId": 13,
+            "OtherDriver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0288929,
+                "Y": -0.24167329,
+                "Z": 1.9726871
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 575.34937,
+                "Y": -1.0091543,
+                "Z": -407.57492
+            },
+            "Timestamp": 1759520601,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 13,
+            "Driver": {
+                "Guid": "76561198801402641",
+                "GuidsList": [
+                    "76561198801402641"
+                ],
+                "Name": "Potato",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 51.39558,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": -0.7474895,
+                "Y": -0.33388424,
+                "Z": 2.1889627
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 524.44037,
+                "Y": -2.8362744,
+                "Z": -366.28262
+            },
+            "Timestamp": 1759520604,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198354199848",
+                "GuidsList": [
+                    "76561198354199848"
+                ],
+                "Name": "cpdenbesten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.721373,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 1.013661,
+                "Y": 0.016620874,
+                "Z": 2.0942023
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 76.695114,
+                "Y": -2.776972,
+                "Z": 107.657265
+            },
+            "Timestamp": 1759520604,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 35.5217,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 1.9077668e-05,
+                "Y": -0.27795613,
+                "Z": 2.6209652
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 525.3926,
+                "Y": -2.8529146,
+                "Z": -368.5895
+            },
+            "Timestamp": 1759520604,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198354199848",
+                "GuidsList": [
+                    "76561198354199848"
+                ],
+                "Name": "cpdenbesten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 30.673023,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": -0.75053847,
+                "Y": -0.30605045,
+                "Z": 2.4689784
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -25.504622,
+                "Y": -4.0528803,
+                "Z": 176.43054
+            },
+            "Timestamp": 1759520623,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 16,
+            "Driver": {
+                "Guid": "76561198354199848",
+                "GuidsList": [
+                    "76561198354199848"
+                ],
+                "Name": "cpdenbesten",
+                "Nation": "NLD",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 31.001286,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 0.7505398,
+                "Y": -0.30605024,
+                "Z": 2.4689744
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": -25.367966,
+                "Y": -4.0690155,
+                "Z": 172.37822
+            },
+            "Timestamp": 1759520937,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 15.05395,
+            "OtherCarId": 2,
+            "OtherDriver": {
+                "Guid": "76561198357316841",
+                "GuidsList": [
+                    "76561198357316841"
+                ],
+                "Name": "Luke Esders",
+                "Nation": "ITA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 0.95783025,
+                "Y": 0.23036575,
+                "Z": 0.026075957
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 152.05658,
+                "Y": -3.412695,
+                "Z": -61.976704
+            },
+            "Timestamp": 1759520961,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 18,
+            "Driver": {
+                "Guid": "76561199643257651",
+                "GuidsList": [
+                    "76561199643257651"
+                ],
+                "Name": "TheDutchSteww",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 17.428305,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.0407287,
+                "Y": -0.31218964,
+                "Z": -1.0866513
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 190.05328,
+                "Y": -3.8987963,
+                "Z": -32.14496
+            },
+            "Timestamp": 1759521273,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 9.272112,
+            "OtherCarId": 18,
+            "OtherDriver": {
+                "Guid": "76561199643257651",
+                "GuidsList": [
+                    "76561199643257651"
+                ],
+                "Name": "TheDutchSteww",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -1.0255452,
+                "Y": -0.22199616,
+                "Z": 1.9667618
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 189.85023,
+                "Y": -3.8974812,
+                "Z": -32.585205
+            },
+            "Timestamp": 1759521273,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 42.095963,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": -1.0077485,
+                "Y": 0.24613579,
+                "Z": 1.8257828
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 542.64825,
+                "Y": -0.6644372,
+                "Z": 265.84512
+            },
+            "Timestamp": 1759521282,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 73.3398,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": -0.81069463,
+                "Y": -0.30072424,
+                "Z": 2.3729079
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 452.5654,
+                "Y": -0.97362,
+                "Z": 291.35266
+            },
+            "Timestamp": 1759521400,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 6,
+            "Driver": {
+                "Guid": "76561199372364177",
+                "GuidsList": [
+                    "76561199372364177"
+                ],
+                "Name": "pjeretus",
+                "Nation": "OTH",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 58.43294,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": 0.54343915,
+                "Y": -0.28568447,
+                "Z": 2.5242007
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 667.62177,
+                "Y": -3.0402155,
+                "Z": -123.955315
+            },
+            "Timestamp": 1759521470,
+            "AfterSessionEnd": false
+        },
+        {
+            "CarId": 1,
+            "Driver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 21.085447,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": -0.63627386,
+                "Y": -0.23381697,
+                "Z": 2.296785
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 28.867296,
+                "Y": -4.279281,
+                "Z": -243.18182
+            },
+            "Timestamp": 1759521524,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 18.460152,
+            "OtherCarId": 1,
+            "OtherDriver": {
+                "Guid": "76561198842314853",
+                "GuidsList": [
+                    "76561198842314853"
+                ],
+                "Name": "Tater",
+                "Nation": "PLA",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "RelPosition": {
+                "X": 1.015442,
+                "Y": -0.2258573,
+                "Z": -1.6407986
+            },
+            "Type": "COLLISION_WITH_CAR",
+            "WorldPosition": {
+                "X": 28.867306,
+                "Y": -4.279816,
+                "Z": -243.18188
+            },
+            "Timestamp": 1759521524,
+            "AfterSessionEnd": true
+        },
+        {
+            "CarId": 0,
+            "Driver": {
+                "Guid": "76561198834866483",
+                "GuidsList": [
+                    "76561198834866483"
+                ],
+                "Name": "BlitzMaxii",
+                "Nation": "GBR",
+                "Team": "",
+                "ClassID": "00000000-0000-0000-0000-000000000000"
+            },
+            "ImpactSpeed": 10.55576,
+            "OtherCarId": 0,
+            "OtherDriver": {
+                "Guid": "",
+                "GuidsList": null,
+                "Name": "",
+                "Nation": "",
+                "Team": "",
+                "ClassID": "055a27e8-79df-4949-abaa-512462327b30"
+            },
+            "RelPosition": {
+                "X": -0.9986019,
+                "Y": 0.75325835,
+                "Z": -2.0160623
+            },
+            "Type": "COLLISION_WITH_ENV",
+            "WorldPosition": {
+                "X": 31.876688,
+                "Y": -3.2771924,
+                "Z": -243.13496
+            },
+            "Timestamp": 1759521524,
+            "AfterSessionEnd": true
+        }
+    ],
+    "Laps": [
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 108858,
+            "Restrictor": 0,
+            "Sectors": [
+                27506,
+                47979,
+                33373
+            ],
+            "Timestamp": 1759520362,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 111228,
+            "Restrictor": 0,
+            "Sectors": [
+                30718,
+                47723,
+                32787
+            ],
+            "Timestamp": 1759520364,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 111502,
+            "Restrictor": 0,
+            "Sectors": [
+                31100,
+                47813,
+                32589
+            ],
+            "Timestamp": 1759520364,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 111915,
+            "Restrictor": 0,
+            "Sectors": [
+                32291,
+                47327,
+                32297
+            ],
+            "Timestamp": 1759520365,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 112531,
+            "Restrictor": 0,
+            "Sectors": [
+                28615,
+                47214,
+                36702
+            ],
+            "Timestamp": 1759520366,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198039337092",
+            "DriverName": "Marc den Besten",
+            "LapTime": 113505,
+            "Restrictor": 0,
+            "Sectors": [
+                33503,
+                46823,
+                33179
+            ],
+            "Timestamp": 1759520366,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 113694,
+            "Restrictor": 0,
+            "Sectors": [
+                30120,
+                50656,
+                32918
+            ],
+            "Timestamp": 1759520367,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198281535522",
+            "DriverName": "CoolConcrete",
+            "LapTime": 114929,
+            "Restrictor": 0,
+            "Sectors": [
+                32728,
+                49289,
+                32912
+            ],
+            "Timestamp": 1759520368,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 117941,
+            "Restrictor": 0,
+            "Sectors": [
+                30821,
+                54117,
+                33003
+            ],
+            "Timestamp": 1759520371,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198354199848",
+            "DriverName": "cpdenbesten",
+            "LapTime": 119768,
+            "Restrictor": 0,
+            "Sectors": [
+                28077,
+                46817,
+                44874
+            ],
+            "Timestamp": 1759520373,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "ks_nissan_gtr_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199230023715",
+            "DriverName": "ZeroToHero",
+            "LapTime": 121429,
+            "Restrictor": 0,
+            "Sectors": [
+                42000,
+                47002,
+                32427
+            ],
+            "Timestamp": 1759520374,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "ks_nissan_gtr_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 122325,
+            "Restrictor": 0,
+            "Sectors": [
+                41770,
+                47606,
+                32949
+            ],
+            "Timestamp": 1759520375,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 126694,
+            "Restrictor": 0,
+            "Sectors": [
+                37495,
+                54959,
+                34240
+            ],
+            "Timestamp": 1759520380,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 102943,
+            "Restrictor": 0,
+            "Sectors": [
+                22775,
+                46566,
+                33602
+            ],
+            "Timestamp": 1759520467,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 103815,
+            "Restrictor": 0,
+            "Sectors": [
+                22486,
+                47011,
+                34318
+            ],
+            "Timestamp": 1759520468,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 106631,
+            "Restrictor": 0,
+            "Sectors": [
+                24070,
+                47520,
+                35041
+            ],
+            "Timestamp": 1759520468,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198039337092",
+            "DriverName": "Marc den Besten",
+            "LapTime": 102550,
+            "Restrictor": 0,
+            "Sectors": [
+                22977,
+                47123,
+                32450
+            ],
+            "Timestamp": 1759520469,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 105076,
+            "Restrictor": 0,
+            "Sectors": [
+                23505,
+                48033,
+                33538
+            ],
+            "Timestamp": 1759520471,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 104125,
+            "Restrictor": 0,
+            "Sectors": [
+                23336,
+                48060,
+                32729
+            ],
+            "Timestamp": 1759520471,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 106220,
+            "Restrictor": 0,
+            "Sectors": [
+                22597,
+                46881,
+                36742
+            ],
+            "Timestamp": 1759520477,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "ks_nissan_gtr_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 102330,
+            "Restrictor": 0,
+            "Sectors": [
+                22833,
+                46728,
+                32769
+            ],
+            "Timestamp": 1759520478,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 113354,
+            "Restrictor": 0,
+            "Sectors": [
+                22824,
+                46462,
+                44068
+            ],
+            "Timestamp": 1759520478,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 1,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 107267,
+            "Restrictor": 0,
+            "Sectors": [
+                24152,
+                49496,
+                33619
+            ],
+            "Timestamp": 1759520487,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 19,
+            "CarModel": "ks_nissan_gtr_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199230023715",
+            "DriverName": "ZeroToHero",
+            "LapTime": 119246,
+            "Restrictor": 0,
+            "Sectors": [
+                23082,
+                47240,
+                48924
+            ],
+            "Timestamp": 1759520494,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198354199848",
+            "DriverName": "cpdenbesten",
+            "LapTime": 137694,
+            "Restrictor": 0,
+            "Sectors": [
+                30692,
+                63513,
+                43489
+            ],
+            "Timestamp": 1759520510,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 102516,
+            "Restrictor": 0,
+            "Sectors": [
+                22614,
+                47722,
+                32180
+            ],
+            "Timestamp": 1759520570,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198039337092",
+            "DriverName": "Marc den Besten",
+            "LapTime": 101989,
+            "Restrictor": 0,
+            "Sectors": [
+                22960,
+                47074,
+                31955
+            ],
+            "Timestamp": 1759520571,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 103900,
+            "Restrictor": 0,
+            "Sectors": [
+                23561,
+                47993,
+                32346
+            ],
+            "Timestamp": 1759520572,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 104637,
+            "Restrictor": 0,
+            "Sectors": [
+                23988,
+                47668,
+                32981
+            ],
+            "Timestamp": 1759520573,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 2,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 102889,
+            "Restrictor": 0,
+            "Sectors": [
+                23077,
+                47246,
+                32566
+            ],
+            "Timestamp": 1759520573,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 102866,
+            "Restrictor": 0,
+            "Sectors": [
+                22991,
+                47422,
+                32453
+            ],
+            "Timestamp": 1759520574,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 102063,
+            "Restrictor": 0,
+            "Sectors": [
+                23259,
+                46691,
+                32113
+            ],
+            "Timestamp": 1759520580,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 13,
+            "CarModel": "ks_nissan_gtr_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "LapTime": 103995,
+            "Restrictor": 0,
+            "Sectors": [
+                23877,
+                47627,
+                32491
+            ],
+            "Timestamp": 1759520582,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 104879,
+            "Restrictor": 0,
+            "Sectors": [
+                24784,
+                47516,
+                32579
+            ],
+            "Timestamp": 1759520582,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 102405,
+            "Restrictor": 0,
+            "Sectors": [
+                22637,
+                46917,
+                32851
+            ],
+            "Timestamp": 1759520589,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198354199848",
+            "DriverName": "cpdenbesten",
+            "LapTime": 120500,
+            "Restrictor": 0,
+            "Sectors": [
+                24250,
+                47273,
+                48977
+            ],
+            "Timestamp": 1759520631,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 101978,
+            "Restrictor": 0,
+            "Sectors": [
+                22562,
+                47021,
+                32395
+            ],
+            "Timestamp": 1759520672,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198039337092",
+            "DriverName": "Marc den Besten",
+            "LapTime": 101597,
+            "Restrictor": 0,
+            "Sectors": [
+                22569,
+                46755,
+                32273
+            ],
+            "Timestamp": 1759520673,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 101804,
+            "Restrictor": 0,
+            "Sectors": [
+                22879,
+                46570,
+                32355
+            ],
+            "Timestamp": 1759520674,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 101693,
+            "Restrictor": 0,
+            "Sectors": [
+                22719,
+                46700,
+                32274
+            ],
+            "Timestamp": 1759520675,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 102812,
+            "Restrictor": 0,
+            "Sectors": [
+                23351,
+                46917,
+                32544
+            ],
+            "Timestamp": 1759520676,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 104512,
+            "Restrictor": 0,
+            "Sectors": [
+                23876,
+                47431,
+                33205
+            ],
+            "Timestamp": 1759520678,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 101371,
+            "Restrictor": 0,
+            "Sectors": [
+                22679,
+                46396,
+                32296
+            ],
+            "Timestamp": 1759520682,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 102536,
+            "Restrictor": 0,
+            "Sectors": [
+                23165,
+                46733,
+                32638
+            ],
+            "Timestamp": 1759520692,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 118217,
+            "Restrictor": 0,
+            "Sectors": [
+                38118,
+                47961,
+                32138
+            ],
+            "Timestamp": 1759520700,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198354199848",
+            "DriverName": "cpdenbesten",
+            "LapTime": 103358,
+            "Restrictor": 0,
+            "Sectors": [
+                23812,
+                46773,
+                32773
+            ],
+            "Timestamp": 1759520734,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 100371,
+            "Restrictor": 0,
+            "Sectors": [
+                22287,
+                46093,
+                31991
+            ],
+            "Timestamp": 1759520772,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 102143,
+            "Restrictor": 0,
+            "Sectors": [
+                22466,
+                46936,
+                32741
+            ],
+            "Timestamp": 1759520776,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 101621,
+            "Restrictor": 0,
+            "Sectors": [
+                22561,
+                46701,
+                32359
+            ],
+            "Timestamp": 1759520777,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 102310,
+            "Restrictor": 0,
+            "Sectors": [
+                22930,
+                47101,
+                32279
+            ],
+            "Timestamp": 1759520779,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 14,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198039337092",
+            "DriverName": "Marc den Besten",
+            "LapTime": 106657,
+            "Restrictor": 0,
+            "Sectors": [
+                22651,
+                51863,
+                32143
+            ],
+            "Timestamp": 1759520779,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 103776,
+            "Restrictor": 0,
+            "Sectors": [
+                23064,
+                47623,
+                33089
+            ],
+            "Timestamp": 1759520781,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 101382,
+            "Restrictor": 0,
+            "Sectors": [
+                22991,
+                46414,
+                31977
+            ],
+            "Timestamp": 1759520783,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 102899,
+            "Restrictor": 0,
+            "Sectors": [
+                22583,
+                46773,
+                33543
+            ],
+            "Timestamp": 1759520795,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 101567,
+            "Restrictor": 0,
+            "Sectors": [
+                22682,
+                46450,
+                32435
+            ],
+            "Timestamp": 1759520802,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 16,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198354199848",
+            "DriverName": "cpdenbesten",
+            "LapTime": 103475,
+            "Restrictor": 0,
+            "Sectors": [
+                23065,
+                46858,
+                33552
+            ],
+            "Timestamp": 1759520838,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 101006,
+            "Restrictor": 0,
+            "Sectors": [
+                22499,
+                46512,
+                31995
+            ],
+            "Timestamp": 1759520873,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 101676,
+            "Restrictor": 0,
+            "Sectors": [
+                22476,
+                46610,
+                32590
+            ],
+            "Timestamp": 1759520878,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 101414,
+            "Restrictor": 0,
+            "Sectors": [
+                22624,
+                46715,
+                32075
+            ],
+            "Timestamp": 1759520878,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 102480,
+            "Restrictor": 0,
+            "Sectors": [
+                23018,
+                46827,
+                32635
+            ],
+            "Timestamp": 1759520881,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 101659,
+            "Restrictor": 0,
+            "Sectors": [
+                22607,
+                46346,
+                32706
+            ],
+            "Timestamp": 1759520885,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 104822,
+            "Restrictor": 0,
+            "Sectors": [
+                22945,
+                47605,
+                34272
+            ],
+            "Timestamp": 1759520886,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 1,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 102904,
+            "Restrictor": 0,
+            "Sectors": [
+                23015,
+                46738,
+                33151
+            ],
+            "Timestamp": 1759520898,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 101487,
+            "Restrictor": 0,
+            "Sectors": [
+                22493,
+                46774,
+                32220
+            ],
+            "Timestamp": 1759520903,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 101693,
+            "Restrictor": 0,
+            "Sectors": [
+                22367,
+                46476,
+                32850
+            ],
+            "Timestamp": 1759520975,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 103873,
+            "Restrictor": 0,
+            "Sectors": [
+                22787,
+                46841,
+                34245
+            ],
+            "Timestamp": 1759520981,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 103088,
+            "Restrictor": 0,
+            "Sectors": [
+                22763,
+                46540,
+                33785
+            ],
+            "Timestamp": 1759520982,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 102851,
+            "Restrictor": 0,
+            "Sectors": [
+                23323,
+                46935,
+                32593
+            ],
+            "Timestamp": 1759520984,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 101314,
+            "Restrictor": 0,
+            "Sectors": [
+                22659,
+                46457,
+                32198
+            ],
+            "Timestamp": 1759520986,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 104402,
+            "Restrictor": 0,
+            "Sectors": [
+                23177,
+                47007,
+                34218
+            ],
+            "Timestamp": 1759520991,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 102030,
+            "Restrictor": 0,
+            "Sectors": [
+                22721,
+                46585,
+                32724
+            ],
+            "Timestamp": 1759521000,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 105669,
+            "Restrictor": 0,
+            "Sectors": [
+                22878,
+                46907,
+                35884
+            ],
+            "Timestamp": 1759521009,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 101896,
+            "Restrictor": 0,
+            "Sectors": [
+                22431,
+                46579,
+                32886
+            ],
+            "Timestamp": 1759521077,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 104550,
+            "Restrictor": 0,
+            "Sectors": [
+                23288,
+                48421,
+                32841
+            ],
+            "Timestamp": 1759521086,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 104852,
+            "Restrictor": 0,
+            "Sectors": [
+                23357,
+                48434,
+                33061
+            ],
+            "Timestamp": 1759521086,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 102710,
+            "Restrictor": 0,
+            "Sectors": [
+                22980,
+                47052,
+                32678
+            ],
+            "Timestamp": 1759521087,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 101328,
+            "Restrictor": 0,
+            "Sectors": [
+                22442,
+                46458,
+                32428
+            ],
+            "Timestamp": 1759521087,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 104106,
+            "Restrictor": 0,
+            "Sectors": [
+                23510,
+                47314,
+                33282
+            ],
+            "Timestamp": 1759521095,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 1,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 104381,
+            "Restrictor": 0,
+            "Sectors": [
+                22837,
+                46557,
+                34987
+            ],
+            "Timestamp": 1759521104,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 102995,
+            "Restrictor": 0,
+            "Sectors": [
+                23175,
+                46714,
+                33106
+            ],
+            "Timestamp": 1759521112,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 102246,
+            "Restrictor": 0,
+            "Sectors": [
+                22915,
+                47012,
+                32319
+            ],
+            "Timestamp": 1759521179,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 102500,
+            "Restrictor": 0,
+            "Sectors": [
+                22792,
+                46679,
+                33029
+            ],
+            "Timestamp": 1759521188,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 102019,
+            "Restrictor": 0,
+            "Sectors": [
+                22774,
+                46840,
+                32405
+            ],
+            "Timestamp": 1759521189,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 104538,
+            "Restrictor": 0,
+            "Sectors": [
+                23416,
+                47479,
+                33643
+            ],
+            "Timestamp": 1759521191,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 106095,
+            "Restrictor": 0,
+            "Sectors": [
+                22714,
+                46499,
+                36882
+            ],
+            "Timestamp": 1759521192,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 103441,
+            "Restrictor": 0,
+            "Sectors": [
+                22999,
+                47030,
+                33412
+            ],
+            "Timestamp": 1759521198,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": true,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 102251,
+            "Restrictor": 0,
+            "Sectors": [
+                22674,
+                46678,
+                32899
+            ],
+            "Timestamp": 1759521206,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 101621,
+            "Restrictor": 0,
+            "Sectors": [
+                22601,
+                46917,
+                32103
+            ],
+            "Timestamp": 1759521214,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 105336,
+            "Restrictor": 0,
+            "Sectors": [
+                23148,
+                46439,
+                35749
+            ],
+            "Timestamp": 1759521284,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 103836,
+            "Restrictor": 0,
+            "Sectors": [
+                22844,
+                47602,
+                33390
+            ],
+            "Timestamp": 1759521292,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 103020,
+            "Restrictor": 0,
+            "Sectors": [
+                22618,
+                47025,
+                33377
+            ],
+            "Timestamp": 1759521292,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 109043,
+            "Restrictor": 0,
+            "Sectors": [
+                23120,
+                47885,
+                38038
+            ],
+            "Timestamp": 1759521300,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 108225,
+            "Restrictor": 0,
+            "Sectors": [
+                22950,
+                46979,
+                38296
+            ],
+            "Timestamp": 1759521301,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 103847,
+            "Restrictor": 0,
+            "Sectors": [
+                23541,
+                47223,
+                33083
+            ],
+            "Timestamp": 1759521302,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 102679,
+            "Restrictor": 0,
+            "Sectors": [
+                22570,
+                46822,
+                33287
+            ],
+            "Timestamp": 1759521309,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 108781,
+            "Restrictor": 0,
+            "Sectors": [
+                22583,
+                47912,
+                38286
+            ],
+            "Timestamp": 1759521322,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 100894,
+            "Restrictor": 0,
+            "Sectors": [
+                22603,
+                46211,
+                32080
+            ],
+            "Timestamp": 1759521385,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 102518,
+            "Restrictor": 0,
+            "Sectors": [
+                23462,
+                46774,
+                32282
+            ],
+            "Timestamp": 1759521395,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 103275,
+            "Restrictor": 0,
+            "Sectors": [
+                24344,
+                46485,
+                32446
+            ],
+            "Timestamp": 1759521396,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 102402,
+            "Restrictor": 0,
+            "Sectors": [
+                22972,
+                46854,
+                32576
+            ],
+            "Timestamp": 1759521403,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 103764,
+            "Restrictor": 0,
+            "Sectors": [
+                23943,
+                46966,
+                32855
+            ],
+            "Timestamp": 1759521404,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 103696,
+            "Restrictor": 0,
+            "Sectors": [
+                23155,
+                47300,
+                33241
+            ],
+            "Timestamp": 1759521406,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 1,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 104626,
+            "Restrictor": 0,
+            "Sectors": [
+                23450,
+                47602,
+                33574
+            ],
+            "Timestamp": 1759521414,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "LapTime": 120565,
+            "Restrictor": 0,
+            "Sectors": [
+                28126,
+                48713,
+                43726
+            ],
+            "Timestamp": 1759521443,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "LapTime": 104981,
+            "Restrictor": 0,
+            "Sectors": [
+                22929,
+                46575,
+                35477
+            ],
+            "Timestamp": 1759521490,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "LapTime": 101774,
+            "Restrictor": 0,
+            "Sectors": [
+                22804,
+                46435,
+                32535
+            ],
+            "Timestamp": 1759521497,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "LapTime": 102649,
+            "Restrictor": 0,
+            "Sectors": [
+                23062,
+                46715,
+                32872
+            ],
+            "Timestamp": 1759521498,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "LapTime": 103630,
+            "Restrictor": 0,
+            "Sectors": [
+                22756,
+                48123,
+                32751
+            ],
+            "Timestamp": 1759521507,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "Cuts": 0,
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "LapTime": 103680,
+            "Restrictor": 0,
+            "Sectors": [
+                22909,
+                47538,
+                33233
+            ],
+            "Timestamp": 1759521508,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "Cuts": 1,
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "LapTime": 103465,
+            "Restrictor": 0,
+            "Sectors": [
+                23567,
+                46782,
+                33116
+            ],
+            "Timestamp": 1759521509,
+            "Tyre": "M",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        },
+        {
+            "BallastKG": 0,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "Cuts": 0,
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "LapTime": 104099,
+            "Restrictor": 0,
+            "Sectors": [
+                22740,
+                46939,
+                34420
+            ],
+            "Timestamp": 1759521518,
+            "Tyre": "S",
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "ContributedToFastestLap": false,
+            "SpeedTrapHits": null,
+            "Conditions": {
+                "Ambient": 19,
+                "Road": 25,
+                "Grip": 1,
+                "WindSpeed": 14,
+                "WindDirection": 327,
+                "RainIntensity": 0,
+                "RainWetness": 0,
+                "RainWater": 0
+            }
+        }
+    ],
+    "Result": [
+        {
+            "BallastKG": 0,
+            "BestLap": 100371,
+            "CarId": 9,
+            "CarModel": "bmw_z4_gt3",
+            "DriverGuid": "76561199166486667",
+            "DriverName": "theraxo",
+            "Restrictor": 0,
+            "TotalTime": 1239003,
+            "NumLaps": 12,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 5
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 101314,
+            "CarId": 7,
+            "CarModel": "bmw_z4_gt3",
+            "DriverGuid": "76561198987735116",
+            "DriverName": "SpeedBump",
+            "Restrictor": 0,
+            "TotalTime": 1245314,
+            "NumLaps": 12,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 12
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 101804,
+            "CarId": 2,
+            "CarModel": "ks_ferrari_488_gt3",
+            "DriverGuid": "76561198357316841",
+            "DriverName": "Luke Esders",
+            "Restrictor": 0,
+            "TotalTime": 1246917,
+            "NumLaps": 12,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 6
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 101621,
+            "CarId": 0,
+            "CarModel": "ks_mclaren_650_gt3",
+            "DriverGuid": "76561198834866483",
+            "DriverName": "BlitzMaxii",
+            "Restrictor": 0,
+            "TotalTime": 1255414,
+            "NumLaps": 12,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 8
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 102480,
+            "CarId": 18,
+            "CarModel": "ks_mercedes_amg_gt3",
+            "DriverGuid": "76561199643257651",
+            "DriverName": "TheDutchSteww",
+            "Restrictor": 0,
+            "TotalTime": 1256393,
+            "NumLaps": 12,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 2
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 103441,
+            "CarId": 4,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "DriverGuid": "76561198403818896",
+            "DriverName": "DeadlyD4N13L",
+            "Restrictor": 0,
+            "TotalTime": 1257842,
+            "NumLaps": 12,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 1
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 102030,
+            "CarId": 1,
+            "CarModel": "ks_audi_r8_lms_2016",
+            "DriverGuid": "76561198842314853",
+            "DriverName": "Tater",
+            "Restrictor": 0,
+            "TotalTime": 1266383,
+            "NumLaps": 12,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 11
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 101487,
+            "CarId": 6,
+            "CarModel": "ks_mclaren_650_gt3",
+            "DriverGuid": "76561199372364177",
+            "DriverName": "pjeretus",
+            "Restrictor": 0,
+            "TotalTime": 1191604,
+            "NumLaps": 11,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 4
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 101597,
+            "CarId": 14,
+            "CarModel": "ks_mclaren_650_gt3",
+            "DriverGuid": "76561198039337092",
+            "DriverName": "Marc den Besten",
+            "Restrictor": 0,
+            "TotalTime": 527956,
+            "NumLaps": 5,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 13
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 103358,
+            "CarId": 16,
+            "CarModel": "ks_lamborghini_huracan_gt3",
+            "DriverGuid": "76561198354199848",
+            "DriverName": "cpdenbesten",
+            "Restrictor": 0,
+            "TotalTime": 586450,
+            "NumLaps": 5,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 3
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 103995,
+            "CarId": 13,
+            "CarModel": "ks_nissan_gtr_gt3",
+            "DriverGuid": "76561198801402641",
+            "DriverName": "Potato",
+            "Restrictor": 0,
+            "TotalTime": 330335,
+            "NumLaps": 3,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 7
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 121429,
+            "CarId": 19,
+            "CarModel": "ks_nissan_gtr_gt3",
+            "DriverGuid": "76561199230023715",
+            "DriverName": "ZeroToHero",
+            "Restrictor": 0,
+            "TotalTime": 242339,
+            "NumLaps": 2,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 10
+        },
+        {
+            "BallastKG": 0,
+            "BestLap": 114929,
+            "CarId": 3,
+            "CarModel": "ks_ferrari_488_gt3",
+            "DriverGuid": "76561198281535522",
+            "DriverName": "CoolConcrete",
+            "Restrictor": 0,
+            "TotalTime": 116536,
+            "NumLaps": 1,
+            "HasPenalty": false,
+            "PenaltyTime": 0,
+            "LapPenalty": 0,
+            "Disqualified": false,
+            "ClassID": "055a27e8-79df-4949-abaa-512462327b30",
+            "GridPosition": 9
+        }
+    ],
+    "Penalties": null,
+    "TrackConfig": "gp",
+    "TrackName": "t78_hockenheimring",
+    "Type": "RACE",
+    "Date": "2025-10-03T20:03:00Z",
+    "SessionFile": "2025_10_3_20_3_RACE",
+    "SessionConfig": {
+        "session_type": 3,
+        "name": "Race",
+        "time": 20,
+        "laps": 0,
+        "is_open": 1,
+        "wait_time": 90,
+        "visibility_mode": 0,
+        "qualifying_type": 0,
+        "qualifying_number_of_laps_to_average": 0,
+        "count_out_lap": false,
+        "disable_push_to_pass": false
+    },
+    "ChampionshipID": "2e8f667b-0bb3-4753-91e8-e9f59e254f1e",
+    "RaceWeekendID": "",
+    "EventName": "Hockenheimring GP, Germany"
+}

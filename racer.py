@@ -5,6 +5,7 @@ from logger_config import logger
 from collections import defaultdict
 from math import fsum, sqrt
 import re
+from datetime import datetime, timezone
 
 _MILE_IN_METERS = 1609.344  
 
@@ -40,6 +41,10 @@ LICENSE_SR_THRESH = {                     # SR gates
     "B": 3.00,
     "A": 4.00,
 }
+
+DEBUG_SAFETY_STEAM = "76561198309443188"
+
+LICENSE_ORDER = ["Rookie", "D", "C", "B", "A"]
 MIN_RACES_FOR_LICENSE = 5 
 
 def parse_track_length_to_meters(raw: str | None, default_m: float = 2000.0) -> float:
@@ -226,6 +231,7 @@ class Racerprofile():
         self.mx5progression_plot = {}
         self.positionplot = {}
         self.incidentplot = {}
+        self.safetyratingplot = {}
         self.positionaverage = {}
         self.paceplot = {}
         self.paceplotaverage = {}
@@ -243,6 +249,8 @@ class Racerprofile():
         self.safety_rate_ema = None
         self.sr_target_rate = SR_TARGET_RATE_DEFAULT
         self.sr_memory_km = SR_MEMORY_KM
+        self.debug_check_guid = "76561198042272495"
+        self.debug_result_filenames = ["2025_10_27_20_31_RACE.json","2025_10_27_20_54_RACE.json" ]
     
     def to_dict(self):
         return {
@@ -318,6 +326,7 @@ class Racerprofile():
             'mx5progression_plot': self.mx5progression_plot,
             'positionplot': self.positionplot,
             'incidentplot': self.incidentplot,
+            'safetyratingplot': self.safetyratingplot,
             'positionaverage': self.positionaverage,
             'paceplot': self.paceplot,
             'paceplotaverage': self.paceplotaverage,
@@ -352,6 +361,45 @@ class Racerprofile():
         if not hasattr(self, "sr_memory_km"):
             self.sr_memory_km = SR_MEMORY_KM
 
+    def next_license_gap(self):
+        """
+        Returns (next_cls | None, sr_gap, elo_gap, races_needed).
+
+        - next_cls: "D"/"C"/"B"/"A" or None if already at A
+        - sr_gap:   how much SR needed to meet next license SR threshold (0 if met)
+        - elo_gap:  how much ELO needed to meet next license ELO threshold (0 if met)
+        - races_needed: additional races required to be eligible (0 if met)
+        """
+        # keep license current
+        try:
+            self.recompute_license()
+        except Exception:
+            pass
+
+        races_needed = max(0, MIN_RACES_FOR_LICENSE - int(getattr(self, "numraces", 0)))
+
+        cur = getattr(self, "licenseclass", "Rookie")
+        try:
+            idx = LICENSE_ORDER.index(cur)
+        except ValueError:
+            idx = 0
+
+        # already top license?
+        if idx >= len(LICENSE_ORDER) - 1:
+            return (None, 0.0, 0.0, races_needed)
+
+        next_cls = LICENSE_ORDER[idx + 1]
+        req_sr   = float(LICENSE_SR_THRESH[next_cls])
+        req_elo  = float(LICENSE_ELO_THRESH[next_cls])
+
+        cur_sr   = float(getattr(self, "safety_rating", SR_DEFAULT_START))
+        cur_elo  = float(getattr(self, "rating", ELO_REF))
+
+        sr_gap  = max(0.0, round(req_sr  - cur_sr, 2))
+        elo_gap = max(0.0, round(req_elo - cur_elo, 0))
+
+        return (next_cls, sr_gap, elo_gap, races_needed)
+
     def _apply_sr_jump(self, before: float, after: float) -> float:
         """
         If you cross an integer boundary (1/2/3/4), snap to X.40 like iRacing.
@@ -365,64 +413,182 @@ class Racerprofile():
                 after = min(after, b - SR_JUMP)
         return after
 
-    def update_safety_after_session(self, session_km: float, session_incidents: float):
+    def update_safety_after_session(self, session_km: float, session_incidents: float, *, context: dict | None = None):
         """
         Update Safety Rating after one race.
         session_km        : kilometers driven this session
         session_incidents : incident points this session (your weighted scheme)
+        context           : optional dict carrying result-level debug info
         """
         self.ensure_sr_fields()
-        km = max(0.0, float(session_km))
+        if self.guid == DEBUG_SAFETY_STEAM:
+            self.logger.info(
+                f"session_km =  {session_km} "
+                f"session_incidents=  {session_incidents}). "
+            )
+
+
+        km  = max(0.0, float(session_km))
         inc = max(0.0, float(session_incidents))
         if km <= 0.0:
             return  # nothing to update
 
-        # 1) Update an EMA of incidents/km (not required for SR, but useful to show + seed)
         target_rate, memory_km = self._sr_conf()
         r_sess = inc / km
+
+        if self.guid == DEBUG_SAFETY_STEAM:
+            self.logger.info(
+                f"target_rate =  {target_rate} "
+                f"memory_km=  {memory_km}). "
+                f"r_sess =  {r_sess} "
+            )
+
+        # EMA of incidents/km
         r_old  = self.safety_rate_ema if (self.safety_rate_ema is not None and math.isfinite(self.safety_rate_ema)) else target_rate
         alpha  = 1.0 - math.exp(-km / max(1e-6, memory_km))
-        self.safety_rate_ema = (1.0 - alpha) * r_old + alpha * r_sess
+        ema_new = (1.0 - alpha) * r_old + alpha * r_sess
+        self.safety_rate_ema = ema_new
 
-        # 2) Compute SR delta vs target (cleaner than target -> positive)
-        # normalize: +1 if perfect clean relative to target, -1 if 2x worse than target, etc.
+        if self.guid == DEBUG_SAFETY_STEAM:
+            self.logger.info(
+                f"r_old =  {r_old} "
+                f"self.safety_rate_ema=  {self.safety_rate_ema}). "
+                f"target_rate =  {target_rate} "
+                f"ema_new =  {ema_new} "
+                f"alpha =  {alpha} "
+            )
+
+        # Core deltas
         norm_diff = (target_rate - r_sess) / max(1e-9, target_rate)
         delta_from_clean = SR_STEP_PER_100KM * norm_diff * (km / 100.0)
 
-        # 3) Tiny SR nudge from ELO (kept very small)
         elo_norm = max(-1.0, min(1.0, (self.rating - ELO_REF) / ELO_SPAN))
         delta_from_elo = SR_ELO_NUDGE_PER_100KM * elo_norm * (km / 100.0)
 
         delta = delta_from_clean + delta_from_elo
+
+        if self.guid == DEBUG_SAFETY_STEAM:
+            self.logger.info(
+                f"norm_diff =  {norm_diff} "
+                f"delta_from_clean=  {delta_from_clean}). "
+                f"elo_norm =  {elo_norm} "
+                f"delta_from_elo=  {delta_from_elo} "
+                f"delta =  {delta} "
+            )
+
+        # Damping/biting near cap
         sr_now = self.safety_rating
+        m_pos = m_neg = 1.0
         if sr_now >= DRAG_START_SR:
-            # distance from the cap, normalized to [0..1] across the 4.0→4.99 band
             width = max(1e-6, SR_MAX - DRAG_START_SR)
             t = (SR_MAX - sr_now) / width     # t=1 at 4.00, t→0 at 4.99
-
-            # Positive gains are damped smoothly as SR→4.99
-            # m_pos goes from ~1.0 at 4.00 down to MIN_POS_GAIN_MULT near 4.99
             m_pos = max(MIN_POS_GAIN_MULT, t ** DRAG_EXPONENT)
-
-            # Losses can sting more near the cap (optional, keep =1 if you don't want this)
-            # m_neg ramps from 1.0 at 4.00 up to 1.0+NEG_BITE_AT_MAX at 4.99
             m_neg = 1.0 + NEG_BITE_AT_MAX * (1.0 - t)
-
             if delta > 0:
                 delta *= m_pos
             elif delta < 0:
                 delta *= m_neg
-        # Optional clamp so one race can't swing too much
+
+
+        # Per-race clamp (note: you also have SR_CAP_GAIN/LOSS if you want asymmetry later)
+        delta_pre_clamp = delta
         delta = max(-0.30, min(0.30, delta))
 
-        # 4) Apply, clamp, and snap at integer boundaries
         before = self.safety_rating
         after  = max(SR_MIN, min(SR_MAX, before + delta))
+        after_pre_snap = after
         after  = self._apply_sr_jump(before, after)
-        self.safety_rating = max(SR_MIN, min(SR_MAX, after))
+        final  = max(SR_MIN, min(SR_MAX, after))
+        self.safety_rating = final
 
-        # 5) Recompute license
+        if self.guid == DEBUG_SAFETY_STEAM:
+            self.logger.info(
+                f"sr_now =  {sr_now} "
+                f"m_pos=  {m_pos}). "
+                f"delta_pre_clamp =  {delta_pre_clamp} "
+                f"delta=  {delta} "
+                f"before =  {before} "
+                f"after =  {after} "
+                f"after_pre_snap=  {after_pre_snap} "
+                f"final =  {final} "
+            )
+
+        # keep license fresh
         self.recompute_license()
+
+        # --------------- verbose debug logging ---------------
+        do_debug = bool(context and context.get("do_debug"))
+        if do_debug and hasattr(self, "logger"):
+            try:
+                fn   = context.get("result_filename")
+                rgn  = context.get("result_region")
+                rdt  = context.get("result_date")
+                tot  = context.get("racers_total")
+                rawT = context.get("raw_inc_total")
+                rawA = context.get("raw_inc_avg_per_racer")
+                wT   = context.get("weighted_inc_total")
+                wA   = context.get("weighted_inc_avg_per_racer")
+                myW  = context.get("current_driver_weighted_inc")
+                skip = context.get("skip_safety")
+
+                self.logger.info(
+                    "[SR-Debug] file=%s date=%s region=%s guid=%s | racers=%s "
+                    "| raw_inc_total=%s raw_inc_avg=%.3f | weighted_total=%.3f weighted_avg=%.3f | my_weighted=%.3f | skip=%s",
+                    fn, rdt, rgn, self.guid, tot, rawT, (rawA or 0.0), (wT or 0.0), (wA or 0.0), (myW or 0.0), skip
+                )
+
+                self.logger.info(
+                    "[SR-Debug] session: km=%.3f inc=%.3f | r_sess=%.6f (/km) target=%.6f | "
+                    "EMA: r_old=%.6f alpha=%.6f ema_new=%.6f",
+                    km, inc, r_sess, target_rate, r_old, alpha, ema_new
+                )
+
+                self.logger.info(
+                    "[SR-Debug] delta parts: norm_diff=%.6f -> clean=%.6f | elo_norm=%.3f -> elo=%.6f | "
+                    "sum=%.6f (pre-damp)",
+                    norm_diff, delta_from_clean, elo_norm, delta_from_elo, (delta_from_clean + delta_from_elo)
+                )
+
+                self.logger.info(
+                    "[SR-Debug] damping@SR=%.3f : m_pos=%.4f m_neg=%.4f | delta_preClamp=%.6f -> delta_clamped=%.6f "
+                    "(cap %+0.2f/+%0.2f theoretical)",
+                    sr_now, m_pos, m_neg, delta_pre_clamp, delta, SR_CAP_GAIN, SR_CAP_LOSS
+                )
+
+                self.logger.info(
+                    "[SR-Debug] SR: before=%.3f -> after_preSnap=%.3f -> after_snap=%.3f -> final=%.3f "
+                    "(bounds: %.2f..%.2f, jump=%.2f at ints, drag_start=%.2f exp=%.2f min_pos=%.2f neg_bite=%.2f)",
+                    before, after_pre_snap, after, final,
+                    SR_MIN, SR_MAX, SR_JUMP, DRAG_START_SR, DRAG_EXPONENT, MIN_POS_GAIN_MULT, NEG_BITE_AT_MAX
+                )
+
+            except Exception as e:
+                # Never let debug printing break scoring.
+                self.logger.error(f"[SR-Debug] logging error: {e}")
+
+    def _should_debug(self, result) -> bool:
+        try:
+            return (
+                self.guid == getattr(self, "debug_check_guid", None)
+                and getattr(result, "filename", None) in getattr(self, "debug_result_filenames", [])
+            )
+        except Exception:
+            return False
+
+    @staticmethod
+    def _weighted_inc_points_for_entry(entry_like) -> float:
+        """
+        Recompute weighted incident points for an entry using the same logic
+        as add_result(), so we can summarize the entire result field.
+        """
+        total = 0.0
+        for inc in getattr(entry_like, "incidents", []) or []:
+            sev = severity_from_speed(getattr(inc, "speed", 0.0))
+            if not sev:
+                continue
+            base = CAR_BASE if getattr(inc, "otherracer", None) else ENV_BASE
+            total += min(base * sev, MAX_INC_POINTS)
+        return total
 
     def recompute_license(self):
         """
@@ -467,7 +633,7 @@ class Racerprofile():
             self.historyofratingchange[resultfile] = change
         self.historyofratingchange[resultfile] = round( self.historyofratingchange[resultfile], 2)
         self.rating = round(self.rating, 2)
-        
+        self.recompute_license()   
         return round( self.historyofratingchange[resultfile], 2)
     
     def update_qualifying_rating(self, opponent_rating, result, numracers, resultfile, otherracer, k_factor=16):
@@ -515,29 +681,37 @@ class Racerprofile():
 
     def calculate_averages(self):
         """
-        One‑pass computation of:
+        One-pass computation of:
         * most / least successful track   (overall, gt3, mx5)
-        * most‑hit other driver           (overall, gt3, mx5)
-        * lap‑time consistency            (overall, gt3, mx5)
+        * most-hit other driver           (overall, gt3, mx5)
+        * lap-time consistency            (overall, gt3, mx5)  <-- now: clean-lap, pop-std, outlier-trim, weighted
         * race consistency
         * pace plot & pace plot average   (per race)
         """
 
+        from collections import defaultdict
+        from math import sqrt
+        from statistics import mean
+        from math import fsum
+
         # ---------- running containers ----------
-        track_sum   = defaultdict(float); track_cnt   = defaultdict(int)
-        track_sum_gt3 = defaultdict(float); track_cnt_gt3 = defaultdict(int)
-        track_sum_mx5 = defaultdict(float); track_cnt_mx5 = defaultdict(int)
+        track_sum        = defaultdict(float); track_cnt        = defaultdict(int)
+        track_sum_gt3    = defaultdict(float); track_cnt_gt3    = defaultdict(int)
+        track_sum_mx5    = defaultdict(float); track_cnt_mx5    = defaultdict(int)
 
-        collision_all = defaultdict(int)
-        collision_gt3 = defaultdict(int); collision_mx5 = defaultdict(int)
+        collision_all    = defaultdict(int)
+        collision_gt3    = defaultdict(int);  collision_mx5     = defaultdict(int)
 
+        # store as (score, weight=#clean_laps) so we can weighted-average later
         lap_consistency_all = []
         lap_consistency_gt3 = []
         lap_consistency_mx5 = []
 
-        race_pos_list = []
+        race_pos_list    = []
 
-        pace_vals_gt3 = []; pace_vals_mx5 = []; pace_vals_all = []
+        pace_vals_gt3    = []; pace_vals_mx5 = []; pace_vals_all = []
+
+        MIN_CLEAN_LAPS = 5
 
         # ---------- single traversal ----------
         for entry in self.entries:
@@ -562,26 +736,64 @@ class Racerprofile():
                 elif cls == "mx5":
                     collision_mx5[inc.otherracer] += 1
 
-            # --- lap‑time consistency (per race) ----
-            lap_times = [lap.time for lap in entry.laps]
-            if lap_times:
-                if len(lap_times) == 1:
-                    c_score = 100.0
-                else:
-                    μ   = fsum(lap_times) / len(lap_times)
-                    var = fsum((x-μ)**2 for x in lap_times) / (len(lap_times)-1)
-                    c_score = (1 - sqrt(var) / μ) * 100
-                lap_consistency_all.append(c_score)
+            # --- lap-time consistency (per race) ----
+            # Build "clean" laps from available fields: valid==True, cuts==0, positive time
+            clean_times_with_ts = []
+            for lap in entry.laps:
+                t = getattr(lap, "time", None)
+                if not t or t <= 0:
+                    continue
+                if not getattr(lap, "valid", True):
+                    continue
+                if getattr(lap, "cuts", 0) > 0:
+                    continue
+                clean_times_with_ts.append((getattr(lap, "timestamp", None), t))
+
+            # Drop the earliest timestamped lap (heuristic for Lap 1 / out-lap) if timestamps exist
+            if clean_times_with_ts and any(ts is not None for ts, _ in clean_times_with_ts):
+                with_ts     = [(ts, t) for ts, t in clean_times_with_ts if ts is not None]
+                without_ts  = [t for ts, t in clean_times_with_ts if ts is None]
+                if len(with_ts) >= 2:
+                    with_ts.sort(key=lambda x: x[0])  # earliest first
+                    with_ts = with_ts[1:]             # drop earliest
+                clean_times = [t for _, t in with_ts] + without_ts
+            else:
+                # No timestamps: keep as-is (optional: drop 1 obvious slowest if plenty of laps)
+                clean_times = [t for _, t in clean_times_with_ts]
+                if len(clean_times) >= 12:
+                    slowest = max(clean_times)
+                    try:
+                        clean_times.remove(slowest)
+                    except ValueError:
+                        pass
+
+            # Outlier trim (single pass): clip laps slower than μ + 3σ (population)
+            if len(clean_times) >= MIN_CLEAN_LAPS:
+                n0  = len(clean_times)
+                μ0  = fsum(clean_times) / n0
+                var0 = fsum((x - μ0) ** 2 for x in clean_times) / n0  # population variance
+                σ0  = sqrt(var0)
+                upper_clip = μ0 + 3 * σ0
+                clean_times = [x for x in clean_times if x <= upper_clip]
+
+            # Compute per-race consistency using **population** std if we still have enough clean laps
+            if len(clean_times) >= MIN_CLEAN_LAPS:
+                n = len(clean_times)
+                μ = fsum(clean_times) / n
+                var = fsum((x - μ) ** 2 for x in clean_times) / n      # population variance
+                σ = sqrt(var)
+                c_score = (1 - (σ / μ)) * 100.0
+
+                lap_consistency_all.append((c_score, n))
                 if cls == "gt3":
-                    lap_consistency_gt3.append(c_score)
+                    lap_consistency_gt3.append((c_score, n))
                 elif cls == "mx5":
-                    lap_consistency_mx5.append(c_score)
+                    lap_consistency_mx5.append((c_score, n))
 
             # --- race consistency list ----
             race_pos_list.append(pos)
 
             # --- pace percentage & plot ----
-            #  (same rules you had in calculatepace)
             if entry.result.get_numlaps_of_racer(self) < 5:
                 continue
             fastest_me   = entry.result.get_fastest_lap_of_racer(self)
@@ -606,18 +818,18 @@ class Racerprofile():
             candidates = {t: sum_d[t] / cnt_d[t] for t in sum_d if cnt_d[t] > 1}
             if candidates:
                 return best(candidates, key=candidates.get)
-            # fall‑back: first track encountered (single race)
+            # fall-back: first track encountered (single race)
             return next(iter(sum_d)) if sum_d else None
 
         # ---------- assign results ----------
-        self.mostsuccesfultrack     = _track_key(track_sum, track_cnt, best=min)
-        self.leastsuccesfultrack    = _track_key(track_sum, track_cnt, best=max)
+        self.mostsuccesfultrack     = _track_key(track_sum,      track_cnt,      best=min)
+        self.leastsuccesfultrack    = _track_key(track_sum,      track_cnt,      best=max)
 
-        self.mostsuccesfultrackgt3  = _track_key(track_sum_gt3, track_cnt_gt3, best=min)
-        self.leastsuccesfultrackgt3 = _track_key(track_sum_gt3, track_cnt_gt3, best=max)
+        self.mostsuccesfultrackgt3  = _track_key(track_sum_gt3,  track_cnt_gt3,  best=min)
+        self.leastsuccesfultrackgt3 = _track_key(track_sum_gt3,  track_cnt_gt3,  best=max)
 
-        self.mostsuccesfultrackmx5  = _track_key(track_sum_mx5, track_cnt_mx5, best=min)
-        self.leastsuccesfultrackmx5 = _track_key(track_sum_mx5, track_cnt_mx5, best=max)
+        self.mostsuccesfultrackmx5  = _track_key(track_sum_mx5,  track_cnt_mx5,  best=min)
+        self.leastsuccesfultrackmx5 = _track_key(track_sum_mx5,  track_cnt_mx5,  best=max)
 
         # collisions (convert to object or stay None)
         def _max_or_none(d): return max(d, key=d.get) if d else None
@@ -626,24 +838,32 @@ class Racerprofile():
         self.mosthitotherdrivermx5  = _max_or_none(collision_mx5)
         self.collisionracers        = dict(collision_all)
 
-        # lap‑consistency averages
-        def _avg(lst): return round(fsum(lst) / len(lst), 2) if lst else None
-        self.laptimeconsistency      = _avg(lap_consistency_all)
-        self.laptimeconsistencygt3   = _avg(lap_consistency_gt3)
-        self.laptimeconsistencymx5   = _avg(lap_consistency_mx5)
+        # lap-consistency weighted averages
+        def _weighted_avg(pairs):
+            if not pairs:
+                return None
+            num = fsum(score * w for score, w in pairs)
+            den = fsum(w for _, w in pairs)
+            return round(num / den, 2) if den else None
 
-        # race consistency
+        self.laptimeconsistency      = _weighted_avg(lap_consistency_all)
+        self.laptimeconsistencygt3   = _weighted_avg(lap_consistency_gt3)
+        self.laptimeconsistencymx5   = _weighted_avg(lap_consistency_mx5)
+
+        # race consistency (same definition as before; sample std)
         if len(race_pos_list) > 1:
             μ = fsum(race_pos_list) / len(race_pos_list)
-            var = fsum((p-μ)**2 for p in race_pos_list) / (len(race_pos_list)-1)
+            var = fsum((p - μ) ** 2 for p in race_pos_list) / (len(race_pos_list) - 1)
             self.raceconsistency = round((1 - sqrt(var) / μ) * 100, 2)
         else:
             self.raceconsistency = 100.0
 
         # overall pace percentage fields (if you use them elsewhere)
-        self.pace_percentage_overall = _avg(pace_vals_all) or 0
-        self.pace_percentage_gt3     = _avg(pace_vals_gt3) or 0
-        self.pace_percentage_mx5     = _avg(pace_vals_mx5) or 0
+        def _avg(lst): return round(fsum(lst) / len(lst), 2) if lst else 0
+        self.pace_percentage_overall = _avg(pace_vals_all)
+        self.pace_percentage_gt3     = _avg(pace_vals_gt3)
+        self.pace_percentage_mx5     = _avg(pace_vals_mx5)
+
 
 
     def add_result(self, entry):
@@ -655,7 +875,8 @@ class Racerprofile():
         incidents
         result # parent result
         cuts
-        finishingposition"""
+        finishingposition
+        """
         self.numraces += 1
         if entry.finishingposition == 1:
             self.wins += 1
@@ -669,6 +890,7 @@ class Racerprofile():
                 self.gt3podiums += 1
             if entry.result.mx5orgt3 == "mx5":
                 self.mx5podiums += 1
+
         self.totallaps += len(entry.laps)
         if entry.result.mx5orgt3 == "gt3":
             self.gt3laps += len(entry.laps)
@@ -676,27 +898,33 @@ class Racerprofile():
         if entry.result.mx5orgt3 == "mx5":
             self.mx5laps += len(entry.laps)
             self.numracesmx5 += 1
+
         self.entries.append(entry)
         self.result_add_ticker += 1
         self.startingpositions[entry.date] = entry.startingposition
+
+        # ---------- compute incident points for this entry ----------
         currentinchidents = 0
         for inchident in entry.incidents:
-            sev = severity_from_speed(inchident.speed)          # 0-to-4
-            if not sev:                                   # sev==0 → below 15 km/h
+            sev = severity_from_speed(inchident.speed)  # 0-to-4
+            if not sev:  # sev==0 → below 15 km/h
                 continue
 
             base = CAR_BASE if inchident.otherracer else ENV_BASE
-            pts  = min(base * sev, MAX_INC_POINTS)        # clamp at 4.0
+            pts = min(base * sev, MAX_INC_POINTS)  # clamp at 4.0
 
-            self.incidents      += pts
-            currentinchidents    += pts
+            self.incidents += pts
+            currentinchidents += pts
             if entry.result.mx5orgt3 == "mx5":
                 self.incidentsmx5 += pts
             if entry.result.mx5orgt3 == "gt3":
                 self.incidentsgt3 += pts
+
+        # ---------- distance / averages ----------
         length = parse_track_length_to_meters(entry.track.length, default_m=2000.0)
         session_km = (length * len(entry.laps)) / 1000.0
-        self.distancedriven += (length * len(entry.laps)) / 1000.0 # in km
+        self.distancedriven += session_km  # in km
+
         self.averageincidents = (self.incidents / self.numraces) if self.numraces > 0 else 0.0
         km = float(self.distancedriven)
         inc = float(self.incidents)
@@ -705,18 +933,112 @@ class Racerprofile():
             self.averageincidentsgt3 = round(self.incidentsgt3 / self.numracesgt3, 2)
         if self.numracesmx5 > 0:
             self.averageincidentsmx5 = round(self.incidentsmx5 / self.numracesmx5, 4)
-        self.update_safety_after_session(session_km, currentinchidents)
-        
+
+        # ---------- build optional debug context ----------
+        do_debug = self._should_debug(entry.result)
+
+        # Result-wide raw incident counts (number of incident records)
+        all_entries = list(getattr(entry.result, "entries", []) or [])
+        raw_counts = [len(getattr(e, "incidents", []) or []) for e in all_entries] if all_entries else []
+        raw_total = sum(raw_counts) if raw_counts else 0
+        raw_avg = (raw_total / len(raw_counts)) if raw_counts else 0.0
+
+        # Result-wide weighted incident points (using same CAR/ENV * severity model)
+        weighted_points = [self._weighted_inc_points_for_entry(e) for e in all_entries] if all_entries else []
+        weighted_total = sum(weighted_points) if weighted_points else 0.0
+        weighted_avg = (weighted_total / len(weighted_points)) if weighted_points else 0.0
+
+        debug_ctx = {
+            "do_debug": do_debug,
+            "result_filename": getattr(entry.result, "filename", None),
+            "result_date": getattr(entry.result, "date", None),
+            "result_region": getattr(entry.result, "region", None),
+            "racers_total": len(all_entries),
+            "raw_inc_total": raw_total,
+            "raw_inc_avg_per_racer": raw_avg,
+            "weighted_inc_total": weighted_total,
+            "weighted_inc_avg_per_racer": weighted_avg,
+            "current_driver_weighted_inc": currentinchidents,
+            "session_km": session_km,
+            "skip_safety": False,  # default; will overwrite below if needed
+        }
+
+        if self.guid == DEBUG_SAFETY_STEAM:
+            self.logger.info(
+                f"result_filename =  {debug_ctx["result_filename"]} "
+                f"result_date =  {debug_ctx["result_date"]}). "
+                f"racers_total =  {len(all_entries)} "
+                f"raw_inc_avg_per_racer =  {raw_avg} "
+                f"weighted_inc_total =  {weighted_total} "
+                f"weighted_inc_avg_per_racer =  {weighted_avg} "
+                f"current_driver_weighted_inc =  {currentinchidents} "
+                f"session_km =  {session_km} "
+            )
+
+        # ---------- detect likely demolition-derby event ----------
+        def _parse_iso_utc(dt_str: str):
+            if not dt_str:
+                return None
+            try:
+                if dt_str.endswith("Z"):
+                    return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
+                return datetime.fromisoformat(dt_str).replace(tzinfo=timezone.utc)
+            except Exception:
+                return None
+
+        cutoff = datetime(2024, 7, 1, tzinfo=timezone.utc)
+        res_dt = _parse_iso_utc(entry.result.date)
+        total_racers = len(all_entries)
+        racers_over_10_inc = sum(1 for e in all_entries if len(getattr(e, "incidents", []) or []) > 10)
+        ratio_over_10 = (racers_over_10_inc / total_racers) if total_racers else 0.0
+
+        if self.guid == DEBUG_SAFETY_STEAM:
+            self.logger.info(
+                f"racers_over_10_inc =  {racers_over_10_inc} "
+                f"ratio_over_10 =  {ratio_over_10}). "
+            )
+
+        skip_safety = bool(res_dt is not None and res_dt < cutoff and ratio_over_10 >= 0.80)
+        debug_ctx["skip_safety"] = skip_safety
+        debug_ctx["racers_over_10_inc"] = racers_over_10_inc
+        debug_ctx["ratio_over_10"] = ratio_over_10
+
+        if skip_safety and hasattr(self, "logger"):
+            self.logger.info(
+                f"[safety-skip] {entry.result.date} flagged as crashy: "
+                f"{racers_over_10_inc}/{total_racers} racers (>10 incidents, {ratio_over_10:.0%}). "
+                "Skipping safety update."
+            )
+
+
+        # ---------- safety update (conditionally skipped) ----------
+        if not skip_safety:
+            self.update_safety_after_session(session_km, currentinchidents, context=debug_ctx)
+        else:
+            # Even if we skip, log the snapshot if debugging this result/guid
+            if do_debug and hasattr(self, "logger"):
+                self.logger.info(
+                    f"[SR-Debug] GUID={self.guid} FILE={debug_ctx['result_filename']} "
+                    f"session_km={session_km:.3f} weighted_inc={currentinchidents:.3f} "
+                    f"SKIPPED due to crash heuristic (ratio_over_10={ratio_over_10:.2%})."
+                )
+
+        # ---------- plots / derived stats ----------
         finishingposition = entry.finishingposition
         if entry.startingposition != 0:
             self.positionchangeperrace[entry.date] = finishingposition - entry.startingposition
-        numracers = len(entry.result.entries)
+
+        numracers = len(entry.result.entries) if entry.result and entry.result.entries else 1
         percent = (finishingposition / numracers) * 100
-        top = 100 - percent
-        top = round(top, 2)
+        top = round(100 - percent, 2)
+
         self.positionplot[entry.date] = top
         self.positionaverage[entry.date] = round(mean(self.positionplot.values()), 2)
         self.incidentplot[entry.date] = currentinchidents
+
+        # Record the (possibly unchanged) safety_rating on the plot so the timeline is continuous.
+        self.safetyratingplot[entry.date] = self.safety_rating
+
         if entry.result.region == "EU":
             self.eucount += 1
         if entry.result.region == "NA":

@@ -8,6 +8,7 @@ import time
 from datetime import datetime
 from logger_config import logger
 from championship import Championship, Event
+from statsparser import RetentionTracker
 
 
 RACER_SCALAR_FIELDS = [
@@ -41,7 +42,9 @@ def serialize_all_data(parser_obj, clean: bool = True):
     os.makedirs("output/tracks", exist_ok=True)
     os.makedirs("output/results", exist_ok=True)
     os.makedirs("output/championships", exist_ok=True)
-    
+    os.makedirs("output/retention", exist_ok=True)
+    with open("output/retention/retention.json", "w", encoding="utf-8") as f:
+        json.dump(parser_obj.retention.to_jsonable(), f, indent=4)
     # 1. Serialize racers
     racers_data = {guid: racer.to_dict()
                for guid, racer in parser_obj.racers.items()}
@@ -277,7 +280,25 @@ def deserialize_all_data():
 
     t4 = time.perf_counter()
     log(f"✅  Deserialized results loaded in {t4 - t3:0.3f}s")
+    log("⏳  Deserialising RETENTION …")
+    parser_obj.retention = RetentionTracker()
 
+    retention_path = "output/retention/retention.json"
+    if os.path.isfile(retention_path):
+        with open(retention_path, "r", encoding="utf-8") as f:
+            retention_json = json.load(f)
+        parser_obj.retention = RetentionTracker.from_jsonable(retention_json)
+        log("✅  Retention loaded from snapshot")
+    else:
+        # Fallback: rebuild from results (slower, but robust)
+        rebuilt = 0
+        for res in parser_obj.raceresults:
+            # res.entries have (racer, car, track, date)
+            for e in res.entries:
+                guid = e.racer.guid  # or however you expose guid on Racerprofile
+                parser_obj.retention.register_race(guid, e.date)
+                rebuilt += 1
+        log(f"✅  Retention rebuilt from {rebuilt} entry dates")
 
     log("⏳  Deserialising CHAMPIONSHIPS …")
     champs_file = "output/championships/championships.json"
@@ -316,7 +337,20 @@ def deserialize_all_data():
             for evd in chd.get("schedule", []):
                 tvar = track_variants_by_id.get(evd["track"])
                 if not tvar:                     # should not happen, skip
-                    continue
+                    logger.warning(f"[CHAMP-LOAD] Missing track variant '{evd['track']}' "
+                   f"for event '{evd.get('name','')}'. Creating placeholder.")
+                    # Reconstruct from "base;layout"
+                    base_id, _, layout_id = evd["track"].partition(";")
+                    if not layout_id:
+                        layout_id = base_id
+
+                    # Try contentdata, then create a stub variant
+                    tvar = parser_obj.contentdata.get_track(evd["track"])
+                    if not tvar:
+                        tvar = parser_obj.contentdata.create_basic_track(base_id, layout_id)
+
+                    # register in the local index so subsequent events can find it
+                    track_variants_by_id[tvar.id] = tvar
 
                 ev = Event(
                     name               = evd["name"],
@@ -460,6 +494,7 @@ def _populate_racer_from_json(racer: Racerprofile, rd: dict):
     racer.mx5progression_plot = rd.get("mx5progression_plot", {})
     racer.positionplot        = rd.get("positionplot", {})
     racer.incidentplot        = rd.get("incidentplot", {})
+    racer.safetyratingplot    = rd.get("safetyratingplot", {})
     racer.positionaverage     = rd.get("positionaverage", {})
     racer.paceplot            = rd.get("paceplot", {})
     racer.paceplotaverage     = rd.get("paceplotaverage", {})

@@ -62,60 +62,6 @@ class Template(commands.Cog, name="potato"):
                     )
                 await context.send(embed=embed)
 
-    @commands.hybrid_command(name="dmsay", description="say in channel.")
-    @discord.app_commands.allowed_contexts(dms=True)
-    @commands.is_owner()
-    async def dmsay(self, context: Context, tosay:str , channelid="1328800009189195828") -> None:
-        if isinstance(context.channel, discord.channel.DMChannel):
-            channeltosend = self.bot.get_channel(int(channelid))
-            await channeltosend.send(tosay)
-
-    @commands.hybrid_command(name="dad_joke", description="Get a random dadjoke.")
-    async def dad_joke(self, context: Context) -> None:
-        """
-        Get a random dadjoke
-        
-        :param context: The hybrid command context.
-        """
-        user_agent = "https://github.com/JanuarySnow/RRR-Bot"
-        headers  = {"Accept": "application/json", "User-Agent":user_agent}
-        # This will prevent your bot from stopping everything when doing a web request - see: https://discordpy.readthedocs.io/en/stable/faq.html#how-do-i-make-a-web-request
-        async with aiohttp.ClientSession() as session:
-            async with session.get(
-                    "https://icanhazdadjoke.com/", headers=headers) as request:
-                if request.status == 200:
-                    data = await request.json(content_type='application/json')
-                    embed = discord.Embed(description=data["joke"], color=0xD75BF4)
-                else:
-                    embed = discord.Embed(
-                        title="Error!",
-                        description="There is something wrong with the API, please try again later",
-                        color=0xE02B2B,
-                    )
-                await context.send(embed=embed)
-
-    @commands.hybrid_command(name="dogpic", description="Get a random dog.")
-    async def dogpic(self, context: Context) -> None:
-        """
-        Get a random dog
-        
-        :param context: The hybrid command context.
-        """
-        user_agent = "https://github.com/JanuarySnow/RRR-Bot"
-        headers  = {"Accept": "application/json", "User-Agent":user_agent}
-        # This will prevent your bot from stopping everything when doing a web request - see: https://discordpy.readthedocs.io/en/stable/faq.html#how-do-i-make-a-web-request
-        async with aiohttp.ClientSession() as session:
-            async with session.get(
-                    "https://random.dog/woof.json", headers=headers) as request:
-                if request.status == 200:
-                    data = await request.json(content_type='application/json')
-                else:
-                    embed = discord.Embed(
-                        title="Error!",
-                        description="There is something wrong with the API, please try again later",
-                        color=0xE02B2B,
-                    )
-                await context.send(data["url"])
 
     
     async def announce_sale(self, discount_amount, channelid, overridesalesave = True):

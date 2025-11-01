@@ -201,6 +201,14 @@ class Result():
                 return elem.finishingposition
             index += 1
         return -1
+    
+    def get_car_of_racer(self, racer):
+        index = 1
+        for elem in self.entries:
+            if elem.racer == racer:
+                return elem.car
+            index += 1
+        return -1
 
     def finalize_entries(self):
         for entry in self.entries:

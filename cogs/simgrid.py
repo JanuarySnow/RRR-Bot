@@ -64,12 +64,50 @@ class Simgrid(commands.Cog, name="Simgrid"):
         self.simgrid_base_url = os.getenv("SIMGRID_API_BASE", "https://www.thesimgrid.com/api/v1")
         self.simgrid_forum = 1412215127360671826
         self.simgrid_threads = {
-            "schedule":   1412215209220767744,
-            "next_race":  1412215237616336896,
+            "schedule":   1412211889584209940,
+            "next_race":  1412211943132893314,
             "leaderboard":1412215381019459666,
         }
+        self.next_race = {}
+        # "track" "date" "time"
         self._simgrid_msg_ids = {}  # key: thread_key ("schedule"/...), value: message_id (int)
-        #self.fetch_iracing_data.start()
+        self.load_iracing_data()
+        self.fetch_iracing_data.start()
+    
+    async def cog_load(self) -> None:
+        logger.info("simgrid cog loaded id=%s", id(self))
+        self.bot.simgrid = self
+
+    
+    def save_iracing_data(self):
+        data = {
+            "schedulemessageid": self._simgrid_msg_ids.get("schedule"),
+            "nextracemessageid": self._simgrid_msg_ids.get("next_race"),
+            "leaderboardmessageid": self._simgrid_msg_ids.get("leaderboard"),
+        }
+        try:
+            with open("iracingseason.json", "w") as file:
+                json.dump(data, file, indent=4)
+            logger.info("Saved data:", data)  # DEBUG PRINT
+        except Exception as e:
+            logger.info(f"Error saving iracing data: {e}")
+
+    def load_iracing_data(self):
+        try:
+            with open("iracingseason.json", "r") as file:
+                data = json.load(file)
+            logger.info("Loaded data:", data)  # DEBUG PRINT
+            # Update the flags based on JSON data
+            self._simgrid_msg_ids["schedule"] = data.get("schedulemessageid")
+            self._simgrid_msg_ids["next_race"] = data.get("nextracemessageid")
+            self._simgrid_msg_ids["leaderboard"] = data.get("leaderboardmessageid")
+            logger.info("Loaded message IDs:", self._simgrid_msg_ids)  # DEBUG PRINT
+        except FileNotFoundError:
+            logger.info("iracingseason.json not found. Using default values.")
+        except json.JSONDecodeError as e:
+            logger.info(f"Error decoding JSON: {e}")
+        except Exception as e:
+            logger.info(f"Unexpected error: {e}")
 
     # ---------- SimGrid (GridOS) integration: config ----------
     # You can set these once (e.g., in __init__) instead of every run; this code guards defaults if missing.
@@ -94,6 +132,7 @@ class Simgrid(commands.Cog, name="Simgrid"):
                 "next_race":  1412211943132893314,
                 "leaderboard":1412212004013211658,
             }
+        self.save_iracing_data()
         # In-memory upsert cache for message IDs we post/edit in threads
         if not hasattr(self, "_simgrid_msg_ids"):
             self._simgrid_msg_ids = {}  # key: thread_key ("schedule"/...), value: message_id (int)
@@ -231,6 +270,11 @@ class Simgrid(commands.Cog, name="Simgrid"):
             return []
 
     # ---------- Formatting helpers (unchanged) ----------
+
+    def _to_discord_timestamp(self, dt: datetime, style: str = "f") -> str:
+        """Return a Discord timestamp tag <t:…:style>"""
+        return f"<t:{int(dt.timestamp())}:{style}>"
+    
     def _parse_iso_utc(self, s: str):
         from datetime import datetime
         return datetime.fromisoformat(s.replace("Z", "+00:00"))
@@ -292,10 +336,13 @@ class Simgrid(commands.Cog, name="Simgrid"):
         lines = []
         for r in races_sorted:
             when_abs, when_rel = self._fmt_when(r["starts_at"])
+            dt = self._parse_iso_utc(r["starts_at"])
+            timestamp_tag = self._to_discord_timestamp(dt, "F")  # full date/time
+
+
             name = r.get("display_name") or r.get("race_name") or "Race"
             track = r.get("track", "Unknown Track")
-            results = "✅ results" if r.get("results_available") else "—"
-            lines.append(f"• **{name}** — {track}\n  {when_abs} ({when_rel}) · {results}")
+            lines.append(f"• **{name}** — {track}\n  {when_abs} ({when_rel}) {timestamp_tag}")
 
         chunk = "\n".join(lines)
         if len(chunk) <= 1000:
@@ -345,10 +392,18 @@ class Simgrid(commands.Cog, name="Simgrid"):
             return emb
 
         when_abs, when_rel = self._fmt_when(next_r["starts_at"])
+        
         emb.add_field(name="Championship", value=(champ.get("name") if champ else "—"), inline=False)
         emb.add_field(name="Race", value=next_r.get("display_name") or next_r.get("race_name") or "Race", inline=True)
         emb.add_field(name="Track", value=next_r.get("track", "—"), inline=True)
-        emb.add_field(name="When", value=f"{when_abs} ({when_rel})", inline=False)
+        when_abs, when_rel = self._fmt_when(next_r["starts_at"])
+        dt = self._parse_iso_utc(next_r["starts_at"])  # reuse what you already parse above
+        timestamp_tag = self._to_discord_timestamp(dt, "F")  # or "R" for relative
+        emb.add_field(
+            name="When",
+            value=f"{when_abs} ({when_rel})\n{timestamp_tag}",
+            inline=False
+        )
 
         registered = None
         if entries and isinstance(entries.get("entries"), list):
@@ -361,6 +416,11 @@ class Simgrid(commands.Cog, name="Simgrid"):
         if champ and champ.get("image"):
             emb.set_thumbnail(url=champ["image"])
         emb.set_footer(text="SimGrid • auto-updated")
+        dt = self._parse_iso_utc(next_r["starts_at"])
+        self.next_race["track"] = next_r.get("track", "Unknown Track")
+        self.next_race["date"] = dt.date().isoformat()   # "2025-09-14"
+        self.next_race["time"] = dt.isoformat() 
+        self.save_iracing_data()
         return emb
 
     def _build_leaderboard_embed(self, standings: dict | list | None) -> "discord.Embed":
@@ -420,6 +480,7 @@ class Simgrid(commands.Cog, name="Simgrid"):
         try:
             sent = await thread.send(embed=embed, allowed_mentions=allowed)
             self._simgrid_msg_ids[thread_key] = sent.id
+            self.save_iracing_data()
         except Exception as e:
             try:
                 logger.exception(f"Failed to send to thread {thread_id}: {e}")

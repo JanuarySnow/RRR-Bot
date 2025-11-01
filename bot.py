@@ -177,7 +177,8 @@ class DiscordBot(commands.Bot):
         self.database = None
         self.httpx_client = httpx.AsyncClient()
         self.parsed = None
-
+        self.simgrid = None
+        self.stats = None
         self.msg_nodes = {}
         self.last_task_time = 0
         self.prompt = "You are a helpful and pleasant simracer who always wants to help people get faster, you love the Mazda mx5 and love racing in the Real Rookie Racing community, you will offer simracing and setup advice for Assetto Corsa, and will talk about many subjects happily without necessarily always referring back to Assetto Corsa or simracing in general unless asked about it, you are aware of the users Buggy, Iosh, Cheesus, Potato from Real Rookie Racing, and Potato is your creator, the others ( CHeesus, Iosh, Buggy ) are all quite fast racers and you admire them greatly, but love to tease them in a good natured way, you wont always refer to them in your messages but will occasionally"
@@ -215,7 +216,7 @@ class DiscordBot(commands.Bot):
         """
         Setup the game status task of the bot.
         """
-        statuses = ["Crashing into Buggy", "Crashing into ZeroToHero", "Banning Iosh"]
+        statuses = ["Crashing into Buggy", "Murdering Go60 in T1", "Crashing into ZeroToHero", "Banning Iosh", "Punting Thorn", "Breaking the server", "Calling the Stewards", "Praising Potato"]
         await self.change_presence(activity=discord.Game(random.choice(statuses)))
 
     @status_task.before_loop

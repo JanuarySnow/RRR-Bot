@@ -4,19 +4,19 @@ from html import unescape
 import json
 
 def clean_html_tags(text):
-    text = re.sub(r'<br\s*/?>', ' ', text)  # Replace <br> tags with space
-    text = re.sub(r'</?[^>]+>', '', text)  # Remove other HTML tags
-    text = re.sub(r'[\x00-\x1F\x7F]', '', text)  # Remove control characters
+    text = re.sub(r'<br\s*/?>', ' ', text)
+    text = re.sub(r'</?[^>]+>', '', text)
+    text = re.sub(r'[\x00-\x1F\x7F]', '', text)
     return text
 
 def replace_html_entities(text):
     return unescape(text)
 
 def escape_problematic_characters(text):
-    text = re.sub(r'&quot;', '"', text)  # Replace &quot; with "
-    text = re.sub(r'\u2018|\u2019', "'", text)  # Replace curly single quotes
-    text = re.sub(r'\u201c|\u201d', '"', text)  # Replace curly double quotes
-    text = re.sub(r'\\', '', text)  # Remove backslashes
+    text = re.sub(r'&quot;', '"', text)
+    text = re.sub(r'\u2018|\u2019', "'", text)
+    text = re.sub(r'\u201c|\u201d', '"', text)
+    text = re.sub(r'\\', '', text)
     return text
 
 def sanitize_text(text):

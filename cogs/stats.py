@@ -62,6 +62,193 @@ from statistics import mean
 import httpx
 from openai import AsyncOpenAI
 import yaml
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates 
+import matplotlib.ticker as mtick
+import numpy as np
+import io
+from typing import Any
+
+TEST_CHANNEL_ID = 1328800009189195828
+
+TZ_LON = ZoneInfo("Europe/London")
+_OFFSET_RE = re.compile(r"[+-]\d{2}:\d{2}$")
+
+def _parse_result_dt(date_str: str) -> datetime:
+    """
+    Return an aware datetime in Europe/London.
+    - '...Z' -> assume UTC, convert to London
+    - explicit offset -> respect, convert to London
+    - naive -> assume it's already London local
+    """
+    s = (date_str or "").strip()
+    if not s:
+        raise ValueError("Empty result.date")
+
+    if s.endswith("Z"):
+        return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(TZ_LON)
+    if _OFFSET_RE.search(s):
+        return datetime.fromisoformat(s).astimezone(TZ_LON)
+
+    # Naive local timestamp: interpret as already in Europe/London
+    dt = datetime.fromisoformat(s)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=TZ_LON)
+    return dt.astimezone(TZ_LON)
+
+def _last_sunday(today_dt: datetime) -> datetime.date:
+    days_since_sunday = (today_dt.weekday() + 1) % 7  # Sun->0
+    return (today_dt - timedelta(days=days_since_sunday)).date()
+
+def _in_time_range(hour: int, start_hr: int, end_hr: int) -> bool:
+    return (start_hr <= hour < end_hr) if start_hr <= end_hr else (hour >= start_hr or hour < end_hr)
+
+def _safe_winner_name( result):
+    try:
+        if result.entries and result.entries[0] and getattr(result.entries[0], "racer", None):
+            return result.entries[0].racer.name or "Unknown"
+    except Exception:
+        pass
+    return "Unknown"
+
+def _track_parent_and_variant( result):
+    parent = "Unknown Track"
+    variant = ""
+    try:
+        if result.track:
+            if getattr(result.track, "parent_track", None):
+                parent = result.track.parent_track.highest_priority_name or parent
+            # If a track has no explicit name, fallback to parent only
+            variant = (result.track.name or "").strip()
+    except Exception:
+        pass
+    return parent, variant
+
+def _to_datetime(dt_val: Any) -> "datetime":
+    """
+    Best-effort conversion of entry.date to datetime (UTC-naive ok).
+    Works even if `datetime` in this module is the *module* due to later imports/monkey-patching.
+    """
+    # Local, shadow-proof references
+    try:
+        from datetime import datetime as _DT, timezone as _TZ
+    except Exception:
+        # Extremely defensive fallbacks (shouldn't happen)
+        import datetime as _dm
+        _DT = getattr(_dm, "datetime", None)
+        _TZ = getattr(_dm, "timezone", None)
+
+    # Already a datetime?
+    if _DT is not None and isinstance(dt_val, _DT):
+        return dt_val
+
+    # Unix timestamp?
+    if isinstance(dt_val, (int, float)):
+        try:
+            return _DT.utcfromtimestamp(dt_val) if _DT else dt_val  # type: ignore[return-value]
+        except Exception:
+            pass
+
+    # Parse common string formats
+    if isinstance(dt_val, str):
+        for fmt in (
+            "%Y-%m-%dT%H:%M:%S.%fZ",
+            "%Y-%m-%dT%H:%M:%S%z",
+            "%Y-%m-%dT%H:%M:%S",
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d",
+        ):
+            try:
+                d = _DT.strptime(dt_val, fmt)  # type: ignore[attr-defined]
+                # Normalize aware -> naive UTC
+                if getattr(d, "tzinfo", None) is not None and _TZ is not None:
+                    d = d.astimezone(_TZ.utc).replace(tzinfo=None)
+                return d
+            except Exception:
+                continue
+
+    # Last resort: "very old" so sorting is stable
+    try:
+        return _DT.min  # type: ignore[attr-defined]
+    except Exception:
+        # Ultimate fallback: epoch as naive
+        return datetime(1970, 1, 1)  # uses your current binding; safe enough for sorting
+
+def _name_or_str(obj: Any) -> str:
+    """Get a human-friendly name from car/track objects or plain strings."""
+    if obj is None:
+        return "Unknown"
+    for attr in ("name", "display_name", "title"):
+        if hasattr(obj, attr):
+            try:
+                val = getattr(obj, attr)
+                if isinstance(val, str) and val.strip():
+                    return val
+            except Exception:
+                pass
+    return str(obj)
+
+def _chunk_text(s: str, limit: int = 1900):
+    """Yield chunks <= limit (Discord safe)."""
+    while s:
+        yield s[:limit]
+        s = s[limit:]
+
+def _origin(u: str) -> str:
+    if not u:
+        return ""
+    p = urlparse(u)
+    return f"{p.scheme}://{p.netloc}"
+
+def _loc_match(want: str, got: str) -> bool:
+    # exact after normalization OR substring either way (helps with minor changes)
+    if not want or not got:
+        return False
+    if want == got:
+        return True
+    return want in got or got in want
+
+def _norm_text(s: str) -> str:
+    if not s:
+        return ""
+    s = s.casefold()
+    s = re.sub(r"[^\w\s,-]+", " ", s)   # keep letters/digits/space/commas/hyphens
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+_STOPWORDS = {"gp","circuit","raceway","park","ring","national","international","course","speedway","autodrome","autodrom","motor","motorsport","motorsports","grand","prix"}
+
+def _track_place_tokens(track_name: str) -> set[str]:
+    """
+    From 'Bathurst (Mount Panorama)' → {'bathurst','mount','panorama'}
+    """
+    s = _norm_text(track_name)
+    # kill parentheses & split
+    s = s.replace("(", " ").replace(")", " ")
+    tokens = {t for t in re.split(r"[\s,-]+", s) if t and t not in _STOPWORDS}
+    return tokens
+
+def _loc_match_exact_or_sub(loc_want: str, loc_got: str) -> bool:
+    # exact or substring either way after normalization
+    if not loc_want or not loc_got:
+        return False
+    if loc_want == loc_got:
+        return True
+    return loc_want in loc_got or loc_got in loc_want
+
+def _loc_match_by_tokens(place_tokens: set[str], loc_got: str) -> tuple[bool, set[str]]:
+    got = set(_norm_text(loc_got).split())
+    hits = place_tokens & got
+    return (len(hits) > 0, hits)
+
+LICENSE_ROLE_IDS = {
+    "D": 1412738687321505932,
+    "C": 1412737858388754452,
+    "B": 1412737637533351997,
+    "A": 1412736400662728787,
+    "Rookie": 1412741928826703975
+}
+
 CMD_NAME = "announcewithrolebuttons"
 WHITELIST = {"announcewithrolebuttons"}
 GUILD_ID: int = 917204555459100703
@@ -157,13 +344,19 @@ ON_READY_FIRST_DISTRIBUTE_COIN = True
 ALREADY_ANNOUNCED_BETTING = False
 ON_READY_FIRST_ANNOUNCE_CHECK = True
 
-EU_TIME = dtime(19, 0, tzinfo=ZoneInfo("Europe/London"))
+EU_TIME = dtime(18, 0, tzinfo=ZoneInfo("Europe/London"))
 US_TIME = dtime(20, 0, tzinfo=ZoneInfo("US/Central"))
-SAT_TIME = dtime(20, 0, tzinfo=ZoneInfo("Europe/London"))
+SAT_TIME = dtime(21, 0, tzinfo=ZoneInfo("Europe/London"))
 
 _FAMILY_RX = re.compile(r"^([a-z]+[0-9]*?)(?=eu|na|_|$)", re.I)
 
 _TS_RX = re.compile(r"<t:(\d+):")
+
+def _na_from_eu_same_day(eu_utc: datetime, tz_eu, tz_na, na_h=19, na_m=0) -> datetime:
+    """Take EU event (UTC), pin NA to the SAME EU local calendar date at 19:00 in NA tz."""
+    eu_local = eu_utc.astimezone(tz_eu)
+    na_local = datetime(eu_local.year, eu_local.month, eu_local.day, na_h, na_m, tzinfo=tz_na)
+    return na_local.astimezone(timezone.utc)
 
 def _raw_ts(discord_ts: str) -> Optional[int]:
     m = _TS_RX.search(discord_ts or "")
@@ -524,8 +717,11 @@ class Stats(commands.Cog, name="stats"):
         self.load_race_announcement_data()
         self.eu_race_slot.start()
         self.na_race_slot.start()
+        self.daily_reset_eu.start()
+        self.daily_reset_na.start() 
         self.sat_special_slot.start()
         self.keep_threads_alive.start()
+        self.weeklysummaryannounced = False
         self.timetrialserver = 'https://timetrial.ac.tekly.racing'
 
         self.mx5euopenserver = "https://eu.mx5.ac.tekly.racing"
@@ -544,11 +740,8 @@ class Stats(commands.Cog, name="stats"):
         self.formulanaopenserver = "https://na.f3.ac.tekly.racing"
         self.formulanararserver = "https://na.f1.rar.ac.tekly.racing"
         self.testserver = "https://eu.wcw.ac.tekly.racing"
-        self.servers = ( self.mx5euopenserver, self.mx5naopenserver, self.mx5eurrrserver, self.mx5narrrserver, self.mx5nararserver,
-                        self.gt3euopenserver, self.gt3naopenserver, self.gt3eurrrserver, self.gt3narrrserver,
-                        self.worldtourserver, self.gt4euopenserver, self.gt4naopenserver,
-                        self.formulaeuopenserver, self.formulanaopenserver,
-                         self.formulanararserver)
+        self.servers = ( self.mx5euopenserver, self.mx5naopenserver,
+                        self.gt3euopenserver, self.gt3naopenserver,self.gt4euopenserver, self.gt4naopenserver)
         self.blacklist = ["2025_7_21_19_34_RACE.json","2025_7_21_20_0_RACE.json","2025_1_4_21_37_RACE.json", "2025_1_4_22_2_RACE.json",
                           "2024_12_21_21_58_RACE.json", "2024_12_21_21_32_RACE.json",
                           "2025_2_17_20_30_RACE.json", "2025_2_17_20_57_RACE.json",
@@ -730,6 +923,7 @@ class Stats(commands.Cog, name="stats"):
         self.check_sessions_task.start()
         self.check_open_races_task.start()
         self.distribute_coins.start()
+        self.weekly_summary.start()
         self.fetch_time.start()
         self.check_for_announcements.start()
         self.serverhealthchecktimed.start()
@@ -809,6 +1003,7 @@ class Stats(commands.Cog, name="stats"):
             self.thursdaynaraceannounced = data["thursdaynaraceannounced"]["announced"]
             self.fridaynaraceannounced = data["fridaynaraceannounced"]["announced"]
             self.sundaynaraceannounced = data["sundaynaraceannounced"]["announced"]
+            self.weeklysummaryannounced = data["weeklysummaryannounced"]["announced"] if "weeklysummaryannounced" in data else True
             logger.info("self.wednesdayraceannounced on first load = " + str(self.wednesdayannounced))  # DEBUG PRINT
         except FileNotFoundError:
             logger.info("racesessionannouncements.json not found. Using default values.")
@@ -846,6 +1041,7 @@ class Stats(commands.Cog, name="stats"):
             print(f"[announce] Synced {CMD_NAME} to guild {GUILD_ID}.")
         except Exception as e:
             print(f"[announce] Guild sync check/sync failed: {e}")
+        self.bot.stats = self
 
 
 
@@ -882,6 +1078,7 @@ class Stats(commands.Cog, name="stats"):
             "thursdaynaraceannounced": {"announced": self.thursdaynaraceannounced},
             "fridaynaraceannounced": {"announced": self.fridaynaraceannounced},
             "sundaynaraceannounced": {"announced": self.sundaynaraceannounced},
+            "weeklysummaryannounced": {"announced": self.weeklysummaryannounced}
         }
         try:
             with open("racesessionannouncements.json", "w") as file:
@@ -1077,57 +1274,251 @@ class Stats(commands.Cog, name="stats"):
             self.currenteventbet = None
             self.save_current_event_bet()
 
-    @commands.hybrid_command(name="updateuserstats", description="updateuserstats")
+    @commands.hybrid_command(name="backdatelicenses", description="backdatelicenses")
     @commands.is_owner()
-    async def updateuserstats(self, ctx):
+    async def backdatelicenses(self, ctx):
+        licensechanges = []
         for userid in self.user_data:
             guid = self.user_data[userid]["guid"]
             racer = self.parsed.get_racer(guid)
             if racer:
-                
-                prevnumraces = self.user_data[userid].get("numraces", 0)
-                self.user_data[userid]["numraces"] = racer.numraces
-                prevwins = self.user_data[userid].get("wins", 0)
-                self.user_data[userid]["wins"] = racer.wins
-                self.user_data[userid]["gt3wins"] = racer.gt3wins
-                self.user_data[userid]["mx5wins"] = racer.mx5wins
-                prevpodiums = self.user_data[userid].get("podiums", 0)
-                self.user_data[userid]["podiums"] = racer.podiums
-                self.user_data[userid]["gt3podiums"] = racer.gt3podiums
-                self.user_data[userid]["mx5podiums"] = racer.mx5podiums
-                self.user_data[userid]["totallaps"] = racer.totallaps
-                self.user_data[userid]["mx5laps"] = racer.mx5laps
-                self.user_data[userid]["gt3laps"] = racer.gt3laps
-                self.user_data[userid]["incidentsperkm"] = racer.incidentsperkm
-                self.user_data[userid]["averageincidents"] = racer.averageincidents
-                self.user_data[userid]["averageincidentsgt3"] = racer.averageincidentsgt3
-                self.user_data[userid]["averageincidentsmx5"] = racer.averageincidentsmx5
-                self.user_data[userid]["numracesgt3"] = racer.numracesgt3
-                self.user_data[userid]["numracesmx5"] = racer.numracesmx5
-                self.user_data[userid]["laptimeconsistency"] = racer.laptimeconsistency
-                self.user_data[userid]["laptimeconsistencymx5"] = racer.laptimeconsistencymx5
-                self.user_data[userid]["laptimeconsistencygt3"] = racer.laptimeconsistencygt3
-                self.user_data[userid]["pace_percentage_mx5"] = racer.pace_percentage_mx5
-                self.user_data[userid]["distancedriven"] = racer.distancedriven
-                self.user_data[userid]["pace_percentage_gt3"] = racer.pace_percentage_gt3
-                prevrating = self.user_data[userid].get("rating", 1500)
-                self.user_data[userid]["rating"] = racer.rating
-                prevlicenseclass = self.user_data[userid].get("licenseclass", "R")
-                self.user_data[userid]["licenseclass"] = racer.licenseclass
-                self.user_data[userid]["safetyrating"] = racer.safety_rating
-                if prevlicenseclass != racer.licenseclass:
-                    milestone = {}
-                    milestone["type"] = "License class up"
-                    milestone["old"] = prevlicenseclass
-                    milestone["new"] = racer.licenseclass
-                    milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    milestone["id"] = userid
-                    self.milestoneawards.append(milestone)
+                racer.recompute_license() # ensure license is up to date
+                license = racer.licenseclass
+                licensechange = {}
+                licensechange["new"] = license
+                licensechange["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                licensechange["id"] = userid
+                licensechanges.append(licensechange)
+        await self.handle_license_roles(licensechanges)
         self.save_user_data()
-        await ctx.send("Updated user stats")
+        await ctx.send("Backdated all licenses")
 
-    
+    async def update_one_user_stats(self, userid, racer):
+        logger.info(f"Updating stats for user ID {userid} with GUID {racer.guid}")
+        licensechanges = []
+        prevnumraces = self.user_data[userid].get("numraces", 0)
+        self.user_data[userid]["numraces"] = racer.numraces
+        prevwins = self.user_data[userid].get("wins", 0)
+        self.user_data[userid]["wins"] = racer.wins
+        self.user_data[userid]["gt3wins"] = racer.gt3wins
+        self.user_data[userid]["mx5wins"] = racer.mx5wins
+        prevpodiums = self.user_data[userid].get("podiums", 0)
+        self.user_data[userid]["podiums"] = racer.podiums
+        self.user_data[userid]["gt3podiums"] = racer.gt3podiums
+        self.user_data[userid]["mx5podiums"] = racer.mx5podiums
+        self.user_data[userid]["totallaps"] = racer.totallaps
+        self.user_data[userid]["mx5laps"] = racer.mx5laps
+        self.user_data[userid]["gt3laps"] = racer.gt3laps
+        self.user_data[userid]["incidentsperkm"] = racer.incidentsperkm
+        self.user_data[userid]["averageincidents"] = racer.averageincidents
+        self.user_data[userid]["averageincidentsgt3"] = racer.averageincidentsgt3
+        self.user_data[userid]["averageincidentsmx5"] = racer.averageincidentsmx5
+        self.user_data[userid]["numracesgt3"] = racer.numracesgt3
+        self.user_data[userid]["numracesmx5"] = racer.numracesmx5
+        self.user_data[userid]["laptimeconsistency"] = racer.laptimeconsistency
+        self.user_data[userid]["laptimeconsistencymx5"] = racer.laptimeconsistencymx5
+        self.user_data[userid]["laptimeconsistencygt3"] = racer.laptimeconsistencygt3
+        self.user_data[userid]["pace_percentage_mx5"] = racer.pace_percentage_mx5
+        self.user_data[userid]["distancedriven"] = racer.distancedriven
+        self.user_data[userid]["pace_percentage_gt3"] = racer.pace_percentage_gt3
+        prevrating = self.user_data[userid].get("rating", 1500)
+        self.user_data[userid]["rating"] = racer.rating
+        prevlicenseclass = self.user_data[userid].get("licenseclass", "Rookie")
+        self.user_data[userid]["licenseclass"] = racer.licenseclass
+        self.user_data[userid]["safetyrating"] = racer.safety_rating
+        if self.user_data[userid].get("guid", None) == "76561198211020029":
+            logger.info("user HMG" + str(self.user_data[userid]))
+            logger.info("his license in memory is " + str(racer.licenseclass))
+            logger.info("his license in user_data is " + str(prevlicenseclass))
+        if prevlicenseclass != racer.licenseclass:
+            milestone = {}
+            milestone["type"] = "License"
+            milestone["old"] = prevlicenseclass
+            milestone["new"] = racer.licenseclass
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+            licensechange = {}
+            licensechange["old"] = prevlicenseclass
+            licensechange["new"] = racer.licenseclass
+            licensechange["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            licensechange["id"] = userid
+            licensechanges.append(licensechange)
+        if prevnumraces < 5 and racer.numraces >= 5:
+            milestone = {}
+            milestone["type"] = "over5"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+        if prevnumraces < 100 and racer.numraces >= 100:
+            milestone = {}
+            milestone["type"] = "over100"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        if prevwins == 0 and racer.wins >= 1:
+            milestone = {}
+            milestone["type"] = "firstwin"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        if prevpodiums == 0 and racer.podiums >= 1:
+            milestone = {}
+            milestone["type"] = "firstpodium"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        if prevrating < 1600 and racer.rating >= 1600:
+            milestone = {}
+            milestone["type"] = "rating1600"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        if prevrating < 1700 and racer.rating >= 1700:
+            milestone = {}
+            milestone["type"] = "rating1700"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        if prevrating < 1800 and racer.rating >= 1800:
+            milestone = {}
+            milestone["type"] = "rating1800"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        if prevrating < 1900 and racer.rating >= 1900:
+            milestone = {}
+            milestone["type"] = "rating1900"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        if prevrating < 2000 and racer.rating >= 2000:
+            milestone = {}
+            milestone["type"] = "rating2000"
+            milestone["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            milestone["id"] = userid
+            self.milestoneawards.append(milestone)
+        return licensechanges
 
+    async def updateuserstats(self, guid=None):
+        all_license_changes = []
+
+        if not guid:
+            logger.info("No guid provided, updating all users")
+            for userid in self.user_data:
+                guid_i = self.user_data[userid]["guid"]
+                racer = self.parsed.get_racer(guid_i)
+                if racer:
+                    racer.recompute_license()
+                    changes = await self.update_one_user_stats(userid, racer)
+                    if changes:
+                        all_license_changes.extend(changes)
+                        for change in changes:
+                            logger.info(
+                                f"License changes for user ID {userid}: {change['old']} -> {change['new']} on {change['date']}"
+                            )
+
+            await self.handle_milestone_awards()
+            if all_license_changes:
+                await self.handle_license_roles(all_license_changes)
+
+        else:
+            logger.info("guid provided, updating one user: " + guid)
+            for userid in self.user_data:
+                if self.user_data[userid]["guid"] == guid:
+                    racer = self.parsed.get_racer(guid)
+                    if racer:
+                        changes = await self.update_one_user_stats(userid, racer)
+                        if changes:
+                            await self.handle_milestone_awards()
+                            await self.handle_license_roles(changes)
+
+        self.save_user_data()
+
+
+    async def handle_license_roles(self, licensechanges):
+        guild = self.bot.get_guild(917204555459100703)
+
+        for change in licensechanges:
+            userid = int(change["id"])
+            member = guild.get_member(userid) or await guild.fetch_member(userid)
+            if not member:
+                continue
+
+            new_cls = change["new"]
+            new_role_id = LICENSE_ROLE_IDS.get(new_cls)
+            if not new_role_id:
+                continue
+
+            new_role = guild.get_role(new_role_id)
+
+            # Remove all other license roles first (helps demotions when role stacks are quirky)
+            other_role_ids = set(LICENSE_ROLE_IDS.values()) - {new_role_id}
+            roles_to_remove = [r for r in (guild.get_role(rid) for rid in other_role_ids) if r and r in member.roles]
+            if roles_to_remove:
+                await member.remove_roles(*roles_to_remove, reason="License updated")
+
+            # Add the target role
+            if new_role and new_role not in member.roles:
+                await member.add_roles(new_role, reason="License promotion/demotion")
+
+            await asyncio.sleep(1.5)
+
+    async def handle_milestone_awards(self):
+        if not self.milestoneawards:
+            return
+        channel = self.bot.get_channel(1381247109080158301)
+        for milestone in self.milestoneawards:
+            userid = milestone["id"]
+            user = self.bot.get_user(int(userid))
+            if not user:
+                continue
+            if milestone["type"] == "License":
+                old = milestone["old"]
+                new = milestone["new"]
+                embed = discord.Embed(
+                    title="License Change!",
+                    description=f" {user.mention} your racing license has changed from {old} class to {new} class!",
+                    color=discord.Color.gold()
+                )
+                await channel.send(embed=embed)
+            elif milestone["type"] == "over5":
+                embed = discord.Embed(
+                    title="Racing Milestone!",
+                    description=f"Congratulations {user.mention} on completing 5 races with us! you are now eligible to see your stats in <#{1381247109080158301}> , and you can progress out of the Rookie class!")
+            elif milestone["type"] == "over100":
+                embed = discord.Embed(
+                    title="Racing Milestone!",
+                    description=f"Congratulations {user.mention} on completing 100 races with us! wow!")
+            elif milestone["type"] == "firstwin":
+                embed = discord.Embed(
+                    title="First Win!",
+                    description=f"Congratulations {user.mention} on your first win with us! keep it up!")
+            elif milestone["type"] == "firstpodium":
+                embed = discord.Embed(
+                    title="First Podium!",
+                    description=f"Congratulations {user.mention} on your first podium with us! keep it up!")
+            elif milestone["type"] == "rating1600":
+                embed = discord.Embed(
+                    title="Rating Milestone!",
+                    description=f"Congratulations {user.mention} on reaching a rating of 1600! showing strong progression there! keep it up!")
+            elif milestone["type"] == "rating1700":
+                embed = discord.Embed(
+                    title="Rating Milestone!",
+                    description=f"Congratulations {user.mention} on reaching a rating of 1700! very solid rating! keep it up!")
+            elif milestone["type"] == "rating1800":
+                embed = discord.Embed(
+                    title="Rating Milestone!",
+                    description=f"Congratulations {user.mention} on reaching a rating of 1800! pretty damn good! keep it up!")
+            elif milestone["type"] == "rating1900":
+                embed = discord.Embed(
+                    title="Rating Milestone!",
+                    description=f"Congratulations {user.mention} on reaching a rating of 1900! you are one of our best drivers noscw! keep it up!")
+            elif milestone["type"] == "rating2000":
+                embed = discord.Embed(
+                    title="Rating Milestone!",
+                    description=f"Congratulations {user.mention} on reaching a rating of 2000! WOW you are in the elite few now!")
+        self.milestoneawards = []
+        self.save_user_data()
 
     @commands.hybrid_command(name="top10collided", description="top10collided")
     async def top10collided(self, ctx, query: str = None):
@@ -1161,7 +1552,7 @@ class Stats(commands.Cog, name="stats"):
                 # lower 95% bound for Poisson rate: λ_lower = χ²_{α/2,2C}/2N
                 lcb = chi2.ppf(alpha/2, 2*C) / (2 * N)
             else:
-                # C == 0 → zero collisions, bound is 0
+                # C == 0 zero collisions, bound is 0
                 lcb = 0.0
             avg_list.append((other, C, N, lcb))
 
@@ -1195,13 +1586,35 @@ class Stats(commands.Cog, name="stats"):
 
     @commands.hybrid_command(name="register", description="register steamid")
     async def register(self, ctx, steam_guid: str):
+        logger.info(f"Register command invoked by {ctx.author} with Steam GUID: {steam_guid}")
         user_id = str(ctx.author.id)
         self.user_data[user_id] = {}
         self.user_data[user_id]["guid"] = steam_guid
         self.user_data[user_id]["spudcoins"] = 1000
         self.user_data[user_id]["activebets"] = []
         self.save_user_data()
+        await self.updateuserstats(steam_guid)
+        await self.updateuserroles(ctx)
+        self.save_user_data()
         await ctx.send(f'Registered Steam GUID {steam_guid} for Discord user {ctx.author.name}')
+
+    async def updateuserroles(self, ctx):
+        logger.info(f"Updating roles for user {ctx.author}")
+        user_id = str(ctx.author.id)
+        if user_id in self.user_data:
+            guid = self.user_data[user_id]["guid"]
+            racer = self.parsed.get_racer(guid)
+            if racer:
+                license = racer.licenseclass
+                guild = self.bot.get_guild(917204555459100703)
+                member = guild.get_member(int(user_id))
+                if member:
+                    role_id = LICENSE_ROLE_IDS.get(license)
+                    if role_id:
+                        role = guild.get_role(role_id)
+                        if role and role not in member.roles:
+                            await member.add_roles(role, reason="License assignment on registration")
+                            await asyncio.sleep(1.5)
 
     @commands.hybrid_command(name="mycoins", description="get my coin amount")
     async def mycoins(self, ctx, query: str = None):
@@ -1211,6 +1624,382 @@ class Stats(commands.Cog, name="stats"):
             coins = self.user_data[user_id]["spudcoins"]
             await ctx.send(f'You have {coins} spudcoins!')
 
+    @commands.hybrid_command(name="newracers", description="New racers per month (historical)")
+    async def newracers(self, ctx):
+        # Monkeypatch-proof datetime
+        import datetime as _dt
+        DT, UTC = _dt.datetime, _dt.timezone.utc
+
+        def _norm(dt):
+            if isinstance(dt, DT):
+                return dt.astimezone(UTC).replace(tzinfo=None) if dt.tzinfo else dt
+            d = _dt.datetime.fromisoformat(str(dt).replace("Z", "+00:00"))
+            return d.astimezone(UTC).replace(tzinfo=None) if d.tzinfo else d
+
+        try:
+            await ctx.defer()
+        except Exception:
+            pass
+
+        # Build YYYY-MM -> count from first_seen
+        counts = {}
+        for hist in self.parsed.retention.histories.values():
+            fs = _norm(hist.first_seen)
+            key = f"{fs.year:04d}-{fs.month:02d}"
+            counts[key] = counts.get(key, 0) + 1
+
+        if not counts:
+            await ctx.reply("No data for new racers.")
+            return
+
+        # Sort by month key, build x/y
+        months = sorted(counts.keys())
+        y = np.array([counts[m] for m in months], dtype=float)
+
+        # 3-month rolling average for a smoother trend
+        def rolling_avg(a, w=3):
+            if len(a) < w:
+                return None
+            c = np.convolve(a, np.ones(w), 'valid') / w
+            # pad to align with right edge
+            pad = [np.nan]*(len(a)-len(c)) + list(c)
+            return np.array(pad, dtype=float)
+
+        y_ma = rolling_avg(y, 3)
+
+        # ----- Plot -----
+        fig, ax = plt.subplots(figsize=(10, 4.6))
+        ax.bar(np.arange(len(months)), y)
+        if y_ma is not None:
+            ax.plot(np.arange(len(months)), y_ma, linewidth=2)
+
+        ax.set_title("New Racers per Month")
+        ax.set_ylabel("Count")
+        ax.set_xlabel("Cohort month (first race)")
+        ax.set_xticks(np.arange(len(months))[::max(1, len(months)//12)])
+        ax.set_xticklabels([m for i, m in enumerate(months) if i % max(1, len(months)//12)==0], rotation=45, ha="right")
+        ax.grid(True, axis="y", linewidth=0.5)
+
+        # Save -> bytes
+        buf = io.BytesIO()
+        fig.tight_layout()
+        fig.savefig(buf, format="png", dpi=160, bbox_inches="tight")
+        plt.close(fig)
+        buf.seek(0)
+
+        # Recent vs previous 12-month summary
+        def sum_window(vals, n):
+            return float(np.nansum(vals[-n:])) if len(vals) >= n else float(np.nansum(vals))
+        last12 = sum_window(y, 12)
+        prev12 = sum_window(y[:-12], 12) if len(y) > 12 else np.nan
+        delta = (last12 - prev12) if not math.isnan(prev12) else float('nan')
+
+        desc = [
+            f"**Last 12 months new racers:** {int(last12)}",
+            f"**Previous 12 months:** {('n/a' if math.isnan(prev12) else int(prev12))}",
+            f"**Δ:** {('n/a' if math.isnan(delta) else ('+' if delta>=0 else '') + str(int(delta)))}",
+            "_Line = 3-month rolling average._"
+        ]
+        embed = discord.Embed(title="New Racers per Month", description="\n".join(desc), color=0x2F80ED)
+        file = discord.File(buf, filename="new_racers_per_month.png")
+        embed.set_image(url="attachment://new_racers_per_month.png")
+        await ctx.reply(embed=embed, file=file)
+
+    from discord.ext import commands
+    import discord, io, math
+    import numpy as np
+    import matplotlib.pyplot as plt
+    from collections import defaultdict
+
+    @commands.hybrid_command(name="churn_by_elo", description="Churn rate by ELO over time (cohorted by first-seen month)")
+    async def churn_by_elo(self, ctx, horizon_days: int = 90):
+        import datetime as _dt
+        DT, TD, UTC = _dt.datetime, _dt.timedelta, _dt.timezone.utc
+
+        def _norm(dt):
+            if isinstance(dt, DT):
+                return dt.astimezone(UTC).replace(tzinfo=None) if dt.tzinfo else dt
+            d = _dt.datetime.fromisoformat(str(dt).replace("Z", "+00:00"))
+            return d.astimezone(UTC).replace(tzinfo=None) if d.tzinfo else d
+
+        try:
+            await ctx.defer()
+        except Exception:
+            pass
+
+        # ---- Build (per racer) their last_seen and elo_at_last ----
+        # Gather all entries (date, ratingchange) per GUID
+        per_guid_entries = defaultdict(list)
+        for res in self.parsed.raceresults:
+            for e in res.entries:
+                per_guid_entries[e.racer.guid].append((_norm(e.date), float(e.ratingchange)))
+
+        per_racer = {}
+        max_seen = None
+        for guid, hist in self.parsed.retention.histories.items():
+            entries = sorted(per_guid_entries.get(guid, []), key=lambda x: x[0])
+            if entries:
+                elo = 1500.0
+                for dt_val, delta in entries:
+                    elo += delta
+                last_seen = entries[-1][0]
+                elo_last = elo
+            else:
+                # Fallback: never found entries (should be rare)
+                last_seen = _norm(hist.first_seen)
+                elo_last = 1500.0
+            per_racer[guid] = {"first_seen": _norm(hist.first_seen), "last_seen": last_seen, "elo_at_last": elo_last}
+            if (max_seen is None) or (last_seen > max_seen):
+                max_seen = last_seen
+
+        if max_seen is None:
+            await ctx.reply("No race data to analyze churn.")
+            return
+
+        anchor = max_seen  # reference point
+        H = TD(days=int(horizon_days))
+
+        # Churn flag
+        for info in per_racer.values():
+            info["churned"] = (info["last_seen"] + H) <= anchor
+
+        # ---- Cohort (first_seen month) × Elo tier bucketing ----
+        # Elo tiers: tweak thresholds as you like
+        # Rookie: <1400, Average: 1400–1600, Pro: >1600
+        def elo_tier(elo):
+            if elo < 1400: return "Rookie (<1400)"
+            if elo <= 1600: return "Average (1400–1600)"
+            return "Pro (>1600)"
+
+        # Aggregate per cohort month
+        cohort_keys = set()
+        agg = defaultdict(lambda: defaultdict(lambda: {"tot":0, "churn":0}))
+        for guid, info in per_racer.items():
+            fs = info["first_seen"]
+            cohort = f"{fs.year:04d}-{fs.month:02d}"
+            cohort_keys.add(cohort)
+            tier = elo_tier(info["elo_at_last"])
+            agg[cohort][tier]["tot"] += 1
+            if info["churned"]:
+                agg[cohort][tier]["churn"] += 1
+
+        months = sorted(cohort_keys)
+        tiers = ["Rookie (<1400)", "Average (1400–1600)", "Pro (>1600)"]
+
+        # Build arrays per tier over months
+        series = {t: [] for t in tiers}
+        ns     = {t: [] for t in tiers}  # sample sizes for tooltips/labels
+        for m in months:
+            buckets = agg[m]
+            for t in tiers:
+                tot = buckets[t]["tot"] if t in buckets else 0
+                ch  = buckets[t]["churn"] if t in buckets else 0
+                rate = (ch / tot) if tot else np.nan
+                series[t].append(rate)
+                ns[t].append(tot)
+
+        # ---- Plot ----
+        x = np.arange(len(months))
+        fig, ax = plt.subplots(figsize=(10.5, 5))
+        # One line per tier
+        for t in tiers:
+            ax.plot(x, series[t], marker='o', linewidth=2, label=t)
+
+        ax.set_title(f"Churn Rate by ELO Tier Over Time (horizon={horizon_days}d)")
+        ax.set_ylabel("Churn rate")
+        ax.set_ylim(0, 1)
+        ax.set_xticks(x[::max(1, len(x)//12)])
+        ax.set_xticklabels([months[i] for i in x[::max(1, len(x)//12)]], rotation=45, ha="right")
+        ax.grid(True, axis="y", linewidth=0.5)
+        ax.legend()
+
+        # Optional: annotate small cohorts (n < 10) with a subtle marker
+        for t in tiers:
+            for i, n in enumerate(ns[t]):
+                if n and n < 10 and not math.isnan(series[t][i]):
+                    ax.text(i, series[t][i], "n<10", ha="center", va="bottom", fontsize=7)
+
+        buf = io.BytesIO()
+        fig.tight_layout()
+        fig.savefig(buf, format="png", dpi=160, bbox_inches="tight")
+        plt.close(fig)
+        buf.seek(0)
+
+        # Summary card: last vs previous 12 months by tier
+        def window_avg(vals, n=12):
+            arr = np.array(vals, dtype=float)
+            if len(arr) < n:
+                return float(np.nanmean(arr)) if len(arr) else float('nan')
+            return float(np.nanmean(arr[-n:]))
+
+        def prev_window_avg(vals, n=12):
+            arr = np.array(vals, dtype=float)
+            if len(arr) <= n:
+                return float('nan')
+            prev = arr[:-n]
+            if len(prev) < n:
+                return float(np.nanmean(prev))
+            return float(np.nanmean(prev[-n:]))
+
+        lines = []
+        for t in tiers:
+            cur = window_avg(series[t], 12)
+            prv = prev_window_avg(series[t], 12)
+            delta_pp = ((cur - prv) * 100.0) if (not math.isnan(cur) and not math.isnan(prv)) else float('nan')
+            def pct(x): return ("n/a" if math.isnan(x) else f"{x*100:.1f}%")
+            lines.append(f"**{t}:** {pct(cur)}  (prev {pct(prv)}, Δ {('n/a' if math.isnan(delta_pp) else f'{delta_pp:+.1f} pp')})")
+
+        desc = [
+            f"Anchor: {anchor.date()}  ·  Horizon: {horizon_days}d",
+            "Cohorts = first-seen month (when racer first joined). ELO tier = **ELO at last race**.",
+            *lines
+        ]
+        embed = discord.Embed(title="Churn Rate by ELO Over Time", description="\n".join(desc), color=0x2F80ED)
+        file = discord.File(buf, filename="churn_by_elo_over_time.png")
+        embed.set_image(url="attachment://churn_by_elo_over_time.png")
+        await ctx.reply(embed=embed, file=file)
+
+
+    @commands.hybrid_command(name="retentionreport", description="retention")
+    async def retentionreport(self, ctx, query: str = None):
+        import datetime as _dt
+        DT = _dt.datetime
+        TD = _dt.timedelta
+        UTC = _dt.timezone.utc
+
+        def _norm(dt):
+            """Return NAIVE UTC datetime."""
+            if isinstance(dt, DT):
+                if dt.tzinfo is not None:
+                    return dt.astimezone(UTC).replace(tzinfo=None)
+                return dt
+            # strings/other: try ISO first, handling trailing 'Z'
+            try:
+                d = _dt.datetime.fromisoformat(str(dt).replace("Z", "+00:00"))
+            except Exception:
+                # last resort: treat as epoch seconds
+                d = _dt.datetime.fromtimestamp(int(dt), UTC)
+            if d.tzinfo is not None:
+                d = d.astimezone(UTC).replace(tzinfo=None)
+            return d
+
+        try:
+            await ctx.defer()
+        except Exception:
+            pass
+
+        # --- Normalize tracker data to NAIVE UTC so internal comparisons won't error ---
+        # (safe to run each invocation; it's idempotent)
+        for hist in self.parsed.retention.histories.values():
+            hist.first_seen = _norm(hist.first_seen)
+            hist.races = set(_norm(d) for d in hist.races)
+
+        horizons = (30, 90, 180)
+        rows = self.parsed.retention.cohort_retention_table(horizons_days=horizons, min_extra_races=1)
+
+        # Windows (make them NAIVE UTC too)
+        new_start = _norm(DT(2025, 4, 1))
+        new_end   = _norm(DT(2025, 10, 1))
+        prev_start = _norm(DT(2024, 10, 1))
+        prev_end   = _norm(DT(2025, 4, 1))
+
+        compare_180 = self.parsed.retention.window_retention_compare(new_start, new_end, prev_start, prev_end, horizon_days=180)
+        compare_90  = self.parsed.retention.window_retention_compare(new_start, new_end, prev_start, prev_end, horizon_days=90)
+
+        # ---- Build cohort heatmap matrix ----
+        def _parse_cohort_key(s):
+            y, m = s.split("-")
+            return int(y), int(m)
+
+        rows_sorted = sorted(rows, key=lambda r: _parse_cohort_key(r["cohort"]))
+
+        # Latest race date (normalize just in case)
+        max_race_dt = None
+        for hist in self.parsed.retention.histories.values():
+            for d in hist.races:
+                d = _norm(d)
+                if (max_race_dt is None) or (d > max_race_dt):
+                    max_race_dt = d
+        if max_race_dt is None:
+            await ctx.reply("No races found to build the retention report.")
+            return
+
+        import numpy as np
+        import io
+        import matplotlib.pyplot as plt
+        import math
+
+        cohorts = [r["cohort"] for r in rows_sorted]
+        n_rows = len(cohorts)
+        n_cols = len(horizons)
+        mat = np.full((n_rows, n_cols), np.nan, dtype=float)
+        labels = [["" for _ in range(n_cols)] for _ in range(n_rows)]
+        counts = [r["new_count"] for r in rows_sorted]
+
+        def first_of_month(cohort_str):
+            y, m = map(int, cohort_str.split("-"))
+            return DT(y, m, 1)  # naive UTC
+
+        for i, r in enumerate(rows_sorted):
+            c0 = first_of_month(r["cohort"])
+            for j, h in enumerate(horizons):
+                if c0 + TD(days=h) > max_race_dt:
+                    labels[i][j] = "–"
+                    continue
+                val = r[f"r{h}"]
+                mat[i, j] = val
+                labels[i][j] = f"{int(round(val*100)):d}%"
+
+        fig, ax = plt.subplots(figsize=(7.5, max(3.5, 0.35 * n_rows)))
+        im = ax.imshow(mat, aspect='auto', vmin=0.0, vmax=1.0)
+
+        ax.set_xticks(range(n_cols))
+        ax.set_xticklabels([f"R{h}" for h in horizons])
+        ax.set_yticks(range(n_rows))
+        ax.set_yticklabels(cohorts)
+
+        ax.set_xticks(np.arange(-.5, n_cols, 1), minor=True)
+        ax.set_yticks(np.arange(-.5, n_rows, 1), minor=True)
+        ax.grid(which="minor", linewidth=0.5)
+        ax.tick_params(which="minor", bottom=False, left=False)
+
+        for i in range(n_rows):
+            for j in range(n_cols):
+                txt = labels[i][j]
+                if txt:
+                    ax.text(j, i, txt, ha="center", va="center", fontsize=9)
+
+        cbar = fig.colorbar(im, ax=ax)
+        cbar.ax.set_ylabel("Retention rate", rotation=270, labelpad=12)
+
+        ax.set_title("New Racer Retention by Cohort (first-seen month)")
+        for i, n in enumerate(counts):
+            ax.text(n_cols + 0.25, i, f"n={n}", va="center", fontsize=8)
+
+        plt.subplots_adjust(right=0.85)
+
+        buf = io.BytesIO()
+        fig.savefig(buf, format="png", dpi=160, bbox_inches="tight")
+        plt.close(fig)
+        buf.seek(0)
+
+        def pct(x: float) -> str:
+            return f"{x*100:.1f}%" if (x is not None and not math.isnan(x)) else "n/a"
+
+        title = "New Racer Retention"
+        desc_lines = [
+            f"**Window (last 6 months)** {new_start.date()} → {new_end.date()}",
+            f"**vs Previous 6 months** {prev_start.date()} → {prev_end.date()}",
+            "",
+            f"**R90:** {pct(compare_90['new_rate'])} (prev {pct(compare_90['prev_rate'])}, Δ {compare_90['delta_pp']:.1f} pp)",
+            f"**R180:** {pct(compare_180['new_rate'])} (prev {pct(compare_180['prev_rate'])}, Δ {compare_180['delta_pp']:.1f} pp)",
+            "",
+            "_Cells with “–” are censored (insufficient time elapsed for that horizon)._"
+        ]
+        embed = discord.Embed(title=title, description="\n".join(desc_lines), color=0x2F80ED)
+        file = discord.File(buf, filename="retention_heatmap.png")
+        embed.set_image(url="attachment://retention_heatmap.png")
+        await ctx.reply(embed=embed, file=file)
 
     def calculate_win_probabilities(self,elo_ratings, k=math.log(6) / 800):
         """
@@ -1282,8 +2071,6 @@ class Stats(commands.Cog, name="stats"):
             await self.on_race_start(region="EU", event="mx5")
         elif wd == 1:    # Tuesday
             await self.on_race_start(region="EU", event="touringcar")
-        elif wd == 3:    # Thursday
-            await self.on_race_start(region="EU", event="formula")
         elif wd == 4:    # Friday
             await self.on_race_start(region="EU", event="gt3")
 
@@ -1296,108 +2083,747 @@ class Stats(commands.Cog, name="stats"):
             await self.on_race_start(region="NA", event="mx5")
         elif wd == 1:
             await self.on_race_start(region="NA", event="touringcar")
-        elif wd == 3:
-            await self.on_race_start(region="NA", event="formula")
         elif wd == 4:
             await self.on_race_start(region="NA", event="gt3")
 
-    @tasks.loop(time=SAT_TIME)
-    async def sat_special_slot(self):
-        # fires Saturday at 20:00 Europe/London
-        now = self.get_current_time("Europe/London")
-        if now.weekday() == 5:
-            await self.on_race_start(region="EU", event="worldtour")
+    @tasks.loop(time=datetime.time(0, 1, tzinfo=ZoneInfo("Europe/London")))
+    async def daily_reset_eu(self):
+        # Reset all EU/NA race flags once per UK day (simple & robust)
+        self.clear_session_flags()
+        self.save_race_announcement_data()
+        logger.info("Daily reset (EU day) completed.")
 
-    async def on_race_start(self, region: str, event: str):
+    
+
+    @tasks.loop(time=datetime.time(0, 1, tzinfo=ZoneInfo("US/Central")))
+    async def daily_reset_na(self):
+        # Optional: if you prefer resets by NA day too, keep this.
+        # If you only want one daily reset, you can remove this loop.
+        self.clear_session_flags()
+        self.save_race_announcement_data()
+        logger.info("Daily reset (NA day) completed.")
+
+    @commands.hybrid_command(name="testracestart", description="testracestart")
+    async def testracestart(self, ctx):
+        await self.on_race_start("EU", "mx5", test=True)
+
+    async def on_race_start(
+        self,
+        region: str,
+        event: str,
+        *,
+        test: bool = False,
+        test_channel_id: int | None = None
+    ):
         roles = []
         leaguechannel = 1317629640793264229
-        announcestr = ""
+
+        # ─────────────────────────────
+        # TEST MODE: pretend it's Monday MX5 (OPEN), do not touch flags,
+        # and send to the testing channel.
+        # ─────────────────────────────
+        if test:
+            # force “as-if” Monday
+            day_name = "monday"
+            # force series to MX-5 open for the test (as requested)
+            event = "mx5"
+
+            # role & channel mapping (same logic as normal)
+            if region.upper() == "EU":
+                leaguechannel = 1366724512632148028
+                roles.append(1117573763869978775)
+            else:
+                leaguechannel = 1366724512632148028
+                roles.append(1117573512064946196)
+
+            # season detection: test assumes OPEN
+            isseason = False
+
+            # build embed
+            emb = await self._build_race_start_embed(event, region, isseason, leaguechannel)
+
+            # content (mentions in content so they actually ping if you enable that later)
+            mentions = " ".join([f"<@&{rid}>" for rid in roles])
+            season_text = "This is **NOT** a season race; it's an **Open** race!"
+            content = (f"{mentions} " if mentions else "") + \
+                    f"**TEST** — Race session announcement preview.\n" \
+                    f"The **Race** session has started! Check <#{leaguechannel}> for details. {season_text}"
+
+            # target test channel
+            target_id = test_channel_id or TEST_CHANNEL_ID
+            channel = self.bot.get_channel(target_id) or await self.bot.fetch_channel(target_id)
+            if channel is None:
+                logger.info(f"Test channel not found: {target_id}")
+                return
+
+            await channel.send(content=content, embed=emb)
+            return
+
+        # ─────────────────────────────
+        # NORMAL MODE (unchanged logic)
+        # ─────────────────────────────
         tz = ZoneInfo("Europe/London") if region == "EU" else ZoneInfo("US/Central")
-        today = datetime.now(tz).weekday()            # 0=Mon .. 6=Sun
+        today = datetime.now(tz).weekday()
         day_name = self.session_days[today]
-        flag_attr = f"{day_name}{region.lower()}raceannounced"
-        # for a “normal” weekday race (Mon–Fri):
+
+        # Determine the correct daily flag
         if event in {"mx5", "touringcar", "formula", "gt3"}:
             flag_attr = f"{day_name}{region.lower()}raceannounced"
-        # for your Saturday “worldtour” slot you said you have a single flag:
         elif event == "worldtour":
             flag_attr = "saturdayraceannounced"
         else:
-            # nothing to do for unknown event
             return
+
+        # Avoid duplicate announcements
         if getattr(self, flag_attr, False):
-            logger.info("returning early as already announced for this region, even though it should only occur at that time")
-            return  # already announced today for this region
-        self.clear_session_flags()
+            logger.info("Race start already announced for this region today; skipping.")
+            return
+
+        # Role & channel routing
         if event == "mx5":
             leaguechannel = 1366724512632148028
-            if region == "EU":
-                roles.append(1117573763869978775)
-            else:
-                roles.append(1117573512064946196)
+            roles.append(1117573763869978775 if region == "EU" else 1117573512064946196)
         elif event == "test":
             leaguechannel = 1366724512632148028
             roles.append(1320448907976638485)
         elif event == "gt3":
             leaguechannel = 1366724548719804458
-            if region == "EU":
-                roles.append(1117574027645558888)
-            else:
-                roles.append(1117573957634228327)
+            roles.append(1117574027645558888 if region == "EU" else 1117573957634228327)
         elif event == "touringcar":
-            if region == "EU":
-                roles.append(1358914901153681448)
-            else:
-                roles.append(1358915346362531940)
             leaguechannel = 1366782207238209548
+            roles.append(1358914901153681448 if region == "EU" else 1358915346362531940)
         elif event == "formula":
             leaguechannel = 1366755399566491718
-            if region == "EU":
-                roles.append(1358915606115651684)
-            else:
-                roles.append(1358915647634936058)
+            roles.append(1358915606115651684 if region == "EU" else 1358915647634936058)
         elif event == "worldtour":
-            leaguechannel = 1410620564120277063
-            roles.append(1396558471175864430)
+            setattr(self, flag_attr, True)
+            return
+
+        # Determine if today is a Season day for this series
         isseason = await self.find_if_season_day(event, None)
         if event == "worldtour":
-            isseason = True
+            isseason = True  # safeguard, though WT is handled above
+
+        # Mark announced
         setattr(self, flag_attr, True)
         self.save_race_announcement_data()
-        role_mentions = " ".join([f"<@&{role_id}>" for role_id in roles])
-        announcestr += role_mentions
-        announcestr += "The Race session has started! check out : <#" + str(leaguechannel) + "> for more info!"
+
+        # Build the embed
+        emb = await self._build_race_start_embed(event, region, isseason, leaguechannel)
+
+        # Build mention content (do mentions in content, not only embed)
+        mentions = " ".join([f"<@&{rid}>" for rid in roles])
+        season_text = "This is a **Season** race today!" if isseason else "This is **NOT** a season race; it's an **Open** race!"
         if event == "formula":
             if isseason:
                 if region == "EU":
-                    announcestr += " This is NOT a season race today for the EU folks, it is an OPEN race! but it IS a season race for the NA folks later!"
+                    season_text = ("This is **NOT** a season race for EU (it's **OPEN**), "
+                                "but it **IS** a season race for NA later!")
                 else:
-                    announcestr += " This is a season race today!"
+                    season_text = "This **is** a season race today!"
             else:
-                announcestr += " This is NOT a season race today, it is an OPEN race! for BOTH EU and NA!"
-        else:
-            if isseason:
-                announcestr += " This is a season race today!"
-            else:
-                announcestr += " This is NOT a season race today, it is an OPEN race!"
+                season_text = "This is **NOT** a season race for either region; it's **OPEN** for both EU and NA!"
+
+        content = (f"{mentions} " if mentions else "") + \
+                f"The **Race** session has started! Check <#{leaguechannel}> for details. {season_text}"
+
+        # Send to your normal parent channel
         parent_channel = self.bot.get_channel(1382026220388225106)
         if parent_channel is None:
             logger.info("No valid channel available to send the announcement.")
             return
-        await self.send_announcement(parent_channel, announcestr)
 
+        await self.send_announcement(parent_channel, content, embed=emb)
+
+    async def _build_race_start_embed(
+    self,
+    series_type: str,
+    region: str,                 # "EU" or "NA"
+    is_season: bool,
+    leaguechannel: int
+) -> discord.Embed:
+        """
+        Build a 'Race has started' embed for the given series/region.
+        Reuses your scraping + server mapping conventions from the preview/season embeds.
+        """
+
+        # ---- Display name normalization -----------------------------------------
+        display_name = {
+            "gt4": "Touring Car",
+            "touringcar": "Touring Car",
+            "mx5": "MX-5",
+            "gt3": "GT3",
+            "formula": "Formula",
+            "worldtour": "World Tour",
+            "test": "Test",
+            "testopen": "Test",
+            "testworldtour": "World Tour",
+        }.get(series_type, series_type)
+
+        # ---- Server mapping (Open vs. Season) -----------------------------------
+        # Open servers
+        open_mapping = {
+            "mx5":       (self.mx5euopenserver,    self.mx5naopenserver),
+            "touringcar":(self.gt4euopenserver,    self.gt4naopenserver),
+            "formula":   (self.formulaeuopenserver,self.formulanaopenserver),
+            "gt3":       (self.gt3euopenserver,    self.gt3naopenserver),
+            "worldtour": (self.worldtourserver,    self.worldtourserver),
+            "test":      (self.mx5euopenserver,    self.mx5naopenserver),
+            "testopen":  (self.mx5euopenserver,    self.mx5naopenserver),
+            "testmx5open": (self.mx5euopenserver,  self.mx5naopenserver),
+        }
+
+        # Season (RRR) servers
+        season_mapping = {
+            "mx5":       (self.mx5eurrrserver,     self.mx5narrrserver),
+            "gt3":       (self.gt3eurrrserver,     self.gt3narrrserver),
+            "formula":   (self.formulanararserver, self.formulanararserver),  # NA-only in your mapping; mirrored for safety
+            "worldtour": (self.worldtourserver,    self.worldtourserver),
+            "test":      (self.mx5eurrrserver,     self.mx5narrrserver),
+            "testworldtour": (self.worldtourserver,self.worldtourserver),
+        }
+
+        # Pick mapping set
+        mapping = season_mapping if is_season else open_mapping
+        if series_type not in mapping:
+            raise ValueError(f"Unknown series for race start: {series_type}")
+
+        base_eu, base_na = mapping[series_type]
+        base = base_eu if region.upper() == "EU" else base_na
+
+        # ---- Scrape track details -----------------------------------------------
+        data = self.scrape_event_details_and_map(base)
+        if not data:
+            raise RuntimeError("Failed to scrape track info for race start embed")
+
+        track_name = data.get("track_name", "Unknown Track")
+        track_dl = data.get("downloads", {}).get("track")
+        if track_dl:
+            track_dl_value = f"[Click here]({track_dl})"
+        else:
+            track_dl_value = "Track comes with the game!"
+
+        # ---- Build the embed -----------------------------------------------------
+        title_prefix = f"{display_name.upper()} {'SEASON' if is_season else 'OPEN'}"
+        emb = discord.Embed(
+            title=f"{title_prefix} — {region.upper()} race is live! 🏎️",
+            colour=discord.Colour.dark_teal(),
+            description="**The event session has started. Practice, then Qualifying, then Race!, Good luck, have fun!**"
+        )
+
+        live_timing = f"{base}/live-timing" if base else None
+
+        # Region & status
+        emb.add_field(name="Region", value=region.upper(), inline=True)
+        emb.add_field(name="Status", value="Event session started", inline=True)
+
+        # Track & download
+        emb.add_field(name="Track", value=track_name, inline=False)
+        emb.add_field(name="Track Download", value=track_dl_value, inline=True)
+
+        # Join link(s)
+        if series_type == "worldtour":
+            # WT is EU-only in your flow; make that explicit
+            emb.add_field(
+                name="Join Server",
+                value=f"[Click here]({live_timing})" if live_timing else "Join link unavailable",
+                inline=True
+            )
+            emb.add_field(
+                name="NA Server",
+                value="No NA World Tour server",
+                inline=True
+            )
+        else:
+            emb.add_field(
+                name="Join Server",
+                value=f"[Click here]({live_timing})" if live_timing else "Join link unavailable",
+                inline=True
+            )
+
+        # Info & incidents
+        emb.add_field(name="Information Channel", value=f"<#{leaguechannel}>", inline=False)
+        emb.add_field(
+            name="Incident Reports & Help",
+            value="<#1156789473309368330>",
+            inline=True
+        )
+
+        # Optional: livery info (mirrors your previews)
+        # Keep it lightweight; include for AC series only
+        if series_type in {"mx5", "gt3", "touringcar", "test"}:
+            emb.add_field(
+                name="Custom Liveries",
+                value=(
+                    "Use **AC Skin Companion** and our livery packs to see custom liveries in-game.\n"
+                    "MX-5 Pack: <https://cdn.tekly.racing/livery-pack/MX5LiveryPack.7z>\n"
+                    "GT3 Pack: <https://cdn.tekly.racing/livery-pack/gt3_current_livery_pack.7z>\n"
+                    "Skin Companion: <https://www.patreon.com/posts/downloads-etc-117702004>"
+                ),
+                inline=False
+            )
+
+        # Footer: rules
+        emb.add_field(
+            name="Rules & Regulations",
+            value=("Read our Wiki for rules, regulations, and series info: <https://wiki.tekly.racing/en/home>\n"
+                "Grab the roles you want from **Channels & Roles** at the top of the Discord."),
+            inline=False
+        )
+
+        return emb
+
+    
+
+    @tasks.loop(time=SAT_TIME)
+    async def sat_special_slot(self):
+        # fires Saturday at 20:00 Europe/London
+        now = self.get_current_time("Europe/London")
+        cst_timezone = pytz.timezone("US/Central")
+        now_cst = self.currentnatime.astimezone(cst_timezone)  # Ensure it's CST-aware
+        current_cst_day = now_cst.strftime("%A")
+        if now.weekday() == 5 and self.find_if_iracing_day(current_cst_day):
+            await self.on_race_start(region="EU", event="worldtour")
+
+    @tasks.loop(seconds=600.0)
+    async def weekly_summary(self):
+        if self.weeklysummaryannounced:
+            return
+        
+        tz = ZoneInfo("Europe/London")
+        now = datetime.now(tz)
+        
+        # Announce on Sunday at 2 PM
+        if now.weekday() == 6 and now.hour == 14 and now.minute <= 50:
+            await self.announce_weekly_summary(test=False)
+
+    @tasks.loop(hours=1)
+    async def reset_weekly_summary_flag(self):
+        """Reset the flag every Monday at midnight"""
+        tz = ZoneInfo("Europe/London")
+        now = datetime.now(tz)
+        
+        # Reset on Monday at 00:00
+        if now.weekday() == 0 and now.hour == 0 and now.minute == 0:
+            self.weeklysummaryannounced = False
+            self.save_race_announcement_data()
+            logger.info("Weekly summary flag reset for next week")
+
+    async def announce_weekly_summary(self, test: bool = False):
+        """Get the weekly summary and announce it via ChatGPT-generated message"""
+        parent_channel = self.bot.get_channel(1102816381348626462)
+        if test:
+            parent_channel = self.bot.get_channel(1328800009189195828)
+        if parent_channel is None:
+            logger.info("No valid channel available to send the weekly summary.")
+            return
+
+        all_results = self.parsed.raceresults
+        
+        # Get the summary data
+        summary = self.get_weekly_summary(all_results)
+        
+        if not summary:
+            logger.info("No races found for weekly summary")
+            await parent_channel.send("No races were held this past week!")
+            self.weeklysummaryannounced = True
+            self.save_race_announcement_data()
+            return
+        
+        # Build the structured data to send to ChatGPT
+        summary_data = self._format_summary_for_gpt(summary)
+        
+        # Get next week's upcoming tracks
+        upcoming_tracks = await self._get_upcoming_tracks()
+        
+        # Generate the announcement via ChatGPT
+        announcement = await self._generate_gpt_announcement(summary_data, upcoming_tracks)
+        
+        # Add channel links at the end
+        channel_links = self._format_channel_links()
+        
+        if announcement:
+            full_announcement = announcement + "\n\n" + channel_links
+            # Send as embed with markdown formatting
+            embed = discord.Embed(
+                title="Weekly Race Summary",
+                description=full_announcement,
+                color=discord.Color.blue()
+            )
+            await parent_channel.send(embed=embed)
+        else:
+            # Fallback to the formatted embed if GPT fails
+            embed = await self.build_weekly_summary_embed(summary)
+            await parent_channel.send(embed=embed)
+        
+        self.weeklysummaryannounced = True
+        self.save_race_announcement_data()
+
+    async def _get_upcoming_tracks(self):
+        """Get the next scheduled tracks for each series"""
+        tracks = {
+            "mx5_monday": None,
+            "tcr_tuesday": None,
+            "gt3_friday": None,
+        }
+        
+        try:
+            # Get EU servers (they schedule the main events)
+            servers_to_check = {
+                "mx5_monday": self.mx5euopenserver,
+                "tcr_tuesday": self.gt4euopenserver,
+                "gt3_friday": self.gt3euopenserver,
+            }
+            
+            for series, server in servers_to_check.items():
+                if not server:
+                    logger.warning(f"No server configured for {series}")
+                    continue
+                
+                try:
+                    # Get live timing data from the server
+                    data = await self.get_live_timing_data("regularcheck", server)
+                    if data and "Track" in data:
+                        tracks[series] = data["Track"]
+                        logger.info(f"Got {series} track: {data['Track']}")
+                    else:
+                        logger.info(f"No track data available for {series} from {server}")
+                except Exception as e:
+                    logger.error(f"Error fetching track for {series}: {e}")
+                    continue
+        
+        except Exception as e:
+            logger.error(f"Error in _get_upcoming_tracks: {e}")
+        
+        return tracks
+
+
+    def _format_channel_links(self):
+        """Format Discord channel links for the series"""
+        # Channel IDs in correct order - update these with your actual channel IDs
+        channel_mentions = [
+            "<#1366724512632148028>",  # MX5 Monday channel
+            "<#1366782207238209548>",  # TCR Tuesday channel  
+            "<#1366724548719804458>",  # GT3 Friday channel
+        ]
+        
+        return f"Check {' '.join(channel_mentions)} for more details!"
+
+
+    def get_weekly_summary(self, all_results):
+        now = datetime.now(TZ_LON)
+        summary_sunday = _last_sunday(now)
+        week_start = summary_sunday - timedelta(days=6)   # Monday 00:00
+        week_end   = summary_sunday - timedelta(days=1)   # Saturday 23:59
+
+        MX5_EU_DIRS = {"mx5euopen", "mx5eurrr"}
+        MX5_NA_DIRS = {"mx5naopen", "mx5narrr"}
+        TCR_EU_DIRS = {"gt4euopen", "gt4eurrr"}
+        TCR_NA_DIRS = {"gt4naopen", "gt4narrr"}
+        GT3_EU_DIRS = {"gt3euopen", "gt3eurrr"}
+        GT3_NA_DIRS = {"gt3naopen", "gt3narrr"}
+
+        schedule = [
+            dict(actual_day="Monday",    start_hr=18, end_hr=23, directories=MX5_EU_DIRS, key="Monday_MX5_EU"),
+            dict(actual_day="Tuesday",   start_hr=0,  end_hr=5,  directories=MX5_NA_DIRS, key="Monday_MX5_NA"),
+            dict(actual_day="Tuesday",   start_hr=18, end_hr=23, directories=TCR_EU_DIRS, key="Tuesday_TOURINGCAR_EU"),
+            dict(actual_day="Wednesday", start_hr=0,  end_hr=5,  directories=TCR_NA_DIRS, key="Tuesday_TOURINGCAR_NA"),
+            dict(actual_day="Friday",    start_hr=18, end_hr=23, directories=GT3_EU_DIRS, key="Friday_GT3_EU"),
+            dict(actual_day="Saturday",  start_hr=0,  end_hr=5,  directories=GT3_NA_DIRS, key="Friday_GT3_NA"),
+        ]
+
+        summary = {r["key"]: [] for r in schedule}
+        rules_by_day = {}
+        for r in schedule:
+            rules_by_day.setdefault(r["actual_day"], []).append(r)
+
+        for result in all_results:
+            if not getattr(result, "directory", None):
+                continue
+            try:
+                race_dt = _parse_result_dt(result.date)  # <- KEY FIX
+            except Exception:
+                continue
+
+            race_day = race_dt.date()
+            if not (week_start <= race_day <= week_end):
+                continue
+
+            weekday_name = race_dt.strftime("%A")
+            hour = race_dt.hour
+
+            for rule in rules_by_day.get(weekday_name, []):
+                if result.directory not in rule["directories"]:
+                    continue
+                if not _in_time_range(hour, rule["start_hr"], rule["end_hr"]):
+                    continue
+                summary[rule["key"]].append(result)
+                break
+
+        return {k: v for k, v in summary.items() if v}
+
+
+    async def build_weekly_summary_embed(self, summary):
+        """Build a Discord embed with the weekly summary (pretty formatting)."""
+        embed = discord.Embed(
+            title="Weekly Race Summary",
+            description="Races from the past week",
+            color=discord.Color.blue()
+        )
+
+        # Display order (keys must match the schedule above)
+        race_order = [
+            ("Monday_MX5_EU", "Monday - MX5 (EU)"),
+            ("Monday_MX5_NA", "Monday - MX5 (NA)"),
+            ("Tuesday_TOURINGCAR_EU", "Tuesday - Touring Car (EU)"),
+            ("Tuesday_TOURINGCAR_NA", "Tuesday - Touring Car (NA)"),
+            ("Friday_GT3_EU", "Friday - GT3 (EU)"),
+            ("Friday_GT3_NA", "Friday - GT3 (NA)"),
+        ]
+
+        for key, display_name in race_order:
+            if key not in summary or not summary[key]:
+                continue
+
+            # Sort by actual race time if available (older→newer)
+            try:
+                tz = ZoneInfo("Europe/London")
+                summary[key].sort(
+                    key=lambda r: datetime.fromisoformat(r.date.replace("Z", "+00:00")).astimezone(tz)
+                )
+            except Exception:
+                pass
+
+            lines = []
+            for result in summary[key]:
+                winner = _safe_winner_name(result)
+                parent, variant = _track_parent_and_variant(result)
+
+                if variant:
+                    lines.append(f"**{parent}**\nlayout: {variant}\nWinner: {winner}")
+                else:
+                    lines.append(f"**{parent}**\nWinner: {winner}")
+
+            # Discord field: combine multiple races (if two races ran)
+            field_value = "\n\n".join(lines)
+            embed.add_field(name=display_name, value=field_value, inline=False)
+
+        return embed
+
+
+    async def _generate_gpt_announcement(self, events_data, upcoming_tracks=None):
+        """Send the summary data to ChatGPT and get back a natural language announcement"""
+        
+        # Build the structured data string for the prompt
+        event_details = []
+        
+        if events_data["mx5_eu"]:
+            event_details.append(f"MX5 EU Monday: {events_data['mx5_eu']['track']} ({events_data['mx5_eu']['layout']}) - Winner: {events_data['mx5_eu']['winner']}")
+        
+        if events_data["mx5_na"]:
+            event_details.append(f"MX5 NA Monday: {events_data['mx5_na']['track']} ({events_data['mx5_na']['layout']}) - Winner: {events_data['mx5_na']['winner']}")
+        
+        if events_data["tcr_eu"]:
+            event_details.append(f"TCR EU Tuesday: {events_data['tcr_eu']['track']} ({events_data['tcr_eu']['layout']}) - Winner: {events_data['tcr_eu']['winner']}")
+        
+        if events_data["tcr_na"]:
+            event_details.append(f"TCR NA Tuesday: {events_data['tcr_na']['track']} ({events_data['tcr_na']['layout']}) - Winner: {events_data['tcr_na']['winner']}")
+        
+        if events_data["gt3_eu"]:
+            event_details.append(f"GT3 EU Friday: {events_data['gt3_eu']['track']} ({events_data['gt3_eu']['layout']}) - Winner: {events_data['gt3_eu']['winner']}")
+        
+        if events_data["gt3_na"]:
+            event_details.append(f"GT3 NA Friday: {events_data['gt3_na']['track']} ({events_data['gt3_na']['layout']}) - Winner: {events_data['gt3_na']['winner']}")
+        
+        events_str = "\n".join(event_details)
+        
+        # Build upcoming tracks section if available
+        upcoming_str = ""
+        if upcoming_tracks:
+            upcoming_lines = []
+            if upcoming_tracks.get("mx5_monday"):
+                upcoming_lines.append(f"- Monday: MX5 at {upcoming_tracks['mx5_monday']}")
+            if upcoming_tracks.get("tcr_tuesday"):
+                upcoming_lines.append(f"- Tuesday: Touring Car at {upcoming_tracks['tcr_tuesday']}")
+            if upcoming_tracks.get("gt3_friday"):
+                upcoming_lines.append(f"- Friday: GT3 at {upcoming_tracks['gt3_friday']}")
+            if upcoming_tracks.get("wednesday"):
+                upcoming_lines.append(f"- Wednesday: Wildcard Wednesday (track TBA!)")
+            
+            if upcoming_lines:
+                upcoming_str = "\nUpcoming races next week:\n" + "\n".join(upcoming_lines)
+        
+        # Build the ChatGPT prompt with better formatting instructions
+        prompt = f"""You are a simracing information service providing a natural-sounding summary of the past week of racing at Real Rookie Racing.
+
+Here is the racing data from the past week:
+{events_str}
+{upcoming_str}
+
+Please provide a friendly, engaging announcement in the following format:
+- Start with a natural greeting
+- Mention "here's the summary for the past week at Real Rookie Racing"
+- For the past week: Describe each day/series that had races on a NEW LINE. For MX5 Monday, mention both EU and NA winners on the same day section. For TCR Tuesday, mention both EU and NA winners. For GT3 Friday, mention both EU and NA winners. Each day should be its own paragraph/section.
+- Add a blank line after the past week section
+- For next week: Add a section about upcoming races. Format it as separate paragraphs for each day:
+  * "In the week to come, on Monday we are heading to [track] in the MX5s, with Wildcard Wednesdays as usual - where the track remains a surprise until the event!"
+  * Then a blank line
+  * "On Tuesday we are going to [track] in the TCRs."
+  * Then a blank line
+  * "On Friday we are going to [track] in the GT3s."
+- Add a blank line before the closing
+- End with an encouraging message about looking forward to seeing everyone on track
+- Keep it concise but friendly (2-3 sentences per day for past week, 1-2 sentences per day for next week)
+
+IMPORTANT FORMATTING:
+- Use line breaks (blank lines) between days/series
+- Each major section (past week summary, next week preview, closing) should be separated by blank lines
+- Upcoming week should have each day in its own paragraph with blank lines between them
+- Do not use markdown headers
+- Do not use bullet points
+
+Format your response as plain text that can be used in a Discord embed description."""
+        
+        try:
+            # Use the bot's existing OpenAI integration
+            from openai import AsyncOpenAI
+            
+            provider, model = self.bot.cfg["model"].split("/", 1)
+            base_url = self.bot.cfg["providers"][provider]["base_url"]
+            api_key = self.bot.cfg["providers"][provider].get("api_key", "sk-no-key-required")
+            
+            openai_client = AsyncOpenAI(base_url=base_url, api_key=api_key)
+            
+            messages = [
+                {"role": "system", "content": "You are a helpful simracing announcer. Respond only with the announcement, no extra text. Use line breaks to separate sections clearly."},
+                {"role": "user", "content": prompt}
+            ]
+            
+            response = await openai_client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=0.7,
+                max_tokens=1200
+            )
+            
+            announcement = response.choices[0].message.content.strip()
+            return announcement
+            
+        except Exception as e:
+            logger.error(f"Error generating GPT announcement: {e}")
+            return None
+
+    def _format_summary_for_gpt(self, summary):
+        """Convert the summary into structured data for the GPT prompt"""
+        
+        def _safe_winner_name(result):
+            if result.entries:
+                racer = result.entries[0].racer
+                return racer.name if racer else "Unknown"
+            return "Unknown"
+        
+        def _track_parent_and_variant(result):
+            track_parent_name = "Unknown Track"
+            track_variant_name = ""
+            if result.track:
+                if result.track.parent_track:
+                    track_parent_name = result.track.parent_track.highest_priority_name
+                track_variant_name = result.track.name
+            return track_parent_name, track_variant_name
+        
+        # Map the summary to structured event data
+        events = {
+            "mx5_eu": None,
+            "mx5_na": None,
+            "tcr_eu": None,
+            "tcr_na": None,
+            "gt3_eu": None,
+            "gt3_na": None,
+        }
+        
+        # MX5 Monday
+        if "Monday_MX5_EU" in summary and summary["Monday_MX5_EU"]:
+            result = summary["Monday_MX5_EU"][0]  # Take first if multiple
+            parent, variant = _track_parent_and_variant(result)
+            events["mx5_eu"] = {
+                "track": parent,
+                "layout": variant,
+                "winner": _safe_winner_name(result)
+            }
+        
+        if "Monday_MX5_NA" in summary and summary["Monday_MX5_NA"]:
+            result = summary["Monday_MX5_NA"][0]
+            parent, variant = _track_parent_and_variant(result)
+            events["mx5_na"] = {
+                "track": parent,
+                "layout": variant,
+                "winner": _safe_winner_name(result)
+            }
+        
+        # TCR Tuesday
+        if "Tuesday_TOURINGCAR_EU" in summary and summary["Tuesday_TOURINGCAR_EU"]:
+            result = summary["Tuesday_TOURINGCAR_EU"][0]
+            parent, variant = _track_parent_and_variant(result)
+            events["tcr_eu"] = {
+                "track": parent,
+                "layout": variant,
+                "winner": _safe_winner_name(result)
+            }
+        
+        if "Tuesday_TOURINGCAR_NA" in summary and summary["Tuesday_TOURINGCAR_NA"]:
+            result = summary["Tuesday_TOURINGCAR_NA"][0]
+            parent, variant = _track_parent_and_variant(result)
+            events["tcr_na"] = {
+                "track": parent,
+                "layout": variant,
+                "winner": _safe_winner_name(result)
+            }
+        
+        # GT3 Friday
+        if "Friday_GT3_EU" in summary and summary["Friday_GT3_EU"]:
+            result = summary["Friday_GT3_EU"][0]
+            parent, variant = _track_parent_and_variant(result)
+            events["gt3_eu"] = {
+                "track": parent,
+                "layout": variant,
+                "winner": _safe_winner_name(result)
+            }
+        
+        if "Friday_GT3_NA" in summary and summary["Friday_GT3_NA"]:
+            result = summary["Friday_GT3_NA"][0]
+            parent, variant = _track_parent_and_variant(result)
+            events["gt3_na"] = {
+                "track": parent,
+                "layout": variant,
+                "winner": _safe_winner_name(result)
+            }
+        
+        return events
+
+    @commands.hybrid_command(name="testsummary", description="testsummary")
+    async def testsummary(self, ctx):
+        await self.announce_weekly_summary(test=True)
+        await ctx.send("Weekly summary announced in test channel.")
+
+        
         
     @tasks.loop(seconds=600.0)
     async def check_for_announcements(self):
         logger.info("check for announcements task running")
         global ON_READY_FIRST_ANNOUNCE_CHECK
+
+        cst_tz = pytz.timezone("US/Central")
+        now_cst = self.currentnatime.astimezone(cst_tz)
+
+        # Only skip the first run if we're NOT in the allowed window
         if ON_READY_FIRST_ANNOUNCE_CHECK:
             ON_READY_FIRST_ANNOUNCE_CHECK = False
-            logger.info("ON_READY_FIRST_ANNOUNCE_CHECK is True, returning from first announcement check")
-            return
-        cst_timezone = pytz.timezone("US/Central")
-        now_cst = self.currentnatime.astimezone(cst_timezone)  # Ensure it's CST-aware
-        current_cst_day = now_cst.strftime("%A")
+            if not (8 <= now_cst.hour < 10):
+                logger.info("First run outside window; skipping once.")
+                return
+            logger.info("First run is inside window; not skipping.")
+
+        current_day = now_cst.strftime("%A")
         if 8 <= now_cst.hour < 10:
             race_map = {
                 "Monday": "mx5",
@@ -1405,22 +2831,85 @@ class Stats(commands.Cog, name="stats"):
                 "Wednesday": "wcw",
                 "Thursday": "formula",
                 "Friday": "gt3",
-                "Saturday": "worldtour"
+                "Saturday": "worldtour",
             }
-            if current_cst_day in race_map and not getattr(self, f"{current_cst_day.lower()}announced", False):
-                logger.info("announcing raceday for " + current_cst_day)
-                logger.info("announcing raceday for " + current_cst_day)
-                await self.announce_raceday(race_map[current_cst_day])
-            
-                # Reset all flags
+
+            if current_day in race_map and not getattr(self, f"{current_day.lower()}announced", False):
+                logger.info("in raceday announcement window and not yet announced for " + current_day)
+                if current_day == "Saturday":
+                    isiRacingday = await self.find_if_iracing_day(current_day)
+                    if not isiRacingday:
+                        logger.info("Not an iRacing day; skipping Saturday preview.")
+                        return
+
+                await self.announce_raceday(race_map[current_day])
+
+                # set ONLY today's flag true; others false
                 for day in race_map.keys():
-                    setattr(self, f"{day.lower()}announced", day == current_cst_day)
-                for day in race_map.keys():
-                    logger.info("setting " + day.lower() + "announced to " + str(getattr(self, f"{day.lower()}announced", False)))
-                    logger.info("setting " + day.lower() + "announced to " + str(getattr(self, f"{day.lower()}announced", False)))
+                    setattr(self, f"{day.lower()}announced", day == current_day)
                 self.save_announcement_data()
             else:
-                pass
+                logger.info("either already announced for " + current_day + " or not a raceday")
+
+
+    
+    async def find_if_iracing_day(self, day):
+        iracingdata = getattr(self.bot, "simgrid", None)
+        if not iracingdata:
+            return False
+
+        next_race = getattr(iracingdata, "next_race", None) or {}
+        target_str = next_race.get("date")  # e.g. "2025-09-14"
+        if not target_str:
+            return False
+
+        # Normalize `day` -> "YYYY-MM-DD"
+        def _iso_date_str(obj):
+            # If someone passed the datetime *module* by mistake, bail
+            if obj is datetime:
+                return None
+            try:
+                # datetime -> date
+                if isinstance(obj, datetime.datetime):
+                    return obj.date().isoformat()
+                # date -> iso
+                if isinstance(obj, datetime.date):
+                    return obj.isoformat()
+                # "YYYY-MM-DD" or ISO string
+                if isinstance(obj, str):
+                    # Try strict parse first
+                    try:
+                        dt = datetime.fromisoformat(obj.replace("Z", "+00:00"))
+                        # If parsed as date-only, it'll be a datetime at midnight; normalize
+                        if isinstance(dt, datetime.datetime):
+                            return dt.date().isoformat()
+                    except Exception:
+                        pass
+                    # Fallback: trust the first 10 chars
+                    return obj[:10]
+                # Generic objects (e.g., pandas.Timestamp) with .date()/.isoformat()
+                if hasattr(obj, "date"):
+                    try:
+                        return obj.date().isoformat()
+                    except Exception:
+                        pass
+                if hasattr(obj, "isoformat"):
+                    try:
+                        s = obj.isoformat()
+                        return s[:10]
+                    except Exception:
+                        pass
+            except Exception:
+                return None
+            return None
+
+        day_str = _iso_date_str(day)
+        if not day_str:
+            return False
+
+        return target_str == day_str
+
+
 
     @commands.hybrid_command(name="testracedayannounce", description="testracedayannounce")
     @commands.is_owner()
@@ -1509,8 +2998,9 @@ class Stats(commands.Cog, name="stats"):
                 roles.append(1358915606115651684)
                 roles.append(1358915647634936058)
             elif type == "worldtour":
-                leaguechannel = 1410620564120277063
-                roles.append(1396558471175864430)
+                return
+            elif type == "testworldtour":
+                return
             else:
                 logger.info("Invalid type provided for raceday announcement.")
                 return
@@ -1518,7 +3008,7 @@ class Stats(commands.Cog, name="stats"):
             role_mentions = " ".join([f"<@&{role_id}>" for role_id in roles])
             announcestr += role_mentions
             embed = await self.get_raceday_announce_string(type, leaguechannel)
-        if type == "test" or type == "testopen" or type == "testmx5open":
+        if type == "test" or type == "testopen" or type == "testmx5open" or type == "testworldtour":
             parent_channel = self.bot.get_channel(1328800009189195828)
         else:
             parent_channel = self.bot.get_channel(1382026220388225106)
@@ -1532,6 +3022,15 @@ class Stats(commands.Cog, name="stats"):
         is_season = await self.find_if_season_day(type, None)
         if type == "worldtour":
             is_season = True
+        if type == "testworldtour":
+            cst_timezone = pytz.timezone("US/Central")
+            now_cst = self.currentnatime.astimezone(cst_timezone)  # Ensure it's CST-aware
+            current_cst_day = now_cst.strftime("%A")
+            isiracingday = await self.find_if_iracing_day(current_cst_day)
+            if isiracingday:
+                return "no iRacing today"
+            else:
+                is_season = True
         if is_season:
             embed = await self._build_season_raceday_embed(type, leaguechannel)
         else:
@@ -1568,9 +3067,9 @@ class Stats(commands.Cog, name="stats"):
             event_type = "testopen"
         wd = slot_map[event_type]
         now = datetime.now(timezone.utc)
-        eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 19, 0)
+        eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 18, 0)
         if event_type == "worldtour" or event_type == "worldtouropen":
-            eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 20, 0)
+            eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 21, 0)
         na_dt = self._next_slot(now, wd, timezone(timedelta(hours=-6)),    19, 0)
         eu_ts = self._to_discord_timestamp(eu_dt, "f")
         na_ts = self._to_discord_timestamp(na_dt, "f")
@@ -1578,9 +3077,9 @@ class Stats(commands.Cog, name="stats"):
         if event_type == "worldtour" or event_type == "worldtouropen":
             na_ts = "no NA worldtour race"
         if event_type == "gt4" or event_type == "gt4open":
-            series_type == "Touring Car"
+            series_type = "Touring Car"
         if series_type == "gt4" or series_type == "gt4open":
-            series_type == "Touring Car"
+            series_type = "Touring Car"
         # build the embed
         emb = discord.Embed(
             title=f"{series_type.upper()} Open Raceday Tonight! 🏁",
@@ -1609,7 +3108,14 @@ class Stats(commands.Cog, name="stats"):
             value=f"<#1156789473309368330>",
             inline=True
         )
-
+        emb.add_field(name="Custom Liveries",
+            value=("Please ensure you have the AC Skin Companion app, and our livery packs, to be able to use and see custom liveries ingame!"
+            "\nMX5 Livery pack can be found here: <https://cdn.tekly.racing/livery-pack/MX5LiveryPack.7z>"
+            "\nGT3 Livery pack can be found here: <https://cdn.tekly.racing/livery-pack/gt3_current_livery_pack.7z>"
+            "\nSkin companion app can be found here: <https://www.patreon.com/posts/downloads-etc-117702004>"
+            ),
+            inline=False
+        )
         emb.add_field(name="Information Channel", value=f"<#{leaguechannel}>", inline=False)
         emb.add_field(name="💖 Support Tekly Racing",
             value=(
@@ -1642,6 +3148,7 @@ class Stats(commands.Cog, name="stats"):
             "worldtour": (self.worldtourserver, self.worldtourserver),
             "test": (self.mx5eurrrserver, self.mx5narrrserver),
             "testopen": (self.mx5eurrrserver, self.mx5narrrserver),
+            "testworldtour": (self.worldtourserver, self.worldtourserver),
         }
         standings_mapping = {
             "mx5":    (1366725812002492416),
@@ -1679,9 +3186,9 @@ class Stats(commands.Cog, name="stats"):
 
         wd = slot_map[series_type]
         now = datetime.now(timezone.utc)
-        eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 19, 0)
+        eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 18, 0)
         if series_type == "worldtour":
-            eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 20, 0)
+            eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 21, 0)
         na_dt = self._next_slot(now, wd, timezone(timedelta(hours=-6)),    19, 0)
         eu_ts = self._to_discord_timestamp(eu_dt, "f")
         na_ts = self._to_discord_timestamp(na_dt, "f")
@@ -1699,7 +3206,14 @@ class Stats(commands.Cog, name="stats"):
             value=f"<#1156789473309368330>",
             inline=True
             )
-
+            emb.add_field(name="Custom Liveries",
+            value=("Please ensure you have the AC Skin Companion app, and our livery packs, to be able to use and see custom liveries ingame!"
+                "\nMX5 Livery pack can be found here: <https://cdn.tekly.racing/livery-pack/MX5SeasonPack-8.7z>"
+                "\nGT3 Livery pack can be found here: <https://cdn.tekly.racing/livery-pack/gt3_current_livery_pack.7z>"
+                "\nSkin companion app can be found here: <https://www.patreon.com/posts/downloads-etc-117702004>"
+                ),
+                inline=False
+            )
             emb.add_field(
                name="💖 Support Tekly Racing",
                 value=(
@@ -1808,15 +3322,14 @@ class Stats(commands.Cog, name="stats"):
         today = date.today()
         weekday = today.weekday()  # Monday=0 ... Sunday=6
 
-        # Race data placeholders
         race_data = {
-            0: {"label": "Monday", "track": None, "season": False},
-            1: {"label": "Tuesday", "track": None, "season": False},
+            0: {"label": "Monday",    "track": None, "season": False},
+            1: {"label": "Tuesday",   "track": None, "season": False},
             2: {"label": "Wednesday", "track": "wildcard Wednesday race – surprise track and car combo", "season": None},
-            3: {"label": "Thursday", "track": None, "season": False},
-            4: {"label": "Friday", "track": None, "season": False},
-            5: {"label": "Saturday", "track": None, "season": False},
-            6: {"label": "Sunday", "track": "no race", "season": None},
+            3: {"label": "Thursday",  "track": None, "season": False},
+            4: {"label": "Friday",    "track": None, "season": False},
+            5: {"label": "Saturday",  "track": None, "season": False},
+            6: {"label": "Sunday",    "track": "no race", "season": None},
         }
 
         weekday_series = {
@@ -1824,72 +3337,104 @@ class Stats(commands.Cog, name="stats"):
             1: "Touring cars",
             3: "Formula Mazda",
             4: "GT3",
-            5: "World Tour - BMW M2"
+            5: "World Tour - BMW M2",
         }
-
 
         mappingopen = {
-            "mx5":    self.mx5euopenserver,
-            "touringcar":    self.gt4euopenserver,
-            "formula": self.formulaeuopenserver,
-            "gt3":    self.gt3euopenserver,
-            "worldtour": self.worldtourserver
+            "mx5":        self.mx5euopenserver,
+            "touringcar": self.gt4euopenserver,
+            "formula":    self.formulaeuopenserver,
+            "gt3":        self.gt3euopenserver,
+            "worldtour":  self.worldtourserver,
         }
+
+        # ADD: provide a season server for touringcar if you have one; if not, we’ll safely fall back.
         seasonmapping = {
-            "mx5":    self.mx5eurrrserver,
-            "formula": self.formulanararserver,
-            "gt3":    self.gt3eurrrserver,
-            "worldtour": self.worldtourserver
+            "mx5":        self.mx5eurrrserver,
+            "touringcar": getattr(self, "gt4eurrrserver", None),   # <-- optional / may be None
+            "formula":    self.formulanararserver,                 # verify this is intended
+            "gt3":        self.gt3eurrrserver,
+            "worldtour":  self.worldtourserver,
         }
+
         daymapping = {
-            "mx5": 0,  # Monday
-            "touringcar": 1,  # Tuesday
-            "formula": 3,  # Thursday
-            "gt3": 4,  # Friday
+            "mx5": 0,        # Monday
+            "touringcar": 1, # Tuesday
+            "formula": 3,    # Thursday
+            "gt3": 4,        # Friday
             "worldtour": 5,  # Saturday
         }
+
         types = ["mx5", "touringcar", "formula", "gt3", "worldtour"]
 
-        for racetype in types:
-            isseason = await self.is_next_event_season(racetype, daymapping[racetype])
-            server = seasonmapping.get(racetype) if isseason else mappingopen.get(racetype)
-            data = self.scrape_event_details_and_map(server)
+        def safe_track_name(data):
+            try:
+                if not data:
+                    return "TBD"
+                # support either dict access or object attribute
+                return data.get("track_name") if isinstance(data, dict) else getattr(data, "track_name", "TBD")
+            except Exception:
+                return "TBD"
 
+        for racetype in types:
+            day_idx = daymapping[racetype]
+            try:
+                isseason = await self.is_next_event_season(racetype, day_idx)
+            except Exception:
+                # if season check fails, assume OPEN
+                isseason = False
+
+            # If there is no season server configured for this racetype, force OPEN
+            season_server = seasonmapping.get(racetype)
+            use_season = bool(isseason and season_server)
+
+            server = season_server if use_season else mappingopen.get(racetype)
+
+            data = None
+            if server:
+                try:
+                    # if your scraper is async, `await` it; if sync, leave as-is
+                    maybe = self.scrape_event_details_and_map(server)
+                    data = maybe
+                except Exception:
+                    data = None  # swallow scrape failures
+
+            track = safe_track_name(data)
+
+            # Map into race_data
             if racetype == "mx5":
-                race_data[0]["track"] = data["track_name"]
-                race_data[0]["season"] = isseason
+                race_data[0]["track"] = track
+                race_data[0]["season"] = use_season
             elif racetype == "touringcar":
-                race_data[1]["track"] = data["track_name"]
-                race_data[1]["season"] = isseason
+                race_data[1]["track"] = track
+                race_data[1]["season"] = use_season
             elif racetype == "formula":
-                race_data[3]["track"] = data["track_name"]
-                race_data[3]["season"] = isseason
+                race_data[3]["track"] = track
+                race_data[3]["season"] = use_season
             elif racetype == "gt3":
-                race_data[4]["track"] = data["track_name"]
-                race_data[4]["season"] = isseason
+                race_data[4]["track"] = track
+                race_data[4]["season"] = use_season
             elif racetype == "worldtour":
-                race_data[5]["track"] = data["track_name"]
-                race_data[5]["season"] = isseason
+                race_data[5]["track"] = track
+                race_data[5]["season"] = use_season
 
         # Build the output only for upcoming days
-        printoutput = ""
+        lines = []
         for offset in range(weekday, 7):
             day = today + timedelta(days=(offset - weekday))
             info = race_data[offset]
             label = info["label"]
-
-            # Series name prefix if defined
             series = weekday_series.get(offset)
+
             if offset == 2:  # Wednesday
-                printoutput += f"{label} {day.day} of {day.strftime('%B')}: wildcard Wednesday race: surprise track and car combo\n"
+                lines.append(f"{label} {day.day} of {day.strftime('%B')}: wildcard Wednesday race: surprise track and car combo")
             elif offset == 6:  # Sunday
-                printoutput += f"{label} {day.day} of {day.strftime('%B')}: no race\n"
+                lines.append(f"{label} {day.day} of {day.strftime('%B')}: no race")
             else:
                 race_type = "SEASON" if info["season"] else "OPEN"
-                printoutput += f"{label} {day.day} of {day.strftime('%B')}: {race_type} race ({series}) at {info['track']}\n"
+                lines.append(f"{label} {day.day} of {day.strftime('%B')}: {race_type} race ({series}) at {info['track']}")
 
-
-        await ctx.send(printoutput.strip())
+        await ctx.send("\n".join(lines).strip())
 
     @app_commands.command(
     name="announcewithrolebuttons",
@@ -1942,14 +3487,35 @@ class Stats(commands.Cog, name="stats"):
 
     @commands.hybrid_command(name="testracesessionannouncewithdate", description="testracesessionannouncewithdate")
     async def testracesessionannouncewithdate(self, ctx, type:str, giventime:str):
-        if type not in ["mx5", "touringcar", "formula", "gt3", "worldtour", "test", "wcw"]:
+        if type not in ["mx5", "touringcar", "formula", "gt3", "worldtour", "test", "wcw", "testworldtour"]:
             await ctx.send("Invalid type. Please use one of the following: mx5, touringcar, formula, gt3, worldtour, test, wcw")
         else:
+            if type == "testworldtour":
+                is_iracingday = await self.find_if_iracing_day(date.fromisoformat(giventime))
+                if is_iracingday:
+                    await ctx.send("It is an iRacing day on " + giventime)
+                else:
+                    await ctx.send("It is NOT an iRacing day on " + giventime)
+                return
             isseason = await self.find_if_season_day(type, giventime)
             if isseason:
                 await ctx.send(type + " would be called a season race if it were announced on " + giventime)
             else:
                 await ctx.send(type + " would NOT be called a season race if it were announced on " + giventime)
+
+    @commands.hybrid_command(name="championshiplist", description="championshiplist")
+    async def championshiplist(self, ctx, type:str):
+        allowedtypes = ["mx5euopen", "mx5naopen", "mx5eurrr", "mx5narrr", "mx5narar", "gt3naopen", "gt3eurrr", "gt3narrr",
+                         "touringcareuopen", "touringcarnaopen", "formulaeuopen", "formulanaopen",
+                         "formulnarrr", "formulanarar", "worldtour"]
+        if type not in allowedtypes:
+            await ctx.send("Invalid type. Please use one of the following: mx5, touringcar, formula, gt3, worldtour, test, wcw")
+        else:
+            for champ in self.parsed.championships.values():
+                if type in champ.type:
+                    await ctx.send(f"Championship: {champ.name}, Type: {champ.type}, Number of Events: {len(champ.schedule)}")
+                    for event in champ.schedule:
+                        await ctx.send(f"  Event: {event.name}, Date: {event.date}, Track: {event.track.name}")
 
     async def is_next_event_season(self, champtype, target_weekday: int) -> bool:
         today = date.today()
@@ -1993,6 +3559,12 @@ class Stats(commands.Cog, name="stats"):
         else:
             today_utc = datetime.now(timezone.utc).date()
             tomorrow_utc = today_utc + timedelta(days=1)
+
+        if type == "worldtour" or today_utc.weekday() == 6:
+            if self.find_if_iracing_day(today_utc):
+                return True
+            else:
+                return False
 
         for champ in self.parsed.championships.values():
             logger.info(f"Checking championship: {champ.name}")
@@ -2094,6 +3666,68 @@ class Stats(commands.Cog, name="stats"):
     async def checkopenservers(self, ctx):
         logger.info("checking open servers")
         await self.check_open_servers(True)
+
+    @commands.hybrid_command(name="bottomratedtracks", description="Displays the top-rated tracks")
+    async def bottomratedtracks(self, ctx):
+        # 1) Combine ratings by highest_priority_name
+        combined = {}
+        for track in self.parsed.contentdata.tracks:            # 'track' here is a parent Track
+            votes = len(track.ratings)
+            if votes < 4:
+                continue
+
+            name = track.highest_priority_name
+            total_score = track.average_rating * votes
+
+            if name not in combined:
+                combined[name] = {
+                    "total_score": total_score,
+                    "votes": votes
+                }
+            else:
+                combined[name]["total_score"] += total_score
+                combined[name]["votes"]        += votes
+
+        # 2) Compute averaged rating for each group
+        for entry in combined.values():
+            entry["average_rating"] = entry["total_score"] / entry["votes"]
+
+        # 3) Sort descending and take top 20
+        top_n = 20
+        sorted_tracks = sorted(
+            combined.items(),
+            key=lambda kv: kv[1]["average_rating"],
+            reverse=False
+        )[:top_n]
+
+        # 4) Build and send embed
+        embed = discord.Embed(
+            title="Bottom Rated Tracks",
+            description=f"Tracks with at least 4 ratings (showing top {len(sorted_tracks)})",
+            color=discord.Color.blue()
+        )
+
+        for name, data in sorted_tracks:
+            avg   = data["average_rating"]
+            votes = data["votes"]
+
+            # Count “times used” by scanning raceresults,
+            # matching on each result.track.parent_track.highest_priority_name
+            num_used = sum(
+                1
+                for result in self.parsed.raceresults
+                if getattr(result.track, "parent_track", None)
+                   and result.track.parent_track.highest_priority_name == name
+            )
+
+            embed.add_field(
+                name=name,
+                value=f"⭐ {avg:.2f} | Votes: {votes} | Times Used: {num_used}",
+                inline=False
+            )
+
+        embed.set_footer(text="Track Ratings")
+        await ctx.send(embed=embed)
 
 
     @commands.hybrid_command(name="topratedtracks", description="Displays the top-rated tracks")
@@ -2215,34 +3849,6 @@ class Stats(commands.Cog, name="stats"):
         for user_id in self.user_data:
             self.user_data[user_id]["spudcoins"] += 1
         self.save_user_data()
-
-
-    @commands.hybrid_command(name="summerreport", description="Average attendance for May–June 2024 vs 2025")
-    async def summerreport(self, ctx):
-        attendance_2024 = []
-        attendance_2025 = []
-
-        for race in self.parsed.raceresults:
-            try:
-                date = datetime.fromisoformat(race.date.replace("Z", "+00:00"))
-            except ValueError:
-                continue  # Skip entries with invalid date formats
-
-            if date.month in (1, 6):
-                attendance = len(race.entries)
-                if date.year == 2024:
-                    attendance_2024.append(attendance)
-                elif date.year == 2025:
-                    attendance_2025.append(attendance)
-
-        avg_2024 = mean(attendance_2024) if attendance_2024 else 0
-        avg_2025 = mean(attendance_2025) if attendance_2025 else 0
-
-        await ctx.send(
-            f"📊 **Jan-June Attendance Report**\n"
-            f"• 2024: {avg_2024:.2f} average attendees over {len(attendance_2024)} races\n"
-            f"• 2025: {avg_2025:.2f} average attendees over {len(attendance_2025)} races"
-        )
 
 
     @tasks.loop(
@@ -2633,64 +4239,85 @@ class Stats(commands.Cog, name="stats"):
         if thread.archived:
             logger.info(f"Thread {thread_id} is archived. Attempting to unarchive.")
             await thread.edit(archived=False)
+
         base_url = server
         data = self.scrape_event_details_and_map(base_url)
         if data is None:
             logger.info("Not a practice session—skipping embed update.")
             return
 
-        track_name = data["track_name"]
+        track_name   = data["track_name"]
+        practice_loc = data.get("track_location") or ""
+        logger.info(f"Practice page location: {practice_loc!r}; track_name={track_name!r}")
 
-        slot_map = {
-            "mx5open":        0,
-            "touringcaropen":        1,
-            "formulaopen":    3,
-            "gt3open":        4,
-            "worldtouropen":  5,
+        server_pairs = {
+            "mx5open":        (self.mx5euopenserver, self.mx5naopenserver),
+            "gt3open":        (self.gt3euopenserver, self.gt3naopenserver),
+            "touringcaropen": (self.gt4euopenserver, self.gt4naopenserver),
+            "formulaopen":    (self.formulaeuopenserver, self.formulanaopenserver),
+            "worldtouropen":  (self.worldtourserver, None),
         }
-        wd = slot_map[event_type]
+        eu_srv, na_srv = server_pairs.get(event_type, (None, None))
+        eu_origin   = _origin(eu_srv) or _origin(server)
+        na_origin   = _origin(na_srv) if na_srv else ""
+        base_origin = _origin(server)
+
+        scheduled_eu_utc = None
+        for origin in [eu_origin, na_origin, base_origin]:
+            if not origin:
+                continue
+            logger.info(f"[scan] Searching {origin} for NEXT event date (no location filtering)")
+            dt_candidate = self.find_next_championship_event_datetime(origin)
+            if dt_candidate:
+                scheduled_eu_utc = dt_candidate
+                logger.info(f"[scan] Next event found on {origin}: {scheduled_eu_utc.isoformat()}")
+                break
 
         now_utc = datetime.now(timezone.utc)
         tz_eu   = ZoneInfo("Europe/London")
         tz_na   = timezone(timedelta(hours=-6))  # CST
 
-        next_eu_utc = self._next_slot(now_utc, wd, tz_eu, 19, 0)
-        if event_type == "worldtouropen":
-            next_eu_utc = self._next_slot(now_utc, wd, tz_eu, 20, 0)
-        next_na_utc = self._next_slot(now_utc, wd, tz_na, 19, 0)
+        slot_map = {"mx5open":0,"touringcaropen":1,"formulaopen":3,"gt3open":4,"worldtouropen":5}
+
+        if scheduled_eu_utc:
+            next_eu_utc = scheduled_eu_utc
+            next_na_utc = None
+            if na_origin:
+                logger.info(f"[scan] Searching {na_origin} for NEXT NA event (no location filtering)")
+                na_candidate = self.find_next_championship_event_datetime(na_origin)
+                if na_candidate:
+                    delta_h = abs((na_candidate - scheduled_eu_utc).total_seconds()) / 3600.0
+                    logger.info(f"[scan] NA candidate {na_candidate.isoformat()} (Δ={delta_h:.1f}h vs EU)")
+                    if delta_h <= 36:   # adjustable tolerance
+                        next_na_utc = na_candidate
+                        logger.info("[scan] Using NA championship date")
+            if next_na_utc is None:
+                # Derive NA from EU: same EU local date @ 19:00 NA time
+                next_na_utc = _na_from_eu_same_day(scheduled_eu_utc, tz_eu, tz_na, na_h=19, na_m=0)
+                logger.info(f"[scan] Using NA derived from EU same-day @19:00 NA: {next_na_utc.isoformat()}")
+        else:
+            logger.info("No future event found via championships; falling back to weekly slots (EU & NA).")
+            wd = slot_map[event_type]
+            next_eu_utc = self._next_slot(now_utc, wd, tz_eu, 21 if event_type == "worldtouropen" else 19, 0)
+            next_na_utc = self._next_slot(now_utc, slot_map.get(event_type, 0), tz_na, 19, 0)
 
         eu_ts = self._to_discord_timestamp(next_eu_utc, "f")
         na_ts = self._to_discord_timestamp(next_na_utc, "f")
-
         if event_type == "worldtouropen":
             na_ts = "no NA race for World Tour"
-
-        # --- NEW: mapping from event type to (EU server, NA server) ---
-        server_pairs = {
-            "mx5open":       (self.mx5euopenserver, self.mx5naopenserver),
-            "gt3open":       (self.gt3euopenserver, self.gt3naopenserver),
-            "touringcaropen":       (self.gt4euopenserver, self.gt4naopenserver),
-            "formulaopen":   (self.formulaeuopenserver, self.formulanaopenserver),
-            "worldtouropen": (self.worldtourserver, None),
-        }
-        eu_srv, na_srv = server_pairs.get(event_type, (None, None))
 
         def _short(url: str) -> str:
             if not url:
                 return ""
-            return urlparse(url).netloc  # e.g. eu.mx5.ac.tekly.racing
+            return urlparse(url).netloc
 
-        # NOTE: Removed the `url=...` parameter so the title is no longer a clickable link.
         emb = discord.Embed(
             title=f"🏁 Upcoming Open Race • {track_name}",
-            description=(
-                f"**EU session start**: {eu_ts}\n"
-                f"**NA session start**: {na_ts}"
-            ),
+            description=(f"**EU session start**: {eu_ts}\n"
+                        f"**NA session start**: {na_ts}"),
             colour=discord.Colour.dark_teal()
         )
 
-        # --- NEW: Add server links field (or only EU/world tour if NA missing) ---
         server_lines = []
         if eu_srv:
             server_lines.append(f"**EU Server:** [{_short(eu_srv)}]({eu_srv})")
@@ -2698,9 +4325,6 @@ class Stats(commands.Cog, name="stats"):
             server_lines.append(f"**NA Server:** [{_short(na_srv)}]({na_srv})")
         if server_lines:
             emb.add_field(name="Servers", value="\n".join(server_lines), inline=False)
-
-        # (Optional) If you still want a live timing link, add a separate field:
-        # emb.add_field(name="Live Timing", value=f"[Open]({eu_srv or base_url}/live-timing)", inline=False)
 
         track_dl = data["downloads"].get("track")
         emb.add_field(
@@ -2715,11 +4339,7 @@ class Stats(commands.Cog, name="stats"):
             if len(unique_links) == 1:
                 link  = unique_links.pop()
                 names = ", ".join(cars.keys())
-                emb.add_field(
-                    name="Car Download",
-                    value=f"{names}\n[Click here]({link})",
-                    inline=False
-                )
+                emb.add_field(name="Car Download", value=f"{names}\n[Click here]({link})", inline=False)
             else:
                 car_lines = "\n".join(f"- **{name}**: [DL]({link})" for name, link in cars.items())
                 emb.add_field(name="Car Downloads", value=car_lines, inline=False)
@@ -2767,28 +4387,151 @@ class Stats(commands.Cog, name="stats"):
         self.save_open_race_data()
         logger.info(f"Saved {event_type} message id = {new_id}")
 
+    def find_next_championship_event_datetime(self, origin: str) -> datetime | None:
+        """
+        Scan {origin}/championships → each **active** championship → each event card
+        and return the earliest future event datetime (UTC) based on the header's
+        <span class="time-local" data-time="...">.
+
+        If a card header lacks that span, we fall back to any .time-local in the card.
+        Skips any championship whose Name contains "template" (case-insensitive).
+        """
+        try:
+            champs_url = urljoin(origin, "/championships")
+            logger.info(f"[scan] Championships URL: {champs_url}")
+            r = requests.get(champs_url, timeout=10)
+            r.raise_for_status()
+            root = BeautifulSoup(r.text, "html.parser")
+
+            # --- Collect "view" links from the **Active** section only, and skip templates ---
+            links: list[str] = []
+            tables = root.select("table.table-championship")
+
+            if tables:
+                active_tbl = tables[0]  # assume first table = "Active"
+                rows = active_tbl.select("tbody tr") or active_tbl.select("tr")
+                logger.info(f"[scan] Active table rows: {len(rows)}")
+
+                for i, row in enumerate(rows):
+                    # Name is the first <td>
+                    name_cell = row.select_one("td")
+                    name_txt = (name_cell.get_text(" ", strip=True) if name_cell else "").strip()
+                    if "template" in name_txt.lower():
+                        logger.info(f"[scan]  row[{i}] skip (template): {name_txt!r}")
+                        continue
+
+                    # Pick the first usable /championship/ "view" link in this row
+                    picked = None
+                    for a in row.select("a[href*='/championship/']"):
+                        href = a.get("href") or ""
+                        if any(seg in href for seg in ("/export", "/edit", "/duplicate", "/delete")):
+                            continue
+                        picked = href
+                        break
+
+                    if picked:
+                        links.append(picked)
+                        logger.info(f"[scan]  row[{i}] link: {picked}")
+                    else:
+                        logger.info(f"[scan]  row[{i}] no usable link found")
+            else:
+                # Fallback if layout changes: collect from all tables (previous behavior)
+                raw_links = [a.get("href") or "" for a in root.select("table.table-championship td a[href*='/championship/']")]
+                links = [h for h in raw_links if all(seg not in h for seg in ("/export", "/edit", "/duplicate", "/delete"))]
+                logger.info(f"[scan] Fallback link collection: {len(links)}")
+
+            logger.info(f"[scan] View links to open (active only, no templates): {len(links)}")
+            for i, l in enumerate(links[:12]):
+                logger.info(f"[scan] link[{i}]: {l}")
+
+            now_utc = datetime.now(timezone.utc)
+            best_dt_utc: datetime | None = None
+
+            def _parse_iso_to_utc(dt_raw: str) -> datetime | None:
+                try:
+                    dt = datetime.fromisoformat(dt_raw)
+                except Exception:
+                    # fallback for trailing Z
+                    try:
+                        dt = datetime.fromisoformat(dt_raw.replace("Z", "+00:00"))
+                    except Exception:
+                        return None
+                if dt.tzinfo is None:
+                    # Championship pages render in UK time; make it explicit
+                    dt = dt.replace(tzinfo=ZoneInfo("Europe/London"))
+                return dt.astimezone(timezone.utc)
+
+            # --- Open each active championship and pick the earliest future event ---
+            for href in links:
+                champ_url = href if href.startswith("http") else urljoin(origin, href)
+                logger.info(f"[scan] Opening championship: {champ_url}")
+                html = requests.get(champ_url, timeout=10).text
+                soup = BeautifulSoup(html, "html.parser")
+
+                cards = soup.select("div.card.championship-event")
+                logger.info(f"[scan]  → {len(cards)} event cards")
+
+                for idx, card in enumerate(cards):
+                    header = card.select_one(".card-header")
+                    # Prefer header time
+                    tspan = header.select_one(".time-local") if header else None
+                    dt_raw = tspan.get("data-time") if tspan else None
+
+                    # Fallback: any .time-local inside the card
+                    if not dt_raw:
+                        any_span = card.select_one(".time-local")
+                        dt_raw = any_span.get("data-time") if any_span else None
+
+                    logger.info(f"[scan]   card[{idx}] data-time={dt_raw!r}")
+
+                    if not dt_raw:
+                        continue
+
+                    dt_utc = _parse_iso_to_utc(dt_raw)
+                    if not dt_utc:
+                        logger.info(f"[scan]   card[{idx}] could not parse: {dt_raw!r}")
+                        continue
+
+                    logger.info(f"[scan]   card[{idx}] parsed dt_utc={dt_utc.isoformat()}")
+                    if dt_utc >= now_utc:
+                        if best_dt_utc is None or dt_utc < best_dt_utc:
+                            best_dt_utc = dt_utc
+                            logger.info(f"[scan]   card[{idx}] → new BEST {best_dt_utc.isoformat()}")
+
+            if best_dt_utc:
+                logger.info(f"[scan] BEST NEXT EVENT: {best_dt_utc.isoformat()}")
+            else:
+                logger.info("[scan] No future event found on this origin")
+
+            return best_dt_utc
+
+        except Exception as e:
+            logger.exception(f"Error scanning championships at {origin}: {e}")
+            return None
+
+
     def scrape_event_details_and_map(self, base_url: str) -> dict | None:
-        # ── 1 ▸ fetch the live-timing page ───────────────────────────────────────────
         page_url = urljoin(base_url, "/live-timing")
         soup     = BeautifulSoup(requests.get(page_url, timeout=10).text, "html.parser")
         logger.info("scraping event details from " + page_url)
-        # ── 2 ▸ make sure the server is in a PRACTICE session ───────────────────────
+
         title_tag = soup.select_one("#event-title")
         if not title_tag:
             logger.info("❌  #event-title element not found")
             return None
 
-        title_txt = title_tag.get_text(strip=True)
+        loc_tag = soup.select_one("#track-location")
+        track_location = loc_tag.get_text(strip=True) if loc_tag else None
+        logger.info(f"Live-timing track_location: {track_location!r}")
 
-        # ── 3 ▸ follow the “Event Details” button ───────────────────────────────────
+        # 3 ▸ follow “Event Details”
         det_link = soup.select_one("a.live-timings-race-details")
         if not det_link:
             logger.info("❌  Event Details link not found")
             return None
 
         details_url = urljoin(base_url, det_link["data-event-details-url"])
-        det_soup    = BeautifulSoup(requests.get(details_url, timeout=10).text,
-                                    "html.parser")
+        det_soup    = BeautifulSoup(requests.get(details_url, timeout=10).text, "html.parser")
 
         # ── 4 ▸ initialise containers ───────────────────────────────────────────────
         track_name = None
@@ -2877,6 +4620,7 @@ class Stats(commands.Cog, name="stats"):
         # ── 7 ▸ return the collected data ───────────────────────────────────────────
         return {
             "track_name":        track_name,
+            "track_location":    track_location,   # ← NEW
             "details_url":       details_url,
             "downloads":         downloads,
             "sessions":          sessions,
@@ -2990,14 +4734,6 @@ class Stats(commands.Cog, name="stats"):
         else: 
             await ctx.send(f'No registration found for Discord user {ctx.author.name}')
 
-    @commands.hybrid_command(name="showlink", description="show linked steamid for user")
-    async def showlink(self, ctx): 
-        user_id = str(ctx.author.id) 
-        if user_id in self.user_data: 
-            steam_guid = self.user_data[user_id]["guid"]
-            await ctx.send(f'Steam GUID linked to {ctx.author.name} is {steam_guid}') 
-        else: 
-            await ctx.send(f'No Steam GUID linked to Discord user {ctx.author.name}')
 
     
     @commands.hybrid_command(name="testoutput", description="show linked steamid for user")
@@ -3060,28 +4796,88 @@ class Stats(commands.Cog, name="stats"):
 
 
     @commands.hybrid_command(name="lastraces", description="get my stats for last x races")
-    async def lastraces(self, ctx, num:int = 1, query: str = None):
-        steam_guid = await self.get_steam_guid(ctx, query)
-        if num > 5:
-            await ctx.send('Invalid query. please select a number smaller than 6')
+    async def lastraces(self, ctx, num: int = 1, query: str = None):
+        from datetime import datetime
+
+        if num > 20:
+            await ctx.send('Invalid query. please select a number smaller than 20')
             return
-        if steam_guid:
-            racer = self.parsed.racers[steam_guid]
-            logger.info(racer.name)
-            mostrecentdict = self.parsed.get_summary_last_races(racer, num)
 
-            # Create an embed
-            embed = discord.Embed(title="Last Races Summary", description=f"Summary for the last {num} races")
-
-            # Loop through mostrecentdict and add fields to the embed
-            for result, (position, rating_change) in mostrecentdict.items():
-                result_date = datetime.fromisoformat(result.date)
-                race_date = result_date.strftime("%d %B %Y")
-                track_name = result.track.parent_track.highest_priority_name
-                embed.add_field(name="Race Summary", value=f"Race on {race_date} at {track_name}, finished in position: {position}, and gained/lost rating: {rating_change}", inline=False)
-            await ctx.send(embed=embed)
-        else:
+        steam_guid = await self.get_steam_guid(ctx, query)
+        if not steam_guid:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
+            return
+
+        racer = self.parsed.racers[steam_guid]
+        logger.info(racer.name)
+
+        # new helper returns an ordered list (newest first)
+        mostrecent = self.parsed.get_summary_last_races(racer, num)
+
+        embed = discord.Embed(
+            title=f"Last {num} Race{'s' if num != 1 else ''} - {racer.name}",
+            description=f"Rating & Safety changes over the last {num} race(s).",
+            color=discord.Color.blue()
+        )
+
+        # list the races
+        for result, data in mostrecent:
+            # robust ISO parse (handles trailing 'Z')
+            try:
+                dt = result.date.replace("Z", "+00:00")
+                result_dt = datetime.fromisoformat(dt)
+            except Exception:
+                result_dt = None
+
+            race_date  = result_dt.strftime("%d %B %Y") if result_dt else result.date
+            track_name = getattr(result.track.parent_track, "highest_priority_name", getattr(result.track, "name", "Unknown Track"))
+            car = data["car"]
+            pos        = data["position"]
+            elo_delta  = data["rating_change"]
+            sr_delta   = data["sr_change"]
+
+            elo_str = f"{elo_delta:+.2f}" if elo_delta is not None else "-"
+            sr_str  = f"{sr_delta:+.2f}"  if sr_delta  is not None else "-"
+
+            embed.add_field(
+                name=f"{race_date} - {track_name} in {car.name}",
+                value=f"Finish: **P{pos}** | Rating: **{elo_str}** | Safety: **{sr_str}**",
+                inline=False
+            )
+
+        # add current totals + next license gap
+        next_cls, sr_gap, elo_gap, races_needed = racer.next_license_gap()
+        cur_rating = getattr(racer, "rating", 0.0)
+        cur_sr     = getattr(racer, "safety_rating", 2.50)
+        cur_lic    = getattr(racer, "licenseclass", "Rookie")
+
+        if next_cls is None:
+            gap_text = "You're already at the top license (**A**)."
+        else:
+            need_bits = []
+            if sr_gap > 0:
+                need_bits.append(f"**{sr_gap:.2f} SR**")
+            if elo_gap > 0:
+                need_bits.append(f"**{int(elo_gap)} ELO**")
+            if races_needed > 0:
+                need_bits.append(f"**{races_needed} race(s)** to qualify")
+            if not need_bits:
+                gap_text = f"You already meet **{next_cls}** requirements; it will apply as your license updates."
+            else:
+                gap_text = f"To reach **{next_cls}**: " + ", ".join(need_bits) + "."
+
+        embed.add_field(
+            name="Current",
+            value=f"License: **{cur_lic}** | Rating: **{cur_rating:.0f}** | Safety: **{cur_sr:.2f}**",
+            inline=False
+        )
+        embed.add_field(
+            name="Next License Threshold",
+            value=gap_text,
+            inline=False
+        )
+
+        await ctx.send(embed=embed)
     
     @commands.hybrid_command(name="madracereport", description="get my stats")
     async def madracereport(self, ctx, query: str = None):
@@ -3103,6 +4899,8 @@ class Stats(commands.Cog, name="stats"):
                                     car = entry.car.name
                                     retstring += "raced at track " + track + " on " + date + " in car " + car + " finished in position " + str(position) + " and gained/lost rating " + str(rating_change) + " and incidents were " + str(round(numincidents, 2)) + "\n" 
                                 
+            if retstring == "":
+                await ctx.send("no mad races to show!")
             await ctx.send(retstring)
         else:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
@@ -3347,6 +5145,49 @@ class Stats(commands.Cog, name="stats"):
 
 
 
+    @commands.hybrid_command(name="mywins", description="Get a list of your race wins (car / track / date).")
+    async def mywins(self, ctx, query: str = None):
+        steam_guid = await self.get_steam_guid(ctx, query)
+        if not steam_guid:
+            await ctx.send("Invalid query. Provide a valid Steam GUID or `/register` your Steam GUID to your Discord name.")
+            return
+
+        racer = self.parsed.racers.get(steam_guid)
+        if not racer:
+            await ctx.send("Could not find a racer for that GUID.")
+            return
+
+        # Filter wins
+        wins = [e for e in getattr(racer, "entries", []) if getattr(e, "finishingposition", None) == 1]
+        if not wins:
+            await ctx.send(f"**{racer.name}** has no recorded wins yet.")
+            return
+
+        # Sort wins by date (newest first)
+        wins.sort(key=lambda e: _to_datetime(getattr(e, "date", None)), reverse=True)
+
+        # Build lines: "YYYY-MM-DD — Track — Car"
+        lines = []
+        for e in wins:
+            dt = _to_datetime(getattr(e, "date", None))
+            date_str = dt.strftime("%Y-%m-%d") if dt else "Unknown date"
+            car = _name_or_str(getattr(e, "car", None))
+            track = _name_or_str(getattr(e, "track", None))
+            lines.append(f"{date_str} — {track} — {car}")
+
+        header = f"🏆 **{racer.name}** — Wins: **{len(wins)}**\n"
+        payload = header + "\n".join(lines)
+
+        # Send in chunks if needed
+        first = True
+        for chunk in _chunk_text(payload, 1900):
+            if first:
+                await ctx.send(chunk)
+                first = False
+            else:
+                await ctx.send(chunk)
+
+
     @commands.hybrid_command(name="mystats", description="get my stats")
     async def mystats(self, ctx, query: str = None):
         steam_guid = await self.get_steam_guid(ctx, query)
@@ -3433,7 +5274,6 @@ class Stats(commands.Cog, name="stats"):
         user_agent = "https://github.com/JanuarySnow/RRR-Bot"
         headers  = {"User-Agent":user_agent}
         try:
-        # This will prevent your bot from stopping everything when doing a web request - see: https://discordpy.readthedocs.io/en/stable/faq.html#how-do-i-make-a-web-request
             livetimingsurl = servertouse + "/api/live-timings/leaderboard.json"
             async with aiohttp.ClientSession() as session:
                 async with session.get(
@@ -3607,6 +5447,77 @@ class Stats(commands.Cog, name="stats"):
         ctx._already_sent_once = True
         return msg
 
+    @commands.hybrid_command(name="resultreport", description="resultreport")
+    async def resultreport(self, ctx, query: str = None):
+        from datetime import datetime
+        
+        if query not in ["gt3eu", "gt3na", "mx5eu", "mx5na"]:
+            await ctx.send("Please provide a server name from one of the following: mx5eu, mx5na, gt3eu, gt3na")
+            return
+        
+        # Map query to server groups
+        server_map = {
+            "gt3eu": [self.gt3euopenserver, self.gt3eurrrserver],
+            "gt3na": [self.gt3naopenserver, self.gt3narrrserver],
+            "mx5eu": [self.mx5euopenserver, self.mx5eurrrserver],
+            "mx5na": [self.mx5naopenserver, self.mx5narrrserver, self.mx5nararserver]
+        }
+        
+        # Get the servers for this query
+        target_servers = server_map[query]
+        
+        # Filter results for the specified servers
+        filtered_results = [
+            result for result in self.parsed.raceresults 
+            if result.server in target_servers
+        ]
+        
+        # Sort by date (most recent first)
+        filtered_results.sort(
+            key=lambda x: datetime.fromisoformat(x.date.replace('Z', '+00:00')), 
+            reverse=True
+        )
+        
+        # Get the most recent 2 results
+        most_recent = filtered_results[:2]
+        
+        if not most_recent:
+            await ctx.send(f"No results found for {query}")
+            return
+        
+        # Create embeds for each race
+        for result in most_recent:
+            # Sort entries by finishing position
+            sorted_entries = sorted(result.entries, key=lambda x: x.finishingposition)
+            
+            # Parse date for readable format
+            race_date = datetime.fromisoformat(result.date.replace('Z', '+00:00'))
+            date_str = race_date.strftime("%B %d, %Y at %H:%M UTC")
+            
+            # Create embed
+            embed = discord.Embed(
+                title=f"Race Results - {result.track.parent_track.highest_priority_name}",
+                description=f"**Date:** {date_str}\n**Server:** {query.upper()}",
+                color=discord.Color.blue()
+            )
+            
+            # Add each driver's result
+            for entry in sorted_entries:
+                position_emoji = {1: "🥇", 2: "🥈", 3: "🥉"}.get(entry.finishingposition, "")
+                
+                driver_info = (
+                    f"{position_emoji} **P{entry.finishingposition}** - {entry.racer.name}\n"
+                    f"License: {entry.racer.licenseclass} | Rating: {int(entry.racer.rating)}"
+                )
+                
+                embed.add_field(
+                    name=f"Position {entry.finishingposition}",
+                    value=driver_info,
+                    inline=False
+                )
+            
+            await ctx.send(embed=embed)
+
     @commands.hybrid_command(name="lapsreport", description="lapsreport")
     async def lapsreport(self, ctx, query: str = None):
         """
@@ -3754,7 +5665,86 @@ class Stats(commands.Cog, name="stats"):
             await ctx.send(file=file, embed=embed)
 
 
-
+    @commands.hybrid_command(name="allracers", description="Export all racers with their ELO and license class")
+    async def allracers(self, ctx):
+        from datetime import datetime
+        import json
+        
+        if not self.parsed.racers:
+            await ctx.send("No racers found in the database.")
+            return
+        
+        # Load user_data.json and build a guid -> discord_name cache
+        guid_to_discord_name = {}
+        try:
+            with open('user_data.json', 'r', encoding='utf-8') as f:
+                user_data = json.load(f)
+                
+                # Build cache of all Discord names upfront
+                discord_id_to_name = {}
+                for discord_id in user_data.keys():
+                    try:
+                        user = await self.bot.fetch_user(int(discord_id))
+                        discord_id_to_name[discord_id] = user.name
+                    except:
+                        discord_id_to_name[discord_id] = discord_id
+                
+                # Map GUIDs to Discord names
+                for discord_id, data in user_data.items():
+                    if 'guid' in data:
+                        guid_to_discord_name[data['guid']] = discord_id_to_name.get(discord_id, "N/A")
+        except FileNotFoundError:
+            pass  # If file doesn't exist, just continue without Discord names
+        
+        # Create text file content
+        file_content = f"All Racers - ELO and License Report\n"
+        file_content += f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
+        file_content += "=" * 120 + "\n\n"
+        
+        # Collect all racer data
+        racer_data = []
+        for guid, racer in self.parsed.racers.items():
+            discord_name = guid_to_discord_name.get(guid, "N/A")
+            
+            racer_data.append({
+                'name': racer.name,
+                'discord_name': discord_name,
+                'guid': guid,
+                'rating': int(racer.rating),
+                'license': racer.licenseclass
+            })
+        
+        # Sort by rating descending
+        racer_data.sort(key=lambda x: x['rating'], reverse=True)
+        
+        # Write to file content
+        file_content += f"{'Rank':<6} {'Race Name':<30} {'Discord Name':<25} {'License':<10} {'ELO':<10} {'Steam GUID'}\n"
+        file_content += "-" * 120 + "\n"
+        
+        for rank, racer in enumerate(racer_data, 1):
+            file_content += f"{rank:<6} {racer['name']:<30} {racer['discord_name']:<25} {racer['license']:<10} {racer['rating']:<10} {racer['guid']}\n"
+        
+        file_content += "\n" + "=" * 120 + "\n"
+        file_content += f"Total racers: {len(racer_data)}\n"
+        file_content += f"Linked to Discord: {sum(1 for r in racer_data if r['discord_name'] != 'N/A')}\n"
+        
+        # Write to file
+        filename = f"all_racers_elo_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(file_content)
+        
+        # Create Discord file and embed
+        file = discord.File(filename, filename=filename)
+        embed = discord.Embed(
+            title="All Racers ELO Report",
+            description=f"ELO and license data for all {len(racer_data)} racers in the database",
+            color=discord.Color.blue()
+        )
+        embed.add_field(name="Total Racers", value=str(len(racer_data)), inline=True)
+        embed.add_field(name="Linked to Discord", value=str(sum(1 for r in racer_data if r['discord_name'] != 'N/A')), inline=True)
+        embed.add_field(name="File Format", value="Sorted by ELO (highest to lowest)", inline=False)
+        
+        await ctx.send(file=file, embed=embed)
 
 
     @commands.hybrid_command(name="forcerefreshalldata", description="forcescanresults")
@@ -3900,6 +5890,7 @@ class Stats(commands.Cog, name="stats"):
         for root, _, files in os.walk("results"):
             if filename in files:
                 return True
+        logger.info("file " + filename + " does not exist in results")
         return False
 
     async def check_one_server_for_results(self, server, query):
@@ -3919,11 +5910,11 @@ class Stats(commands.Cog, name="stats"):
                             filename = os.path.basename(download_url)
                             directory = self.servertodirectory[server]
                             filepath = os.path.join("results", directory, filename)
-                            
                             # Only add to the download queue if the file doesn't already exist
                             if filename in self.blacklist:
                                 continue
                             if not self.file_exists_in_results(filename):
+                                logger.info(f"Queuing download for {filename} from {server}")
                                 self.download_queue.append((server, download_url))
  
                         return data
@@ -4117,6 +6108,8 @@ class Stats(commands.Cog, name="stats"):
             await channel.send("All results have been processed and data has been refreshed")
             await self.post_results(numdone)
             await self.create_results_images(self.justadded)
+            await self.updateuserstats()
+            logger.info("updating user stats after delayed fetch")
             self.justadded.clear()
         await self.process_bet_results()
 
@@ -4165,6 +6158,7 @@ class Stats(commands.Cog, name="stats"):
             async with channel.typing():
                 for elem in self.justadded:
                     await self.parsed.add_one_result(elem[0], os.path.basename(elem[0]), elem[1], elem[1] + "/results/download/" + os.path.basename(elem[0]))
+                    logger.info("adding result " + elem[0] + " from server " + elem[1])
                     numdone += 1
                     await asyncio.sleep(3)
                 await self.update_standings_internal()
@@ -4172,6 +6166,8 @@ class Stats(commands.Cog, name="stats"):
             await channel.send("All results have been processed and data has been refreshed")
             await self.post_results(numdone)
             await self.create_results_images(self.justadded)
+            await self.updateuserstats()
+            logger.info("updating user stats after fetch")
             await self.vote_for_track_results(numdone)
             self.justadded.clear()
         await self.process_bet_results()
@@ -4428,7 +6424,7 @@ class Stats(commands.Cog, name="stats"):
         # ------------------------------------------------------------------ #
         #                           save attachments                         #
         # ------------------------------------------------------------------ #
-        json_path = Path("/home/potato/RRR-Bot/results/formulanarar/2025_5_16_2_56_RACE.json")
+        json_path = Path("/home/potato/RRR-Bot/results/2025_10_25_20_46_RACE (1).json")
         
 
         # ------------------------------------------------------------------ #
@@ -5273,7 +7269,7 @@ class Stats(commands.Cog, name="stats"):
             if not racer.paceplot:
                 await ctx.send("Racer hasnt done enough races yet")
                 return
-            self.parsed.create_progression_chart(racer, racer.incidentplot)
+            self.parsed.create_progression_chart(racer, racer.safetyratingplot)
             file = discord.File("progression_chart.png", filename="progression_chart.png") 
             embed = discord.Embed( title="Racer Safety Progression", description=f"Safety Progression Over Time for {racer.name}", color=discord.Color.green() ) 
             embed.set_image(url="attachment://progression_chart.png") 
@@ -5282,20 +7278,55 @@ class Stats(commands.Cog, name="stats"):
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
 
     @commands.hybrid_command(name="myprogression", description="show improvement over time")
-    async def myprogression(self, ctx: Context, guid:str=None) -> None:
+    async def myprogression(self, ctx: Context, guid: str = None, months: int = None) -> None:
+        """
+        Usage examples:
+        /myprogression                  -> all-time for yourself
+        /myprogression 6                -> last 6 months for yourself
+        /myprogression <guid>           -> all-time for a specific guid
+        /myprogression <guid> 6         -> last 6 months for a specific guid
+        """
+
+        # If the first arg looks like a small integer and months wasn't explicitly provided,
+        # interpret it as the months filter (so "/myprogression 6" works).
+        if months is None and isinstance(guid, str):
+            try:
+                maybe_months = int(guid)
+                # reasonable cap to avoid misreading real SteamIDs as months
+                if 1 <= maybe_months <= 60:
+                    months = maybe_months
+                    guid = None
+            except ValueError:
+                pass
+
         steam_guid = await self.get_steam_guid(ctx, guid)
-        if steam_guid:
-            racer = self.parsed.racers[steam_guid]
-            if not racer.progression_plot:
-                await ctx.send("Racer hasnt done enough races yet")
-                return
-            self.parsed.create_progression_chart(racer, racer.progression_plot)
-            file = discord.File("progression_chart.png", filename="progression_chart.png") 
-            embed = discord.Embed( title="Racer Progression", description=f"Progression Over Time for {racer.name}", color=discord.Color.green() ) 
-            embed.set_image(url="attachment://progression_chart.png") 
-            await ctx.send(embed=embed, file=file)
-        else:
+        if not steam_guid:
             await ctx.send('Invalid query. Provide a valid Steam GUID or /register your steam guid to your Discord name.')
+            return
+
+        racer = self.parsed.racers.get(steam_guid)
+        if not racer or not racer.progression_plot:
+            await ctx.send("Racer hasnt done enough races yet")
+            return
+
+        created = self.parsed.create_progression_chart(racer, racer.progression_plot, months=months)
+        if not created:
+            if months is not None:
+                await ctx.send(f"Not enough data points in the last {months} month(s) to generate a chart.")
+            else:
+                await ctx.send("Not enough data points to generate a chart.")
+            return
+
+        file = discord.File("progression_chart.png", filename="progression_chart.png")
+        title_suffix = f" (last {months} month(s))" if months is not None else ""
+        embed = discord.Embed(
+            title=f"Racer Progression{title_suffix}",
+            description=f"Progression Over Time for {racer.name}",
+            color=discord.Color.green()
+        )
+        embed.set_image(url="attachment://progression_chart.png")
+        await ctx.send(embed=embed, file=file)
+
 
     
     @commands.hybrid_command(name="dickpic", description="get dickpic")
@@ -5742,13 +7773,47 @@ class Stats(commands.Cog, name="stats"):
 
         # ─── 2. figure out forum / thread objects (your mappings) ────────────
         server   = {v: k for k, v in self.servertodirectory.items()}.get(ch_type)
-        threadID = self.servertoschedulethread.get(server,         1368551209400795187)
-        forumID  = self.servertoparentchannel.get(server,          1368551150537670766)
+        threadID = int(self.servertoschedulethread.get(server, 1368551209400795187))
+        forumID  = int(self.servertoparentchannel.get(server,    1368551150537670766))
+        logger.info(f"Server for championship: {server}, ForumID: {forumID}, ThreadID: {threadID}")
 
-        forum  = self.bot.get_channel(forumID)                 # discord.ForumChannel
-        thread = forum.get_thread(threadID) if forum else None
+        # Get the forum (cache first, then fetch)
+        forum = self.bot.get_channel(forumID)
+        if forum is None:
+            try:
+                forum = await self.bot.fetch_channel(forumID)
+            except (discord.NotFound, discord.Forbidden) as e:
+                await ctx.send(f"❌ Could not access forum channel ({e}).")
+                return
+
+        # Get the thread (cache first, then fetch)
+        thread = self.bot.get_channel(threadID)
         if thread is None:
-            await ctx.send("❌ Could not find the announcement thread.")
+            try:
+                thread = await self.bot.fetch_channel(threadID)   # works for threads too
+            except discord.Forbidden:
+                await ctx.send("❌ I don't have permission to view that thread.")
+                return
+            except discord.NotFound:
+                # As a last resort, search archived threads in the forum
+                try:
+                    async for t in forum.archived_threads(limit=200):  # discord.py 2.x
+                        if t.id == threadID:
+                            thread = t
+                            break
+                except AttributeError:
+                    pass  # method name differs across minor versions
+
+        if thread is None:
+            await ctx.send("❌ Could not find the announcement thread.")
+            return
+
+        # Unarchive if needed before posting
+        try:
+            if getattr(thread, "archived", False):
+                await thread.edit(archived=False, locked=False)
+        except discord.Forbidden:
+            await ctx.send("❌ Found the thread but I can’t unarchive it (missing permissions).")
             return
 
         # ─── 3. region helpers ───────────────────────────────────────────────

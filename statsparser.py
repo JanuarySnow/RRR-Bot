@@ -6,6 +6,7 @@ from dateutil.parser import parse
 import json
 from operator import itemgetter
 import os
+import io
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates 
 from datetime import datetime
@@ -26,10 +27,174 @@ from typing import Iterable, Optional
 from math import isfinite
 from statistics import fmean
 from datetime import datetime, timedelta
+from collections import Counter
 try:
     from scipy.stats import chi2
 except ImportError:
     chi2 = None  # handle below with a tiny fallback if needed
+from collections import defaultdict
+from dataclasses import dataclass
+from datetime import datetime, timedelta
+from typing import Dict, List, Iterable, Tuple, Optional, Set
+
+def _iso_to_dt(s: str) -> datetime:
+    # robust to "Z" suffix and naive strings
+    if isinstance(s, str):
+        if s.endswith("Z"):
+            s = s.replace("Z", "+00:00")
+        return datetime.fromisoformat(s)
+    return s  # already a datetime
+
+def _safe_round(x, n=2):
+    return round(x, n) if x is not None else None
+
+
+@dataclass
+class RacerHistory:
+    first_seen: datetime
+    races: Set[datetime]  # all race datetimes (UTC/naive consistently)
+
+class RetentionTracker:
+    def __init__(self):
+        self.histories: Dict[str, RacerHistory] = {}
+    @staticmethod
+    def _as_date(dt) -> datetime:
+        # Ensure datetime; if you only have YYYY-MM-DD strings, parse them here.
+        if isinstance(dt, datetime):
+            return dt
+        # Try common formats; adjust to your pipeline
+        return datetime.fromisoformat(str(dt))
+
+    def register_race(self, guid: str, race_dt) -> None:
+        if not guid:
+            return
+        dt = self._as_date(race_dt)
+        hist = self.histories.get(guid)
+        if hist is None:
+            self.histories[guid] = RacerHistory(first_seen=dt, races={dt})
+        else:
+            # keep earliest first_seen
+            if dt < hist.first_seen:
+                hist.first_seen = dt
+            hist.races.add(dt)
+
+    def to_jsonable(self) -> dict:
+        """Return a JSON-safe dict representing the tracker."""
+        out = []
+        for guid, hist in self.histories.items():
+            out.append({
+                "guid": guid,
+                "first_seen": hist.first_seen.isoformat(),
+                "races": sorted(d.isoformat() for d in hist.races),
+            })
+        return {"version": 1, "histories": out}
+    
+    @classmethod
+    def from_jsonable(cls, data: dict) -> "RetentionTracker":
+        """Create a tracker from JSON-safe dict produced by to_jsonable()."""
+        t = cls()
+        items = data.get("histories", [])
+        for rec in items:
+            guid = rec["guid"]
+            fs = datetime.fromisoformat(rec["first_seen"])
+            races = set(datetime.fromisoformat(s) for s in rec.get("races", []))
+            # Ensure first_seen is at least the min of races (defensive)
+            if races:
+                fs = min(fs, min(races))
+            t.histories[guid] = RacerHistory(first_seen=fs, races=races or {fs})
+        return t
+
+
+    # ----- Cohort helpers -----
+    @staticmethod
+    def _ym(dt: datetime) -> str:
+        return f"{dt.year:04d}-{dt.month:02d}"
+
+    def _cohort_guids_by_month(self) -> Dict[str, List[str]]:
+        cohorts = defaultdict(list)
+        for guid, hist in self.histories.items():
+            cohorts[self._ym(hist.first_seen)].append(guid)
+        return cohorts
+
+    # ----- Retention logic -----
+    def _returned_within(self, hist: RacerHistory, horizon_days: int, min_extra_races: int = 1) -> bool:
+        start = hist.first_seen
+        end = start + timedelta(days=horizon_days)
+        # Count races strictly after first_seen and <= end
+        extra = sum(1 for d in hist.races if (d > start and d <= end))
+        return extra >= min_extra_races
+
+    def cohort_retention_table(
+        self,
+        horizons_days: Iterable[int] = (7, 30, 60, 90, 180),
+        min_extra_races: int = 1,
+        cohort_filter: Optional[Tuple[datetime, datetime]] = None,  # (start_inclusive, end_exclusive) on first_seen
+    ) -> List[Dict]:
+        """
+        Returns list of {cohort:'YYYY-MM', new_count:int, r7:float, r30:float,...}
+        If cohort_filter is provided, only cohorts whose month lies fully inside the filter are included.
+        """
+        cohorts = self._cohort_guids_by_month()
+        rows = []
+        for cohort, guids in sorted(cohorts.items()):
+            # optional filter by absolute dates
+            if cohort_filter:
+                c_year, c_month = map(int, cohort.split("-"))
+                c_first = datetime(c_year, c_month, 1)
+                # end-of-month start for next month
+                c_next = datetime(c_year + (1 if c_month == 12 else 0),
+                                  1 if c_month == 12 else c_month + 1, 1)
+                if not (c_first >= cohort_filter[0] and c_next <= cohort_filter[1]):
+                    continue
+
+            new_count = len(guids)
+            row = {"cohort": cohort, "new_count": new_count}
+            if new_count == 0:
+                for h in horizons_days:
+                    row[f"r{h}"] = 0.0
+                rows.append(row)
+                continue
+
+            for h in horizons_days:
+                retained = sum(
+                    1 for g in guids
+                    if self._returned_within(self.histories[g], h, min_extra_races=min_extra_races)
+                )
+                row[f"r{h}"] = retained / new_count
+            rows.append(row)
+        return rows
+
+    def window_retention_compare(
+        self,
+        new_start: datetime, new_end: datetime,   # include [new_start, new_end)
+        prev_start: datetime, prev_end: datetime,
+        horizon_days: int = 180,
+        min_extra_races: int = 1,
+    ) -> Dict[str, float]:
+        """
+        Compares % of *new* racers (first_seen in window) who returned within horizon.
+        Returns dict with {new_rate, prev_rate, delta_pp}.
+        """
+        def rate_for_window(s: datetime, e: datetime) -> float:
+            cohort_guids = [
+                g for g, hist in self.histories.items()
+                if (hist.first_seen >= s and hist.first_seen < e)
+            ]
+            if not cohort_guids:
+                return 0.0
+            retained = sum(
+                1 for g in cohort_guids
+                if self._returned_within(self.histories[g], horizon_days, min_extra_races)
+            )
+            return retained / len(cohort_guids)
+
+        new_rate = rate_for_window(new_start, new_end)
+        prev_rate = rate_for_window(prev_start, prev_end)
+        return {
+            "new_rate": new_rate,
+            "prev_rate": prev_rate,
+            "delta_pp": (new_rate - prev_rate) * 100.0
+        }
 
 @dataclass
 class RacerSafetySnapshot:
@@ -160,18 +325,57 @@ class parser():
                           "2024_12_21_21_58_RACE.json", "2024_12_21_21_32_RACE.json",
                           "2025_2_17_20_30_RACE.json", "2025_2_17_20_57_RACE.json",
                           "2025_2_22_22_0_RACE.json", "2025_2_22_21_35_RACE.json", "2025_4_8_19_42_RACE.json"]
+        self.retention = RetentionTracker()
 
 
     def get_summary_last_races(self, racer, num):
-        retdict = {}
-        sorted_entries = racer.entries.sort(key=lambda entry: entry.date, reverse=True)
-        sorted_results = sorted(racer.historyofratingchange.items(), key=lambda item: item[0].date, reverse=True)
-        x = num  # number of recent results you want to retrieve
-        most_recent_results = sorted_results[:x]
-        # Output the most recent results
-        for result, rating_change in most_recent_results:
-            retdict[result] = (result.get_position_of_racer(racer), rating_change)
-        return retdict
+        """
+        Returns a *ordered list* of tuples:
+        [
+            (result, {
+                "position": int,
+                "rating_change": float,
+                "sr_change": float | None,   # delta SR for that race
+            }),
+            ...
+        ]
+        newest first.
+        """
+        # Sort rating changes (historyofratingchange: {result -> delta})
+        rated = sorted(
+            racer.historyofratingchange.items(),
+            key=lambda kv: _iso_to_dt(kv[0].date),
+            reverse=True
+        )
+        last = rated[:num]
+
+        # Precompute SR 'before' for each race date using the SR timeline
+        # safetyratingplot: {entry.date(str ISO): sr_after(float)}
+        sr_points = sorted(
+            racer.safetyratingplot.items(),
+            key=lambda kv: _iso_to_dt(kv[0])  # kv[0] is ISO date string key
+        )
+        prev_sr_by_date = {}
+        prev = None
+        for date_str, sr_after in sr_points:
+            prev_sr_by_date[date_str] = prev  # SR before this race
+            prev = sr_after
+
+        out = []
+        for result, rating_change in last:
+            pos = result.get_position_of_racer(racer)
+            car = result.get_car_of_racer(racer)
+            date_key = result.date  # matches keys stored in safetyratingplot
+            sr_after  = racer.safetyratingplot.get(date_key)
+            sr_before = prev_sr_by_date.get(date_key)
+            sr_delta  = _safe_round(sr_after - sr_before, 2) if (sr_after is not None and sr_before is not None) else None
+            out.append((result, {
+                "position": pos,
+                "car": car,
+                "rating_change": _safe_round(rating_change, 2),
+                "sr_change": sr_delta,
+            }))
+        return out
 
     
     def get_racer_name(self,guid:str):
@@ -536,6 +740,8 @@ class parser():
                     data["Region"] = "EU"
                 else:
                     data["Region"] = "NA"
+                logger.info("Region determined: " + data["Region"])
+                logger.info("parsing result for date " + data["Date"])
                 self.parse_one_result(resultobj, data)
 
                 for car in data["Result"]:
@@ -954,6 +1160,7 @@ class parser():
 
     
     def get_cars_and_racers_from_result(self, resultobject, data):
+        
         for car in data["Result"]:
             if not car["DriverGuid"] or car["DriverGuid"] == "" :
                 return
@@ -970,7 +1177,9 @@ class parser():
             else:
                 self.racers[guid].name = newname
                 racerobj = self.racers[guid]
-
+            
+            race_dt = data["Date"]  # ensure this is a datetime or ISO string; the tracker parses ISO
+            self.retention.register_race(guid, race_dt)
             carid = car["CarModel"]
             car = None
             if not carid in self.usedcars:
@@ -1147,6 +1356,7 @@ class parser():
         self.pacerankingsgt3.clear()
         self.safety_rankingsperkm.clear()
         self.averageelorankingsovertime.clear()
+        self.retention = RetentionTracker()
 
     def refresh_all_data(self):
         self.clear_old_data()
@@ -1175,6 +1385,136 @@ class parser():
         self.calculate_raw_pace_percentages_for_all_racers()
         self.calculate_rankings()
         self.loadtrackratings()
+
+    def retention_by_elo(self, horizon_days=90):
+        data = []
+        for guid, hist in self.retention.histories.items():
+            racer = self.racers.get(guid)
+            if not racer:
+                continue
+            elo = getattr(racer, "elo", None)
+            if elo is None:
+                continue
+            returned = self.retention._returned_within(hist, horizon_days, min_extra_races=1)
+            data.append((elo, returned))
+
+        stats = defaultdict(lambda: {"total":0, "retained":0})
+        for elo, returned in data:
+            b = int(elo // 100 * 100)
+            stats[b]["total"] += 1
+            if returned:
+                stats[b]["retained"] += 1
+
+        results = []
+        for b in sorted(stats):
+            total = stats[b]["total"]
+            kept = stats[b]["retained"]
+            pct = kept / total if total > 0 else 0
+            results.append({"elo_bin": b, "total": total, "retained": kept, "retention_rate": pct})
+        return results
+    
+    def churn_rate_by_elo_bin(self, horizon_days: int = 90, bins=None, anchor=None):
+        """
+        Bin by Elo-at-last, compute churn rates per bin.
+        Returns list of dicts sorted by bin: [{'elo_bin': 1200, 'total': n, 'churned': k, 'churn_rate': k/n}, ...]
+        """
+        snap = self.churn_snapshot_by_elo(horizon_days=horizon_days, anchor=anchor)
+        per_racer = snap['per_racer']
+
+        if bins is None:
+            # Adjust to your range; 100-pt bins
+            bins = np.arange(800, 2300, 100)
+
+        stats = defaultdict(lambda: {"total": 0, "churned": 0})
+        for guid, info in per_racer.items():
+            elo = info["elo_at_last"]
+            # floor to nearest 100 using your simple scheme
+            b = int(elo // 100 * 100)
+            stats[b]["total"] += 1
+            if info["churned"]:
+                stats[b]["churned"] += 1
+
+        out = []
+        for b in sorted(stats):
+            tot = stats[b]["total"]
+            ch  = stats[b]["churned"]
+            out.append({
+                "elo_bin": b,
+                "total": tot,
+                "churned": ch,
+                "churn_rate": (ch / tot) if tot else 0.0
+            })
+        return out
+    
+    def churn_snapshot_by_elo(self, horizon_days: int = 90, anchor=None):
+        """
+        Returns:
+        {
+            'anchor': datetime (naive UTC),
+            'horizon_days': int,
+            'per_racer': { guid: {'last_seen': dt, 'elo_at_last': float, 'churned': bool} }
+        }
+        """
+        import datetime as _dt
+        DT, TD, UTC = _dt.datetime, _dt.timedelta, _dt.timezone.utc
+
+        def _norm(dt):
+            if isinstance(dt, DT):
+                return dt.astimezone(UTC).replace(tzinfo=None) if dt.tzinfo else dt
+            # handle strings incl. Z
+            d = _dt.datetime.fromisoformat(str(dt).replace("Z", "+00:00"))
+            return d.astimezone(UTC).replace(tzinfo=None) if d.tzinfo else d
+
+        # 1) Build per-racer chronological entries (date, ratingchange)
+        per_guid_entries = {}
+        for res in self.raceresults:
+            for e in res.entries:
+                g = e.racer.guid
+                per_guid_entries.setdefault(g, []).append((_norm(e.date), float(e.ratingchange)))
+
+        # 2) For each racer, sort by date, cum-sum from 1500 to get elo_at_last
+        per_racer = {}
+        for guid, hist in self.retention.histories.items():
+            entries = sorted(per_guid_entries.get(guid, []), key=lambda x: x[0])
+            if not entries:
+                # no entries (shouldn't happen if in histories), fall back to first_seen and base 1500
+                last_seen = _norm(hist.first_seen)
+                elo_last  = 1500.0
+            else:
+                elo = 1500.0
+                last_seen = entries[-1][0]
+                for dt, delta in entries:
+                    elo += delta
+                elo_last = elo
+
+            per_racer[guid] = {"last_seen": last_seen, "elo_at_last": elo_last}
+
+        # 3) Anchor = latest observed race unless provided
+        if anchor is None:
+            max_dt = None
+            for g, info in per_racer.items():
+                d = info["last_seen"]
+                if (max_dt is None) or (d > max_dt):
+                    max_dt = d
+            anchor = max_dt or DT.now()  # naive UTC
+
+        anchor = _norm(anchor)
+        H = TD(days=horizon_days)
+
+        # 4) Churn flag: last_seen + H <= anchor  => churned
+        for guid, info in per_racer.items():
+            info["churned"] = (info["last_seen"] + H) <= anchor
+
+        return {"anchor": anchor, "horizon_days": horizon_days, "per_racer": per_racer}
+
+    def new_racers_per_month(self) -> dict[str, int]:
+        """Count brand-new racers by their first_seen month (YYYY-MM)."""
+        def _norm_key(dt):
+            return f"{dt.year:04d}-{dt.month:02d}"
+        counts = Counter()
+        for hist in self.retention.histories.values():
+            counts[_norm_key(hist.first_seen)] += 1
+        return dict(sorted(counts.items()))
 
 
     def add_average_elo_step(self, date):
@@ -1717,108 +2057,130 @@ class parser():
 
     
 
-    def create_progression_chart(self, racer, progression_plot):
-        dates = list(progression_plot.keys()) 
-        finishes = list(progression_plot.values())
-        
-        # Convert ISO_8601 strings to datetime objects and sort them
-        dates = [datetime.fromisoformat(date[:-1]) for date in dates] # Remove the 'Z' at the end of the string
-        dates, finishes = zip(*sorted(zip(dates, finishes)))  # Sort dates and finishes together
-        
-        if progression_plot == racer.paceplot:
-            # Calculate mean and standard deviation
-            mean = np.mean(finishes)
-            std_dev = np.std(finishes)
-            
-            # Compute Z-scores and filter out outliers
-            z_scores = [(finish - mean) / std_dev for finish in finishes]
-            filtered_data = [(date, finish) for date, finish, z in zip(dates, finishes, z_scores) if abs(z) <= 2]
-            
-            if len(filtered_data) < 2:
-                logger.info("Not enough data points after filtering outliers")
-                return
-            
-            dates, finishes = zip(*filtered_data)  # Unzip filtered data
+    # ---- Chart builder ----
+    def create_progression_chart(self, racer, progression_plot, months: int = None) -> bool:
+        """
+        Builds a progression chart PNG for the given racer/series.
+        Returns True if a chart was saved, or False if there wasn't enough usable data.
+        """
+        from datetime import datetime, timedelta, timezone
 
-        if progression_plot == racer.incidentplot:
-            # Calculate mean and standard deviation
-            mean = np.mean(finishes)
-            std_dev = np.std(finishes)
-            
-            # Compute Z-scores and filter out outliers
-            z_scores = [(finish - mean) / std_dev for finish in finishes]
-            filtered_data = [(date, finish) for date, finish, z in zip(dates, finishes, z_scores) if abs(z) <= 15]
-            
-            if len(filtered_data) < 2:
-                logger.info("Not enough data points after filtering outliers")
-                return
-            
-            dates, finishes = zip(*filtered_data)  # Unzip filtered data
-        
-        fig, ax = plt.subplots()
-        
-        # Plot main data points with reduced opacity
-        ax.plot(dates, finishes, marker='o', linestyle='-', color='b', alpha=0.3, label='ELO Scores')
-        
-        # Fit and plot linear trend line
-        x = np.array([date.timestamp() for date in dates])
-        y = np.array(finishes)
-        coeffs = np.polyfit(x, y, 1)
-        linear_trend = np.poly1d(coeffs)
-        
-        ax.plot(dates, linear_trend(x), linestyle='-', color='r', label='Linear Trend', linewidth=2)
-        averagepace = None
-        averageincidents = None
-        # Plot average line for all racers
+        dates = list(progression_plot.keys())
+        finishes = list(progression_plot.values())
+
+        # Convert ISO 8601 strings ("...Z") to timezone-aware datetimes (UTC) and sort
+        try:
+            dt_utc = [datetime.fromisoformat(d.replace('Z', '+00:00')) for d in dates]
+        except Exception:
+            # Fallback to naive parsing if any odd format appears
+            dt_utc = [datetime.fromisoformat(d[:-1]) for d in dates]  # strip trailing 'Z' as original did
+
+        # Optional months filtering (last N months)
+        if months is not None and months > 0:
+            approx_days = int(round(months * 30.4375))  # average month length
+            cutoff = datetime.now(timezone.utc) - timedelta(days=approx_days)
+            filtered_pairs = [(dt, f) for dt, f in zip(dt_utc, finishes) if dt >= cutoff]
+            if len(filtered_pairs) < 2:
+                logger.info(f"Not enough data points after month filter (last {months} months)")
+                return False
+            dt_utc, finishes = zip(*sorted(filtered_pairs, key=lambda t: t[0]))
+        else:
+            dt_utc, finishes = zip(*sorted(zip(dt_utc, finishes), key=lambda t: t[0]))
+
+        # --- Outlier filtering ---
+        # (run AFTER date filtering so we don't drop too much)
         if progression_plot == racer.paceplot:
-            averages = [r.pace_percentage_overall for r in self.racers.values() if r.pace_percentage_overall is not None and r.numraces >= 5]
-            if averages:
-                average = np.mean(averages)
-                averagepace = average
-                ax.axhline(y=average, color='g', linestyle='--', label="RRR Average")
-        elif progression_plot == racer.incidentplot:
-            averages = [r.averageincidents for r in self.racers.values() if r.averageincidents is not None and r.numraces >= 5]
-            if averages:
-                average = np.mean(averages)
-                averageincidents = average
-                ax.axhline(y=average, color='g', linestyle='--', label='RRR Average')
-        
+            mean = np.mean(finishes); std_dev = np.std(finishes)
+            z_scores = [(f - mean) / std_dev if std_dev else 0 for f in finishes]
+            kept = [(dt, f) for dt, f, z in zip(dt_utc, finishes, z_scores) if abs(z) <= 2]
+            if len(kept) < 2:
+                logger.info("Not enough data points after filtering outliers (pace)")
+                return False
+            dt_utc, finishes = zip(*kept)
+
+        if progression_plot == racer.safetyratingplot:
+            mean = np.mean(finishes); std_dev = np.std(finishes)
+            z_scores = [(f - mean) / std_dev if std_dev else 0 for f in finishes]
+            kept = [(dt, f) for dt, f, z in zip(dt_utc, finishes, z_scores) if abs(z) <= 15]
+            if len(kept) < 2:
+                logger.info("Not enough data points after filtering outliers (safety)")
+                return False
+            dt_utc, finishes = zip(*kept)
+
+        # Plot
+        fig, ax = plt.subplots()
+
+        # Main series label
+        series_label = (
+            "ELO Scores" if progression_plot == racer.progression_plot else
+            "Pace (%)" if progression_plot == racer.paceplot else
+            "Safety Rating"
+        )
+        ax.plot(dt_utc, finishes, marker='o', linestyle='-', alpha=0.3, label=series_label)
+
+        # Linear trend
+        x = np.array([dt.timestamp() for dt in dt_utc])
+        y = np.array(finishes)
+        if len(x) >= 2 and np.any(np.diff(x)):
+            coeffs = np.polyfit(x, y, 1)
+            linear_trend = np.poly1d(coeffs)
+            ax.plot(dt_utc, linear_trend(x), linestyle='-', linewidth=2, label='Linear Trend')
+
+        # Global-average reference lines
+        averagepace = None
+        averagesafety = None
+
+        if progression_plot == racer.paceplot:
+            avgs = [
+                r.pace_percentage_overall for r in self.racers.values()
+                if getattr(r, "pace_percentage_overall", None) is not None and getattr(r, "numraces", 0) >= 5
+            ]
+            if avgs:
+                averagepace = float(np.mean(avgs))
+                ax.axhline(y=averagepace, linestyle='--', label="RRR Average")
+
+        elif progression_plot == racer.safetyratingplot:
+            collect = []
+            for r in self.racers.values():
+                val = getattr(r, "safety_rating", None)
+                if val is not None and getattr(r, "numraces", 0) >= 5:
+                    collect.append(val)
+            if collect:
+                averagesafety = float(np.mean(collect))
+                ax.axhline(y=averagesafety, linestyle='--', label="RRR Average")
+
+        # Axes labels/titles
         if progression_plot == racer.progression_plot:
             ax.set(xlabel='Date', ylabel='ELO', title='Racer Progression Over Time')
         elif progression_plot == racer.paceplot:
-            ax.set(xlabel='Date', ylabel='Pace', title='Pace Progression Over Time')
-        elif progression_plot == racer.incidentplot:
-            ax.set(xlabel='Date', ylabel='Incidents', title='Safety Over Time')
-            ax.invert_yaxis() # Invert y-axis for incidents
+            ax.set(xlabel='Date', ylabel='Pace (%)', title='Pace Progression Over Time')
+        elif progression_plot == racer.safetyratingplot:
+            ax.set(xlabel='Date', ylabel='Safety Rating', title='Safety Rating Over Time')
+
         ax.grid()
-        
-        # Format the date on the x-axis to show month and year
         ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))
-        
-        # Set y-axis limits based on the actual ELO values
+
+        # Y-limits
         if progression_plot == racer.progression_plot:
-            y_min = 0
-            y_max = max(max(finishes) + 50, 2200 )
+            y_min = min(finishes) - 100
+            y_max = max(finishes) + 100
         elif progression_plot == racer.paceplot:
+            if averagepace is None:
+                averagepace = float(np.mean(finishes))
             y_min = min(averagepace - 5.0, min(finishes) - 5.0)
             y_max = 100.0
-        elif progression_plot == racer.incidentplot:
+        elif progression_plot == racer.safetyratingplot:
             y_min = 0.0
-            y_max = 20.0
+            y_max = 5.0
 
-        
         ax.set_ylim(y_min, y_max)
-        if progression_plot == racer.incidentplot:
-            ax.invert_yaxis() # Invert y-axis for incidents
-        
+
         fig.autofmt_xdate()
-        
-        # Add legend
         ax.legend()
-        
-        # Save chart as an image
-        plt.savefig('progression_chart.png')
+
+        plt.savefig('progression_chart.png', bbox_inches='tight')
         plt.close()
+        return True
 
 
 
