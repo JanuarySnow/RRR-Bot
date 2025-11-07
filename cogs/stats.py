@@ -6142,7 +6142,7 @@ Format your response as plain text that can be used in a Discord embed descripti
             await self.updateuserstats()
             logger.info("updating user stats after delayed fetch")
             self.justadded.clear()
-        await self.process_bet_results()
+            await self.process_bet_results()
 
 
 
@@ -6201,7 +6201,7 @@ Format your response as plain text that can be used in a Discord embed descripti
             logger.info("updating user stats after fetch")
             await self.vote_for_track_results(numdone)
             self.justadded.clear()
-        await self.process_bet_results()
+            await self.process_bet_results()
 
     @commands.hybrid_command(name='checkforbetresults', description="checkforbetresults")
     async def checkforbetresults(self, ctx):
@@ -6209,7 +6209,7 @@ Format your response as plain text that can be used in a Discord embed descripti
 
     @commands.hybrid_command(name='resultsimageforone', description="resultsimageforone")
     async def resultsimageforone(self, ctx, path: str):
-        #"/home/potato/RRR-Bot/results/formulanarar/2025_5_16_2_56_RACE.json"
+        #"//work/prd-bot/RRR-Bot/results/formulanarar/2025_5_16_2_56_RACE.json"
         json_path = Path(path)
         await self._generate_image(json_path, False)
             
@@ -6218,6 +6218,7 @@ Format your response as plain text that can be used in a Discord embed descripti
         global ALREADY_BETTING_CLOSED
         channel = self.bot.get_channel(1328800009189195828)
         if self.currenteventbet is None:
+            logger.info("no current bet event")
             return
         logger.info("processing bet results")
         # Get the current time with timezone information (UTC)
@@ -6455,7 +6456,7 @@ Format your response as plain text that can be used in a Discord embed descripti
         # ------------------------------------------------------------------ #
         #                           save attachments                         #
         # ------------------------------------------------------------------ #
-        json_path = Path("/home/potato/RRR-Bot/results/2025_10_25_20_46_RACE (1).json")
+        json_path = Path("/work/prd-bot/RRR-Bot/results/2025_10_25_20_46_RACE (1).json")
         
 
         # ------------------------------------------------------------------ #
@@ -6558,11 +6559,11 @@ Format your response as plain text that can be used in a Discord embed descripti
 
         # ------------------- determine template path ------------------- #
         templatedict = {
-            "gt3": "/home/potato/RRR-Bot/templates/GT3_TEMP.png",
-            "mx5": "/home/potato/RRR-Bot/templates/MX5_TEMP.png",
-            "touringcar": "/home/potato/RRR-Bot/templates/GT3_TEMP.png",
-            "formula": "/home/potato/RRR-Bot/templates/F3_TEMP.png",
-            "other": "/home/potato/RRR-Bot/templates/NORMAL_TEMP.png",
+            "gt3": "/work/prd-bot/RRR-Bot/templates/GT3_TEMP.png",
+            "mx5": "//work/prd-bot/RRR-Bot/templates/MX5_TEMP.png",
+            "touringcar": "//work/prd-bot/RRR-Bot/templates/GT3_TEMP.png",
+            "formula": "//work/prd-bot/RRR-Bot/templates/F3_TEMP.png",
+            "other": "//work/prd-bot/RRR-Bot/templates/NORMAL_TEMP.png",
         }
         # Default template; the logic below may override this
         template_path = templatedict["other"]
@@ -6595,10 +6596,10 @@ Format your response as plain text that can be used in a Discord embed descripti
         draw = ImageDraw.Draw(image)
 
         # ------------------------- Load Fonts --------------------------- #
-        main_font_path = "/home/potato/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
-        track_font_path = "/home/potato/RRR-Bot/Microgramma D Extended Bold.ttf"
-        time_font_path = "/home/potato/RRR-Bot/fonts/BaiJamjuree-Regular.ttf"
-        font_arrow_path = "/home/potato/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
+        main_font_path = "//work/prd-bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
+        track_font_path = "//work/prd-bot/RRR-Bot/Microgramma D Extended Bold.ttf"
+        time_font_path = "//work/prd-bot/RRR-Bot/fonts/BaiJamjuree-Regular.ttf"
+        font_arrow_path = "//work/prd-bot/RRR-Bot/fonts/BaiJamjuree-Bold.ttf"
 
         try:
             font_main = ImageFont.truetype(main_font_path, size=settings["font_size"])
