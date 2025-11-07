@@ -1,46 +1,46 @@
 {
-    "id": "b058ecca-203b-41b8-8474-f08ccecd414e",
+    "id": "dc1af3d8-e728-4d7c-91af-44a33a3c4b90",
     "track": "spa;spa",
     "laps": [
         {
-            "id": "60500ac0-5747-4c26-b90c-1c8b21c57e3d",
+            "id": "756a119f-4df8-4a4f-8d5e-344cae7fbb39",
             "time": 155386,
             "car": "ks_ferrari_488_gt3",
             "racerguid": "76561198139457913",
-            "result": "b058ecca-203b-41b8-8474-f08ccecd414e",
+            "result": "dc1af3d8-e728-4d7c-91af-44a33a3c4b90",
             "valid": false,
             "cuts": 1,
             "position": 1,
             "timestamp": 1727645813
         },
         {
-            "id": "a4c3bb46-8055-4e39-a628-2efebe78497e",
+            "id": "51974e05-ae8f-4838-9dcd-c7fcd107abe0",
             "time": 199549,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198139457913",
-            "result": "b058ecca-203b-41b8-8474-f08ccecd414e",
+            "result": "dc1af3d8-e728-4d7c-91af-44a33a3c4b90",
             "valid": true,
             "cuts": 0,
             "position": 1,
             "timestamp": 1727646140
         },
         {
-            "id": "7f805a99-9404-4fc0-90f6-4895b3892d3b",
+            "id": "62032b8e-e099-471a-a2fb-4a40cdb70fec",
             "time": 185806,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198139457913",
-            "result": "b058ecca-203b-41b8-8474-f08ccecd414e",
+            "result": "dc1af3d8-e728-4d7c-91af-44a33a3c4b90",
             "valid": true,
             "cuts": 0,
             "position": 1,
             "timestamp": 1727646325
         },
         {
-            "id": "9ca910e7-89a2-4635-ad6a-b2e075b139ef",
+            "id": "4a05033c-1918-406e-b252-818e8d597b3a",
             "time": 180995,
             "car": "ks_mazda_mx5_cup",
             "racerguid": "76561198139457913",
-            "result": "b058ecca-203b-41b8-8474-f08ccecd414e",
+            "result": "dc1af3d8-e728-4d7c-91af-44a33a3c4b90",
             "valid": true,
             "cuts": 0,
             "position": 1,
@@ -49,42 +49,42 @@
     ],
     "entries": [
         {
-            "id": "2e3c0874-c469-4189-91ee-6fe36b152bad",
-            "racer": "76561198139457913",
-            "car": "ks_mazda_mx5_cup",
-            "track": "spa;spa",
-            "date": "2024-09-29T21:55:50.001158664Z",
-            "laps": [
-                "60500ac0-5747-4c26-b90c-1c8b21c57e3d",
-                "a4c3bb46-8055-4e39-a628-2efebe78497e",
-                "7f805a99-9404-4fc0-90f6-4895b3892d3b",
-                "9ca910e7-89a2-4635-ad6a-b2e075b139ef"
-            ],
-            "incidents": [],
-            "result": "b058ecca-203b-41b8-8474-f08ccecd414e",
-            "cuts": 1,
-            "finishingposition": 2,
-            "ratingchange": 0,
-            "startingposition": 1
-        },
-        {
-            "id": "e286cab0-33bd-4f22-9867-1498d3554f35",
+            "id": "6a5de597-ed93-4e27-b0e2-40e0d122c8d8",
             "racer": "76561198139457913",
             "car": "ks_ferrari_488_gt3",
             "track": "spa;spa",
             "date": "2024-09-29T21:55:50.001158664Z",
             "laps": [
-                "60500ac0-5747-4c26-b90c-1c8b21c57e3d",
-                "a4c3bb46-8055-4e39-a628-2efebe78497e",
-                "7f805a99-9404-4fc0-90f6-4895b3892d3b",
-                "9ca910e7-89a2-4635-ad6a-b2e075b139ef"
+                "756a119f-4df8-4a4f-8d5e-344cae7fbb39",
+                "51974e05-ae8f-4838-9dcd-c7fcd107abe0",
+                "62032b8e-e099-471a-a2fb-4a40cdb70fec",
+                "4a05033c-1918-406e-b252-818e8d597b3a"
             ],
             "incidents": [],
-            "result": "b058ecca-203b-41b8-8474-f08ccecd414e",
+            "result": "dc1af3d8-e728-4d7c-91af-44a33a3c4b90",
+            "cuts": 1,
+            "finishingposition": 0,
+            "ratingchange": 4.0,
+            "startingposition": 0
+        },
+        {
+            "id": "9925eeab-67b1-457b-8a61-19e85e1f623a",
+            "racer": "76561198139457913",
+            "car": "ks_mazda_mx5_cup",
+            "track": "spa;spa",
+            "date": "2024-09-29T21:55:50.001158664Z",
+            "laps": [
+                "756a119f-4df8-4a4f-8d5e-344cae7fbb39",
+                "51974e05-ae8f-4838-9dcd-c7fcd107abe0",
+                "62032b8e-e099-471a-a2fb-4a40cdb70fec",
+                "4a05033c-1918-406e-b252-818e8d597b3a"
+            ],
+            "incidents": [],
+            "result": "dc1af3d8-e728-4d7c-91af-44a33a3c4b90",
             "cuts": 1,
             "finishingposition": 2,
-            "ratingchange": 0,
-            "startingposition": 0
+            "ratingchange": -0.05,
+            "startingposition": 1
         }
     ],
     "endurance": false,

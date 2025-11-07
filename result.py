@@ -378,52 +378,112 @@ class Result():
 
     
     def calculate_positions(self, data):
-        for result in data["Result"]:
-            racerguid = result["DriverGuid"]
+        # 1) Map starting positions
+        for result in data.get("Result", []):
+            racerguid = result.get("DriverGuid")
+            if racerguid is None:
+                continue
             for entry in self.entries:
                 if entry.racer.guid == racerguid:
-                    entry.startingposition = result["GridPosition"] if "GridPosition" in result else 0
+                    entry.startingposition = result.get("GridPosition", 0)
                     break
-        highest_num_laps_done = 0
+
+        # 2) Count laps done per driver (from self.laps)
         driverlaps = {}
         for lap in self.laps:
-            lapguid = lap.racerguid
-            if lapguid in driverlaps:
-                driverlaps[lapguid] += 1
-            else:
-                driverlaps[lapguid] = 1
-        if len(driverlaps) == 0:
+            lapguid = getattr(lap, "racerguid", None)
+            if not lapguid:
+                continue
+            driverlaps[lapguid] = driverlaps.get(lapguid, 0) + 1
+
+        if not driverlaps:
             self.logger.error("No driver laps found in result data, cannot calculate positions")
             return
+
         highest_num_laps_done = max(driverlaps.values())
 
-        list_of_drivers_who_did_all_laps = []
-        list_of_drivers_who_did_not_do_all_laps = []
-        for result_entry in data["Result"]:
-            result_field_guid = result_entry["DriverGuid"]
-            if "TotalTime" in result_entry:
-                if not result_field_guid in driverlaps:
-                    driverlaps[result_field_guid] = 0
-                totaltime = result_entry["TotalTime"]
-                totaltimedict = {}
-                totaltimedict["guid"] = result_field_guid
-                totaltimedict["totaltime"] = totaltime
-                totaltimedict["lapsdone"] = driverlaps[result_field_guid]
+        # 3) Collect penalties (ns) per driver — handle None safely
+        penalties_ns_by_guid = {}
 
-                if driverlaps[result_field_guid] == highest_num_laps_done:
-                    list_of_drivers_who_did_all_laps.append(totaltimedict)
-                else:
-                    list_of_drivers_who_did_not_do_all_laps.append(totaltimedict)
+        penalties = data.get("Penalties") or []
+        if not isinstance(penalties, list):
+            penalties = []
+
+        for p in penalties:
+            guid = p.get("DriverGUID")
+            dur_ns = int(p.get("TimePenaltyDuration", 0) or 0)
+            if not guid or dur_ns <= 0:
+                continue
+            # Count ONLY explicit time penalties (PenaltyType == 6)
+            if p.get("PenaltyType") != 6:
+                continue
+            penalties_ns_by_guid[guid] = penalties_ns_by_guid.get(guid, 0) + dur_ns
+
+        # 4) Build sortable lists, adjusting TotalTime by penalties
+        did_all = []
+        did_not_all = []
+
+        for result_entry in data.get("Result", []):
+            guid = result_entry.get("DriverGuid")
+            if not guid:
+                continue
+
+            laps_done = driverlaps.get(guid, 0)
+
+            if "TotalTime" not in result_entry:
+                self.logger.debug(f"No TotalTime found for guid={guid}; skipping in timed ordering.")
+                continue
+
+            # TotalTime is in **milliseconds**
+            try:
+                total_ms = int(result_entry.get("TotalTime", 0) or 0)
+            except (TypeError, ValueError):
+                total_ms = 0
+
+            # Convert penalty from **ns** to **ms** (round to nearest ms)
+            pen_ns = penalties_ns_by_guid.get(guid, 0)
+            pen_ms = (pen_ns + 500_000) // 1_000_000  # round-half-up to ms
+
+            adj_ms = total_ms + pen_ms
+
+            item = {
+                "guid": guid,
+                "lapsdone": laps_done,
+                "totaltime_ms": adj_ms,
+            }
+
+            if laps_done == highest_num_laps_done:
+                did_all.append(item)
             else:
-                print("no totaltime found in result entry")
-        sorted(list_of_drivers_who_did_all_laps, key=lambda e: (-e['lapsdone'], e['totaltime']))
-        sorted(list_of_drivers_who_did_not_do_all_laps, key=lambda e: (-e['lapsdone'], e['totaltime']))
-        merged_results_list = list_of_drivers_who_did_all_laps + list_of_drivers_who_did_not_do_all_laps
+                did_not_all.append(item)
+
+        # 5) Sort: more laps first, then lower total time
+        did_all = sorted(did_all, key=lambda e: (-e["lapsdone"], e["totaltime_ms"]))
+        did_not_all = sorted(did_not_all, key=lambda e: (-e["lapsdone"], e["totaltime_ms"]))
+
+        merged_results_list = did_all + did_not_all
+
+        # Add no-TotalTime folks at end with huge sentinel time (in ms now)
+        known_guids_in_merged = {e["guid"] for e in merged_results_list}
+        for guid, laps_done in driverlaps.items():
+            if guid in known_guids_in_merged:
+                continue
+            merged_results_list.append({
+                "guid": guid,
+                "lapsdone": laps_done,
+                "totaltime_ms": 2**62,  # very large sentinel in ms
+            })
+
+        # Final sort (ms-based)
+        merged_results_list = sorted(merged_results_list, key=lambda e: (-e["lapsdone"], e["totaltime_ms"]))
+
+        # 6) Assign finishing positions
         index = 1
         for elem in merged_results_list:
             for entry in self.entries:
                 if elem["guid"] == entry.racer.guid:
                     entry.finishingposition = index
+                    break
             index += 1
 
     def get_driver_laps(self, guid:str):

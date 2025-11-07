@@ -352,7 +352,7 @@ _FAMILY_RX = re.compile(r"^([a-z]+[0-9]*?)(?=eu|na|_|$)", re.I)
 
 _TS_RX = re.compile(r"<t:(\d+):")
 
-def _na_from_eu_same_day(eu_utc: datetime, tz_eu, tz_na, na_h=19, na_m=0) -> datetime:
+def _na_from_eu_same_day(eu_utc: datetime, tz_eu, tz_na, na_h=20, na_m=0) -> datetime:
     """Take EU event (UTC), pin NA to the SAME EU local calendar date at 19:00 in NA tz."""
     eu_local = eu_utc.astimezone(tz_eu)
     na_local = datetime(eu_local.year, eu_local.month, eu_local.day, na_h, na_m, tzinfo=tz_na)
@@ -1059,7 +1059,6 @@ class Stats(commands.Cog, name="stats"):
         try:
             with open("raceannouncements.json", "w") as file:
                 json.dump(data, file, indent=4)
-            logger.info("Saved data:", data)  # DEBUG PRINT
         except Exception as e:
             logger.info(f"Error saving announcement data: {e}")
 
@@ -2306,7 +2305,7 @@ class Stats(commands.Cog, name="stats"):
         # ---- Build the embed -----------------------------------------------------
         title_prefix = f"{display_name.upper()} {'SEASON' if is_season else 'OPEN'}"
         emb = discord.Embed(
-            title=f"{title_prefix} — {region.upper()} race is live! 🏎️",
+            title=f"{title_prefix} - {region.upper()} race is live! 🏎️",
             colour=discord.Colour.dark_teal(),
             description="**The event session has started. Practice, then Qualifying, then Race!, Good luck, have fun!**"
         )
@@ -2394,7 +2393,7 @@ class Stats(commands.Cog, name="stats"):
         now = datetime.now(tz)
         
         # Announce on Sunday at 2 PM
-        if now.weekday() == 6 and now.hour == 14 and now.minute <= 50:
+        if now.weekday() == 6 and now.hour == 14 and now.minute <= 12:
             await self.announce_weekly_summary(test=False)
 
     @tasks.loop(hours=1)
@@ -2829,9 +2828,7 @@ Format your response as plain text that can be used in a Discord embed descripti
                 "Monday": "mx5",
                 "Tuesday": "touringcar",
                 "Wednesday": "wcw",
-                "Thursday": "formula",
                 "Friday": "gt3",
-                "Saturday": "worldtour",
             }
 
             if current_day in race_map and not getattr(self, f"{current_day.lower()}announced", False):
@@ -2961,6 +2958,7 @@ Format your response as plain text that can be used in a Discord embed descripti
         await ctx.send("cancelling race announcements for today only")
         
     async def announce_raceday(self, type):
+        logger.info("announce raceday for type " + type)
         roles = []
         leaguechannel = 1317629640793264229
         announcestr = ""
@@ -3070,7 +3068,7 @@ Format your response as plain text that can be used in a Discord embed descripti
         eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 18, 0)
         if event_type == "worldtour" or event_type == "worldtouropen":
             eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 21, 0)
-        na_dt = self._next_slot(now, wd, timezone(timedelta(hours=-6)),    19, 0)
+        na_dt = self._next_slot(now, wd, timezone(timedelta(hours=-6)),    20, 0)
         eu_ts = self._to_discord_timestamp(eu_dt, "f")
         na_ts = self._to_discord_timestamp(na_dt, "f")
         print("series type is " + series_type)
@@ -3189,7 +3187,7 @@ Format your response as plain text that can be used in a Discord embed descripti
         eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 18, 0)
         if series_type == "worldtour":
             eu_dt = self._next_slot(now, wd, ZoneInfo("Europe/London"), 21, 0)
-        na_dt = self._next_slot(now, wd, timezone(timedelta(hours=-6)),    19, 0)
+        na_dt = self._next_slot(now, wd, timezone(timedelta(hours=-6)),    20, 0)
         eu_ts = self._to_discord_timestamp(eu_dt, "f")
         na_ts = self._to_discord_timestamp(na_dt, "f")
         if series_type == "worldtour":
@@ -3470,9 +3468,42 @@ Format your response as plain text that can be used in a Discord embed descripti
 
 
 
-    async def send_announcement(self, channel: discord.TextChannel,  announcement):
-        # 4) Attach the file + embed in a single send call
-        await channel.send(announcement)
+    async def send_announcement(
+        self,
+        channel: discord.TextChannel,
+        content: Optional[str] = None,             # supports positional str too
+        *,
+        embed: Optional[discord.Embed] = None,
+        embeds: Optional[Iterable[discord.Embed]] = None,
+        file: Optional[discord.File] = None,
+        files: Optional[Iterable[discord.File]] = None,
+        view: Optional[discord.ui.View] = None,
+        allowed_mentions: Optional[discord.AllowedMentions] = None,
+        suppress_embeds: Optional[bool] = None,
+    ):
+        """
+        Helper to send announcements with content + optional embed(s)/file(s).
+        Keeps backward-compat with old calls that passed only a string.
+        """
+        # Normalize single vs plural
+        if embed is not None and embeds is not None:
+            # if both provided, merge; discord.py expects 'embeds' when multiple
+            embeds = [embed, *embeds]
+            embed = None
+
+        kwargs = {
+            "content": content or "",
+            "embed": embed,
+            "embeds": list(embeds) if embeds is not None else None,
+            "file": file,
+            "files": list(files) if files is not None else None,
+            "view": view,
+            "allowed_mentions": allowed_mentions,
+            "suppress_embeds": suppress_embeds,
+        }
+        # prune Nones so discord.py doesn't complain about both embed & embeds, file & files, etc.
+        kwargs = {k: v for k, v in kwargs.items() if v is not None and v != []}
+        return await channel.send(**kwargs)
 
     @commands.hybrid_command(name="testracesessionannounce", description="testracesessionannounce")
     async def testracesessionannounce(self, ctx, type:str):
@@ -4293,13 +4324,13 @@ Format your response as plain text that can be used in a Discord embed descripti
                         logger.info("[scan] Using NA championship date")
             if next_na_utc is None:
                 # Derive NA from EU: same EU local date @ 19:00 NA time
-                next_na_utc = _na_from_eu_same_day(scheduled_eu_utc, tz_eu, tz_na, na_h=19, na_m=0)
+                next_na_utc = _na_from_eu_same_day(scheduled_eu_utc, tz_eu, tz_na, na_h=20, na_m=0)
                 logger.info(f"[scan] Using NA derived from EU same-day @19:00 NA: {next_na_utc.isoformat()}")
         else:
             logger.info("No future event found via championships; falling back to weekly slots (EU & NA).")
             wd = slot_map[event_type]
             next_eu_utc = self._next_slot(now_utc, wd, tz_eu, 21 if event_type == "worldtouropen" else 19, 0)
-            next_na_utc = self._next_slot(now_utc, slot_map.get(event_type, 0), tz_na, 19, 0)
+            next_na_utc = self._next_slot(now_utc, slot_map.get(event_type, 0), tz_na, 20, 0)
 
         eu_ts = self._to_discord_timestamp(next_eu_utc, "f")
         na_ts = self._to_discord_timestamp(next_na_utc, "f")
@@ -6133,7 +6164,7 @@ Format your response as plain text that can be used in a Discord embed descripti
             current_day = current_time_us.strftime("%A")
             serverstocheck = []
             if current_day == "Monday":
-                serverstocheck = [self.mx5euopenserver, self.mx5naopenserver, self.mx5eurrrserver, self.mx5narrrserver, self.mx5nararserver]
+                serverstocheck = [self.mx5euopenserver, self.mx5naopenserver]
             elif current_day == "Tuesday":
                 serverstocheck = [self.gt4euopenserver, self.gt4naopenserver]
             elif current_day == "Wednesday":
@@ -6141,7 +6172,7 @@ Format your response as plain text that can be used in a Discord embed descripti
             elif current_day == "Thursday":
                 serverstocheck = [self.formulaeuopenserver, self.formulanaopenserver, self.formulanararserver]
             elif current_day == "Friday":
-                serverstocheck = [self.gt3euopenserver, self.gt3eurrrserver, self.gt3naopenserver, self.gt3narrrserver]
+                serverstocheck = [self.gt3euopenserver,self.gt3naopenserver]
             elif current_day == "Saturday":
                 serverstocheck = [self.worldtourserver]
             else:
